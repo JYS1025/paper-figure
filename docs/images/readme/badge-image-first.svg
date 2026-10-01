@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="171" height="26" viewBox="0 0 171 26" role="img" aria-label="WORKFLOW: IMAGE FIRST">
-<title>WORKFLOW: IMAGE FIRST</title>
-<defs><clipPath id="edge"><rect width="171" height="26" rx="4"/></clipPath></defs>
-<g clip-path="url(#edge)"><rect width="171" height="26" fill="#26343E"/><rect x="75.6" width="95.7" height="26" fill="#A6CBBB"/></g>
-<g font-family="DejaVu Sans Mono,Consolas,monospace" font-size="10" font-weight="600" text-anchor="middle" letter-spacing="0.4">
-<text x="37.8" y="17" fill="#F4F2E9">WORKFLOW</text>
-<text x="123.44999999999999" y="17" fill="#17242C">IMAGE FIRST</text></g>
-</svg>

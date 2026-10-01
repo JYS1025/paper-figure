@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-01",
+  "installer": "skills@1.7.0",
+  "sourceRepository": "JYS1025/paper-figure",
+  "sourceVisibility": "private",
+  "sourceCommit": "b14557dbf2bc3833a5fa0632eda5d01fe8627f86",
+  "scope": "Both remote installs into one isolated project, Codex followed by Claude Code, using --copy. No user-global skill installation or agent-host execution performed.",
+  "authentication": "Existing GitHub CLI account through an invocation-scoped Git credential helper; telemetry disabled.",
+  "results": [
+    {
+      "edition": "codex",
+      "filesCompared": 49,
+      "exactContentMatch": true,
+      "independentCopy": true
+    },
+    {
+      "edition": "claude",
+      "filesCompared": 52,
+      "exactContentMatch": true,
+      "independentCopy": true
+    }
+  ]
+}

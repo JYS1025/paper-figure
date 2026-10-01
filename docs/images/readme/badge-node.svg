@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="111" height="26" viewBox="0 0 111 26" role="img" aria-label="NODE.JS: 20+">
-<title>NODE.JS: 20+</title>
-<defs><clipPath id="edge"><rect width="111" height="26" rx="4"/></clipPath></defs>
-<g clip-path="url(#edge)"><rect width="111" height="26" fill="#26343E"/><rect x="68.9" width="42.1" height="26" fill="#C0CFAC"/></g>
-<g font-family="DejaVu Sans Mono,Consolas,monospace" font-size="10" font-weight="600" text-anchor="middle" letter-spacing="0.4">
-<text x="34.45" y="17" fill="#F4F2E9">NODE.JS</text>
-<text x="89.95" y="17" fill="#17242C">20+</text></g>
-</svg>

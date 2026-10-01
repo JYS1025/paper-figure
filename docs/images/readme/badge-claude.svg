@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="118" height="26" viewBox="0 0 118 26" role="img" aria-label="CLAUDE: SKILL">
-<title>CLAUDE: SKILL</title>
-<defs><clipPath id="edge"><rect width="118" height="26" rx="4"/></clipPath></defs>
-<g clip-path="url(#edge)"><rect width="118" height="26" fill="#26343E"/><rect x="62.2" width="55.5" height="26" fill="#B8ADCE"/></g>
-<g font-family="DejaVu Sans Mono,Consolas,monospace" font-size="10" font-weight="600" text-anchor="middle" letter-spacing="0.4">
-<text x="31.1" y="17" fill="#F4F2E9">CLAUDE</text>
-<text x="89.95" y="17" fill="#17242C">SKILL</text></g>
-</svg>

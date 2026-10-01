@@ -11,11 +11,11 @@
     "purpose": "Conceptual brand illustration, not an application screenshot or an experimental result."
   },
   "badges": {
-    "count": 8,
-    "generator": "scripts/build-readme-assets.py",
-    "type": "Static capability and requirement labels; not live CI or popularity counters.",
-    "checksEvidence": "docs/claude-port-validation.json",
-    "paletteEvidence": "skills/paper-figure/assets/color-books.json"
+    "count": 4,
+    "generator": "scripts/update-repo-badges.py",
+    "type": "Authenticated GitHub stars, forks and watchers snapshots; dated GitHub 14-day traffic snapshot. No external counter.",
+    "snapshot": "docs/images/readme/github-stats.json",
+    "details": "docs/repository-badges.md"
   },
   "gallery": [
     {

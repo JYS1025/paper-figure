@@ -7,25 +7,18 @@
 <p align="center">From an image-model draft to editable PowerPoint.<br/>Compose, reconstruct and review research figures with Codex and Claude.</p>
 
 <p align="center">
-  <a href="skills/paper-figure/SKILL.md"><img src="docs/images/readme/badge-codex.svg" alt="Codex agent skill" height="26"/></a>
-  <a href="ports/claude/paper-figure/SKILL.md"><img src="docs/images/readme/badge-claude.svg" alt="Claude agent skill" height="26"/></a>
-  <a href="output/image-draft-sample-12/figure-v2.pptx"><img src="docs/images/readme/badge-powerpoint.svg" alt="Editable PowerPoint output" height="26"/></a>
-  <a href="skills/paper-figure/assets/color-books.json"><img src="docs/images/readme/badge-color-books.svg" alt="16 color books" height="26"/></a>
-  <br/>
-  <a href="skills/paper-figure/references/image-first.md"><img src="docs/images/readme/badge-image-first.svg" alt="Image-first workflow" height="26"/></a>
-  <a href="docs/claude-port-validation.json"><img src="docs/images/readme/badge-checks.svg" alt="38 recorded local checks" height="26"/></a>
-  <a href="ports/claude/paper-figure/references/claude-environment.md"><img src="docs/images/readme/badge-node.svg" alt="Node.js 20 or newer" height="26"/></a>
-  <a href="ports/claude/paper-figure/references/claude-environment.md"><img src="docs/images/readme/badge-python.svg" alt="Python 3.10 or newer" height="26"/></a>
+  <a href="https://github.com/JYS1025/paper-figure/stargazers"><img src="docs/images/readme/badge-stars.svg" alt="GitHub stars" height="20"/></a>
+  <a href="https://github.com/JYS1025/paper-figure/forks"><img src="docs/images/readme/badge-forks.svg" alt="GitHub forks" height="20"/></a>
+  <a href="https://github.com/JYS1025/paper-figure/watchers"><img src="docs/images/readme/badge-watchers.svg" alt="GitHub watchers" height="20"/></a>
+  <a href="docs/repository-badges.md"><img src="docs/images/readme/badge-views.svg" alt="GitHub page views in the 14 days preceding the date shown" height="20"/></a>
 </p>
 
-<p align="center">
-  <a href="output/paper-figure-skill.zip"><img src="docs/images/readme/download-codex.svg" alt="Download Codex skill" width="204" height="44"/></a>
-  &nbsp;
-  <a href="output/paper-figure-claude-skill.zip"><img src="docs/images/readme/download-claude.svg" alt="Download Claude skill" width="204" height="44"/></a>
-</p>
+<p align="center"><a href="#quick-start"><img src="docs/images/readme/install-cli.svg" alt="Install via CLI" width="204" height="44"/></a></p>
 
 <p align="center"><a href="#quick-start">Quick start</a> · <a href="#from-draft-to-editable-figure">See the output</a> · <a href="#how-it-works">Workflow</a> · <a href="#color-books">Color books</a> · <a href="#documentation">Docs</a></p>
 <p align="center"><a href="README.md">English</a> · <a href="README.ko.md">한국어</a></p>
+
+Stars, forks and watchers refresh daily; views show a dated GitHub 14-day snapshot. [Badge details](docs/repository-badges.md).
 
 ---
 
@@ -92,15 +85,46 @@ Built for model architectures, methodology figures, process diagrams and concept
 
 ## Quick start
 
-### 1. Install the skill for your environment
+### 1. Install from your terminal
 
-| Environment | Package | Installation |
+Requires **Node.js 22.20+** and Git for the installer. Use [skills CLI](https://github.com/vercel-labs/skills); no ZIP download is needed. Run the command for your agent in the project where you want to use the skill.
+
+While this repository is **private**, your GitHub account needs access. With [GitHub CLI](https://cli.github.com/) installed, set up authentication once:
+
+```sh
+gh auth login
+gh auth setup-git
+```
+
+**Codex**
+
+```sh
+npx --yes skills@1.7.0 add https://github.com/JYS1025/paper-figure/tree/main/skills/paper-figure --agent codex --copy
+```
+
+**Claude Code**
+
+```sh
+npx --yes skills@1.7.0 add https://github.com/JYS1025/paper-figure/tree/main/ports/claude/paper-figure --agent claude-code --copy
+```
+
+The commands select the correct edition and keep independent copies. Keep `--copy` when using both agents: the editions share the name `paper-figure` but use different authoring engines. Append `--global` to install for all projects, or `--yes` to skip the install confirmation. To update, back up local skill edits and rerun the same edition-specific command; it replaces that installed copy.
+
+| Scope | Codex | Claude Code |
 |---|---|---|
-| Codex | [Codex ZIP](output/paper-figure-skill.zip) | Extract the `paper-figure` folder into your project's `.agents/skills/`. |
-| Claude Code | [Claude ZIP](output/paper-figure-claude-skill.zip) | Extract into `.claude/skills/` for one project, or `~/.claude/skills/` for personal use. |
-| claude.ai | [Claude ZIP](output/paper-figure-claude-skill.zip) | Upload the ZIP as a custom skill in an environment with code execution and file creation enabled. |
+| Current project (default) | `.agents/skills/paper-figure/` | `.claude/skills/paper-figure/` |
+| All projects (`--global`) | `~/.agents/skills/paper-figure/` | `~/.claude/skills/paper-figure/` |
 
-The resulting skill folder must contain `SKILL.md` directly. When working in this repository, project skill links are already included for Codex and Claude Code. Start a new session after installation if the skill is not yet visible.
+Both source directories already have valid `SKILL.md` entry points. The repository itself includes project skill links; cloning it is enough for local discovery. Start a new agent session if the skill is not yet visible. [Installation details and troubleshooting](docs/installation.md).
+
+<details>
+<summary>ZIP installation and claude.ai</summary>
+
+[Codex ZIP](output/paper-figure-skill.zip) · [Claude ZIP](output/paper-figure-claude-skill.zip)
+
+Extract the `paper-figure` folder into the appropriate skills directory above. For claude.ai, upload the Claude ZIP as a custom skill in an environment with code execution and file creation enabled; the CLI installs local agent skills, not cloud account skills.
+
+</details>
 
 ### 2. Check the required tools
 
@@ -224,6 +248,8 @@ When requested, the skill provides a [blind-review protocol](skills/paper-figure
 
 | Topic | Guide |
 |---|---|
+| CLI installation | [Commands, updates and troubleshooting](docs/installation.md) |
+| Repository badges | [Counter sources and refresh](docs/repository-badges.md) |
 | Skill entry points | [Codex](skills/paper-figure/SKILL.md) · [Claude](ports/claude/paper-figure/SKILL.md) |
 | Authoring and runtime | [Codex](skills/paper-figure/references/authoring.md) · [Claude](ports/claude/paper-figure/references/authoring.md) |
 | Claude installation | [Setup guide](ports/claude/paper-figure/references/claude-environment.md) · [한국어 설치 안내](ports/claude/INSTALL.txt) |
@@ -238,7 +264,7 @@ When requested, the skill provides a [blind-review protocol](skills/paper-figure
 ```text
 skills/paper-figure/        Codex skill, reference studies and color books
 ports/claude/paper-figure/  Claude skill and public authoring engine
-scripts/                   Packaging utilities
+scripts/                   Packaging and repository badge utilities
 tests/                    Engine and preservation checks
 docs/                     Design notes and validation records
 output/                   Skill ZIPs and generated examples

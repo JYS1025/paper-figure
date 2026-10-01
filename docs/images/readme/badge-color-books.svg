@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="131" height="26" viewBox="0 0 131 26" role="img" aria-label="COLOR BOOKS: 16">
-<title>COLOR BOOKS: 16</title>
-<defs><clipPath id="edge"><rect width="131" height="26" rx="4"/></clipPath></defs>
-<g clip-path="url(#edge)"><rect width="131" height="26" fill="#26343E"/><rect x="95.7" width="35.4" height="26" fill="#DCB56C"/></g>
-<g font-family="DejaVu Sans Mono,Consolas,monospace" font-size="10" font-weight="600" text-anchor="middle" letter-spacing="0.4">
-<text x="47.85" y="17" fill="#F4F2E9">COLOR BOOKS</text>
-<text x="113.4" y="17" fill="#17242C">16</text></g>
-</svg>

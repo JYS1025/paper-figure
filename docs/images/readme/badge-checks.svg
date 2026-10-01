@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="138" height="26" viewBox="0 0 138 26" role="img" aria-label="LOCAL CHECKS: 38">
-<title>LOCAL CHECKS: 38</title>
-<defs><clipPath id="edge"><rect width="138" height="26" rx="4"/></clipPath></defs>
-<g clip-path="url(#edge)"><rect width="138" height="26" fill="#26343E"/><rect x="102.4" width="35.4" height="26" fill="#C0CFAC"/></g>
-<g font-family="DejaVu Sans Mono,Consolas,monospace" font-size="10" font-weight="600" text-anchor="middle" letter-spacing="0.4">
-<text x="51.2" y="17" fill="#F4F2E9">LOCAL CHECKS</text>
-<text x="120.10000000000001" y="17" fill="#17242C">38</text></g>
-</svg>

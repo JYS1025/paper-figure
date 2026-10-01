@@ -7,25 +7,18 @@
 <p align="center">이미지 모델의 시각 초안을 편집형 PowerPoint로.<br/>Codex·Claude와 함께 구도를 설계하고, 설명을 재구성하고, 저장된 결과를 검토하세요.</p>
 
 <p align="center">
-  <a href="skills/paper-figure/SKILL.md"><img src="docs/images/readme/badge-codex.svg" alt="Codex agent skill" height="26"/></a>
-  <a href="ports/claude/paper-figure/SKILL.md"><img src="docs/images/readme/badge-claude.svg" alt="Claude agent skill" height="26"/></a>
-  <a href="output/image-draft-sample-12/figure-v2.pptx"><img src="docs/images/readme/badge-powerpoint.svg" alt="Editable PowerPoint output" height="26"/></a>
-  <a href="skills/paper-figure/assets/color-books.json"><img src="docs/images/readme/badge-color-books.svg" alt="16 color books" height="26"/></a>
-  <br/>
-  <a href="skills/paper-figure/references/image-first.md"><img src="docs/images/readme/badge-image-first.svg" alt="Image-first workflow" height="26"/></a>
-  <a href="docs/claude-port-validation.json"><img src="docs/images/readme/badge-checks.svg" alt="38 recorded local checks" height="26"/></a>
-  <a href="ports/claude/paper-figure/references/claude-environment.md"><img src="docs/images/readme/badge-node.svg" alt="Node.js 20 or newer" height="26"/></a>
-  <a href="ports/claude/paper-figure/references/claude-environment.md"><img src="docs/images/readme/badge-python.svg" alt="Python 3.10 or newer" height="26"/></a>
+  <a href="https://github.com/JYS1025/paper-figure/stargazers"><img src="docs/images/readme/badge-stars.svg" alt="GitHub stars" height="20"/></a>
+  <a href="https://github.com/JYS1025/paper-figure/forks"><img src="docs/images/readme/badge-forks.svg" alt="GitHub forks" height="20"/></a>
+  <a href="https://github.com/JYS1025/paper-figure/watchers"><img src="docs/images/readme/badge-watchers.svg" alt="GitHub watchers" height="20"/></a>
+  <a href="docs/repository-badges.md"><img src="docs/images/readme/badge-views.svg" alt="GitHub page views in the 14 days preceding the date shown" height="20"/></a>
 </p>
 
-<p align="center">
-  <a href="output/paper-figure-skill.zip"><img src="docs/images/readme/download-codex.svg" alt="Download Codex skill" width="204" height="44"/></a>
-  &nbsp;
-  <a href="output/paper-figure-claude-skill.zip"><img src="docs/images/readme/download-claude.svg" alt="Download Claude skill" width="204" height="44"/></a>
-</p>
+<p align="center"><a href="#빠른-시작"><img src="docs/images/readme/install-cli.svg" alt="Install via CLI" width="204" height="44"/></a></p>
 
 <p align="center"><a href="#빠른-시작">빠른 시작</a> · <a href="#초안에서-편집형-figure로">결과물 보기</a> · <a href="#제작-과정">제작 과정</a> · <a href="#color-books">Color books</a> · <a href="#문서">문서</a></p>
 <p align="center"><a href="README.md">English</a> · <a href="README.ko.md">한국어</a></p>
+
+스타·포크·구독자는 매일 갱신하며, 조회수는 표시된 날짜 기준 GitHub 최근 14일 통계입니다. [집계 안내](docs/repository-badges.md).
 
 ---
 
@@ -92,15 +85,46 @@
 
 ## 빠른 시작
 
-### 1. 사용할 환경에 맞게 설치
+### 1. 터미널에서 설치
 
-| 환경 | 패키지 | 설치 방법 |
+설치에는 **Node.js 22.20+**와 Git이 필요합니다. [skills CLI](https://github.com/vercel-labs/skills)를 사용하므로 ZIP을 직접 내려받지 않아도 됩니다. 스킬을 사용할 프로젝트 폴더에서 환경에 맞는 명령을 실행하세요.
+
+현재 저장소는 **Private**이므로 접근 권한이 있는 GitHub 계정이 필요합니다. [GitHub CLI](https://cli.github.com/)를 설치한 뒤 처음 한 번 인증합니다.
+
+```sh
+gh auth login
+gh auth setup-git
+```
+
+**Codex**
+
+```sh
+npx --yes skills@1.7.0 add https://github.com/JYS1025/paper-figure/tree/main/skills/paper-figure --agent codex --copy
+```
+
+**Claude Code**
+
+```sh
+npx --yes skills@1.7.0 add https://github.com/JYS1025/paper-figure/tree/main/ports/claude/paper-figure --agent claude-code --copy
+```
+
+각 환경에 맞는 버전을 독립된 복사본으로 설치합니다. 두 환경을 함께 쓰면 `--copy`를 유지하세요. 스킬 이름은 `paper-figure`로 같지만 제작 엔진이 다릅니다. 모든 프로젝트에서 쓰려면 `--global`, 설치 확인을 생략하려면 `--yes`를 덧붙입니다. 업데이트할 때는 스킬의 직접 수정 내용을 백업하고 같은 버전의 설치 명령을 다시 실행하세요. 해당 설치본이 교체됩니다.
+
+| 범위 | Codex | Claude Code |
 |---|---|---|
-| Codex | [Codex ZIP](output/paper-figure-skill.zip) | 압축을 푼 `paper-figure` 폴더를 프로젝트의 `.agents/skills/`에 넣습니다. |
-| Claude Code | [Claude ZIP](output/paper-figure-claude-skill.zip) | 프로젝트 전용은 `.claude/skills/`, 개인 공통 사용은 `~/.claude/skills/`에 넣습니다. |
-| claude.ai | [Claude ZIP](output/paper-figure-claude-skill.zip) | 코드 실행·파일 생성 기능을 활성화한 환경에서 사용자 지정 스킬로 ZIP을 업로드합니다. |
+| 현재 프로젝트 (기본) | `.agents/skills/paper-figure/` | `.claude/skills/paper-figure/` |
+| 모든 프로젝트 (`--global`) | `~/.agents/skills/paper-figure/` | `~/.claude/skills/paper-figure/` |
 
-설치한 `paper-figure` 폴더 바로 안에 `SKILL.md`가 있어야 합니다. 이 저장소에서 작업할 때는 Codex와 Claude Code용 프로젝트 스킬 연결이 이미 포함되어 있습니다. 설치 후 스킬이 보이지 않으면 새 세션에서 확인하세요.
+두 배포 경로 모두 `SKILL.md` 진입점을 포함합니다. 이 저장소에는 프로젝트용 스킬 연결도 있으므로 저장소를 복제한 경우 바로 탐색할 수 있습니다. 스킬이 보이지 않으면 새 세션에서 확인하세요. [설치 상세·문제 해결](docs/installation.md).
+
+<details>
+<summary>ZIP 설치 및 claude.ai</summary>
+
+[Codex ZIP](output/paper-figure-skill.zip) · [Claude ZIP](output/paper-figure-claude-skill.zip)
+
+압축을 푼 `paper-figure` 폴더를 위 표의 스킬 폴더에 넣습니다. claude.ai에서는 코드 실행·파일 생성이 가능한 환경에서 Claude ZIP을 사용자 지정 스킬로 업로드하세요. CLI는 로컬 에이전트의 스킬을 설치하며 클라우드 계정에는 업로드하지 않습니다.
+
+</details>
 
 ### 2. 필요한 도구 확인
 
@@ -223,6 +247,8 @@ HEX 값은 레퍼런스를 참고해 구성한 배색입니다. 원 논문에서
 
 | 주제 | 안내 |
 |---|---|
+| CLI 설치 | [설치·업데이트·문제 해결](docs/installation.md) |
+| 저장소 배지 | [집계 출처와 갱신 방식](docs/repository-badges.md) |
 | 스킬 진입점 | [Codex](skills/paper-figure/SKILL.md) · [Claude](ports/claude/paper-figure/SKILL.md) |
 | 제작 도구와 환경 | [Codex](skills/paper-figure/references/authoring.md) · [Claude](ports/claude/paper-figure/references/authoring.md) |
 | Claude 설치 | [환경 설정](ports/claude/paper-figure/references/claude-environment.md) · [한국어 설치 안내](ports/claude/INSTALL.txt) |
@@ -237,7 +263,7 @@ HEX 값은 레퍼런스를 참고해 구성한 배색입니다. 원 논문에서
 ```text
 skills/paper-figure/        Codex 스킬, 레퍼런스 분석, color book
 ports/claude/paper-figure/  Claude 스킬과 공개 제작 엔진
-scripts/                   패키징 도구
+scripts/                   패키징·저장소 배지 도구
 tests/                     엔진·수정 보존 검사
 docs/                      설계 자료와 검증 기록
 output/                    스킬 ZIP과 생성 예시

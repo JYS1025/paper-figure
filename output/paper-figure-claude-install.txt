@@ -9,6 +9,14 @@ Claude용 제작 엔진은 공개 라이브러리 PptxGenJS와 Python을 사용�
 
 2. Claude Code
 
+터미널 설치 (Node.js 22.20+, Git 필요):
+Private 저장소 접근 권한이 있는 GitHub 계정으로 gh auth login 및 gh auth setup-git을 먼저 실행합니다.
+
+npx --yes skills@1.7.0 add https://github.com/JYS1025/paper-figure/tree/main/ports/claude/paper-figure --agent claude-code --copy
+
+모든 프로젝트에 설치하려면 --global을 덧붙입니다. Codex 버전과 제작 엔진이 다르므로 위 전용 경로와 --copy를 유지하세요. 업데이트는 설치본의 직접 수정 내용을 백업한 뒤 같은 명령으로 수행합니다. 설치본이 교체됩니다.
+
+
 배포 ZIP을 풀면 paper-figure 폴더가 나옵니다. 다음 중 한 곳에 이 폴더를 넣습니다.
 
 프로젝트에서만 사용: <프로젝트>/.claude/skills/paper-figure/
