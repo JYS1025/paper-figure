@@ -1,38 +1,49 @@
-# How image generation works in the Claude edition
+# Image options for Claude and Antigravity CLI
 
-The Claude skill is an authoring workflow, not a bundled image-generation service. Claude can inspect images and write the code that builds editable PowerPoint objects. An external image tool supplies the raster composition draft.
+Both portable editions support **Gemini API** and **no-API** modes. When creating a new figure, the skill offers that choice unless the user already selected it. The choice is reused within the task. Existing PPTX edits and exact reproduction of a supplied image do not repeat onboarding.
 
-Anthropic distinguishes HTML/SVG diagrams from generated photos or illustrations in its [image-generation guidance](https://support.claude.com/en/articles/9002504-can-claude-produce-images). External tools are executed by the host application or integration; see [Anthropic's tool-use documentation](https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview).
+| Mode | What happens | Required image access |
+|---|---|---|
+| Gemini API | Generate and inspect a complete visual draft; rebuild native PowerPoint objects; generate needed illustrations separately. | A Google Gemini API key, model access and network access. API quota and billing apply. |
+| No API | Review references, color roles and scientific relationships, then author native shapes, labels, math and connectors directly. | None. Supplied images and native pictograms can still be used. |
 
-## Default new-figure workflow
+Both modes require the authoring dependencies and a saved-PPTX renderer for visual verification. No-API mode is a supported route, not an incomplete image-model workflow. It does not synthesize photographic assets or claim a generated draft.
 
-1. Claude records the scientific content, studies reference figures and chooses color roles.
-2. Claude calls an available image-generation tool to produce the full composition draft. The integration must return an image Claude can inspect and save with the actual prompt.
-3. Claude reviews that draft and records which visual decisions to transfer or correct.
-4. Claude uses the bundled PptxGenJS helpers to build editable text, equations, shapes and connectors. Any needed pictorial assets are generated separately and remain replaceable picture objects.
-5. A renderer opens the saved PPTX; Claude inspects the resulting preview and checks content, relationships and typography.
+## Register a Gemini key when choosing API mode
 
-The tool may be exposed through the host, an MCP server, or an explicitly authorized API integration. Availability depends on that host and connection. This repository does **not** select or install a provider, supply credentials, or include a provider-specific client. Installing the skill alone does not enable step 2.
+The included `scripts/gemini_image.py` client implements the connection. No MCP server or additional Gemini SDK is required. It uses Python's standard library and Pillow. The default image model is `gemini-3.1-flash-image`, based on [Google's model documentation](https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-image); `--model` can select another available image model.
 
-## What happens without an image connection?
+1. Open [Google AI Studio](https://aistudio.google.com/apikey) and create or select a key for your Google project. Do not paste the key into an agent chat.
+2. In **your own interactive terminal**, open the installed Claude or Antigravity skill folder and run:
 
-| Request | Supported behavior |
-|---|---|
-| Create a new figure using the default workflow | Prepare the content, references and palette, then report the missing image capability before native construction. |
-| Explicitly skip image drafting | Build native objects and record that the image-first stage was waived. This does not become evidence that an image draft was generated. |
-| Reproduce an image supplied by the user | Inspect the supplied image and follow the exact-reconstruction route. Preserve native editability where required. |
-| Make a local edit to an existing PPTX | Preserve the latest file and modify the requested objects; a new composition draft is not normally needed. |
+   ```sh
+   python3 scripts/gemini_image.py setup
+   python3 scripts/gemini_image.py status
+   ```
 
-Writing an SVG or HTML sketch does not satisfy the default image-model drafting step. Likewise, an image created outside the session can be a supplied reference, but should not be described as a tool call that occurred in the session.
+   Use your configured Python executable instead of `python3` when needed. Input is hidden. The helper stores the key outside the repository in `~/.config/paper-figure/gemini-api-key` on macOS/Linux, or `%APPDATA%/paper-figure/gemini-api-key` on Windows. POSIX permissions are 0600; Windows inherits profile permissions. To replace a saved key explicitly, use `setup --replace`.
+3. Tell the agent the setup is complete. It checks local availability, then calls the image API for the current task's saved prompt and selected references. `status` alone does not validate a key, model access, billing or quota.
 
-## Installation and verification boundary
+Existing secret management can provide `PAPER_FIGURE_GEMINI_API_KEY`, `GOOGLE_API_KEY`, or `GEMINI_API_KEY`, in that order of precedence. `PAPER_FIGURE_GEMINI_KEY_FILE` selects a private key file. An inherited environment value overrides the saved file; restart your agent after changing its environment. The dedicated variable avoids changing Antigravity CLI authentication. Keys are never command arguments, prompt fields or generation metadata.
 
-The [installation guide](installation.md) installs the skill. The [Claude environment guide](../ports/claude/paper-figure/references/claude-environment.md) describes the public authoring dependencies and renderers. `scripts/preflight.mjs` checks those local dependencies; it cannot check a host's MCP connections or image-provider access.
+An Antigravity CLI login or subscription is separate from image API access. See [Google's key guidance](https://ai.google.dev/gemini-api/docs/api-key). The selected prompt and explicitly chosen reference images are sent to Google; whole project folders are not uploaded. Network-restricted claude.ai/API containers may prevent calls even with a valid key.
 
-The repository validates the Claude authoring engine and its output checks locally. It does not claim a complete Claude Code or claude.ai run with an external image provider. The new masked-image and graph-pooling gallery examples were produced in Codex.
+## How the image step works
 
-## 한국어 요약
+Claude plans the composition and calls the optional Gemini client. Google's image model returns the raster draft; Claude inspects it and writes native PowerPoint objects with PptxGenJS. Antigravity CLI uses the same portable authoring engine and image client. Claude's own image understanding is separate from photo/illustration generation; see [Anthropic's explanation](https://support.claude.com/en/articles/9002504-can-claude-produce-images).
 
-Claude 자체의 이미지 이해 기능과 이미지 생성 모델은 다릅니다. 현재 Claude 스킬은 **외부 이미지 도구로 초안을 생성하고 → Claude가 이를 검토한 뒤 → PptxGenJS로 편집형 PPTX를 만드는 구조**입니다. 저장소에는 이미지 서비스 연결이나 인증 설정이 포함되어 있지 않습니다.
+The helper saves actual image bytes, prompt, provider/model and hashes in a new output directory. It does not follow redirects, retry paid requests automatically, log server response bodies, or mark the returned draft as visually inspected. A blocked or text-only response is reported as a failure. The agent offers setup/retry or no-API mode and does not switch silently. Gemini output does not guarantee a transparent alpha channel.
 
-외부 도구가 없으면 기본 신규 제작 과정은 준비 단계 후 필요한 연결을 안내하고 멈춥니다. 사용자가 명시적으로 초안을 생략하도록 요청했거나, 재현할 이미지를 직접 제공한 경우에는 해당 경로로 제작할 수 있습니다. 기존 PPTX의 부분 수정은 보통 새 이미지 초안 없이 처리합니다.
+## Installation and verification
+
+[Install the correct edition](installation.md). Environment details: [Claude](../ports/claude/paper-figure/references/claude-environment.md), [Antigravity CLI](../ports/antigravity/plugin/skills/paper-figure/references/antigravity-environment.md). The shared [mode-selection instructions](../ports/claude/paper-figure/references/image-options.md) define onboarding and delivery evidence.
+
+The client has offline tests for request encoding, response decoding, failures, secret handling and output preservation. Antigravity CLI plugin validation and packaged portable-engine output are checked separately. A live paid Gemini image call and an end-to-end agent figure task are not claimed without such a run. See [validation record](portable-image-validation.json).
+
+## 한국어 안내
+
+스킬을 처음 사용하는 신규 figure 작업에서는 **Gemini API 활용 / API 없이 제작** 중 하나를 고릅니다. 이미 지정한 방식은 같은 작업에서 다시 묻지 않습니다.
+
+API를 고르면 Google AI Studio의 키 발급 페이지를 안내하고, 사용자가 본인 터미널에서 `python3 scripts/gemini_image.py setup`으로 등록합니다. 키를 채팅에 보내지 않으며 프로젝트 밖 개인 설정 폴더에 저장합니다. API 키와 이미지 모델 접근 권한·요금은 Antigravity CLI 로그인과 별개입니다.
+
+API 없이도 레퍼런스·배색·관계를 검토한 뒤 도형·텍스트·수식으로 바로 제작하고 저장된 PPTX를 검증합니다. 이미지 모델 초안을 만든 것처럼 표시하지 않으며, 새 사진 생성이 필요한 경우에는 제공된 이미지나 적절한 네이티브 표현을 활용합니다.

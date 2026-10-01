@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="docs/images/readme/hero.png" alt="Paper Figure — Draft visually. Keep it editable. A terminal-inspired brand illustration for the Codex and Claude research-figure skills." width="100%"/>
+  <img src="docs/images/readme/hero.png" alt="Paper Figure — Draft visually. Keep it editable. A terminal-inspired brand illustration for the research-figure skills." width="100%"/>
 </p>
 
 <h1 align="center">연구의 구도를 잡고, 끝까지 편집 가능한 figure로.</h1>
 
-<p align="center">이미지 모델의 시각 초안을 편집형 PowerPoint로.<br/>Codex·Claude와 함께 구도를 설계하고, 설명을 재구성하고, 저장된 결과를 검토하세요.</p>
+<p align="center">이미지 모델의 시각 초안을 편집형 PowerPoint로.<br/>Codex·Claude·Antigravity CLI와 함께 구도를 설계하고, 설명을 재구성하고, 저장된 결과를 검토하세요.</p>
 
 <p align="center">
   <a href="https://github.com/JYS1025/paper-figure/stargazers"><img src="docs/images/readme/badge-stars.svg" alt="GitHub stars" height="20"/></a>
@@ -20,7 +20,7 @@
 
 스타·포크·구독자는 매일 갱신하며, 조회수는 표시된 날짜 기준 GitHub 최근 14일 통계입니다. [집계 안내](docs/repository-badges.md).
 
-> **Claude 사용자 안내:** 전체 제작 과정에는 별도로 연결한 이미지 생성 도구가 필요합니다. Claude 스킬에는 PowerPoint 제작 엔진이 포함되지만, 이미지 서비스나 인증 정보는 포함되지 않습니다. [Claude 버전의 동작 방식](docs/claude-image-generation.md).
+> **Claude·Antigravity CLI:** **Gemini API 활용** 또는 **API 없이 제작** 중 하나를 선택합니다. 두 방식 모두 편집형 PowerPoint를 만듭니다. Gemini API 연결 코드와 개인 키 등록 도구가 포함되어 있습니다. [제작 방식과 설정](docs/claude-image-generation.md).
 
 ---
 
@@ -109,7 +109,7 @@
 
 ### 1. 터미널에서 설치
 
-설치에는 **Node.js 22.20+**와 Git이 필요합니다. [skills CLI](https://github.com/vercel-labs/skills)를 사용하므로 ZIP을 직접 내려받지 않아도 됩니다. 스킬을 사용할 프로젝트 폴더에서 환경에 맞는 명령을 실행하세요.
+Codex·Claude는 [skills CLI](https://github.com/vercel-labs/skills)를 사용하며 설치에는 **Node.js 22.20+**와 Git이 필요합니다. Antigravity는 자체 플러그인 설치 기능을 사용합니다. ZIP을 따로 내려받을 필요는 없습니다.
 
 현재 저장소는 **Private**이므로 접근 권한이 있는 GitHub 계정이 필요합니다. [GitHub CLI](https://cli.github.com/)를 설치한 뒤 처음 한 번 인증합니다.
 
@@ -130,44 +130,67 @@ npx --yes skills@1.7.0 add https://github.com/JYS1025/paper-figure/tree/main/ski
 npx --yes skills@1.7.0 add https://github.com/JYS1025/paper-figure/tree/main/ports/claude/paper-figure --agent claude-code --copy
 ```
 
-각 환경에 맞는 버전을 독립된 복사본으로 설치합니다. 두 환경을 함께 쓰면 `--copy`를 유지하세요. 스킬 이름은 `paper-figure`로 같지만 제작 엔진이 다릅니다. 모든 프로젝트에서 쓰려면 `--global`, 설치 확인을 생략하려면 `--yes`를 덧붙입니다. 업데이트할 때는 스킬의 직접 수정 내용을 백업하고 같은 버전의 설치 명령을 다시 실행하세요. 해당 설치본이 교체됩니다.
+**Antigravity CLI**
 
-| 범위 | Codex | Claude Code |
-|---|---|---|
-| 현재 프로젝트 (기본) | `.agents/skills/paper-figure/` | `.claude/skills/paper-figure/` |
-| 모든 프로젝트 (`--global`) | `~/.agents/skills/paper-figure/` | `~/.claude/skills/paper-figure/` |
+```sh
+gh repo clone JYS1025/paper-figure paper-figure
+agy plugin install ./paper-figure/ports/antigravity/plugin
+```
 
-두 배포 경로 모두 `SKILL.md` 진입점을 포함합니다. 이 저장소에는 프로젝트용 스킬 연결도 있으므로 저장소를 복제한 경우 바로 탐색할 수 있습니다. 스킬이 보이지 않으면 새 세션에서 확인하세요. [설치 상세·문제 해결](docs/installation.md).
+[Antigravity CLI(`agy`)](https://antigravity.google/docs/cli/install)를 먼저 설치하세요. 이미 저장소를 복제했다면 실제 경로로 두 번째 명령만 실행합니다. `agy plugin list`로 확인한 후 새 세션에서 `/paper-figure`를 호출하세요. 사용자 범위에 플러그인이 설치됩니다. [Google의 Gemini CLI → Antigravity CLI 전환 안내](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/)에 맞춘 지원이며, 이미지 생성 제공자는 Gemini API입니다.
+
+각 환경에 맞는 버전을 독립된 복사본으로 설치합니다. Codex·Claude 설치 명령에는 `--copy`를 유지하세요. 스킬 이름은 `paper-figure`로 같지만 제작 엔진이 다릅니다. Codex·Claude의 `skills` CLI 명령으로 모든 프로젝트에서 쓰려면 `--global`, 설치 확인을 생략하려면 `--yes`를 덧붙입니다. 업데이트는 직접 수정 내용을 백업한 후 [버전별 업데이트 안내](docs/installation.md#verify-and-update)를 따르세요.
+
+| 범위 | Codex | Claude Code | Antigravity CLI |
+|---|---|---|---|
+| 프로젝트 | `.agents/skills/paper-figure/` | `.claude/skills/paper-figure/` | 사용자 플러그인 사용 |
+| 사용자 | `~/.agents/skills/paper-figure/` | `~/.claude/skills/paper-figure/` | `~/.gemini/antigravity-cli/plugins/paper-figure/` |
+
+세 버전 모두 `SKILL.md` 진입점을 포함합니다. 저장소에는 Codex·Claude용 로컬 연결이 있으며, Antigravity는 전용 플러그인을 설치합니다. Antigravity도 `.agents/skills/`를 탐색하므로 대상 프로젝트에 같은 이름의 Codex 버전이 있는지 확인하세요. 스킬이 보이지 않으면 새 세션에서 확인하세요. [설치 상세·문제 해결](docs/installation.md).
 
 <details>
 <summary>ZIP 설치 및 claude.ai</summary>
 
-[Codex ZIP](output/paper-figure-skill.zip) · [Claude ZIP](output/paper-figure-claude-skill.zip)
+[Codex ZIP](output/paper-figure-skill.zip) · [Claude ZIP](output/paper-figure-claude-skill.zip) · [Antigravity 플러그인 ZIP](output/paper-figure-antigravity-plugin.zip)
 
-압축을 푼 `paper-figure` 폴더를 위 표의 스킬 폴더에 넣습니다. claude.ai에서는 코드 실행·파일 생성이 가능한 환경에서 Claude ZIP을 사용자 지정 스킬로 업로드하세요. CLI는 로컬 에이전트의 스킬을 설치하며 클라우드 계정에는 업로드하지 않습니다.
+Codex·Claude는 압축을 푼 `paper-figure` 폴더를 위 표의 스킬 폴더에 넣습니다. Antigravity는 플러그인 ZIP을 푼 뒤 `agy plugin install /path/to/extracted/paper-figure`로 설치합니다. claude.ai에서는 코드 실행·파일 생성이 가능한 환경에서 Claude ZIP을 사용자 지정 스킬로 업로드하세요. CLI는 로컬 에이전트의 스킬을 설치하며 클라우드 계정에는 업로드하지 않습니다.
 
 </details>
 
-### 2. 필요한 도구 확인
+### 2. 제작 방식과 도구 확인
 
-새 figure에는 전체 구도 초안과 필요한 삽입용 자료를 만드는 **이미지 생성 도구**, 저장된 PPTX의 모습을 검토하는 **렌더러**가 필요합니다. 스킬 패키지는 지침과 제작 도구를 제공하며, 모델 접근과 렌더링 기능은 실행 환경에서 준비합니다.
+Claude와 Antigravity CLI는 새 figure를 만들 때 방식을 선택하게 합니다. 이미 지정했다면 같은 작업에서 반복해서 묻지 않습니다.
 
-| 기능 | Codex 버전 | Claude 버전 |
+| 방식 | 제작 과정 | 이미지 API 키 |
 |---|---|---|
-| PPTX 제작 | `@oai/artifact-tool`과 Presentations 도구가 번들로 제공되는 Codex 환경 | 공개 PptxGenJS 엔진과 Python 도구 |
-| 이미지 초안 | 세션에서 사용할 수 있는 이미지 생성 도구 | 연결된 이미지 생성 도구, MCP 서버 또는 사용 가능한 API 통합 |
-| 구조 검사 | `lxml`이 있는 Python | `lxml`·`Pillow`가 있는 Python |
-| 렌더링 | 번들 LibreOffice/Poppler 또는 PowerPoint | 사용 가능한 LibreOffice/Poppler, 환경에서 지원하는 렌더러 또는 PowerPoint |
-| 수식 렌더 검사 | `pdfplumber`가 있는 Python | `pdfplumber`가 있는 Python |
+| **Gemini API 활용** | 전체 이미지 초안 생성 → 검토 → 네이티브 PPTX 재구성 | 필요. Google API 접근 권한·할당량·요금이 적용됩니다. |
+| **API 없이 제작** | 레퍼런스·배색 검토 → 도형·텍스트·수식으로 바로 제작 | 불필요. |
 
-Codex 버전은 실행 환경의 번들 제작 도구에 의존합니다. Claude 버전은 공개 라이브러리를 사용하며, [환경 설정 안내](ports/claude/paper-figure/references/claude-environment.md)에 필요한 구성을 정리했습니다. 스킬 설치만으로 이미지 생성 서비스가 연결되지는 않습니다. 이미지 생성 기능이 없으면 PPTX 제작 전에 해당 제약을 보고합니다.
+두 방식 모두 관계·수식·실제 저장 파일 렌더를 검토합니다. API 없이도 제공된 사진과 네이티브 픽토그램을 사용할 수 있으며, 새 사진이나 이미지 모델 초안을 생성했다고 표시하지 않습니다.
 
-**Claude의 이미지 제작 단계:** Claude가 구도를 계획하고 외부 이미지 도구를 호출하면, 해당 도구가 초안 이미지를 만듭니다. Claude는 초안을 검토한 뒤 PptxGenJS로 글자·도형·연결선을 재구성합니다. [Claude 자체는 사진이나 삽화를 생성하지 않습니다](https://support.claude.com/en/articles/9002504-can-claude-produce-images). 외부 연결이 없으면 기본 신규 제작은 준비 단계 후 멈춥니다. 사용자가 명시적으로 초안을 생략하도록 요청하거나 재현할 이미지를 제공한 경우에는 별도 경로로 진행할 수 있습니다. [지원 경로와 한계](docs/claude-image-generation.md).
+Gemini API를 선택했는데 키가 없으면 [Google AI Studio](https://aistudio.google.com/apikey)를 안내하고, 설치된 Claude/Gemini 스킬 폴더에서 **사용자 본인의 터미널**로 다음을 실행하도록 안내합니다.
+
+```sh
+python3 scripts/gemini_image.py setup
+python3 scripts/gemini_image.py status
+```
+
+키는 숨김 입력으로 등록해 프로젝트 밖에 보관합니다. 기존 `PAPER_FIGURE_GEMINI_API_KEY`, `GOOGLE_API_KEY`, `GEMINI_API_KEY` 환경변수도 지원합니다. 키를 채팅에 보내지 마세요. `status`는 로컬 키 존재 여부만 확인합니다. Antigravity CLI 로그인과 이미지 API 접근 권한은 별개입니다. [키 설정과 제약](docs/claude-image-generation.md).
+
+| 기능 | Codex 버전 | Claude / Antigravity CLI 버전 |
+|---|---|---|
+| PPTX 제작 | 번들 `@oai/artifact-tool` 및 Presentations 도구 | 공개 PptxGenJS와 Python 도구 |
+| 이미지 초안 | 세션에서 제공되는 이미지 생성 도구 | 포함된 Gemini API 클라이언트 또는 API 없는 직접 제작 |
+| 구조 검사 | Python `lxml` | Python `lxml`, `Pillow` |
+| 렌더링 | 번들 LibreOffice/Poppler 또는 PowerPoint | 사용 가능한 LibreOffice/Poppler, 호스트 렌더러 또는 PowerPoint |
+| 수식 검사 | Python `pdfplumber` | Python `pdfplumber` |
+
+모든 방식에서 시각 검증에는 저장된 PPTX를 읽는 렌더러가 필요합니다. 스킬 설치만으로 계정·결제·키가 설정되지는 않습니다. API 클라이언트에는 네트워크 접근, Python, Pillow가 필요하며, API 실패 시 사용자 선택 없이 제작 방식을 바꾸지 않습니다.
 
 <details>
-<summary>Claude 제작 엔진의 로컬 환경 설정</summary>
+<summary>Claude / Antigravity CLI 제작 엔진의 로컬 환경 설정</summary>
 
-Node.js 20+와 Python 3.10+를 사용합니다. 쓰기 가능한 Claude 스킬 폴더에서 현재 환경을 먼저 확인합니다.
+Node.js 20+와 Python 3.10+를 사용합니다. 쓰기 가능한 Claude 또는 Antigravity 스킬 폴더에서 현재 환경을 먼저 확인합니다.
 
 ```sh
 node scripts/preflight.mjs
@@ -183,13 +206,13 @@ export FIGURE_PYTHON="$PWD/.venv/bin/python"
 node scripts/preflight.mjs
 ```
 
-LibreOffice, Poppler, 글꼴은 별도의 시스템 구성 요소입니다. 사전 점검 명령은 로컬 의존성을 확인하며 이미지 생성 서비스 연결은 검사하지 않습니다. 공용 패키지 경로와 렌더링 래퍼 설정은 [환경 안내](ports/claude/paper-figure/references/claude-environment.md)를 참고하세요.
+LibreOffice, Poppler, 글꼴은 별도의 시스템 구성 요소입니다. 사전 점검은 로컬 의존성과 키 존재 여부를 확인하지만 API 호출이나 모델 접근 검증은 하지 않습니다. 공용 패키지 경로와 렌더링 래퍼 설정은 [환경 안내](ports/claude/paper-figure/references/claude-environment.md)를 참고하세요.
 
 </details>
 
 ### 3. 만들 figure 설명
 
-Codex에서는 `paper-figure`, Claude Code에서는 `/paper-figure`를 호출하고 방법론, 필수 관계, 표기법, 논문 게재 폭을 알려주세요. claude.ai에서는 활성화된 Paper Figure 스킬로 작업하도록 요청합니다.
+Codex에서는 `paper-figure`, Claude Code·Antigravity CLI에서는 `/paper-figure`를 호출하고 방법론, 필수 관계, 표기법, 논문 게재 폭을 알려주세요. claude.ai에서는 활성화된 Paper Figure 스킬로 작업하도록 요청합니다.
 
 ```text
 폭 178mm의 편집 가능한 논문 방법론 figure를 만들어줘.
@@ -211,6 +234,8 @@ PPTX, 저장된 파일에서 렌더링한 미리보기, 선택한 초안과 검�
 
 ## 제작 과정
 
+이미지 초안을 사용하는 경우의 과정입니다. Claude·Antigravity CLI의 API 없는 모드는 레퍼런스·배색 검토 후 네이티브 제작으로 바로 진행합니다.
+
 | 단계 | 수행 내용 |
 |---|---|
 | **1. 내용 정의** | 그리기 전에 필수 라벨, 구성 요소, 방향 관계, 수식 표기, 학습·추론 구분을 기록합니다. |
@@ -229,7 +254,7 @@ PPTX, 저장된 파일에서 렌더링한 미리보기, 선택한 초안과 검�
 |---|---|
 | **편집형 `.pptx`** | PowerPoint에서 글자·도형·그룹·연결선을 계속 수정합니다. |
 | **저장 파일의 미리보기** | 실제 PPTX에서 만든 PNG와, 렌더러가 지원하는 경우 PDF를 확인합니다. |
-| **선택한 시각 초안** | 재구성의 바탕이 된 구도를 확인합니다. |
+| **선택한 시각 초안** (이미지 생성 모드) | 재구성의 바탕이 된 구도를 확인합니다. |
 | **검증 요약** | 실행한 내용·렌더링·수식 검사와 남아 있는 제약을 확인합니다. |
 | **작업 자료** | 이후 수정을 위해 프롬프트, 재구성 결정, 생성 이미지, 검사 기록을 보관합니다. |
 
@@ -261,7 +286,7 @@ HEX 값은 레퍼런스를 참고해 구성한 배색입니다. 원 논문에서
 | 해당 재구성의 수식 렌더 검사 | **14개 영역**에서 선택한 기준에 따른 문자 누락, 예상 밖 글꼴, 작은 첨자 경고 없음. |
 | Claude 스킬 배포 패키지 | ZIP을 별도 위치에 풀어 시험 파일을 생성하고 내용·연결선 검사 통과. |
 
-이 결과는 로컬 제작 엔진의 동작을 검증합니다. Claude Code·claude.ai 안에서의 전체 실행과 최신 이식 버전의 PowerPoint 수동 편집은 아직 검증하지 않았습니다. 기록된 렌더링 경로는 LibreOffice → PDF → Poppler입니다. 자세한 내용은 [Claude 이식 검증 기록](docs/claude-port-validation.json)에 있습니다.
+이 결과는 로컬 제작 엔진의 동작을 검증합니다. Claude Code·claude.ai·Antigravity CLI 에이전트의 전체 figure 작업과 최신 이식 버전의 PowerPoint 수동 편집은 아직 검증하지 않았습니다. Gemini API 클라이언트는 모의 응답·자격 증명 검사를 수행했으며 유료 실호출을 검증했다고 주장하지 않습니다. [이미지 모드·Antigravity 검증 기록](docs/portable-image-validation.json). 기록된 렌더링 경로는 LibreOffice → PDF → Poppler입니다. 자세한 내용은 [Claude 이식 검증 기록](docs/claude-port-validation.json)에 있습니다.
 
 복잡한 수식 조판, 연결선 경로 재설정, 연결된 그룹 이동에는 적절한 네이티브 편집 경로가 필요합니다. 글꼴과 렌더러에 따라 표시가 달라질 수 있습니다. 그림을 축소하면 글자와 첨자도 함께 작아지므로 실제 게재 폭에서 검토해야 합니다.
 
@@ -273,9 +298,10 @@ HEX 값은 레퍼런스를 참고해 구성한 배색입니다. 원 논문에서
 |---|---|
 | CLI 설치 | [설치·업데이트·문제 해결](docs/installation.md) |
 | 저장소 배지 | [집계 출처와 갱신 방식](docs/repository-badges.md) |
-| 스킬 진입점 | [Codex](skills/paper-figure/SKILL.md) · [Claude](ports/claude/paper-figure/SKILL.md) |
+| 스킬 진입점 | [Codex](skills/paper-figure/SKILL.md) · [Claude](ports/claude/paper-figure/SKILL.md) · [Antigravity CLI](ports/antigravity/plugin/skills/paper-figure/SKILL.md) |
 | 제작 도구와 환경 | [Codex](skills/paper-figure/references/authoring.md) · [Claude](ports/claude/paper-figure/references/authoring.md) |
 | Claude 설치 | [환경 설정](ports/claude/paper-figure/references/claude-environment.md) · [한국어 설치 안내](ports/claude/INSTALL.txt) |
+| Antigravity 설치 | [환경 안내](ports/antigravity/plugin/skills/paper-figure/references/antigravity-environment.md) · [한국어 설치 안내](ports/antigravity/INSTALL.txt) |
 | 이미지와 픽토그램 | [자료의 역할과 생성 기준](skills/paper-figure/references/visual-assets.md) |
 | 수식 표기 | [편집형 조판과 렌더 검사](skills/paper-figure/references/math-typography.md) |
 | 과학적 관계 | [연결 지점·집합·항목 대응](skills/paper-figure/references/relationship-review.md) |
@@ -286,6 +312,7 @@ HEX 값은 레퍼런스를 참고해 구성한 배색입니다. 원 논문에서
 
 ```text
 skills/paper-figure/        Codex 스킬, 레퍼런스 분석, color book
+ports/antigravity/plugin/  Antigravity CLI 플러그인과 공개 제작 엔진
 ports/claude/paper-figure/  Claude 스킬과 공개 제작 엔진
 scripts/                   패키징·저장소 배지 도구
 tests/                     엔진·수정 보존 검사
@@ -297,7 +324,7 @@ output/                    스킬 ZIP과 생성 예시
 
 재현 가능한 렌더링 결함, 과학적 관계 오류, 글꼴 문제, 레퍼런스 분석, 근거가 있는 스킬 개선을 환영합니다. 오류를 보고할 때는 실행 환경, 스킬 버전, 최소한의 설명 또는 공유 가능한 PPTX, 기대한 동작, 실제 저장 파일의 미리보기를 함께 제공해주세요.
 
-공통 설계 지침의 변경은 두 버전에 반영합니다. 제작 엔진을 변경할 때는 관련 내용 검사와 렌더링 검토를 포함하고, 수정 기능을 시험할 때는 사용자의 수동 편집을 보존해야 합니다.
+공통 설계 지침의 변경은 모든 버전에 반영합니다. Claude 이식 폴더의 공통 엔진이나 지침을 바꾼 뒤에는 `python3 scripts/sync-antigravity-port.py`로 Antigravity 버전을 동기화합니다. 제작 엔진을 변경할 때는 관련 내용 검사와 렌더링 검토를 포함하고, 수정 기능을 시험할 때는 사용자의 수동 편집을 보존해야 합니다.
 
 ## 라이선스와 출처
 

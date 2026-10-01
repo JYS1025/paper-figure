@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-01",
+  "scope": "Portable Claude and Antigravity packages, optional Gemini image client, and direct native authoring. Local tests only; not an end-to-end agent figure evaluation.",
+  "hostTarget": "Antigravity CLI (agy)",
+  "imageProvider": "Google Gemini API",
+  "modes": [
+    "gemini-api",
+    "no-api"
+  ],
+  "officialReferences": [
+    "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/",
+    "https://www.antigravity.google/docs/plugins?tab=cli",
+    "https://www.antigravity.google/docs/skills",
+    "https://ai.google.dev/gemini-api/docs/generate-content/image-generation",
+    "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-image",
+    "https://ai.google.dev/gemini-api/docs/api-key"
+  ],
+  "automatedTests": {
+    "command": "python3 -m unittest discover -s tests -p 'test_*.py'",
+    "passed": 66,
+    "failed": 0,
+    "imageClientTests": 21,
+    "networkRequestsMadeByTests": 0,
+    "coverage": [
+      "request headers and image payload",
+      "real image decoding from mock responses",
+      "reference encoding and hashes",
+      "blocked, text-only, malformed and truncated response failures",
+      "credential precedence and permissions",
+      "credential redaction",
+      "redirect rejection",
+      "existing-output preservation",
+      "packaging excludes secrets and dependencies"
+    ]
+  },
+  "skillValidation": {
+    "claude": "passed",
+    "antigravity": "passed",
+    "validator": "skill-creator quick_validate.py"
+  },
+  "antigravityCli": {
+    "command": "agy plugin validate ports/antigravity/plugin",
+    "exitCode": 0,
+    "skillsProcessed": 1,
+    "extractedZipValidation": "passed",
+    "globalInstallExecuted": false,
+    "agentActivationTested": false
+  },
+  "packages": [
+    {
+      "edition": "claude",
+      "path": "output/paper-figure-claude-skill.zip",
+      "sha256": "c4a571771302a70d019a19fcbe44857dcfea8bedcea0cb4ad8917fcab18133d0",
+      "fileCount": 54,
+      "allBytesMatchSource": true,
+      "localMarkdownLinksChecked": 57
+    },
+    {
+      "edition": "antigravity",
+      "path": "output/paper-figure-antigravity-plugin.zip",
+      "sha256": "42d7a075ffa1de4a388052e9e753a8978a06aa1f749107f4f5fea64372af1e84",
+      "fileCount": 55,
+      "allBytesMatchSource": true,
+      "localMarkdownLinksChecked": 58
+    }
+  ],
+  "portableEngineFixture": {
+    "source": "ports/antigravity/plugin/skills/paper-figure/examples/engine-smoke.mjs",
+    "executedFromExtractedZip": true,
+    "selectedMode": "no-api",
+    "imageApiRequests": 0,
+    "pptxSha256": "b6cc30d1ec46228b0543fc8134aaeaf28dd125161549dc0b6b56fac13709a769",
+    "contractPassed": true,
+    "counts": {
+      "sp": 15,
+      "cxnSp": 3,
+      "grpSp": 2,
+      "pic": 1,
+      "graphicFrame": 0
+    },
+    "flow": {
+      "connectors": 3,
+      "requiringRenderedReview": 0,
+      "geometryUnchecked": 0
+    },
+    "renderer": "LibreOffice → PDF → Poppler",
+    "savedRenderVisuallyInspected": true,
+    "previewSha256": "632f4831f71ef5da2e0c26e7d72bd54e313b147fe50571556474cbd6f3472b9e",
+    "fixtureRole": "Engine capability check; not a novel research figure or image-first production run."
+  },
+  "runtime": {
+    "node": "v24.19.0",
+    "pptxgenjs": "4.0.1",
+    "pythonDependencies": {
+      "lxml": {
+        "available": true,
+        "version": "6.1.1"
+      },
+      "PIL": {
+        "available": true,
+        "version": "12.3.0"
+      },
+      "pdfplumber": {
+        "available": true,
+        "version": "0.11.9"
+      }
+    }
+  },
+  "notTested": [
+    "Live paid Gemini image generation or real-key model access",
+    "End-to-end task execution by a Claude or Antigravity agent",
+    "Native PowerPoint manual editing of this version",
+    "Windows runtime and key-file behavior"
+  ]
+}

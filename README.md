@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="docs/images/readme/hero.png" alt="Paper Figure — Draft visually. Keep it editable. A terminal-inspired brand illustration for the Codex and Claude research-figure skills." width="100%"/>
+  <img src="docs/images/readme/hero.png" alt="Paper Figure — Draft visually. Keep it editable. A terminal-inspired brand illustration for the research-figure skills." width="100%"/>
 </p>
 
 <h1 align="center">Research figures, built for the next revision.</h1>
 
-<p align="center">From an image-model draft to editable PowerPoint.<br/>Compose, reconstruct and review research figures with Codex and Claude.</p>
+<p align="center">From an image-model draft to editable PowerPoint.<br/>Compose, reconstruct and review research figures with Codex, Claude and Antigravity CLI.</p>
 
 <p align="center">
   <a href="https://github.com/JYS1025/paper-figure/stargazers"><img src="docs/images/readme/badge-stars.svg" alt="GitHub stars" height="20"/></a>
@@ -20,7 +20,7 @@
 
 Stars, forks and watchers refresh daily; views show a dated GitHub 14-day snapshot. [Badge details](docs/repository-badges.md).
 
-> **Using Claude?** The full workflow requires a separately connected image-generation tool. The Claude skill includes the PowerPoint authoring engine, but no image provider or provider credentials. [How the Claude edition works](docs/claude-image-generation.md).
+> **Claude & Antigravity CLI:** choose **Gemini API** for image-model drafting, or **no API** for direct native authoring. Both routes produce editable PowerPoint. The optional Gemini client and private key-registration helper are included. [Modes and setup](docs/claude-image-generation.md).
 
 ---
 
@@ -109,7 +109,7 @@ Built for model architectures, methodology figures, process diagrams and concept
 
 ### 1. Install from your terminal
 
-Requires **Node.js 22.20+** and Git for the installer. Use [skills CLI](https://github.com/vercel-labs/skills); no ZIP download is needed. Run the command for your agent in the project where you want to use the skill.
+Codex and Claude use [skills CLI](https://github.com/vercel-labs/skills), requiring **Node.js 22.20+** and Git. Antigravity uses its own plugin installer. No ZIP download is needed. Run the command for your agent below.
 
 While this repository is **private**, your GitHub account needs access. With [GitHub CLI](https://cli.github.com/) installed, set up authentication once:
 
@@ -130,44 +130,67 @@ npx --yes skills@1.7.0 add https://github.com/JYS1025/paper-figure/tree/main/ski
 npx --yes skills@1.7.0 add https://github.com/JYS1025/paper-figure/tree/main/ports/claude/paper-figure --agent claude-code --copy
 ```
 
-The commands select the correct edition and keep independent copies. Keep `--copy` when using both agents: the editions share the name `paper-figure` but use different authoring engines. Append `--global` to install for all projects, or `--yes` to skip the install confirmation. To update, back up local skill edits and rerun the same edition-specific command; it replaces that installed copy.
+**Antigravity CLI**
 
-| Scope | Codex | Claude Code |
-|---|---|---|
-| Current project (default) | `.agents/skills/paper-figure/` | `.claude/skills/paper-figure/` |
-| All projects (`--global`) | `~/.agents/skills/paper-figure/` | `~/.claude/skills/paper-figure/` |
+```sh
+gh repo clone JYS1025/paper-figure paper-figure
+agy plugin install ./paper-figure/ports/antigravity/plugin
+```
 
-Both source directories already have valid `SKILL.md` entry points. The repository itself includes project skill links; cloning it is enough for local discovery. Start a new agent session if the skill is not yet visible. [Installation details and troubleshooting](docs/installation.md).
+Install [Antigravity CLI (`agy`)](https://antigravity.google/docs/cli/install) first. If you already cloned this repository, run only the second command with its actual path. Check `agy plugin list`, then invoke `/paper-figure` in a new Antigravity session. The plugin is installed for your user account. [Google transitioned individual users from Gemini CLI to Antigravity CLI](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/); Gemini API remains the optional image provider.
+
+The edition-specific commands keep independent copies. Keep `--copy` on the Codex and Claude commands: the editions share the name `paper-figure` but use different authoring engines. For the Codex/Claude `skills` CLI commands, append `--global` to install for all projects, or `--yes` to skip the install confirmation. For updates, back up local edits and follow the [edition-specific update steps](docs/installation.md#verify-and-update).
+
+| Scope | Codex | Claude Code | Antigravity CLI |
+|---|---|---|---|
+| Project | `.agents/skills/paper-figure/` | `.claude/skills/paper-figure/` | Use the user plugin |
+| User | `~/.agents/skills/paper-figure/` | `~/.claude/skills/paper-figure/` | `~/.gemini/antigravity-cli/plugins/paper-figure/` |
+
+All three editions have `SKILL.md` entry points. The repository includes local Codex and Claude links; install the Antigravity plugin explicitly. Antigravity also discovers `.agents/skills/`, so check for an existing Codex edition of the same skill in your target project. Start a new session if the skill is not yet visible. [Installation details and troubleshooting](docs/installation.md).
 
 <details>
 <summary>ZIP installation and claude.ai</summary>
 
-[Codex ZIP](output/paper-figure-skill.zip) · [Claude ZIP](output/paper-figure-claude-skill.zip)
+[Codex ZIP](output/paper-figure-skill.zip) · [Claude ZIP](output/paper-figure-claude-skill.zip) · [Antigravity plugin ZIP](output/paper-figure-antigravity-plugin.zip)
 
-Extract the `paper-figure` folder into the appropriate skills directory above. For claude.ai, upload the Claude ZIP as a custom skill in an environment with code execution and file creation enabled; the CLI installs local agent skills, not cloud account skills.
+For Codex/Claude, extract the `paper-figure` folder into the appropriate skills directory above. For Antigravity, extract the plugin ZIP and run `agy plugin install /path/to/extracted/paper-figure`. For claude.ai, upload the Claude ZIP as a custom skill in an environment with code execution and file creation enabled; the CLI installs local agent skills, not cloud account skills.
 
 </details>
 
 ### 2. Check the required tools
 
-New figures use an **image-generation tool** for the full composition draft and any requested pictorial assets. A **saved-PPTX renderer** is also required for visual verification. The skill package supplies instructions and authoring helpers; model access and rendering tools come from the host environment.
+Claude and Antigravity CLI ask which mode to use for a new figure, unless you already specified one:
 
-| Capability | Codex edition | Claude edition |
+| Mode | Workflow | Image key |
 |---|---|---|
-| PPTX authoring | Codex environment with bundled `@oai/artifact-tool` and Presentations tooling | Public PptxGenJS engine with Python helpers |
-| Image drafting | Available image-generation tool in the session | Connected image-generation tool, MCP server or authorized API integration |
+| **Gemini API** | Generate a full composition draft, inspect it, then rebuild native PowerPoint objects. | Required; Google API access, quota and billing apply. |
+| **No API** | Review references and color roles, then build native shapes, text and math directly. | Not required. |
+
+The choice is reused within the task. Both modes retain saved-file rendering, relationship checks and typography review. No-API mode can use supplied images and native pictograms; it does not generate a new photographic asset or claim an image-model draft.
+
+If you choose Gemini API and have no key, the skill links to [Google AI Studio](https://aistudio.google.com/apikey) and guides you to run this **in your own terminal**, from the installed Claude/Gemini skill folder:
+
+```sh
+python3 scripts/gemini_image.py setup
+python3 scripts/gemini_image.py status
+```
+
+The hidden-input helper stores the key outside the project. Existing `PAPER_FIGURE_GEMINI_API_KEY`, `GOOGLE_API_KEY` or `GEMINI_API_KEY` environment variables also work. Never paste a key into chat. `status` checks local presence only. Antigravity CLI sign-in is separate from image API access. [Credential details and limits](docs/claude-image-generation.md).
+
+| Capability | Codex edition | Claude / Antigravity CLI editions |
+|---|---|---|
+| PPTX authoring | Bundled `@oai/artifact-tool` and Presentations tooling | Public PptxGenJS engine with Python helpers |
+| Image drafting | Available host image-generation tool | Optional included Gemini API client; direct native mode also supported |
 | Structural checks | Python with `lxml` | Python with `lxml` and `Pillow` |
-| Rendering | Bundled LibreOffice/Poppler or PowerPoint | Available LibreOffice/Poppler, host-supported renderer or PowerPoint |
+| Rendering | Bundled LibreOffice/Poppler or PowerPoint | Available LibreOffice/Poppler, host renderer or PowerPoint |
 | Rendered math checks | Python with `pdfplumber` | Python with `pdfplumber` |
 
-The Codex edition depends on its host's bundled authoring runtime. The Claude edition uses public dependencies; see its [environment guide](ports/claude/paper-figure/references/claude-environment.md). Installing a skill does not configure an image provider. If image generation is unavailable, the skill reports the missing capability before native construction.
-
-**How Claude handles the image step:** Claude plans the figure and calls an external image tool; that tool produces the raster draft. Claude then inspects it and uses PptxGenJS to rebuild native text, shapes and connectors. [Claude itself does not generate photos or illustrations](https://support.claude.com/en/articles/9002504-can-claude-produce-images). Without an image connection, the default new-figure workflow stops after preparation. An explicit request to skip drafting or to reproduce a supplied image follows a separately disclosed route. [Supported routes and limitations](docs/claude-image-generation.md).
+A saved-PPTX renderer is required for visual verification in every mode. The Codex edition uses its host's bundled runtime. The portable editions use public dependencies; their Gemini client requires network access, Python and Pillow. Installing a skill does not create an account, enable billing or supply a key. API failures are reported without silently changing your selected mode.
 
 <details>
-<summary>Local setup for the Claude authoring engine</summary>
+<summary>Local setup for the Claude / Antigravity CLI authoring engine</summary>
 
-Use Node.js 20+ and Python 3.10+. From a writable copy of the Claude skill folder, check the existing environment first:
+Use Node.js 20+ and Python 3.10+. From a writable copy of either portable skill folder, check the existing environment first:
 
 ```sh
 node scripts/preflight.mjs
@@ -183,13 +206,13 @@ export FIGURE_PYTHON="$PWD/.venv/bin/python"
 node scripts/preflight.mjs
 ```
 
-LibreOffice, Poppler and fonts are separate system dependencies. The preflight command checks local dependencies; it does not check image-provider connections. See the [environment guide](ports/claude/paper-figure/references/claude-environment.md) for shared package paths and rendering wrappers.
+LibreOffice, Poppler and fonts are separate system dependencies. The preflight command checks local dependencies and credential presence; it does not call the API or verify model access. See the [environment guide](ports/claude/paper-figure/references/claude-environment.md) for shared package paths and rendering wrappers.
 
 </details>
 
 ### 3. Describe your figure
 
-Invoke `paper-figure` in Codex or `/paper-figure` in Claude Code, then provide the method, required relationships, notation and intended paper width. In claude.ai, ask the enabled Paper Figure skill to handle the request.
+Invoke `paper-figure` in Codex, `/paper-figure` in Claude Code, or `/paper-figure` in Antigravity CLI, then provide the method, required relationships, notation and intended paper width. In claude.ai, ask the enabled Paper Figure skill to handle the request.
 
 ```text
 Create an editable methodology figure for a research paper, 178 mm wide.
@@ -212,6 +235,8 @@ Preserve my module positions, colors and all other edits. Save a new file.
 
 ## How it works
 
+With image drafting enabled, the workflow is below. Claude and Antigravity CLI also support no-API mode, which proceeds directly from reference and palette review to native authoring.
+
 | Stage | What happens |
 |---|---|
 | **1. Define the content** | Record required labels, entities, directed relationships, notation and training/inference distinctions before drawing. |
@@ -230,7 +255,7 @@ See the [complete drafting workflow](skills/paper-figure/references/image-first.
 |---|---|
 | **Editable `.pptx`** | Continue editing text, shapes, groups and connectors in PowerPoint. |
 | **Saved-file preview** | Review a PNG and, when supported by the renderer, a PDF of the actual PPTX output. |
-| **Selected visual draft** | See the composition that informed the reconstruction. |
+| **Selected visual draft** | Included when image drafting was used. |
 | **Validation note** | Understand which content, rendering and typography checks ran, with any unresolved limitations. |
 | **Supporting files** | Retain prompts, transfer decisions, generated assets and inspection reports for later revisions. |
 
@@ -262,7 +287,7 @@ The project records structural checks, rendered review, native-application editi
 | Rendered math checks on that replay | **14 regions checked**, with no flagged character omissions, unexpected fonts or undersized scripts under the selected thresholds. |
 | Packaged Claude skill | Extracted ZIP generated a fixture and passed content and connector checks. |
 
-These results establish local engine behavior. End-to-end execution inside Claude Code or claude.ai and manual PowerPoint editing of the latest port have not yet been verified. The recorded render path used LibreOffice → PDF → Poppler. Details are in the [Claude port validation record](docs/claude-port-validation.json).
+These results establish local engine behavior. End-to-end figure creation by Claude Code, claude.ai or Antigravity CLI agents and manual PowerPoint editing of the latest ports have not yet been verified. The optional Gemini client has offline transport/credential tests; a paid live image request is not claimed. [Portable image-mode validation](docs/portable-image-validation.json). The recorded render path used LibreOffice → PDF → Poppler. Details are in the [Claude port validation record](docs/claude-port-validation.json).
 
 Advanced equation layout, complex connector rerouting and connected-group moves require an appropriate native editing path. Font availability and renderer differences can affect appearance. Review at the intended paper width; reducing the figure also reduces every label and subscript.
 
@@ -274,9 +299,10 @@ When requested, the skill provides a [blind-review protocol](skills/paper-figure
 |---|---|
 | CLI installation | [Commands, updates and troubleshooting](docs/installation.md) |
 | Repository badges | [Counter sources and refresh](docs/repository-badges.md) |
-| Skill entry points | [Codex](skills/paper-figure/SKILL.md) · [Claude](ports/claude/paper-figure/SKILL.md) |
+| Skill entry points | [Codex](skills/paper-figure/SKILL.md) · [Claude](ports/claude/paper-figure/SKILL.md) · [Antigravity CLI](ports/antigravity/plugin/skills/paper-figure/SKILL.md) |
 | Authoring and runtime | [Codex](skills/paper-figure/references/authoring.md) · [Claude](ports/claude/paper-figure/references/authoring.md) |
 | Claude installation | [Setup guide](ports/claude/paper-figure/references/claude-environment.md) · [한국어 설치 안내](ports/claude/INSTALL.txt) |
+| Antigravity installation | [Setup guide](ports/antigravity/plugin/skills/paper-figure/references/antigravity-environment.md) · [한국어 설치 안내](ports/antigravity/INSTALL.txt) |
 | Images and pictograms | [Asset roles and generation](skills/paper-figure/references/visual-assets.md) |
 | Mathematical notation | [Editable typography and rendered checks](skills/paper-figure/references/math-typography.md) |
 | Scientific relationships | [Endpoints, sets and identity across views](skills/paper-figure/references/relationship-review.md) |
@@ -288,6 +314,7 @@ When requested, the skill provides a [blind-review protocol](skills/paper-figure
 ```text
 skills/paper-figure/        Codex skill, reference studies and color books
 ports/claude/paper-figure/  Claude skill and public authoring engine
+ports/antigravity/plugin/  Antigravity CLI plugin with the synced portable skill
 scripts/                   Packaging and repository badge utilities
 tests/                    Engine and preservation checks
 docs/                     Design notes and validation records
@@ -298,7 +325,7 @@ output/                   Skill ZIPs and generated examples
 
 Useful contributions include reproducible rendering defects, scientific-relationship errors, font issues, reference studies and evidence-backed improvements to the skill. For a bug report, include the host environment, skill edition, a minimal brief or shareable PPTX, the expected behavior and the actual saved-file preview.
 
-Changes to shared design guidance should be reflected in both editions. Include the relevant content and rendering checks when changing the authoring engine, and preserve human edits when testing revision workflows.
+Changes to shared design guidance should be reflected in all editions. Run `python3 scripts/sync-antigravity-port.py` after changing the shared portable engine or guidance in the Claude port. Include the relevant content and rendering checks when changing the authoring engine, and preserve human edits when testing revision workflows.
 
 ## License and attribution
 

@@ -1,6 +1,6 @@
 # Generated visual assets with editable explanations
 
-This is the asset stage within [the required image-draft workflow](image-first.md). First generate and inspect the full composition draft; then use image generation for meaningful inserted imagery or icons while reconstructing the explanation as native PowerPoint objects. These are two distinct uses of the image model: **composition exploration** and **final pictorial assets**. Neither substitutes for the other. Generating only an icon does not complete the draft stage; a full raster draft does not fulfill a request for actual inserted assets.
+Choose the mode with [image options](image-options.md). In API mode, first generate and inspect the full composition draft, then generate meaningful inserted imagery separately. Composition exploration and final pictorial assets have different purposes. In **no-API mode**, do not invoke an image provider: use authorized existing images or appropriate native pictograms, and state any missing photographic asset honestly. All modes preserve native explanatory text and geometry.
 
 ## Assign an authoring method to each element
 
@@ -27,7 +27,7 @@ For generated concept icons, a useful prompt specification is: “One isolated f
 
 The exclusions in this section apply to **asset prompts**, not to the preceding full-figure composition draft. That draft may depict the complete layout, including provisional text and arrows, solely for reconstruction. Final explanatory text, mathematics and diagram geometry must still be native.
 
-Use the actual connected image-generation tool or authorized provider integration identified in [Claude setup](claude-environment.md). Do not assume Claude has a built-in bitmap-generation tool. Give each asset its subject, view, style, palette role, printed size, and composition/crop requirements. Keep style consistent across a set. Request a transparent background for isolated icons and preserve the alpha channel. Generate independent assets in separate calls when they need separate placement or replacement.
+In API mode, use `scripts/gemini_image.py --help` and its `generate --purpose asset` command, or the actual image provider already selected by the user; see [image options](image-options.md). Do not assume Claude has a built-in bitmap-generation tool. Give each asset its subject, view, style, palette role, printed size, and composition/crop requirements. Keep style consistent across a set. Request a transparent background when the provider supports it, verify actual alpha, and preserve it. Gemini output is not guaranteed to contain an alpha channel; use appropriate native pictograms or another explicitly selected asset route if transparency is required. Do not treat a white or checkerboard background as transparency. Generate independent assets in separate calls when they need separate placement or replacement.
 
 Explicitly exclude text, labels, numerals, logos, arrows, axes, connectors, legends, surrounding panels and complete diagram layouts. Add these later as native objects. If an unwanted label or diagram fragment appears inside a generated asset, correct it with the image tool or select another result; covering it with editable text is not the preferred construction.
 
