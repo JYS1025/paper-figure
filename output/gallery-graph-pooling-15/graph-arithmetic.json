@@ -1,0 +1,65 @@
+{
+  "originalNodeCount": 8,
+  "originalEdgeCount": 11,
+  "savedEdgeEndpointsVerified": true,
+  "assignmentMatrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "computedPooledAdjacency": [
+    [
+      6,
+      2,
+      1
+    ],
+    [
+      2,
+      6,
+      1
+    ],
+    [
+      1,
+      1,
+      2
+    ]
+  ],
+  "savedNativeMatrixMatches": true
+}

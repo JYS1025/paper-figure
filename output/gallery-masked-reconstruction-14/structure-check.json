@@ -1,0 +1,1919 @@
+{
+  "file": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/gallery-masked-reconstruction-14/figure-v2.pptx",
+  "sha256": "8c8881f084b8f76854cff26165dfd9dab5d0f3376363e2ccf32a8b9e772fbd96",
+  "sizePx": [
+    672.0,
+    420.0
+  ],
+  "slides": [
+    {
+      "part": "ppt/slides/slide1.xml",
+      "objects": [
+        {
+          "id": "121",
+          "name": "title",
+          "kind": "sp",
+          "text": "Learning from missing image patches",
+          "boundsPx": [
+            16.0,
+            14.0,
+            640.0,
+            27.0
+          ],
+          "fingerprint": "36098ec2cb0e3118a60e0e39e8e345b270d76c0e0d270d877f72bd8f7eaaeb97",
+          "fontPt": [
+            14.25
+          ]
+        },
+        {
+          "id": "2",
+          "name": "input-heading",
+          "kind": "sp",
+          "text": "Masked image",
+          "boundsPx": [
+            16.0,
+            71.0,
+            128.0,
+            20.0
+          ],
+          "fingerprint": "e13dad844146a5a9db042ca52bdf3587253df46f0ba04766830cadfb38a59022",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "3",
+          "name": "input-sub",
+          "kind": "sp",
+          "text": "4 × 4 patches",
+          "boundsPx": [
+            16.0,
+            91.0,
+            128.0,
+            18.0
+          ],
+          "fingerprint": "627852cdced1b7b16e9caddde6de1de4e05c3f5ca9bee56de5d16e953cfa92df",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "4",
+          "name": "gather-heading",
+          "kind": "sp",
+          "text": "Visible\npatches",
+          "boundsPx": [
+            160.0,
+            72.0,
+            64.0,
+            37.0
+          ],
+          "fingerprint": "db95b3927195a1193fabcabc871b6233229c82a69ff17d4c0ae2d62b287b31d1",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "5",
+          "name": "latent-heading",
+          "kind": "sp",
+          "text": "Latents",
+          "boundsPx": [
+            290.0,
+            83.0,
+            45.0,
+            20.0
+          ],
+          "fingerprint": "ba399e40e3c40010bdf3a8233b21dbf2e69a8bc2cfed690c9cdfa56f9acb66de",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "6",
+          "name": "restore-heading",
+          "kind": "sp",
+          "text": "Restore order",
+          "boundsPx": [
+            349.0,
+            73.0,
+            114.0,
+            22.0
+          ],
+          "fingerprint": "d288a9d131cc4f24d75e5c0aae17abee3f3da4b0b79d3fc52bfd5fa59c1f91f5",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "7",
+          "name": "restore-sub",
+          "kind": "sp",
+          "text": "+ mask tokens",
+          "boundsPx": [
+            349.0,
+            95.0,
+            114.0,
+            20.0
+          ],
+          "fingerprint": "60b0313ae9e98007c6cd8a6ba3afb4c3676cc1593cc8fe6d42b9a6325cf8e573",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "8",
+          "name": "prediction-heading",
+          "kind": "sp",
+          "text": "Predicted patches",
+          "boundsPx": [
+            535.0,
+            75.0,
+            131.0,
+            20.0
+          ],
+          "fingerprint": "d22c3d18edc3cf829739bf13cd83da5a2ec28701e1af7f2655d5c9019bfcf62a",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "9",
+          "name": "prediction-sub",
+          "kind": "sp",
+          "text": "symbolic",
+          "boundsPx": [
+            535.0,
+            97.0,
+            131.0,
+            18.0
+          ],
+          "fingerprint": "c2e2a460556356eb834c3261c6a0fe3ce51353b0d9bb97ce94040815d7eef658",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "10",
+          "name": "masked-field",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            16.0,
+            120.0,
+            128.0,
+            128.0
+          ],
+          "fingerprint": "9b913b82f9acca6aad2da5f9502dd28c6c8ee086c83d5097b7fd4bd5fc41a106",
+          "fontPt": []
+        },
+        {
+          "id": "11",
+          "name": "input-mask-1",
+          "kind": "sp",
+          "text": "M",
+          "boundsPx": [
+            16.0,
+            120.0,
+            32.0,
+            32.0
+          ],
+          "fingerprint": "0e813a654795d2dc0b687608a527605fb87f38242fba460ebcfe2760912fa0aa",
+          "fontPt": [
+            9.38
+          ]
+        },
+        {
+          "id": "12",
+          "name": "input-border-1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            16.0,
+            120.0,
+            32.0,
+            32.0
+          ],
+          "fingerprint": "f3ab75735668432ffd8fb16293cc710e009727e9d558ca2a61666e121228516e",
+          "fontPt": []
+        },
+        {
+          "id": "133",
+          "name": "input-photo-2",
+          "kind": "pic",
+          "text": "",
+          "boundsPx": [
+            48.0,
+            120.0,
+            32.0,
+            32.0
+          ],
+          "fingerprint": "8381773cc41c9135a1171a5144428566e6f81dc2f00b77d332176cde05a9b350",
+          "fontPt": []
+        },
+        {
+          "id": "14",
+          "name": "input-id-bg-2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            49.0,
+            137.0,
+            18.0,
+            14.0
+          ],
+          "fingerprint": "e88a495b80d083cac5b9ddc42519ede5a065420c07eb263764ca9be218b9be71",
+          "fontPt": []
+        },
+        {
+          "id": "15",
+          "name": "input-id-2",
+          "kind": "sp",
+          "text": "2",
+          "boundsPx": [
+            49.0,
+            137.0,
+            18.0,
+            14.0
+          ],
+          "fingerprint": "0d805cf785de634ceccdb6cf4fe8e7df9cefbc1d65b4efa269befa38b7cb4a35",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "16",
+          "name": "input-border-2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            48.0,
+            120.0,
+            32.0,
+            32.0
+          ],
+          "fingerprint": "0a3c23a561dcd0130e6e73b44aa39b2a2e02ea2d91a5b2d0899fbf80e2d96aa4",
+          "fontPt": []
+        },
+        {
+          "id": "17",
+          "name": "input-mask-3",
+          "kind": "sp",
+          "text": "M",
+          "boundsPx": [
+            80.0,
+            120.0,
+            32.0,
+            32.0
+          ],
+          "fingerprint": "6b88fff2ba24c125ca44be7efc111d5d05c814e1239ea448976c114285d66b8b",
+          "fontPt": [
+            9.38
+          ]
+        },
+        {
+          "id": "18",
+          "name": "input-border-3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            80.0,
+            120.0,
+            32.0,
+            32.0
+          ],
+          "fingerprint": "851e3b5d47b412793721f55f7a496320c07c8988700feb737d4e2ff17dd35dc3",
+          "fontPt": []
+        },
+        {
+          "id": "19",
+          "name": "input-mask-4",
+          "kind": "sp",
+          "text": "M",
+          "boundsPx": [
+            112.0,
+            120.0,
+            32.0,
+            32.0
+          ],
+          "fingerprint": "12c5e49c9b9f96a07ec98a1bb15bd714c5d34b0ea104342b22ae50061dd6201f",
+          "fontPt": [
+            9.38
+          ]
+        },
+        {
+          "id": "20",
+          "name": "input-border-4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            112.0,
+            120.0,
+            32.0,
+            32.0
+          ],
+          "fingerprint": "7a0cc64504aea04875857286d8867c3c8c0f04548bf5a7c046f3ed945d8407f4",
+          "fontPt": []
+        },
+        {
+          "id": "141",
+          "name": "input-photo-5",
+          "kind": "pic",
+          "text": "",
+          "boundsPx": [
+            16.0,
+            152.0,
+            32.0,
+            32.0
+          ],
+          "fingerprint": "bcef95de671e3ed47c47f85812b258afd69e4901172f3e47bf3f41e84268036c",
+          "fontPt": []
+        },
+        {
+          "id": "22",
+          "name": "input-id-bg-5",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            17.0,
+            169.0,
+            18.0,
+            14.0
+          ],
+          "fingerprint": "3c6d9230b833291d89d407c8b9e360157d941d7cf9c472214260c1d7f528db3b",
+          "fontPt": []
+        },
+        {
+          "id": "23",
+          "name": "input-id-5",
+          "kind": "sp",
+          "text": "5",
+          "boundsPx": [
+            17.0,
+            169.0,
+            18.0,
+            14.0
+          ],
+          "fingerprint": "d25583b9ff0adae93a73910e204118b05c050fc47db9a1871b0785d57eda24b4",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "24",
+          "name": "input-border-5",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            16.0,
+            152.0,
+            32.0,
+            32.0
+          ],
+          "fingerprint": "7b87a4bd0600c2f7565caae18e9cc2941d52017588aa148561aae559aa861a4e",
+          "fontPt": []
+        },
+        {
+          "id": "25",
+          "name": "input-mask-6",
+          "kind": "sp",
+          "text": "M",
+          "boundsPx": [
+            48.0,
+            152.0,
+            32.0,
+            32.0
+          ],
+          "fingerprint": "8a4a874af523a8803c9a83b5797b8eddfd58a0f2fe9f0744258bde9700dcb763",
+          "fontPt": [
+            9.38
+          ]
+        },
+        {
+          "id": "26",
+          "name": "input-border-6",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            48.0,
+            152.0,
+            32.0,
+            32.0
+          ],
+          "fingerprint": "e5110041c2683b5218f9bab981a2eb8321c94a62c4e40141181cb0218aa08627",
+          "fontPt": []
+        },
+        {
+          "id": "27",
+          "name": "input-mask-7",
+          "kind": "sp",
+          "text": "M",
+          "boundsPx": [
+            80.0,
+            152.0,
+            32.0,
+            32.0
+          ],
+          "fingerprint": "1dc9bca40ae21856863bf21f736dd3984c0a83bed6fe5162c8dd51085610f4b3",
+          "fontPt": [
+            9.38
+          ]
+        },
+        {
+          "id": "28",
+          "name": "input-border-7",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            80.0,
+            152.0,
+            32.0,
+            32.0
+          ],
+          "fingerprint": "b2af1021d82579a8fb866fb75d4aec376d94391230e04788ef8c2b8caa8b1a17",
+          "fontPt": []
+        },
+        {
+          "id": "29",
+          "name": "input-mask-8",
+          "kind": "sp",
+          "text": "M",
+          "boundsPx": [
+            112.0,
+            152.0,
+            32.0,
+            32.0
+          ],
+          "fingerprint": "3843c616a9e86cc79c72a8f887b8b71d400100637212aa5ccfff5b673bfbdea7",
+          "fontPt": [
+            9.38
+          ]
+        },
+        {
+          "id": "30",
+          "name": "input-border-8",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            112.0,
+            152.0,
+            32.0,
+            32.0
+          ],
+          "fingerprint": "42569cafa72f043b8779ddeae16ab7f38bb761b08452549cebd0b03708c1c209",
+          "fontPt": []
+        },
+        {
+          "id": "31",
+          "name": "input-mask-9",
+          "kind": "sp",
+          "text": "M",
+          "boundsPx": [
+            16.0,
+            184.0,
+            32.0,
+            32.0
+          ],
+          "fingerprint": "3b3312608ded23a6032dd26f748b2a3ebf25813a7b797e2c36e8776415cc31ec",
+          "fontPt": [
+            9.38
+          ]
+        },
+        {
+          "id": "32",
+          "name": "input-border-9",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            16.0,
+            184.0,
+            32.0,
+            32.0
+          ],
+          "fingerprint": "dda6e8b5962ae68626196689b128a07fc1db0578a79f484b785f9e188487e754",
+          "fontPt": []
+        },
+        {
+          "id": "153",
+          "name": "input-photo-10",
+          "kind": "pic",
+          "text": "",
+          "boundsPx": [
+            48.0,
+            184.0,
+            32.0,
+            32.0
+          ],
+          "fingerprint": "f2d4f6697a912c96b016432dfb54891e427b37f9f550a878e7f133c061ad9614",
+          "fontPt": []
+        },
+        {
+          "id": "34",
+          "name": "input-id-bg-10",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            49.0,
+            201.0,
+            18.0,
+            14.0
+          ],
+          "fingerprint": "372f0d8e2c4768eb5ca17f3f627c0741d91afb9809b6df54b892eca2f0ed7313",
+          "fontPt": []
+        },
+        {
+          "id": "35",
+          "name": "input-id-10",
+          "kind": "sp",
+          "text": "10",
+          "boundsPx": [
+            49.0,
+            201.0,
+            18.0,
+            14.0
+          ],
+          "fingerprint": "e157c6a9825cc00d3f7af921bd217115d03daf1e1cc81c72f858fe717611ac64",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "36",
+          "name": "input-border-10",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            48.0,
+            184.0,
+            32.0,
+            32.0
+          ],
+          "fingerprint": "d00efcfbc5df071e998b755a34039b3b8a52f963c57d45292fea437786c8f2bd",
+          "fontPt": []
+        },
+        {
+          "id": "37",
+          "name": "input-mask-11",
+          "kind": "sp",
+          "text": "M",
+          "boundsPx": [
+            80.0,
+            184.0,
+            32.0,
+            32.0
+          ],
+          "fingerprint": "a22227a99f5bbdc5c52c3d8dbc7ce681fd793f68637bec31cafd19c0739264de",
+          "fontPt": [
+            9.38
+          ]
+        },
+        {
+          "id": "38",
+          "name": "input-border-11",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            80.0,
+            184.0,
+            32.0,
+            32.0
+          ],
+          "fingerprint": "3726cdb43e259dc5a4f6f522bc7e8463e7ceaf2c9cd8ad6ac50a1226cbf1b6fa",
+          "fontPt": []
+        },
+        {
+          "id": "39",
+          "name": "input-mask-12",
+          "kind": "sp",
+          "text": "M",
+          "boundsPx": [
+            112.0,
+            184.0,
+            32.0,
+            32.0
+          ],
+          "fingerprint": "baa8e0c262df10450fa3a3b432d0b3bf1dc479d188511f7e8843571994975aea",
+          "fontPt": [
+            9.38
+          ]
+        },
+        {
+          "id": "40",
+          "name": "input-border-12",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            112.0,
+            184.0,
+            32.0,
+            32.0
+          ],
+          "fingerprint": "3879e272264cf4443355d0ff6574ce88596db87c63725dd04cefca1e5fbb5980",
+          "fontPt": []
+        },
+        {
+          "id": "41",
+          "name": "input-mask-13",
+          "kind": "sp",
+          "text": "M",
+          "boundsPx": [
+            16.0,
+            216.0,
+            32.0,
+            32.0
+          ],
+          "fingerprint": "2cadb42325838ebbeecd91049a1282c2beb1d9f5c75e65d007b0d04cd7a63dd4",
+          "fontPt": [
+            9.38
+          ]
+        },
+        {
+          "id": "42",
+          "name": "input-border-13",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            16.0,
+            216.0,
+            32.0,
+            32.0
+          ],
+          "fingerprint": "eb3f464b5d7ec49e3b253193043b74e381bc5d9517f797fddd3c0b984717eb67",
+          "fontPt": []
+        },
+        {
+          "id": "43",
+          "name": "input-mask-14",
+          "kind": "sp",
+          "text": "M",
+          "boundsPx": [
+            48.0,
+            216.0,
+            32.0,
+            32.0
+          ],
+          "fingerprint": "94ad50bed8d1d76bafa0dc32327eefdaa4fbd6adce630db5fd6a8886418ac01f",
+          "fontPt": [
+            9.38
+          ]
+        },
+        {
+          "id": "44",
+          "name": "input-border-14",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            48.0,
+            216.0,
+            32.0,
+            32.0
+          ],
+          "fingerprint": "f045d52806a363799b99c41a5c3fce70f342fb82d676e538b90eecfd8785485a",
+          "fontPt": []
+        },
+        {
+          "id": "165",
+          "name": "input-photo-15",
+          "kind": "pic",
+          "text": "",
+          "boundsPx": [
+            80.0,
+            216.0,
+            32.0,
+            32.0
+          ],
+          "fingerprint": "ab75865728b21926d7a72829fd06299dc22889b963f265a88b93a8d0121ad8a4",
+          "fontPt": []
+        },
+        {
+          "id": "46",
+          "name": "input-id-bg-15",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            81.0,
+            233.0,
+            18.0,
+            14.0
+          ],
+          "fingerprint": "f1f6034ac7d7c317ba108e89de25a7e81e0b58725eb6e48fc3521dc547086d0f",
+          "fontPt": []
+        },
+        {
+          "id": "47",
+          "name": "input-id-15",
+          "kind": "sp",
+          "text": "15",
+          "boundsPx": [
+            81.0,
+            233.0,
+            18.0,
+            14.0
+          ],
+          "fingerprint": "a7e78e0fde72be8a22c7077ca66bb74ae35c5a64e762f7fe5c20f7749ddc9e63",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "48",
+          "name": "input-border-15",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            80.0,
+            216.0,
+            32.0,
+            32.0
+          ],
+          "fingerprint": "52c9095a9626c3c4639ebd9526ca3eca042fc2004a1484ef905415007223a7d5",
+          "fontPt": []
+        },
+        {
+          "id": "49",
+          "name": "input-mask-16",
+          "kind": "sp",
+          "text": "M",
+          "boundsPx": [
+            112.0,
+            216.0,
+            32.0,
+            32.0
+          ],
+          "fingerprint": "b9e3b1b126c578e3b2f1b4be93c5ab8107ba0c6eb234c04b1237282a1cd55ffc",
+          "fontPt": [
+            9.38
+          ]
+        },
+        {
+          "id": "50",
+          "name": "input-border-16",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            112.0,
+            216.0,
+            32.0,
+            32.0
+          ],
+          "fingerprint": "ae47ab7d73e43bafb4cdc17a906a227c1adf805b927ac38cf83f2fdfac18ccb4",
+          "fontPt": []
+        },
+        {
+          "id": "51",
+          "name": "gathered-patches",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            177.0,
+            117.0,
+            30.0,
+            134.0
+          ],
+          "fingerprint": "7174cce973fc0b45f3601ff1e867d0ca221c26dae727f653abf5434cf240094f",
+          "fontPt": []
+        },
+        {
+          "id": "172",
+          "name": "gather-photo-2",
+          "kind": "pic",
+          "text": "",
+          "boundsPx": [
+            177.0,
+            117.0,
+            30.0,
+            30.0
+          ],
+          "fingerprint": "1aa4be78c2d5e5118ccdd37e2a6099be0461e6a500b1d2e274ddb77be33a0b9d",
+          "fontPt": []
+        },
+        {
+          "id": "53",
+          "name": "gather-id-bg-2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            177.0,
+            133.0,
+            18.0,
+            14.0
+          ],
+          "fingerprint": "6d2d6ae843a479bafb83b4ca8fa753ac95b3cdeb8073fad00d4b814bf6672c18",
+          "fontPt": []
+        },
+        {
+          "id": "54",
+          "name": "gather-id-2",
+          "kind": "sp",
+          "text": "2",
+          "boundsPx": [
+            177.0,
+            133.0,
+            18.0,
+            14.0
+          ],
+          "fingerprint": "103aabd9b603f8f82ea42c9e9b027136d3c115cf05d80fc916b0b74c3974d101",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "175",
+          "name": "gather-photo-5",
+          "kind": "pic",
+          "text": "",
+          "boundsPx": [
+            177.0,
+            151.67,
+            30.0,
+            30.0
+          ],
+          "fingerprint": "504cb55c5da4d464851232e18cca455a2f8ca5a6185db8539b1629af11ab4112",
+          "fontPt": []
+        },
+        {
+          "id": "56",
+          "name": "gather-id-bg-5",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            177.0,
+            167.67,
+            18.0,
+            14.0
+          ],
+          "fingerprint": "eecfb35d895ebb4e66907c50895efa933f599a3ce22df004ed4d91b214d7f9e3",
+          "fontPt": []
+        },
+        {
+          "id": "57",
+          "name": "gather-id-5",
+          "kind": "sp",
+          "text": "5",
+          "boundsPx": [
+            177.0,
+            167.67,
+            18.0,
+            14.0
+          ],
+          "fingerprint": "a6f9eebede7756659a7a3d29e97a7180b3a0670fd305c79e07d020878015ceaf",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "178",
+          "name": "gather-photo-10",
+          "kind": "pic",
+          "text": "",
+          "boundsPx": [
+            177.0,
+            186.3401,
+            30.0,
+            30.0
+          ],
+          "fingerprint": "860733859bf586e18cffa413cf868972556fd62bb77d2935b57929eae51df2c0",
+          "fontPt": []
+        },
+        {
+          "id": "59",
+          "name": "gather-id-bg-10",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            177.0,
+            202.3401,
+            18.0,
+            14.0
+          ],
+          "fingerprint": "613b1d684760185bd6ad8d2bbc23a06b9f311a8f06350a71688cc2903a4ec627",
+          "fontPt": []
+        },
+        {
+          "id": "60",
+          "name": "gather-id-10",
+          "kind": "sp",
+          "text": "10",
+          "boundsPx": [
+            177.0,
+            202.3401,
+            18.0,
+            14.0
+          ],
+          "fingerprint": "d85b72ef6fc4820b39c7014af3b7322244f072e35c5a6f9b25a016fd676d7c96",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "181",
+          "name": "gather-photo-15",
+          "kind": "pic",
+          "text": "",
+          "boundsPx": [
+            177.0,
+            221.01,
+            30.0,
+            30.0
+          ],
+          "fingerprint": "fde987858c3592eaff78bbc064b949b15dc5acf3f333166e12f07c2f0d50706e",
+          "fontPt": []
+        },
+        {
+          "id": "62",
+          "name": "gather-id-bg-15",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            177.0,
+            237.01,
+            18.0,
+            14.0
+          ],
+          "fingerprint": "fb550df9eb81e5829797e6b2b178079ccbe0855eb6f631f3dd711e58b541e281",
+          "fontPt": []
+        },
+        {
+          "id": "63",
+          "name": "gather-id-15",
+          "kind": "sp",
+          "text": "15",
+          "boundsPx": [
+            177.0,
+            237.01,
+            18.0,
+            14.0
+          ],
+          "fingerprint": "ab6025b1ccdb6f59957342e6cbf47ee44c4e6be8f5a164b6589cccc2eed544b4",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "64",
+          "name": "encoder",
+          "kind": "sp",
+          "text": "Encoder",
+          "boundsPx": [
+            230.0,
+            109.0,
+            49.0,
+            150.0
+          ],
+          "fingerprint": "f7e366022e732f275511de5f482dc43fca33b485cc2c195e9341bd43be5c6ac9",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "65",
+          "name": "visible-latents",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            300.0,
+            122.0,
+            24.0,
+            124.0
+          ],
+          "fingerprint": "51278d3941c5779d98c8572ecec3ec0f82b96e8dfceaa6896f3368a977e558a6",
+          "fontPt": []
+        },
+        {
+          "id": "66",
+          "name": "latent-2",
+          "kind": "sp",
+          "text": "2",
+          "boundsPx": [
+            300.0,
+            122.0,
+            24.0,
+            24.0
+          ],
+          "fingerprint": "971aef6cabc196fb87392a8d0cefb45832653683aad50221f4fda4b6b2022530",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "67",
+          "name": "latent-5",
+          "kind": "sp",
+          "text": "5",
+          "boundsPx": [
+            300.0,
+            155.33,
+            24.0,
+            24.0
+          ],
+          "fingerprint": "1f6a5997026cf5206f9b5c42ea58871af7b96483c2e43bfe267a2bbad80248e2",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "68",
+          "name": "latent-10",
+          "kind": "sp",
+          "text": "10",
+          "boundsPx": [
+            300.0,
+            188.6601,
+            24.0,
+            24.0
+          ],
+          "fingerprint": "25ed80598882430233159f8e3d355779e1391823639d89031777076aa798dc56",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "69",
+          "name": "latent-15",
+          "kind": "sp",
+          "text": "15",
+          "boundsPx": [
+            300.0,
+            221.99,
+            24.0,
+            24.0
+          ],
+          "fingerprint": "1647083d7133086761666e0c19f7fbd7904fc1ea4a4bdd6f27ff18c92ed3eb68",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "70",
+          "name": "restored-tokens",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            364.0,
+            142.0,
+            84.0,
+            84.0
+          ],
+          "fingerprint": "ab68daf3a720deb8337f2f6b002fb31c944005df1a82fe85b48d4034b9492489",
+          "fontPt": []
+        },
+        {
+          "id": "71",
+          "name": "restore-1",
+          "kind": "sp",
+          "text": "M",
+          "boundsPx": [
+            364.0,
+            142.0,
+            21.0,
+            21.0
+          ],
+          "fingerprint": "6a207995a48b0bcc9b1b3ca8b6cebad5e25681508d74a780dba1f51e526c9d2b",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "72",
+          "name": "restore-2",
+          "kind": "sp",
+          "text": "2",
+          "boundsPx": [
+            385.0,
+            142.0,
+            21.0,
+            21.0
+          ],
+          "fingerprint": "a76c2c67d0134e685bc9a8707f721954d001492818f27a5b8ce4c9f8e9123303",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "73",
+          "name": "restore-3",
+          "kind": "sp",
+          "text": "M",
+          "boundsPx": [
+            406.0,
+            142.0,
+            21.0,
+            21.0
+          ],
+          "fingerprint": "b7e34e4020f287b41fe469358e5af7124ecae5e1e734f48be97901fd1d9122ed",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "74",
+          "name": "restore-4",
+          "kind": "sp",
+          "text": "M",
+          "boundsPx": [
+            427.0,
+            142.0,
+            21.0,
+            21.0
+          ],
+          "fingerprint": "e2ffea495431b9293813c2df9c4ea06cd357fa37b6bb59e75047e14a554b2a24",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "75",
+          "name": "restore-5",
+          "kind": "sp",
+          "text": "5",
+          "boundsPx": [
+            364.0,
+            163.0,
+            21.0,
+            21.0
+          ],
+          "fingerprint": "e6a849769599e6169e3358a353322174bfb71bfd5d063014e2981ddac2268f12",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "76",
+          "name": "restore-6",
+          "kind": "sp",
+          "text": "M",
+          "boundsPx": [
+            385.0,
+            163.0,
+            21.0,
+            21.0
+          ],
+          "fingerprint": "80cb1c20697337110e27f00fe4e0151a0fc2b91e8a87239002baf203df04d8bc",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "77",
+          "name": "restore-7",
+          "kind": "sp",
+          "text": "M",
+          "boundsPx": [
+            406.0,
+            163.0,
+            21.0,
+            21.0
+          ],
+          "fingerprint": "21a892d4bb81862a5ab92a727e6ca455fb0ca36046d87634c61006eba6f1a410",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "78",
+          "name": "restore-8",
+          "kind": "sp",
+          "text": "M",
+          "boundsPx": [
+            427.0,
+            163.0,
+            21.0,
+            21.0
+          ],
+          "fingerprint": "284f5e74dd0f0d403c4e25e17c6cec5d44c6795c92309459f4bbc648c4c2088a",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "79",
+          "name": "restore-9",
+          "kind": "sp",
+          "text": "M",
+          "boundsPx": [
+            364.0,
+            184.0,
+            21.0,
+            21.0
+          ],
+          "fingerprint": "2a0287868ec0b9fdb4c4edd56b4e0d8cf802cc3edf85f6548b441788ff56b461",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "80",
+          "name": "restore-10",
+          "kind": "sp",
+          "text": "10",
+          "boundsPx": [
+            385.0,
+            184.0,
+            21.0,
+            21.0
+          ],
+          "fingerprint": "d572f91ff6166017a15a0aedb08d2dac1a817a7f529b993bbd5009467fbb5da5",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "81",
+          "name": "restore-11",
+          "kind": "sp",
+          "text": "M",
+          "boundsPx": [
+            406.0,
+            184.0,
+            21.0,
+            21.0
+          ],
+          "fingerprint": "82c9fcc8e3c213575b72462d46c8df867840a5f00fe0bbcf61a881cbbce962b5",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "82",
+          "name": "restore-12",
+          "kind": "sp",
+          "text": "M",
+          "boundsPx": [
+            427.0,
+            184.0,
+            21.0,
+            21.0
+          ],
+          "fingerprint": "00504084bd96e2be462499fbf893b7e5e76f2450ccb6a4ba7ed779d9a807db91",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "83",
+          "name": "restore-13",
+          "kind": "sp",
+          "text": "M",
+          "boundsPx": [
+            364.0,
+            205.0,
+            21.0,
+            21.0
+          ],
+          "fingerprint": "e91414236da9a5868382e733de73b4f843123547add2d34a7f8424cbc32ae23e",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "84",
+          "name": "restore-14",
+          "kind": "sp",
+          "text": "M",
+          "boundsPx": [
+            385.0,
+            205.0,
+            21.0,
+            21.0
+          ],
+          "fingerprint": "6bf754e87c88006476d36cb4168c4aea6d1537120703a061488d6eb468d6c308",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "85",
+          "name": "restore-15",
+          "kind": "sp",
+          "text": "15",
+          "boundsPx": [
+            406.0,
+            205.0,
+            21.0,
+            21.0
+          ],
+          "fingerprint": "9ca059e18e021dd1b0d5fe3aa972e879b849e9f299db291b8816f9660d033925",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "86",
+          "name": "restore-16",
+          "kind": "sp",
+          "text": "M",
+          "boundsPx": [
+            427.0,
+            205.0,
+            21.0,
+            21.0
+          ],
+          "fingerprint": "28835e310ad15ebd26ea15c7652e6dbacd2c352ae29c080ff869b2ec283badcc",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "87",
+          "name": "decoder",
+          "kind": "sp",
+          "text": "Decoder",
+          "boundsPx": [
+            474.0,
+            138.0,
+            47.0,
+            92.0
+          ],
+          "fingerprint": "d975f615a6498ffed2650e210c4ae209c473438f13d2f46bbd25513821a4a2cd",
+          "fontPt": [
+            8.48
+          ]
+        },
+        {
+          "id": "88",
+          "name": "predicted-patches",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            548.0,
+            132.0,
+            104.0,
+            104.0
+          ],
+          "fingerprint": "00e989e1e55c250730f05c7ada867f21952993d5c27b8b561cac760c411fe150",
+          "fontPt": []
+        },
+        {
+          "id": "89",
+          "name": "prediction-1",
+          "kind": "sp",
+          "text": "1",
+          "boundsPx": [
+            548.0,
+            132.0,
+            26.0,
+            26.0
+          ],
+          "fingerprint": "0062b0a607a163cacce8b8654b9290c5a19219220c3cee949e7e67057824c116",
+          "fontPt": [
+            9.38
+          ]
+        },
+        {
+          "id": "90",
+          "name": "prediction-2",
+          "kind": "sp",
+          "text": "2",
+          "boundsPx": [
+            574.0,
+            132.0,
+            26.0,
+            26.0
+          ],
+          "fingerprint": "8124d3746c2b97b7b5db1226d298e721558b371fadcdb0fbd73f754045515ce2",
+          "fontPt": [
+            9.38
+          ]
+        },
+        {
+          "id": "91",
+          "name": "prediction-3",
+          "kind": "sp",
+          "text": "3",
+          "boundsPx": [
+            600.0,
+            132.0,
+            26.0,
+            26.0
+          ],
+          "fingerprint": "f73c5cd1e559cb0caf1c3a8d491d02c8ab55df1e001a8ce3678f92c20493c50c",
+          "fontPt": [
+            9.38
+          ]
+        },
+        {
+          "id": "92",
+          "name": "prediction-4",
+          "kind": "sp",
+          "text": "4",
+          "boundsPx": [
+            626.0,
+            132.0,
+            26.0,
+            26.0
+          ],
+          "fingerprint": "9095394ba80c32fb0221c545bee2143e0d6b073e7a894ee1d97db7c2549db91d",
+          "fontPt": [
+            9.38
+          ]
+        },
+        {
+          "id": "93",
+          "name": "prediction-5",
+          "kind": "sp",
+          "text": "5",
+          "boundsPx": [
+            548.0,
+            158.0,
+            26.0,
+            26.0
+          ],
+          "fingerprint": "3a6a691fba9384d266b7ef329eb2faf0de93efeabd2d8d7fabe62a19c8598a95",
+          "fontPt": [
+            9.38
+          ]
+        },
+        {
+          "id": "94",
+          "name": "prediction-6",
+          "kind": "sp",
+          "text": "6",
+          "boundsPx": [
+            574.0,
+            158.0,
+            26.0,
+            26.0
+          ],
+          "fingerprint": "e5317cebb31010d178ec9fd2501fd2e0b3d2112b6f470e94ed974d22b4dd8461",
+          "fontPt": [
+            9.38
+          ]
+        },
+        {
+          "id": "95",
+          "name": "prediction-7",
+          "kind": "sp",
+          "text": "7",
+          "boundsPx": [
+            600.0,
+            158.0,
+            26.0,
+            26.0
+          ],
+          "fingerprint": "29aeb7d0c40aef32c3e13242bca61b9041c6269ebc781e8d64cb259af07d7c37",
+          "fontPt": [
+            9.38
+          ]
+        },
+        {
+          "id": "96",
+          "name": "prediction-8",
+          "kind": "sp",
+          "text": "8",
+          "boundsPx": [
+            626.0,
+            158.0,
+            26.0,
+            26.0
+          ],
+          "fingerprint": "94d8985bbf867689420425fe67a5d2ad4bf026e9d2850d7910b6efc0c290fcf4",
+          "fontPt": [
+            9.38
+          ]
+        },
+        {
+          "id": "97",
+          "name": "prediction-9",
+          "kind": "sp",
+          "text": "9",
+          "boundsPx": [
+            548.0,
+            184.0,
+            26.0,
+            26.0
+          ],
+          "fingerprint": "a89b8e225af458651bec7713efc5c2d6f99480e48b7c60311dd2aac165ba6bbd",
+          "fontPt": [
+            9.38
+          ]
+        },
+        {
+          "id": "98",
+          "name": "prediction-10",
+          "kind": "sp",
+          "text": "10",
+          "boundsPx": [
+            574.0,
+            184.0,
+            26.0,
+            26.0
+          ],
+          "fingerprint": "dcb5bed38268c92f917e6c86f035fa7919c16398601fecc6bc15c66fcf2d254d",
+          "fontPt": [
+            9.38
+          ]
+        },
+        {
+          "id": "99",
+          "name": "prediction-11",
+          "kind": "sp",
+          "text": "11",
+          "boundsPx": [
+            600.0,
+            184.0,
+            26.0,
+            26.0
+          ],
+          "fingerprint": "de5edc072a2005a269653ad0337cab1de9131c2d9e1695dbfe0302c05d0884fe",
+          "fontPt": [
+            9.38
+          ]
+        },
+        {
+          "id": "100",
+          "name": "prediction-12",
+          "kind": "sp",
+          "text": "12",
+          "boundsPx": [
+            626.0,
+            184.0,
+            26.0,
+            26.0
+          ],
+          "fingerprint": "9e17069abc08c9978b927f852ea5495a932fdd17e96a8ffd54423d0cfc1ef8fb",
+          "fontPt": [
+            9.38
+          ]
+        },
+        {
+          "id": "101",
+          "name": "prediction-13",
+          "kind": "sp",
+          "text": "13",
+          "boundsPx": [
+            548.0,
+            210.0,
+            26.0,
+            26.0
+          ],
+          "fingerprint": "df44d24e9ce452be5cb00520c9e314287e39a2dd11540c2b6e21b7cc813f7c40",
+          "fontPt": [
+            9.38
+          ]
+        },
+        {
+          "id": "102",
+          "name": "prediction-14",
+          "kind": "sp",
+          "text": "14",
+          "boundsPx": [
+            574.0,
+            210.0,
+            26.0,
+            26.0
+          ],
+          "fingerprint": "b5549a2fc2e475d70348f5c1fd657702b4df0ef323f1c861afe3cd9a8417b46d",
+          "fontPt": [
+            9.38
+          ]
+        },
+        {
+          "id": "103",
+          "name": "prediction-15",
+          "kind": "sp",
+          "text": "15",
+          "boundsPx": [
+            600.0,
+            210.0,
+            26.0,
+            26.0
+          ],
+          "fingerprint": "376e3979759addd34e79521ab724a137784afaaeb7cb5d129f666ba6fb2f0a04",
+          "fontPt": [
+            9.38
+          ]
+        },
+        {
+          "id": "104",
+          "name": "prediction-16",
+          "kind": "sp",
+          "text": "16",
+          "boundsPx": [
+            626.0,
+            210.0,
+            26.0,
+            26.0
+          ],
+          "fingerprint": "65150d6b03b551775407703715790f37486f3e6fd0909281ace8bb1f06fc5e95",
+          "fontPt": [
+            9.38
+          ]
+        },
+        {
+          "id": "225",
+          "name": "forward-0",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            144.0,
+            184.0,
+            33.0,
+            0.0
+          ],
+          "fingerprint": "be7582806906df89f524b6635e1058bd46658b389fd48449a1905b82cb96c90c",
+          "fontPt": []
+        },
+        {
+          "id": "226",
+          "name": "forward-1",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            207.0,
+            184.0,
+            23.0,
+            0.0
+          ],
+          "fingerprint": "7c934da0799be2db9043e617ef501baa2f9ba369cb98809c19faa1c525e31705",
+          "fontPt": []
+        },
+        {
+          "id": "227",
+          "name": "forward-2",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            279.0,
+            184.0,
+            21.0,
+            0.0
+          ],
+          "fingerprint": "ba125580e0a2daff75af8f37ab4b31cda103553b581cdc30bb66c75bb0887493",
+          "fontPt": []
+        },
+        {
+          "id": "228",
+          "name": "forward-3",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            324.0,
+            184.0,
+            40.0,
+            0.0
+          ],
+          "fingerprint": "53aeff4bd832bf59fd0335ed669e2be953ad63603adaa0e571afda481d523cd5",
+          "fontPt": []
+        },
+        {
+          "id": "229",
+          "name": "forward-4",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            448.0,
+            184.0,
+            26.0,
+            0.0
+          ],
+          "fingerprint": "d5308f797f6d892e9bbc07fc35a29fd15a4bb20c1d08c59d659e0996e1593dde",
+          "fontPt": []
+        },
+        {
+          "id": "230",
+          "name": "forward-5",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            521.0,
+            184.0,
+            27.0,
+            0.0
+          ],
+          "fingerprint": "4bb895da346cb780b82eb2d771501e6f96cd37137f65a3dada8dba8ed0d18c5d",
+          "fontPt": []
+        },
+        {
+          "id": "111",
+          "name": "visible-count",
+          "kind": "sp",
+          "text": "4 of 16 visible",
+          "boundsPx": [
+            16.0,
+            255.0,
+            128.0,
+            18.0
+          ],
+          "fingerprint": "1ada49e81edc23ca2eb6e01fc81a2a32a0a0a9f9f5fb2796cee7a3fb8b00daa5",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "112",
+          "name": "target-heading",
+          "kind": "sp",
+          "text": "Original target",
+          "boundsPx": [
+            16.0,
+            294.0,
+            96.0,
+            20.0
+          ],
+          "fingerprint": "3293455b19b605d59f75d6045774af16ec68017fed477de8435dcced03ba4a6f",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "113",
+          "name": "target-image",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            28.0,
+            318.0,
+            72.0,
+            72.0
+          ],
+          "fingerprint": "1a16cb13f500984af3587b91cfd44f32f730da1edc183f71ae93bc7f03e90404",
+          "fontPt": []
+        },
+        {
+          "id": "234",
+          "name": "target-photo",
+          "kind": "pic",
+          "text": "",
+          "boundsPx": [
+            28.0,
+            318.0,
+            72.0,
+            72.0
+          ],
+          "fingerprint": "94a64eb4870c4347080b63729c38d2455795a44036fedb5927734723766ad3b5",
+          "fontPt": []
+        },
+        {
+          "id": "115",
+          "name": "masked-loss",
+          "kind": "sp",
+          "text": "Masked-patch loss",
+          "boundsPx": [
+            490.0,
+            330.0,
+            162.0,
+            48.0
+          ],
+          "fingerprint": "898b63d84a61d518d92c509ebd1e19da7f3167a0454cf9dad95d7efbd36c7a6d",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "236",
+          "name": "target-to-loss",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            100.0,
+            354.0,
+            390.0,
+            0.0
+          ],
+          "fingerprint": "de03ce6e2f433f474e5c3b5ad760cc797a4e50dcbdf5b96c598f1ce6435d8cd8",
+          "fontPt": []
+        },
+        {
+          "id": "237",
+          "name": "prediction-to-loss",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            571.0,
+            236.0,
+            29.0,
+            94.0
+          ],
+          "fingerprint": "8a974aad9a5476381e79eda472b23696b7bae19b44c4cd0598f6c3b6eaab1c04",
+          "fontPt": []
+        },
+        {
+          "id": "118",
+          "name": "target-route-label",
+          "kind": "sp",
+          "text": "Compare only the 12 masked positions",
+          "boundsPx": [
+            125.0,
+            326.0,
+            335.0,
+            20.0
+          ],
+          "fingerprint": "cc078cc5a6c5176f2ba36647fca62ebb4ac4c6d7172972d1dd93feadd0c84181",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "119",
+          "name": "prediction-route-label",
+          "kind": "sp",
+          "text": "Masked\npositions",
+          "boundsPx": [
+            454.0,
+            283.0,
+            108.0,
+            34.0
+          ],
+          "fingerprint": "8d0167396ceb0187cedd6d5defd7ffc7bb3e4705cc01281563a3d297955caefc",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "120",
+          "name": "footer",
+          "kind": "sp",
+          "text": "Illustrative training schematic · predictions shown symbolically",
+          "boundsPx": [
+            16.0,
+            398.0,
+            640.0,
+            15.0
+          ],
+          "fingerprint": "4ca5d2d31d05cae77b7d1e5e47ae4ae5e97a40cf6e6ca6dc7194d140e06d4d91",
+          "fontPt": [
+            8.1
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "name": "forward-0",
+          "from": "masked-field",
+          "to": "gathered-patches",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "forward-1",
+          "from": "gathered-patches",
+          "to": "encoder",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "forward-2",
+          "from": "encoder",
+          "to": "visible-latents",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "forward-3",
+          "from": "visible-latents",
+          "to": "restored-tokens",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "forward-4",
+          "from": "restored-tokens",
+          "to": "decoder",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "forward-5",
+          "from": "decoder",
+          "to": "predicted-patches",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "target-to-loss",
+          "from": "target-image",
+          "to": "masked-loss",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "prediction-to-loss",
+          "from": "predicted-patches",
+          "to": "masked-loss",
+          "fromIdx": "2",
+          "toIdx": "0",
+          "directed": true
+        }
+      ],
+      "counts": {
+        "sp": 103,
+        "cxnSp": 8,
+        "grpSp": 0,
+        "pic": 9,
+        "graphicFrame": 0
+      },
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "passed": true
+}

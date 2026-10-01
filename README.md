@@ -20,6 +20,8 @@
 
 Stars, forks and watchers refresh daily; views show a dated GitHub 14-day snapshot. [Badge details](docs/repository-badges.md).
 
+> **Using Claude?** The full workflow requires a separately connected image-generation tool. The Claude skill includes the PowerPoint authoring engine, but no image provider or provider credentials. [How the Claude edition works](docs/claude-image-generation.md).
+
 ---
 
 ## From draft to editable figure
@@ -45,6 +47,24 @@ Start with a visual direction. Finish with text, shapes, indices and connectors 
 
 This is an illustrative document-evidence example. The final preview was rendered from the saved PPTX; the full draft is not embedded in that file.
 
+### Masked image modeling
+
+![Masked image modeling with photographic patches, a visible-token encoder, restored mask tokens, a decoder and masked-patch loss.](docs/images/masked-reconstruction.png)
+
+One independently generated source photograph, nine replaceable picture objects, and native patch IDs, masks, modules and arrows. The same four patch identities survive every stage. Predictions are symbolic; this is an illustrative training schematic, not a model result. Visual principles studied from [MAE](https://arxiv.org/abs/2111.06377).
+
+[Editable PPTX](output/gallery-masked-reconstruction-14/figure-v2.pptx) · [PDF](output/gallery-masked-reconstruction-14/figure.pdf) · [Image-model draft](output/gallery-masked-reconstruction-14/image-draft.png) · [Draft → PPTX comparison](output/gallery-masked-reconstruction-14/draft-vs-pptx.png) · [Generation record](output/gallery-masked-reconstruction-14/report.md)
+
+### Graph pooling
+
+![An eight-node graph, its explicit cluster-assignment matrix and a three-node coarsened graph with native mathematical equations.](docs/images/graph-pooling.png)
+
+Every hull, node, edge, matrix cell and mathematical label is a native PowerPoint object. Cluster identity is encoded by both color and IDs, and the pooled adjacency is checked against the original graph. This hard-assignment toy example is inspired by [DiffPool](https://arxiv.org/abs/1806.08804), which learns soft assignments.
+
+[Editable PPTX](output/gallery-graph-pooling-15/figure-v2.pptx) · [PDF](output/gallery-graph-pooling-15/figure.pdf) · [Image-model draft](output/gallery-graph-pooling-15/image-draft.png) · [Draft → PPTX comparison](output/gallery-graph-pooling-15/draft-vs-pptx.png) · [Generation record](output/gallery-graph-pooling-15/report.md)
+
+These two examples were generated in Codex and previewed from the saved PPTX files. They demonstrate the workflow and output format; they are not end-to-end Claude execution tests.
+
 <details>
 <summary><strong>Explore another example: microfluidic sorting</strong></summary>
 
@@ -57,6 +77,8 @@ A hypothetical process figure with native channel paths, droplets, labels and co
 </details>
 
 ## Why Paper Figure
+
+![A visual draft becomes editable text, math, connections and shapes, then a saved PowerPoint file is rendered and reviewed.](docs/images/readme/why-paper-figure.svg)
 
 <table>
 <tr>
@@ -139,6 +161,8 @@ New figures use an **image-generation tool** for the full composition draft and 
 | Rendered math checks | Python with `pdfplumber` | Python with `pdfplumber` |
 
 The Codex edition depends on its host's bundled authoring runtime. The Claude edition uses public dependencies; see its [environment guide](ports/claude/paper-figure/references/claude-environment.md). Installing a skill does not configure an image provider. If image generation is unavailable, the skill reports the missing capability before native construction.
+
+**How Claude handles the image step:** Claude plans the figure and calls an external image tool; that tool produces the raster draft. Claude then inspects it and uses PptxGenJS to rebuild native text, shapes and connectors. [Claude itself does not generate photos or illustrations](https://support.claude.com/en/articles/9002504-can-claude-produce-images). Without an image connection, the default new-figure workflow stops after preparation. An explicit request to skip drafting or to reproduce a supplied image follows a separately disclosed route. [Supported routes and limitations](docs/claude-image-generation.md).
 
 <details>
 <summary>Local setup for the Claude authoring engine</summary>

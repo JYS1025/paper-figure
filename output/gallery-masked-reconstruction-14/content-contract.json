@@ -1,0 +1,19 @@
+{
+  "title": "Learning from missing image patches",
+  "kind": "Illustrative masked-image modeling schematic, not an experiment",
+  "widthPx": 672,
+  "heightPx": 420,
+  "paperWidthMm": 177.8,
+  "patchGrid": [4,4],
+  "patchOrder": "row-major, IDs 1–16",
+  "visiblePatchIds": [2,5,10,15],
+  "maskCount": 12,
+  "visibleFraction": 0.25,
+  "flow": ["masked image -> visible patches", "visible patches -> encoder", "encoder -> visible latents", "visible latents -> restore order and insert mask tokens", "restored tokens -> decoder", "decoder -> predicted patches", "predicted patches -> masked-patch loss", "original target image -> masked-patch loss"],
+  "semantics": {"visibleLatents":"teal, retain patch IDs", "maskTokens":"gray M, one per absent ID", "predictions":"coral numbered cells, symbolic predictions only", "loss":"compare predictions with the original target on the 12 masked positions"},
+  "asset": "One separately generated wildlife photo, reused by native picture cropping; not a measured reconstruction",
+  "native": ["all labels", "patch borders and IDs", "mask cells", "latent cells", "module boxes", "connectors", "loss block"],
+  "reference": "https://arxiv.org/abs/2111.06377",
+  "palette": "teal-coral",
+  "requiredDisclosure": "Illustrative training schematic · predictions shown symbolically"
+}

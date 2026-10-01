@@ -1,0 +1,27 @@
+{
+  "figureSha256": "b915edd9510513b41f1b08bb81342f5ccd2df70a6bbb28477111932609495e1c",
+  "structurePassed": true,
+  "counts": {
+    "sp": 107,
+    "cxnSp": 2,
+    "grpSp": 2,
+    "pic": 0,
+    "graphicFrame": 0
+  },
+  "connectorDiagnostics": {
+    "connectors": 2,
+    "requiringRenderedReview": 2,
+    "geometryUnchecked": 0
+  },
+  "allConnectorEndpointOffsetsUnder0_01Px": true,
+  "renderedFonts": [
+    "Arial-BoldMT",
+    "ArialMT",
+    "TimesNewRomanPS-ItalicMT",
+    "TimesNewRomanPSMT"
+  ],
+  "minimumRenderedTextSizePt": 8.107,
+  "paperWidthMm": 177.8,
+  "powerPointManualEditTest": false,
+  "claudeEndToEndTest": false
+}

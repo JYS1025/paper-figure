@@ -1,0 +1,57 @@
+{
+  "source": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/gallery-graph-pooling-15/figure-v2.pptx",
+  "sourceSha256": "b915edd9510513b41f1b08bb81342f5ccd2df70a6bbb28477111932609495e1c",
+  "readOnly": true,
+  "scope": "Native connector attachment diagnostics; inspect the rendered figure for meaning and quality.",
+  "summary": {
+    "connectors": 2,
+    "requiringRenderedReview": 2,
+    "geometryUnchecked": 0
+  },
+  "connectors": [
+    {
+      "slide": 1,
+      "name": "explain-assignments",
+      "geometryStatus": "checked",
+      "reviewReasons": [
+        "from:transparent_boundary"
+      ],
+      "from": {
+        "name": "input-anchor",
+        "site": "3",
+        "boundary": "transparent"
+      },
+      "to": {
+        "name": "assignment-field",
+        "site": "1",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      }
+    },
+    {
+      "slide": 1,
+      "name": "explain-pooling",
+      "geometryStatus": "checked",
+      "reviewReasons": [
+        "to:transparent_boundary"
+      ],
+      "from": {
+        "name": "assignment-field",
+        "site": "3",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "pool-anchor",
+        "site": "1",
+        "boundary": "transparent"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      }
+    }
+  ]
+}

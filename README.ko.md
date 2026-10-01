@@ -20,6 +20,8 @@
 
 스타·포크·구독자는 매일 갱신하며, 조회수는 표시된 날짜 기준 GitHub 최근 14일 통계입니다. [집계 안내](docs/repository-badges.md).
 
+> **Claude 사용자 안내:** 전체 제작 과정에는 별도로 연결한 이미지 생성 도구가 필요합니다. Claude 스킬에는 PowerPoint 제작 엔진이 포함되지만, 이미지 서비스나 인증 정보는 포함되지 않습니다. [Claude 버전의 동작 방식](docs/claude-image-generation.md).
+
 ---
 
 ## 초안에서 편집형 figure로
@@ -45,6 +47,24 @@
 
 가상의 문서 근거 예시입니다. 최종 미리보기는 저장된 PPTX에서 렌더링했으며, 그 파일에 전체 초안 이미지를 넣지 않았습니다.
 
+### 마스킹 이미지 모델링
+
+![사진 패치, 가시 토큰 인코더, 마스크 토큰 복원, 디코더와 마스킹 위치의 손실로 구성한 편집형 학습 과정도.](docs/images/masked-reconstruction.png)
+
+별도로 생성한 원본 사진 하나를 9개의 교체 가능한 그림 객체로 사용하고, 패치 번호·마스크·모듈·화살표는 네이티브 객체로 만들었습니다. 네 패치의 정체성이 각 단계에서 유지됩니다. 예측은 기호로 표시한 설명용 학습 과정도이며 실제 모델 결과가 아닙니다. [MAE](https://arxiv.org/abs/2111.06377)의 시각적 표현 원칙을 참고했습니다.
+
+[편집형 PPTX](output/gallery-masked-reconstruction-14/figure-v2.pptx) · [PDF](output/gallery-masked-reconstruction-14/figure.pdf) · [이미지 모델 초안](output/gallery-masked-reconstruction-14/image-draft.png) · [초안 → PPTX 비교](output/gallery-masked-reconstruction-14/draft-vs-pptx.png) · [제작 기록](output/gallery-masked-reconstruction-14/report.md)
+
+### 그래프 풀링
+
+![8개 노드의 그래프, 명시적인 군집 할당 행렬, 3개 노드의 축약 그래프와 편집 가능한 수식.](docs/images/graph-pooling.png)
+
+군집 영역·노드·연결선·행렬 셀·수식을 모두 PowerPoint 객체로 만들었습니다. 색상과 ID로 군집의 정체성을 함께 표시하고, 원본 그래프에서 계산한 값과 축약 행렬을 대조합니다. [DiffPool](https://arxiv.org/abs/1806.08804)을 참고한 hard assignment 예시이며, 실제 DiffPool은 soft assignment를 학습합니다.
+
+[편집형 PPTX](output/gallery-graph-pooling-15/figure-v2.pptx) · [PDF](output/gallery-graph-pooling-15/figure.pdf) · [이미지 모델 초안](output/gallery-graph-pooling-15/image-draft.png) · [초안 → PPTX 비교](output/gallery-graph-pooling-15/draft-vs-pptx.png) · [제작 기록](output/gallery-graph-pooling-15/report.md)
+
+두 예시는 Codex에서 제작하고 저장된 PPTX에서 미리보기를 렌더링했습니다. 제작 과정과 출력 형식의 예시이며, Claude 환경의 전체 실행 검증 결과는 아닙니다.
+
 <details>
 <summary><strong>다른 예시 보기: 미세유체 액적 선별</strong></summary>
 
@@ -57,6 +77,8 @@
 </details>
 
 ## Paper Figure의 설계
+
+![시각 초안을 편집 가능한 글자·수식·연결선·도형으로 재구성하고, 저장된 PowerPoint 파일을 렌더링해 검토하는 과정.](docs/images/readme/why-paper-figure.svg)
 
 <table>
 <tr>
@@ -139,6 +161,8 @@ npx --yes skills@1.7.0 add https://github.com/JYS1025/paper-figure/tree/main/por
 | 수식 렌더 검사 | `pdfplumber`가 있는 Python | `pdfplumber`가 있는 Python |
 
 Codex 버전은 실행 환경의 번들 제작 도구에 의존합니다. Claude 버전은 공개 라이브러리를 사용하며, [환경 설정 안내](ports/claude/paper-figure/references/claude-environment.md)에 필요한 구성을 정리했습니다. 스킬 설치만으로 이미지 생성 서비스가 연결되지는 않습니다. 이미지 생성 기능이 없으면 PPTX 제작 전에 해당 제약을 보고합니다.
+
+**Claude의 이미지 제작 단계:** Claude가 구도를 계획하고 외부 이미지 도구를 호출하면, 해당 도구가 초안 이미지를 만듭니다. Claude는 초안을 검토한 뒤 PptxGenJS로 글자·도형·연결선을 재구성합니다. [Claude 자체는 사진이나 삽화를 생성하지 않습니다](https://support.claude.com/en/articles/9002504-can-claude-produce-images). 외부 연결이 없으면 기본 신규 제작은 준비 단계 후 멈춥니다. 사용자가 명시적으로 초안을 생략하도록 요청하거나 재현할 이미지를 제공한 경우에는 별도 경로로 진행할 수 있습니다. [지원 경로와 한계](docs/claude-image-generation.md).
 
 <details>
 <summary>Claude 제작 엔진의 로컬 환경 설정</summary>

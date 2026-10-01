@@ -1,0 +1,251 @@
+{
+  "source": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/gallery-14-15/gallery-graph-pooling-15/render-v2-fonts/figure-v2.pdf",
+  "sourceSha256": "ef3fb360c2f931d0464a2cacf369b04ab28d96eb0e15c6e8428527d21a9f401c",
+  "readOnly": true,
+  "publicationWidthMm": 177.8,
+  "scope": "Selected PDF text metrics only; inspect mathematical typography and native editability separately.",
+  "summary": {
+    "regions": 2,
+    "requiringReview": 0,
+    "unmeasuredRegions": 0
+  },
+  "regions": [
+    {
+      "name": "feature-equation",
+      "page": 1,
+      "boundsPt": [
+        11.25,
+        240.75,
+        69.0,
+        266.25
+      ],
+      "reviewReasons": [],
+      "unexpectedFonts": [],
+      "expectedText": "X′ = STZ",
+      "missingCharacters": {},
+      "extraCharacters": {},
+      "minPublicationSizePt": 9.411,
+      "maxPublicationSizePt": 14.287,
+      "minToMaxSizeRatio": 0.6587,
+      "thresholds": {
+        "minSizePt": 8.0,
+        "minRelativeSize": 0.65,
+        "expectedFonts": [
+          "TimesNewRomanPSMT",
+          "TimesNewRomanPS-ItalicMT"
+        ]
+      },
+      "characters": [
+        {
+          "text": "X",
+          "font": "TimesNewRomanPS-ItalicMT",
+          "pdfSizePt": 14.287,
+          "publicationSizePt": 14.287,
+          "boundsPt": [
+            11.962,
+            248.3111,
+            20.6771,
+            262.5981
+          ],
+          "upright": true
+        },
+        {
+          "text": "′",
+          "font": "TimesNewRomanPS-ItalicMT",
+          "pdfSizePt": 14.287,
+          "publicationSizePt": 14.287,
+          "boundsPt": [
+            20.6628,
+            248.3111,
+            23.7773,
+            262.5981
+          ],
+          "upright": true
+        },
+        {
+          "text": "=",
+          "font": "TimesNewRomanPSMT",
+          "pdfSizePt": 14.287,
+          "publicationSizePt": 14.287,
+          "boundsPt": [
+            29.7922,
+            248.3111,
+            37.8358,
+            262.5981
+          ],
+          "upright": true
+        },
+        {
+          "text": "S",
+          "font": "TimesNewRomanPS-ItalicMT",
+          "pdfSizePt": 14.287,
+          "publicationSizePt": 14.287,
+          "boundsPt": [
+            41.981,
+            248.3111,
+            49.1245,
+            262.5981
+          ],
+          "upright": true
+        },
+        {
+          "text": "T",
+          "font": "TimesNewRomanPSMT",
+          "pdfSizePt": 9.411,
+          "publicationSizePt": 9.411,
+          "boundsPt": [
+            50.23,
+            243.5449,
+            55.9707,
+            252.9559
+          ],
+          "upright": true
+        },
+        {
+          "text": "Z",
+          "font": "TimesNewRomanPS-ItalicMT",
+          "pdfSizePt": 14.287,
+          "publicationSizePt": 14.287,
+          "boundsPt": [
+            57.005,
+            248.3111,
+            64.9486,
+            262.5981
+          ],
+          "upright": true
+        }
+      ],
+      "boundaryCharacters": [],
+      "pdfPageSizePt": [
+        504,
+        292.507086614173
+      ],
+      "publicationScale": 1.0000000000000002
+    },
+    {
+      "name": "adjacency-equation",
+      "page": 1,
+      "boundsPt": [
+        95.25,
+        240.75,
+        164.25,
+        266.25
+      ],
+      "reviewReasons": [],
+      "unexpectedFonts": [],
+      "expectedText": "A′ = STAS",
+      "missingCharacters": {},
+      "extraCharacters": {},
+      "minPublicationSizePt": 9.411,
+      "maxPublicationSizePt": 14.287,
+      "minToMaxSizeRatio": 0.6587,
+      "thresholds": {
+        "minSizePt": 8.0,
+        "minRelativeSize": 0.65,
+        "expectedFonts": [
+          "TimesNewRomanPSMT",
+          "TimesNewRomanPS-ItalicMT"
+        ]
+      },
+      "characters": [
+        {
+          "text": "A",
+          "font": "TimesNewRomanPS-ItalicMT",
+          "pdfSizePt": 14.287,
+          "publicationSizePt": 14.287,
+          "boundsPt": [
+            95.981,
+            248.3111,
+            104.6961,
+            262.5981
+          ],
+          "upright": true
+        },
+        {
+          "text": "′",
+          "font": "TimesNewRomanPS-ItalicMT",
+          "pdfSizePt": 14.287,
+          "publicationSizePt": 14.287,
+          "boundsPt": [
+            104.6818,
+            248.3111,
+            107.7963,
+            262.5981
+          ],
+          "upright": true
+        },
+        {
+          "text": "=",
+          "font": "TimesNewRomanPSMT",
+          "pdfSizePt": 14.287,
+          "publicationSizePt": 14.287,
+          "boundsPt": [
+            113.7822,
+            248.3111,
+            121.8258,
+            262.5981
+          ],
+          "upright": true
+        },
+        {
+          "text": "S",
+          "font": "TimesNewRomanPS-ItalicMT",
+          "pdfSizePt": 14.287,
+          "publicationSizePt": 14.287,
+          "boundsPt": [
+            125.972,
+            248.3111,
+            133.1155,
+            262.5981
+          ],
+          "upright": true
+        },
+        {
+          "text": "T",
+          "font": "TimesNewRomanPSMT",
+          "pdfSizePt": 9.411,
+          "publicationSizePt": 9.411,
+          "boundsPt": [
+            134.22,
+            243.5449,
+            139.9607,
+            252.9559
+          ],
+          "upright": true
+        },
+        {
+          "text": "A",
+          "font": "TimesNewRomanPS-ItalicMT",
+          "pdfSizePt": 14.287,
+          "publicationSizePt": 14.287,
+          "boundsPt": [
+            140.967,
+            248.3111,
+            149.6821,
+            262.5981
+          ],
+          "upright": true
+        },
+        {
+          "text": "S",
+          "font": "TimesNewRomanPS-ItalicMT",
+          "pdfSizePt": 14.287,
+          "publicationSizePt": 14.287,
+          "boundsPt": [
+            149.6678,
+            248.3111,
+            156.8113,
+            262.5981
+          ],
+          "upright": true
+        }
+      ],
+      "boundaryCharacters": [],
+      "pdfPageSizePt": [
+        504,
+        292.507086614173
+      ],
+      "publicationScale": 1.0000000000000002
+    }
+  ]
+}

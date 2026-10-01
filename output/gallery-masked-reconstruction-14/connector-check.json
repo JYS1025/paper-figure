@@ -1,0 +1,181 @@
+{
+  "source": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/gallery-masked-reconstruction-14/figure-v2.pptx",
+  "sourceSha256": "8c8881f084b8f76854cff26165dfd9dab5d0f3376363e2ccf32a8b9e772fbd96",
+  "readOnly": true,
+  "scope": "Native connector attachment diagnostics; inspect the rendered figure for meaning and quality.",
+  "summary": {
+    "connectors": 8,
+    "requiringRenderedReview": 4,
+    "geometryUnchecked": 0
+  },
+  "connectors": [
+    {
+      "slide": 1,
+      "name": "forward-0",
+      "geometryStatus": "checked",
+      "reviewReasons": [
+        "to:transparent_boundary"
+      ],
+      "from": {
+        "name": "masked-field",
+        "site": "3",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "gathered-patches",
+        "site": "1",
+        "boundary": "transparent"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      }
+    },
+    {
+      "slide": 1,
+      "name": "forward-1",
+      "geometryStatus": "checked",
+      "reviewReasons": [
+        "from:transparent_boundary"
+      ],
+      "from": {
+        "name": "gathered-patches",
+        "site": "3",
+        "boundary": "transparent"
+      },
+      "to": {
+        "name": "encoder",
+        "site": "1",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      }
+    },
+    {
+      "slide": 1,
+      "name": "forward-2",
+      "geometryStatus": "checked",
+      "reviewReasons": [
+        "to:transparent_boundary"
+      ],
+      "from": {
+        "name": "encoder",
+        "site": "3",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "visible-latents",
+        "site": "1",
+        "boundary": "transparent"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      }
+    },
+    {
+      "slide": 1,
+      "name": "forward-3",
+      "geometryStatus": "checked",
+      "reviewReasons": [
+        "from:transparent_boundary"
+      ],
+      "from": {
+        "name": "visible-latents",
+        "site": "3",
+        "boundary": "transparent"
+      },
+      "to": {
+        "name": "restored-tokens",
+        "site": "1",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      }
+    },
+    {
+      "slide": 1,
+      "name": "forward-4",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "restored-tokens",
+        "site": "3",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "decoder",
+        "site": "1",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      }
+    },
+    {
+      "slide": 1,
+      "name": "forward-5",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "decoder",
+        "site": "3",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "predicted-patches",
+        "site": "1",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      }
+    },
+    {
+      "slide": 1,
+      "name": "target-to-loss",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "target-image",
+        "site": "3",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "masked-loss",
+        "site": "1",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      }
+    },
+    {
+      "slide": 1,
+      "name": "prediction-to-loss",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "predicted-patches",
+        "site": "2",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "masked-loss",
+        "site": "0",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      }
+    }
+  ]
+}

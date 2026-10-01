@@ -1,0 +1,56 @@
+[
+  {
+    "name": "input-photo-2",
+    "source": "assets/red-panda.png",
+    "sourceSha256": "6296982f070264a174808d16fc3731a3934f6c9ba4dc9a1178998a185d742177",
+    "cropVerified": true
+  },
+  {
+    "name": "input-photo-5",
+    "source": "assets/red-panda.png",
+    "sourceSha256": "6296982f070264a174808d16fc3731a3934f6c9ba4dc9a1178998a185d742177",
+    "cropVerified": true
+  },
+  {
+    "name": "input-photo-10",
+    "source": "assets/red-panda.png",
+    "sourceSha256": "6296982f070264a174808d16fc3731a3934f6c9ba4dc9a1178998a185d742177",
+    "cropVerified": true
+  },
+  {
+    "name": "input-photo-15",
+    "source": "assets/red-panda.png",
+    "sourceSha256": "6296982f070264a174808d16fc3731a3934f6c9ba4dc9a1178998a185d742177",
+    "cropVerified": true
+  },
+  {
+    "name": "gather-photo-2",
+    "source": "assets/red-panda.png",
+    "sourceSha256": "6296982f070264a174808d16fc3731a3934f6c9ba4dc9a1178998a185d742177",
+    "cropVerified": true
+  },
+  {
+    "name": "gather-photo-5",
+    "source": "assets/red-panda.png",
+    "sourceSha256": "6296982f070264a174808d16fc3731a3934f6c9ba4dc9a1178998a185d742177",
+    "cropVerified": true
+  },
+  {
+    "name": "gather-photo-10",
+    "source": "assets/red-panda.png",
+    "sourceSha256": "6296982f070264a174808d16fc3731a3934f6c9ba4dc9a1178998a185d742177",
+    "cropVerified": true
+  },
+  {
+    "name": "gather-photo-15",
+    "source": "assets/red-panda.png",
+    "sourceSha256": "6296982f070264a174808d16fc3731a3934f6c9ba4dc9a1178998a185d742177",
+    "cropVerified": true
+  },
+  {
+    "name": "target-photo",
+    "source": "assets/red-panda.png",
+    "sourceSha256": "6296982f070264a174808d16fc3731a3934f6c9ba4dc9a1178998a185d742177",
+    "cropVerified": false
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "title":"From nodes to a coarsened graph",
+  "kind":"Illustrative hard-assignment pooling example inspired by DiffPool; not a learned model result",
+  "widthPx":672,
+  "heightPx":390,
+  "paperWidthMm":177.8,
+  "nodes":[1,2,3,4,5,6,7,8],
+  "clusters":{"A":[1,2,3],"B":[4,5,6],"C":[7,8]},
+  "undirectedEdges":[[1,2],[2,3],[1,3],[3,4],[2,5],[4,5],[5,6],[4,6],[6,7],[7,8],[3,8]],
+  "assignmentMatrix":[[1,0,0],[1,0,0],[1,0,0],[0,1,0],[0,1,0],[0,1,0],[0,0,1],[0,0,1]],
+  "pooledAdjacency":[[6,2,1],[2,6,1],[1,1,2]],
+  "pooledEdgeLabels":{"A-B":2,"B-C":1,"A-C":1},
+  "diagonalMeaning":"Each internal undirected edge contributes twice; diagonal mass is displayed in the matrix, not as loops in the graph",
+  "equations":["X′ = SᵀZ","A′ = SᵀAS"],
+  "flow":["input graph -> assignment matrix", "assignment matrix -> pooled graph"],
+  "native":["all node circles and IDs", "cluster hulls", "graph edges", "matrix cells and values", "labels and formulas", "process connectors"],
+  "reference":"https://arxiv.org/abs/1806.08804",
+  "palette":"blue-apricot",
+  "requiredDisclosure":"Illustrative hard assignments · DiffPool learns soft assignments"
+}

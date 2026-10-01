@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="492" viewBox="0 0 1200 492" role="img" aria-labelledby="title desc">
+<title id="title">A visual idea, with an editable future</title>
+<desc id="desc">An image-model composition is reconstructed into separately editable text, connectors, geometry and replaceable pictures. The saved PowerPoint is then rendered and inspected at paper scale.</desc>
+<defs>
+  <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#DCE2E7"/></pattern>
+  <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 8 4.5 0 9Z" fill="#475864"/></marker>
+  <marker id="small" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0 6 3 0 6Z" fill="#667B81"/></marker>
+</defs>
+<rect width="1200" height="492" rx="18" fill="#F6F8FA"/>
+<rect x="1" y="1" width="1198" height="490" rx="18" fill="url(#dots)" stroke="#E2E7EC"/>
+<g font-family="Arial,Helvetica,sans-serif" fill="#25333C">
+<text x="36" y="37" font-size="11" font-weight="700" letter-spacing="2.1" fill="#58766D">DESIGNED FOR THE NEXT REVISION</text>
+<text x="36" y="72" font-size="27" font-weight="700">A visual idea. An editable future.</text>
+<text x="36" y="99" font-size="14" fill="#60717D">Composition comes first. The final explanation stays in your hands.</text>
+
+<!-- Stage one: a single visual composition surface. -->
+<text x="36" y="148" font-size="12" font-weight="700" fill="#58766D">01</text>
+<text x="63" y="148" font-size="16" font-weight="700">Find the visual direction</text>
+<rect x="36" y="170" width="282" height="208" rx="9" fill="#FFFFFF" stroke="#BCCBC7"/>
+<rect x="36" y="170" width="282" height="27" rx="9" fill="#E3EFEB"/>
+<rect x="36" y="188" width="282" height="9" fill="#E3EFEB"/>
+<circle cx="51" cy="184" r="3" fill="#7FA798"/><circle cx="62" cy="184" r="3" fill="#A5BDB4"/><circle cx="73" cy="184" r="3" fill="#C0D1CA"/>
+<text x="301" y="188" text-anchor="end" font-size="10" letter-spacing="1" fill="#55766B">VISUAL DRAFT</text>
+<g transform="translate(53 216)">
+ <rect x="0" y="18" width="57" height="57" fill="#E3EFEB"/>
+ <path d="M0 59 16 35 27 46 43 23 57 44V75H0Z" fill="#81AC99"/><circle cx="44" cy="30" r="7" fill="#DCC49F"/>
+ <path d="M64 47H82" stroke="#667B81" stroke-width="2.7" marker-end="url(#small)"/>
+ <rect x="91" y="2" width="52" height="91" rx="3" fill="#E6E3F2" stroke="#8A7DAE"/>
+ <path d="M103 22H131M103 32H131M103 42H131M103 52H131M103 62H131M103 72H131" stroke="#B5ABC9" stroke-width="4"/>
+ <path d="M151 47H169" stroke="#667B81" stroke-width="2.7" marker-end="url(#small)"/>
+ <g fill="#D8E7EE" stroke="#7594A7"><rect x="178" y="19" width="20" height="20"/><rect x="202" y="19" width="20" height="20"/><rect x="178" y="43" width="20" height="20"/><rect x="202" y="43" width="20" height="20"/></g>
+ <path d="M1 118H145M1 129H193" stroke="#E1E6E9" stroke-width="5"/>
+</g>
+<text x="36" y="404" font-size="13" fill="#60717D">Explore hierarchy, shape and color.</text>
+
+<path d="M334 274H366" stroke="#475864" stroke-width="3" marker-end="url(#arrow)"/>
+
+<!-- Stage two: an exploded explanation with editable layers. -->
+<text x="388" y="148" font-size="12" font-weight="700" fill="#71608C">02</text>
+<text x="415" y="148" font-size="16" font-weight="700">Rebuild the explanation</text>
+<g stroke="#B2BBC3" stroke-width="1" stroke-dasharray="3 4"><path d="M409 196V361M635 196V361"/></g>
+<path d="M393 298H637L671 345H427Z" fill="#FFFFFF" stroke="#C1CBD2" stroke-width="1.2"/>
+<path d="M393 246H637L671 293H427Z" fill="#EFF3F7" stroke="#BBC8D4" stroke-width="1.2"/>
+<path d="M393 194H637L671 241H427Z" fill="#FFFFFF" stroke="#9C8AB9" stroke-width="1.3"/>
+<text x="428" y="224" font-size="17" font-weight="700" fill="#655083">Encoder</text>
+<text x="554" y="224" font-size="21" font-family="Georgia,serif" font-style="italic">z<tspan baseline-shift="sub" font-size="13">i</tspan></text>
+<path d="M440 269H526M548 269H622" stroke="#567A88" stroke-width="3" marker-end="url(#small)"/>
+<rect x="442" y="313" width="67" height="22" rx="3" fill="#E6E3F2" stroke="#8A7DAE"/>
+<g fill="#E3EFEB" stroke="#71978A"><rect x="537" y="313" width="22" height="22"/><rect x="565" y="313" width="22" height="22"/><rect x="593" y="313" width="22" height="22"/></g>
+<path d="M671 217H687M671 269H687M671 321H687" stroke="#A2AAB2" stroke-width="1.2"/>
+<text x="696" y="221" font-size="11.5" fill="#655083">Text + math</text>
+<text x="696" y="273" font-size="11.5" fill="#436A7A">Connections</text>
+<text x="696" y="325" font-size="11.5" fill="#58766D">Shapes</text>
+<text x="388" y="373" font-size="12" fill="#60717D">Pictures remain separate and replaceable.</text>
+<text x="388" y="404" font-size="13" fill="#60717D">Select an object. Revise its meaning.</text>
+
+<path d="M794 274H826" stroke="#475864" stroke-width="3" marker-end="url(#arrow)"/>
+
+<!-- Stage three: actual file inspection and an explicit editable selection. -->
+<text x="848" y="148" font-size="12" font-weight="700" fill="#436A7A">03</text>
+<text x="875" y="148" font-size="16" font-weight="700">Check the saved figure</text>
+<rect x="848" y="170" width="316" height="208" rx="9" fill="#FFFFFF" stroke="#B8C8D2"/>
+<path d="M867 193H1097M867 202H1010" stroke="#D8DFE4" stroke-width="3"/>
+<rect x="867" y="222" width="278" height="107" fill="#FAFCFC"/>
+<g transform="translate(879 235)">
+ <g fill="#E3EFEB" stroke="#71978A"><rect width="19" height="19"/><rect y="24" width="19" height="19"/><rect y="48" width="19" height="19"/></g>
+ <path d="M26 34H53" stroke="#567A88" stroke-width="2.7" marker-end="url(#small)"/>
+ <rect x="64" y="13" width="111" height="42" rx="2" fill="#E6E3F2" stroke="#8A7DAE"/>
+ <text x="119.5" y="40" text-anchor="middle" font-size="14" font-weight="700" fill="#655083">Backbone</text>
+ <path d="M185 34H212" stroke="#567A88" stroke-width="2.7" marker-end="url(#small)"/>
+ <rect x="222" y="22" width="27" height="27" fill="#D8E7EE" stroke="#7594A7"/>
+ <rect x="59" y="8" width="121" height="52" fill="none" stroke="#755BA7" stroke-dasharray="4 3"/>
+ <g fill="#FFFFFF" stroke="#755BA7"><rect x="56" y="5" width="6" height="6"/><rect x="177" y="5" width="6" height="6"/><rect x="56" y="57" width="6" height="6"/><rect x="177" y="57" width="6" height="6"/></g>
+</g>
+<path d="M867 347l5 5 9-11" fill="none" stroke="#43826B" stroke-width="2.5"/>
+<text x="890" y="352" font-size="11.5" fill="#60717D">Relationships · type · paper-scale legibility</text>
+<text x="848" y="404" font-size="13" fill="#60717D">Render the PPTX. Inspect the result.</text>
+
+<path d="M36 431H1164" stroke="#DBE2E7"/>
+<text x="36" y="462" font-size="12" fill="#60717D">IMAGE-MODEL DRAFT</text>
+<text x="354" y="462" font-size="12" fill="#60717D">NATIVE POWERPOINT OBJECTS</text>
+<text x="757" y="462" font-size="12" fill="#60717D">SAVED-FILE REVIEW</text>
+<text x="1164" y="462" text-anchor="end" font-size="12" font-weight="700" fill="#58766D">.pptx + preview</text>
+</g></svg>

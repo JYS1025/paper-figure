@@ -1,0 +1,40 @@
+{
+  "pdfSha256": "ef3fb360c2f931d0464a2cacf369b04ab28d96eb0e15c6e8428527d21a9f401c",
+  "publicationWidthMm": 177.8,
+  "regions": [
+    {
+      "name": "feature-equation",
+      "page": 1,
+      "expectedText": "X′ = STZ",
+      "boundsPt": [
+        11.25,
+        240.75,
+        69.0,
+        266.25
+      ],
+      "expectedFonts": [
+        "TimesNewRomanPSMT",
+        "TimesNewRomanPS-ItalicMT"
+      ],
+      "minSizePt": 8.0,
+      "minRelativeSize": 0.65
+    },
+    {
+      "name": "adjacency-equation",
+      "page": 1,
+      "expectedText": "A′ = STAS",
+      "boundsPt": [
+        95.25,
+        240.75,
+        164.25,
+        266.25
+      ],
+      "expectedFonts": [
+        "TimesNewRomanPSMT",
+        "TimesNewRomanPS-ItalicMT"
+      ],
+      "minSizePt": 8.0,
+      "minRelativeSize": 0.65
+    }
+  ]
+}
