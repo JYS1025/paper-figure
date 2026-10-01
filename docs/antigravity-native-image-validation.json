@@ -8,9 +8,9 @@
     "https://antigravity.google/docs/plans/"
   ],
   "sourceFileSha256": {
-    "scripts/sync-antigravity-port.py": "779202f498e816c3b3eb5b73044775f3876c3df7a859af9d6736bfbc7e694f99",
+    "scripts/sync-antigravity-port.py": "43d65397c1d2d92764dfc861527905aa8d0ee653bc879b394854d09e78d1a58a",
     "ports/antigravity/image-mode.md": "c4d4be8a2d05824362be126ae81af0b2e36ef7312a3c37c07be30302be8b834b",
-    "ports/antigravity/image-options-intro.md": "57e657dcbf679db9de7f1fdac1b23d54cbd32f51f584e9b5b836e59fadbcbd18",
+    "ports/antigravity/image-options-intro.md": "177a8d3f49b05cb645da57da60f457094e62533c74c5b2bd7a443d3c6eee5569",
     "ports/antigravity/plugin/skills/paper-figure/SKILL.md": "1f2786b3e6eb3733f908d91e10d3f20e775299d067650d3d0ad9efde11a2c564",
     "ports/antigravity/plugin/skills/paper-figure/scripts/preflight.mjs": "24e1dc1c5020bba1fefc1da1499d47dd010bd9ab6dde56683483da6978be0ff1"
   },

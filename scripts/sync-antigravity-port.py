@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 source = ROOT / 'ports/claude/paper-figure'
 target = ROOT / 'ports/antigravity/plugin/skills/paper-figure'
 host_mode = (ROOT / 'ports/antigravity/image-mode.md').read_text().strip()
-host_options = (ROOT / 'ports/antigravity/image-options-intro.md').read_text()
+host_options = (ROOT / 'ports/antigravity/image-options-intro.md').read_text().rstrip() + '\n\n'
 for file in skill_files(source):
     relative = file.relative_to(source)
     if str(relative) == 'references/claude-environment.md':

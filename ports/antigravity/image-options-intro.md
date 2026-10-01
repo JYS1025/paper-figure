@@ -22,4 +22,3 @@ When a fallback choice is needed, ask in the user's language, for example: â€œí˜
 Official host references, checked 2026-10-01: [built-in image tool](https://antigravity.google/docs/hooks#interaction-and-media), [account login and optional API authentication](https://antigravity.google/docs/cli/install/), [account plans and quota](https://antigravity.google/docs/plans/). Enterprise regional endpoints can have different capabilities; use the actual session result rather than changing its authentication or region.
 
 The following API registration instructions apply only to the separately selected `gemini-api` route.
-
