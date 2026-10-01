@@ -26,6 +26,10 @@ Artifact Tool reimport, LibreOffice and PowerPoint are different renderers. If t
 python scripts/pptx.py inspect latest.pptx --contract contract.json --output inspect.json
 ```
 
+Slide numbers are one-based **presentation order**, as displayed in PowerPoint, not the numbers in ZIP part filenames. Inspection and connector audits report both `slide` and the resolved `part`; contracts and generation manifests use that same displayed order. Reinspect after reordering or replacing slides.
+
+Reports must use a new path. `inspect --output` and `patch --receipt` refuse existing files, links and collisions with inputs or the revised PPTX. Receipt availability is checked before patching; a failed patch removes its newly reserved receipt. Omit the report option to print JSON to standard output.
+
 Contracts have `slides:[{nodes:{name:exactText},edges:[[from,to]],groups:[name]}]`. Newlines in labels are significant. `exactEdges` and `nativeOnly` default to true. A contract checks only what it specifies; the author must add all scientifically essential content. Counts of native shapes alone do not prove their correctness.
 
 For mixed image/native figures, follow the explicit asset inventory in [visual assets](visual-assets.md). `nativeOnly:false` permits necessary picture objects; it does not establish that the rest of the diagram is editable. Verify that the named inserted assets are present, match their saved media and are individually replaceable, while required labels, semantic marks and connections remain native. Generated icons and illustrations are valid assets, not limited to photographs.
@@ -38,7 +42,7 @@ Save and close the user's current file or confirm it is not changing during the 
 {
   "sourceSha256":"<from latest inspection>",
   "operations":[{
-    "slide":1,"id":"<current ID>","name":"encoder",
+    "slide":1,"part":"<part from latest inspection>","id":"<current ID>","name":"encoder",
     "fingerprint":"<current object fingerprint>",
     "action":"replace_text","old":"Encoder","new":"Temporal encoder"
   }]
@@ -49,9 +53,9 @@ Save and close the user's current file or confirm it is not changing during the 
 python scripts/pptx.py patch latest.pptx revised.pptx --plan edit.json --receipt receipt.json
 ```
 
-The source hash prevents a stale edit; the current ID/name/fingerprint prevents an ambiguous target. Numeric IDs and names are not identities across arbitrary edits. If two objects have the same name after duplication, use the latest ID and visual context; never choose the first match. A failed precondition requires a fresh inspection, not disabling the check.
+The optional `part` field verifies that the numbered slide still maps to the inspected ZIP part. The receipt records both. The source hash prevents a stale edit; the current ID/name/fingerprint prevents an ambiguous target. Numeric IDs and names are not identities across arbitrary edits. If two objects have the same name after duplication, use the latest ID and visual context; never choose the first match. A failed precondition requires a fresh inspection, not disabling the check.
 
-Supported text edits replace a unique substring in one text run, retaining that run's formatting. Cross-run replacement is rejected rather than flattening rich text. `move` uses CSS-pixel `dx`/`dy` for a top-level unrotated shape or unconnected group. Straight attached connectors are recomputed. Routed or connected-group moves require native PowerPoint. The patcher refuses to overwrite its source or an existing output.
+Supported text edits replace a unique substring in one text run, retaining that run's formatting. Cross-run replacement is rejected rather than flattening rich text. `move` uses CSS-pixel `dx`/`dy` for a top-level unrotated, unflipped shape or unconnected group. Attached straight connectors are recomputed only when both endpoints are top-level, unrotated, unflipped rectangles/rounded rectangles with supported connection sites. A rotated or flipped peer, grouped endpoint, transformed connector, custom route or connected-group move is rejected before saving; use native PowerPoint for those edits. The patcher refuses to overwrite its source or an existing output.
 
 `style_connector` changes only a native connector's stroke width, existing destination arrow size, cap and join. Supply `widthPx` (positive and at most 12), `arrowWidth` and `arrowLength` (`sm`, `med`, `lg`) in addition to the usual source/target preconditions. It retains direction, endpoints, geometry, color and dash. It refuses non-connectors and absent/non-directional destination arrows. Inspect and render the saved result; it does not repair routing or overlapping content.
 

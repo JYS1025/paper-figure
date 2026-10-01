@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "checks": [
+    "fixture content contract",
+    "nine attached connector geometries",
+    "contain preserves square aspect",
+    "cover uses editable crop",
+    "explicit crop preserved",
+    "picture media byte identity",
+    "missing edge rejected",
+    "reversed edge rejected",
+    "custom elbow coordinate defect detected",
+    "requested label edited",
+    "all untouched package payloads identical",
+    "all untargeted slide objects preserved",
+    "stale source rejected",
+    "wrong fingerprint rejected",
+    "existing output rejected",
+    "straight connector rerouted after move",
+    "routed endpoint move requires native editor",
+    "connector style retains endpoints",
+    "input file unchanged",
+    "complex replay contract",
+    "complex replay native objects",
+    "complex replay connector attachment",
+    "fourteen rendered math regions",
+    "all palette/media assets match canonical skill",
+    "sixteen color books"
+  ],
+  "creationNegativeChecks": [
+    "duplicate name",
+    "group collision",
+    "overlapping group",
+    "duplicate group member",
+    "bad crop",
+    "picture endpoint",
+    "unsupported route",
+    "overwrite"
+  ],
+  "totalChecks": 33,
+  "scope": "Local portable-engine and saved-file checks. Not a Claude-host run, native PowerPoint edit test, new image-model generation or independent quality comparison."
+}

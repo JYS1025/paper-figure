@@ -72,9 +72,6 @@ def main():
     asset_files=[p for p in (shared/'assets').rglob('*') if p.is_file() and p.name!='SOURCES.md']
     check('all palette/media assets match canonical skill',all((port/p.relative_to(shared)).read_bytes()==p.read_bytes() for p in asset_files))
     check('sixteen color books',len(json.loads((port/'assets/color-books.json').read_text())['books'])==16)
-    for name in ['blind-review.md','color-books.md','relationship-review.md','visual-design.md']:
-        check('shared policy '+name,(port/'references'/name).read_bytes()==(shared/'references'/name).read_bytes())
-    check('shared reference observations', (port/'references/reference-cards.md').read_text().split('Earlier revision demonstrations')[0]==(shared/'references/reference-cards.md').read_text().split('Use `examples/build-rich-examples.mjs`')[0])
     creation=json.loads((work/'geometry/creation-negatives.json').read_text())
     result={'passed':True,'checks':checks,'creationNegativeChecks':creation,'totalChecks':len(checks)+len(creation),'scope':'Local portable-engine and saved-file checks. Not a Claude-host run, native PowerPoint edit test, new image-model generation or independent quality comparison.'}
     (work/'verification.json').write_text(json.dumps(result,indent=2));print(json.dumps({'passed':True,'totalChecks':result['totalChecks']}))

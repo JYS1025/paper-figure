@@ -1,0 +1,82 @@
+[
+  {
+    "edition": "codex",
+    "skillValidation": "Skill is valid!",
+    "reportCollisionRejected": true,
+    "visibleFirstPatched": true,
+    "untargetedPartsByteIdentical": true,
+    "changedParts": [
+      "ppt/slides/slide2.xml"
+    ],
+    "smokeCounts": {
+      "sp": 4,
+      "cxnSp": 1,
+      "grpSp": 1,
+      "pic": 0,
+      "graphicFrame": 0
+    },
+    "smokeFlow": {
+      "connectors": 1,
+      "requiringRenderedReview": 0,
+      "geometryUnchecked": 0
+    },
+    "generatedFromExtractedZip": true,
+    "renderedReorderedDeck": false,
+    "smokeVisualReview": false
+  },
+  {
+    "edition": "claude",
+    "skillValidation": "Skill is valid!",
+    "reportCollisionRejected": true,
+    "visibleFirstPatched": true,
+    "untargetedPartsByteIdentical": true,
+    "changedParts": [
+      "ppt/slides/slide2.xml"
+    ],
+    "smokeCounts": {
+      "sp": 15,
+      "cxnSp": 3,
+      "grpSp": 2,
+      "pic": 1,
+      "graphicFrame": 0
+    },
+    "smokeFlow": {
+      "connectors": 3,
+      "requiringRenderedReview": 0,
+      "geometryUnchecked": 0
+    },
+    "generatedFromExtractedZip": true,
+    "renderedReorderedDeck": true,
+    "smokeVisualReview": true
+  },
+  {
+    "edition": "antigravity",
+    "skillValidation": "Skill is valid!",
+    "reportCollisionRejected": true,
+    "visibleFirstPatched": true,
+    "untargetedPartsByteIdentical": true,
+    "changedParts": [
+      "ppt/slides/slide2.xml"
+    ],
+    "smokeCounts": {
+      "sp": 15,
+      "cxnSp": 3,
+      "grpSp": 2,
+      "pic": 1,
+      "graphicFrame": 0
+    },
+    "smokeFlow": {
+      "connectors": 3,
+      "requiringRenderedReview": 0,
+      "geometryUnchecked": 0
+    },
+    "pluginValidation": {
+      "exitCode": 0,
+      "skillsProcessed": 1,
+      "installedOrActivated": false
+    },
+    "generatedFromExtractedZip": true,
+    "renderedReorderedDeck": false,
+    "smokeVisualReview": false
+  }
+]

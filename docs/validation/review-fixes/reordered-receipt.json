@@ -1,0 +1,17 @@
+{
+  "sourceSha256": "6fe6b0699b78fb3e14a2393b3f1e9464b3b820d1f99da1bc25e1b0016b32d301",
+  "outputSha256": "9ee3966aa32d86eeab7738a9988e9a764c87afd031ae716e4a52a229551dab14",
+  "changed": [
+    {
+      "slide": 1,
+      "part": "ppt/slides/slide2.xml",
+      "id": "17",
+      "name": "query-encoder",
+      "action": "replace_text"
+    }
+  ],
+  "changedParts": [
+    "ppt/slides/slide2.xml"
+  ],
+  "untouchedPartsByteIdentical": 40
+}

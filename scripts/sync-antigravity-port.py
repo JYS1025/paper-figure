@@ -13,7 +13,7 @@ for file in skill_files(source):
         relative = Path('references/antigravity-environment.md')
     dest = target / relative
     dest.parent.mkdir(parents=True, exist_ok=True)
-    if file.suffix in ('.md', '.mjs', '.json'):
+    if file.suffix in ('.md', '.py', '.mjs', '.json', '.txt', '.html', '.svg'):
         text = file.read_text().replace('claude-environment.md', 'antigravity-environment.md')
         if relative == Path('SKILL.md'):
             text = text.replace('(Claude)', '(Antigravity CLI)').replace('Claude environment and image-tool setup', 'Antigravity CLI environment and image-tool setup')

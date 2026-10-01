@@ -1,0 +1,232 @@
+{
+  "date": "2026-10-01",
+  "reviewedBaseCommit": "1380c83f3b38ffe8154b26f647bf926cbc62b3dd",
+  "scope": "Local corrective validation after independent Codex-context reviews. Current source and rebuilt ZIPs tested; no live image API request, host-agent activation or native PowerPoint edit.",
+  "sourceFileSha256": {
+    "skills/paper-figure/scripts/pptx.py": "ecd965a9ac258f24ca7a977f5fbff2ad581f79a49bddf842e0e5a81917b5f948",
+    "skills/paper-figure/scripts/flow_audit.py": "acf20055af3231e54d9f82c3d7a018b08d5484e62740518159713ddad60c42cc",
+    "ports/claude/paper-figure/scripts/pptx.py": "ecd965a9ac258f24ca7a977f5fbff2ad581f79a49bddf842e0e5a81917b5f948",
+    "ports/claude/paper-figure/scripts/flow_audit.py": "a09280de1f83ed31c4db3aeb399ea0cce1c5f2fad32eb19695b5bfbe12304d71",
+    "ports/antigravity/plugin/skills/paper-figure/scripts/pptx.py": "ecd965a9ac258f24ca7a977f5fbff2ad581f79a49bddf842e0e5a81917b5f948",
+    "ports/antigravity/plugin/skills/paper-figure/scripts/flow_audit.py": "a09280de1f83ed31c4db3aeb399ea0cce1c5f2fad32eb19695b5bfbe12304d71",
+    "ports/antigravity/plugin/skills/paper-figure/scripts/render.py": "67035903c20c47e1e01931ebed8755d1ede539884691f2093b1cb42f14c667e1",
+    "scripts/skill_package.py": "3999332e42737009047014343fb4007da69d2273ae9a7b578a541bbfc21bdd49",
+    "scripts/package-claude-skill.py": "d31529d7df5edfbb58c3dee71463e9d008b0d0a07cbb78f43f5902ae76873beb",
+    "scripts/sync-antigravity-port.py": "232abb48187a695569215e0fdeb9b4c9c9271bf85c9d7d9013de136fbb5106cf",
+    "tests/test_preservation_guards.py": "0e5e19a6ca4177308fffcc25dbab2eb87b14b6795f8bda755e3c09eca442b90d",
+    "tests/test_skill_package.py": "91ec8392b7ac846cbb9d2919fb5f59aa8674d889a9539b68ffbd0c67478082fc",
+    "tests/claude-port/verify.py": "6e50fb5e725491377f5423f275c16ec88ac34fc07e9fe5f10b513a9b4465a946"
+  },
+  "automatedTests": {
+    "command": "python3 -m unittest discover -s tests -v",
+    "passed": 124,
+    "failed": 0,
+    "previousTests": 66,
+    "newPreservationCases": 54,
+    "newPackagingCases": 4,
+    "preservationScenariosPerEdition": 18,
+    "editionsTested": 3,
+    "networkRequestsMadeByUnitTests": 0
+  },
+  "portableRegression": {
+    "passed": 33,
+    "failed": 0,
+    "freshGeometryFixture": true,
+    "freshComplexReplay": true,
+    "removedWholeDocumentEqualityAssertions": 5,
+    "replacedBy": "54 cross-edition behavior cases and 4 package-reference checks; edition-specific creation modes remain distinct."
+  },
+  "complexReplay": {
+    "counts": {
+      "sp": 196,
+      "cxnSp": 10,
+      "grpSp": 16,
+      "pic": 1,
+      "graphicFrame": 0
+    },
+    "flow": {
+      "connectors": 10,
+      "requiringRenderedReview": 0,
+      "geometryUnchecked": 0
+    },
+    "math": {
+      "regions": 14,
+      "requiringReview": 0,
+      "unmeasuredRegions": 0
+    },
+    "renderer": "LibreOffice \u2192 PDF \u2192 Poppler",
+    "savedRenderVisuallyInspected": true,
+    "fontDiagnostic": {
+      "initialFont": "Times New Roman",
+      "actualInitialFont": "Liberation Serif",
+      "unexpectedFontRegions": 14,
+      "resolution": "Reauthored only the technical replay fixture with Liberation Serif explicitly selected; unchanged size/character thresholds. Historical artwork and records were not rewritten.",
+      "finalExpectedFonts": [
+        "LiberationSerif",
+        "LiberationSerif-Italic"
+      ]
+    },
+    "newImageGeneration": false
+  },
+  "reorderedRender": {
+    "renderer": "LibreOffice \u2192 PDF \u2192 Poppler",
+    "pageCount": 2,
+    "patchedLabelOnPage1": true,
+    "patchedLabelOnPage2": false,
+    "bothPreviewsVisuallyInspected": true
+  },
+  "packages": [
+    {
+      "edition": "codex",
+      "zip": "output/paper-figure-skill.zip",
+      "zipSha256": "3a51486f89f8460346401019c3770181cc7dcb151926dffe3cbb14e765cde416",
+      "zipFiles": 49,
+      "validatedLocalLinks": 44,
+      "validatedScriptGuideReferences": 0,
+      "manifest": "docs/validation/codex-package.json",
+      "allBytesMatchSource": true
+    },
+    {
+      "edition": "claude",
+      "zip": "output/paper-figure-claude-skill.zip",
+      "zipSha256": "40a1743f3de377780acb7cf048f7b1ee50d436b489a7c8642bffbc6dd1b0d908",
+      "zipFiles": 54,
+      "validatedLocalLinks": 58,
+      "validatedScriptGuideReferences": 2,
+      "manifest": "ports/claude/port-manifest.json",
+      "allBytesMatchSource": true
+    },
+    {
+      "edition": "antigravity",
+      "zip": "output/paper-figure-antigravity-plugin.zip",
+      "zipSha256": "fb2bf0435f82bd9aabc9d15cce6679477abafb383a8a6b2b0c4d626fc1a3012e",
+      "zipFiles": 55,
+      "validatedLocalLinks": 59,
+      "validatedScriptGuideReferences": 2,
+      "manifest": "ports/antigravity/port-manifest.json",
+      "allBytesMatchSource": true
+    }
+  ],
+  "packagedExecution": [
+    {
+      "edition": "codex",
+      "skillValidation": "Skill is valid!",
+      "reportCollisionRejected": true,
+      "visibleFirstPatched": true,
+      "untargetedPartsByteIdentical": true,
+      "changedParts": [
+        "ppt/slides/slide2.xml"
+      ],
+      "smokeCounts": {
+        "sp": 4,
+        "cxnSp": 1,
+        "grpSp": 1,
+        "pic": 0,
+        "graphicFrame": 0
+      },
+      "smokeFlow": {
+        "connectors": 1,
+        "requiringRenderedReview": 0,
+        "geometryUnchecked": 0
+      },
+      "generatedFromExtractedZip": true,
+      "renderedReorderedDeck": false,
+      "smokeVisualReview": false
+    },
+    {
+      "edition": "claude",
+      "skillValidation": "Skill is valid!",
+      "reportCollisionRejected": true,
+      "visibleFirstPatched": true,
+      "untargetedPartsByteIdentical": true,
+      "changedParts": [
+        "ppt/slides/slide2.xml"
+      ],
+      "smokeCounts": {
+        "sp": 15,
+        "cxnSp": 3,
+        "grpSp": 2,
+        "pic": 1,
+        "graphicFrame": 0
+      },
+      "smokeFlow": {
+        "connectors": 3,
+        "requiringRenderedReview": 0,
+        "geometryUnchecked": 0
+      },
+      "generatedFromExtractedZip": true,
+      "renderedReorderedDeck": true,
+      "smokeVisualReview": true
+    },
+    {
+      "edition": "antigravity",
+      "skillValidation": "Skill is valid!",
+      "reportCollisionRejected": true,
+      "visibleFirstPatched": true,
+      "untargetedPartsByteIdentical": true,
+      "changedParts": [
+        "ppt/slides/slide2.xml"
+      ],
+      "smokeCounts": {
+        "sp": 15,
+        "cxnSp": 3,
+        "grpSp": 2,
+        "pic": 1,
+        "graphicFrame": 0
+      },
+      "smokeFlow": {
+        "connectors": 3,
+        "requiringRenderedReview": 0,
+        "geometryUnchecked": 0
+      },
+      "pluginValidation": {
+        "exitCode": 0,
+        "skillsProcessed": 1,
+        "installedOrActivated": false
+      },
+      "generatedFromExtractedZip": true,
+      "renderedReorderedDeck": false,
+      "smokeVisualReview": false
+    }
+  ],
+  "fixedFindings": [
+    "P1 report/receipt path collisions",
+    "P2 displayed slide order",
+    "P2 obsolete whole-document equality checks",
+    "P3 Antigravity missing-renderer guide"
+  ],
+  "boundedRisk": "Movement now rejects rotated/flipped/grouped/nonrectangular peers or transformed/routed connectors before saving. The independent review did not establish rendered corruption after native-app repair.",
+  "notTested": [
+    "Paid live Gemini image call or account model access",
+    "End-to-end task execution by Claude or Antigravity agents",
+    "Native PowerPoint manual edit/save/reopen of this version",
+    "Windows filesystem and renderer behavior"
+  ],
+  "evidenceFileSha256": {
+    "docs/validation/review-fixes/font-substitution-diagnostic.json": "43a6f647b9701463ed4bffb0d3c560f624c4d361b7282b0b5c48773049857e0d",
+    "docs/validation/review-fixes/packaged-checks.json": "42017203aefac6fd6a6cf16a8f38ecb7212efa3849b622b3450c22b885077759",
+    "docs/validation/review-fixes/portable-regression.json": "980f0f3b73b523c5f75a3929fc49871df8aa2d6273fcd611bc357fd199a31089",
+    "docs/validation/review-fixes/rendered-order-proof.json": "0182ea233958b1ee7376f565f6199d1350fe0053786d898cc518faee9f38310a",
+    "docs/validation/review-fixes/reordered-fixed.pdf": "1ae3e9210bb6ea0d484ed0d3b4d1a75398e23cc549ee5d17ef1dc24969416e6f",
+    "docs/validation/review-fixes/reordered-fixed.pptx": "9ee3966aa32d86eeab7738a9988e9a764c87afd031ae716e4a52a229551dab14",
+    "docs/validation/review-fixes/reordered-page-1.png": "83c9669b9f45ba78528d748109f4846d03c321d9a46e5e3729e5ba37832fef60",
+    "docs/validation/review-fixes/reordered-page-2.png": "7914cf6ab173c5baef156e63d5f7e645965269af2e6bb70a3882fdffa89e0b88",
+    "docs/validation/review-fixes/reordered-receipt.json": "b9230c82e396fe0b570006396b1683d6780b2f81a00120b19a44678bda6fe38b",
+    "docs/validation/review-fixes/reordered-source.pptx": "6fe6b0699b78fb3e14a2393b3f1e9464b3b820d1f99da1bc25e1b0016b32d301",
+    "docs/validation/review-fixes/replay.pdf": "43e801847e8d9b979959dd431d6352bc8a7d6947147d019963e2dd58b9197e15",
+    "docs/validation/review-fixes/replay.png": "11d9469a085aed586737ea46fe50ce955c2ab7438f03c56d3fe1e43169920b8d",
+    "docs/validation/review-fixes/replay.pptx": "2cc51299c4483d1c8682c4e0e3b49acae318dbf1e14e9606cc73e685228ad028",
+    "docs/validation/review-fixes/typography-audit.json": "d64e29d7ad0f3008f2b192ad42a252a4fe6f1d4ba429b2c41ce7f9590c276ca7",
+    "docs/validation/review-fixes/typography-plan.json": "b4acb74edab568fb303f51c09541d9ba0e327158e5445bc8b741ce7632b160ac",
+    "docs/validation/review-fixes/unit-tests.log": "6866ac1ef80c974ef2eba5b4eca380e84deed24b9c0c8217a6e2295eccb4fa57"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "lxml": "6.1.1",
+    "Pillow": "12.3.0",
+    "pdfplumber": "0.11.9",
+    "node": "24.19.0",
+    "pptxgenjs": "4.0.1",
+    "antigravityCli": "1.0.13"
+  }
+}

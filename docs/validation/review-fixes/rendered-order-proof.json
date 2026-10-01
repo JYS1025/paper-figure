@@ -1,0 +1,7 @@
+{
+  "renderer": "LibreOffice \u2192 PDF \u2192 Poppler",
+  "pageCount": 2,
+  "patchedLabelOnPage1": true,
+  "patchedLabelOnPage2": false,
+  "bothPreviewsVisuallyInspected": true
+}

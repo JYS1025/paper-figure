@@ -282,12 +282,13 @@ The project records structural checks, rendered review, native-application editi
 
 | Evidence | Recorded result |
 |---|---|
-| Portable engine regression checks | **38 passed**, including missing/reversed edges, stale edits, picture crops and preservation of untouched package content. |
+| Automated regression tests | **124 passed**, including 54 preservation cases across all three editions and four package-reference checks. |
+| Portable engine fixture checks | **33 passed** on fresh fixtures, including missing/reversed edges, stale edits, picture crops and untouched-package preservation. |
 | Complex figure replay through the Claude engine | **196 native shapes, 10 connectors, 16 groups and one independent picture** preserved in the saved PPTX. |
-| Rendered math checks on that replay | **14 regions checked**, with no flagged character omissions, unexpected fonts or undersized scripts under the selected thresholds. |
-| Packaged Claude skill | Extracted ZIP generated a fixture and passed content and connector checks. |
+| Rendered math checks on that replay | **14 regions checked** with Liberation Serif explicitly selected; no flagged omissions, unexpected fonts or undersized scripts under the selected thresholds. The initial font-substitution diagnostic is retained. |
+| All three packages | Extracted ZIPs generated fixtures and passed content, connector, reordered-slide and report-collision checks. |
 
-These results establish local engine behavior. End-to-end figure creation by Claude Code, claude.ai or Antigravity CLI agents and manual PowerPoint editing of the latest ports have not yet been verified. The optional Gemini client has offline transport/credential tests; a paid live image request is not claimed. [Portable image-mode validation](docs/portable-image-validation.json). The recorded render path used LibreOffice → PDF → Poppler. Details are in the [Claude port validation record](docs/claude-port-validation.json).
+These results establish local engine behavior. End-to-end figure creation by Claude Code, claude.ai or Antigravity CLI agents and manual PowerPoint editing of the latest ports have not yet been verified. The optional Gemini client has offline transport/credential tests; a paid live image request is not claimed. [Portable image-mode validation](docs/portable-image-validation.json). The recorded render path used LibreOffice → PDF → Poppler. Current results, fixes and exact source/package hashes are in the [independent-review corrections](docs/independent-review-fixes.md) and [validation record](docs/preservation-fixes-validation.json). Earlier results remain in the [historical Claude port record](docs/claude-port-validation.json).
 
 Advanced equation layout, complex connector rerouting and connected-group moves require an appropriate native editing path. Font availability and renderer differences can affect appearance. Review at the intended paper width; reducing the figure also reduces every label and subscript.
 

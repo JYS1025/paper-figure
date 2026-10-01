@@ -87,7 +87,9 @@ def audit_tree(root,slide_number=1,tolerance_px=.5):
 
 def audit(source):
     source=Path(source);parts=P.load(source);rows=[]
-    for i,part in enumerate(P.slides(parts),1):rows.extend(audit_tree(P.xml(parts[part]),i))
+    for i,part in enumerate(P.slides(parts),1):
+        for row in audit_tree(P.xml(parts[part]),i):
+            row['part']=part;rows.append(row)
     return {
         'source':str(source.resolve()),'sourceSha256':P.sha(source.read_bytes()),
         'readOnly':True,'scope':'Native connector attachment diagnostics; inspect the rendered figure for meaning and quality.',

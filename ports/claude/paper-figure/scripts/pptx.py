@@ -4,13 +4,17 @@
 Never re-exports an existing deck through a lossy model. Untargeted ZIP entries
 keep byte-identical payloads. Requires lxml; does not use python-pptx.
 """
-import argparse, copy, hashlib, json, math, re, sys, zipfile
+import argparse, copy, hashlib, json, math, os, posixpath, sys, zipfile
+from contextlib import contextmanager
 from pathlib import Path
+from urllib.parse import unquote, urlsplit
 from lxml import etree as E
 
 NS={'p':'http://schemas.openxmlformats.org/presentationml/2006/main','a':'http://schemas.openxmlformats.org/drawingml/2006/main'}
 EMU=9525
 SIDE={'top':0,'left':1,'bottom':2,'right':3} # rect / roundRect / textbox
+REL='http://schemas.openxmlformats.org/officeDocument/2006/relationships'
+PACKAGE_REL='http://schemas.openxmlformats.org/package/2006/relationships'
 def q(n):
     p,l=n.split(':'); return '{'+NS[p]+'}'+l
 def sub(parent,n,**attrs): return E.SubElement(parent,q(n),{k:str(v) for k,v in attrs.items()})
@@ -27,7 +31,64 @@ def save(parts,file):
     with file.open('xb') as out:
         with zipfile.ZipFile(out,'w',zipfile.ZIP_DEFLATED) as z:
             for n,b in parts.items(): z.writestr(n,b)
-def slides(parts): return sorted((n for n in parts if re.fullmatch(r'ppt/slides/slide\d+\.xml',n)),key=lambda n:int(re.search(r'(\d+)\.xml$',n)[1]))
+def slides(parts):
+    """Resolve displayed slide order; storage filenames are not slide numbers."""
+    try:
+        presentation=xml(parts['ppt/presentation.xml'])
+        relationships=xml(parts['ppt/_rels/presentation.xml.rels'])
+    except KeyError as error:
+        raise ValueError('Missing presentation or presentation relationships') from error
+    by_id={}
+    for relationship in relationships.findall('{'+PACKAGE_REL+'}Relationship'):
+        rid=relationship.get('Id')
+        if not rid or rid in by_id:raise ValueError('Missing or duplicate presentation relationship ID')
+        by_id[rid]=relationship
+    ordered=[];slide_ids=set()
+    for slide in presentation.findall('p:sldIdLst/p:sldId',NS):
+        sid=slide.get('id');relationship=by_id.get(slide.get('{'+REL+'}id'))
+        if not sid or sid in slide_ids:raise ValueError('Missing or duplicate presentation slide ID')
+        slide_ids.add(sid)
+        if relationship is None or relationship.get('Type')!=REL+'/slide':
+            raise ValueError('Missing or invalid slide relationship')
+        if relationship.get('TargetMode','Internal')!='Internal':raise ValueError('External slide relationships are unsupported')
+        target=relationship.get('Target','');uri=urlsplit(target)
+        if not target or uri.scheme or uri.netloc or uri.query or uri.fragment:
+            raise ValueError('Invalid slide relationship target')
+        decoded=unquote(uri.path,errors='strict')
+        if '\\' in decoded or any(ord(c)<32 for c in decoded) or decoded.startswith('//'):
+            raise ValueError('Invalid slide relationship target')
+        part=posixpath.normpath(decoded.lstrip('/') if decoded.startswith('/') else posixpath.join('ppt',decoded))
+        if part in ('.','..') or part.startswith('../') or part not in parts:
+            raise ValueError('Missing or out-of-package slide target')
+        if part in ordered:raise ValueError('Duplicate slide relationship target')
+        if xml(parts[part]).tag!=q('p:sld'):raise ValueError('Slide relationship does not target a slide')
+        ordered.append(part)
+    return ordered
+
+@contextmanager
+def report_output(destination,protected=()):
+    """Reserve a new report before patching; never overwrite a deck or report."""
+    if destination is None:
+        yield None
+        return
+    path=Path(destination)
+    if any(path.resolve()==Path(other).resolve() for other in protected if other is not None):
+        raise ValueError('Report path collides with an input or PPTX output; choose a new report path')
+    with path.open('x',encoding='utf8') as stream:
+        created=os.fstat(stream.fileno())
+        try:
+            yield stream
+            stream.flush()
+        except BaseException:
+            stream.close()
+            # Remove only the empty/partial report this invocation reserved.
+            try:
+                current=path.lstat()
+            except FileNotFoundError:
+                pass
+            else:
+                if (current.st_dev,current.st_ino)==(created.st_dev,created.st_ino):path.unlink()
+            raise
 def props(el): return el.find('.//p:cNvPr',NS)
 def name(el): return props(el).get('name')
 def ident(el): return props(el).get('id')
@@ -49,9 +110,9 @@ def node_record(el):
     b=bounds(el)
     return {'id':ident(el),'name':name(el),'kind':E.QName(el).localname,'text':text(el),'boundsPx':[round(v/EMU,4) for v in b] if b else None,'fingerprint':sha(E.tostring(el,method='c14n')),'fontPt':sorted(set(int(v)/100 for v in el.xpath('./p:txBody//a:rPr/@sz',namespaces=NS)))}
 def prepare(source,destination,manifest):
-    parts=load(source); specs=manifest['slides']
-    if len(specs)!=len(slides(parts)):raise ValueError('Manifest slide count mismatch')
-    for part,spec in zip(slides(parts),specs):
+    parts=load(source); specs=manifest['slides'];ordered=slides(parts)
+    if len(specs)!=len(ordered):raise ValueError('Manifest slide count mismatch')
+    for part,spec in zip(ordered,specs):
         root=xml(parts[part]); tree=root.find('p:cSld/p:spTree',NS)
         image_specs=spec.get('images',[])
         if image_specs:
@@ -103,9 +164,9 @@ def prepare(source,destination,manifest):
 def inspect(file,contract=None):
     parts=load(file);pres=xml(parts['ppt/presentation.xml']);size=pres.find('p:sldSz',NS)
     result={'file':str(Path(file).resolve()),'sha256':sha(Path(file).read_bytes()),'sizePx':[int(size.get(k))/EMU for k in ['cx','cy']],'slides':[],'errors':[],'warnings':[]}
-    contracts=(contract or {}).get('slides',[])
-    if contract and len(contracts)!=len(slides(parts)): result['errors'].append('contract slide count mismatch')
-    for i,part in enumerate(slides(parts)):
+    contracts=(contract or {}).get('slides',[]);ordered=slides(parts)
+    if contract and len(contracts)!=len(ordered): result['errors'].append('contract slide count mismatch')
+    for i,part in enumerate(ordered):
         root=xml(parts[part]);objects=shapes(root);records=[node_record(s) for s in objects]
         ids={ident(s):s for s in objects}; names=[name(s) for s in objects]
         errs=[];warn=[];edges=[]
@@ -136,20 +197,33 @@ def inspect(file,contract=None):
             for n in c.get('groups',[]):
                 if not any(r['name']==n and r['kind']=='grpSp' for r in records):errs.append(f'missing native group: {n}')
             if c.get('nativeOnly',True) and any(r['kind'] in ['pic','graphicFrame'] for r in records):errs.append('unexpected image or graphic frame')
-        result['slides'].append({'part':part,'objects':records,'edges':edges,'counts':{k:sum(r['kind']==k for r in records) for k in ['sp','cxnSp','grpSp','pic','graphicFrame']},'errors':errs,'warnings':warn})
+        result['slides'].append({'slide':i+1,'part':part,'objects':records,'edges':edges,'counts':{k:sum(r['kind']==k for r in records) for k in ['sp','cxnSp','grpSp','pic','graphicFrame']},'errors':errs,'warnings':warn})
         result['errors'] += [f'slide {i+1}: {e}' for e in errs];result['warnings'] += [f'slide {i+1}: {e}' for e in warn]
     result['passed']=not result['errors'];return result
 
 def anchor(b,idx):
     x,y,w,h=b
     return [(x+w//2,y),(x,y+h//2),(x+w//2,y+h),(x+w,y+h//2)][int(idx)]
+def unrotated(node):
+    tr=xfrm(node)
+    return tr is not None and int(tr.get('rot','0'))==0 and all(tr.get(k,'false') in ('0','false') for k in ('flipH','flipV'))
+
+def movable_endpoint(node,site):
+    geom=node.find('p:spPr/a:prstGeom',NS)
+    return (node.tag==q('p:sp') and node.getparent().tag==q('p:spTree')
+            and geom is not None and geom.get('prst') in ('rect','roundRect')
+            and site in ('0','1','2','3') and bounds(node) is not None and unrotated(node))
+
 def patch(source,destination,plan):
     raw=Path(source).read_bytes()
     if sha(raw)!=plan['sourceSha256']:raise ValueError('Source changed since inspection; inspect latest file again')
-    parts=load(source);original=parts.copy();roots={};changed=[]
+    parts=load(source);original=parts.copy();roots={};changed=[];ordered=slides(parts)
     for op in plan['operations']:
-        part=f"ppt/slides/slide{int(op['slide'])}.xml"
-        if part not in parts:raise ValueError('Unknown slide')
+        number=op['slide']
+        if isinstance(number,bool) or not isinstance(number,int) or not 1<=number<=len(ordered):
+            raise ValueError('Slide must be a one-based presentation-order integer')
+        part=ordered[number-1]
+        if op.get('part',part)!=part:raise ValueError('Slide part changed; inspect the current presentation order')
         if part not in roots:roots[part]=xml(parts[part])
         root=roots[part];matches=[s for s in shapes(root) if ident(s)==str(op['id']) and name(s)==op['name']]
         if len(matches)!=1:raise ValueError('Target no longer uniquely matches')
@@ -182,19 +256,26 @@ def patch(source,destination,plan):
         elif op['action']=='move':
             if target.getparent().tag!=q('p:spTree') or target.tag not in [q('p:sp'),q('p:grpSp')]:raise ValueError('Move supports only top-level shapes/groups')
             tr=xfrm(target)
-            if tr is None or any(tr.get(a) for a in ['rot','flipH','flipV']):raise ValueError('Rotated/flipped move unsupported')
+            if not unrotated(target):raise ValueError('Rotated/flipped move unsupported')
             affected={ident(target)}|{ident(s) for s in shapes(target)}
             linked=[s for s in shapes(root) if s.tag==q('p:cxnSp') and any(n.get('id') in affected for n in s.findall('.//a:stCxn',NS)+s.findall('.//a:endCxn',NS))]
             if target.tag==q('p:grpSp') and linked:raise ValueError('Moving connected groups requires native PowerPoint rerouting')
             if any(s.find('p:spPr/a:prstGeom',NS) is None or s.find('p:spPr/a:prstGeom',NS).get('prst')!='straightConnector1' for s in linked):raise ValueError('Move with routed connectors requires native PowerPoint')
+            ids={ident(s):s for s in shapes(root)};endpoints=[]
+            for conn in linked:
+                ct=xfrm(conn)
+                if conn.getparent().tag!=q('p:spTree') or ct is None or int(ct.get('rot','0'))!=0:
+                    raise ValueError('Transformed/grouped connector move requires native PowerPoint')
+                refs=[conn.find('.//'+tag,NS) for tag in ('a:stCxn','a:endCxn')]
+                if any(ref is None or ref.get('id') not in ids for ref in refs):raise ValueError('Unresolved connected endpoint')
+                a,b=[ids[ref.get('id')] for ref in refs]
+                if not all(movable_endpoint(node,ref.get('idx')) for node,ref in zip((a,b),refs)):
+                    raise ValueError('Rotated/flipped/grouped or unsupported connected endpoint requires native PowerPoint')
+                endpoints.append((conn,a,b,refs))
             dx,dy=float(op['dx']),float(op['dy'])
             if not math.isfinite(dx+dy):raise ValueError('Nonfinite movement')
             off=tr.find('a:off',NS);off.set('x',str(int(off.get('x'))+round(dx*EMU)));off.set('y',str(int(off.get('y'))+round(dy*EMU)))
-            ids={ident(s):s for s in shapes(root)}
-            for conn in linked:
-                st=conn.find('.//a:stCxn',NS);en=conn.find('.//a:endCxn',NS)
-                a,b=ids[st.get('id')],ids[en.get('id')]
-                if any(v.getparent().tag!=q('p:spTree') for v in [a,b]):raise ValueError('Grouped endpoint move unsupported')
+            for conn,a,b,(st,en) in endpoints:
                 x1,y1=anchor(bounds(a),st.get('idx'));x2,y2=anchor(bounds(b),en.get('idx'))
                 t=xfrm(conn);o=t.find('a:off',NS);ext=t.find('a:ext',NS)
                 o.set('x',str(min(x1,x2)));o.set('y',str(min(y1,y2)));ext.set('cx',str(abs(x2-x1)));ext.set('cy',str(abs(y2-y1)))
@@ -202,7 +283,7 @@ def patch(source,destination,plan):
                     t.attrib.pop(key,None)
                     if val:t.set(key,'1')
         else:raise ValueError(f"Unsupported action {op['action']}")
-        changed.append({'slide':op['slide'],'id':op['id'],'name':op['name'],'action':op['action']})
+        changed.append({'slide':number,'part':part,'id':op['id'],'name':op['name'],'action':op['action']})
     for p,r in roots.items():parts[p]=serial(r)
     untouched=[p for p in parts if p not in roots]
     assert all(original[p]==parts[p] for p in untouched)
@@ -216,13 +297,16 @@ def main():
     a=subs.add_parser('patch');a.add_argument('source');a.add_argument('output');a.add_argument('--plan',required=True);a.add_argument('--receipt')
     args=p.parse_args()
     if args.cmd=='prepare':prepare(args.source,args.output,json.loads(Path(args.manifest).read_text()));return
-    if args.cmd=='inspect':r=inspect(args.source,json.loads(Path(args.contract).read_text()) if args.contract else None)
-    else:r=patch(args.source,args.output,json.loads(Path(args.plan).read_text()))
-    out=json.dumps(r,ensure_ascii=False,indent=2)
     dest=args.output if args.cmd=='inspect' else args.receipt
-    if dest:Path(dest).write_text(out)
-    else:print(out)
+    protected=[args.source,getattr(args,'contract',None),getattr(args,'plan',None)]
+    if args.cmd=='patch':protected.append(args.output)
+    with report_output(dest,protected) as report:
+        if args.cmd=='inspect':r=inspect(args.source,json.loads(Path(args.contract).read_text()) if args.contract else None)
+        else:r=patch(args.source,args.output,json.loads(Path(args.plan).read_text()))
+        out=json.dumps(r,ensure_ascii=False,indent=2)
+        if report is not None:report.write(out)
+        else:print(out)
     if args.cmd=='inspect' and not r['passed']:sys.exit(1)
 if __name__=='__main__':
     try:main()
-    except (ValueError,KeyError,FileExistsError) as e:sys.exit(str(e))
+    except (ValueError,KeyError,OSError) as e:sys.exit(str(e))

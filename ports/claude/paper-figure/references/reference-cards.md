@@ -10,7 +10,7 @@ These are our interpretations of published figures. They are not rules endorsed 
 - Color/shape: colors distinguish token state; varying module scale can distinguish their roles. Decorative color cycling would destroy that meaning.
 - Suitable: masking, selection, compression, reconstruction, staged transformations.
 - Misuse: coloring unrelated modules like patch states, implying a state change that the method does not have, or copying original module proportions when they are irrelevant.
-- Native elements: `tokens()` with a named group and separately editable cells; rectangular modules. See `06-tokens`.
+- Native elements: `tokens()` with a named group and separately editable cells; rectangular modules.
 
 ## Semantic consistency across panels: CLIP
 
@@ -20,7 +20,7 @@ These are our interpretations of published figures. They are not rules endorsed 
 - Color/shape: modality color remains stable across panels; the matrix highlights correspondence rather than embellishment.
 - Suitable: paired inputs, matching, contrastive objectives, training/application views.
 - Misuse: reusing the same color for a different role in the next panel; dropping negative pairs or objective details that are essential to the supplied method.
-- Native elements: `panel()`, `matrix()`, labeled modules. See `05-panels`.
+- Native elements: `panel()`, `matrix()`, labeled modules.
 
 ## Relationships expressed spatially: U-Net
 
@@ -30,7 +30,7 @@ These are our interpretations of published figures. They are not rules endorsed 
 - Color/shape: consistent operation roles; shape size expresses a quantity only when the reader is told what it means.
 - Suitable: multiscale encoders, decoders, hierarchical processing, paired routes.
 - Misuse: symmetric layout suggesting a nonexistent symmetry; blindly reproducing tiny original numeric labels at an unreadable publication size.
-- Native elements: rectangles of chosen sizes, connectors with selected sides, level annotations. See `04-skip`.
+- Native elements: rectangles of chosen sizes, connectors with selected sides, level annotations.
 
 ## Hierarchy and repetition: Transformer
 
@@ -40,7 +40,7 @@ These are our interpretations of published figures. They are not rules endorsed 
 - Color/shape: operation colors remain consistent; connector style differentiates role when a legend or label makes the meaning clear.
 - Suitable: repeated blocks, nested submodules, residual or conditioning paths.
 - Misuse: turning repetition into a feedback loop; implying weight sharing merely by drawing one block; connecting a bypass to the wrong addition.
-- Native elements: `panel()` with repeat label, `group()` for objects edited together, native connected arrows. See `03-repeat`.
+- Native elements: `panel()` with repeat label, `group()` for objects edited together, native connected arrows.
 
 ## Related color strengths: RLDX-1
 

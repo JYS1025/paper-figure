@@ -23,6 +23,25 @@ The current `Figure.label()` helper styles a whole textbox and is not a math par
 
 Inline solidus fractions and right-positioned sum indices can be valid. Choose layout according to space and mathematical scope rather than forcing display-style fractions or limits into every label. Check minus signs, operator spacing, parentheses, accents and multi-character indices as part of the same notation system.
 
+## Small native subscript recipe
+
+For a simple `X` with index `t`, the following creates two editable text objects and one selectable group. Coordinates and sizes are CSS pixels; they are starting values for the selected font and width, not a universal math layout. No automatic script scaling is applied a second time. Choose a font actually available in the renderer, and use upright styling for descriptive indices.
+
+```js
+const style = {
+  typeface: 'Times New Roman', fontSize: 22, italic: true,
+  color: '#233947', alignment: 'left', verticalAlignment: 'top',
+  wrap: 'none', insets: {left: 0, right: 0, top: 0, bottom: 0}
+};
+const base = f.label('state-base', 'X', 410, 208, 23, 28);
+base.text.style = style;
+const index = f.label('state-index', 't', 428, 219, 17, 21);
+index.text.style = {...style, fontSize: 15};
+f.group('state-label', ['state-base', 'state-index']);
+```
+
+Keep these offsets consistent for repeated occurrences of this notation, then check the saved PDF's actual font sizes and the reduced preview. Wider indices, accents, nested scripts and operators require fresh spacing decisions; this recipe is not an equation parser. Include both text objects and their group in the content contract. Connect semantic arrows to the represented module or data, not this label group.
+
 ## Review the saved output
 
 Render the latest saved PPTX using the intended output path. Compare representative expressions with a relevant original figure at comparable publication width and base-text size. Inspect a single index, multi-character index and any superscript or operator used by the method. Check baseline alignment, spacing, repeated-symbol consistency and legibility, including the smallest essential index.

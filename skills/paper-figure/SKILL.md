@@ -25,7 +25,7 @@ For every new figure or substantial composition redesign, **generate and inspect
 
 ## Revise a user's PPTX
 
-Use the latest saved PPTX. Inspect current objects and compare with the requested edit. Names and IDs can change after duplication, deletion or saving; combine slide, current ID, name, text, fingerprint and source hash. `scripts/pptx.py patch` supports conservative text replacement and simple translations, writing a new file. Read [review and editing](references/review-and-editing.md) for limits and preservation checks. Use native PowerPoint for operations outside those limits. Do not regenerate from old source code over human edits.
+Use the latest saved PPTX. Inspect current objects and compare with the requested edit. Names and IDs can change after duplication, deletion or saving; combine the slide’s displayed position and inspected part, current ID, name, text, fingerprint and source hash. `scripts/pptx.py patch` supports conservative text replacement and simple translations, writing a new file. Read [review and editing](references/review-and-editing.md) for limits and preservation checks. Use native PowerPoint for operations outside those limits. Do not regenerate from old source code over human edits.
 
 ## Scope of assurance
 

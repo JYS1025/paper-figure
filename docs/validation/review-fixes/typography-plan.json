@@ -1,0 +1,245 @@
+{
+  "pdfSha256": "43e801847e8d9b979959dd431d6352bc8a7d6947147d019963e2dd58b9197e15",
+  "publicationWidthMm": 177.8,
+  "regions": [
+    {
+      "name": "input-X",
+      "page": 1,
+      "expectedText": "X",
+      "boundsPt": [
+        75.66,
+        47.25,
+        90.09,
+        67.65
+      ],
+      "expectedFonts": [
+        "LiberationSerif",
+        "LiberationSerif-Italic"
+      ],
+      "minSizePt": 8.0,
+      "minRelativeSize": 0.62
+    },
+    {
+      "name": "latent-Z",
+      "page": 1,
+      "expectedText": "Z",
+      "boundsPt": [
+        285.48375,
+        58.5,
+        298.76624999999996,
+        78.9
+      ],
+      "expectedFonts": [
+        "LiberationSerif",
+        "LiberationSerif-Italic"
+      ],
+      "minSizePt": 8.0,
+      "minRelativeSize": 0.62
+    },
+    {
+      "name": "output-X",
+      "page": 1,
+      "expectedText": "X^",
+      "boundsPt": [
+        454.5,
+        49.4,
+        469,
+        66.1
+      ],
+      "expectedFonts": [
+        "LiberationSerif",
+        "LiberationSerif-Italic"
+      ],
+      "minSizePt": 8.0,
+      "minRelativeSize": 0.62
+    },
+    {
+      "name": "target-X",
+      "page": 1,
+      "expectedText": "X",
+      "boundsPt": [
+        88.41,
+        198.75,
+        102.84,
+        219.14999999999998
+      ],
+      "expectedFonts": [
+        "LiberationSerif",
+        "LiberationSerif-Italic"
+      ],
+      "minSizePt": 8.0,
+      "minRelativeSize": 0.62
+    },
+    {
+      "name": "delay-probability",
+      "page": 1,
+      "expectedText": "pc(d)",
+      "boundsPt": [
+        144.5,
+        233.6,
+        172,
+        248.2
+      ],
+      "expectedFonts": [
+        "LiberationSerif",
+        "LiberationSerif-Italic"
+      ],
+      "minSizePt": 8.0,
+      "minRelativeSize": 0.62
+    },
+    {
+      "name": "reconstruction-X",
+      "page": 1,
+      "expectedText": "X^",
+      "boundsPt": [
+        98.16,
+        268.665,
+        112.59,
+        293.52750000000003
+      ],
+      "expectedFonts": [
+        "LiberationSerif",
+        "LiberationSerif-Italic"
+      ],
+      "minSizePt": 8.0,
+      "minRelativeSize": 0.62
+    },
+    {
+      "name": "loss-symbol",
+      "page": 1,
+      "expectedText": "LVR",
+      "boundsPt": [
+        441.78,
+        282.75,
+        470.9699999999999,
+        306.75
+      ],
+      "expectedFonts": [
+        "LiberationSerif",
+        "LiberationSerif-Italic"
+      ],
+      "minSizePt": 8.0,
+      "minRelativeSize": 0.62
+    },
+    {
+      "name": "impulse-t",
+      "page": 1,
+      "expectedText": "t",
+      "boundsPt": [
+        153.945,
+        370.6,
+        161.80499999999998,
+        380.3
+      ],
+      "expectedFonts": [
+        "LiberationSerif",
+        "LiberationSerif-Italic"
+      ],
+      "minSizePt": 8.0,
+      "minRelativeSize": 0.62
+    },
+    {
+      "name": "delay-index-0",
+      "page": 1,
+      "expectedText": "d=0",
+      "boundsPt": [
+        224.19,
+        370.6,
+        244.56000000000003,
+        380.3
+      ],
+      "expectedFonts": [
+        "LiberationSerif",
+        "LiberationSerif-Italic"
+      ],
+      "minSizePt": 8.0,
+      "minRelativeSize": 0.62
+    },
+    {
+      "name": "delay-index-1",
+      "page": 1,
+      "expectedText": "d=1",
+      "boundsPt": [
+        250.44,
+        370.6,
+        270.81000000000006,
+        380.3
+      ],
+      "expectedFonts": [
+        "LiberationSerif",
+        "LiberationSerif-Italic"
+      ],
+      "minSizePt": 8.0,
+      "minRelativeSize": 0.62
+    },
+    {
+      "name": "delay-index-2",
+      "page": 1,
+      "expectedText": "d=2",
+      "boundsPt": [
+        276.69,
+        370.6,
+        297.06000000000006,
+        380.3
+      ],
+      "expectedFonts": [
+        "LiberationSerif",
+        "LiberationSerif-Italic"
+      ],
+      "minSizePt": 8.0,
+      "minRelativeSize": 0.62
+    },
+    {
+      "name": "weighted-time-0",
+      "page": 1,
+      "expectedText": "t",
+      "boundsPt": [
+        359.445,
+        370.6,
+        367.305,
+        380.3
+      ],
+      "expectedFonts": [
+        "LiberationSerif",
+        "LiberationSerif-Italic"
+      ],
+      "minSizePt": 8.0,
+      "minRelativeSize": 0.62
+    },
+    {
+      "name": "weighted-time-1",
+      "page": 1,
+      "expectedText": "t+1",
+      "boundsPt": [
+        380.685,
+        370.6,
+        400.06499999999994,
+        380.3
+      ],
+      "expectedFonts": [
+        "LiberationSerif",
+        "LiberationSerif-Italic"
+      ],
+      "minSizePt": 8.0,
+      "minRelativeSize": 0.62
+    },
+    {
+      "name": "weighted-time-2",
+      "page": 1,
+      "expectedText": "t+2",
+      "boundsPt": [
+        407.68500000000006,
+        370.6,
+        427.06500000000005,
+        380.3
+      ],
+      "expectedFonts": [
+        "LiberationSerif",
+        "LiberationSerif-Italic"
+      ],
+      "minSizePt": 8.0,
+      "minRelativeSize": 0.62
+    }
+  ],
+  "regionReview": "Current replay preview inspected; checking the corresponding mathematical regions without changing fonts or thresholds."
+}

@@ -15,7 +15,7 @@ def main():
     p.add_argument('--pdftoppm',default=os.environ.get('FIGURE_PDFTOPPM') or shutil.which('pdftoppm'))
     p.add_argument('--soffice-wrapper',default=os.environ.get('FIGURE_SOFFICE_WRAPPER'),help='Optional host-supplied Python LibreOffice wrapper; takes priority over --soffice')
     a=p.parse_args()
-    if not (a.soffice or a.soffice_wrapper) or not a.pdftoppm:p.error('LibreOffice and pdftoppm are needed. See references/claude-environment.md; no renderer was installed or assumed.')
+    if not (a.soffice or a.soffice_wrapper) or not a.pdftoppm:p.error('LibreOffice and pdftoppm are needed. See references/antigravity-environment.md; no renderer was installed or assumed.')
     command=[sys.executable,str(Path(a.soffice_wrapper).resolve())] if a.soffice_wrapper else [a.soffice]
     if a.soffice_wrapper and not Path(a.soffice_wrapper).is_file():p.error('Host wrapper does not exist')
     source=Path(a.source).resolve();out=Path(a.output_dir).resolve();out.mkdir(parents=True,exist_ok=False)
