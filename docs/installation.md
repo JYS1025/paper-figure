@@ -2,17 +2,9 @@
 
 Codex and Claude use the [skills CLI](https://github.com/vercel-labs/skills), requiring Node.js **22.20+** and Git. Antigravity CLI uses its native plugin installer. The commands fetch files from GitHub without a manual ZIP download.
 
-## Authenticate for the private repository
+## Public installation
 
-Your account must have access to `JYS1025/paper-figure`. Install [GitHub CLI](https://cli.github.com/), then run:
-
-```sh
-gh auth login
-gh auth setup-git
-gh repo view JYS1025/paper-figure
-```
-
-An existing working HTTPS credential helper also works. Do not put a token in a command URL. Authentication is unnecessary for public read access if the repository is made public later.
+[Paper Figure](https://github.com/JYS1025/paper-figure) is a public repository. The installation commands below work without a GitHub account, access token or GitHub CLI. Install Git and the prerequisites for your chosen edition first. Your agent’s own account and runtime requirements still apply.
 
 ## Choose an edition
 
@@ -41,7 +33,7 @@ Google announced the [transition from Gemini CLI to Antigravity CLI](https://dev
 Install [Antigravity CLI](https://antigravity.google/docs/cli/install), then:
 
 ```sh
-gh repo clone JYS1025/paper-figure paper-figure
+git clone https://github.com/JYS1025/paper-figure.git paper-figure
 agy plugin install ./paper-figure/ports/antigravity/plugin
 agy plugin list
 ```
@@ -90,8 +82,8 @@ agy plugin install /path/to/extracted/paper-figure
 
 | Symptom | Next step |
 |---|---|
-| Repository not found or authentication failed | Confirm access with `gh repo view JYS1025/paper-figure`, then check `gh auth status` and `gh auth setup-git`. |
-| Clone times out | Check the network and Git authentication; use an existing checkout when available. |
+| Repository not found or authentication failed | Open the [public repository](https://github.com/JYS1025/paper-figure) and check the source URL, network/proxy settings and Git URL rewrites. Public read access does not require a token. |
+| Clone times out | Check network/proxy settings; use an existing checkout when available. |
 | Wrong authoring engine | Check the loaded entry-point path. Install the edition-specific directory; check for an existing `.agents/skills/paper-figure` collision in Antigravity. |
 | Old edits disappear after update | Restore your backup; installation replaces the selected copy. |
 | Skill is missing in claude.ai | Local CLI installation does not upload a cloud account skill; use the Claude ZIP. |

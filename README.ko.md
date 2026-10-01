@@ -111,12 +111,7 @@
 
 Codex·Claude는 [skills CLI](https://github.com/vercel-labs/skills)를 사용하며 설치에는 **Node.js 22.20+**와 Git이 필요합니다. Antigravity는 자체 플러그인 설치 기능을 사용합니다. ZIP을 따로 내려받을 필요는 없습니다.
 
-현재 저장소는 **Private**이므로 접근 권한이 있는 GitHub 계정이 필요합니다. [GitHub CLI](https://cli.github.com/)를 설치한 뒤 처음 한 번 인증합니다.
-
-```sh
-gh auth login
-gh auth setup-git
-```
+Paper Figure는 GitHub 공개 저장소에서 배포합니다. GitHub 로그인이나 접근 권한 신청 없이 아래 명령으로 설치할 수 있습니다.
 
 **Codex**
 
@@ -133,7 +128,7 @@ npx --yes skills@1.7.0 add https://github.com/JYS1025/paper-figure/tree/main/por
 **Antigravity CLI**
 
 ```sh
-gh repo clone JYS1025/paper-figure paper-figure
+git clone https://github.com/JYS1025/paper-figure.git paper-figure
 agy plugin install ./paper-figure/ports/antigravity/plugin
 ```
 

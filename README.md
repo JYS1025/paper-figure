@@ -111,12 +111,7 @@ Built for model architectures, methodology figures, process diagrams and concept
 
 Codex and Claude use [skills CLI](https://github.com/vercel-labs/skills), requiring **Node.js 22.20+** and Git. Antigravity uses its own plugin installer. No ZIP download is needed. Run the command for your agent below.
 
-While this repository is **private**, your GitHub account needs access. With [GitHub CLI](https://cli.github.com/) installed, set up authentication once:
-
-```sh
-gh auth login
-gh auth setup-git
-```
+Paper Figure is publicly available on GitHub. Install directly with the commands below; no GitHub sign-in or repository access request is required.
 
 **Codex**
 
@@ -133,7 +128,7 @@ npx --yes skills@1.7.0 add https://github.com/JYS1025/paper-figure/tree/main/por
 **Antigravity CLI**
 
 ```sh
-gh repo clone JYS1025/paper-figure paper-figure
+git clone https://github.com/JYS1025/paper-figure.git paper-figure
 agy plugin install ./paper-figure/ports/antigravity/plugin
 ```
 

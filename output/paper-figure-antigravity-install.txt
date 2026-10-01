@@ -6,11 +6,9 @@ Antigravity CLI(agy)용 플러그인입니다. 현재 세션의 내장 generate_
 1. 설치
 
 Antigravity CLI: https://antigravity.google/docs/cli/install
-Private 저장소 접근 권한이 있는 Git 인증과 GitHub CLI를 준비합니다.
+Git을 준비합니다. 공개 저장소이므로 GitHub 로그인이나 GitHub CLI는 필요하지 않습니다.
 
-gh auth login
-gh auth setup-git
-gh repo clone JYS1025/paper-figure paper-figure
+git clone https://github.com/JYS1025/paper-figure.git paper-figure
 agy plugin install ./paper-figure/ports/antigravity/plugin
 agy plugin list
 

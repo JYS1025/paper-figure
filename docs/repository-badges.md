@@ -1,6 +1,6 @@
 # Repository badges
 
-Stars, forks and watchers come from the authenticated [GitHub repository API](https://docs.github.com/en/rest/repos/repos#get-a-repository). The checked-in SVGs work in private repositories without sending an access token to an image service. Watchers use `subscribers_count`; GitHub's `watchers_count` is an alias for stars.
+Stars, forks and watchers come from the authenticated [GitHub repository API](https://docs.github.com/en/rest/repos/repos#get-a-repository). The checked-in SVGs are served with the public repository and require no authentication from readers. Repository credentials are not sent to an image service. Watchers use `subscribers_count`; GitHub's `watchers_count` is an alias for stars.
 
 The [Repository badges workflow](../.github/workflows/repo-badges.yml) refreshes the counters daily, on stars/forks, on updater changes and on manual dispatch. It commits only when generated files change. Failed API requests leave the previous snapshot intact. The [snapshot](images/readme/github-stats.json) records when the displayed values were observed; the badges are not real-time counters.
 
