@@ -13,6 +13,10 @@ For a figure request, create or revise the requested artifact. For a skill-impro
 
 For every new figure or substantial composition redesign, **generate and inspect a full-figure image-model draft before authoring the PPTX**, then rebuild its useful visual design with editable native objects and verify the saved result. This is a required production stage, not an optional technique. Generating only icons, sketching in code, inspecting a reference paper, or generating an image after the PPTX does not satisfy it. Read [image draft → native reconstruction](references/image-first.md) before starting. Preserve local edits to an existing PPTX; they do not require a new composition. Honor an explicit user instruction to skip drafting or to reproduce a supplied raster exactly, and record that route accurately. If image generation is unavailable, report the blocker instead of silently substituting direct PPTX authoring.
 
+## Image provider
+
+Use the available host image-generation tool by default. Do not surface external API choices, registration or credential checks during ordinary work or as a fallback after native-tool failure. Only when the user explicitly requests use or setup of the Gemini image API, read [the requested integration guide](references/gemini-image-api.md) and use the bundled `scripts/gemini_image.py` client with the configured Python runtime. A saved key, a generic image request or mentioning Gemini as a host does not select this provider. Reuse the explicit selection within the task. Keep the same image-first, editable reconstruction and saved-file review requirements.
+
 ## Create
 
 1. Extract required labels, nodes, directed edges, hierarchy, repetition and training/inference distinctions into a content contract **before drawing**. Add a compact private relationship plan using [relationship planning and review](references/relationship-review.md): what each mark represents, whether an edge carries one item or a set, visible endpoints, identity across views, and any unspecified operation. Preserve supplied content; do not fill semantic gaps with invented mechanisms.

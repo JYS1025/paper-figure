@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-01",
+  "baseCommit": "6e52ba70567943109054edb0f8aeff567834b991",
+  "change": "External Gemini image API is request-only in every edition; bundled Codex client added. Default workflows do not advertise API options, inspect credentials or propose the API after native-tool failure.",
+  "checks": {
+    "unitTestsPassed": 168,
+    "unitTestsFailed": 0,
+    "offlineClientTests": 63,
+    "preflightTests": 2,
+    "preflightEditionSubcases": 4,
+    "syncIdempotent": true,
+    "documentationLinksChecked": 134
+  },
+  "unitTestLog": "docs/validation/request-only-integration-tests.txt",
+  "packages": {
+    "codex": {
+      "extractedFilesMatchManifest": true,
+      "skillValidationPassed": true,
+      "noKeyStatusConfigured": false,
+      "mockedGenerationSavedExpectedImage": true,
+      "mockedGenerationRecordedUninspected": true,
+      "secretAbsentFromOutputs": true,
+      "package": {
+        "zip": "output/paper-figure-skill.zip",
+        "zipSha256": "9d2eacaac301787edfc92577baa4b89b68c755a375789ad9a2b977bd5a3441e6",
+        "zipFiles": 51,
+        "validatedLocalLinks": 47,
+        "validatedScriptGuideReferences": 0
+      }
+    },
+    "claude": {
+      "extractedFilesMatchManifest": true,
+      "skillValidationPassed": true,
+      "noKeyStatusConfigured": false,
+      "mockedGenerationSavedExpectedImage": true,
+      "mockedGenerationRecordedUninspected": true,
+      "secretAbsentFromOutputs": true,
+      "defaultPreflightOmitsCredentialStatus": true,
+      "explicitPreflightDetectsLocalKey": true,
+      "explicitPreflightDoesNotClaimProviderAccess": true,
+      "package": {
+        "zip": "output/paper-figure-claude-skill.zip",
+        "zipSha256": "965c377b9dbe53649572d1940f94c50e1e09195e895c2049a2ecb2965e2a75eb",
+        "zipFiles": 55,
+        "validatedLocalLinks": 62,
+        "validatedScriptGuideReferences": 2
+      }
+    },
+    "antigravity": {
+      "extractedFilesMatchManifest": true,
+      "skillValidationPassed": true,
+      "noKeyStatusConfigured": false,
+      "mockedGenerationSavedExpectedImage": true,
+      "mockedGenerationRecordedUninspected": true,
+      "secretAbsentFromOutputs": true,
+      "defaultPreflightOmitsCredentialStatus": true,
+      "explicitPreflightDetectsLocalKey": true,
+      "explicitPreflightDoesNotClaimProviderAccess": true,
+      "pluginValidationPassed": true,
+      "package": {
+        "zip": "output/paper-figure-antigravity-plugin.zip",
+        "zipSha256": "478783654eca818cc41a1bba3ab50509a014a75f4922b76659b2d0e7f1329c74",
+        "zipFiles": 56,
+        "validatedLocalLinks": 62,
+        "validatedScriptGuideReferences": 2
+      }
+    }
+  },
+  "manualInstructionReview": {
+    "kind": "Static review of entry points and linked guidance; not an independent model evaluation",
+    "cases": [
+      "Ordinary figure request follows host defaults without an API menu or registration.",
+      "A saved key, generic image request or mention of Gemini as host does not activate an external API.",
+      "Native-tool absence, failure or quota exhaustion does not offer an unrequested external API.",
+      "Explicit request to use Gemini image API loads the integration guide and bundled client in all three editions.",
+      "A setup-information question does not trigger unrelated generation.",
+      "An explicit provider choice persists within the task without repeated onboarding.",
+      "Composition drafts and inserted assets use the selected provider; explanations remain editable."
+    ]
+  },
+  "sourceFileSha256": {
+    "scripts/sync-antigravity-port.py": "195af7c390e959c189cc40fb8a45b2cd94d827fa1446bd3f54ac0011a4248b32",
+    "tests/test_gemini_image.py": "27f4fcae1d8ef2a5f790d65046d6935d834a61477e66fd0ffffbf6a52ed3c10b",
+    "tests/test_preflight_disclosure.py": "aa7781f5d2e132ca615b4c61f70c947914dfb7e5bacfbf4278b2e06bdbaf8c10",
+    "ports/antigravity/image-mode.md": "20d43f18f39f294b050f6d2f83cc064c2b3578d4fe05c5b679e8961e6da4083d",
+    "ports/antigravity/image-options-intro.md": "089c05890a056cebeb24be7af63321c23494856e6d024f1184164f90232c4313",
+    "skills/paper-figure/SKILL.md": "952568a4c554b8b15d7674503e69dbf722f64811661ba65f62499bcd4859231e",
+    "skills/paper-figure/references/gemini-image-api.md": "5dcb53eadf3dac6ef9a52cc5fa6e578dbb1b091d58104b8e169f7580e53d3044",
+    "skills/paper-figure/scripts/gemini_image.py": "e82055186cfa7baec51a2ad55c5775edfca5bc367efce0dd3df9496e627a78d9",
+    "ports/claude/paper-figure/SKILL.md": "842a60f8710c4413414a806cfd3f0ac94eeb5fe7964fe94686fd868d2624c4a1",
+    "ports/claude/paper-figure/references/gemini-image-api.md": "5dcb53eadf3dac6ef9a52cc5fa6e578dbb1b091d58104b8e169f7580e53d3044",
+    "ports/claude/paper-figure/scripts/gemini_image.py": "e82055186cfa7baec51a2ad55c5775edfca5bc367efce0dd3df9496e627a78d9",
+    "ports/claude/paper-figure/scripts/preflight.mjs": "9cd8a03d03920c6ebd8ab87d39d743064f0781b65cec88a4d6e54f71e41bbd09",
+    "ports/antigravity/plugin/skills/paper-figure/SKILL.md": "f6ecfa1ab567da63458fd375a749628fda92f67b8ac03e82cd64a7692d9be89c",
+    "ports/antigravity/plugin/skills/paper-figure/references/gemini-image-api.md": "5dcb53eadf3dac6ef9a52cc5fa6e578dbb1b091d58104b8e169f7580e53d3044",
+    "ports/antigravity/plugin/skills/paper-figure/scripts/gemini_image.py": "e82055186cfa7baec51a2ad55c5775edfca5bc367efce0dd3df9496e627a78d9",
+    "ports/antigravity/plugin/skills/paper-figure/scripts/preflight.mjs": "9cd8a03d03920c6ebd8ab87d39d743064f0781b65cec88a4d6e54f71e41bbd09"
+  },
+  "notTested": [
+    "Live Gemini image API call",
+    "Live Antigravity built-in image generation",
+    "End-to-end model compliance with request-only instructions",
+    "New rendered figure or manual PowerPoint editing"
+  ],
+  "scope": "Instruction routing, dependency-preflight behavior, existing client reuse in Codex, offline transport fixtures and packaging. No credentials were registered and no paid generation request was made. Authoring and preservation engines are unchanged."
+}

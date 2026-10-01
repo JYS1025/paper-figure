@@ -2,7 +2,7 @@
 
 ## Confirm the selected creation route
 
-Read the selected mode from task notes; see [image options](image-options.md). In API mode, inspect the [draft-stage evidence](image-first.md#completion-evidence): actual full-figure draft and prompt, its review and transfer plan before PPTX authoring, and the draft-to-saved-render comparison. An asset-only image call or post-hoc image does not meet that route's requirements. In no-API mode, those artifacts are not required: review the content contract, references, palette decisions and native construction instead, and record that no image-model draft was generated. In every mode, keep full raster drafts out of the delivered PPTX and verify native explanatory objects. Local edits to a saved PPTX follow the preservation path below.
+Read the selected mode from task notes; see [image options](image-options.md). In image-draft mode, inspect the [draft-stage evidence](image-first.md#completion-evidence): actual full-figure draft and prompt, its review and transfer plan before PPTX authoring, and the draft-to-saved-render comparison. An asset-only image call or post-hoc image does not meet that route's requirements. In no-API mode, those artifacts are not required: review the content contract, references, palette decisions and native construction instead, and record that no image-model draft was generated. In every mode, keep full raster drafts out of the delivered PPTX and verify native explanatory objects. Local edits to a saved PPTX follow the preservation path below.
 
 ## Two independent review passes
 

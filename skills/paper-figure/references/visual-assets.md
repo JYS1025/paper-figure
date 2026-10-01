@@ -27,7 +27,7 @@ For generated concept icons, a useful prompt specification is: “One isolated f
 
 The exclusions in this section apply to **asset prompts**, not to the preceding full-figure composition draft. That draft may depict the complete layout, including provisional text and arrows, solely for reconstruction. Final explanatory text, mathematics and diagram geometry must still be native.
 
-Use the available image-generation skill and built-in tool. Give each asset its subject, view, style, palette role, printed size, and composition/crop requirements. Keep style consistent across a set. Request a transparent background for isolated icons and preserve the alpha channel. Generate independent assets in separate calls when they need separate placement or replacement.
+Use the image provider already selected for the task, following the entry point's provider rules; the host image-generation skill and built-in tool are the default. Give each asset its subject, view, style, palette role, printed size, and composition/crop requirements. Keep style consistent across a set. Request a transparent background for isolated icons when the provider supports it and inspect the actual alpha channel. If transparency is required but unavailable, use appropriate native pictograms or an already available asset tool. Generate independent assets in separate calls when they need separate placement or replacement.
 
 Explicitly exclude text, labels, numerals, logos, arrows, axes, connectors, legends, surrounding panels and complete diagram layouts. Add these later as native objects. If an unwanted label or diagram fragment appears inside a generated asset, correct it with the image tool or select another result; covering it with editable text is not the preferred construction.
 

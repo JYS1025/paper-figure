@@ -1,24 +1,21 @@
-# Choose the image workflow
+# Image workflow for this task
 
-Antigravity CLI has a built-in `generate_image` tool. For a new figure or substantial redesign, prefer that tool when it is actually exposed in the current agent session and the user has not selected another route. **A separate Gemini API key is not a prerequisite for the account-authenticated built-in path.** The host's account access, permissions and quota still apply. Check capabilities without making a paid generation call solely as a probe. A local dependency/credential check cannot establish native-tool availability.
+For a new figure or substantial redesign, use Antigravity's callable built-in `generate_image` by default when available. Use the host's account access and quota; do not present an image-provider menu or require external credentials. The tool must actually be exposed in the current session: documentation or local dependency checks do not establish tool/account access.
 
-| Route | Use | Separate Gemini API key |
-|---|---|---|
-| `antigravity-native` | Default when available: built-in image draft, review, then native PPTX reconstruction. | Not required for the account-authenticated host tool. |
-| `gemini-api` | Optional explicitly chosen external API client. | Required by the included client. |
-| Direct native authoring (`no-api`) | Explicitly skip image-model generation; use native shapes/text and authorized existing assets. | Not required. |
+An existing user-selected route persists within the task. “No separate API key” still permits built-in image generation; an explicit request for no image generation selects direct native authoring. Local PPTX edits and supplied-image reconstruction need no new draft or onboarding.
 
-Do not interpret “without registering an API key” as a request to omit the image draft. Use the built-in tool when available. If the user explicitly requests no image generation, honor that choice. Reuse prior choices without repeated onboarding. Existing PPTX edits and supplied-image reconstruction follow their own routes.
+## Built-in image generation
 
-## Built-in Antigravity image mode
+Resolve the actual tool and schema. Save the complete composition prompt and returned image, inspect it before authoring, and follow [image-first.md](image-first.md). Preserve transfer decisions and compare the draft with the saved-PPTX render. Generate needed pictorial assets separately. Record the actual tool and returned model information without inferring it from the chat model or fabricating another client's receipt.
 
-1. Resolve `generate_image` from the current session's tools and follow its actual schema. Official documentation lists it, but do not invent a shell command or tool call when it is not exposed. Do not extract host credentials or feed them to the separate API client.
-2. Save the complete composition prompt, call the host image tool, and preserve its returned image. Inspect that image before native authoring. Follow [image-first.md](image-first.md) for the transfer plan and saved-PPTX comparison. Generate final pictorial assets separately when needed.
-3. Record the route and actual tool/provider. Record a model ID only when known from the tool result; do not infer it from the chat model or copy the external client's default. Preserve available generation metadata without fabricating a `gemini_image.py` receipt. Keep all final explanatory labels, formulas, diagram shapes and arrows editable.
-4. If the tool is unavailable or returns an access/quota/error result, report the specific observation. Offer a supported retry, optional Gemini API, or direct native authoring. Do not change routes silently or require API registration merely because local API-key status is unconfigured.
+If the tool is absent or fails, report the specific limitation. Continue independent preparation; discuss a supported retry, supplied image, or direct native authoring when appropriate. Do not introduce an external API as an unsolicited fallback. Missing credentials for an unrequested integration are irrelevant to this route.
 
-When a fallback choice is needed, ask in the user's language, for example: “현재 세션에서 내장 이미지 생성을 사용할 수 없습니다. 별도 Gemini API를 연결할까요, 아니면 이미지 생성 없이 편집형 도형으로 제작할까요?” Continue the independent content/reference preparation while awaiting the choice. Never request a secret in chat.
+## Explicit integration request only
 
-Official host references, checked 2026-10-01: [built-in image tool](https://antigravity.google/docs/hooks#interaction-and-media), [account login and optional API authentication](https://antigravity.google/docs/cli/install/), [account plans and quota](https://antigravity.google/docs/plans/). Enterprise regional endpoints can have different capabilities; use the actual session result rather than changing its authentication or region.
+Read [Gemini image API setup](gemini-image-api.md) only after the user explicitly asks to use or configure that external API. Before the request, do not advertise the integration, ask for registration, inspect credentials, or show an API/no-API choice. A generic image request, a stored key, a native-tool failure, exhausted quota or the host name Gemini does not select the external API. Reuse an explicit task-level choice without repeated onboarding.
 
-The following API registration instructions apply only to the separately selected `gemini-api` route.
+## Direct native authoring (`no-api`)
+
+When the user explicitly skips image generation, proceed from the contract, original references, relationship plan and color roles to editable native objects. Use authorized supplied imagery and appropriate native pictograms. State that no image-model draft was generated. Keep saved-file rendering, typography, paper-scale and grayscale checks; do not invent an image-generation record.
+
+Official host references, checked 2026-10-01: [built-in image tool](https://antigravity.google/docs/hooks#interaction-and-media), [account authentication](https://antigravity.google/docs/cli/install/), [plans and quota](https://antigravity.google/docs/plans/). Use the actual session's capabilities rather than changing its authentication or region.

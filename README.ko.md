@@ -20,7 +20,7 @@
 
 스타·포크·구독자는 매일 갱신하며, 조회수는 표시된 날짜 기준 GitHub 최근 14일 통계입니다. [집계 안내](docs/repository-badges.md).
 
-> **Antigravity CLI:** 내장 이미지 생성을 우선 사용하며, 계정 로그인 경로에는 별도 Gemini API 키가 필요하지 않습니다. **Claude:** Gemini API 활용 또는 이미지 생성 없는 직접 제작을 선택합니다. 모든 방식에서 편집형 PowerPoint를 만듭니다. [제작 방식과 설정](docs/claude-image-generation.md).
+> **Codex·Antigravity CLI:** 사용 가능한 내장 이미지 도구로 초안을 만든 뒤 편집형 PowerPoint로 재구성합니다. **Claude:** 네이티브 직접 제작으로 시작합니다. 기본 작업에 별도 서비스 선택이나 등록 단계가 없습니다. [환경별 제작 흐름](docs/claude-image-generation.md).
 
 ---
 
@@ -137,7 +137,7 @@ gh repo clone JYS1025/paper-figure paper-figure
 agy plugin install ./paper-figure/ports/antigravity/plugin
 ```
 
-[Antigravity CLI(`agy`)](https://antigravity.google/docs/cli/install)를 먼저 설치하세요. 이미 저장소를 복제했다면 실제 경로로 두 번째 명령만 실행합니다. `agy plugin list`로 확인한 후 새 세션에서 `/paper-figure`를 호출하세요. 사용자 범위에 플러그인이 설치됩니다. [Google의 Gemini CLI → Antigravity CLI 전환 안내](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/)에 맞춘 지원이며, 이미지 생성 제공자는 Gemini API입니다.
+[Antigravity CLI(`agy`)](https://antigravity.google/docs/cli/install)를 먼저 설치하세요. 이미 저장소를 복제했다면 실제 경로로 두 번째 명령만 실행합니다. `agy plugin list`로 확인한 후 새 세션에서 `/paper-figure`를 호출하세요. 사용자 범위에 플러그인이 설치됩니다. [Google의 Gemini CLI → Antigravity CLI 전환 안내](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/)에 맞춘 지원이며, 세션에 제공되는 내장 이미지 생성 도구를 기본으로 사용합니다.
 
 각 환경에 맞는 버전을 독립된 복사본으로 설치합니다. Codex·Claude 설치 명령에는 `--copy`를 유지하세요. 스킬 이름은 `paper-figure`로 같지만 제작 엔진이 다릅니다. Codex·Claude의 `skills` CLI 명령으로 모든 프로젝트에서 쓰려면 `--global`, 설치 확인을 생략하려면 `--yes`를 덧붙입니다. 업데이트는 직접 수정 내용을 백업한 후 [버전별 업데이트 안내](docs/installation.md#verify-and-update)를 따르세요.
 
@@ -159,34 +159,17 @@ Codex·Claude는 압축을 푼 `paper-figure` 폴더를 위 표의 스킬 폴더
 
 ### 2. 제작 방식과 도구 확인
 
-Antigravity CLI는 현재 세션에서 사용 가능한 내장 generate_image를 우선 사용합니다. Claude는 Gemini API 활용 또는 직접 제작을 선택합니다. 이미 지정한 방식은 같은 작업에서 다시 묻지 않습니다.
+각 환경의 기본 제작 흐름으로 진행하며, 현재 작업에서 이미 지정한 방식은 유지합니다. 서비스 선택 메뉴나 키 등록 질문으로 시작하지 않습니다.
 
-| 방식 | 제작 과정 | 이미지 API 키 |
-|---|---|---|
-| **Antigravity 내장 생성** | 내장 이미지 초안 생성 → 검토 → 네이티브 PPTX 재구성 | 계정 로그인 경로에는 별도 키 불필요. 호스트 권한·할당량 적용. |
-| **Gemini API 활용** | 전체 이미지 초안 생성 → 검토 → 네이티브 PPTX 재구성 | 필요. Google API 접근 권한·할당량·요금이 적용됩니다. |
-| **이미지 생성 없이 직접 제작** | 레퍼런스·배색 검토 → 도형·텍스트·수식으로 바로 제작 | 불필요. |
+| 기능 | Codex | Claude | Antigravity CLI |
+|---|---|---|---|
+| 기본 이미지 작업 | 호스트 이미지 도구 → 편집형 재구성 | 네이티브 직접 제작 | 내장 이미지 도구 → 편집형 재구성 |
+| PPTX 제작 | 번들 Artifact Tool·Presentations | 공개 PptxGenJS·Python | 공개 PptxGenJS·Python |
+| 구조 검사 | Python `lxml` | Python `lxml`, `Pillow` | Python `lxml`, `Pillow` |
+| 렌더링 | 번들 렌더러 또는 PowerPoint | 사용 가능한 PPTX 렌더러 | 사용 가능한 PPTX 렌더러 |
+| 수식 검토 | Python `pdfplumber` | Python `pdfplumber` | Python `pdfplumber` |
 
-모든 방식에서 관계·수식·실제 저장 파일 렌더를 검토합니다. 이미지 생성 없는 직접 제작에서도 제공된 사진과 네이티브 픽토그램을 사용할 수 있으며, 새 사진이나 이미지 모델 초안을 생성했다고 표시하지 않습니다.
-
-Gemini API를 선택했는데 키가 없으면 [Google AI Studio](https://aistudio.google.com/apikey)를 안내하고, 설치된 해당 스킬 폴더에서 **사용자 본인의 터미널**로 다음을 실행하도록 안내합니다.
-
-```sh
-python3 scripts/gemini_image.py setup
-python3 scripts/gemini_image.py status
-```
-
-키는 숨김 입력으로 등록해 프로젝트 밖에 보관합니다. 기존 `PAPER_FIGURE_GEMINI_API_KEY`, `GOOGLE_API_KEY`, `GEMINI_API_KEY` 환경변수도 지원합니다. 키를 채팅에 보내지 마세요. `status`는 로컬 키 존재 여부만 확인합니다. 이 키 등록은 선택적 API 클라이언트에만 적용하며 Antigravity 내장 이미지 생성의 필수 단계가 아닙니다. [키 설정과 제약](docs/claude-image-generation.md).
-
-| 기능 | Codex 버전 | Claude / Antigravity CLI 버전 |
-|---|---|---|
-| PPTX 제작 | 번들 `@oai/artifact-tool` 및 Presentations 도구 | 공개 PptxGenJS와 Python 도구 |
-| 이미지 초안 | 세션에서 제공되는 이미지 생성 도구 | Antigravity: 내장 이미지 생성 우선. Claude: 선택적 Gemini API. 직접 제작도 지원 |
-| 구조 검사 | Python `lxml` | Python `lxml`, `Pillow` |
-| 렌더링 | 번들 LibreOffice/Poppler 또는 PowerPoint | 사용 가능한 LibreOffice/Poppler, 호스트 렌더러 또는 PowerPoint |
-| 수식 검사 | Python `pdfplumber` | Python `pdfplumber` |
-
-모든 방식에서 시각 검증에는 저장된 PPTX를 읽는 렌더러가 필요합니다. 스킬 설치만으로 계정·결제·키가 설정되지는 않습니다. API 클라이언트에는 네트워크 접근, Python, Pillow가 필요하며, API 실패 시 사용자 선택 없이 제작 방식을 바꾸지 않습니다.
+모든 방식에서 레퍼런스·관계·수식·실제 저장 파일을 검토합니다. 직접 제작은 제공된 사진과 픽토그램을 사용할 수 있으며 이미지 모델 초안을 생성했다고 표시하지 않습니다. 내장 도구가 없거나 실패하면 해당 상황을 설명하고, 다른 서비스로 자동 전환하지 않습니다.
 
 <details>
 <summary>Claude / Antigravity CLI 제작 엔진의 로컬 환경 설정</summary>
@@ -207,7 +190,7 @@ export FIGURE_PYTHON="$PWD/.venv/bin/python"
 node scripts/preflight.mjs
 ```
 
-LibreOffice, Poppler, 글꼴은 별도의 시스템 구성 요소입니다. 사전 점검은 로컬 의존성과 키 존재 여부를 확인하지만 API 호출이나 모델 접근 검증은 하지 않습니다. 공용 패키지 경로와 렌더링 래퍼 설정은 [환경 안내](ports/claude/paper-figure/references/claude-environment.md)를 참고하세요.
+LibreOffice, Poppler, 글꼴은 별도의 시스템 구성 요소입니다. 기본 사전 점검은 제작 의존성만 확인하며 이미지 자격 증명을 조회하거나 제공자에 접속하지 않습니다. 공용 패키지 경로와 렌더링 래퍼 설정은 [환경 안내](ports/claude/paper-figure/references/claude-environment.md)를 참고하세요.
 
 </details>
 
@@ -221,9 +204,10 @@ Codex에서는 `paper-figure`, Claude Code·Antigravity CLI에서는 `/paper-fig
 입력 → 인코더 → 잠재표현 → 디코더와 입력에서 디코더로 가는
 스킵 연결을 포함해. 제공한 설명의 기호와 표기법을 유지해.
 
-먼저 전체 이미지 초안을 생성하고 검토한 다음, 글자·도형·연결선을
-PowerPoint의 네이티브 객체로 재구성해. 필요한 삽화는 별도로 생성해.
-PPTX, 저장된 파일에서 렌더링한 미리보기, 선택한 초안과 검증 요약을 제공해줘.
+현재 앱의 기본 figure 제작 흐름을 따라줘. 글자·도형·연결선은
+PowerPoint에서 편집 가능하게 만들고, 필요한 삽화는 별도 자산으로 넣어줘.
+PPTX, 저장된 파일에서 렌더링한 미리보기와 검증 요약을 제공해줘.
+이미지 초안을 사용하는 경우에는 선택한 초안도 포함해줘.
 ```
 
 수정할 때는 최신 PPTX를 함께 전달합니다.
@@ -235,7 +219,7 @@ PPTX, 저장된 파일에서 렌더링한 미리보기, 선택한 초안과 검�
 
 ## 제작 과정
 
-이미지 초안을 사용하는 경우의 과정입니다. Claude·Antigravity CLI의 API 없는 모드는 레퍼런스·배색 검토 후 네이티브 제작으로 바로 진행합니다.
+Codex·Antigravity는 내장 도구가 제공되면 아래의 이미지 초안 과정을 사용합니다. Claude는 레퍼런스·배색 검토 후 직접 네이티브 제작을 기본으로 합니다. 사용자가 직접 제작을 선택한 경우에도 저장 결과 검증은 동일하게 수행합니다.
 
 | 단계 | 수행 내용 |
 |---|---|
@@ -282,13 +266,13 @@ HEX 값은 레퍼런스를 참고해 구성한 배색입니다. 원 논문에서
 
 | 검증 항목 | 기록된 결과 |
 |---|---|
-| 자동 회귀 검사 | 세 버전의 수정 보존 검사 54개와 패키지 참조 검사 4개를 포함해 **124개 통과**. |
+| 자동 회귀 검사 | 세 버전의 수정 보존 검사 54개, 패키지 참조 검사 4개와 기본·명시적 사전 점검 검사 2개를 포함해 **168개 통과**. |
 | 공개 제작 엔진 fixture 검사 | 새로 생성한 파일에서 연결 누락·역방향, 오래된 수정 요청, 이미지 자르기, 변경하지 않은 파일 내용 보존 등을 포함해 **33개 통과**. |
 | Claude 엔진으로 복잡한 기존 figure 재구성 | 저장된 PPTX에서 **네이티브 도형 196개, 연결선 10개, 그룹 16개, 독립 이미지 1개** 유지. |
 | 해당 재구성의 수식 렌더 검사 | Liberation Serif를 명시적으로 선택한 **14개 영역**에서 문자 누락·예상 밖 글꼴·작은 첨자 경고 없음. 최초 글꼴 대체 진단도 보존. |
 | 세 버전 배포 패키지 | 각 ZIP을 별도로 풀어 시험 파일을 생성하고 내용·연결선·슬라이드 재정렬·보고서 경로 충돌 검사 통과. |
 
-이 결과는 로컬 제작 엔진의 동작을 검증합니다. Claude Code·claude.ai·Antigravity CLI 에이전트의 전체 figure 작업과 최신 이식 버전의 PowerPoint 수동 편집은 아직 검증하지 않았습니다. Gemini API 클라이언트는 모의 응답·자격 증명 검사를 수행했으며 유료 실호출을 검증했다고 주장하지 않습니다. [이미지 모드·Antigravity 검증 기록](docs/portable-image-validation.json). 기록된 렌더링 경로는 LibreOffice → PDF → Poppler입니다. 이번 수정과 검증 범위는 [독립 평가 후 보완 기록](docs/independent-review-fixes.md), 정확한 소스·ZIP 해시는 [최신 검증 기록](docs/preservation-fixes-validation.json)에 있습니다. Antigravity 내장 도구 우선 경로와 갱신된 패키지는 [별도 검증 기록](docs/antigravity-native-image-validation.json)에 있습니다. [이전 Claude 검증 기록](docs/claude-port-validation.json)은 당시 결과로 보존했습니다.
+이 결과는 로컬 제작 엔진의 동작을 검증합니다. Claude Code·claude.ai·Antigravity CLI 에이전트의 전체 figure 작업과 최신 이식 버전의 PowerPoint 수동 편집은 아직 검증하지 않았습니다. 기록된 렌더링 경로는 LibreOffice → PDF → Poppler입니다. 현재 회귀 검사 결과, 연동 검사 범위와 소스·ZIP 해시는 [최신 검증 기록](docs/request-only-integration-validation.json)에 있습니다. 기존 렌더링·수정 보존 검사는 [독립 평가 후 보완 기록](docs/independent-review-fixes.md)과 [수정 보존 검증 기록](docs/preservation-fixes-validation.json)에 있으며, 이번 변경에서 제작 엔진은 바뀌지 않았습니다. [내장 도구 경로 검증](docs/antigravity-native-image-validation.json)과 [Claude 검증 기록](docs/claude-port-validation.json)은 당시 결과로 보존했습니다.
 
 복잡한 수식 조판, 연결선 경로 재설정, 연결된 그룹 이동에는 적절한 네이티브 편집 경로가 필요합니다. 글꼴과 렌더러에 따라 표시가 달라질 수 있습니다. 그림을 축소하면 글자와 첨자도 함께 작아지므로 실제 게재 폭에서 검토해야 합니다.
 

@@ -26,7 +26,7 @@ Use only the representations the method needs. This is not a quota for photos, p
 
 ## Composition and restraint
 
-Follow the selected [image mode](image-options.md). In API mode, explore the whole composition with the [image-model draft](image-first.md) before native PPTX construction; a simple diagram still needs that route's draft. Keep effective visual relationships from the inspected image and correct scientific errors against the content contract. In no-API mode, apply these design principles directly to native authoring after reference and palette review, without requiring a generated draft.
+Follow the selected [image mode](image-options.md). In image-draft mode, explore the whole composition with the [image-model draft](image-first.md) before native PPTX construction; a simple diagram still needs that route's draft. Keep effective visual relationships from the inspected image and correct scientific errors against the content contract. In no-API mode, apply these design principles directly to native authoring after reference and palette review, without requiring a generated draft.
 
 Give the central contribution enough room to be inspected. Let support elements use less contrast and space. A large slide-style heading is often unnecessary in a paper figure that already has a caption. Use asymmetry when the method is asymmetric. Empty space should separate semantic groups, not substitute for missing detail. Choose meaningful color roles and keep them stable across views; the method determines how many are needed.
 

@@ -36,7 +36,7 @@ See the official [Codex skill locations](https://learn.chatgpt.com/docs/build-sk
 
 ### Antigravity CLI
 
-Google announced the [transition from Gemini CLI to Antigravity CLI](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/) in May 2026. Gemini CLI retains some enterprise and paid-API access; the Google host targeted by this project is **Antigravity CLI (`agy`)**. **Gemini API** is an optional external image service. Antigravity’s built-in image tool is the default when available.
+Google announced the [transition from Gemini CLI to Antigravity CLI](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/) in May 2026. Gemini CLI retains some enterprise and paid-API access; the Google host targeted by this project is **Antigravity CLI (`agy`)**. Antigravity’s built-in image tool is the default when available.
 
 Install [Antigravity CLI](https://antigravity.google/docs/cli/install), then:
 
@@ -72,7 +72,7 @@ The earlier [installation verification record](cli-install-validation.json) chec
 
 ## Runtime and image setup
 
-Installation places files; it does not install authoring dependencies, register a key or add a renderer. Claude and Antigravity share a portable engine and optional Gemini API client. For new figures, Claude offers **Gemini API drafting / direct native authoring**. Antigravity first uses its available built-in image tool with host authentication; the separate API client is optional and its key is not a prerequisite for the built-in path. See [modes and private key setup](claude-image-generation.md).
+Installation places files; it does not install authoring dependencies or add a renderer. Codex and Antigravity use their available host image tools by default. Claude uses direct native authoring. No external-service menu or credential check appears during ordinary setup. See [host workflows](claude-image-generation.md).
 
 The portable engine uses Node.js 20+, Python 3.10+ and public dependencies. The Codex engine uses its host's bundled runtime. See the [README requirements](../README.md#2-check-the-required-tools), [Claude environment](../ports/claude/paper-figure/references/claude-environment.md) and [Antigravity environment](../ports/antigravity/plugin/skills/paper-figure/references/antigravity-environment.md).
 
@@ -95,7 +95,7 @@ agy plugin install /path/to/extracted/paper-figure
 | Wrong authoring engine | Check the loaded entry-point path. Install the edition-specific directory; check for an existing `.agents/skills/paper-figure` collision in Antigravity. |
 | Old edits disappear after update | Restore your backup; installation replaces the selected copy. |
 | Skill is missing in claude.ai | Local CLI installation does not upload a cloud account skill; use the Claude ZIP. |
-| API mode cannot access Google | Check the private key, model access, quota and host network permissions. The skill reports the error and offers retry/setup or no-API mode. |
+| Host image tool is unavailable | Report the actual limitation and discuss retrying that tool, using a supplied image, or an appropriate direct-native route. |
 
 For an existing checkout, Codex/Claude also accept local source paths:
 

@@ -1,23 +1,21 @@
 # Claude environment and image tools
 
-The public PptxGenJS engine supports two image modes: Gemini API drafting followed by native reconstruction, or direct native authoring without an image API. Both retain content contracts, original-reference review, color roles, editable explanations and saved-file validation. Choose using [image options and key registration](image-options.md).
+The public PptxGenJS engine creates native editable figures. Default to direct native authoring without provider onboarding. Keep content contracts, original-reference review, color roles and saved-file validation. See [image workflow](image-options.md); a requested integration is read only when its user-request condition applies.
 
 ## Check the actual host
 
 1. Locate this skill folder; resolve relative paths from it. Confirm code execution, file reading/writing and image inspection are available. Do not assume a particular `/mnt` path, terminal tool name or document skill exists.
-2. Offer Gemini API or no-API mode unless already selected. The included `scripts/gemini_image.py` implements the optional Google image API connection. Its human-terminal `setup` command registers a key privately; its `status` command is offline. Do not request secrets in chat. No-API mode requires neither a key nor an image-model draft.
-3. Run `node scripts/preflight.mjs` from this folder. It checks local dependencies and optional credential presence; it does not make an API request, detect MCP connections or certify model access. Node.js 20+ and Python 3.10+ are suitable. The engine needs `pptxgenjs`, `lxml` and `Pillow`; PDF typography checks also need `pdfplumber`. The image client uses Python's standard library plus Pillow, with no extra SDK.
+2. Reuse an existing explicit image-provider choice; otherwise follow the default image workflow. Do not offer external API setup or inspect credentials as part of ordinary onboarding or after a tool failure.
+3. Run `node scripts/preflight.mjs` from this folder. By default it checks local authoring dependencies only; it does not inspect image credentials, discover agent tools or verify provider access. Node.js 20+ and Python 3.10+ are suitable. The engine needs `pptxgenjs`, `lxml` and `Pillow`; PDF typography checks also need `pdfplumber`.
 4. Locate an actual saved-PPTX renderer. The included `render.py` supports LibreOffice plus Poppler (`pdftoppm`). A host-provided PPTX renderer or PowerPoint can be used instead if it reads the saved candidate. Record its name and inspect the actual result. Missing renderer means visual verification is incomplete, not passed.
 
 If a host supplies a PPTX skill, read its environment and renderer instructions. Do not copy its proprietary implementation into this skill or assume Claude Code includes cloud document tools. Follow the host's actual image-viewing and file-delivery conventions.
 
 ## Apply the selected mode
 
-In Gemini API mode, generate the full composition before native construction. Save the actual prompt, output image and generation record; inspect it and write transfer decisions. Follow [image-first.md](image-first.md) and generate final pictorial assets separately as needed. The client calls the documented Google HTTPS endpoint using a header credential and does not silently retry. It handles image and text-only responses distinctly.
+In direct native mode, proceed after content, reference and palette preparation. This is a complete supported route; do not claim that an image-model draft exists. Use supplied imagery and native pictograms as appropriate. Exact reconstruction of a supplied raster and local PPTX edits need no new draft.
 
-For another provider explicitly chosen by the user, resolve its actual tool or configured integration. Never print credentials or put them in prompts, output records or the skill package. Installing the skill does not create a Google account, enable billing, or register a key; those remain user-controlled setup actions. Some claude.ai/API environments restrict outbound network access, so key registration alone may not enable direct API calls there.
-
-In no-API mode, proceed to native authoring after content, reference and palette preparation. This is a complete supported route, not a blocked task or a waiver requiring further confirmation. Do not describe native geometry as an image-model draft. If an API-mode request fails or cannot access the network, explain the failure and offer setup/retry or no-API mode. Exact reconstruction of a supplied raster and local edits to an existing PPTX have their own routes and need no new draft.
+When an image provider was explicitly selected, resolve its actual tool or client and complete [image-first.md](image-first.md). If the requested integration is Gemini API, read [its setup guide](gemini-image-api.md) only then. Keep that integration absent from ordinary user-facing choices and fallback suggestions. A failed provider call is a failure, not permission to switch providers or omit a required stage. Explain the actual limitation and continue independent preparation.
 
 ## Dependencies without host-specific paths
 
@@ -41,6 +39,6 @@ Claude API skill containers may prohibit network access and runtime dependency i
 
 ## Evidence and delivery
 
-Deliver the editable PPTX, saved-file preview and concise validation note naming the selected mode. In API mode, also deliver the selected draft and keep its prompt, transfer plan and side-by-side comparison. No-API mode does not require those nonexistent artifacts. Keep asset inventories and saved-file inspection reports in both modes as applicable. A full draft must never be embedded in the final PPTX, even hidden. Local engine checks do not establish a Claude-host run; credential presence does not establish model access; XML inspection does not establish native PowerPoint edit behavior. Blind review remains conditional on a user request.
+Deliver the editable PPTX, saved-file preview and concise validation note naming the selected mode. In image-draft mode, also deliver the selected draft and keep its prompt, transfer plan and side-by-side comparison. No-API mode does not require those nonexistent artifacts. Keep asset inventories and saved-file inspection reports in both modes as applicable. A full draft must never be embedded in the final PPTX, even hidden. Local engine checks do not establish a Claude-host run; XML inspection does not establish native PowerPoint edit behavior. Blind review remains conditional on a user request.
 
 Installation guidance and capability limits were checked against [Claude Code skills](https://code.claude.com/docs/en/skills), [Claude custom-skill upload](https://support.claude.com/en/articles/12512180-use-skills-in-claude), [Claude image capability](https://support.claude.com/en/articles/9002504-can-claude-produce-images), and [Agent Skills environments](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview). Check current host capabilities rather than relying on this document as a permanent tool catalog.
