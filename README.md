@@ -20,7 +20,7 @@
 
 Stars, forks and watchers refresh daily; views show a dated GitHub 14-day snapshot. [Badge details](docs/repository-badges.md).
 
-> **Claude & Antigravity CLI:** choose **Gemini API** for image-model drafting, or **no API** for direct native authoring. Both routes produce editable PowerPoint. The optional Gemini client and private key-registration helper are included. [Modes and setup](docs/claude-image-generation.md).
+> **Antigravity CLI:** use built-in image generation when available; no separate Gemini API key for the account-authenticated host path. **Claude:** choose optional Gemini API drafting or direct native authoring. All routes produce editable PowerPoint. [Modes and setup](docs/claude-image-generation.md).
 
 ---
 
@@ -159,28 +159,29 @@ For Codex/Claude, extract the `paper-figure` folder into the appropriate skills 
 
 ### 2. Check the required tools
 
-Claude and Antigravity CLI ask which mode to use for a new figure, unless you already specified one:
+Antigravity CLI prefers its built-in `generate_image` when available. Claude offers Gemini API or direct native authoring. Explicit choices are preserved:
 
 | Mode | Workflow | Image key |
 |---|---|---|
+| **Antigravity built-in** | Generate the image draft with the host tool, then rebuild native PowerPoint objects. | No separate Gemini API key for account login; host access and quota apply. |
 | **Gemini API** | Generate a full composition draft, inspect it, then rebuild native PowerPoint objects. | Required; Google API access, quota and billing apply. |
-| **No API** | Review references and color roles, then build native shapes, text and math directly. | Not required. |
+| **Direct native, no image generation** | Review references and color roles, then build native shapes, text and math directly. | Not required. |
 
-The choice is reused within the task. Both modes retain saved-file rendering, relationship checks and typography review. No-API mode can use supplied images and native pictograms; it does not generate a new photographic asset or claim an image-model draft.
+The choice is reused within the task. All routes retain saved-file rendering, relationship checks and typography review. No-API mode can use supplied images and native pictograms; it does not generate a new photographic asset or claim an image-model draft.
 
-If you choose Gemini API and have no key, the skill links to [Google AI Studio](https://aistudio.google.com/apikey) and guides you to run this **in your own terminal**, from the installed Claude/Gemini skill folder:
+If you choose Gemini API and have no key, the skill links to [Google AI Studio](https://aistudio.google.com/apikey) and guides you to run this **in your own terminal**, from the installed portable skill folder:
 
 ```sh
 python3 scripts/gemini_image.py setup
 python3 scripts/gemini_image.py status
 ```
 
-The hidden-input helper stores the key outside the project. Existing `PAPER_FIGURE_GEMINI_API_KEY`, `GOOGLE_API_KEY` or `GEMINI_API_KEY` environment variables also work. Never paste a key into chat. `status` checks local presence only. Antigravity CLI sign-in is separate from image API access. [Credential details and limits](docs/claude-image-generation.md).
+The hidden-input helper stores the key outside the project. Existing `PAPER_FIGURE_GEMINI_API_KEY`, `GOOGLE_API_KEY` or `GEMINI_API_KEY` environment variables also work. Never paste a key into chat. `status` checks local presence only. This registration applies only to the optional API client; Antigravity’s built-in tool uses host authentication. [Credential details and limits](docs/claude-image-generation.md).
 
 | Capability | Codex edition | Claude / Antigravity CLI editions |
 |---|---|---|
 | PPTX authoring | Bundled `@oai/artifact-tool` and Presentations tooling | Public PptxGenJS engine with Python helpers |
-| Image drafting | Available host image-generation tool | Optional included Gemini API client; direct native mode also supported |
+| Image drafting | Available host image-generation tool | Antigravity: built-in image tool first. Claude: optional Gemini API client. Direct native mode also supported |
 | Structural checks | Python with `lxml` | Python with `lxml` and `Pillow` |
 | Rendering | Bundled LibreOffice/Poppler or PowerPoint | Available LibreOffice/Poppler, host renderer or PowerPoint |
 | Rendered math checks | Python with `pdfplumber` | Python with `pdfplumber` |
@@ -288,7 +289,7 @@ The project records structural checks, rendered review, native-application editi
 | Rendered math checks on that replay | **14 regions checked** with Liberation Serif explicitly selected; no flagged omissions, unexpected fonts or undersized scripts under the selected thresholds. The initial font-substitution diagnostic is retained. |
 | All three packages | Extracted ZIPs generated fixtures and passed content, connector, reordered-slide and report-collision checks. |
 
-These results establish local engine behavior. End-to-end figure creation by Claude Code, claude.ai or Antigravity CLI agents and manual PowerPoint editing of the latest ports have not yet been verified. The optional Gemini client has offline transport/credential tests; a paid live image request is not claimed. [Portable image-mode validation](docs/portable-image-validation.json). The recorded render path used LibreOffice → PDF → Poppler. Current results, fixes and exact source/package hashes are in the [independent-review corrections](docs/independent-review-fixes.md) and [validation record](docs/preservation-fixes-validation.json). Earlier results remain in the [historical Claude port record](docs/claude-port-validation.json).
+These results establish local engine behavior. End-to-end figure creation by Claude Code, claude.ai or Antigravity CLI agents and manual PowerPoint editing of the latest ports have not yet been verified. The optional Gemini client has offline transport/credential tests; a paid live image request is not claimed. [Portable image-mode validation](docs/portable-image-validation.json). The recorded render path used LibreOffice → PDF → Poppler. Current results, fixes and exact source/package hashes are in the [independent-review corrections](docs/independent-review-fixes.md) and [validation record](docs/preservation-fixes-validation.json). Antigravity’s native-first routing and its updated package are recorded in the [host-route validation](docs/antigravity-native-image-validation.json). Earlier results remain in the [historical Claude port record](docs/claude-port-validation.json).
 
 Advanced equation layout, complex connector rerouting and connected-group moves require an appropriate native editing path. Font availability and renderer differences can affect appearance. Review at the intended paper width; reducing the figure also reduces every label and subscript.
 

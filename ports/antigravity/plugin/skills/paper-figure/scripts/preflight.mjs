@@ -1,7 +1,7 @@
 import {spawnSync} from 'node:child_process';
 import {fileURLToPath} from 'node:url';
 import {pptxgen,python} from './runtime.mjs';
-const result={node:process.version,engine:null,python:null,imageGeneration:{modes:['gemini-api','no-api'],credentialStatus:null,providerVerified:false},scope:'Read-only dependency and credential-presence check; does not install packages or call image APIs.'};
+const result={node:process.version,engine:null,python:null,imageGeneration:{modes:['antigravity-native','gemini-api','no-api'],hostToolAvailability:'check-in-agent-session',credentialStatusAppliesTo:'gemini-api only',credentialStatus:null,providerVerified:false},scope:'Read-only dependency and credential-presence check; does not install packages or call image APIs.'};
 try{const P=pptxgen();result.engine={available:true,version:new P().version};}catch(e){result.engine={available:false,error:e.message};}
 const check=spawnSync(python,['-c',`import importlib.metadata as m, importlib.util, json, os, shutil, sys
 modules={'lxml':'lxml','PIL':'Pillow','pdfplumber':'pdfplumber'}

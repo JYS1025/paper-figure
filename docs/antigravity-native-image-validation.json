@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-01",
+  "baseCommit": "1843f42",
+  "correction": "Use available built-in Antigravity generate_image by default; separate Gemini API credentials only for an explicitly selected external API route.",
+  "officialReferences": [
+    "https://antigravity.google/docs/hooks#interaction-and-media",
+    "https://antigravity.google/docs/cli/install/",
+    "https://antigravity.google/docs/plans/"
+  ],
+  "sourceFileSha256": {
+    "scripts/sync-antigravity-port.py": "779202f498e816c3b3eb5b73044775f3876c3df7a859af9d6736bfbc7e694f99",
+    "ports/antigravity/image-mode.md": "c4d4be8a2d05824362be126ae81af0b2e36ef7312a3c37c07be30302be8b834b",
+    "ports/antigravity/image-options-intro.md": "57e657dcbf679db9de7f1fdac1b23d54cbd32f51f584e9b5b836e59fadbcbd18",
+    "ports/antigravity/plugin/skills/paper-figure/SKILL.md": "1f2786b3e6eb3733f908d91e10d3f20e775299d067650d3d0ad9efde11a2c564",
+    "ports/antigravity/plugin/skills/paper-figure/scripts/preflight.mjs": "24e1dc1c5020bba1fefc1da1499d47dd010bd9ab6dde56683483da6978be0ff1"
+  },
+  "package": {
+    "zip": "output/paper-figure-antigravity-plugin.zip",
+    "zipSha256": "de5d5404c1137f3f76d7ef48eb0b7864e791f3fe5f9bddbe8cd49fd70c6bfedd",
+    "zipFiles": 55,
+    "validatedLocalLinks": 61,
+    "validatedScriptGuideReferences": 2
+  },
+  "checks": {
+    "unitTestsPassed": 124,
+    "unitTestsFailed": 0,
+    "extractedPackageMatchesSource": true,
+    "skillValidationPassed": true,
+    "pluginValidationPassed": true,
+    "syncIdempotent": true,
+    "noApiKeyPreflightExitCode": 0,
+    "noApiKeyConfigured": false,
+    "hostToolAvailability": "requires inspection of current agent-session tools; not inferred from local credential status"
+  },
+  "notTested": [
+    "Live Antigravity built-in image-generation call",
+    "End-to-end Antigravity agent task",
+    "Live external Gemini API call"
+  ],
+  "scope": "Instruction/host-routing correction and package validation. No image-generation request was made."
+}

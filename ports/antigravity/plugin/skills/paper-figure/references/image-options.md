@@ -1,16 +1,27 @@
 # Choose the image workflow
 
-For a new figure or substantial redesign, offer two supported modes unless the user already chose one. Reuse the current task's choice; do not ask again for every asset or revision. A local PPTX edit or exact reconstruction of a supplied image does not need this onboarding.
+Antigravity CLI has a built-in `generate_image` tool. For a new figure or substantial redesign, prefer that tool when it is actually exposed in the current agent session and the user has not selected another route. **A separate Gemini API key is not a prerequisite for the account-authenticated built-in path.** The host's account access, permissions and quota still apply. Check capabilities without making a paid generation call solely as a probe. A local dependency/credential check cannot establish native-tool availability.
 
-Ask in the user's language. For example:
+| Route | Use | Separate Gemini API key |
+|---|---|---|
+| `antigravity-native` | Default when available: built-in image draft, review, then native PPTX reconstruction. | Not required for the account-authenticated host tool. |
+| `gemini-api` | Optional explicitly chosen external API client. | Required by the included client. |
+| Direct native authoring (`no-api`) | Explicitly skip image-model generation; use native shapes/text and authorized existing assets. | Not required. |
 
-> 이미지 초안을 어떤 방식으로 준비할까요?
-> 1. Gemini API 활용 — 이미지 모델로 구도를 탐색한 뒤 편집형 PPTX로 재구성합니다. API 키가 필요하며 Google API 요금이 발생할 수 있습니다.
-> 2. API 없이 제작 — 레퍼런스와 배색을 검토하고 편집 가능한 도형·텍스트로 바로 만듭니다. API 키가 필요 없습니다.
+Do not interpret “without registering an API key” as a request to omit the image draft. Use the built-in tool when available. If the user explicitly requests no image generation, honor that choice. Reuse prior choices without repeated onboarding. Existing PPTX edits and supplied-image reconstruction follow their own routes.
 
-In English: “Use Gemini API for a visual draft, or build native editable objects without an image API?” Do not ask the user to paste a key into chat. If the user says “without API,” that choice is sufficient: do not ask for a second waiver. Keep the question pending when the choice is needed; meanwhile prepare the independent content contract and reference observations. An existing key alone is not a mode choice. Honor an already requested, available image provider rather than forcing a switch.
+## Built-in Antigravity image mode
 
-Record `gemini-api`, `no-api`, `supplied-image`, `existing-pptx-edit`, or the explicitly chosen host provider in task notes. Save the model and generation records only for calls that actually occurred.
+1. Resolve `generate_image` from the current session's tools and follow its actual schema. Official documentation lists it, but do not invent a shell command or tool call when it is not exposed. Do not extract host credentials or feed them to the separate API client.
+2. Save the complete composition prompt, call the host image tool, and preserve its returned image. Inspect that image before native authoring. Follow [image-first.md](image-first.md) for the transfer plan and saved-PPTX comparison. Generate final pictorial assets separately when needed.
+3. Record the route and actual tool/provider. Record a model ID only when known from the tool result; do not infer it from the chat model or copy the external client's default. Preserve available generation metadata without fabricating a `gemini_image.py` receipt. Keep all final explanatory labels, formulas, diagram shapes and arrows editable.
+4. If the tool is unavailable or returns an access/quota/error result, report the specific observation. Offer a supported retry, optional Gemini API, or direct native authoring. Do not change routes silently or require API registration merely because local API-key status is unconfigured.
+
+When a fallback choice is needed, ask in the user's language, for example: “현재 세션에서 내장 이미지 생성을 사용할 수 없습니다. 별도 Gemini API를 연결할까요, 아니면 이미지 생성 없이 편집형 도형으로 제작할까요?” Continue the independent content/reference preparation while awaiting the choice. Never request a secret in chat.
+
+Official host references, checked 2026-10-01: [built-in image tool](https://antigravity.google/docs/hooks#interaction-and-media), [account login and optional API authentication](https://antigravity.google/docs/cli/install/), [account plans and quota](https://antigravity.google/docs/plans/). Enterprise regional endpoints can have different capabilities; use the actual session result rather than changing its authentication or region.
+
+The following API registration instructions apply only to the separately selected `gemini-api` route.
 
 ## Gemini API mode
 
@@ -38,7 +49,7 @@ Record `gemini-api`, `no-api`, `supplied-image`, `existing-pptx-edit`, or the ex
 
 Missing credentials or access: continue independent preparation and offer registration or no-API mode. Authentication, quota, timeout, blocked or text-only responses are failures, not permission to switch modes silently. Explain the concrete failure without echoing response bodies or credentials; let the user choose another mode or retry. Do not start repeated paid requests to probe model availability.
 
-## No-API mode
+## Direct native authoring without image generation (`no-api`)
 
 Proceed directly from the content contract, visually inspected references, relationship plan and color roles to native PowerPoint authoring. **This is a normal supported mode, not a missing-stage failure.** Skip image-provider setup, image-model drafting, raster transfer plans and draft-to-render comparison. Do not call this an image-model workflow or invent a generated draft.
 

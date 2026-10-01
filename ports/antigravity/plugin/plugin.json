@@ -1,4 +1,4 @@
 {
   "name": "paper-figure",
-  "description": "Editable research figures with optional Gemini image drafting and a portable PowerPoint authoring engine."
+  "description": "Editable research figures with built-in image drafting and optional Gemini API and a portable PowerPoint authoring engine."
 }

@@ -20,7 +20,7 @@
 
 스타·포크·구독자는 매일 갱신하며, 조회수는 표시된 날짜 기준 GitHub 최근 14일 통계입니다. [집계 안내](docs/repository-badges.md).
 
-> **Claude·Antigravity CLI:** **Gemini API 활용** 또는 **API 없이 제작** 중 하나를 선택합니다. 두 방식 모두 편집형 PowerPoint를 만듭니다. Gemini API 연결 코드와 개인 키 등록 도구가 포함되어 있습니다. [제작 방식과 설정](docs/claude-image-generation.md).
+> **Antigravity CLI:** 내장 이미지 생성을 우선 사용하며, 계정 로그인 경로에는 별도 Gemini API 키가 필요하지 않습니다. **Claude:** Gemini API 활용 또는 이미지 생성 없는 직접 제작을 선택합니다. 모든 방식에서 편집형 PowerPoint를 만듭니다. [제작 방식과 설정](docs/claude-image-generation.md).
 
 ---
 
@@ -159,28 +159,29 @@ Codex·Claude는 압축을 푼 `paper-figure` 폴더를 위 표의 스킬 폴더
 
 ### 2. 제작 방식과 도구 확인
 
-Claude와 Antigravity CLI는 새 figure를 만들 때 방식을 선택하게 합니다. 이미 지정했다면 같은 작업에서 반복해서 묻지 않습니다.
+Antigravity CLI는 현재 세션에서 사용 가능한 내장 generate_image를 우선 사용합니다. Claude는 Gemini API 활용 또는 직접 제작을 선택합니다. 이미 지정한 방식은 같은 작업에서 다시 묻지 않습니다.
 
 | 방식 | 제작 과정 | 이미지 API 키 |
 |---|---|---|
+| **Antigravity 내장 생성** | 내장 이미지 초안 생성 → 검토 → 네이티브 PPTX 재구성 | 계정 로그인 경로에는 별도 키 불필요. 호스트 권한·할당량 적용. |
 | **Gemini API 활용** | 전체 이미지 초안 생성 → 검토 → 네이티브 PPTX 재구성 | 필요. Google API 접근 권한·할당량·요금이 적용됩니다. |
-| **API 없이 제작** | 레퍼런스·배색 검토 → 도형·텍스트·수식으로 바로 제작 | 불필요. |
+| **이미지 생성 없이 직접 제작** | 레퍼런스·배색 검토 → 도형·텍스트·수식으로 바로 제작 | 불필요. |
 
-두 방식 모두 관계·수식·실제 저장 파일 렌더를 검토합니다. API 없이도 제공된 사진과 네이티브 픽토그램을 사용할 수 있으며, 새 사진이나 이미지 모델 초안을 생성했다고 표시하지 않습니다.
+모든 방식에서 관계·수식·실제 저장 파일 렌더를 검토합니다. 이미지 생성 없는 직접 제작에서도 제공된 사진과 네이티브 픽토그램을 사용할 수 있으며, 새 사진이나 이미지 모델 초안을 생성했다고 표시하지 않습니다.
 
-Gemini API를 선택했는데 키가 없으면 [Google AI Studio](https://aistudio.google.com/apikey)를 안내하고, 설치된 Claude/Gemini 스킬 폴더에서 **사용자 본인의 터미널**로 다음을 실행하도록 안내합니다.
+Gemini API를 선택했는데 키가 없으면 [Google AI Studio](https://aistudio.google.com/apikey)를 안내하고, 설치된 해당 스킬 폴더에서 **사용자 본인의 터미널**로 다음을 실행하도록 안내합니다.
 
 ```sh
 python3 scripts/gemini_image.py setup
 python3 scripts/gemini_image.py status
 ```
 
-키는 숨김 입력으로 등록해 프로젝트 밖에 보관합니다. 기존 `PAPER_FIGURE_GEMINI_API_KEY`, `GOOGLE_API_KEY`, `GEMINI_API_KEY` 환경변수도 지원합니다. 키를 채팅에 보내지 마세요. `status`는 로컬 키 존재 여부만 확인합니다. Antigravity CLI 로그인과 이미지 API 접근 권한은 별개입니다. [키 설정과 제약](docs/claude-image-generation.md).
+키는 숨김 입력으로 등록해 프로젝트 밖에 보관합니다. 기존 `PAPER_FIGURE_GEMINI_API_KEY`, `GOOGLE_API_KEY`, `GEMINI_API_KEY` 환경변수도 지원합니다. 키를 채팅에 보내지 마세요. `status`는 로컬 키 존재 여부만 확인합니다. 이 키 등록은 선택적 API 클라이언트에만 적용하며 Antigravity 내장 이미지 생성의 필수 단계가 아닙니다. [키 설정과 제약](docs/claude-image-generation.md).
 
 | 기능 | Codex 버전 | Claude / Antigravity CLI 버전 |
 |---|---|---|
 | PPTX 제작 | 번들 `@oai/artifact-tool` 및 Presentations 도구 | 공개 PptxGenJS와 Python 도구 |
-| 이미지 초안 | 세션에서 제공되는 이미지 생성 도구 | 포함된 Gemini API 클라이언트 또는 API 없는 직접 제작 |
+| 이미지 초안 | 세션에서 제공되는 이미지 생성 도구 | Antigravity: 내장 이미지 생성 우선. Claude: 선택적 Gemini API. 직접 제작도 지원 |
 | 구조 검사 | Python `lxml` | Python `lxml`, `Pillow` |
 | 렌더링 | 번들 LibreOffice/Poppler 또는 PowerPoint | 사용 가능한 LibreOffice/Poppler, 호스트 렌더러 또는 PowerPoint |
 | 수식 검사 | Python `pdfplumber` | Python `pdfplumber` |
@@ -287,7 +288,7 @@ HEX 값은 레퍼런스를 참고해 구성한 배색입니다. 원 논문에서
 | 해당 재구성의 수식 렌더 검사 | Liberation Serif를 명시적으로 선택한 **14개 영역**에서 문자 누락·예상 밖 글꼴·작은 첨자 경고 없음. 최초 글꼴 대체 진단도 보존. |
 | 세 버전 배포 패키지 | 각 ZIP을 별도로 풀어 시험 파일을 생성하고 내용·연결선·슬라이드 재정렬·보고서 경로 충돌 검사 통과. |
 
-이 결과는 로컬 제작 엔진의 동작을 검증합니다. Claude Code·claude.ai·Antigravity CLI 에이전트의 전체 figure 작업과 최신 이식 버전의 PowerPoint 수동 편집은 아직 검증하지 않았습니다. Gemini API 클라이언트는 모의 응답·자격 증명 검사를 수행했으며 유료 실호출을 검증했다고 주장하지 않습니다. [이미지 모드·Antigravity 검증 기록](docs/portable-image-validation.json). 기록된 렌더링 경로는 LibreOffice → PDF → Poppler입니다. 이번 수정과 검증 범위는 [독립 평가 후 보완 기록](docs/independent-review-fixes.md), 정확한 소스·ZIP 해시는 [최신 검증 기록](docs/preservation-fixes-validation.json)에 있습니다. [이전 Claude 검증 기록](docs/claude-port-validation.json)은 당시 결과로 보존했습니다.
+이 결과는 로컬 제작 엔진의 동작을 검증합니다. Claude Code·claude.ai·Antigravity CLI 에이전트의 전체 figure 작업과 최신 이식 버전의 PowerPoint 수동 편집은 아직 검증하지 않았습니다. Gemini API 클라이언트는 모의 응답·자격 증명 검사를 수행했으며 유료 실호출을 검증했다고 주장하지 않습니다. [이미지 모드·Antigravity 검증 기록](docs/portable-image-validation.json). 기록된 렌더링 경로는 LibreOffice → PDF → Poppler입니다. 이번 수정과 검증 범위는 [독립 평가 후 보완 기록](docs/independent-review-fixes.md), 정확한 소스·ZIP 해시는 [최신 검증 기록](docs/preservation-fixes-validation.json)에 있습니다. Antigravity 내장 도구 우선 경로와 갱신된 패키지는 [별도 검증 기록](docs/antigravity-native-image-validation.json)에 있습니다. [이전 Claude 검증 기록](docs/claude-port-validation.json)은 당시 결과로 보존했습니다.
 
 복잡한 수식 조판, 연결선 경로 재설정, 연결된 그룹 이동에는 적절한 네이티브 편집 경로가 필요합니다. 글꼴과 렌더러에 따라 표시가 달라질 수 있습니다. 그림을 축소하면 글자와 첨자도 함께 작아지므로 실제 게재 폭에서 검토해야 합니다.
 
