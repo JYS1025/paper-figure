@@ -1,0 +1,162 @@
+[
+  {
+    "case": "01-process",
+    "sha256": "5b370292c813bcf41e7caad4af10ff0249c7674f1f0324a0201fd4863e905c5f",
+    "semanticPassed": true,
+    "counts": {
+      "sp": 9,
+      "cxnSp": 4,
+      "grpSp": 0,
+      "pic": 0,
+      "graphicFrame": 0
+    },
+    "fontsPt": [
+      9.0,
+      10.5,
+      12.0,
+      12.75
+    ]
+  },
+  {
+    "case": "02-branch",
+    "sha256": "f97739970cb7ee43456a7af19d27fe429d27f5764bdad86f3f728125819efb9e",
+    "semanticPassed": true,
+    "counts": {
+      "sp": 8,
+      "cxnSp": 5,
+      "grpSp": 0,
+      "pic": 0,
+      "graphicFrame": 0
+    },
+    "fontsPt": [
+      9.0,
+      10.5,
+      12.0
+    ]
+  },
+  {
+    "case": "03-repeat",
+    "sha256": "58e4d7accd82d9ffbe6e9caeda7d9be6b67449089b2b2796b57975d180e2bede",
+    "semanticPassed": true,
+    "counts": {
+      "sp": 10,
+      "cxnSp": 5,
+      "grpSp": 0,
+      "pic": 0,
+      "graphicFrame": 0
+    },
+    "fontsPt": [
+      9.0,
+      10.5,
+      12.0,
+      15.0
+    ]
+  },
+  {
+    "case": "04-skip",
+    "sha256": "1066b4769d351d98889f021618058d6b64d90179dad054ab03eee1b620683ce8",
+    "semanticPassed": true,
+    "counts": {
+      "sp": 11,
+      "cxnSp": 6,
+      "grpSp": 0,
+      "pic": 0,
+      "graphicFrame": 0
+    },
+    "fontsPt": [
+      9.0,
+      10.5,
+      12.0
+    ]
+  },
+  {
+    "case": "05-panels",
+    "sha256": "a159fa7ec650779ecd63a7cf3233f948a08aa90393f9ad1c64c051ebd9c8b310",
+    "semanticPassed": true,
+    "counts": {
+      "sp": 27,
+      "cxnSp": 2,
+      "grpSp": 1,
+      "pic": 0,
+      "graphicFrame": 0
+    },
+    "fontsPt": [
+      9.0,
+      9.75,
+      10.5,
+      12.75
+    ]
+  },
+  {
+    "case": "06-tokens",
+    "sha256": "29b13822fbf849e718cec0e3f4471d700a4880197110c77a3f5c45d22ed6965c",
+    "semanticPassed": true,
+    "counts": {
+      "sp": 25,
+      "cxnSp": 5,
+      "grpSp": 3,
+      "pic": 0,
+      "graphicFrame": 0
+    },
+    "fontsPt": [
+      9.0,
+      10.5,
+      12.0,
+      14.25
+    ]
+  },
+  {
+    "case": "07-long-label",
+    "sha256": "04f5754979653dcaf90e2eedafabd090e09044546309be2fee541dc23a1f8072",
+    "semanticPassed": true,
+    "counts": {
+      "sp": 6,
+      "cxnSp": 3,
+      "grpSp": 0,
+      "pic": 0,
+      "graphicFrame": 0
+    },
+    "fontsPt": [
+      9.0,
+      9.75,
+      10.5,
+      11.25,
+      12.0
+    ]
+  },
+  {
+    "case": "08-train-infer",
+    "sha256": "5da7faff38f6f058272133688be9f50fd1e5e67ebcc10caa1809c2b6fb85be6f",
+    "semanticPassed": true,
+    "counts": {
+      "sp": 13,
+      "cxnSp": 6,
+      "grpSp": 0,
+      "pic": 0,
+      "graphicFrame": 0
+    },
+    "fontsPt": [
+      8.25,
+      9.0,
+      10.5
+    ]
+  },
+  {
+    "case": "09-capabilities",
+    "sha256": "a174fc2ff8644e29261e70c62becf5f0a24c1a7ff222b84104b9e454cae4402e",
+    "semanticPassed": true,
+    "counts": {
+      "sp": 10,
+      "cxnSp": 2,
+      "grpSp": 1,
+      "pic": 0,
+      "graphicFrame": 0
+    },
+    "fontsPt": [
+      9.0,
+      10.5,
+      12.0,
+      14.25
+    ]
+  }
+]

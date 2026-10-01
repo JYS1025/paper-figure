@@ -1,0 +1,39 @@
+{
+  "slides": [
+    {
+      "nodes": {
+        "e1": "Encode 1",
+        "e2": "Encode 2",
+        "core": "Bottleneck",
+        "d2": "Decode 2",
+        "d1": "Decode 1"
+      },
+      "edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "core"
+        ],
+        [
+          "core",
+          "d2"
+        ],
+        [
+          "d2",
+          "d1"
+        ],
+        [
+          "e1",
+          "d1"
+        ],
+        [
+          "e2",
+          "d2"
+        ]
+      ]
+    }
+  ]
+}

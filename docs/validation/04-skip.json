@@ -1,0 +1,337 @@
+{
+  "file": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/final/04-skip.pptx",
+  "sha256": "1066b4769d351d98889f021618058d6b64d90179dad054ab03eee1b620683ce8",
+  "sizePx": [
+    672.0,
+    360.0
+  ],
+  "slides": [
+    {
+      "part": "ppt/slides/slide1.xml",
+      "objects": [
+        {
+          "id": "18",
+          "name": "caption",
+          "kind": "sp",
+          "text": "Multi-scale restoration",
+          "boundsPx": [
+            24.0,
+            13.0,
+            624.0,
+            25.0
+          ],
+          "fingerprint": "823756a990ddca1f355d0453a0482200b8e6d7757bdb96e82207e17379f1b3f7",
+          "fontPt": [
+            12.0
+          ]
+        },
+        {
+          "id": "2",
+          "name": "e1",
+          "kind": "sp",
+          "text": "Encode 1",
+          "boundsPx": [
+            33.0,
+            77.0,
+            106.0,
+            51.0
+          ],
+          "fingerprint": "4f32e8ee8b69774985f689bdb2f97f63f6d3c73ad3cfd18120952fa227a461a1",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "3",
+          "name": "e2",
+          "kind": "sp",
+          "text": "Encode 2",
+          "boundsPx": [
+            165.0,
+            164.0,
+            103.0,
+            51.0
+          ],
+          "fingerprint": "b0a82bf419fae52742831fa105c51322b17561e8757c9282c6e287320d516287",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "4",
+          "name": "core",
+          "kind": "sp",
+          "text": "Bottleneck",
+          "boundsPx": [
+            287.0,
+            253.0,
+            108.0,
+            48.0
+          ],
+          "fingerprint": "1b27aa4db2304992d62b9381d7d9d5480a4e1fb08bd84558b4509b9a5a07d517",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "5",
+          "name": "d2",
+          "kind": "sp",
+          "text": "Decode 2",
+          "boundsPx": [
+            416.0,
+            164.0,
+            103.0,
+            51.0
+          ],
+          "fingerprint": "dbded909bacc636fa10ac2da667fe3adb9b98f61db86bc0f2470111975bd3c51",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "6",
+          "name": "d1",
+          "kind": "sp",
+          "text": "Decode 1",
+          "boundsPx": [
+            548.0,
+            77.0,
+            100.0,
+            51.0
+          ],
+          "fingerprint": "f04099831cebb3d4d822c3530d839bc223eba146fa0bf58d24f57eda2f52c34b",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "24",
+          "name": "down1",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            86.0,
+            128.0,
+            79.0,
+            61.5001
+          ],
+          "fingerprint": "173ed5b8b744a3e05c9d79b1022d752631110a8edbf3cba04badb0d58d960159",
+          "fontPt": []
+        },
+        {
+          "id": "25",
+          "name": "down2",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            216.5001,
+            215.0,
+            70.5001,
+            62.0
+          ],
+          "fingerprint": "ba560394fef8706a172da8498ee6477590b86ae891d59872aaaa8d1326b1bfca",
+          "fontPt": []
+        },
+        {
+          "id": "26",
+          "name": "up2",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            395.0,
+            215.0,
+            72.5001,
+            62.0
+          ],
+          "fingerprint": "86ab3a273c896d1cdcf9be0737bb10491398da585b3c67e598e33d105481c63a",
+          "fontPt": []
+        },
+        {
+          "id": "27",
+          "name": "up1",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            519.0,
+            128.0,
+            79.0,
+            61.5001
+          ],
+          "fingerprint": "d0e88add9d37088788916ce891fc711fcc68beeb1b3179347bf38267425d5083",
+          "fontPt": []
+        },
+        {
+          "id": "28",
+          "name": "skip1",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            139.0,
+            102.5001,
+            409.0,
+            0.0
+          ],
+          "fingerprint": "75da1c0bb53dbab195e153c32e37aaedd0487690e23b4fa32cef557f384f1ab6",
+          "fontPt": []
+        },
+        {
+          "id": "29",
+          "name": "skip2",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            268.0,
+            189.5001,
+            148.0,
+            0.0
+          ],
+          "fingerprint": "c37bdbfe3d50e79c911c8b01a6f86bc6cf02b64884a8f8ca359dda73f73f2633",
+          "fontPt": []
+        },
+        {
+          "id": "13",
+          "name": "skip-label1",
+          "kind": "sp",
+          "text": "skip \u00b7 high resolution",
+          "boundsPx": [
+            221.0,
+            73.0,
+            233.0,
+            25.0
+          ],
+          "fingerprint": "b3b40f09503d974305446c1d0eeefb1ca5fd2b1f826e7d134e0d8a0eedc844ac",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "14",
+          "name": "skip-label2",
+          "kind": "sp",
+          "text": "skip",
+          "boundsPx": [
+            310.0,
+            163.0,
+            63.0,
+            25.0
+          ],
+          "fingerprint": "471ff127d06a4b7e5c6aa6f3d7f0e647ac248752c6c3b7222d4f79f429035e00",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "15",
+          "name": "scale1",
+          "kind": "sp",
+          "text": "H \u00d7 W",
+          "boundsPx": [
+            8.0,
+            141.0,
+            68.0,
+            25.0
+          ],
+          "fingerprint": "41898085cb6cbda436b365c1e4d1a4587da7a14a81f6637b874ffd79d158b86c",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "16",
+          "name": "scale2",
+          "kind": "sp",
+          "text": "H/2 \u00d7 W/2",
+          "boundsPx": [
+            109.0,
+            224.0,
+            99.0,
+            25.0
+          ],
+          "fingerprint": "0e8c553ab0b5928fff7f938b112efdffde79a6e4b78694ff722ea94c87bb4228",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "17",
+          "name": "scale3",
+          "kind": "sp",
+          "text": "H/4 \u00d7 W/4",
+          "boundsPx": [
+            290.0,
+            307.0,
+            104.0,
+            25.0
+          ],
+          "fingerprint": "c33443672fc20ca3b2619e57af129ef1770235da6c837ae0f4fff0c92a27bbf6",
+          "fontPt": [
+            9.0
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "name": "down1",
+          "from": "e1",
+          "to": "e2",
+          "fromIdx": "2",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "down2",
+          "from": "e2",
+          "to": "core",
+          "fromIdx": "2",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "up2",
+          "from": "core",
+          "to": "d2",
+          "fromIdx": "3",
+          "toIdx": "2",
+          "directed": true
+        },
+        {
+          "name": "up1",
+          "from": "d2",
+          "to": "d1",
+          "fromIdx": "3",
+          "toIdx": "2",
+          "directed": true
+        },
+        {
+          "name": "skip1",
+          "from": "e1",
+          "to": "d1",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "skip2",
+          "from": "e2",
+          "to": "d2",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        }
+      ],
+      "counts": {
+        "sp": 11,
+        "cxnSp": 6,
+        "grpSp": 0,
+        "pic": 0,
+        "graphicFrame": 0
+      },
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "passed": true
+}

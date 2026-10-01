@@ -1,0 +1,19 @@
+Recorded after inspecting the complete image-model draft, before native PPTX construction.
+
+PRESERVE
+The wide hourglass compression/reconstruction row with spike rasters at input, bottleneck and output. Keep teal target/encoder, gold binary bottleneck and coral decoder/output. Preserve two vertically separated training branches feeding one common loss, a delay bank only on the target branch, identical filter operations, and a bottom single-channel delay explanation. Retain scholarly serif symbols and direct dimension labels on tapered feature stages. The draft's composition is the basis for this figure.
+
+CORRECT
+The draft duplicates stage dimensions. Use exactly six encoder output dimensions [1024,768,512,256,128,32] and six decoder output dimensions [128,256,512,768,1024,1024]; explicit sequences include their respective input dimensions. Latent raster repeats the last encoder representation, not a seventh layer. Remove arbitrary 0–2 seconds axes. Use schematic bin orientation, with no physical duration implied. Avoid brain/probe hardware imagery because the currently configured source is in-vitro MEA data; generate an abstract recording/culture pictogram separately. Replace the draft's invented descending delay distribution with either a label or the explicitly illustrative three-tap example. Keep original target before the adapter, and show only that branch receiving causal delay. Display filtered traces as mechanically generated schematic examples, not model results or evidence of improved fit. All 1024 channels participate in the implemented loss even though only a few traces are drawn.
+
+READABILITY CHANGES
+Use a 672×520 canvas (177.8mm paper width) instead of the draft's 672×490 proportions to allow legible secondary labels. Combine each filter and its output trace in one visible native module rather than repeat full multi-channel rasters throughout panel b. Keep one-row target/reconstruction examples and one single-event causal-delay inset; preserve the two-row hierarchy and scientific relationships. Use the caption to define full convolution and zero-tail padding without turning them into invented network layers.
+
+ASSET
+Generate one separate flat abstract cultured-neuron/electrode recording pictogram. No text, numbers, stage geometry or arrows in the raster. Place once at the input. Its pixels are illustrative; the actual diagram and explanatory data marks remain native.
+
+NATIVE RECONSTRUCTION
+All spike marks and channel baselines, feature stage contours, dimensions, labels, variables/hat/subscripts, kernel taps, filtered example curves, enclosures, arrows and loss branches. Taper widths are schematic; no claim of proportional scaling or temporal downsampling. Whole draft must never be inserted, including hidden backgrounds. Native endpoints attach to visible frames or rectangular end ports that coincide with the tapered stage boundary.
+
+SAVED-FILE REVIEW
+Compare actual PPTX render with selected-draft.png at equal width. Verify source code dimensions, input-only adapter, six stages on each side, binary latent/output, target-only causal delay, equal filters, full convolution support, correct illustrative impulse response, media inventory, fonts and script sizes. Check grayscale and paper-width view. Report renderer as bundled LibreOffice and distinguish XML/native-object checks from a PowerPoint interaction test.

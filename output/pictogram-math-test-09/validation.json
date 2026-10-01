@@ -1,0 +1,48 @@
+{
+  "sample": "Timestamped visual–inertial correction",
+  "date": "2026-10-01",
+  "file": "figure-v4.pptx",
+  "sha256": "1b1f0a515e1b49f092be68c558c31bb0f8643d1b486b34a2749f6e286f4f0061",
+  "canvasWidthMm": 177.8,
+  "renderer": "bundled LibreOffice → PDF → Poppler",
+  "structure": {
+    "passed": true,
+    "counts": {
+      "sp": 107,
+      "cxnSp": 12,
+      "grpSp": 11,
+      "pic": 2,
+      "graphicFrame": 0
+    },
+    "requiredDirectedEdges": 12
+  },
+  "flow": {
+    "connectors": 12,
+    "requiringRenderedReview": 0,
+    "geometryUnchecked": 0
+  },
+  "typography": {
+    "regions": 10,
+    "requiringReview": 0,
+    "unmeasuredRegions": 0
+  },
+  "minimumMathSizePt": 7.71,
+  "stateLabelBasePt": 13.493,
+  "stateLabelScriptPt": 9.213,
+  "scriptToBaseRatioRange": [
+    0.6817,
+    0.6832
+  ],
+  "observedMathFonts": [
+    "TimesNewRomanPS-ItalicMT",
+    "TimesNewRomanPSMT"
+  ],
+  "pictures": {
+    "count": 2,
+    "nativeIndependentPictureObjects": true,
+    "embeddedMediaMatchesSourceFiles": true
+  },
+  "visualReview": "Full render, 177.8 mm design-width preview, grayscale. Corrected closing-parenthesis clearance, buffer-label position, routed-arrow crossing clearance. Preset connector adjustment was not honored by LibreOffice, so the module moved clear of the actual route. Final render verified.",
+  "layoutWarningResolution": "One automated connector_over_text warning: bounding rectangle of the bent late-history connector intersects buffer-title. The actual blue route runs at x=574.5/217 and y=165; the label lies at x=271..481 and y=201..218. Final render confirms no stroke through text.",
+  "scope": "Simple grouped native text, not Office equation objects. Two images are replaceable pictures, not editable vector internals. Native PowerPoint execution and independent blind comparison were not performed."
+}

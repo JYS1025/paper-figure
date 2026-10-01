@@ -1,0 +1,108 @@
+{
+  "preparedAtUtc": "2026-09-30T07:51:03.109070+00:00",
+  "test": "Labeled blind source comparison of image-model-guided native PPTX reconstruction",
+  "candidate": "output/image-first-test-03/figure.png; render of frozen native PPTX, not the raw image-model draft",
+  "reviewers": [
+    {
+      "agent": "/root/labeled_blind_reviewer_04a",
+      "forkTurns": "none"
+    },
+    {
+      "agent": "/root/labeled_blind_reviewer_04b",
+      "forkTurns": "none"
+    }
+  ],
+  "model": "Inherited parent model configuration, no explicit override. GPT-6-based Codex; exact serving version unavailable. Fresh contexts are not different models or services.",
+  "isolation": "Fresh-context instructions restrict reading to the prompt and three flattened images. This is context separation, not filesystem access-control isolation.",
+  "inputs": {
+    "evaluator-prompt.md": "480f4c341aaf3ba4c18b8c39c38895d61043fa8e2ca6c381728c0d353869897c",
+    "pair-01.png": "cb363a9a91f79f893de9110986e1ec8d8c64e6e2376dff0426b54a814c55f201",
+    "B.png": "727484a909b1729eea5ccc7ffe8dcaf568a638091a83b26cc9cf9ebe699e92b1",
+    "A.png": "7cf300b1c83ec032e0675a4a17b25ae40f722b8861d863f1c941b1a20696c74f"
+  },
+  "pairCount": 1,
+  "independentContextCount": 2,
+  "internalLabelsVisible": true,
+  "cropCheck": {
+    "allInternalWordsIncluded": true,
+    "internalWordCount": 45,
+    "onlyExcludedText": "Hypothetical schematic; geometry and droplets are illustrative."
+  },
+  "comparisonPdfFlattened": true,
+  "candidateFiles": {
+    "image-draft.png": {
+      "sha256": "d8ccf3bcc2ac4997d8d7e15e78f91bfefea906f53a3dea82cd9de9a7a68b9328",
+      "matchesFrozenCandidate": true
+    },
+    "figure.pptx": {
+      "sha256": "5a1171f553a953a21cea6dd77a0daf496888043bfe3d671c3c9786f58f78e9e3",
+      "matchesFrozenCandidate": true
+    },
+    "figure.pdf": {
+      "sha256": "8b044feb048894a6e5394f61ecaf189d1f7a090d4cc71aef480a60ff1191a08c",
+      "matchesFrozenCandidate": true
+    },
+    "figure.png": {
+      "sha256": "ec4f63fe350dde19a37b52bd006b72d208c8315d80c8f7111651b41496e2616a",
+      "matchesFrozenCandidate": true
+    }
+  },
+  "candidateFigureModifiedForTest": false,
+  "answerKey": "answer-key.json",
+  "protocolFixedBeforeVerdicts": true,
+  "limitations": [
+    "One pair with different scope and methods; no statistical quality or provenance accuracy inference.",
+    "Not an image-first versus direct-generation controlled comparison.",
+    "Labeled test differs from earlier masked test and confidence values cannot be read as an improvement score."
+  ],
+  "completedAtUtc": "2026-09-30T07:55:41.168986+00:00",
+  "verdicts": [
+    {
+      "reviewer": "/root/labeled_blind_reviewer_04a",
+      "sourceGuess": "B",
+      "subjectiveConfidence": 0.7,
+      "publishedActual": "B",
+      "sourceGuessCorrect": true,
+      "qualityPreference": "A",
+      "generatedActual": "A",
+      "recognizedFromMemory": false,
+      "confirmedStructuralDefect": false,
+      "blanketArrowThickeningRecommended": false,
+      "responseSha256": "637017ec29e99754e947d43b3a3cd46efa31d9747ae5ce301df52be241b1f8f6",
+      "lockedAtUtc": "2026-09-30T07:53:23.095738+00:00"
+    },
+    {
+      "reviewer": "/root/labeled_blind_reviewer_04b",
+      "sourceGuess": "B",
+      "subjectiveConfidence": 0.8,
+      "publishedActual": "B",
+      "sourceGuessCorrect": true,
+      "qualityPreference": "A",
+      "generatedActual": "A",
+      "recognizedFromMemory": false,
+      "confirmedStructuralDefect": false,
+      "blanketArrowThickeningRecommended": false,
+      "responseSha256": "32fabb97d70a39b9f773c42d97db8bf91057f5eb5cde6febee33ac7cb21af152",
+      "lockedAtUtc": "2026-09-30T07:53:01.903788+00:00"
+    }
+  ],
+  "remainingFeedback": [
+    {
+      "reviewer": 1,
+      "topic": "Define F, theta and classification encoding if not already covered in an adjacent caption",
+      "type": "conditional explanation improvement"
+    },
+    {
+      "reviewer": 2,
+      "topic": "Distinguish unscored from negative droplets at final scale and in grayscale",
+      "type": "finishing"
+    },
+    {
+      "reviewer": 2,
+      "topic": "Explain droplet-to-trigger timing only when required by actual methods and explanatory scope",
+      "type": "conditional explanation improvement"
+    }
+  ],
+  "sourcesRevealedToReviewers": false,
+  "candidateUnchangedAfterVerdicts": true
+}

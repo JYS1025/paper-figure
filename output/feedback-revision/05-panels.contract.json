@@ -1,0 +1,37 @@
+{
+  "slides": [
+    {
+      "nodes": {
+        "image-label": "Image",
+        "text-label": "Text",
+        "image-encoder": "Vision\nencoder",
+        "text-encoder": "Text\nencoder",
+        "x-label": "Text embeddings",
+        "y-label": "Image\nembeddings"
+      },
+      "edges": [
+        [
+          "image",
+          "image-encoder"
+        ],
+        [
+          "text",
+          "text-encoder"
+        ],
+        [
+          "image-encoder",
+          "image-axis"
+        ],
+        [
+          "text-encoder",
+          "text-axis"
+        ]
+      ],
+      "groups": [
+        "scores",
+        "row-embeddings",
+        "column-embeddings"
+      ]
+    }
+  ]
+}

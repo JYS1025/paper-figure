@@ -1,0 +1,23 @@
+{
+  "mode": "built-in image_gen",
+  "initial": [
+    {
+      "file": "camera.png",
+      "subject": "Camera pictogram",
+      "prompt": "Use case: scientific-educational. Asset type: one isolated flat pictogram for a research-paper figure, printed about 10 mm wide. Flat vector-like solid fills with consistent charcoal-blue outline, restrained two-color treatment, clean silhouette. Front orthographic view, centered with generous transparent margins. No photorealistic materials, gradients, glossy reflections, product render lighting, shadows, texture, fine hardware details, perspective or 3D depth. No text, letters, numbers, labels, logos, arrows, axes, connectors, legends, surrounding panels or full diagrams. True transparent background. Subject: a simplified camera with one broad body, a small top prism hump and one large circular lens. Dark blue outline #304D68 and pale blue fill #E5EEF5. A single dark inner lens disk with no shine. The camera alone, clearly recognizable at small scale."
+    },
+    {
+      "file": "inertial-sensor.png",
+      "subject": "Inertial sensor pictogram",
+      "prompt": "Use case: scientific-educational. Asset type: one isolated flat pictogram for a research-paper figure, printed about 10 mm wide. Flat vector-like solid fills with consistent charcoal-blue outline, restrained two-color treatment, clean silhouette. Front orthographic view, centered with generous transparent margins. No photorealistic materials, gradients, glossy reflections, product render lighting, shadows, texture, fine hardware details, perspective or 3D depth. No text, letters, numbers, labels, logos, arrows, axes, connectors, legends, surrounding panels or full diagrams. True transparent background. Subject: a generic inertial sensor represented by a simple square microchip, with three broad short contacts on each edge and a small solid square centered inside. Dark olive outline #52663D and pale olive fill #E9EDDC. No circuitry, symbols, axis markers or electronic fine detail. A spare pictogram of a chip alone."
+    }
+  ],
+  "cameraRevision": {
+    "prompt": "Edit this camera pictogram. Keep exactly its camera silhouette, circular lens, front view and two-color design. Remove ALL blue glow, haze, soft halo and shadow outside the camera outline. Everything outside the hard camera contour must be fully transparent. Make the interior fills perfectly flat opaque pale blue #E5EEF5 and dark blue #304D68 with crisp normal antialiased edges only. No gradients, lighting, highlights, texture or semi-transparent colored fog. This is a spare flat print pictogram, not a luminous icon. Do not add anything. No text, numbers, arrows, panels or diagrams. Preserve transparent background.",
+    "source": "/Users/odysseus/.codex/generated_images/01a0ec7b-caba-7c90-8e51-f8f66d969153/exec-555c9408-e05e-4f76-b778-7411f22f1b6c.png"
+  },
+  "selectedFiles": [
+    "assets/camera.png",
+    "assets/inertial-sensor.png"
+  ]
+}

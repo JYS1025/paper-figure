@@ -1,0 +1,24 @@
+{
+  "sourceSha256": "de644f1ef0593f542228ddd1bfc33250e39f59d7706bf3c3355f1c93b44664d0",
+  "outputSha256": "07ab20505c3912f0781c6b562df1cce60ae659bf77695cc709da7d28d931677d",
+  "changed": [
+    {
+      "slide": 1,
+      "id": "271",
+      "name": "vision",
+      "action": "style_connector"
+    },
+    {
+      "slide": 1,
+      "id": "272",
+      "name": "language",
+      "action": "style_connector"
+    }
+  ],
+  "changedParts": [
+    "ppt/slides/slide1.xml"
+  ],
+  "untouchedPartsByteIdentical": 20,
+  "nonTargetObjectsUnchanged": 164,
+  "connectorGeometryAndEndpointsUnchanged": true
+}

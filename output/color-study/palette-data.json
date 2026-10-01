@@ -1,0 +1,55 @@
+{
+  "scope": "Qualitative examination of 7 selected papers, not a prevalence survey",
+  "observedPaletteSampling": "Frequent flat RGB values in cached original PNG files; no source figure recoloring. Values are not claimed as author specifications.",
+  "sampledPalettes": {
+    "Transformer": [
+      "#FFE2BB",
+      "#C2E8F7",
+      "#FCE0E1",
+      "#F2F4C1",
+      "#DBDFEF",
+      "#CCE7CF"
+    ],
+    "CLIP": [
+      "#E1D5E7",
+      "#D5E7D4",
+      "#D9E7FB",
+      "#9573A6",
+      "#81B366",
+      "#6B8EBE"
+    ],
+    "MAE": [
+      "#A4DCDF",
+      "#EA7D73",
+      "#7B7467",
+      "#D1D2D3",
+      "#A7A9AC"
+    ],
+    "U-Net": [
+      "#729FCF",
+      "#3465A4",
+      "#000080",
+      "#008000",
+      "#800000",
+      "#008080"
+    ]
+  },
+  "proposedMicrofluidicPalette": {
+    "Text": "#242424",
+    "Structure": "#EEF0F2",
+    "Fluid": "#0072B2",
+    "Control": "#8064A2",
+    "Positive": "#009E73"
+  },
+  "note": "Accent candidates are an authored recommendation, not the palette of a particular journal. The chosen set has not undergone a color-vision simulation.",
+  "inspectedPapers": [
+    "U-Net Figure 1",
+    "Transformer Figure 1",
+    "CLIP Figure 1",
+    "MAE Figure 1",
+    "SAM Figure 4",
+    "AlphaFold Figure 1 including 1e",
+    "spinDrop Figure 1"
+  ],
+  "excluded": "NOVAsort Figure 1 excluded from full-figure analysis because the image only partially loaded."
+}

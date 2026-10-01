@@ -1,0 +1,30 @@
+[
+  {
+    "file": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/feedback-revision/03-repeat.pptx",
+    "sha256": "6a571800b2df2677e7b61273c27fc7393ee95869667959f62ded7c132a278db9",
+    "identicalToValidatedReviewCopy": true,
+    "renderer": "bundled LibreOffice / Poppler",
+    "publicationWidthMm": 177.8
+  },
+  {
+    "file": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/feedback-revision/04-skip.pptx",
+    "sha256": "938d0ce56ba4751f17594a94404f7be9684af8d94debd42979fc3126b1674f7a",
+    "identicalToValidatedReviewCopy": true,
+    "renderer": "bundled LibreOffice / Poppler",
+    "publicationWidthMm": 177.8
+  },
+  {
+    "file": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/feedback-revision/05-panels.pptx",
+    "sha256": "e24b24ffc35a500d01081fbac2f7605e096eb0d0da6e3d671ca502d81c3677a9",
+    "identicalToValidatedReviewCopy": true,
+    "renderer": "bundled LibreOffice / Poppler",
+    "publicationWidthMm": 177.8
+  },
+  {
+    "file": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/feedback-revision/06-tokens.pptx",
+    "sha256": "c80f14ed3a0c338925f1180d23942624bbed5d684fd416ca1a87760883783912",
+    "identicalToValidatedReviewCopy": true,
+    "renderer": "bundled LibreOffice / Poppler",
+    "publicationWidthMm": 177.8
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "mode": "built-in image_gen",
+  "prompt": "Use case: scientific-educational. One isolated flat pictogram of a small autonomous mobile robot viewed directly from above, to identify robot agents in a research-paper diagram at about 8 mm size. A spare rounded square body and two simple dark side wheels, one small solid top sensor mark. Neutral charcoal #46515E outline and pale gray #EFF2F5 fill. Consistent medium outline, perfectly flat solid colors, simple recognizable silhouette, centered, square composition, generous transparent margins. True transparent background. No gradients, gloss, lighting, texture, product rendering, shadows, perspective, soft halo or fine mechanical detail. No text, letters, numbers, labels, logos, arrows, axes, direction markers, connectors, floor map, grid, panels or full diagram. Asset only, no surrounding scene.",
+  "file": "robot.png",
+  "placement": "Two independent picture objects with square native crop; all labels and routes are native."
+}

@@ -1,0 +1,68 @@
+{
+  "source": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/unseen-suite-05/timestamped-fusion/figure.pptx",
+  "sourceSha256": "e8350ec62cdc8ce5af40d951d0e1826206a16bec97a183504dad42cc78fd2ff7",
+  "candidateSha256": "46dbd014109537222788cee184f189e47bf435a04e413177de4ecaf0b87e4df8",
+  "changedExistingObjects": [
+    "sensing-platform",
+    "platform-boundary",
+    "platform-label",
+    "visual-observation",
+    "inertial-source",
+    "faster-stream-label",
+    "visual-input",
+    "inertial-input",
+    "schematic-disclosure"
+  ],
+  "newObjects": [
+    "asset-camera",
+    "asset-inertial-sensor"
+  ],
+  "unchangedExistingObjects": 62,
+  "changedExistingParts": [
+    "ppt/slides/slide1.xml",
+    "ppt/notesSlides/notesSlide1.xml",
+    "ppt/slides/_rels/slide1.xml.rels",
+    "[Content_Types].xml"
+  ],
+  "untouchedPartPayloadsIdentical": true,
+  "originalPreserved": true,
+  "allOriginalNodesAndEdgesRetained": true,
+  "assetInventory": [
+    {
+      "name": "asset-camera",
+      "asset": "assets/camera.png",
+      "mediaPart": "ppt/media/generated-camera.png",
+      "sha256": "a6ef1383fb2974640ea07b494a18d2b6f8a6860919b9d8f8429029213f288199",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "transparentPixelFraction": 0.47722376115727916,
+      "boundsPx": [
+        28,
+        77,
+        39,
+        39
+      ],
+      "role": "Representative source icon; text and connector remain native"
+    },
+    {
+      "name": "asset-inertial-sensor",
+      "asset": "assets/inertial-sensor.png",
+      "mediaPart": "ppt/media/generated-inertial-sensor.png",
+      "sha256": "1411c5538d97306df8efc7dd8c3d87c0bc79ad067d5220c49683418a2613dde0",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "transparentPixelFraction": 0.5753989148600078,
+      "boundsPx": [
+        28,
+        126.5,
+        39,
+        39
+      ],
+      "role": "Representative source icon; text and connector remain native"
+    }
+  ]
+}

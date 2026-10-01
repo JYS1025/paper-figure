@@ -1,0 +1,58 @@
+Paper Figure — Claude용 설치·사용 안내
+2026-10-01
+
+1. 같은 제작 절차
+
+현재 Codex 스킬의 전체 이미지 모델 초안 → 초안 검토·재구성 계획 → 편집형 PPTX 제작 → 저장된 출력 검증 절차를 유지했습니다. 논문 레퍼런스 관찰, 16개 color book, 삽입용 픽토그램, 편집 가능한 수식·첨자, 실제 연결선, 기존 PPTX 수정 보존, 요청 시 블라인드 평가 지침도 포함합니다.
+
+Claude용 제작 엔진은 공개 라이브러리 PptxGenJS와 Python을 사용합니다. Codex 전용 도구, 비공개 제작 라이브러리, 개인 컴퓨터 경로는 필요하지 않습니다. 제작 원칙은 같지만 실행 도구가 다르므로 모든 환경에서 픽셀 단위로 동일한 결과를 보장하는 것은 아닙니다.
+
+2. Claude Code
+
+배포 ZIP을 풀면 paper-figure 폴더가 나옵니다. 다음 중 한 곳에 이 폴더를 넣습니다.
+
+프로젝트에서만 사용: <프로젝트>/.claude/skills/paper-figure/
+모든 프로젝트에서 사용: ~/.claude/skills/paper-figure/
+
+최종 위치에 SKILL.md가 바로 있어야 합니다. 기존 동명 스킬이 있으면 먼저 내용과 사용자 변경 사항을 확인하세요.
+
+이 개발 프로젝트에는 .claude/skills/paper-figure를 ports/claude/paper-figure에 연결했습니다. 사용자 전역 Claude 설정이나 MCP 설정은 변경하지 않았습니다. Claude Code가 실행 중이었다면 새 세션에서 스킬을 확인하세요.
+
+사용 예:
+/paper-figure 이 방법론으로 폭 178mm 논문 figure를 만들어줘. 전체 이미지 초안을 먼저 생성하고, 검토한 구도를 편집 가능한 PowerPoint 객체로 재구성해. 입력 → 인코더 → 잠재표현 → 디코더와 입력에서 디코더로 가는 스킵 연결을 포함해. PPTX, 저장된 파일의 미리보기, 선택한 초안과 검증 결과를 제공해줘.
+
+3. claude.ai
+
+코드 실행·파일 생성 기능을 활성화한 환경에서:
+Customize → Skills → + → Create skill → Upload a skill
+paper-figure-claude-skill.zip을 업로드하고 활성화합니다.
+
+ZIP 내부는 paper-figure/SKILL.md 및 하위 자료 구조입니다. ZIP을 그대로 업로드하면 됩니다. 계정·조직 설정에 따라 기능 제공 여부와 메뉴가 다를 수 있습니다.
+
+4. 이미지 모델 연결은 별도 필요
+
+이 스킬 자체는 이미지 생성 서비스가 아닙니다. 전체 초안과 최종 삽입용 이미지·아이콘은 실제 연결된 이미지 생성 도구, MCP 또는 사용 가능한 API 통합으로 만듭니다. HTML/SVG나 코드로 그린 초안을 이미지 모델 생성으로 간주하지 않습니다.
+
+이미지 생성 도구가 없으면 내용 계약·레퍼런스·배색 준비까지 진행하고, 초안 생성이 막힌 사실을 보고하도록 했습니다. 사용자의 명시적 생략 지시 없이 초안 단계를 건너뛰지 않습니다. 기존 PPTX의 국소 수정에는 새 초안이 필요하지 않습니다.
+
+연결 후에는 도구의 실제 이름·스키마를 확인해서 사용합니다. API 키나 임의의 MCP 주소를 이 패키지에 넣지 않았으며, 설치 과정에서 계정·도구 연결을 자동 변경하지 않습니다.
+
+5. 실행 환경
+
+이미 있는 패키지를 우선 사용합니다. 필요한 구성은 Node.js 20+, PptxGenJS, Python 3.10+, lxml, Pillow, pdfplumber입니다. 저장된 PPTX의 미리보기에는 LibreOffice/Poppler 또는 해당 환경의 검증된 PPTX 렌더러가 필요합니다.
+
+스킬 폴더에서 node scripts/preflight.mjs로 로컬 의존성을 확인할 수 있습니다. 이 명령은 이미지 생성 연결을 검사하거나 패키지를 자동 설치하지 않습니다. 설치가 필요하고 허용된 환경이라면 package.json과 requirements.txt를 사용합니다. 상세 지침과 렌더링 래퍼 설정은 references/claude-environment.md에 있습니다.
+
+Claude API의 네트워크 제한 컨테이너에서는 의존성 설치가 불가능할 수 있습니다. 이 배포본을 그 환경에서 실행 검증한 것은 아닙니다.
+
+6. 이번 검증 범위
+
+로컬에서 공개 제작 엔진을 실제 실행하고 38개 기능·오류 검출·보존 검사를 통과했습니다. 기존 BSAE 샘플을 재구성해 도형 196개, 연결선 10개, 그룹 16개, 독립 이미지 1개를 확인했습니다. LibreOffice로 실제 파일을 렌더링하고 수식 14곳의 문자·실제 글꼴·첨자 크기를 검사했습니다. 기존 16개 color book의 데이터와 그림 자료는 원본과 같습니다.
+
+이는 엔진 이식 검사입니다. Claude 앱 내부에서 전체 작업을 실행한 시험, 새 이미지 모델 생성, 독립 블라인드 평가 또는 PowerPoint의 실제 수동 편집 검사는 이번에 수행하지 않았습니다.
+
+공식 안내
+Claude Code skills: https://code.claude.com/docs/en/skills
+Claude skill 업로드: https://support.claude.com/en/articles/12512180-use-skills-in-claude
+Claude 이미지 기능: https://support.claude.com/en/articles/9002504-can-claude-produce-images
+API skill 환경: https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview

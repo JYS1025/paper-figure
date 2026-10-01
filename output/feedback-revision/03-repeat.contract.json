@@ -1,0 +1,42 @@
+{
+  "slides": [
+    {
+      "nodes": {
+        "state-name0": "h₀",
+        "state-name4": "h₄",
+        "input-name": "hₜ",
+        "output-name": "hₜ₊₁",
+        "norm": "Norm",
+        "mix": "Mix",
+        "add": "+",
+        "block.title": "One block, repeated × 4"
+      },
+      "edges": [
+        [
+          "input",
+          "fork"
+        ],
+        [
+          "fork",
+          "norm"
+        ],
+        [
+          "norm",
+          "mix"
+        ],
+        [
+          "mix",
+          "add"
+        ],
+        [
+          "add",
+          "output"
+        ],
+        [
+          "fork",
+          "add"
+        ]
+      ]
+    }
+  ]
+}

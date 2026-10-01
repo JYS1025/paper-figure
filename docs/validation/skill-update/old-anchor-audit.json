@@ -1,0 +1,151 @@
+{
+  "source": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/arrows/04-skip.pptx",
+  "sourceSha256": "6795d0ee5f105544da0133b4334479f999cd5021219183b08aa0ce0dc039982e",
+  "readOnly": true,
+  "scope": "Native connector attachment diagnostics; inspect the rendered figure for meaning and quality.",
+  "summary": {
+    "connectors": 6,
+    "requiringRenderedReview": 6,
+    "geometryUnchecked": 0
+  },
+  "connectors": [
+    {
+      "slide": 1,
+      "name": "down1",
+      "geometryStatus": "checked",
+      "reviewReasons": [
+        "from:transparent_boundary",
+        "to:transparent_boundary"
+      ],
+      "from": {
+        "name": "e1",
+        "site": "2",
+        "boundary": "transparent"
+      },
+      "to": {
+        "name": "e2",
+        "site": "1",
+        "boundary": "transparent"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      }
+    },
+    {
+      "slide": 1,
+      "name": "down2",
+      "geometryStatus": "checked",
+      "reviewReasons": [
+        "from:transparent_boundary",
+        "to:transparent_boundary"
+      ],
+      "from": {
+        "name": "e2",
+        "site": "2",
+        "boundary": "transparent"
+      },
+      "to": {
+        "name": "core",
+        "site": "1",
+        "boundary": "transparent"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0001
+      }
+    },
+    {
+      "slide": 1,
+      "name": "up2",
+      "geometryStatus": "checked",
+      "reviewReasons": [
+        "from:transparent_boundary",
+        "to:transparent_boundary"
+      ],
+      "from": {
+        "name": "core",
+        "site": "3",
+        "boundary": "transparent"
+      },
+      "to": {
+        "name": "d2",
+        "site": "2",
+        "boundary": "transparent"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0001,
+        "to": 0.0
+      }
+    },
+    {
+      "slide": 1,
+      "name": "up1",
+      "geometryStatus": "checked",
+      "reviewReasons": [
+        "from:transparent_boundary",
+        "to:transparent_boundary"
+      ],
+      "from": {
+        "name": "d2",
+        "site": "3",
+        "boundary": "transparent"
+      },
+      "to": {
+        "name": "d1",
+        "site": "2",
+        "boundary": "transparent"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      }
+    },
+    {
+      "slide": 1,
+      "name": "skip1",
+      "geometryStatus": "checked",
+      "reviewReasons": [
+        "from:transparent_boundary",
+        "to:transparent_boundary"
+      ],
+      "from": {
+        "name": "e1",
+        "site": "3",
+        "boundary": "transparent"
+      },
+      "to": {
+        "name": "d1",
+        "site": "1",
+        "boundary": "transparent"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0001,
+        "to": 0.0001
+      }
+    },
+    {
+      "slide": 1,
+      "name": "skip2",
+      "geometryStatus": "checked",
+      "reviewReasons": [
+        "from:transparent_boundary",
+        "to:transparent_boundary"
+      ],
+      "from": {
+        "name": "e2",
+        "site": "3",
+        "boundary": "transparent"
+      },
+      "to": {
+        "name": "d2",
+        "site": "1",
+        "boundary": "transparent"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      }
+    }
+  ]
+}

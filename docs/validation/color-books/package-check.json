@@ -1,0 +1,16 @@
+{
+  "local_references": "pass",
+  "local_references_checked": 24,
+  "svg_xml": "pass",
+  "svg_files": 22,
+  "skill_format": "pass: quick_validate.py",
+  "books": 16,
+  "new_paper_figure_studies": 10,
+  "original_six_preserved": true,
+  "contrast_pairs_meet_targets": true,
+  "package_files": 45,
+  "archive_matches_skill": true,
+  "sha256": "bf5d120c94414d4c6cf9fdf3921548ffe5d856e03e67b357fb2456086b10ddcd",
+  "visual_review": "Compact color index and all four color sheets; grayscale sheets for books 05-16. Earlier grayscale review of original six retained. Browser interaction not verified.",
+  "scope": "Color-book resources and skill guidance; no research figure edits or independent model evaluation"
+}

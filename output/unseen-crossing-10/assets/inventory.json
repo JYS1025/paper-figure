@@ -1,0 +1,26 @@
+[
+  {
+    "name": "robot-A-picture",
+    "source": "assets/robot.png",
+    "sha256": "1ee3fcb61e6247b5582f6263dc8265ae02a7e4270e3c822bb245f264593c58e5",
+    "crop": {
+      "l": "28230",
+      "t": "28150",
+      "r": "28150",
+      "b": "28230"
+    },
+    "mediaIdentityVerified": true
+  },
+  {
+    "name": "robot-B-picture",
+    "source": "assets/robot.png",
+    "sha256": "1ee3fcb61e6247b5582f6263dc8265ae02a7e4270e3c822bb245f264593c58e5",
+    "crop": {
+      "l": "28230",
+      "t": "28150",
+      "r": "28150",
+      "b": "28230"
+    },
+    "mediaIdentityVerified": true
+  }
+]

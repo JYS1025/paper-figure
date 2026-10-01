@@ -1,0 +1,32 @@
+{
+  "slides": [
+    {
+      "nodes": {
+        "query": "Query",
+        "retrieve": "Retrieve",
+        "rerank": "Rerank",
+        "answer": "Answer",
+        "evidence": "Evidence",
+        "formula": "s = αr + (1 − α)c"
+      },
+      "edges": [
+        [
+          "query",
+          "retrieve"
+        ],
+        [
+          "retrieve",
+          "rerank"
+        ],
+        [
+          "rerank",
+          "answer"
+        ],
+        [
+          "answer",
+          "evidence"
+        ]
+      ]
+    }
+  ]
+}

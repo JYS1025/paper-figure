@@ -1,0 +1,34 @@
+{
+  "correct": 4,
+  "total": 4,
+  "results": [
+    {
+      "pair": "01",
+      "prediction": "B",
+      "truth": "B",
+      "correct": true
+    },
+    {
+      "pair": "02",
+      "prediction": "A",
+      "truth": "A",
+      "correct": true
+    },
+    {
+      "pair": "03",
+      "prediction": "A",
+      "truth": "A",
+      "correct": true
+    },
+    {
+      "pair": "04",
+      "prediction": "B",
+      "truth": "B",
+      "correct": true
+    }
+  ],
+  "response_sha256": "e937008c599df1f150d750ad2316f48520f59d31b63319aedb06117c55957dac",
+  "recognition_declared_all_four": true,
+  "quality_score": null,
+  "note": "Provenance classification, not a quality score. Answer key withheld from judge."
+}

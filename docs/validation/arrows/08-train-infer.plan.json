@@ -1,0 +1,65 @@
+{
+  "sourceSha256": "cd25ec5ace9f3d671fd0bbb5c8dd1a2e44b1cad631bb9a9230ceb68dfa769274",
+  "operations": [
+    {
+      "slide": 1,
+      "id": "135",
+      "name": "train-forward",
+      "fingerprint": "db81afa6adf5670f209d42c4d948d1fae893c4acb332006dc6e68347b7e8fec3",
+      "action": "style_connector",
+      "widthPx": 2.6,
+      "arrowWidth": "med",
+      "arrowLength": "med"
+    },
+    {
+      "slide": 1,
+      "id": "136",
+      "name": "objective",
+      "fingerprint": "2786021953ad4ac713a724b8591ac109810385643720c841829812d4d83796e6",
+      "action": "style_connector",
+      "widthPx": 2.6,
+      "arrowWidth": "med",
+      "arrowLength": "med"
+    },
+    {
+      "slide": 1,
+      "id": "137",
+      "name": "supervision",
+      "fingerprint": "c0c31a38ef359642afb24a3434d9f89a4e363a39d0d1ca38f02085c9ccdd7954",
+      "action": "style_connector",
+      "widthPx": 1.7,
+      "arrowWidth": "med",
+      "arrowLength": "med"
+    },
+    {
+      "slide": 1,
+      "id": "138",
+      "name": "gradient",
+      "fingerprint": "9ab5fd5d160d51e04bfff6bedffea0bd4c95752ae3968900fe3a111c2e2abd29",
+      "action": "style_connector",
+      "widthPx": 1.9,
+      "arrowWidth": "med",
+      "arrowLength": "med"
+    },
+    {
+      "slide": 1,
+      "id": "181",
+      "name": "infer-forward",
+      "fingerprint": "fe6e5648cf091c9e4a83fd0bf9e50131f033d84150f05a3fd82289ee9fdb505f",
+      "action": "style_connector",
+      "widthPx": 2.6,
+      "arrowWidth": "med",
+      "arrowLength": "med"
+    },
+    {
+      "slide": 1,
+      "id": "182",
+      "name": "infer-output",
+      "fingerprint": "9667c15231ee4a9d0ec66979cf4ede348e30460d26fb81cd1a01e8c5c12aaae3",
+      "action": "style_connector",
+      "widthPx": 2.6,
+      "arrowWidth": "med",
+      "arrowLength": "med"
+    }
+  ]
+}

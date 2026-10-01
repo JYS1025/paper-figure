@@ -1,0 +1,36 @@
+{
+  "slides": [
+    {
+      "nodes": {
+        "input": "h₀",
+        "norm": "Norm",
+        "mix": "Mix",
+        "add": "+",
+        "output": "h₄",
+        "block.title": "Refinement block  × 4"
+      },
+      "edges": [
+        [
+          "input",
+          "norm"
+        ],
+        [
+          "norm",
+          "mix"
+        ],
+        [
+          "mix",
+          "add"
+        ],
+        [
+          "add",
+          "output"
+        ],
+        [
+          "input",
+          "add"
+        ]
+      ]
+    }
+  ]
+}

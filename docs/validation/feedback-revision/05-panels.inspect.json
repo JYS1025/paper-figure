@@ -1,0 +1,6703 @@
+{
+  "file": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/feedback-revision/review-2/05-panels.pptx",
+  "sha256": "e24b24ffc35a500d01081fbac2f7605e096eb0d0da6e3d671ca502d81c3677a9",
+  "sizePx": [
+    672.0,
+    400.0
+  ],
+  "slides": [
+    {
+      "part": "ppt/slides/slide1.xml",
+      "objects": [
+        {
+          "id": "451",
+          "name": "a-title",
+          "kind": "sp",
+          "text": "(a) Paired representations",
+          "boundsPx": [
+            18.0,
+            10.0,
+            328.0,
+            23.0
+          ],
+          "fingerprint": "bf1bbb808df37556ca083f1730cf1abf71e5dfde520fd269e78aa1c1b16c4b18",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "2",
+          "name": "b-title",
+          "kind": "sp",
+          "text": "(b) Pairwise correspondence",
+          "boundsPx": [
+            371.0,
+            10.0,
+            283.0,
+            23.0
+          ],
+          "fingerprint": "46d65927ea8d09c2d958802f7fbae4244fbf78d51559d7a5a57ed72074c0f88b",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "3",
+          "name": "text",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            18.0,
+            70.0,
+            120.0,
+            86.0
+          ],
+          "fingerprint": "f4ed60bfbd31ae443789c8e3b147749fdcb909bb96909389eacb59e6b0578bf4",
+          "fontPt": []
+        },
+        {
+          "id": "4",
+          "name": "text-label",
+          "kind": "sp",
+          "text": "Text",
+          "boundsPx": [
+            22.0,
+            158.0,
+            112.0,
+            21.0
+          ],
+          "fingerprint": "586a3e7587cd08f588664b199d84c070db0bb82e27559a7c7d4b92ab0e69f376",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "671",
+          "name": "caption-key0",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            24.0,
+            77.0,
+            11.65,
+            11.65
+          ],
+          "fingerprint": "d3171a902173184dfdf6c0836986a2389b2a529c980dcc409d5eec2753e47560",
+          "fontPt": []
+        },
+        {
+          "id": "5",
+          "name": "caption-key0.0.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            24.0,
+            77.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "18d407e3b55d8da7998217f4c1d6c945c296ed8114ec2227226dc71512881b51",
+          "fontPt": []
+        },
+        {
+          "id": "6",
+          "name": "caption-key0.0.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            26.4,
+            77.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "c8c18e1ac9236c14def4788b06d504e76c415e05927417f68c2ebd1223d5b097",
+          "fontPt": []
+        },
+        {
+          "id": "7",
+          "name": "caption-key0.0.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            28.8,
+            77.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "8d59a2e8f7433f23bab4116c84d7dc9f810cf4da5353bee52197a8a2c2d611b9",
+          "fontPt": []
+        },
+        {
+          "id": "8",
+          "name": "caption-key0.0.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            31.2,
+            77.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "32ff8a1c87924d7c3deee8da19f3546287d4ea3f333d08efd767eda63ae9cb82",
+          "fontPt": []
+        },
+        {
+          "id": "9",
+          "name": "caption-key0.0.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            33.6,
+            77.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "ce3b46940af91b1bef79a5fc1b1b4e2deb5a82915f86e66f3d013f697439cf3c",
+          "fontPt": []
+        },
+        {
+          "id": "10",
+          "name": "caption-key0.1.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            24.0,
+            79.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "b2df47bf24efcc0f2d978408032e38c61e1cb4cf49fd84aca88c630449687dbd",
+          "fontPt": []
+        },
+        {
+          "id": "11",
+          "name": "caption-key0.1.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            26.4,
+            79.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "5bb7f6b81597af77db2c523cf9bf02b07e61dcf4807b6b9d1685bebfa2a8df7b",
+          "fontPt": []
+        },
+        {
+          "id": "12",
+          "name": "caption-key0.1.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            28.8,
+            79.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "19e1b967a74e57d1fb517e04da80fe6df1331982d504a100723f2454ffaa1a16",
+          "fontPt": []
+        },
+        {
+          "id": "13",
+          "name": "caption-key0.1.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            31.2,
+            79.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "99b6468f38b3ad6768231eab42ce778eddb074b9c3bd23a98c82577740a76c73",
+          "fontPt": []
+        },
+        {
+          "id": "14",
+          "name": "caption-key0.1.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            33.6,
+            79.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "d396bbdcbaaa2231fcac4591bac3f292a69a4ca36226ec3ee8a6fb1afc2eb361",
+          "fontPt": []
+        },
+        {
+          "id": "15",
+          "name": "caption-key0.2.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            24.0,
+            81.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "eaae2781d97834145758270c2431e87baac760551438233688968634f7ee8459",
+          "fontPt": []
+        },
+        {
+          "id": "16",
+          "name": "caption-key0.2.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            26.4,
+            81.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "b5edc0bb2d2e97b99b02360930e9f0f0b6ac5699ce8ea0e7e3333231b18bd712",
+          "fontPt": []
+        },
+        {
+          "id": "17",
+          "name": "caption-key0.2.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            28.8,
+            81.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "e26ca78fbf38d8f41ee5f0ef76d1c7b60794d6a1e6343ceaaa286eb622e965e6",
+          "fontPt": []
+        },
+        {
+          "id": "18",
+          "name": "caption-key0.2.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            31.2,
+            81.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "9dbb36e2b6aa4ad8fe161425c924e33dafc14d4f7aee8def115dbc73b713ec0f",
+          "fontPt": []
+        },
+        {
+          "id": "19",
+          "name": "caption-key0.2.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            33.6,
+            81.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "2eaed444940b9ba034adee12be412a1994437e943eacfc30b5efa734d8e393ba",
+          "fontPt": []
+        },
+        {
+          "id": "20",
+          "name": "caption-key0.3.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            24.0,
+            84.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "d2879647f02431123fbbb6a27503d642bde11f0890ecc1bd73df6db0b9d42e3b",
+          "fontPt": []
+        },
+        {
+          "id": "21",
+          "name": "caption-key0.3.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            26.4,
+            84.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "2a7fad8b6a895a8239f76cebdff92a5ddcd7087d5140b7ea660cdac75ab8894f",
+          "fontPt": []
+        },
+        {
+          "id": "22",
+          "name": "caption-key0.3.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            28.8,
+            84.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "0aab34fa6b5911f8aa9779f10d150d905339b4cd95b752ed5c5135aa25449c01",
+          "fontPt": []
+        },
+        {
+          "id": "23",
+          "name": "caption-key0.3.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            31.2,
+            84.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "1a1a72aaf5c7e892e87971621b242d476fc684852ff4e4494393b0f96744a2a8",
+          "fontPt": []
+        },
+        {
+          "id": "24",
+          "name": "caption-key0.3.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            33.6,
+            84.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "c1ca87f21b839b0ef26cf45de42ce8e8d39b97b63a24c452bebe253e7686d673",
+          "fontPt": []
+        },
+        {
+          "id": "25",
+          "name": "caption-key0.4.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            24.0,
+            86.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "e1de8998befb43d45da678e241d3f465e63a4f126545c2ed7f786bd7337310de",
+          "fontPt": []
+        },
+        {
+          "id": "26",
+          "name": "caption-key0.4.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            26.4,
+            86.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "756039349c60d4901bc9e75cc0dcc6e05c664b624881b380af4fbf576b7b0d33",
+          "fontPt": []
+        },
+        {
+          "id": "27",
+          "name": "caption-key0.4.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            28.8,
+            86.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "b6a3443d745ed0bf2c9c94e10e9908aedbcff8df5b71e8dd5988596a30c08706",
+          "fontPt": []
+        },
+        {
+          "id": "28",
+          "name": "caption-key0.4.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            31.2,
+            86.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "ea572a2384fb845c824c5e14a519e6caa612caa9ac489689859226f2d7d70a01",
+          "fontPt": []
+        },
+        {
+          "id": "29",
+          "name": "caption-key0.4.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            33.6,
+            86.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "a1eda43a6188a6335e0d9c79973d80600d53f9fc907d29a020b1086f0a5b4610",
+          "fontPt": []
+        },
+        {
+          "id": "30",
+          "name": "caption0",
+          "kind": "sp",
+          "text": "horizontal",
+          "boundsPx": [
+            42.0,
+            72.0,
+            93.0,
+            21.0
+          ],
+          "fingerprint": "af372e5c7f21a861615d597f55d9a713c8b25fb44b0d834d13fe60d4cb22c9d5",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "672",
+          "name": "caption-key1",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            24.0,
+            95.0,
+            11.65,
+            11.65
+          ],
+          "fingerprint": "72b0bc5412a5b965a3eb936626ecdf9aad3c075a03e4bdcdb82c4e4b7eca257e",
+          "fontPt": []
+        },
+        {
+          "id": "31",
+          "name": "caption-key1.0.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            24.0,
+            95.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "2b281b5983d36125d27d1f1f540c03ff59beafce48d2328510ba35e56ce5a640",
+          "fontPt": []
+        },
+        {
+          "id": "32",
+          "name": "caption-key1.0.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            26.4,
+            95.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "dcddc9af99e4cdda73f59f92b6e8d750d6e2382769a4d92e46c8dab432c6b7c3",
+          "fontPt": []
+        },
+        {
+          "id": "33",
+          "name": "caption-key1.0.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            28.8,
+            95.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "11df55d60bddb19e7c4ef2b62c561eb240c07a238b7b16af627f68ee6ce6ff77",
+          "fontPt": []
+        },
+        {
+          "id": "34",
+          "name": "caption-key1.0.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            31.2,
+            95.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "79d9522f88a08f47e6f0c8bf0c7863cd14d74614580089e5e27da9adf4b3a63b",
+          "fontPt": []
+        },
+        {
+          "id": "35",
+          "name": "caption-key1.0.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            33.6,
+            95.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "e1a6cacbc93080c7fbc1261425dafe8d17ac23e2fccd420419b96f10c24ec1fa",
+          "fontPt": []
+        },
+        {
+          "id": "36",
+          "name": "caption-key1.1.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            24.0,
+            97.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "39ee15a68dd1ddf9ef74d204e4c31e5b0f18c7b86d2f408682c271cb71c3875d",
+          "fontPt": []
+        },
+        {
+          "id": "37",
+          "name": "caption-key1.1.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            26.4,
+            97.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "ed375d65a74deb8607d6c8d0ae2e49fa79c551ca82ebe4284df5e47e47615cc2",
+          "fontPt": []
+        },
+        {
+          "id": "38",
+          "name": "caption-key1.1.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            28.8,
+            97.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "9805b363100ebf0a48d2f68254d30d10fb5a9693f01b881ebfcb46e1e73dee1c",
+          "fontPt": []
+        },
+        {
+          "id": "39",
+          "name": "caption-key1.1.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            31.2,
+            97.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "c86a1bf9cba28c3d5969b7fb2793e681a4b6dafbf91dfc0a038b0687eb88a8ba",
+          "fontPt": []
+        },
+        {
+          "id": "40",
+          "name": "caption-key1.1.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            33.6,
+            97.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "36b9019c2d39661b145aec58b2dc97620327a1de2e15fbe4d732944b3ed9c88d",
+          "fontPt": []
+        },
+        {
+          "id": "41",
+          "name": "caption-key1.2.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            24.0,
+            99.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "e4e299f350768dccc3583c8f5b5a6a375c4f2337b989ded536da03eea2230dff",
+          "fontPt": []
+        },
+        {
+          "id": "42",
+          "name": "caption-key1.2.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            26.4,
+            99.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "a49d7360b95e2d727716cf2601ebca6f4699e8a6fb33c05fbb32df3c90fe817a",
+          "fontPt": []
+        },
+        {
+          "id": "43",
+          "name": "caption-key1.2.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            28.8,
+            99.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "6e05cdcc5684c5cbc70b2c7bb99345d55478dd7a72fbe0f4e62b07e44ae23433",
+          "fontPt": []
+        },
+        {
+          "id": "44",
+          "name": "caption-key1.2.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            31.2,
+            99.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "ef264322ad294571f3ed327e75d2c5e13dfeebab41b647cd55cf727f88388347",
+          "fontPt": []
+        },
+        {
+          "id": "45",
+          "name": "caption-key1.2.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            33.6,
+            99.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "b3ec811819bdf20a98728a5b9fae28f7774b356359a2036dbcc4be9927eb6b7f",
+          "fontPt": []
+        },
+        {
+          "id": "46",
+          "name": "caption-key1.3.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            24.0,
+            102.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "e37bff13f962bbdd6a2dba681bcd40a6bfbd13b8f4956f53e14de58a295bc831",
+          "fontPt": []
+        },
+        {
+          "id": "47",
+          "name": "caption-key1.3.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            26.4,
+            102.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "c6dd4dfb005336c6a764558b4a8ed5b69c0c3587fe52fb385214540ed5bceecf",
+          "fontPt": []
+        },
+        {
+          "id": "48",
+          "name": "caption-key1.3.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            28.8,
+            102.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "270dc782ddb7362528d7bcde12f7cc81d66982fb544ba8f6e69d22e1afd8c395",
+          "fontPt": []
+        },
+        {
+          "id": "49",
+          "name": "caption-key1.3.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            31.2,
+            102.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "a63b25aaa763322e0d0c771ff705f7e41831d2ce570efe0295b14f15b2ed0b60",
+          "fontPt": []
+        },
+        {
+          "id": "50",
+          "name": "caption-key1.3.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            33.6,
+            102.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "668867046359d6a2b59f56b40a6ae405ad56bc62c89ea84d03db5fac3d5390dd",
+          "fontPt": []
+        },
+        {
+          "id": "51",
+          "name": "caption-key1.4.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            24.0,
+            104.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "c3f7d78216ffb3b52cb1a29c34acf675a89c9ebd8372d611e023bcb4d6434fb0",
+          "fontPt": []
+        },
+        {
+          "id": "52",
+          "name": "caption-key1.4.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            26.4,
+            104.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "3fac6d3f7fabbe44e9bd8057b5d1c34ed8495fa6100dc2af17cf71888f55774b",
+          "fontPt": []
+        },
+        {
+          "id": "53",
+          "name": "caption-key1.4.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            28.8,
+            104.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "493cfe96cc9ace9323781e45e173741aa2ddce143a297a686c5397efc846fb5a",
+          "fontPt": []
+        },
+        {
+          "id": "54",
+          "name": "caption-key1.4.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            31.2,
+            104.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "6924ee521a1da00a08ca839a5a323391df7457391242c88b694d5eae1e4989d6",
+          "fontPt": []
+        },
+        {
+          "id": "55",
+          "name": "caption-key1.4.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            33.6,
+            104.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "be44dd8a055b78e250faebd64c41e96c994300f54e19a49836d5a75b89a936ee",
+          "fontPt": []
+        },
+        {
+          "id": "56",
+          "name": "caption1",
+          "kind": "sp",
+          "text": "vertical",
+          "boundsPx": [
+            42.0,
+            90.0,
+            93.0,
+            21.0
+          ],
+          "fingerprint": "f996fc656c1ce2ad95a2fcf82fcccadcb561a4edbf91d6d4b4d7d5f741a7db19",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "673",
+          "name": "caption-key2",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            24.0,
+            113.0,
+            11.65,
+            11.65
+          ],
+          "fingerprint": "e0e905208699167223246dca2f8a917bd6abb4f368c1bf34ac14723505445f6b",
+          "fontPt": []
+        },
+        {
+          "id": "57",
+          "name": "caption-key2.0.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            24.0,
+            113.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "a6b94c0e8f28cd30019d8cceac97f4b96884eace524ba8ac87227f1141313f37",
+          "fontPt": []
+        },
+        {
+          "id": "58",
+          "name": "caption-key2.0.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            26.4,
+            113.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "8528f2b7f35859285fb1e634e3cd8c4ef35a557dc4a370e47421a4d14abb4297",
+          "fontPt": []
+        },
+        {
+          "id": "59",
+          "name": "caption-key2.0.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            28.8,
+            113.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "d58d609480fc4907327324aed16c82dfad97bb2eb1b85791d026bae25d7812ee",
+          "fontPt": []
+        },
+        {
+          "id": "60",
+          "name": "caption-key2.0.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            31.2,
+            113.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "97645fec1b3fdc745109dfe58dc7538a3fc2d1008dec6a22cdb77a882fc7c53e",
+          "fontPt": []
+        },
+        {
+          "id": "61",
+          "name": "caption-key2.0.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            33.6,
+            113.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "2eac893a2404b834012c1eb5e57e767e3a6206eb2d2a96bef0611fc7dc7ecef7",
+          "fontPt": []
+        },
+        {
+          "id": "62",
+          "name": "caption-key2.1.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            24.0,
+            115.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "10d58f1651083e6d3981d6c897bc1dedbf11ec4d4184ad129e56bf5bd8cfeabe",
+          "fontPt": []
+        },
+        {
+          "id": "63",
+          "name": "caption-key2.1.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            26.4,
+            115.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "3f3def872efbc232873a237faed134f7ba5877d85ec55aa2a1f9f587efdb0238",
+          "fontPt": []
+        },
+        {
+          "id": "64",
+          "name": "caption-key2.1.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            28.8,
+            115.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "0d975afa4d7f9a31659c7d7723d1cd7f7351b698e13b3fc8a9710cbb062dc19f",
+          "fontPt": []
+        },
+        {
+          "id": "65",
+          "name": "caption-key2.1.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            31.2,
+            115.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "5f91a9500fe1585864b091e0cff9a79672e5dc595e37a1b2943281667aae7910",
+          "fontPt": []
+        },
+        {
+          "id": "66",
+          "name": "caption-key2.1.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            33.6,
+            115.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "846b2aa527d1e1ed4eaf8843dda069d8a209423bd232590776d7c69fc0d89022",
+          "fontPt": []
+        },
+        {
+          "id": "67",
+          "name": "caption-key2.2.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            24.0,
+            117.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "8b2337f09ee3664762fcce32a5c4919de4d9d3057762fa5e676355838d25c908",
+          "fontPt": []
+        },
+        {
+          "id": "68",
+          "name": "caption-key2.2.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            26.4,
+            117.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "586c4d79fa8c0d8a0861cb23b8d8473c2efe653fcbe45dade32244b13d8c5cee",
+          "fontPt": []
+        },
+        {
+          "id": "69",
+          "name": "caption-key2.2.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            28.8,
+            117.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "3d777a92eab2b893948e7e7a5463b37c39cb7c333128289eb709649aaa6f3e04",
+          "fontPt": []
+        },
+        {
+          "id": "70",
+          "name": "caption-key2.2.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            31.2,
+            117.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "e1133ed0d50194de53ba5affd106b51c4bcde0027cfd4b80c358aafccd8e7778",
+          "fontPt": []
+        },
+        {
+          "id": "71",
+          "name": "caption-key2.2.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            33.6,
+            117.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "6f507f86db923c341cc50f7fca6e6bb7d1bae7cac102023fe54cfa3d53659e80",
+          "fontPt": []
+        },
+        {
+          "id": "72",
+          "name": "caption-key2.3.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            24.0,
+            120.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "a94b891b59229d7ce26ee3eb03f622935de91f7cc02d541b834dd18c9970d45a",
+          "fontPt": []
+        },
+        {
+          "id": "73",
+          "name": "caption-key2.3.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            26.4,
+            120.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "d48a95dd85592d61f2bb8777569621c06bc2b0cd237bd126c13998f3affd6979",
+          "fontPt": []
+        },
+        {
+          "id": "74",
+          "name": "caption-key2.3.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            28.8,
+            120.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "e3c48f0f7136a68feb006b681994304c2b5502f6ef5c73742d31a1f296938cee",
+          "fontPt": []
+        },
+        {
+          "id": "75",
+          "name": "caption-key2.3.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            31.2,
+            120.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "043bcebfcd72172c0404fdf7093a56d7207202ca1308e5e153c5a6c2a53c7bf0",
+          "fontPt": []
+        },
+        {
+          "id": "76",
+          "name": "caption-key2.3.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            33.6,
+            120.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "6f9504ce32eb1b31f839c74ecd22eddde30a9fd43676277aef0d6cfa74c4332b",
+          "fontPt": []
+        },
+        {
+          "id": "77",
+          "name": "caption-key2.4.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            24.0,
+            122.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "0f5ac4fe6d04b85b5f4478fedb0040fd46607891acf0d58275d19b3c1183cf50",
+          "fontPt": []
+        },
+        {
+          "id": "78",
+          "name": "caption-key2.4.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            26.4,
+            122.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "e700a4a3b294bfde102362e4bc466cca26a68980437ac9bb11af0faf7cd8e811",
+          "fontPt": []
+        },
+        {
+          "id": "79",
+          "name": "caption-key2.4.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            28.8,
+            122.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "1d8e9efafa11aa5d870a1215234363d3804bff285795438abff0e014747f26bb",
+          "fontPt": []
+        },
+        {
+          "id": "80",
+          "name": "caption-key2.4.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            31.2,
+            122.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "561947b4b2ae8606f54fbb368e22a29f3d9a2895888127d241ce35d516bd2d68",
+          "fontPt": []
+        },
+        {
+          "id": "81",
+          "name": "caption-key2.4.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            33.6,
+            122.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "227f267d9ebec06b05fdab4abb3d7bb00b159220ebe516ee923e59e35e4a42ee",
+          "fontPt": []
+        },
+        {
+          "id": "82",
+          "name": "caption2",
+          "kind": "sp",
+          "text": "cross",
+          "boundsPx": [
+            42.0,
+            108.0,
+            93.0,
+            21.0
+          ],
+          "fingerprint": "22863bceea8913ec9ec8802e2f6ca8d3b736d185ef3869e7b68db1e24953597f",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "674",
+          "name": "caption-key3",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            24.0,
+            131.0,
+            11.65,
+            11.65
+          ],
+          "fingerprint": "3e891d267f2ba6b834056135ecfc302b6413177ee2ad1f0629dd881a994d9e3a",
+          "fontPt": []
+        },
+        {
+          "id": "83",
+          "name": "caption-key3.0.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            24.0,
+            131.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "c5daba91dc8a841f856d5f2ed69ae40edad591d8e6c7ba4f408b292fcaa1e944",
+          "fontPt": []
+        },
+        {
+          "id": "84",
+          "name": "caption-key3.0.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            26.4,
+            131.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "e3b71dc528193147b8ee8c7514d9f815422893c86bf4c87d438c91dddbbc085e",
+          "fontPt": []
+        },
+        {
+          "id": "85",
+          "name": "caption-key3.0.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            28.8,
+            131.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "36e8fb74eab9edff7bf3f3d86c81797a6db41c6fc937729d5a5f130714a1c813",
+          "fontPt": []
+        },
+        {
+          "id": "86",
+          "name": "caption-key3.0.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            31.2,
+            131.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "370d999e8d89f9da9f4b9d66896c3657c7706fbee7313eedc55e38fb0c7d7f25",
+          "fontPt": []
+        },
+        {
+          "id": "87",
+          "name": "caption-key3.0.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            33.6,
+            131.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "bc9f9fe9603f78fd2bd37a999eb83d8e9c43012033aaa965e0947c6844227fc1",
+          "fontPt": []
+        },
+        {
+          "id": "88",
+          "name": "caption-key3.1.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            24.0,
+            133.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "8b37ae7081a8ddbeefe8f80fc95ecbe4beccab5f28c9afa4b214f9c15dc638cf",
+          "fontPt": []
+        },
+        {
+          "id": "89",
+          "name": "caption-key3.1.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            26.4,
+            133.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "6d6fc509dbedde004f386ab7653b2cff4acc66e7464dcac378666f49c7de6d75",
+          "fontPt": []
+        },
+        {
+          "id": "90",
+          "name": "caption-key3.1.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            28.8,
+            133.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "2e96cf6bbc05ac152064bcab6a520a1347aac6cee9ade723191d74bbf130d391",
+          "fontPt": []
+        },
+        {
+          "id": "91",
+          "name": "caption-key3.1.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            31.2,
+            133.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "dff61477fb74a00f60cc87dc51cd67436dc60c4418df4a752ecb99af1e032e10",
+          "fontPt": []
+        },
+        {
+          "id": "92",
+          "name": "caption-key3.1.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            33.6,
+            133.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "c0a8eaf3803910acdae7021aa9ffc2f59e93e2fa5c51c0b5c078135ad5649a62",
+          "fontPt": []
+        },
+        {
+          "id": "93",
+          "name": "caption-key3.2.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            24.0,
+            135.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "7c41f02cbf8d54018ba1715ee170633ace1bcc32dd57fc2c0133c3aa61307083",
+          "fontPt": []
+        },
+        {
+          "id": "94",
+          "name": "caption-key3.2.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            26.4,
+            135.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "72c6359dc268a82eb8dbe7da9c29655bdadcdd2115a2280c9645fa522293df7d",
+          "fontPt": []
+        },
+        {
+          "id": "95",
+          "name": "caption-key3.2.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            28.8,
+            135.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "6ae07f80176146c53e49cd80f697dfb00f8077f638ab2cb3e6a092ef1eb02508",
+          "fontPt": []
+        },
+        {
+          "id": "96",
+          "name": "caption-key3.2.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            31.2,
+            135.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "42642cfff84d5de981180c696b3fe8f70e5b85b4151dbd429c284b806deb15c4",
+          "fontPt": []
+        },
+        {
+          "id": "97",
+          "name": "caption-key3.2.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            33.6,
+            135.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "2e432b25b56c7c6564733ae77f9f16b54fe0f373a1429c2db36cf71c96fbeaea",
+          "fontPt": []
+        },
+        {
+          "id": "98",
+          "name": "caption-key3.3.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            24.0,
+            138.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "7080513bc67377585f48a0895d7e3dde2fd67ba07bd819ed0d00a01c4cc06fa9",
+          "fontPt": []
+        },
+        {
+          "id": "99",
+          "name": "caption-key3.3.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            26.4,
+            138.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "05789183111c842ce89f349a02d2c05baee58a2d23f5e42268102189a34f745d",
+          "fontPt": []
+        },
+        {
+          "id": "100",
+          "name": "caption-key3.3.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            28.8,
+            138.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "f2546e5d8e4b2f3a76128d8890494a087e26ab1dd5954568b09aab2325ae5c67",
+          "fontPt": []
+        },
+        {
+          "id": "101",
+          "name": "caption-key3.3.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            31.2,
+            138.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "550ab20723dc166dbf3212540155000f45d6697eabbd35c41fcb185722b74302",
+          "fontPt": []
+        },
+        {
+          "id": "102",
+          "name": "caption-key3.3.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            33.6,
+            138.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "688a26704855de812ce2ba027d85cf6f0a2657a716d24feed66da1a35e2d9f78",
+          "fontPt": []
+        },
+        {
+          "id": "103",
+          "name": "caption-key3.4.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            24.0,
+            140.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "40d422921e4e7a9ce55f26005e24c21e0b60cc1ee4593ee0eccfc6b5406b9994",
+          "fontPt": []
+        },
+        {
+          "id": "104",
+          "name": "caption-key3.4.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            26.4,
+            140.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "a7e6d7a80227622b392bb0912e8a58e8d44e34d5820cd26d218094f9061dcbd0",
+          "fontPt": []
+        },
+        {
+          "id": "105",
+          "name": "caption-key3.4.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            28.8,
+            140.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "130032d4ddda7ca0dbd674242ddb7130169e438d1360f03644c05971339fc100",
+          "fontPt": []
+        },
+        {
+          "id": "106",
+          "name": "caption-key3.4.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            31.2,
+            140.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "c86974be0bf8f14e33487371391a772a279a0f45cd09336db43a2936167c2cc4",
+          "fontPt": []
+        },
+        {
+          "id": "107",
+          "name": "caption-key3.4.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            33.6,
+            140.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "8340f80b7868032294979a8e1f912b75fca0e79c22ebce02cffc90356dd8a944",
+          "fontPt": []
+        },
+        {
+          "id": "108",
+          "name": "caption3",
+          "kind": "sp",
+          "text": "ring",
+          "boundsPx": [
+            42.0,
+            126.0,
+            93.0,
+            21.0
+          ],
+          "fingerprint": "0f27f93b76d7f3ab4572f0e801223d689f81ab2ce72c6ae9c85d32c55c4d270b",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "109",
+          "name": "image",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            18.0,
+            218.0,
+            120.0,
+            96.0
+          ],
+          "fingerprint": "27c5a7812110f3636df660482cbd4631c47bfbc2cc64b04282c16d409cd55165",
+          "fontPt": []
+        },
+        {
+          "id": "110",
+          "name": "image-label",
+          "kind": "sp",
+          "text": "Image",
+          "boundsPx": [
+            22.0,
+            319.0,
+            112.0,
+            21.0
+          ],
+          "fingerprint": "25da874220d402032d26d18c8ce683fffec949902e5cfe419d8eb3f2d90d7bc1",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "675",
+          "name": "sample0",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            34.0,
+            225.0,
+            33.65,
+            33.65
+          ],
+          "fingerprint": "f125fb7a9f46014f73c6bcb3822476ef9e38fbb975e6044eb3b36eee64a93e24",
+          "fontPt": []
+        },
+        {
+          "id": "111",
+          "name": "sample0.0.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            34.0,
+            225.0,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "72b263670fb9933b01ec2f7b12c2686c2c0843f2ec0b532d1f0df221ba9640c3",
+          "fontPt": []
+        },
+        {
+          "id": "112",
+          "name": "sample0.0.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            40.8,
+            225.0,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "37df47cf45d0232384d01da0a70aa5643032c558f0349ec587a7cac70af9c6fa",
+          "fontPt": []
+        },
+        {
+          "id": "113",
+          "name": "sample0.0.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            47.6,
+            225.0,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "a906356adc12fdea99f80fb4de9dbeeedf9b71bd7fd7a611766b7a5de48f45be",
+          "fontPt": []
+        },
+        {
+          "id": "114",
+          "name": "sample0.0.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            54.4,
+            225.0,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "e7e02e7446f07157afec6047c722c8ddf9e5ba4f5e4f6cf5b39b51d8e110aa25",
+          "fontPt": []
+        },
+        {
+          "id": "115",
+          "name": "sample0.0.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            61.2,
+            225.0,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "4d0ac318276627b5352ed48ae23ccc4f866dbc7a5a4a69b0a946d753d44b8bbd",
+          "fontPt": []
+        },
+        {
+          "id": "116",
+          "name": "sample0.1.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            34.0,
+            231.8,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "4700a02b414c252ce9ba59412fae35eda95d8485eed4b9f3dee0e9a987ae2bb1",
+          "fontPt": []
+        },
+        {
+          "id": "117",
+          "name": "sample0.1.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            40.8,
+            231.8,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "35b2b252c439f0db8c9b2c16baaf1720d4ee69490f8bd73f833a0a56efa63961",
+          "fontPt": []
+        },
+        {
+          "id": "118",
+          "name": "sample0.1.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            47.6,
+            231.8,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "fc9551304bd7db4ab16310d86006de5b74be6ac3eda3f4be9fdfb391131a5433",
+          "fontPt": []
+        },
+        {
+          "id": "119",
+          "name": "sample0.1.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            54.4,
+            231.8,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "542c844f1dc16884558d79efcf2d3a6418dcadac932634ab52d3ae7b1b876956",
+          "fontPt": []
+        },
+        {
+          "id": "120",
+          "name": "sample0.1.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            61.2,
+            231.8,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "e5cf9f5a7c64bf7f8708cce8d34db47a9dae5c89525c4486645fb4e37528e37a",
+          "fontPt": []
+        },
+        {
+          "id": "121",
+          "name": "sample0.2.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            34.0,
+            238.6,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "899d1a20fa57cfc1e9b31a16a7ee191b3a10ed08dad0386006f8470c53cdf1b6",
+          "fontPt": []
+        },
+        {
+          "id": "122",
+          "name": "sample0.2.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            40.8,
+            238.6,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "941a4814ee9d8803b24d6e1cefd75522d737a3dd99c77e2d8553a3c89e749681",
+          "fontPt": []
+        },
+        {
+          "id": "123",
+          "name": "sample0.2.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            47.6,
+            238.6,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "146240b58f599562422360dae0f0bce435f62cccb777498b6d1707cfac0f0f0d",
+          "fontPt": []
+        },
+        {
+          "id": "124",
+          "name": "sample0.2.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            54.4,
+            238.6,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "80a627e59353bf62835ea4466e9bc4cced67f27f17b4e16776827c745de18ea8",
+          "fontPt": []
+        },
+        {
+          "id": "125",
+          "name": "sample0.2.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            61.2,
+            238.6,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "43c98b7a1d5b9e9e70b82f43e21caa0a6a887b2572f409f5f4d55b186ca16759",
+          "fontPt": []
+        },
+        {
+          "id": "126",
+          "name": "sample0.3.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            34.0,
+            245.4,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "ceed9c6da9583b2066f4e90a4c295a8ee683384f4bfdf4b2e4d1fd5e46c11c6c",
+          "fontPt": []
+        },
+        {
+          "id": "127",
+          "name": "sample0.3.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            40.8,
+            245.4,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "235bc442be51d983004dade4a2ae8c79eb3f1bb67c23452b614c9f6843964fbb",
+          "fontPt": []
+        },
+        {
+          "id": "128",
+          "name": "sample0.3.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            47.6,
+            245.4,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "96d818ee03ba87eaef00897fac854d48e252c880434b3eecc7216e299cc69361",
+          "fontPt": []
+        },
+        {
+          "id": "129",
+          "name": "sample0.3.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            54.4,
+            245.4,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "0497b96dcd4e74305580ecfba337ed52a262b22b3f3391e9cddced40cbb49ce7",
+          "fontPt": []
+        },
+        {
+          "id": "130",
+          "name": "sample0.3.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            61.2,
+            245.4,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "ac3ebcacb05985ad11275ca44dc30b4eda06b0ac45e2fe1f061517da4ce943f2",
+          "fontPt": []
+        },
+        {
+          "id": "131",
+          "name": "sample0.4.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            34.0,
+            252.2,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "cfd7221e02d387dc1aed3164b366a39c1894952e8b444cc20171db08a497c70a",
+          "fontPt": []
+        },
+        {
+          "id": "132",
+          "name": "sample0.4.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            40.8,
+            252.2,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "d6edeeb405f0c34887ff87c24df3e4fc03bd876a243c7484711b50eeae54f16c",
+          "fontPt": []
+        },
+        {
+          "id": "133",
+          "name": "sample0.4.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            47.6,
+            252.2,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "550addb3c63c52db353146a5009c04758052e9378e7cdc5cc2224a72f372650d",
+          "fontPt": []
+        },
+        {
+          "id": "134",
+          "name": "sample0.4.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            54.4,
+            252.2,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "b1c2a6456cc9e8089a0c5b2c73fe548e4e93be722e98a9829a3ae4d5eccb7bd3",
+          "fontPt": []
+        },
+        {
+          "id": "135",
+          "name": "sample0.4.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            61.2,
+            252.2,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "b9efa939e1cf8049ddb90f73e749713f8664896de71fa90e0a4e1dc128b49a10",
+          "fontPt": []
+        },
+        {
+          "id": "676",
+          "name": "sample1",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            83.0,
+            225.0,
+            33.65,
+            33.65
+          ],
+          "fingerprint": "dac3386d55c9ed9114eed39edfc68751e6701f60450d2c5230afa96994e0289a",
+          "fontPt": []
+        },
+        {
+          "id": "136",
+          "name": "sample1.0.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            83.0,
+            225.0,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "0c40a22375c4a61c8ca22ff9d97047eee2e13254412b8490a962af603602217f",
+          "fontPt": []
+        },
+        {
+          "id": "137",
+          "name": "sample1.0.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            89.8,
+            225.0,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "1008d55c67bf67954a65c68782b078f34f608d289cafca97e8feb1b33c77007b",
+          "fontPt": []
+        },
+        {
+          "id": "138",
+          "name": "sample1.0.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            96.6,
+            225.0,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "7cf68dff80bbd60abf817b50840b9f085bab54f9f10d5db290a0d9212355d272",
+          "fontPt": []
+        },
+        {
+          "id": "139",
+          "name": "sample1.0.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            103.4,
+            225.0,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "b97044daa0f834e2a00736f0f87b360ad0fa7b83565570e2102a594f536461b3",
+          "fontPt": []
+        },
+        {
+          "id": "140",
+          "name": "sample1.0.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            110.2,
+            225.0,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "4347d85cfedda1a784b5c6a67cc687c13d04771300773ffef8c4b30a56f78495",
+          "fontPt": []
+        },
+        {
+          "id": "141",
+          "name": "sample1.1.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            83.0,
+            231.8,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "80f066e147ae09cc18ed7babc0edf0c76a0740b5bbaf7f8898f30651354a1a6a",
+          "fontPt": []
+        },
+        {
+          "id": "142",
+          "name": "sample1.1.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            89.8,
+            231.8,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "29f6e90932dcf9356da848d0261e77015df631591608dcea4168d0e6ea9891b3",
+          "fontPt": []
+        },
+        {
+          "id": "143",
+          "name": "sample1.1.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            96.6,
+            231.8,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "af4707a6e1dd11076be8a6138c55d24bf00d3d5075a01d5e52a3f74bf3892cbd",
+          "fontPt": []
+        },
+        {
+          "id": "144",
+          "name": "sample1.1.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            103.4,
+            231.8,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "e0f00469d530e46b567587b7180bc3c611bc5eb32e51edbb25b77a97021f5042",
+          "fontPt": []
+        },
+        {
+          "id": "145",
+          "name": "sample1.1.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            110.2,
+            231.8,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "473944af30ba50416d1172430052a5df6ab7d37441b3fe4ad512debf90b6c583",
+          "fontPt": []
+        },
+        {
+          "id": "146",
+          "name": "sample1.2.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            83.0,
+            238.6,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "6ceec41b0546e8ab9d42e2a24f5333e241e7646f3224393336663b49ef725b50",
+          "fontPt": []
+        },
+        {
+          "id": "147",
+          "name": "sample1.2.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            89.8,
+            238.6,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "96d2e3f55f848476542e5e33e0321c2b1964123394d8b95212721a478fdbcedc",
+          "fontPt": []
+        },
+        {
+          "id": "148",
+          "name": "sample1.2.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            96.6,
+            238.6,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "da14c6d3ca5d8101dec52cfafc5245760540c2dce8f22b5d84df573e574cacff",
+          "fontPt": []
+        },
+        {
+          "id": "149",
+          "name": "sample1.2.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            103.4,
+            238.6,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "6bb373c38634ff94ab74f799b12aeaade6fc93ce4d0ab1f1f34eb37ecba5fad4",
+          "fontPt": []
+        },
+        {
+          "id": "150",
+          "name": "sample1.2.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            110.2,
+            238.6,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "3fc7545ea2c67d55a90dc8c547a41aff589783d3ff0f2bff08fdc5d3ebb76e5b",
+          "fontPt": []
+        },
+        {
+          "id": "151",
+          "name": "sample1.3.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            83.0,
+            245.4,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "b956df6e9b63e594f07c118af6f2bd143df8817a1d45900240a148c99b8aefce",
+          "fontPt": []
+        },
+        {
+          "id": "152",
+          "name": "sample1.3.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            89.8,
+            245.4,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "0fda55dbc0c9e57498cec98a42ac0c8d6c8407c38e13f6889235deeeb18d6aeb",
+          "fontPt": []
+        },
+        {
+          "id": "153",
+          "name": "sample1.3.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            96.6,
+            245.4,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "36528680f72c9b453fe6cb34ecfec4761415c0358c69d8800b6ec9d6e04f2f01",
+          "fontPt": []
+        },
+        {
+          "id": "154",
+          "name": "sample1.3.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            103.4,
+            245.4,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "eeef43fbeafc7928f6cc75b1294c19958071385f365ec2d3e8a83d1f872c6532",
+          "fontPt": []
+        },
+        {
+          "id": "155",
+          "name": "sample1.3.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            110.2,
+            245.4,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "eb9a2cf27e8373cf6da71bc96a3020fbdc64be285bd3bd705d8d77e5403ec3a0",
+          "fontPt": []
+        },
+        {
+          "id": "156",
+          "name": "sample1.4.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            83.0,
+            252.2,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "73a2bc4f8682517abe28d6f28cdce5d9d855ea4f506a141c45e10498812563c9",
+          "fontPt": []
+        },
+        {
+          "id": "157",
+          "name": "sample1.4.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            89.8,
+            252.2,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "986704b8937940d1d70775e18941de0989cbb83349b1065e42974c938d4f9206",
+          "fontPt": []
+        },
+        {
+          "id": "158",
+          "name": "sample1.4.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            96.6,
+            252.2,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "f11d59b932e99eb1631275e59fe3fbb64f65d53a4d4a6a85a1d864fa821eb4cc",
+          "fontPt": []
+        },
+        {
+          "id": "159",
+          "name": "sample1.4.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            103.4,
+            252.2,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "94ee1b1b7e922101d85a312b31ec624087637d2849429ee1e28549bfed64ad30",
+          "fontPt": []
+        },
+        {
+          "id": "160",
+          "name": "sample1.4.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            110.2,
+            252.2,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "12c0abe07725f98e6d95606844d6bc9a597d3f805828debc3e954f52cac3ad74",
+          "fontPt": []
+        },
+        {
+          "id": "677",
+          "name": "sample2",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            34.0,
+            268.0,
+            33.65,
+            33.65
+          ],
+          "fingerprint": "52bb07413b4d26586e4115114b02e5f5591df1abf659aaf946b67905cf459548",
+          "fontPt": []
+        },
+        {
+          "id": "161",
+          "name": "sample2.0.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            34.0,
+            268.0,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "149d17ebcbb65d1aca161c43862019074e0f452dca340d2ad89f8ef729de6a16",
+          "fontPt": []
+        },
+        {
+          "id": "162",
+          "name": "sample2.0.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            40.8,
+            268.0,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "ac7ae5fe885c5690f6909891d17609303a157780d3978648042460fae8ae6486",
+          "fontPt": []
+        },
+        {
+          "id": "163",
+          "name": "sample2.0.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            47.6,
+            268.0,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "d3156d94bdf889fe7f1807384de375f7d717420c03d56964cf857d57c09b6571",
+          "fontPt": []
+        },
+        {
+          "id": "164",
+          "name": "sample2.0.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            54.4,
+            268.0,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "fe66331a9d3fcc216e6c1bf39c429aa31c2d9e071b8229677364c92fb1a17fc5",
+          "fontPt": []
+        },
+        {
+          "id": "165",
+          "name": "sample2.0.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            61.2,
+            268.0,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "a698350f3971a0c74988eb318a573f436fbba11e31ffd076fbd90f09a1678f84",
+          "fontPt": []
+        },
+        {
+          "id": "166",
+          "name": "sample2.1.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            34.0,
+            274.8,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "7fd974706f8d62e2d7c175918ac07d929560603b5c1080586ccfa1767da36224",
+          "fontPt": []
+        },
+        {
+          "id": "167",
+          "name": "sample2.1.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            40.8,
+            274.8,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "13419b7f1cb37b83158ecba431919aa8a6e2b97f4db091784c014ffcab8e7c4c",
+          "fontPt": []
+        },
+        {
+          "id": "168",
+          "name": "sample2.1.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            47.6,
+            274.8,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "632ec41eacba2494e4e716b4f5a32241ec9fd6f8c6fcfaf339dbbe0af5e56ec2",
+          "fontPt": []
+        },
+        {
+          "id": "169",
+          "name": "sample2.1.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            54.4,
+            274.8,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "8d3c736927dc1eed31ce340827f249ac43b199f274bebf64db4cd3f4e40cca66",
+          "fontPt": []
+        },
+        {
+          "id": "170",
+          "name": "sample2.1.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            61.2,
+            274.8,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "845408fc84e8c3dca91d86015ad33ed745bd6502ee62ac0ad77e38e22f66d48c",
+          "fontPt": []
+        },
+        {
+          "id": "171",
+          "name": "sample2.2.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            34.0,
+            281.6,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "2884c011200ff3e8c1bfa801422afd07f1a999b179ba438530a66fcab57e2d72",
+          "fontPt": []
+        },
+        {
+          "id": "172",
+          "name": "sample2.2.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            40.8,
+            281.6,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "9aa87024b22b1fa30feeaa4f3136df2fb244f02cc4c8617a4b8cd133a4f5f197",
+          "fontPt": []
+        },
+        {
+          "id": "173",
+          "name": "sample2.2.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            47.6,
+            281.6,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "c22e0bba24085607edd2c05720564d51d7533e85c71efb4b61274f7e3f561933",
+          "fontPt": []
+        },
+        {
+          "id": "174",
+          "name": "sample2.2.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            54.4,
+            281.6,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "72025222dc18d650a0a08dbb1c689fa97ab41419c51544d0edd065a5422df9ef",
+          "fontPt": []
+        },
+        {
+          "id": "175",
+          "name": "sample2.2.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            61.2,
+            281.6,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "8560f77555046e4f66f5a4a431f0242cb7bd3fe682f79a7d9b0e49146387b8e1",
+          "fontPt": []
+        },
+        {
+          "id": "176",
+          "name": "sample2.3.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            34.0,
+            288.4,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "5485c71285b4c71b1e2731ed6f78d4afdb05b48fed15a0d50a2fce0a3a9bc6ff",
+          "fontPt": []
+        },
+        {
+          "id": "177",
+          "name": "sample2.3.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            40.8,
+            288.4,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "20f9828921538b8c0417ba8995d87c5d444d0b3aa12667903b8850de957fa4e7",
+          "fontPt": []
+        },
+        {
+          "id": "178",
+          "name": "sample2.3.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            47.6,
+            288.4,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "ac98a3df30d547445eee7a72065518762fc814ed54c1159b7152183e8c363ad5",
+          "fontPt": []
+        },
+        {
+          "id": "179",
+          "name": "sample2.3.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            54.4,
+            288.4,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "3ffe1b0f19bbd984578a13f44c8910f58906f4f87b0096317a95008159998d04",
+          "fontPt": []
+        },
+        {
+          "id": "180",
+          "name": "sample2.3.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            61.2,
+            288.4,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "0da2c5246f2fd8cd070b09d69896ea32e6bea9015dbbb3d3f86a72c73d56910f",
+          "fontPt": []
+        },
+        {
+          "id": "181",
+          "name": "sample2.4.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            34.0,
+            295.2,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "307be594ca384f0e612151a03dd161bb0d50d635002781c8112e89fc4948be6d",
+          "fontPt": []
+        },
+        {
+          "id": "182",
+          "name": "sample2.4.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            40.8,
+            295.2,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "7edacc4937dc3da51f5fc2a0fc95b6efdb05f74bc5706a587b5dc2c415fac785",
+          "fontPt": []
+        },
+        {
+          "id": "183",
+          "name": "sample2.4.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            47.6,
+            295.2,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "92978402af1a7e630a7324aae54f96c2baad3c0be8714769f55682fb797f5537",
+          "fontPt": []
+        },
+        {
+          "id": "184",
+          "name": "sample2.4.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            54.4,
+            295.2,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "7281ee70350869af41aed6e1e44c465c7a28d37b729cb86b812da4fb6024c226",
+          "fontPt": []
+        },
+        {
+          "id": "185",
+          "name": "sample2.4.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            61.2,
+            295.2,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "894abfb8039be622fe7df80cf63b0802b9f9fbc09fb5e8d6611c2d88e8093567",
+          "fontPt": []
+        },
+        {
+          "id": "678",
+          "name": "sample3",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            83.0,
+            268.0,
+            33.65,
+            33.65
+          ],
+          "fingerprint": "96ddbae1b7362496355f81a2f5174d21f67b5ad84a984e6c2e511b80ee05ec93",
+          "fontPt": []
+        },
+        {
+          "id": "186",
+          "name": "sample3.0.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            83.0,
+            268.0,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "54e56c080e5041b1d3434e10e65c4c2205fc972e1a9ad0fe0b0480da00cf9472",
+          "fontPt": []
+        },
+        {
+          "id": "187",
+          "name": "sample3.0.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            89.8,
+            268.0,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "e442bd456b8c070f5a53fe16c2426dcb443c6bab0adbe6d8a00fdbb8adb3cfdf",
+          "fontPt": []
+        },
+        {
+          "id": "188",
+          "name": "sample3.0.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            96.6,
+            268.0,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "ee054101e0829af5cad597bdcbc5f9a2fc7f93b718a293d18ef3f3fb52d74e4a",
+          "fontPt": []
+        },
+        {
+          "id": "189",
+          "name": "sample3.0.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            103.4,
+            268.0,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "3c9944d19ad3d7847db659fe6a7d65a8bb6dc0a0adc684470d915d5a5e30f367",
+          "fontPt": []
+        },
+        {
+          "id": "190",
+          "name": "sample3.0.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            110.2,
+            268.0,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "e2f7cb870b53ac418b9f2df039136eafe9c9bdde317dff1a69e98b2dd9d9904f",
+          "fontPt": []
+        },
+        {
+          "id": "191",
+          "name": "sample3.1.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            83.0,
+            274.8,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "978ea418ae2acdb23e9fc25055d549cb2783aea71a6a3d82de71940b9b02fd4f",
+          "fontPt": []
+        },
+        {
+          "id": "192",
+          "name": "sample3.1.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            89.8,
+            274.8,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "09993ae14466b5315f2d44390792f0239c092eb1aa692333e8dc1191a5589c53",
+          "fontPt": []
+        },
+        {
+          "id": "193",
+          "name": "sample3.1.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            96.6,
+            274.8,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "6f3a7c6f8b0b8745fce2d31e97db1942bf31ec9dbdb1aa9bbbb4c6feca9b00a7",
+          "fontPt": []
+        },
+        {
+          "id": "194",
+          "name": "sample3.1.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            103.4,
+            274.8,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "8e06720366c02b7ad4ff15671d961ff983c21d5aa7b7dddc0b6c85204944c26e",
+          "fontPt": []
+        },
+        {
+          "id": "195",
+          "name": "sample3.1.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            110.2,
+            274.8,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "67b0a7acfe928295cae7edc261fcd663fead2cc2b45648077c39ff1026faf968",
+          "fontPt": []
+        },
+        {
+          "id": "196",
+          "name": "sample3.2.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            83.0,
+            281.6,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "42aa30593aaccbd6428ded5da65acf09c016efa07012252cba3c2c938d81fb0a",
+          "fontPt": []
+        },
+        {
+          "id": "197",
+          "name": "sample3.2.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            89.8,
+            281.6,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "d364c76047728a0e3348f2e0f87d27bc616f87cdb9bb5be7a16986c59c7f7bdf",
+          "fontPt": []
+        },
+        {
+          "id": "198",
+          "name": "sample3.2.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            96.6,
+            281.6,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "9a34561780f6387864609444c2442a3dd22bb8861e4d8ef98a3d04378f997ffd",
+          "fontPt": []
+        },
+        {
+          "id": "199",
+          "name": "sample3.2.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            103.4,
+            281.6,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "3888417a466cd58d145e5acac8070e1bcaa27e6863715c3b2d93df44300a5bdf",
+          "fontPt": []
+        },
+        {
+          "id": "200",
+          "name": "sample3.2.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            110.2,
+            281.6,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "805859a8fc5a4b3dfb37815950b01750fc128d96165345981bc5e2b68404027a",
+          "fontPt": []
+        },
+        {
+          "id": "201",
+          "name": "sample3.3.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            83.0,
+            288.4,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "80e8cf8a1308fef33192891e26fd09f72246c274a09a46469042c7f9f18fa839",
+          "fontPt": []
+        },
+        {
+          "id": "202",
+          "name": "sample3.3.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            89.8,
+            288.4,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "25c8c89a1bc6c49418e297119cbe1421411b494dd6bdcb88d33d182e3452c3e6",
+          "fontPt": []
+        },
+        {
+          "id": "203",
+          "name": "sample3.3.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            96.6,
+            288.4,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "23e13f67c1f57e773d27bb029ab010a5743a3601d91a80161914dab6acf27123",
+          "fontPt": []
+        },
+        {
+          "id": "204",
+          "name": "sample3.3.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            103.4,
+            288.4,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "cb7393df504c3dc8153fe9536c314522e3a0e98b8755fd017d6308361425d38d",
+          "fontPt": []
+        },
+        {
+          "id": "205",
+          "name": "sample3.3.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            110.2,
+            288.4,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "71376ceb428b083c82c791790d3053ed06d1a06f3b369707c04e982e9fc9b4ff",
+          "fontPt": []
+        },
+        {
+          "id": "206",
+          "name": "sample3.4.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            83.0,
+            295.2,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "428b74f2afe9d62e2a113f28a889ebc586cb164917773d0f96609b159485b82f",
+          "fontPt": []
+        },
+        {
+          "id": "207",
+          "name": "sample3.4.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            89.8,
+            295.2,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "42082f3e83b44ed4c07f6a6da05cc366bda09d1d2ffb180decfe5e959217093d",
+          "fontPt": []
+        },
+        {
+          "id": "208",
+          "name": "sample3.4.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            96.6,
+            295.2,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "450d791a215dc0ae2f7dc796ffcec6cb197f49a470ed6d0509cf99be3b332623",
+          "fontPt": []
+        },
+        {
+          "id": "209",
+          "name": "sample3.4.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            103.4,
+            295.2,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "2a88c775ea635d8f374308948afd26c9c83e4e645238074105c1929648e830c1",
+          "fontPt": []
+        },
+        {
+          "id": "210",
+          "name": "sample3.4.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            110.2,
+            295.2,
+            6.45,
+            6.45
+          ],
+          "fingerprint": "70d6b1ca1f8ad37f05e5ffa9f8a4961ac4eb3559597936637cbd171e4cb35574",
+          "fontPt": []
+        },
+        {
+          "id": "211",
+          "name": "text-encoder",
+          "kind": "sp",
+          "text": "Text\nencoder",
+          "boundsPx": [
+            168.0,
+            86.0,
+            100.0,
+            54.0
+          ],
+          "fingerprint": "7cfcb13f697b9ddded04c3a771632f002e3f324d6731d10996e1bd92fa618e15",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "212",
+          "name": "image-encoder",
+          "kind": "sp",
+          "text": "Vision\nencoder",
+          "boundsPx": [
+            168.0,
+            239.0,
+            100.0,
+            54.0
+          ],
+          "fingerprint": "58fd3ef9e96357aec9adab5034fe357084bafc76943d7f7bbe87db819173b9b4",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "663",
+          "name": "language",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            138.0,
+            113.0,
+            30.0,
+            0.0
+          ],
+          "fingerprint": "077cd6600d735f184e63566c7adc64f0dcf53dd36e79ea95272ab8f35d1021bd",
+          "fontPt": []
+        },
+        {
+          "id": "664",
+          "name": "vision",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            138.0,
+            266.0,
+            30.0,
+            0.0
+          ],
+          "fingerprint": "9715d54463d2f4644ed2e10f49760b8a92286394e10dd2d9c15fa43341dab76c",
+          "fontPt": []
+        },
+        {
+          "id": "215",
+          "name": "x-label",
+          "kind": "sp",
+          "text": "Text embeddings",
+          "boundsPx": [
+            438.0,
+            63.0,
+            208.0,
+            23.0
+          ],
+          "fingerprint": "d6c9fd19624246cb26ee25bc8bb1683af941e2f95cdfa6d7ce946fd58b7bee99",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "216",
+          "name": "y-label",
+          "kind": "sp",
+          "text": "Image\nembeddings",
+          "boundsPx": [
+            283.0,
+            210.0,
+            98.0,
+            42.0
+          ],
+          "fingerprint": "9934ef8d9bb8fd18822a914cc1c751bf2782aedd9775199cdb8e18d2bc048dce",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "217",
+          "name": "text-axis",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            438.0,
+            94.0,
+            208.0,
+            38.0
+          ],
+          "fingerprint": "ffb7871b3c4b3c1b3f7d933e72bd3a2093839c950db352c73a72e54d03eeb820",
+          "fontPt": []
+        },
+        {
+          "id": "218",
+          "name": "image-axis",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            391.0,
+            164.0,
+            40.0,
+            192.0
+          ],
+          "fingerprint": "e50e0708db921df0cf198d716d766d7db8b97c37ae21001ff1ca024167a63696",
+          "fontPt": []
+        },
+        {
+          "id": "669",
+          "name": "text-axis-flow",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            268.0,
+            113.0,
+            170.0,
+            0.0
+          ],
+          "fingerprint": "b8d68534b6c82cd11726512cb1800109a2d1e4d1612eb67364634bac2fa25716",
+          "fontPt": []
+        },
+        {
+          "id": "670",
+          "name": "image-axis-flow",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            268.0,
+            260.0,
+            123.0,
+            6.0
+          ],
+          "fingerprint": "4e37d7e764fe9b2c950eb53487bf5b0c609db1bc3b66a9c639e8578ec68345e5",
+          "fontPt": []
+        },
+        {
+          "id": "688",
+          "name": "column-embeddings",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            438.0,
+            94.0,
+            207.0,
+            38.0
+          ],
+          "fingerprint": "4f4e34e1cd6b5982e3fe78691232d1bda152ec6996b0f625961bcb95887ba479",
+          "fontPt": []
+        },
+        {
+          "id": "221",
+          "name": "col0",
+          "kind": "sp",
+          "text": "T\u2081",
+          "boundsPx": [
+            438.0,
+            94.0,
+            51.0,
+            38.0
+          ],
+          "fingerprint": "f76464c31fc3e8ab08b7dbf1794f615e76a3efb1a01770646e4ae8a00a134276",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "274",
+          "name": "col1",
+          "kind": "sp",
+          "text": "T\u2082",
+          "boundsPx": [
+            490.0,
+            94.0,
+            51.0,
+            38.0
+          ],
+          "fingerprint": "e99499a7c45fb22dc5e012751a15f18e109b1099a60d5a1905e74582ca418bc8",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "327",
+          "name": "col2",
+          "kind": "sp",
+          "text": "T\u2083",
+          "boundsPx": [
+            542.0,
+            94.0,
+            51.0,
+            38.0
+          ],
+          "fingerprint": "4df47da93166f73d4f267a427f1296bd01384fafecde4544c19ea67efc804c9b",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "380",
+          "name": "col3",
+          "kind": "sp",
+          "text": "T\u2084",
+          "boundsPx": [
+            594.0,
+            94.0,
+            51.0,
+            38.0
+          ],
+          "fingerprint": "81dd4f726cc70284e917103827674a0ff6079011978232843d457fec52d2ad48",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "679",
+          "name": "col-key0",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            442.0,
+            105.0,
+            10.65,
+            10.65
+          ],
+          "fingerprint": "2088c4436ffb87191ece813d01e42c7789aa87a30187bf0c73212ec0180441d2",
+          "fontPt": []
+        },
+        {
+          "id": "222",
+          "name": "col-key0.0.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            442.0,
+            105.0,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "336b66fc0fd6a666780352db06f772f9d70c1fb8aaefe9bcd1a1cbf9b75f94dd",
+          "fontPt": []
+        },
+        {
+          "id": "223",
+          "name": "col-key0.0.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            444.2,
+            105.0,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "49e43d5aa0c5a206592a4c9563625c1f4eefaa5ce97b5e5fef591901683b956e",
+          "fontPt": []
+        },
+        {
+          "id": "224",
+          "name": "col-key0.0.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            446.4,
+            105.0,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "e89dd56a9fd0e3987bf2d1e49c5bc4000f30ade3e54158bbe1861b010fcf6085",
+          "fontPt": []
+        },
+        {
+          "id": "225",
+          "name": "col-key0.0.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            448.6,
+            105.0,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "aa381a3ac835d89be515c0d25ac1f46ad7ebdf687c97e1f423a85168309929c8",
+          "fontPt": []
+        },
+        {
+          "id": "226",
+          "name": "col-key0.0.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            450.8,
+            105.0,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "196c3b216d883a71e99b5ec2bca9deca038c05e71ef671909c607ac1b114cf54",
+          "fontPt": []
+        },
+        {
+          "id": "227",
+          "name": "col-key0.1.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            442.0,
+            107.2,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "44ad776034e5d303947ccc1fefa0abeba760b6d50bbeb14901cb4c18f0d75a95",
+          "fontPt": []
+        },
+        {
+          "id": "228",
+          "name": "col-key0.1.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            444.2,
+            107.2,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "156439b3fc49b767f03ada470848b748de9a443ea44f83ad94e22c9e93fd3135",
+          "fontPt": []
+        },
+        {
+          "id": "229",
+          "name": "col-key0.1.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            446.4,
+            107.2,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "88b8f2d8315b12276afff36d5e2a6a7fe8a8d8a30a6625dced8111671f627c3f",
+          "fontPt": []
+        },
+        {
+          "id": "230",
+          "name": "col-key0.1.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            448.6,
+            107.2,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "4c3c51093af578c0ea2ea34173c54672e68e6fa89e89434388f3763489bff27f",
+          "fontPt": []
+        },
+        {
+          "id": "231",
+          "name": "col-key0.1.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            450.8,
+            107.2,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "7acf5a9eae6ae8d7527067f96b40ab3c63157594c3706d2e1fdd11d33021a63c",
+          "fontPt": []
+        },
+        {
+          "id": "232",
+          "name": "col-key0.2.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            442.0,
+            109.4,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "b0e4c8784bb7b2b6b9e960441b9011ef5ecaf33c8f22dda77e371612a184ebc1",
+          "fontPt": []
+        },
+        {
+          "id": "233",
+          "name": "col-key0.2.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            444.2,
+            109.4,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "eb16044a10ce04964c39ee5f5927c96000b3f0aacc15e4547519914ef195cab7",
+          "fontPt": []
+        },
+        {
+          "id": "234",
+          "name": "col-key0.2.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            446.4,
+            109.4,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "7ff3b393501a791d9932db32ae00a86f32b155fa8eaddb7cc3744fbf8e5d74b6",
+          "fontPt": []
+        },
+        {
+          "id": "235",
+          "name": "col-key0.2.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            448.6,
+            109.4,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "23527629b9484416afb7958e42d2d6195e593fc65dd4a6d54285eadafbc5d550",
+          "fontPt": []
+        },
+        {
+          "id": "236",
+          "name": "col-key0.2.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            450.8,
+            109.4,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "bc4e86d1983f0b63487d92b820fa76f06d61ebdd4dd5e5f49bf19349c5d63a8e",
+          "fontPt": []
+        },
+        {
+          "id": "237",
+          "name": "col-key0.3.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            442.0,
+            111.6,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "5b3989f3773a6ef6e46901a85aa177998866aa13ee25d94158f483d0cc057370",
+          "fontPt": []
+        },
+        {
+          "id": "238",
+          "name": "col-key0.3.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            444.2,
+            111.6,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "1b2c5c5297075172087074b7d9ed5fb45c7e3922b61e23c4c87adbf32a53e12b",
+          "fontPt": []
+        },
+        {
+          "id": "239",
+          "name": "col-key0.3.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            446.4,
+            111.6,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "f9478b55e645f796e7a419edc0f1b3e1175870811e663220481b09c68b52948f",
+          "fontPt": []
+        },
+        {
+          "id": "240",
+          "name": "col-key0.3.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            448.6,
+            111.6,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "ae7e954489a291cc370f02912cd81c787b38c9a73b669205510cdd21dc60a6d6",
+          "fontPt": []
+        },
+        {
+          "id": "241",
+          "name": "col-key0.3.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            450.8,
+            111.6,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "1fdb3a68c77483203c36adeee1d7efee8eeeb71f1c1cf69b035123e7363afe7f",
+          "fontPt": []
+        },
+        {
+          "id": "242",
+          "name": "col-key0.4.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            442.0,
+            113.8,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "ae618e08c55e2917b5bcc4b02955d878e667a609a83aa72ff75412ca34498ac7",
+          "fontPt": []
+        },
+        {
+          "id": "243",
+          "name": "col-key0.4.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            444.2,
+            113.8,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "6a8559919c3b713cf1ffbc058a4be6d2d79d9daefc476a604f842ecaa4e5bb17",
+          "fontPt": []
+        },
+        {
+          "id": "244",
+          "name": "col-key0.4.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            446.4,
+            113.8,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "51b74a646008911b064589b5fbadc57d0fe72ea94893df5283cee524a6821bc1",
+          "fontPt": []
+        },
+        {
+          "id": "245",
+          "name": "col-key0.4.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            448.6,
+            113.8,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "400658bb8df501bf1e2e8698226c4f33506277bc530316bf41394ca191df7e20",
+          "fontPt": []
+        },
+        {
+          "id": "246",
+          "name": "col-key0.4.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            450.8,
+            113.8,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "20789e589fe0f18905988b652e0c775f94c3f65278b8f77cc7d530be6e2fcb1d",
+          "fontPt": []
+        },
+        {
+          "id": "687",
+          "name": "row-embeddings",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            391.0,
+            164.0,
+            40.0,
+            190.0
+          ],
+          "fingerprint": "0a7b27a60d81caf9251b52d4759f00ce5d99f3dd731ea7aaf5c4eabaa4495fbd",
+          "fontPt": []
+        },
+        {
+          "id": "247",
+          "name": "row0",
+          "kind": "sp",
+          "text": "I\u2081",
+          "boundsPx": [
+            391.0,
+            164.0,
+            40.0,
+            46.0
+          ],
+          "fingerprint": "2819383691219e326ea11dafa0cf4c79850332ceea953bef7d1a441636fde9a0",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "300",
+          "name": "row1",
+          "kind": "sp",
+          "text": "I\u2082",
+          "boundsPx": [
+            391.0,
+            212.0,
+            40.0,
+            46.0
+          ],
+          "fingerprint": "4feec31c73e7c14f971f6ac07336d25082dbc37dedced1e4d44f2756f55b2257",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "353",
+          "name": "row2",
+          "kind": "sp",
+          "text": "I\u2083",
+          "boundsPx": [
+            391.0,
+            260.0,
+            40.0,
+            46.0
+          ],
+          "fingerprint": "07fd900ed03a63fb359c7822242cafa6abf8b1cfbb1609c4803da5bd885b24a8",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "406",
+          "name": "row3",
+          "kind": "sp",
+          "text": "I\u2084",
+          "boundsPx": [
+            391.0,
+            308.0,
+            40.0,
+            46.0
+          ],
+          "fingerprint": "f5ffbef621ac794b87f66f3cc2e64199d22275283622f88e32baaa6f7f24ece3",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "680",
+          "name": "row-key0",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            405.0,
+            169.0,
+            11.65,
+            11.65
+          ],
+          "fingerprint": "8a9663a87b9c0174ea345c299df3e1e46904d147c8387a29971204322302e47f",
+          "fontPt": []
+        },
+        {
+          "id": "248",
+          "name": "row-key0.0.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            405.0,
+            169.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "1e10c0d36d1893f3854ff4d7398cc292c474c078fc8605f9cbfd048d4ba8dbd3",
+          "fontPt": []
+        },
+        {
+          "id": "249",
+          "name": "row-key0.0.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            407.4,
+            169.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "5917e4fccc885abe381110ef9b4d717c37d5eb56b3e768f773ae82a4224e82b1",
+          "fontPt": []
+        },
+        {
+          "id": "250",
+          "name": "row-key0.0.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            409.8,
+            169.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "5ff41e20c059b68794133d0be8918c954547a7a5ab2b981841ee4dab23abf16d",
+          "fontPt": []
+        },
+        {
+          "id": "251",
+          "name": "row-key0.0.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            412.2,
+            169.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "b271008d4652be403da9852e83c4898edf112ad5519598360860c9531d815f7b",
+          "fontPt": []
+        },
+        {
+          "id": "252",
+          "name": "row-key0.0.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            414.6,
+            169.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "6b46a4e96b01dff70dff0f26828ed835954fdb4ce19eeb87db518c8795dff694",
+          "fontPt": []
+        },
+        {
+          "id": "253",
+          "name": "row-key0.1.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            405.0,
+            171.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "66d8ba0d207b5c89fe900e9cd99294eff59e969fd12f500a3633527be600fdad",
+          "fontPt": []
+        },
+        {
+          "id": "254",
+          "name": "row-key0.1.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            407.4,
+            171.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "83a8828f44e67d2fe2d87ce4dcdf2fd9550d20c07eab3e4037a095ca2836e5d8",
+          "fontPt": []
+        },
+        {
+          "id": "255",
+          "name": "row-key0.1.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            409.8,
+            171.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "d605b66628652e32c08c3074f36b08ae4fc9d21955743ef0e38cd4f49cb76f33",
+          "fontPt": []
+        },
+        {
+          "id": "256",
+          "name": "row-key0.1.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            412.2,
+            171.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "0db138b01b4b1d06931535346ed33f21833358dc88cc8353dde14f9c71fa543c",
+          "fontPt": []
+        },
+        {
+          "id": "257",
+          "name": "row-key0.1.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            414.6,
+            171.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "8d8036b6bc4af8824518b9e9579a79c55ec789a2c134bc69e9b337c31e942c06",
+          "fontPt": []
+        },
+        {
+          "id": "258",
+          "name": "row-key0.2.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            405.0,
+            173.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "d6f365b6aafc00dc5c792aff64774f8dc392509cbdafe07661222e6a0de2483c",
+          "fontPt": []
+        },
+        {
+          "id": "259",
+          "name": "row-key0.2.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            407.4,
+            173.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "af4a2856424b6773af9ed4f6d8850eb48e8aefeafa24c3c0ce7461ee4bfc5bde",
+          "fontPt": []
+        },
+        {
+          "id": "260",
+          "name": "row-key0.2.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            409.8,
+            173.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "258802dc98a4eed3c8b8a232d1e5d4c389e7ad87adbedf831b503a51d2a17a3b",
+          "fontPt": []
+        },
+        {
+          "id": "261",
+          "name": "row-key0.2.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            412.2,
+            173.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "29ccbe3995a674ae39091263c3852b09dc377f098ca7e6dbba85e42813b5b9c5",
+          "fontPt": []
+        },
+        {
+          "id": "262",
+          "name": "row-key0.2.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            414.6,
+            173.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "ee65309ab68050f484ba97a78f428d105e0a708216bbd2104e18867e60a6d440",
+          "fontPt": []
+        },
+        {
+          "id": "263",
+          "name": "row-key0.3.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            405.0,
+            176.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "eb02bffaec841092a6435171876c88018cd2fce860cf61670eaba929281e50a0",
+          "fontPt": []
+        },
+        {
+          "id": "264",
+          "name": "row-key0.3.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            407.4,
+            176.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "a80f2aa1af3aa8434f232adf98865e1a120f0c481aa6ac974ce3d66d9db39b34",
+          "fontPt": []
+        },
+        {
+          "id": "265",
+          "name": "row-key0.3.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            409.8,
+            176.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "1f4a60ae60827829022e9462884aa74b2422c34e3837556bb2ff9bf27039f309",
+          "fontPt": []
+        },
+        {
+          "id": "266",
+          "name": "row-key0.3.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            412.2,
+            176.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "213c86ada8149ecfed345f760939ee6314a1800ea22574f4e4acd12433fe88a3",
+          "fontPt": []
+        },
+        {
+          "id": "267",
+          "name": "row-key0.3.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            414.6,
+            176.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "fe860a68bdf0cb7ae6c3c9362a8a18172cbf40ad1f5a8ab68c02cc29ccf49e73",
+          "fontPt": []
+        },
+        {
+          "id": "268",
+          "name": "row-key0.4.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            405.0,
+            178.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "3a238f6ff3b0855e840110d590458c7d4173a5b929c06c0e5c020d9fb3788e6a",
+          "fontPt": []
+        },
+        {
+          "id": "269",
+          "name": "row-key0.4.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            407.4,
+            178.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "04c7db56d6548aab0b4a8eb7d271b5ce0be5e4dcbfbf644d6be2742c90d6a321",
+          "fontPt": []
+        },
+        {
+          "id": "270",
+          "name": "row-key0.4.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            409.8,
+            178.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "c0d9b1f3b46e9590f1fbcca098a5691d72183ee36234138f228427dba742a656",
+          "fontPt": []
+        },
+        {
+          "id": "271",
+          "name": "row-key0.4.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            412.2,
+            178.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "ff9274909124401ee1d4dd41a36613d9a7a757e94c50b63964486119c7fc1ecd",
+          "fontPt": []
+        },
+        {
+          "id": "272",
+          "name": "row-key0.4.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            414.6,
+            178.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "56fa70b8a4a4bef1241638e837dc05b9f723677baaa3240429fe94a330a88212",
+          "fontPt": []
+        },
+        {
+          "id": "273",
+          "name": "column-guide0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            464.0,
+            134.0,
+            0.01,
+            26.0
+          ],
+          "fingerprint": "0a599027769f85b60965f0b6d4fea61a812bbe4631c2ee366e02931f963702c8",
+          "fontPt": []
+        },
+        {
+          "id": "681",
+          "name": "col-key1",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            494.0,
+            105.0,
+            10.65,
+            10.65
+          ],
+          "fingerprint": "2bfdf54782a089db8c289ca8e4fa4279936152c901ca253e3f12e7583e9db238",
+          "fontPt": []
+        },
+        {
+          "id": "275",
+          "name": "col-key1.0.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            494.0,
+            105.0,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "d530d64578118cb144779cd1894236f1eacdb477329aa5296aef27a2958b58c9",
+          "fontPt": []
+        },
+        {
+          "id": "276",
+          "name": "col-key1.0.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            496.2,
+            105.0,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "1c9340b3c481508a7eb63292e825f885f8537c5a3c51ae3308cc2712e4c93c1b",
+          "fontPt": []
+        },
+        {
+          "id": "277",
+          "name": "col-key1.0.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            498.4,
+            105.0,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "6fd8d759102842787c1d3996249821233119b982620f3e85d2aeb479bccfb1d5",
+          "fontPt": []
+        },
+        {
+          "id": "278",
+          "name": "col-key1.0.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            500.6,
+            105.0,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "1bdffeaeae0379e8eee4fd3af3ba0ccfea5b7ea30c9479fd233ae72f501babd9",
+          "fontPt": []
+        },
+        {
+          "id": "279",
+          "name": "col-key1.0.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            502.8,
+            105.0,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "f3d1a515b4a4784ff78316e79c6f3856b34b53dc63860c70dc79faac82cd3488",
+          "fontPt": []
+        },
+        {
+          "id": "280",
+          "name": "col-key1.1.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            494.0,
+            107.2,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "01d49fa1036d7e2d026428b2a3191b8dda951db2192654a375ebabc3510efb2c",
+          "fontPt": []
+        },
+        {
+          "id": "281",
+          "name": "col-key1.1.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            496.2,
+            107.2,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "01cf92c303e930a2cfe1953a3a6b498c724de5715abd063c8ef40e6c01b3046e",
+          "fontPt": []
+        },
+        {
+          "id": "282",
+          "name": "col-key1.1.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            498.4,
+            107.2,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "b308ca7b73306c71fe9cbb40284ff3cf48fc29b164c07480b09b737de797172b",
+          "fontPt": []
+        },
+        {
+          "id": "283",
+          "name": "col-key1.1.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            500.6,
+            107.2,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "2fa212063b0eb7dbc23cc6ed36df2ef38563c4e6c750a88ba688ec38c2d3cdc5",
+          "fontPt": []
+        },
+        {
+          "id": "284",
+          "name": "col-key1.1.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            502.8,
+            107.2,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "d68429adbd95dde868fc74e1900e59b5aad8aa78c38d2608c9a33ff55df5f058",
+          "fontPt": []
+        },
+        {
+          "id": "285",
+          "name": "col-key1.2.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            494.0,
+            109.4,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "156338ee6a2729d271450e3659e56b01e388a66159f0624c3809cef4dd85c852",
+          "fontPt": []
+        },
+        {
+          "id": "286",
+          "name": "col-key1.2.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            496.2,
+            109.4,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "e27605aee3852c3003aad57c746b8dd6a62d83014c511114985b3126bb6b6d0f",
+          "fontPt": []
+        },
+        {
+          "id": "287",
+          "name": "col-key1.2.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            498.4,
+            109.4,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "2c5f95e8ea781f95d61799ec3cb46d9febf9cff4918570e46d9d718c4f6db6cb",
+          "fontPt": []
+        },
+        {
+          "id": "288",
+          "name": "col-key1.2.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            500.6,
+            109.4,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "b2d8f458592c1b79c1dd77ef6620da745d17b8c102b6146c5fac599aa7a61cf3",
+          "fontPt": []
+        },
+        {
+          "id": "289",
+          "name": "col-key1.2.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            502.8,
+            109.4,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "abc0d34dbf0e863d8333e44e1bc6c88e87cd3e2fb95f2dd8d955f3efbbcdf0ce",
+          "fontPt": []
+        },
+        {
+          "id": "290",
+          "name": "col-key1.3.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            494.0,
+            111.6,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "43ef2698d9246e757bd4677ff0ecc53e3b29b721ad8cf83112f6a62a47f863c7",
+          "fontPt": []
+        },
+        {
+          "id": "291",
+          "name": "col-key1.3.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            496.2,
+            111.6,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "3dc8529e4d93d3bd900442f71abab0a17f78652f17bd6c3b12f178dde069ff75",
+          "fontPt": []
+        },
+        {
+          "id": "292",
+          "name": "col-key1.3.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            498.4,
+            111.6,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "c64a349c5d2f6884ff4107a59c0a7669ea40b2a92387ffe638aa4225fb74aac0",
+          "fontPt": []
+        },
+        {
+          "id": "293",
+          "name": "col-key1.3.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            500.6,
+            111.6,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "69eda52b711d2fb540d62b01e5da533052ab7b21a4f025583b81dbaeaebd233d",
+          "fontPt": []
+        },
+        {
+          "id": "294",
+          "name": "col-key1.3.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            502.8,
+            111.6,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "22cb053127a20588b3ed01a3b17ad94270caa1b26815a1f7e820c026df95e11a",
+          "fontPt": []
+        },
+        {
+          "id": "295",
+          "name": "col-key1.4.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            494.0,
+            113.8,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "13542f307874b964a288aaf3bf46f02442caf8109f7cca3feab3d49cfc3bf9b6",
+          "fontPt": []
+        },
+        {
+          "id": "296",
+          "name": "col-key1.4.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            496.2,
+            113.8,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "e98b0cd17636e14f31b4c99c1b8912d2a3416813fe7d5d35614ffcd65042a478",
+          "fontPt": []
+        },
+        {
+          "id": "297",
+          "name": "col-key1.4.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            498.4,
+            113.8,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "b7e39678e7c0c2c190e94ea27488b3411c8c5331b53d9372cf6144f5e67d9720",
+          "fontPt": []
+        },
+        {
+          "id": "298",
+          "name": "col-key1.4.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            500.6,
+            113.8,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "cfab81d4b41b9a11722ebc4bba46d1efdbc464ba2bda1722ea5c2697bcf1620b",
+          "fontPt": []
+        },
+        {
+          "id": "299",
+          "name": "col-key1.4.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            502.8,
+            113.8,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "73653a89615049197181ede513113221f3413b8ce0ae92cda42f1d6c5b162eb3",
+          "fontPt": []
+        },
+        {
+          "id": "682",
+          "name": "row-key1",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            405.0,
+            217.0,
+            11.65,
+            11.65
+          ],
+          "fingerprint": "b66eee666ad7133dcddde381fdcfd026d177a4e1813f00876a432571483f2534",
+          "fontPt": []
+        },
+        {
+          "id": "301",
+          "name": "row-key1.0.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            405.0,
+            217.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "03d9af8ff90d60fe8860402b4117026c06d67b573be5e1ec9d6f44305cc336e6",
+          "fontPt": []
+        },
+        {
+          "id": "302",
+          "name": "row-key1.0.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            407.4,
+            217.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "0feec5a224b0cac6e7af39a2b2cc5b829a022316d0245f78ece68b55a220a575",
+          "fontPt": []
+        },
+        {
+          "id": "303",
+          "name": "row-key1.0.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            409.8,
+            217.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "10b82e5b106aaa49725d8fcf5484d630c3b55bb62d000689fc5d0cff863a624d",
+          "fontPt": []
+        },
+        {
+          "id": "304",
+          "name": "row-key1.0.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            412.2,
+            217.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "693e756836bc9d232c202a40e5db5cdbc09fd37d5f964baf9f0149e731c16256",
+          "fontPt": []
+        },
+        {
+          "id": "305",
+          "name": "row-key1.0.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            414.6,
+            217.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "10e42c78b8bd234727f49f3e3250149dd8dcab146a66a5789f7c58d8e9a4cf15",
+          "fontPt": []
+        },
+        {
+          "id": "306",
+          "name": "row-key1.1.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            405.0,
+            219.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "22770479d907e4e3fdb14405bfe685026b315c91c103655edad43ecae2bd8274",
+          "fontPt": []
+        },
+        {
+          "id": "307",
+          "name": "row-key1.1.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            407.4,
+            219.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "00ab37325637f8fb8b7635f5aeb756fc2098c0986b61a2166128cead56306651",
+          "fontPt": []
+        },
+        {
+          "id": "308",
+          "name": "row-key1.1.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            409.8,
+            219.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "5d0ccecf3798466dbd173092ef28b102ad04f517b8e9300ea8030f9844f1917a",
+          "fontPt": []
+        },
+        {
+          "id": "309",
+          "name": "row-key1.1.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            412.2,
+            219.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "9919549e345586930ea9b01f93937cecb74939c23d18e6a454457dd3439c4587",
+          "fontPt": []
+        },
+        {
+          "id": "310",
+          "name": "row-key1.1.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            414.6,
+            219.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "b8e14765225768348f69d14230818a8695c883a8e5f3a9e605f48c217c040de5",
+          "fontPt": []
+        },
+        {
+          "id": "311",
+          "name": "row-key1.2.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            405.0,
+            221.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "7564157c0fb39d3fd16faea113ecb63f7a54f79564554f554efca6b07e23acae",
+          "fontPt": []
+        },
+        {
+          "id": "312",
+          "name": "row-key1.2.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            407.4,
+            221.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "3a710cbcf70391aefc3652562842b0eae4f06cdfd739492ec5d771ab7564be38",
+          "fontPt": []
+        },
+        {
+          "id": "313",
+          "name": "row-key1.2.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            409.8,
+            221.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "62791eb88224745f2f29f1de19eadcc0d788b9c11d551db5099cc0c09c175fbc",
+          "fontPt": []
+        },
+        {
+          "id": "314",
+          "name": "row-key1.2.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            412.2,
+            221.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "23a69ed90f186f739ad2e01376f2090e63bed672c90b571299c7a7272f268a38",
+          "fontPt": []
+        },
+        {
+          "id": "315",
+          "name": "row-key1.2.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            414.6,
+            221.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "b83d5cc576c2e1fa3b943bd16db9e78a5b6d2355dca547706dab422095033ede",
+          "fontPt": []
+        },
+        {
+          "id": "316",
+          "name": "row-key1.3.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            405.0,
+            224.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "c6b01f90710226b5545649a9eb4a25d1428875c6332ca1c212e7f7ef5cd08645",
+          "fontPt": []
+        },
+        {
+          "id": "317",
+          "name": "row-key1.3.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            407.4,
+            224.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "4984d3465c60328724c8684006d33781aef20beba35bbb3135fdf28be46deb0d",
+          "fontPt": []
+        },
+        {
+          "id": "318",
+          "name": "row-key1.3.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            409.8,
+            224.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "98f76868e78466cee1d6ada7e748bde64d4d6728f0641126b9123682bca1cb53",
+          "fontPt": []
+        },
+        {
+          "id": "319",
+          "name": "row-key1.3.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            412.2,
+            224.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "4658c4d973d24acd61ec72c3536f14cdff3dfe8c0ac7a785d6a6b45c5f771eb0",
+          "fontPt": []
+        },
+        {
+          "id": "320",
+          "name": "row-key1.3.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            414.6,
+            224.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "241a448dbfb720d34f6c76bacbb938d6b711e448f2ccdae3381b1e5988df1d77",
+          "fontPt": []
+        },
+        {
+          "id": "321",
+          "name": "row-key1.4.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            405.0,
+            226.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "eff44ada8ce834feccac2eaf83ddc820c26687cc968586ee597f89b0a338660a",
+          "fontPt": []
+        },
+        {
+          "id": "322",
+          "name": "row-key1.4.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            407.4,
+            226.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "9cfea630aee5eec98d29cb188ef59d3cae040833eb78f27647277dcb9bc0950f",
+          "fontPt": []
+        },
+        {
+          "id": "323",
+          "name": "row-key1.4.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            409.8,
+            226.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "d868242f730bfa9bc44e3de6c1ed0a408d04073bf9646b281d42c7a3def21c34",
+          "fontPt": []
+        },
+        {
+          "id": "324",
+          "name": "row-key1.4.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            412.2,
+            226.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "951415a384d13899b980f3c6708ff13790c11d960f7528ba7bb0e5aec23bed7b",
+          "fontPt": []
+        },
+        {
+          "id": "325",
+          "name": "row-key1.4.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            414.6,
+            226.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "8240a28d6a26e88ade01483668c15ec3e85b627476f56f190a135a5238beffee",
+          "fontPt": []
+        },
+        {
+          "id": "326",
+          "name": "column-guide1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            516.0,
+            134.0,
+            0.01,
+            26.0
+          ],
+          "fingerprint": "21a949503232f18860bd8addfa4034a557fa8a61dadb5de0ca59e8bf92310f12",
+          "fontPt": []
+        },
+        {
+          "id": "683",
+          "name": "col-key2",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            546.0,
+            105.0,
+            10.65,
+            10.65
+          ],
+          "fingerprint": "9fb4c0b7abe9a276748da503c98b10ac0e325e08f502fbb51b8961102737c6a6",
+          "fontPt": []
+        },
+        {
+          "id": "328",
+          "name": "col-key2.0.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            546.0,
+            105.0,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "0c21b7ab3e3a82ad9c1cd1a80d049ee467bd970966de8bef734759e1fbe50f39",
+          "fontPt": []
+        },
+        {
+          "id": "329",
+          "name": "col-key2.0.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            548.2,
+            105.0,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "fcc48dbe2281e86cedd04eed64e796804752208c6439cc6639b1dcc3adac149f",
+          "fontPt": []
+        },
+        {
+          "id": "330",
+          "name": "col-key2.0.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            550.4,
+            105.0,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "e934fe0bc75d618a0a0aa16375acf071e552d41b17a83aaf08e7d60f7ae2a78c",
+          "fontPt": []
+        },
+        {
+          "id": "331",
+          "name": "col-key2.0.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            552.6,
+            105.0,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "2e1a56324c396c4f175af5a183a06453031c93ab82b5dab2c09cd404854514e6",
+          "fontPt": []
+        },
+        {
+          "id": "332",
+          "name": "col-key2.0.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            554.8,
+            105.0,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "9fb5b5448472360cf5a17881a28685928e2e4fcf6a494e2111d4c0ebcd927ef9",
+          "fontPt": []
+        },
+        {
+          "id": "333",
+          "name": "col-key2.1.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            546.0,
+            107.2,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "4701bd059e5804fa8e53d7fc70e74ebf660fe3ddcaa60c129df8a418f144ce65",
+          "fontPt": []
+        },
+        {
+          "id": "334",
+          "name": "col-key2.1.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            548.2,
+            107.2,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "c31a7c3f4b7325de90c5c03390d9a1cadfd926dd1f4ff3586f8dce06fce00970",
+          "fontPt": []
+        },
+        {
+          "id": "335",
+          "name": "col-key2.1.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            550.4,
+            107.2,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "ccc695ebe86a300bc5f62cef17512febeac36114017b67020f7c4e2cd4cb92f7",
+          "fontPt": []
+        },
+        {
+          "id": "336",
+          "name": "col-key2.1.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            552.6,
+            107.2,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "9bc5d200a21b952472ed6a1f668e00c7be97faab61ef19ed68eec6ece13bd4bf",
+          "fontPt": []
+        },
+        {
+          "id": "337",
+          "name": "col-key2.1.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            554.8,
+            107.2,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "6fbb66dd2fc2452e5e9adf697c8e12ef77147a0c44fb956dbf9f7b5159fd93cc",
+          "fontPt": []
+        },
+        {
+          "id": "338",
+          "name": "col-key2.2.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            546.0,
+            109.4,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "d71ff59239f4ef7a141edb804bfa80ed93235240571ec2e335f33be744761c33",
+          "fontPt": []
+        },
+        {
+          "id": "339",
+          "name": "col-key2.2.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            548.2,
+            109.4,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "6199c6467ee3203e36898b7f66641488319b587f173cbc29f6c5a4aab99e0f82",
+          "fontPt": []
+        },
+        {
+          "id": "340",
+          "name": "col-key2.2.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            550.4,
+            109.4,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "54098a14d31e7f884a80b587f3a7e2d30eb8fb6202ce59c7a4e777bd207d596b",
+          "fontPt": []
+        },
+        {
+          "id": "341",
+          "name": "col-key2.2.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            552.6,
+            109.4,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "8de3569fcaf8622a25bdd314a0f90f7edad096e87e94ff6b4ac1fb833baa2424",
+          "fontPt": []
+        },
+        {
+          "id": "342",
+          "name": "col-key2.2.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            554.8,
+            109.4,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "db0f284d07e6095bb132f4b91b2391fa77298b8c4fe5c40c507b3a59830864cf",
+          "fontPt": []
+        },
+        {
+          "id": "343",
+          "name": "col-key2.3.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            546.0,
+            111.6,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "bd84f8ce68fffdd157cc8ea5d3981b7657fbf33eaf20e3fe507c5471f26e9b88",
+          "fontPt": []
+        },
+        {
+          "id": "344",
+          "name": "col-key2.3.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            548.2,
+            111.6,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "208fc0ea171570f3ed625d882ac9d2569f3fcd8efc930546e7f374279e2e0edb",
+          "fontPt": []
+        },
+        {
+          "id": "345",
+          "name": "col-key2.3.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            550.4,
+            111.6,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "08f1cb8bf56beb5028af000cd4bbc7c49379d4b5a67b8be6cea41bb2ec91ef01",
+          "fontPt": []
+        },
+        {
+          "id": "346",
+          "name": "col-key2.3.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            552.6,
+            111.6,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "50dddb867edfa218336eade8047f5ca381f37dc4e8aad0d8db7ec64dec154426",
+          "fontPt": []
+        },
+        {
+          "id": "347",
+          "name": "col-key2.3.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            554.8,
+            111.6,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "de8f84aecdbb6460d4f1b9cba9f9ede79c9b054c72fa5d3793d9ffd8a407ebc0",
+          "fontPt": []
+        },
+        {
+          "id": "348",
+          "name": "col-key2.4.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            546.0,
+            113.8,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "7e573cffc5e1077216e5f55711ac3dc8e4a2cf7daff0a0b54d92aea7ac004332",
+          "fontPt": []
+        },
+        {
+          "id": "349",
+          "name": "col-key2.4.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            548.2,
+            113.8,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "22e7273c6d514052c28f163bc1b09de55fa068551beff6fa30c291b1700d3d13",
+          "fontPt": []
+        },
+        {
+          "id": "350",
+          "name": "col-key2.4.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            550.4,
+            113.8,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "92643cbb38873e3e6ce3f9b076279fb497e8a7e01e556068bb6d8d4e5c37a902",
+          "fontPt": []
+        },
+        {
+          "id": "351",
+          "name": "col-key2.4.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            552.6,
+            113.8,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "caa2980ef2c95e1964aa7c416631ed1672f570a5acfc63e2bc992bbcb956bcda",
+          "fontPt": []
+        },
+        {
+          "id": "352",
+          "name": "col-key2.4.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            554.8,
+            113.8,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "e87ff298f229035cc911dc267c64a13652ea4d9bc239578527186d0de551fbda",
+          "fontPt": []
+        },
+        {
+          "id": "684",
+          "name": "row-key2",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            405.0,
+            265.0,
+            11.65,
+            11.65
+          ],
+          "fingerprint": "9524d3a40cb18d168686fc71376c2fd3cc9e8f674dbad848a0751a371af2312f",
+          "fontPt": []
+        },
+        {
+          "id": "354",
+          "name": "row-key2.0.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            405.0,
+            265.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "7219234e75d408d5373cb51d66506838816245bb1c0dfd922f9d33af2f43b168",
+          "fontPt": []
+        },
+        {
+          "id": "355",
+          "name": "row-key2.0.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            407.4,
+            265.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "eb5b0da91359e36a6810c80baea15a8f6512b76d422f90049fc69bb33a55027b",
+          "fontPt": []
+        },
+        {
+          "id": "356",
+          "name": "row-key2.0.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            409.8,
+            265.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "c5573178d4ba25bcddd6de82c6e34ab742c8bd32c251e74e952e3d969baf7802",
+          "fontPt": []
+        },
+        {
+          "id": "357",
+          "name": "row-key2.0.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            412.2,
+            265.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "792c693ebeb77650cbd1242c789a98194f26ee900f758bb7a631e461ec420e40",
+          "fontPt": []
+        },
+        {
+          "id": "358",
+          "name": "row-key2.0.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            414.6,
+            265.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "a916854eaa495193009a8bbe18c646ca09e494b905e89d1d9cd6a0f67f3120f8",
+          "fontPt": []
+        },
+        {
+          "id": "359",
+          "name": "row-key2.1.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            405.0,
+            267.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "b1497cf4299d80fd80f99d2bc6cc8910425a71c57ce201dcff9e4dcd6bbc0a07",
+          "fontPt": []
+        },
+        {
+          "id": "360",
+          "name": "row-key2.1.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            407.4,
+            267.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "22553ed496f159f8125def45de0dccddbb3f5936315099940ba3f7546f1a458e",
+          "fontPt": []
+        },
+        {
+          "id": "361",
+          "name": "row-key2.1.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            409.8,
+            267.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "7a6073708afc4b150496aab043e4773693106a3cb8555ed106291d29026b0b75",
+          "fontPt": []
+        },
+        {
+          "id": "362",
+          "name": "row-key2.1.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            412.2,
+            267.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "b6c5041cd3d9be8b8a4eecc6e456d8c56ff1047e378d46d1346432c473129f7d",
+          "fontPt": []
+        },
+        {
+          "id": "363",
+          "name": "row-key2.1.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            414.6,
+            267.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "27487120ff21d371f7cd995e80be863ec4ee2b45a6c572e370e0254187f0829a",
+          "fontPt": []
+        },
+        {
+          "id": "364",
+          "name": "row-key2.2.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            405.0,
+            269.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "c59a17a0eb06c0dcd306cf6503c42c0592a3f8e13ab38d75baa56541d6bb6a82",
+          "fontPt": []
+        },
+        {
+          "id": "365",
+          "name": "row-key2.2.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            407.4,
+            269.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "d25398fb74cbcf8ac510f434d50887623fc1d642dc5198bdbc4f4f1ffae529cc",
+          "fontPt": []
+        },
+        {
+          "id": "366",
+          "name": "row-key2.2.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            409.8,
+            269.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "d6bb9ce1836ed25092a2e3d156abf67aed496820e41762b375effe105e2827a0",
+          "fontPt": []
+        },
+        {
+          "id": "367",
+          "name": "row-key2.2.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            412.2,
+            269.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "65b5fad725d3209a7ea4ecdae6c9e779b80936773bfe15af6408c0473d96d090",
+          "fontPt": []
+        },
+        {
+          "id": "368",
+          "name": "row-key2.2.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            414.6,
+            269.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "caaa2783a5518c41d61f12ee5d41b007c47e5b4e54022b97c52b8d25fd2bd57b",
+          "fontPt": []
+        },
+        {
+          "id": "369",
+          "name": "row-key2.3.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            405.0,
+            272.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "06d5b8ea6c0607eb9be18b3c578d5ab7bbd03623f9a21c2f3fd812838d734a39",
+          "fontPt": []
+        },
+        {
+          "id": "370",
+          "name": "row-key2.3.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            407.4,
+            272.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "8897ebffa5b96d65d59ecf080de490165b7340d72a0a3947105fd03a9766457b",
+          "fontPt": []
+        },
+        {
+          "id": "371",
+          "name": "row-key2.3.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            409.8,
+            272.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "27f44aea173fcfeee9c56d964d94ffd0ccb107e37db3246b536f36e72ca2c4c7",
+          "fontPt": []
+        },
+        {
+          "id": "372",
+          "name": "row-key2.3.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            412.2,
+            272.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "16f1c63454748e7559f5d712492acb56ac0dfa17d3541bbbecc8af87323bcc1b",
+          "fontPt": []
+        },
+        {
+          "id": "373",
+          "name": "row-key2.3.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            414.6,
+            272.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "7ee06a8ca4414857a8e70f35b26a2e7b2506acc509b75938100d1cb262318c73",
+          "fontPt": []
+        },
+        {
+          "id": "374",
+          "name": "row-key2.4.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            405.0,
+            274.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "77d052ed8620b0199751b1751b0ef987665a43ab29b7fdecf011b073c5bad84e",
+          "fontPt": []
+        },
+        {
+          "id": "375",
+          "name": "row-key2.4.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            407.4,
+            274.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "ab8e291428b70f6de09fe5756ca4457702ce3ec42be8ae3a4dee66fdc1d2c28f",
+          "fontPt": []
+        },
+        {
+          "id": "376",
+          "name": "row-key2.4.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            409.8,
+            274.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "26c962ed2a9b64ad03360a4da1b0336b2925698deb84cbe35c87347ab335d642",
+          "fontPt": []
+        },
+        {
+          "id": "377",
+          "name": "row-key2.4.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            412.2,
+            274.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "1627bc566b6ef49cfbbe27bc3cd934d2b28e9f9b90097320d932f752c51b40a9",
+          "fontPt": []
+        },
+        {
+          "id": "378",
+          "name": "row-key2.4.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            414.6,
+            274.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "200287c7165dca3a18c5571c82fd26ddb909b04e3890b2472e3f28fceeb203b6",
+          "fontPt": []
+        },
+        {
+          "id": "379",
+          "name": "column-guide2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            568.0,
+            134.0,
+            0.01,
+            26.0
+          ],
+          "fingerprint": "041290bd12ad016303a44b9f86a0c94e5c6a2d0457cb937f07098706bab91b3b",
+          "fontPt": []
+        },
+        {
+          "id": "685",
+          "name": "col-key3",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            598.0,
+            105.0,
+            10.65,
+            10.65
+          ],
+          "fingerprint": "f74cd0560dede5c9936611cff0877818b0ab83b72e2497b323a219bd4f09c1c5",
+          "fontPt": []
+        },
+        {
+          "id": "381",
+          "name": "col-key3.0.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            598.0,
+            105.0,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "6a2259755bd6e21df9b7c34773071ef2819f17be93db308c57a41d6737949dc7",
+          "fontPt": []
+        },
+        {
+          "id": "382",
+          "name": "col-key3.0.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            600.2,
+            105.0,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "30c0f50a238b509b05aef611ed2b08c1dade60509682bc1e054e0d55163b0d33",
+          "fontPt": []
+        },
+        {
+          "id": "383",
+          "name": "col-key3.0.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            602.4,
+            105.0,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "7a3bdb55205d8fa007e6acd8025fd6b9997a099e2923bd09b1d3a488fd876c1e",
+          "fontPt": []
+        },
+        {
+          "id": "384",
+          "name": "col-key3.0.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            604.6,
+            105.0,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "a02cb36d0fe2e6bfc4b0ccf25f543711fca8d748786253643d93bfd072739606",
+          "fontPt": []
+        },
+        {
+          "id": "385",
+          "name": "col-key3.0.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            606.8,
+            105.0,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "728dd760da648219086a432e7473cf8ccbee1bf5c0efa25d71efb2180cdb65f1",
+          "fontPt": []
+        },
+        {
+          "id": "386",
+          "name": "col-key3.1.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            598.0,
+            107.2,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "0e72f71e5b396501df273f719b6d7cbd0d5d02a83aafbe67096e3cc602a4c76d",
+          "fontPt": []
+        },
+        {
+          "id": "387",
+          "name": "col-key3.1.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            600.2,
+            107.2,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "1ef6f1369712a39832dfb14b7e1c77f240c0fb7de5cf451b3ea2debcbd661e0f",
+          "fontPt": []
+        },
+        {
+          "id": "388",
+          "name": "col-key3.1.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            602.4,
+            107.2,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "16cfe431bb3449216ed30d370c7eb1e2a99cfaeb6b0147636bd592debc3f4cad",
+          "fontPt": []
+        },
+        {
+          "id": "389",
+          "name": "col-key3.1.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            604.6,
+            107.2,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "2cbbf1449dfe6cebc6a0c4754e0fb7a3762e2e43693b8a5f1089252cc8603592",
+          "fontPt": []
+        },
+        {
+          "id": "390",
+          "name": "col-key3.1.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            606.8,
+            107.2,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "d4b8a5701de7c2cdcf9d1377dc0fa6513b3fbc62394205ee2f79f4605fc0109a",
+          "fontPt": []
+        },
+        {
+          "id": "391",
+          "name": "col-key3.2.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            598.0,
+            109.4,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "c46d293b65038576b11da5b624ff87c07d8bf5a3e55bfecc7153c6cccddd8203",
+          "fontPt": []
+        },
+        {
+          "id": "392",
+          "name": "col-key3.2.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            600.2,
+            109.4,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "ff6351729712ca22a1afbe87dd5f0a1b4da21c6162530c9494a319374105ab0a",
+          "fontPt": []
+        },
+        {
+          "id": "393",
+          "name": "col-key3.2.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            602.4,
+            109.4,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "3684b9933e8fc2d2af70a782f008f1d739a332ca0b3accc613ecacdc8f312d70",
+          "fontPt": []
+        },
+        {
+          "id": "394",
+          "name": "col-key3.2.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            604.6,
+            109.4,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "76197332e60ae2c90ccd4b4fa4f3d3c604d0b4ea3fa7280fd24e93299d326783",
+          "fontPt": []
+        },
+        {
+          "id": "395",
+          "name": "col-key3.2.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            606.8,
+            109.4,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "7d831a29ac06145f04b41482757411aca71f6ae20bb99a1c976c5f5ce3b1f13f",
+          "fontPt": []
+        },
+        {
+          "id": "396",
+          "name": "col-key3.3.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            598.0,
+            111.6,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "2e870acdc142dbb7792bb746fe84ad26e7a9b0aa5848743b899cf5a3ccaf2c66",
+          "fontPt": []
+        },
+        {
+          "id": "397",
+          "name": "col-key3.3.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            600.2,
+            111.6,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "94f8d7d0efc93fbeed898a1fd8aec0c71eb3dcdd70f4182953a79a486330ef92",
+          "fontPt": []
+        },
+        {
+          "id": "398",
+          "name": "col-key3.3.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            602.4,
+            111.6,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "38e87448ab74c9366a21f985b1039a24e02dc5be50db63fc32e3633b9897b320",
+          "fontPt": []
+        },
+        {
+          "id": "399",
+          "name": "col-key3.3.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            604.6,
+            111.6,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "e88be2084a9ca8ea8cb8fdedf28e7adcd4a1648b7b7a1169e30f2980b2c2f6dd",
+          "fontPt": []
+        },
+        {
+          "id": "400",
+          "name": "col-key3.3.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            606.8,
+            111.6,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "e5d1abf338761b443e3fdc8ed43760eda8e003cf8c31e0aa30d5b862c34e9c27",
+          "fontPt": []
+        },
+        {
+          "id": "401",
+          "name": "col-key3.4.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            598.0,
+            113.8,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "a5d7ee2ae0c0fee180efc043920b7b5c0fc1c51600993ca9bf99bce4a06f8a34",
+          "fontPt": []
+        },
+        {
+          "id": "402",
+          "name": "col-key3.4.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            600.2,
+            113.8,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "cb311ba714af575cb8764b9944ba5d44c99dda41458af43045df4f64c06d3fd2",
+          "fontPt": []
+        },
+        {
+          "id": "403",
+          "name": "col-key3.4.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            602.4,
+            113.8,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "4d8446c62ddbfd522095885c59f1ff4a4c0d829ed3d9f5a4c9269fc130fef8f2",
+          "fontPt": []
+        },
+        {
+          "id": "404",
+          "name": "col-key3.4.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            604.6,
+            113.8,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "c8757d07ea961c3570704fc1ad0a793041048491b998037ff3dc542d245c87d7",
+          "fontPt": []
+        },
+        {
+          "id": "405",
+          "name": "col-key3.4.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            606.8,
+            113.8,
+            1.85,
+            1.85
+          ],
+          "fingerprint": "974a9e24d4118ae3098544597da5410d24bf3611877fdc73d7acaf371f55cd82",
+          "fontPt": []
+        },
+        {
+          "id": "686",
+          "name": "row-key3",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            405.0,
+            313.0,
+            11.65,
+            11.65
+          ],
+          "fingerprint": "1f6e2fdda7d0c71b18fb14a31b45ee211833ad35023b77971ad629eb89a8b778",
+          "fontPt": []
+        },
+        {
+          "id": "407",
+          "name": "row-key3.0.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            405.0,
+            313.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "60a189497db8ef8893871aa84c35324e3b8654901ddf87a338e2d08ed67ee3f2",
+          "fontPt": []
+        },
+        {
+          "id": "408",
+          "name": "row-key3.0.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            407.4,
+            313.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "8445ebf1ef691bd6e65a804e2aa46017a4f6b39211ac87af0bb32a0126d87f0a",
+          "fontPt": []
+        },
+        {
+          "id": "409",
+          "name": "row-key3.0.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            409.8,
+            313.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "01b68872c1da3eb42f46948c3e33a8fa74699fe1503648f9e9335e74d448b210",
+          "fontPt": []
+        },
+        {
+          "id": "410",
+          "name": "row-key3.0.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            412.2,
+            313.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "84a420a5c2283066d2d4d5d3af16fa0916101a26a68012bf7e23fcfa75ab4697",
+          "fontPt": []
+        },
+        {
+          "id": "411",
+          "name": "row-key3.0.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            414.6,
+            313.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "28075ba013ef3469e6d6a791913a90a096df7fd18cbf6eccab0e28da3eaac985",
+          "fontPt": []
+        },
+        {
+          "id": "412",
+          "name": "row-key3.1.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            405.0,
+            315.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "6f7fae89e5ac9f1ca9517052fec558aeb8bc34cd1171b3ab06704bb7ad3f4e3f",
+          "fontPt": []
+        },
+        {
+          "id": "413",
+          "name": "row-key3.1.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            407.4,
+            315.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "5490dd5bf8929aac5f1cde89cc4b813a39f639a0082b8d89fb0401c092289f5f",
+          "fontPt": []
+        },
+        {
+          "id": "414",
+          "name": "row-key3.1.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            409.8,
+            315.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "f227ebf396cf84f1b4d409201c22f22beea74e1956b4d1e9c07ffd7d00893ebc",
+          "fontPt": []
+        },
+        {
+          "id": "415",
+          "name": "row-key3.1.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            412.2,
+            315.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "e868ec1b68dd5780d3a3d11c948d3c8fce2ce873759870f0e326c184056e2483",
+          "fontPt": []
+        },
+        {
+          "id": "416",
+          "name": "row-key3.1.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            414.6,
+            315.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "58a4ea77e52f719f05ef6808e378dd0a77b9dd96409525051c62853d9e895135",
+          "fontPt": []
+        },
+        {
+          "id": "417",
+          "name": "row-key3.2.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            405.0,
+            317.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "88241022c3e08b06ee1b3c53f49eddc7783cfb3134739b6b31a52e775fd4db12",
+          "fontPt": []
+        },
+        {
+          "id": "418",
+          "name": "row-key3.2.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            407.4,
+            317.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "6c59f990a89ae3157c62e46e899ef389d1339e4a3825865630bf10e7cf092f24",
+          "fontPt": []
+        },
+        {
+          "id": "419",
+          "name": "row-key3.2.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            409.8,
+            317.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "785f62fa97bd05519e7bc6f261ff1e1ca99cae9098a861ee36c3ed1315fa5dba",
+          "fontPt": []
+        },
+        {
+          "id": "420",
+          "name": "row-key3.2.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            412.2,
+            317.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "d35c2574d28469727180b928d9b67b5ea8b82611f2086a7fa01c12ed93541ae7",
+          "fontPt": []
+        },
+        {
+          "id": "421",
+          "name": "row-key3.2.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            414.6,
+            317.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "8f448f9c347e9b51dae372a496b8d49f5c35c5e82390248542ba62269e98dc79",
+          "fontPt": []
+        },
+        {
+          "id": "422",
+          "name": "row-key3.3.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            405.0,
+            320.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "458e928df49b9769bf41b6db72f1fc04fe7259b2ed1eb22fbcfbc27adc090926",
+          "fontPt": []
+        },
+        {
+          "id": "423",
+          "name": "row-key3.3.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            407.4,
+            320.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "13850c1535dcb24366ef4f8d7f115eabac0de9ef35c851d84f06e19791566151",
+          "fontPt": []
+        },
+        {
+          "id": "424",
+          "name": "row-key3.3.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            409.8,
+            320.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "05960d1d29698e69b522e8bfca193d7efbaa40701071487bc5d3698abf643526",
+          "fontPt": []
+        },
+        {
+          "id": "425",
+          "name": "row-key3.3.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            412.2,
+            320.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "d79e93e26633f85d95c05a63f005a5fe01ae2a764f72ac4117e3d3cb76777012",
+          "fontPt": []
+        },
+        {
+          "id": "426",
+          "name": "row-key3.3.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            414.6,
+            320.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "e4cf2224db522b3bfc4146e4ae82962f2590030710467b88eacda1d7ded3668a",
+          "fontPt": []
+        },
+        {
+          "id": "427",
+          "name": "row-key3.4.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            405.0,
+            322.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "cdf632617a3d91224d52b78042bdbe9e1377e01f60b9ba3ab6ac01fd389a8a87",
+          "fontPt": []
+        },
+        {
+          "id": "428",
+          "name": "row-key3.4.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            407.4,
+            322.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "f584746477995ae2ded9ab941d653112af318f5c894086e9521bbf2de1c6fd16",
+          "fontPt": []
+        },
+        {
+          "id": "429",
+          "name": "row-key3.4.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            409.8,
+            322.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "c8ec005e6b5958ed98cc66ee5305dcf92985be8733effc4949082ca1c478bf3f",
+          "fontPt": []
+        },
+        {
+          "id": "430",
+          "name": "row-key3.4.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            412.2,
+            322.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "3c63a1bf06040bc9272fad3e88069e60a80d1b8b9b529f7c4e445e2b4c8fcab4",
+          "fontPt": []
+        },
+        {
+          "id": "431",
+          "name": "row-key3.4.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            414.6,
+            322.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "03bb19cd5666f92209e9e092b267697973f8feefb49a612b5a2af078335f944a",
+          "fontPt": []
+        },
+        {
+          "id": "432",
+          "name": "column-guide3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            620.0,
+            134.0,
+            0.01,
+            26.0
+          ],
+          "fingerprint": "42aa85a7aef2bdae9f50a3447b8d07610b415908dad59b26c2c51e661832cfe5",
+          "fontPt": []
+        },
+        {
+          "id": "689",
+          "name": "scores",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            438.0,
+            164.0,
+            206.0,
+            190.0
+          ],
+          "fingerprint": "06a4adba61054929e3a7e76c53a4e9fd2ede87f7c27625869eead498c0eda727",
+          "fontPt": []
+        },
+        {
+          "id": "433",
+          "name": "scores.0.0",
+          "kind": "sp",
+          "text": "I\u2081\u00b7T\u2081",
+          "boundsPx": [
+            438.0,
+            164.0,
+            50.0,
+            46.0
+          ],
+          "fingerprint": "2807dfd10891f0558d368a70fed006db155778e0da50354225ac92da89c26c79",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "434",
+          "name": "scores.0.1",
+          "kind": "sp",
+          "text": "I\u2081\u00b7T\u2082",
+          "boundsPx": [
+            490.0,
+            164.0,
+            50.0,
+            46.0
+          ],
+          "fingerprint": "99c518e9d35362ae1110a1652360408a1218bc7be90672206c79785c68eed049",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "435",
+          "name": "scores.0.2",
+          "kind": "sp",
+          "text": "I\u2081\u00b7T\u2083",
+          "boundsPx": [
+            542.0,
+            164.0,
+            50.0,
+            46.0
+          ],
+          "fingerprint": "d56b85aeefa5450eedcd0b0d8797fc9f6265fccf6dad832eaa987239fa342de4",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "436",
+          "name": "scores.0.3",
+          "kind": "sp",
+          "text": "I\u2081\u00b7T\u2084",
+          "boundsPx": [
+            594.0,
+            164.0,
+            50.0,
+            46.0
+          ],
+          "fingerprint": "4be341821ff22a56b6a844296f63192566889f272cde83a5d8ada7e1e1b3f5cf",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "437",
+          "name": "scores.1.0",
+          "kind": "sp",
+          "text": "I\u2082\u00b7T\u2081",
+          "boundsPx": [
+            438.0,
+            212.0,
+            50.0,
+            46.0
+          ],
+          "fingerprint": "b0e14674baca57de7e36ea62bc6fcab422e72171adacc54d4a6cd11c6d4ef032",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "438",
+          "name": "scores.1.1",
+          "kind": "sp",
+          "text": "I\u2082\u00b7T\u2082",
+          "boundsPx": [
+            490.0,
+            212.0,
+            50.0,
+            46.0
+          ],
+          "fingerprint": "f1a2db67ac1ff567b17d427e9eafbb69ced248063dc100d1ef62969b779227aa",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "439",
+          "name": "scores.1.2",
+          "kind": "sp",
+          "text": "I\u2082\u00b7T\u2083",
+          "boundsPx": [
+            542.0,
+            212.0,
+            50.0,
+            46.0
+          ],
+          "fingerprint": "719b0f1f9a8191ba5b25eb28c3f08b20f94396cfc714c45720b2b26d5219732f",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "440",
+          "name": "scores.1.3",
+          "kind": "sp",
+          "text": "I\u2082\u00b7T\u2084",
+          "boundsPx": [
+            594.0,
+            212.0,
+            50.0,
+            46.0
+          ],
+          "fingerprint": "b703afdfb914d6be1b4f0637f4a2f752211d5081c5cc4027966d42101a292909",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "441",
+          "name": "scores.2.0",
+          "kind": "sp",
+          "text": "I\u2083\u00b7T\u2081",
+          "boundsPx": [
+            438.0,
+            260.0,
+            50.0,
+            46.0
+          ],
+          "fingerprint": "d9b9d6ebd7f3f2b1dac2e50e3d6fd52ae29e5a6d793b47450868a063176e04ea",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "442",
+          "name": "scores.2.1",
+          "kind": "sp",
+          "text": "I\u2083\u00b7T\u2082",
+          "boundsPx": [
+            490.0,
+            260.0,
+            50.0,
+            46.0
+          ],
+          "fingerprint": "d9ee157e7bed892d12181a03702e1e806ffcb8512ad46d7c7d899db1fec31449",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "443",
+          "name": "scores.2.2",
+          "kind": "sp",
+          "text": "I\u2083\u00b7T\u2083",
+          "boundsPx": [
+            542.0,
+            260.0,
+            50.0,
+            46.0
+          ],
+          "fingerprint": "d283aeb2e38bfc81320ed552d2c3a908649bfef91ee966851784f59107a4b823",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "444",
+          "name": "scores.2.3",
+          "kind": "sp",
+          "text": "I\u2083\u00b7T\u2084",
+          "boundsPx": [
+            594.0,
+            260.0,
+            50.0,
+            46.0
+          ],
+          "fingerprint": "1bcaf082047d5ce54d835b44878f6682d383969a11e17ed92f6c7d4ea5f0f7eb",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "445",
+          "name": "scores.3.0",
+          "kind": "sp",
+          "text": "I\u2084\u00b7T\u2081",
+          "boundsPx": [
+            438.0,
+            308.0,
+            50.0,
+            46.0
+          ],
+          "fingerprint": "f78540d61d1b900102fe258e96a67f73990b38fd4e62c86671698c50ea720a37",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "446",
+          "name": "scores.3.1",
+          "kind": "sp",
+          "text": "I\u2084\u00b7T\u2082",
+          "boundsPx": [
+            490.0,
+            308.0,
+            50.0,
+            46.0
+          ],
+          "fingerprint": "c323300dc9963cef231207bc2630e6a31c8f32d3e711f4e280f3156374622095",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "447",
+          "name": "scores.3.2",
+          "kind": "sp",
+          "text": "I\u2084\u00b7T\u2083",
+          "boundsPx": [
+            542.0,
+            308.0,
+            50.0,
+            46.0
+          ],
+          "fingerprint": "427a76cb76ea4241c5e8f0f0a06a9ea2a0d35768956b242a6ff7dfd7ce7bcef0",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "448",
+          "name": "scores.3.3",
+          "kind": "sp",
+          "text": "I\u2084\u00b7T\u2084",
+          "boundsPx": [
+            594.0,
+            308.0,
+            50.0,
+            46.0
+          ],
+          "fingerprint": "29a754a24b2acf4f09a3c20ffb572fcef3c38b748277c22c5bb257e66eebbea0",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "449",
+          "name": "matching-note",
+          "kind": "sp",
+          "text": "S\u1d62\u2c7c = I\u1d62 \u00b7 T\u2c7c",
+          "boundsPx": [
+            176.0,
+            325.0,
+            144.0,
+            24.0
+          ],
+          "fingerprint": "fa31001acde832c691f242fd89f1d37db298f9abfa03d92704160360d115ca5f",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "450",
+          "name": "disclosure",
+          "kind": "sp",
+          "text": "Illustrative item patterns. Outlined diagonal cells mark paired items, not measured similarity.",
+          "boundsPx": [
+            18.0,
+            375.0,
+            636.0,
+            18.0
+          ],
+          "fingerprint": "44a93f496182642c4074ff62b19d6fb10345a2bfd7ea8fa1bd6f0ee1c36aeebe",
+          "fontPt": [
+            7.88
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "name": "language",
+          "from": "text",
+          "to": "text-encoder",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "vision",
+          "from": "image",
+          "to": "image-encoder",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "text-axis-flow",
+          "from": "text-encoder",
+          "to": "text-axis",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "image-axis-flow",
+          "from": "image-encoder",
+          "to": "image-axis",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        }
+      ],
+      "counts": {
+        "sp": 446,
+        "cxnSp": 4,
+        "grpSp": 19,
+        "pic": 0,
+        "graphicFrame": 0
+      },
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "passed": true
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "name": "document-collection-picture",
+    "source": "assets/documents.png",
+    "sha256": "0a1bde14671b4a8879bb49a5ba7f2a4bab31a3c5a70c1bdc2a316fe3cb5a8996",
+    "independentPicture": true,
+    "fullDraftEmbedded": false
+  }
+]

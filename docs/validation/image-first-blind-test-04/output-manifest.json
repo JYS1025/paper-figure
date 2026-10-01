@@ -1,0 +1,34 @@
+{
+  "review-02.md": {
+    "sha256": "32fabb97d70a39b9f773c42d97db8bf91057f5eb5cde6febee33ac7cb21af152",
+    "bytes": 12740
+  },
+  "report.md": {
+    "sha256": "52357105c88ae521fbfb352cb4ebdbeb224ed635215f7d7f8bf66a251d296395",
+    "bytes": 7773
+  },
+  "review-01.md": {
+    "sha256": "637017ec29e99754e947d43b3a3cd46efa31d9747ae5ce301df52be241b1f8f6",
+    "bytes": 11830
+  },
+  "blind/evaluator-prompt.md": {
+    "sha256": "480f4c341aaf3ba4c18b8c39c38895d61043fa8e2ca6c381728c0d353869897c",
+    "bytes": 3503
+  },
+  "blind/pair-01.png": {
+    "sha256": "cb363a9a91f79f893de9110986e1ec8d8c64e6e2376dff0426b54a814c55f201",
+    "bytes": 337936
+  },
+  "blind/comparison.pdf": {
+    "sha256": "1c635a9a4ec6a1a4f920d52797aeb0622442523b379b5424af6ad85b94e0f636",
+    "bytes": 421413
+  },
+  "blind/B.png": {
+    "sha256": "727484a909b1729eea5ccc7ffe8dcaf568a638091a83b26cc9cf9ebe699e92b1",
+    "bytes": 310291
+  },
+  "blind/A.png": {
+    "sha256": "7cf300b1c83ec032e0675a4a17b25ae40f722b8861d863f1c941b1a20696c74f",
+    "bytes": 140928
+  }
+}

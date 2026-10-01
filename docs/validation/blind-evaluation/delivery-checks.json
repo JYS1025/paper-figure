@@ -1,0 +1,26 @@
+[
+  {
+    "pair": "01",
+    "pdf_pixels_match_judge_image": true,
+    "judge_image_unchanged": true,
+    "generated_pptx_unchanged": true
+  },
+  {
+    "pair": "02",
+    "pdf_pixels_match_judge_image": true,
+    "judge_image_unchanged": true,
+    "generated_pptx_unchanged": true
+  },
+  {
+    "pair": "03",
+    "pdf_pixels_match_judge_image": true,
+    "judge_image_unchanged": true,
+    "generated_pptx_unchanged": true
+  },
+  {
+    "pair": "04",
+    "pdf_pixels_match_judge_image": true,
+    "judge_image_unchanged": true,
+    "generated_pptx_unchanged": true
+  }
+]

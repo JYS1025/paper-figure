@@ -1,0 +1,1609 @@
+{
+  "file": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/arrow-study/06-tokens.pptx",
+  "sha256": "730225a6836c0bc13d8218b28d08530ecdfb8c3e2707dc8a2c3d8842ce1eaa30",
+  "sizePx": [
+    672.0,
+    400.0
+  ],
+  "slides": [
+    {
+      "part": "ppt/slides/slide1.xml",
+      "objects": [
+        {
+          "id": "100",
+          "name": "heading",
+          "kind": "sp",
+          "text": "Selective token aggregation",
+          "boundsPx": [
+            18.0,
+            9.0,
+            638.0,
+            23.0
+          ],
+          "fingerprint": "73c3db9e6ce38e1f29dc301008268843debeaedf8650a91c60b187b726cf3ede",
+          "fontPt": [
+            11.25
+          ]
+        },
+        {
+          "id": "2",
+          "name": "selection-heading",
+          "kind": "sp",
+          "text": "(a) Preserve token identity through selection",
+          "boundsPx": [
+            18.0,
+            40.0,
+            636.0,
+            24.0
+          ],
+          "fingerprint": "5bafb967344ecdd97093081c353e0bc72cb6defe23e8ef8d5b93540eda58d08b",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "196",
+          "name": "tokens",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            25.0,
+            91.0,
+            181.0,
+            53.0
+          ],
+          "fingerprint": "d6e3c010a72841be0e633db9d5f84813afa4fe3205c930c0af551fedda8d63d3",
+          "fontPt": []
+        },
+        {
+          "id": "3",
+          "name": "tokens.0",
+          "kind": "sp",
+          "text": "1",
+          "boundsPx": [
+            25.0,
+            91.0,
+            26.0,
+            53.0
+          ],
+          "fingerprint": "08426f1aae529bad9ad0044c17fe4092b04308b324559225d010dffe54ddd53c",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "4",
+          "name": "tokens.0.v0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            29.0,
+            99.0,
+            4.0,
+            11.0
+          ],
+          "fingerprint": "293ef563eb873b709a7f0a59a8c210a161cf5de06017f22e4dd78d0a2f3351a4",
+          "fontPt": []
+        },
+        {
+          "id": "5",
+          "name": "tokens.0.v1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            35.0,
+            99.0,
+            4.0,
+            18.0
+          ],
+          "fingerprint": "908a99dd96f0984f0ef73bfc0e485817bf1248379e22fc3d647fd98a019ef483",
+          "fontPt": []
+        },
+        {
+          "id": "6",
+          "name": "tokens.0.v2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            41.0,
+            99.0,
+            4.0,
+            13.0
+          ],
+          "fingerprint": "ea49f1f41dd827e3fbc92bd3fe2a2d2ffcf53794531fb3a3636a3f5e7b082530",
+          "fontPt": []
+        },
+        {
+          "id": "7",
+          "name": "tokens.1",
+          "kind": "sp",
+          "text": "2",
+          "boundsPx": [
+            56.0,
+            91.0,
+            26.0,
+            53.0
+          ],
+          "fingerprint": "1715bc5e172d7b922ff2e190509bcee337c144ac5e88c4ec69c1bfd918e16513",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "8",
+          "name": "tokens.1.v0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            60.0,
+            99.0,
+            4.0,
+            18.0
+          ],
+          "fingerprint": "05b45a5d9f750f0490fd361aa99de4e2d5ac9bebb75c2ae4bf078a8b10a4ccb0",
+          "fontPt": []
+        },
+        {
+          "id": "9",
+          "name": "tokens.1.v1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            66.0,
+            99.0,
+            4.0,
+            13.0
+          ],
+          "fingerprint": "85a9e22ae748e44585d07b65f5ee5367b7f4eaa26fa576c43b00924beff5ab5b",
+          "fontPt": []
+        },
+        {
+          "id": "10",
+          "name": "tokens.1.v2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            72.0,
+            99.0,
+            4.0,
+            11.0
+          ],
+          "fingerprint": "7ff1893f190d5cc72f8e1937cf0c8ba26b0fbf4cbd6b5a44c909dd029356dded",
+          "fontPt": []
+        },
+        {
+          "id": "11",
+          "name": "tokens.2",
+          "kind": "sp",
+          "text": "3",
+          "boundsPx": [
+            87.0,
+            91.0,
+            26.0,
+            53.0
+          ],
+          "fingerprint": "48e2f9f43bce07f22f2a8c4c080a247f98b8dc9be97c45accb5c1333bca7d7c5",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "12",
+          "name": "tokens.2.v0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            91.0,
+            99.0,
+            4.0,
+            13.0
+          ],
+          "fingerprint": "a9f7416c40926e83ca1cd051a9ede391b59cc7ea15924abaff4f0d1fa78d2b9d",
+          "fontPt": []
+        },
+        {
+          "id": "13",
+          "name": "tokens.2.v1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            97.0,
+            99.0,
+            4.0,
+            11.0
+          ],
+          "fingerprint": "7bebadaf4f6246ad0fda0c20e4549ac79ea559d55ddc71d25efba4e4b11380f1",
+          "fontPt": []
+        },
+        {
+          "id": "14",
+          "name": "tokens.2.v2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            103.0,
+            99.0,
+            4.0,
+            18.0
+          ],
+          "fingerprint": "716ce261d444ed0d8937330196e552f2637f6f20852a1b43e6c1531489c9b5bf",
+          "fontPt": []
+        },
+        {
+          "id": "15",
+          "name": "tokens.3",
+          "kind": "sp",
+          "text": "4",
+          "boundsPx": [
+            118.0,
+            91.0,
+            26.0,
+            53.0
+          ],
+          "fingerprint": "b41ae6026e4bda7754e46bb9f26d882120db6d04ec21b1239936a21c12812986",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "16",
+          "name": "tokens.3.v0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            122.0,
+            99.0,
+            4.0,
+            11.0
+          ],
+          "fingerprint": "0922be8bb6585d89fa66c0b5f3bd367d6c93d308354eb6817a80181277ec71ea",
+          "fontPt": []
+        },
+        {
+          "id": "17",
+          "name": "tokens.3.v1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            128.0,
+            99.0,
+            4.0,
+            18.0
+          ],
+          "fingerprint": "34b5896abf8dfaa5686e9d38dcdf41adacceb4be178079251a6be52d799b88f9",
+          "fontPt": []
+        },
+        {
+          "id": "18",
+          "name": "tokens.3.v2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            134.0,
+            99.0,
+            4.0,
+            13.0
+          ],
+          "fingerprint": "35a54b4a68768c21702dbac1b170961657109234c9ba01defe7cb3850de6c4dd",
+          "fontPt": []
+        },
+        {
+          "id": "19",
+          "name": "tokens.4",
+          "kind": "sp",
+          "text": "5",
+          "boundsPx": [
+            149.0,
+            91.0,
+            26.0,
+            53.0
+          ],
+          "fingerprint": "df1dbb516347a1f886c4b2c00e58008a3900fc4dfe17771ed3675dfa99718776",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "20",
+          "name": "tokens.4.v0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            153.0,
+            99.0,
+            4.0,
+            18.0
+          ],
+          "fingerprint": "8a005aeefa8349791141effe96c3650444c9406416248c85bfb4a97034d5789d",
+          "fontPt": []
+        },
+        {
+          "id": "21",
+          "name": "tokens.4.v1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            159.0,
+            99.0,
+            4.0,
+            13.0
+          ],
+          "fingerprint": "c750e98e6dc61e119756b0692fb6ecd4d367c72ffb4d4e7407b45d366050cc59",
+          "fontPt": []
+        },
+        {
+          "id": "22",
+          "name": "tokens.4.v2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            165.0,
+            99.0,
+            4.0,
+            11.0
+          ],
+          "fingerprint": "17e4865b0d5b45c4f6fa8fc1d4c0e4c82688b9c9b179b153413de275f66555d0",
+          "fontPt": []
+        },
+        {
+          "id": "23",
+          "name": "tokens.5",
+          "kind": "sp",
+          "text": "6",
+          "boundsPx": [
+            180.0,
+            91.0,
+            26.0,
+            53.0
+          ],
+          "fingerprint": "de46166ebfa31b3a2c03537a5f291490df9ab2b86fb687b7279b4a8a24a3029a",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "24",
+          "name": "tokens.5.v0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            184.0,
+            99.0,
+            4.0,
+            13.0
+          ],
+          "fingerprint": "2d69bf5cb2dea57911a5ed8006d4fb70b587810bbd16e118ed527f475196e694",
+          "fontPt": []
+        },
+        {
+          "id": "25",
+          "name": "tokens.5.v1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            190.0,
+            99.0,
+            4.0,
+            11.0
+          ],
+          "fingerprint": "3a31a94593e4e1b2cba3aa09ea5016127015d126819700a0520b8ba63ba2e56c",
+          "fontPt": []
+        },
+        {
+          "id": "26",
+          "name": "tokens.5.v2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            196.0,
+            99.0,
+            4.0,
+            18.0
+          ],
+          "fingerprint": "9f52def4e1f8a37fbbdf5f08351ec092fe2d27a97704a6ec1d1db7fdfbf4be64",
+          "fontPt": []
+        },
+        {
+          "id": "27",
+          "name": "token-port",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            23.0,
+            91.0,
+            187.0,
+            53.0
+          ],
+          "fingerprint": "f83de71f5e926a5de4dbcae5238be34a37b81abb11600ab5f44f1a743c26db46",
+          "fontPt": []
+        },
+        {
+          "id": "28",
+          "name": "select",
+          "kind": "sp",
+          "text": "Select",
+          "boundsPx": [
+            262.0,
+            92.0,
+            107.0,
+            51.0
+          ],
+          "fingerprint": "404543625f5ccb0a9556b9e2e20127534411a8ea8391ff89449c4d0faf7f7067",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "128",
+          "name": "selection",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            210.0,
+            117.5001,
+            52.0,
+            0.0
+          ],
+          "fingerprint": "219203cd69188af181395330a69b74958e03f9ced06831b1fc75330fb9ca682f",
+          "fontPt": []
+        },
+        {
+          "id": "30",
+          "name": "mask-note",
+          "kind": "sp",
+          "text": "2 and 5 omitted",
+          "boundsPx": [
+            25.0,
+            151.0,
+            182.0,
+            24.0
+          ],
+          "fingerprint": "ec8dcadde08869c6e48713f6675c0c8ea2951144d3b4cab9eb7f387ecae3e248",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "197",
+          "name": "kept",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            424.0,
+            91.0,
+            202.0,
+            53.0
+          ],
+          "fingerprint": "02d1667a2d12178c54dd59619d533e77126f2fb889ff5ab9191537a64dc9a7c5",
+          "fontPt": []
+        },
+        {
+          "id": "31",
+          "name": "kept.0",
+          "kind": "sp",
+          "text": "1",
+          "boundsPx": [
+            424.0,
+            91.0,
+            43.0,
+            53.0
+          ],
+          "fingerprint": "294d12e2a74f389d2cdb7100d1f82df878974c5dd5c4e828ce8224f995ac25be",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "32",
+          "name": "kept.0.v0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            432.0,
+            99.0,
+            5.0,
+            11.0
+          ],
+          "fingerprint": "3959f1ce81db45f559a1def1996c91d1dcd9d79583812686f3f15525cb0b5905",
+          "fontPt": []
+        },
+        {
+          "id": "33",
+          "name": "kept.0.v1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            440.0,
+            99.0,
+            5.0,
+            18.0
+          ],
+          "fingerprint": "377bee5f24de9eda7371112e2a2525fa9ccc569b1ffbd632e975aa03db5008df",
+          "fontPt": []
+        },
+        {
+          "id": "34",
+          "name": "kept.0.v2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            448.0,
+            99.0,
+            5.0,
+            13.0
+          ],
+          "fingerprint": "52a8223d1174800064eb6670a7ece546ae6ddadb32fdefacc1d0de22adc88b90",
+          "fontPt": []
+        },
+        {
+          "id": "35",
+          "name": "kept.1",
+          "kind": "sp",
+          "text": "3",
+          "boundsPx": [
+            477.0,
+            91.0,
+            43.0,
+            53.0
+          ],
+          "fingerprint": "527682912ab57b313acd8104486ba61ab8fb80b8ed651eca7718f21eb739f9d7",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "36",
+          "name": "kept.1.v0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            485.0,
+            99.0,
+            5.0,
+            13.0
+          ],
+          "fingerprint": "b16512733f2694bc49ef567e6ca0fa99c02e480c8c1149c4211a1fb71c510c58",
+          "fontPt": []
+        },
+        {
+          "id": "37",
+          "name": "kept.1.v1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            493.0,
+            99.0,
+            5.0,
+            11.0
+          ],
+          "fingerprint": "85e36f5efe2dcfd41a31a112b73527403dfdf7d8cf5ed16204fef1eabe8a1030",
+          "fontPt": []
+        },
+        {
+          "id": "38",
+          "name": "kept.1.v2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            501.0,
+            99.0,
+            5.0,
+            18.0
+          ],
+          "fingerprint": "aa2b00f9cc074177aa80d4ee8a56800ac39318d79fbfc960995df84552d6b949",
+          "fontPt": []
+        },
+        {
+          "id": "39",
+          "name": "kept.2",
+          "kind": "sp",
+          "text": "4",
+          "boundsPx": [
+            530.0,
+            91.0,
+            43.0,
+            53.0
+          ],
+          "fingerprint": "8bac1f8eda6c16d369f3e3299d83ddc9b2c1689ed23ea55307b322305e415b7a",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "40",
+          "name": "kept.2.v0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            538.0,
+            99.0,
+            5.0,
+            11.0
+          ],
+          "fingerprint": "7294adfc55ad4303d71dd332c58b13b6fb6468858976125de282f11e07c2f164",
+          "fontPt": []
+        },
+        {
+          "id": "41",
+          "name": "kept.2.v1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            546.0,
+            99.0,
+            5.0,
+            18.0
+          ],
+          "fingerprint": "d66000638bb5e20ebf7c27df9c61453fa581c233f30b3992cb8add3a86146dd8",
+          "fontPt": []
+        },
+        {
+          "id": "42",
+          "name": "kept.2.v2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            554.0,
+            99.0,
+            5.0,
+            13.0
+          ],
+          "fingerprint": "a1abaf851a711e24436f507ca2c19410ddd83bc667a46bed4c8e8a31fdb899e3",
+          "fontPt": []
+        },
+        {
+          "id": "43",
+          "name": "kept.3",
+          "kind": "sp",
+          "text": "6",
+          "boundsPx": [
+            583.0,
+            91.0,
+            43.0,
+            53.0
+          ],
+          "fingerprint": "7a02d63d2d7d2607de816c06ed8bd40c35047aaf4c3b2d8d9b781b00ab009e17",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "44",
+          "name": "kept.3.v0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            591.0,
+            99.0,
+            5.0,
+            13.0
+          ],
+          "fingerprint": "3826fdbcca5129f3c89951e7dc624cda7a6ce00e5ea374bad8d9ab4e06441e3d",
+          "fontPt": []
+        },
+        {
+          "id": "45",
+          "name": "kept.3.v1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            599.0,
+            99.0,
+            5.0,
+            11.0
+          ],
+          "fingerprint": "22856ad6b5aaa4d1f526332f35cbfd196fa4d446593837af7b7ed143548556e9",
+          "fontPt": []
+        },
+        {
+          "id": "46",
+          "name": "kept.3.v2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            607.0,
+            99.0,
+            5.0,
+            18.0
+          ],
+          "fingerprint": "6e36770c8f30b352818267c916f69c7b6f08d4d2449883470a16b483fd70bdbb",
+          "fontPt": []
+        },
+        {
+          "id": "47",
+          "name": "kept-port",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            422.0,
+            91.0,
+            207.0,
+            53.0
+          ],
+          "fingerprint": "fa53bd49aca7b0ea1bb5294d79ece03145d460f462ebb91ec9f05857d3bedabf",
+          "fontPt": []
+        },
+        {
+          "id": "147",
+          "name": "retained",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            369.0,
+            117.5001,
+            53.0,
+            0.0
+          ],
+          "fingerprint": "447b0fed9a7b2993dbb9109bf7aa40c007aceefefdca11abe55c2ef9da979317",
+          "fontPt": []
+        },
+        {
+          "id": "49",
+          "name": "detail-divider",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            18.0,
+            188.0,
+            636.0,
+            0.01
+          ],
+          "fingerprint": "f33a38267de0ecf0de77e8917526f714985dff112a89351d83b2c899d0bca1d5",
+          "fontPt": []
+        },
+        {
+          "id": "50",
+          "name": "weighted-title",
+          "kind": "sp",
+          "text": "(b) Form a weighted summary",
+          "boundsPx": [
+            18.0,
+            204.0,
+            345.0,
+            23.0
+          ],
+          "fingerprint": "6fafe6bce1214bbb8d59cd57d323d8cdb0cb4750db375aa853f90d4714ac749f",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "202",
+          "name": "weights",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            48.0,
+            310.0,
+            289.0,
+            30.0
+          ],
+          "fingerprint": "3de31b1008ece44c084cb1a991db3b955997104c466430080b52af57e1792aad",
+          "fontPt": []
+        },
+        {
+          "id": "51",
+          "name": "weights.0.0",
+          "kind": "sp",
+          "text": ".5",
+          "boundsPx": [
+            48.0,
+            310.0,
+            46.0,
+            30.0
+          ],
+          "fingerprint": "28ff777c20fa3a2979614858e695223b77134d138b8f8236cb1b464138bae880",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "61",
+          "name": "weights.0.1",
+          "kind": "sp",
+          "text": ".2",
+          "boundsPx": [
+            129.0,
+            310.0,
+            46.0,
+            30.0
+          ],
+          "fingerprint": "8ce9aa60ecdcc0af3a047e0c193fe979994c7e62bef1e648d8f3f293e2bf30dd",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "71",
+          "name": "weights.0.2",
+          "kind": "sp",
+          "text": ".2",
+          "boundsPx": [
+            210.0,
+            310.0,
+            46.0,
+            30.0
+          ],
+          "fingerprint": "5305fcf1243c695b044cac35ef998eb23353e3cc5e5892c2bc11a3d340bee088",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "81",
+          "name": "weights.0.3",
+          "kind": "sp",
+          "text": ".1",
+          "boundsPx": [
+            291.0,
+            310.0,
+            46.0,
+            30.0
+          ],
+          "fingerprint": "f0b22a14223a9a578cab5db6349681efa0da01f5c26a68e699c523fd17a0e2b3",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "198",
+          "name": "weighted-vector0",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            47.0,
+            258.0,
+            42.0,
+            34.0001
+          ],
+          "fingerprint": "2e819ab60d4e6d32fb2ba12839cc9f3abfeb20565a7520dc92a1298c38e9d9f6",
+          "fontPt": []
+        },
+        {
+          "id": "52",
+          "name": "weighted-vector0.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            47.0,
+            258.0,
+            9.0,
+            34.0
+          ],
+          "fingerprint": "10b49dc00d2fdd961452f41f635248c7da8bc7091f10159de91ea469a44426bd",
+          "fontPt": []
+        },
+        {
+          "id": "53",
+          "name": "weighted-vector0.0.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            47.0,
+            280.1001,
+            9.0,
+            11.8999
+          ],
+          "fingerprint": "4b2c315008636d8edc813bf7e186fa85015ed45e974c5cf6574cb921dc545003",
+          "fontPt": []
+        },
+        {
+          "id": "54",
+          "name": "weighted-vector0.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            58.0,
+            258.0,
+            9.0,
+            34.0
+          ],
+          "fingerprint": "c928c745a2109d17f7765d09d99b73e6e24b97648c913478e61d136a6c45154e",
+          "fontPt": []
+        },
+        {
+          "id": "55",
+          "name": "weighted-vector0.1.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            58.0,
+            264.8,
+            9.0,
+            27.2
+          ],
+          "fingerprint": "472c94f36e156266fa9b41d2e1c9610efb7383e182e2b6195ea0d7ead5e7c9cf",
+          "fontPt": []
+        },
+        {
+          "id": "56",
+          "name": "weighted-vector0.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            69.0,
+            258.0,
+            9.0,
+            34.0
+          ],
+          "fingerprint": "656501e377bc1f1e1c45b01989ac4ec04d6f6c1d2799f532ad7511ed6928f8de",
+          "fontPt": []
+        },
+        {
+          "id": "57",
+          "name": "weighted-vector0.2.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            69.0,
+            275.0,
+            9.0,
+            17.0
+          ],
+          "fingerprint": "b7b4db901d41b3fdb15bab4298b5ec1209197d49335a06e6d81cc5aacfe92560",
+          "fontPt": []
+        },
+        {
+          "id": "58",
+          "name": "weighted-vector0.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            80.0,
+            258.0,
+            9.0,
+            34.0
+          ],
+          "fingerprint": "19592d5f3750ad72afa11cc2c09acbf840f624d6f4a6beb54f5e73cc1676d49e",
+          "fontPt": []
+        },
+        {
+          "id": "59",
+          "name": "weighted-vector0.3.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            80.0,
+            269.9001,
+            9.0,
+            22.1001
+          ],
+          "fingerprint": "b7424fa52c009dc77c1e78a5cbb6e04a7d888d904bdb6ccc1d969d902b57c675",
+          "fontPt": []
+        },
+        {
+          "id": "60",
+          "name": "selected-name0",
+          "kind": "sp",
+          "text": "v\u2081",
+          "boundsPx": [
+            52.0,
+            235.0,
+            38.0,
+            20.0
+          ],
+          "fingerprint": "1fc9c1b54d64a93ae23690a8e61db8a1be72170dffe3ebf1ef96660891ed49d6",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "199",
+          "name": "weighted-vector1",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            128.0,
+            258.0,
+            42.0,
+            34.0001
+          ],
+          "fingerprint": "8432e33262a9aa70ada9421e7b13433164814301b7623d9642aba8a9b049bea2",
+          "fontPt": []
+        },
+        {
+          "id": "62",
+          "name": "weighted-vector1.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            128.0,
+            258.0,
+            9.0,
+            34.0
+          ],
+          "fingerprint": "f70e1d6131ae13d2801ec7925802a996da0b1611e02a17d276ad7026e604edd8",
+          "fontPt": []
+        },
+        {
+          "id": "63",
+          "name": "weighted-vector1.0.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            128.0,
+            276.7001,
+            9.0,
+            15.3001
+          ],
+          "fingerprint": "e19c26a46615c8917e6c43c52aefdc7671dfb0449057d8402843275a9ae68917",
+          "fontPt": []
+        },
+        {
+          "id": "64",
+          "name": "weighted-vector1.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            139.0,
+            258.0,
+            9.0,
+            34.0
+          ],
+          "fingerprint": "a05f143180e9c5ee3e2d5518f81244d5caf55eefbadfd38bf12d493474d99870",
+          "fontPt": []
+        },
+        {
+          "id": "65",
+          "name": "weighted-vector1.1.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            139.0,
+            268.2,
+            9.0,
+            23.8
+          ],
+          "fingerprint": "097b8cfa686e32b9bceea987defdc29efab7dcb64b910da6cb6e388af33ca1f0",
+          "fontPt": []
+        },
+        {
+          "id": "66",
+          "name": "weighted-vector1.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            150.0,
+            258.0,
+            9.0,
+            34.0
+          ],
+          "fingerprint": "b2eb1a9e34d32fce6a43fe32a8ed89ae662d5093b8a450109461288ebc77895c",
+          "fontPt": []
+        },
+        {
+          "id": "67",
+          "name": "weighted-vector1.2.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            150.0,
+            275.0,
+            9.0,
+            17.0
+          ],
+          "fingerprint": "5bef97706d1d2d9aaf825a25be169d88a7121b3d7f936b9d410dd824f37c9f53",
+          "fontPt": []
+        },
+        {
+          "id": "68",
+          "name": "weighted-vector1.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            161.0,
+            258.0,
+            9.0,
+            34.0
+          ],
+          "fingerprint": "e088396036ab6164a87e19cc88074239953256c5855015da1f9d984e614c180e",
+          "fontPt": []
+        },
+        {
+          "id": "69",
+          "name": "weighted-vector1.3.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            161.0,
+            269.9001,
+            9.0,
+            22.1001
+          ],
+          "fingerprint": "5d398ee8192c78b1253f9ca1b04399b99efe5bacd5239928c3c1b1386e20d848",
+          "fontPt": []
+        },
+        {
+          "id": "70",
+          "name": "selected-name1",
+          "kind": "sp",
+          "text": "v\u2083",
+          "boundsPx": [
+            133.0,
+            235.0,
+            38.0,
+            20.0
+          ],
+          "fingerprint": "eeb6dfabf29d5a3eac898254b293223c79c540b0b5e70757945c3c2a94f905b8",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "200",
+          "name": "weighted-vector2",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            209.0,
+            258.0,
+            42.0,
+            34.0001
+          ],
+          "fingerprint": "7dd4b2fd755035034a2d9caec7c9bbd24f1d88601777e63c36910b8368db07aa",
+          "fontPt": []
+        },
+        {
+          "id": "72",
+          "name": "weighted-vector2.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            209.0,
+            258.0,
+            9.0,
+            34.0
+          ],
+          "fingerprint": "55306474da72fcc55aa663d1b18e93f2c471ea5fc85931ac1e66eb1d26173f8a",
+          "fontPt": []
+        },
+        {
+          "id": "73",
+          "name": "weighted-vector2.0.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            209.0,
+            273.3001,
+            9.0,
+            18.7001
+          ],
+          "fingerprint": "9bfcf1274c94a08538019f2e7c05122db1d0c06d3aea1a6b0e84230f3412650e",
+          "fontPt": []
+        },
+        {
+          "id": "74",
+          "name": "weighted-vector2.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            220.0,
+            258.0,
+            9.0,
+            34.0
+          ],
+          "fingerprint": "18a17f88186f97f554127d8bb3ce5613dafadfa59e44f61fce885df3c3601ad9",
+          "fontPt": []
+        },
+        {
+          "id": "75",
+          "name": "weighted-vector2.1.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            220.0,
+            271.6,
+            9.0,
+            20.4
+          ],
+          "fingerprint": "b337a6a59c7ae6c7650b5bdaa183a7a150f39f2e2568cc5265d9aa3559db05b6",
+          "fontPt": []
+        },
+        {
+          "id": "76",
+          "name": "weighted-vector2.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            231.0,
+            258.0,
+            9.0,
+            34.0
+          ],
+          "fingerprint": "74d47198b420c0d55bde6f4a26b0ecce80969bcfb24160d10cdad3559c45bafa",
+          "fontPt": []
+        },
+        {
+          "id": "77",
+          "name": "weighted-vector2.2.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            231.0,
+            275.0,
+            9.0,
+            17.0
+          ],
+          "fingerprint": "f8702fa04201c99165daab50c48783d9c01bd27e6b79dff3aa2c67834b60749d",
+          "fontPt": []
+        },
+        {
+          "id": "78",
+          "name": "weighted-vector2.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            242.0,
+            258.0,
+            9.0,
+            34.0
+          ],
+          "fingerprint": "cb739bf6f2a7969e480061d0ada4f4ae7945d2ee944250e95ca6400e208681df",
+          "fontPt": []
+        },
+        {
+          "id": "79",
+          "name": "weighted-vector2.3.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            242.0,
+            269.9001,
+            9.0,
+            22.1001
+          ],
+          "fingerprint": "9e4da56886634fd98182db03ae7b587016d1f0c87e97ec67d768a89f12f1f13f",
+          "fontPt": []
+        },
+        {
+          "id": "80",
+          "name": "selected-name2",
+          "kind": "sp",
+          "text": "v\u2084",
+          "boundsPx": [
+            214.0,
+            235.0,
+            38.0,
+            20.0
+          ],
+          "fingerprint": "4d3ea16457800a2c6e7543ed321b75db34a67dd377da412cde12d25a3e4ab425",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "201",
+          "name": "weighted-vector3",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            290.0,
+            258.0,
+            42.0,
+            34.0001
+          ],
+          "fingerprint": "50b14a688bfcb62502a31035ea7541a73fb4eb21cb7194794798ce37f3c1ca57",
+          "fontPt": []
+        },
+        {
+          "id": "82",
+          "name": "weighted-vector3.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            290.0,
+            258.0,
+            9.0,
+            34.0
+          ],
+          "fingerprint": "9b58dc425e4fcd9f3424d61ba1ab0cc656285d62edcb9b35cd6068490fbcf8fb",
+          "fontPt": []
+        },
+        {
+          "id": "83",
+          "name": "weighted-vector3.0.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            290.0,
+            269.9001,
+            9.0,
+            22.1001
+          ],
+          "fingerprint": "c470848fb662283b3989eebe09a67fae43dfa62af69f509d45ee96b4cc203f82",
+          "fontPt": []
+        },
+        {
+          "id": "84",
+          "name": "weighted-vector3.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            301.0,
+            258.0,
+            9.0,
+            34.0
+          ],
+          "fingerprint": "14c3c15a677ae9c0e8d36b2cd555379e6735fd504db4bd00d0d4f111e6752775",
+          "fontPt": []
+        },
+        {
+          "id": "85",
+          "name": "weighted-vector3.1.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            301.0,
+            275.0,
+            9.0,
+            17.0
+          ],
+          "fingerprint": "da353b74d6a98aca2fdf5373c2453a08223f3875cac6476f5fb3b94b8b96d3a1",
+          "fontPt": []
+        },
+        {
+          "id": "86",
+          "name": "weighted-vector3.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            312.0,
+            258.0,
+            9.0,
+            34.0
+          ],
+          "fingerprint": "7ab06f2776c46c5a75a1e0a50268aac58a2807d3f03418e95d3bad4335e49936",
+          "fontPt": []
+        },
+        {
+          "id": "87",
+          "name": "weighted-vector3.2.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            312.0,
+            275.0,
+            9.0,
+            17.0
+          ],
+          "fingerprint": "002e389d78e3751e929ba6a7defc0a8f6bfc6a84847f8b6a59b7c9092e7d2d63",
+          "fontPt": []
+        },
+        {
+          "id": "88",
+          "name": "weighted-vector3.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            323.0,
+            258.0,
+            9.0,
+            34.0
+          ],
+          "fingerprint": "4cfeed844ce4d77ef71cba20880816d6cf4befc7aac32125ccdb654ec2241952",
+          "fontPt": []
+        },
+        {
+          "id": "89",
+          "name": "weighted-vector3.3.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            323.0,
+            269.9001,
+            9.0,
+            22.1001
+          ],
+          "fingerprint": "c524f9657d4a5bff2c96e8d12c9ce60a98738deeea71afc0f250434b04d1f1a7",
+          "fontPt": []
+        },
+        {
+          "id": "90",
+          "name": "selected-name3",
+          "kind": "sp",
+          "text": "v\u2086",
+          "boundsPx": [
+            295.0,
+            235.0,
+            38.0,
+            20.0
+          ],
+          "fingerprint": "f820d8b288b407dac7d8b8ca45c3ac9669a939e1db3d8fc9556c77b140fd681e",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "91",
+          "name": "weight-port",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            40.0,
+            247.0,
+            340.0,
+            96.0
+          ],
+          "fingerprint": "3e1f293eaf3d9e7a3522020de0813f51f4984c0452bb6c30dddb4cb3ea4d6e62",
+          "fontPt": []
+        },
+        {
+          "id": "92",
+          "name": "aggregate",
+          "kind": "sp",
+          "text": "Aggregate",
+          "boundsPx": [
+            446.0,
+            268.0,
+            112.0,
+            54.0
+          ],
+          "fingerprint": "4cbbb11a9a6d39d15f4879e6a1fcb78507683977ccb8c73fd169836a91388aa2",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "192",
+          "name": "token-edge",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            502.0,
+            144.0,
+            23.5001,
+            124.0
+          ],
+          "fingerprint": "b2463070822ccd5dd2f22432f1bc16cbd60c93a5a439020fd4cff68f2ef58257",
+          "fontPt": []
+        },
+        {
+          "id": "193",
+          "name": "weights-edge",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            380.0,
+            295.0,
+            66.0,
+            0.0
+          ],
+          "fingerprint": "56904fd87993466a47440e4b6bacc8d3a026bcbb349dc4fd63733537797ddd84",
+          "fontPt": []
+        },
+        {
+          "id": "95",
+          "name": "summary",
+          "kind": "sp",
+          "text": "z",
+          "boundsPx": [
+            605.0,
+            271.0,
+            48.0,
+            48.0
+          ],
+          "fingerprint": "cfe2231838af0ce1ba5da92033218c4226f09a0698fd78992fb64005f49c4d71",
+          "fontPt": [
+            15.0
+          ]
+        },
+        {
+          "id": "195",
+          "name": "summary-edge",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            558.0,
+            295.0,
+            47.0,
+            0.0
+          ],
+          "fingerprint": "a1681e74f317e32842bf4434ac2fddd7dcbb6feeeedea5bcbbff592184e1ce7c",
+          "fontPt": []
+        },
+        {
+          "id": "97",
+          "name": "aggregation-equation",
+          "kind": "sp",
+          "text": "z = \u03a3\u1d62 w\u1d62v\u1d62",
+          "boundsPx": [
+            437.0,
+            336.0,
+            135.0,
+            23.0
+          ],
+          "fingerprint": "ea63177be83b57f26c9f51ca0d3c3bc9293593f19bdbc2ee7202fdf73a144fae",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "98",
+          "name": "normalization",
+          "kind": "sp",
+          "text": "\u03a3\u1d62 w\u1d62 = 1",
+          "boundsPx": [
+            165.0,
+            344.0,
+            119.0,
+            23.0
+          ],
+          "fingerprint": "4f6d2f72ce992fd866f283a2a84450fe1b72c1e121897bdb276c305cd34d7a7c",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "99",
+          "name": "disclosure",
+          "kind": "sp",
+          "text": "Vector glyphs are schematic. Retained positions and normalized weights are specified by the brief.",
+          "boundsPx": [
+            18.0,
+            375.0,
+            636.0,
+            18.0
+          ],
+          "fingerprint": "ab4de168f889993ac91c6abc89609cf27284fe5cb68f9e61145ce7e388fc81b6",
+          "fontPt": [
+            8.25
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "name": "selection",
+          "from": "token-port",
+          "to": "select",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "retained",
+          "from": "select",
+          "to": "kept-port",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "token-edge",
+          "from": "kept-port",
+          "to": "aggregate",
+          "fromIdx": "2",
+          "toIdx": "0",
+          "directed": true
+        },
+        {
+          "name": "weights-edge",
+          "from": "weight-port",
+          "to": "aggregate",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "summary-edge",
+          "from": "aggregate",
+          "to": "summary",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        }
+      ],
+      "counts": {
+        "sp": 94,
+        "cxnSp": 5,
+        "grpSp": 7,
+        "pic": 0,
+        "graphicFrame": 0
+      },
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "passed": true
+}

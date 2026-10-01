@@ -1,0 +1,25 @@
+{
+  "sourceSha256": "de644f1ef0593f542228ddd1bfc33250e39f59d7706bf3c3355f1c93b44664d0",
+  "operations": [
+    {
+      "slide": 1,
+      "id": "271",
+      "name": "vision",
+      "fingerprint": "3a2cb50f3736342eb434a31f1d38b7970f9e5434ab765fdfc4b53afc2b7b41e7",
+      "action": "style_connector",
+      "widthPx": 2.6,
+      "arrowWidth": "med",
+      "arrowLength": "med"
+    },
+    {
+      "slide": 1,
+      "id": "272",
+      "name": "language",
+      "fingerprint": "aaff9443a5ece77b0ade0a4d0d79d7e5c137d37983d1efdf01260067f7ea85b7",
+      "action": "style_connector",
+      "widthPx": 2.6,
+      "arrowWidth": "med",
+      "arrowLength": "med"
+    }
+  ]
+}

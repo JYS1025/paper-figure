@@ -1,0 +1,44 @@
+{
+  "updatedAtUtc": "2026-09-30T09:23:24.802726+00:00",
+  "figureSha256": "46dbd014109537222788cee184f189e47bf435a04e413177de4ecaf0b87e4df8",
+  "originalPreserved": true,
+  "counts": {
+    "sp": 57,
+    "cxnSp": 12,
+    "grpSp": 2,
+    "pic": 2,
+    "graphicFrame": 0
+  },
+  "pictureChecks": [
+    {
+      "name": "asset-camera",
+      "mediaBytesMatchOriginal": true,
+      "sha256": "a6ef1383fb2974640ea07b494a18d2b6f8a6860919b9d8f8429029213f288199"
+    },
+    {
+      "name": "asset-inertial-sensor",
+      "mediaBytesMatchOriginal": true,
+      "sha256": "1411c5538d97306df8efc7dd8c3d87c0bc79ad067d5220c49683418a2613dde0"
+    }
+  ],
+  "nativeLabelsContractPassed": true,
+  "flowAudit": {
+    "connectors": 12,
+    "requiringRenderedReview": 0,
+    "geometryUnchecked": 0
+  },
+  "visualReview": {
+    "full300dpi": true,
+    "widthMm": 177.8,
+    "reduced96dpi": true,
+    "reducedGrayscale": true,
+    "iconsRecognizable": true,
+    "noIconLabelOverlap": true,
+    "transparencyPreserved": true,
+    "nativeDiagramPreserved": true,
+    "inheritedBoundingBoxWarnings": 2,
+    "renderedWarningRegionsClear": true
+  },
+  "interactivePowerPointEditTest": false,
+  "blindEvaluation": false
+}

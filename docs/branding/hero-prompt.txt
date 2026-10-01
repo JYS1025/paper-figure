@@ -1,0 +1,20 @@
+Use case: ads-marketing / developer-tool brand.
+Asset type: finished GitHub README hero banner for the project PAPER FIGURE.
+Create a refined wide 3:1 banner, ideally 1920 x 640, for a research-figure authoring skill. The visual identity combines a beautifully typeset terminal user interface with a scientific drawing workspace. It should feel like a carefully art-directed, mature developer product. Flat, crisp, controlled, sophisticated; no glossy 3D, no neon gradients, no robot mascot.
+
+Composition: one large dark ink/navy terminal frame on a matching very dark background. Subtle hairline panel dividers, soft 10px corner radius, ample margins. Left two-thirds: oversized confident geometric monospace brand wordmark and clear slogan; a few short terminal-style workflow lines below it. Right third: one warm-white inset paper canvas showing a compact abstract research architecture with three coordinated muted teal, lavender and amber shapes, a small matrix, restrained connecting lines, and tiny square selection handles on a selected element to communicate editability. The diagram is a conceptual brand illustration, not an actual experiment or app screenshot. Avoid visual clutter, needless panels, ornamental circuitry.
+
+Palette: near-black navy #111A21, lighter ink #1C2932, off-white #F4F2E9, desaturated mint #A6CBBB, amber #DCB56C, soft lavender #B8ADCE. All important text must remain legible when displayed 830px wide in a README. Use the accents sparingly, mainly on the prompt glyph, step markers and drawing.
+
+Text, exactly and only:
+Top thin chrome/header: "PAPER FIGURE  /  AGENT SKILLS"
+Main large title: "PAPER FIGURE"
+Slogan on two lines: "Draft visually." and "Keep it editable."
+Below, compact command-prompt line: "> /paper-figure"
+Below prompt, three concise aligned workflow rows with restrained box-drawing-style glyphs:
+"01  Compose with an image model"
+"02  Rebuild as native PowerPoint"
+"03  Inspect the saved figure"
+Bottom small footer: "CODEX + CLAUDE" at left; "PPTX / PNG / PDF" at right.
+No other words, no version number, no test-passing status, no stars, no download/user statistics, no license, no performance claims, no official third-party logos, no browser URL. The inset figure needs no text labels.
+Perfect spelling, crisp edges, strong typography, editorial spacing, no cropping of text. This is the final project branding image and will sit above badges and download links.

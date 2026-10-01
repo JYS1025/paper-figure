@@ -1,0 +1,6341 @@
+{
+  "file": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/feedback-revision/review-2/06-tokens.pptx",
+  "sha256": "c80f14ed3a0c338925f1180d23942624bbed5d684fd416ca1a87760883783912",
+  "sizePx": [
+    672.0,
+    400.0
+  ],
+  "slides": [
+    {
+      "part": "ppt/slides/slide1.xml",
+      "objects": [
+        {
+          "id": "424",
+          "name": "heading",
+          "kind": "sp",
+          "text": "Selective token aggregation",
+          "boundsPx": [
+            18.0,
+            9.0,
+            638.0,
+            23.0
+          ],
+          "fingerprint": "49fab37c14fde76cdb910007356fdfd0c85a885155c368b1e9dc379e061ca3d9",
+          "fontPt": [
+            11.25
+          ]
+        },
+        {
+          "id": "2",
+          "name": "selection-heading",
+          "kind": "sp",
+          "text": "(a) Preserve token identity through selection",
+          "boundsPx": [
+            18.0,
+            40.0,
+            636.0,
+            24.0
+          ],
+          "fingerprint": "ef02d23d0e72a246ef4e533d20b13f43086d31cc815a384dd9f1aa2cf1238f49",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "3",
+          "name": "token-port",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            23.0,
+            87.0,
+            188.0,
+            61.0
+          ],
+          "fingerprint": "a6fa15219e4d1f8b3e63ec452b725153cb3dec97b7ee940f60495c7e7087490f",
+          "fontPt": []
+        },
+        {
+          "id": "850",
+          "name": "tokens",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            25.0,
+            91.0,
+            181.0,
+            53.0
+          ],
+          "fingerprint": "80cc6f61e14fd06d9b69586022018ace59a592b8811dffae9a298d0940fb860b",
+          "fontPt": []
+        },
+        {
+          "id": "4",
+          "name": "tokens.0",
+          "kind": "sp",
+          "text": "1",
+          "boundsPx": [
+            25.0,
+            91.0,
+            26.0,
+            53.0
+          ],
+          "fingerprint": "0ba5022c4c45f9305221a3af201dd424ccbf37a672d8f509237c7139ab7062de",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "30",
+          "name": "tokens.1",
+          "kind": "sp",
+          "text": "2",
+          "boundsPx": [
+            56.0,
+            91.0,
+            26.0,
+            53.0
+          ],
+          "fingerprint": "1612bfbf78197d50177dc55c64105fe0dbcea9dd352b2681a37fed09a3001eba",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "56",
+          "name": "tokens.2",
+          "kind": "sp",
+          "text": "3",
+          "boundsPx": [
+            87.0,
+            91.0,
+            26.0,
+            53.0
+          ],
+          "fingerprint": "f364d96b52e21b520367aa9c79cf6a63a904e259f1b948c550d7f2661d5eaaf6",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "82",
+          "name": "tokens.3",
+          "kind": "sp",
+          "text": "4",
+          "boundsPx": [
+            118.0,
+            91.0,
+            26.0,
+            53.0
+          ],
+          "fingerprint": "24593895fea60ebdcdde64c69f2365d1762bff0717ca05082d313910b11609e8",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "108",
+          "name": "tokens.4",
+          "kind": "sp",
+          "text": "5",
+          "boundsPx": [
+            149.0,
+            91.0,
+            26.0,
+            53.0
+          ],
+          "fingerprint": "29e8105b457920e8b4c58c0525feb06f94e8ff5b78eae774033e2f60446bb310",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "134",
+          "name": "tokens.5",
+          "kind": "sp",
+          "text": "6",
+          "boundsPx": [
+            180.0,
+            91.0,
+            26.0,
+            53.0
+          ],
+          "fingerprint": "faa46a3ac72baca91b86e4b24c291ec5d7c443b8f9a128c7e045cb2aaafa8666",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "844",
+          "name": "tokens.0.key",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            29.0,
+            99.0,
+            17.65,
+            17.65
+          ],
+          "fingerprint": "0c721e9143ac43ae099603e407afa9973b488237c82d09b76d7190a1da5d9998",
+          "fontPt": []
+        },
+        {
+          "id": "5",
+          "name": "tokens.0.key.0.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            29.0,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "b6bf558bfa8c722c64825791a5bea0c4c44c201a6692bd9b0d32dc83302997c7",
+          "fontPt": []
+        },
+        {
+          "id": "6",
+          "name": "tokens.0.key.0.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            32.6,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "2898e39d0e7bee7d1e4e7bbf263afe8b5d8ab78fa6a5b1ab671e10376e0578be",
+          "fontPt": []
+        },
+        {
+          "id": "7",
+          "name": "tokens.0.key.0.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            36.2,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "0e8fedab77b7b0eecf60a9858be3c72a167e257beca10e5da28a1815ae811c9e",
+          "fontPt": []
+        },
+        {
+          "id": "8",
+          "name": "tokens.0.key.0.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            39.8,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "2b6ecf6a8378a0145636836317b60af02f7e3d9e63ca01f25593d0b1967e5973",
+          "fontPt": []
+        },
+        {
+          "id": "9",
+          "name": "tokens.0.key.0.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            43.4,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "6b642d4bf8db4bbb4a71462189783a9b596178d56258c1b676e8cc17d730dcef",
+          "fontPt": []
+        },
+        {
+          "id": "10",
+          "name": "tokens.0.key.1.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            29.0,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "c55cfb504fa6d40f00f9aad7e9c2f7bf3e03e1d0d71d5364459f5a1fdb763180",
+          "fontPt": []
+        },
+        {
+          "id": "11",
+          "name": "tokens.0.key.1.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            32.6,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "0758eb5319bcf7042b0967440b4d20cc4491c62c1a8d1f64f95cd0a6959e5b29",
+          "fontPt": []
+        },
+        {
+          "id": "12",
+          "name": "tokens.0.key.1.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            36.2,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "8c7ce343a71be625c7313f2ccffd99cb5bfc7fd0fda18804202b3dd80e76e80f",
+          "fontPt": []
+        },
+        {
+          "id": "13",
+          "name": "tokens.0.key.1.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            39.8,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "dfddf073eae914853a791f361e11c5aadf4fe6a285928a627b3443353fbaed00",
+          "fontPt": []
+        },
+        {
+          "id": "14",
+          "name": "tokens.0.key.1.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            43.4,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "e9d7403b8fb6e276757c6ff685ff2c664dd25764fc8df3e58065a9756d54f7d3",
+          "fontPt": []
+        },
+        {
+          "id": "15",
+          "name": "tokens.0.key.2.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            29.0,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "a4ea2afc5ac621f1111166c9e7d294cc83a51e1e1cedc8899fa9331e4a4a4ae8",
+          "fontPt": []
+        },
+        {
+          "id": "16",
+          "name": "tokens.0.key.2.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            32.6,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "3d705cf30f0c86f25e6d5338324d6a0c1009a4bee49fe90203f38f2bce96e132",
+          "fontPt": []
+        },
+        {
+          "id": "17",
+          "name": "tokens.0.key.2.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            36.2,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "285655df211ece54269f4c994192494a835a20e81341c2927d7534dbcd90532e",
+          "fontPt": []
+        },
+        {
+          "id": "18",
+          "name": "tokens.0.key.2.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            39.8,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "0946e7b547ae87cce3b88356b044e15471678060af12975e9e316e49dbbe14bf",
+          "fontPt": []
+        },
+        {
+          "id": "19",
+          "name": "tokens.0.key.2.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            43.4,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "e4c0caa60d4e14dfceb92c4a848e5ec6b0b5fb9e42b2f9a6b3e36b7cc8d6cb73",
+          "fontPt": []
+        },
+        {
+          "id": "20",
+          "name": "tokens.0.key.3.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            29.0,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "6e7c2ee58fa16dddea0a6c917a631c8760ff2ac8cef71b1e06b6899c1d6b1762",
+          "fontPt": []
+        },
+        {
+          "id": "21",
+          "name": "tokens.0.key.3.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            32.6,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "46e0d6adb5dd6e9effdc0914def926cc5be3c5d6c750f5c0e1bbaf799bdb42f9",
+          "fontPt": []
+        },
+        {
+          "id": "22",
+          "name": "tokens.0.key.3.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            36.2,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "6fb28c60894788b184470575adf9b906d695a5159805b9fce779c40accb42664",
+          "fontPt": []
+        },
+        {
+          "id": "23",
+          "name": "tokens.0.key.3.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            39.8,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "bde3d17d98d22b98ac028288a3ce22138d73c44381cd3925714f0c81a4d3ce9e",
+          "fontPt": []
+        },
+        {
+          "id": "24",
+          "name": "tokens.0.key.3.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            43.4,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "447fb2078ea0a42c5b6e5db0e7119e7a8d50714692813464b5942c2108b17799",
+          "fontPt": []
+        },
+        {
+          "id": "25",
+          "name": "tokens.0.key.4.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            29.0,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "97aa2b166da50930adeac4f82376acabc6d4bd37fc4096f66687d55ef3ba2253",
+          "fontPt": []
+        },
+        {
+          "id": "26",
+          "name": "tokens.0.key.4.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            32.6,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "d172485c7320f2868b04d6d97f5ad0392549f15c4dc19720d117de837115fa63",
+          "fontPt": []
+        },
+        {
+          "id": "27",
+          "name": "tokens.0.key.4.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            36.2,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "adc2eca0d3adaa0e4d36138e327f018f49b55a2b8eddbb8d6fa379ce5bcf0202",
+          "fontPt": []
+        },
+        {
+          "id": "28",
+          "name": "tokens.0.key.4.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            39.8,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "fd68a6f14ea3271c761c76ee772bf7984ff9f64efc90f2c67d91ce2c324c362c",
+          "fontPt": []
+        },
+        {
+          "id": "29",
+          "name": "tokens.0.key.4.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            43.4,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "c25cd0f29ff9a254671802afdf729fc6d9513f3ca16cdf7a8491dccdafe0eec2",
+          "fontPt": []
+        },
+        {
+          "id": "845",
+          "name": "tokens.1.key",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            60.0,
+            99.0,
+            17.65,
+            17.65
+          ],
+          "fingerprint": "26f22ba14de74d34315a314c2d1c3b51735168632a4ef2457d998f3581db094d",
+          "fontPt": []
+        },
+        {
+          "id": "31",
+          "name": "tokens.1.key.0.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            60.0,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "b2b0689b8d33884a85675ab461ff70be9b5b44d67cd3ac272b25b60ff91022e5",
+          "fontPt": []
+        },
+        {
+          "id": "32",
+          "name": "tokens.1.key.0.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            63.6,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "caf1c8f0d4361d93ae7b5e30421f202d8a1734a4415088c48f652f58fc693953",
+          "fontPt": []
+        },
+        {
+          "id": "33",
+          "name": "tokens.1.key.0.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            67.2,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "d221745add6f4bd8581fe2c4238c9513112782144d8dce01fd68d78891c17d62",
+          "fontPt": []
+        },
+        {
+          "id": "34",
+          "name": "tokens.1.key.0.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            70.8,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "983301c69c9cb4651450a2f6aeaf4d03790596d87f7d8fbd5dd969e258fed730",
+          "fontPt": []
+        },
+        {
+          "id": "35",
+          "name": "tokens.1.key.0.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            74.4,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "5e416477c08edfcfa283588b8659c42c5e4b194328e22ce4f72b07510d20c914",
+          "fontPt": []
+        },
+        {
+          "id": "36",
+          "name": "tokens.1.key.1.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            60.0,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "ed2d338d1c6aff27eda741f9780a840f650fe7f059f85b975ba6712dbd7c45f6",
+          "fontPt": []
+        },
+        {
+          "id": "37",
+          "name": "tokens.1.key.1.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            63.6,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "3292f6c8150491866a50d6fd89acdea60e8736a238d05a78dab5fe11cf2e7d11",
+          "fontPt": []
+        },
+        {
+          "id": "38",
+          "name": "tokens.1.key.1.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            67.2,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "b3f74ef7e5a264204518cc9af93fbbc8895d82b3a7b6ff7b682c233dc0fdf8fa",
+          "fontPt": []
+        },
+        {
+          "id": "39",
+          "name": "tokens.1.key.1.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            70.8,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "0c5b8782a6631a7581e71e6d1036c97a9b64d8fff28aa8f3c14c84cf08b4c201",
+          "fontPt": []
+        },
+        {
+          "id": "40",
+          "name": "tokens.1.key.1.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            74.4,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "766dd126f6613d9f18df109e78a48a24ffdd19c60e2804110b8cb374cc1e7eec",
+          "fontPt": []
+        },
+        {
+          "id": "41",
+          "name": "tokens.1.key.2.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            60.0,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "2f61a670fe10ed90732ef583a8f3f8b4902774eaf15cfa08ad4b3eb9610b068e",
+          "fontPt": []
+        },
+        {
+          "id": "42",
+          "name": "tokens.1.key.2.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            63.6,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "79e00068adeb36a04fd65b69c860b7b9399e7f744ce399bfd1cc4411b512e5c7",
+          "fontPt": []
+        },
+        {
+          "id": "43",
+          "name": "tokens.1.key.2.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            67.2,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "a7491823fd6b3b028608af3ac7159345a08e6c29c20b33cf1f73c1196dc9ba93",
+          "fontPt": []
+        },
+        {
+          "id": "44",
+          "name": "tokens.1.key.2.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            70.8,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "786cfece57db4808fc12b9b8316282b2ec532dc4328f5d214b65f0173ff1e66c",
+          "fontPt": []
+        },
+        {
+          "id": "45",
+          "name": "tokens.1.key.2.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            74.4,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "268e28f0484ca075f1c9d60c49a29df8a0d1e1b9c9a5b7df301853c754c9ce20",
+          "fontPt": []
+        },
+        {
+          "id": "46",
+          "name": "tokens.1.key.3.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            60.0,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "916581153af40ee79862b45d0f470c26599d2f5693b031fb125515a04067c40b",
+          "fontPt": []
+        },
+        {
+          "id": "47",
+          "name": "tokens.1.key.3.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            63.6,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "138e45cf073dedcd0a4e68e6152e6cc3d33461798a23f776d893f09889c1f969",
+          "fontPt": []
+        },
+        {
+          "id": "48",
+          "name": "tokens.1.key.3.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            67.2,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "dcc1fd812a85d23e517625382aa507e405d611342291940f4aa9419319cb9cb9",
+          "fontPt": []
+        },
+        {
+          "id": "49",
+          "name": "tokens.1.key.3.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            70.8,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "7b5b461d2914a944eae11786de2e80baa852dad7a866a3c77aeb3487e99b2f16",
+          "fontPt": []
+        },
+        {
+          "id": "50",
+          "name": "tokens.1.key.3.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            74.4,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "fc4fa3825c10a6f65ef5990d9897fbea320c2d68aa2ff8a1976078dcdc6b1827",
+          "fontPt": []
+        },
+        {
+          "id": "51",
+          "name": "tokens.1.key.4.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            60.0,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "59bf6d118d4e5e7801fc1982ae2a095b7ae0afe81348630d074fbf2e9e12c1e9",
+          "fontPt": []
+        },
+        {
+          "id": "52",
+          "name": "tokens.1.key.4.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            63.6,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "f6fe28c05a969871551dad75b3cf556be18113c3747c7523eccde743663e8244",
+          "fontPt": []
+        },
+        {
+          "id": "53",
+          "name": "tokens.1.key.4.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            67.2,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "ef876415864e3c0f76365445948122d06b9342d4ecde4ff3243e3c0fe37b7400",
+          "fontPt": []
+        },
+        {
+          "id": "54",
+          "name": "tokens.1.key.4.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            70.8,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "104d7de2e7921442adcbfa1bd44020cfa421d64b14be67616bd5e98515117440",
+          "fontPt": []
+        },
+        {
+          "id": "55",
+          "name": "tokens.1.key.4.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            74.4,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "2cd8a7dbc5380fa025ceaaaa87da812d06a76856afe2a4e0a0363e69ff9447cc",
+          "fontPt": []
+        },
+        {
+          "id": "846",
+          "name": "tokens.2.key",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            91.0,
+            99.0,
+            17.65,
+            17.65
+          ],
+          "fingerprint": "5e876670fea21ca4dd35118106ade88003eca18a4b84c2957b49d55c109ca690",
+          "fontPt": []
+        },
+        {
+          "id": "57",
+          "name": "tokens.2.key.0.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            91.0,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "6eeb040bec249b672f655d0556b20e9f6e7cc6a3eb8df86db1a59d050bbee7e3",
+          "fontPt": []
+        },
+        {
+          "id": "58",
+          "name": "tokens.2.key.0.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            94.6,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "c5872edd855c1e6afa4ffe21e99f4a712b571588d8ed6caa9db91eced8789991",
+          "fontPt": []
+        },
+        {
+          "id": "59",
+          "name": "tokens.2.key.0.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            98.2,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "e0cd78daebee382f99b87da097b08936ae9c6df9220d76f8290c179e8fd1dfe5",
+          "fontPt": []
+        },
+        {
+          "id": "60",
+          "name": "tokens.2.key.0.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            101.8,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "737793f8e2484812bd6617047733acce23d9c14e5c48e445753385e5880d6110",
+          "fontPt": []
+        },
+        {
+          "id": "61",
+          "name": "tokens.2.key.0.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            105.4,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "6be4e7e29b52e3136df419cf830d665f3e9810a68bb5ded7679810bb8dfe1f21",
+          "fontPt": []
+        },
+        {
+          "id": "62",
+          "name": "tokens.2.key.1.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            91.0,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "aeaa1185e49a68a23194b0748eaa2a3f8b5a634b3a650751094e9b1c7da9dbf5",
+          "fontPt": []
+        },
+        {
+          "id": "63",
+          "name": "tokens.2.key.1.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            94.6,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "cd36e8221da43805c9a06f4fbebd757e3ed579ad12d658dd500e8de2be630a55",
+          "fontPt": []
+        },
+        {
+          "id": "64",
+          "name": "tokens.2.key.1.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            98.2,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "0b0b013a51793787bc94e6417e808e3b07f54ff8af9a24eb7231e307ae776d1c",
+          "fontPt": []
+        },
+        {
+          "id": "65",
+          "name": "tokens.2.key.1.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            101.8,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "8bf6ddc2369cfce6ec220d60ae040f5fe9253aaf3cbf3b306944b73ca9a230bc",
+          "fontPt": []
+        },
+        {
+          "id": "66",
+          "name": "tokens.2.key.1.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            105.4,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "4bc432beab633e89d392237a314707f7c8d656905a5c1418273e1c74cfba1a42",
+          "fontPt": []
+        },
+        {
+          "id": "67",
+          "name": "tokens.2.key.2.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            91.0,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "c56b0699c8dbf77576c3befc0c56538ec187650a7dae7d9468f6ebb71e37e4e8",
+          "fontPt": []
+        },
+        {
+          "id": "68",
+          "name": "tokens.2.key.2.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            94.6,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "071969a528a82f349bac122c12f038506e0d48c8b358fd5a37126383520999dd",
+          "fontPt": []
+        },
+        {
+          "id": "69",
+          "name": "tokens.2.key.2.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            98.2,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "817f52f11981276b6f03c1177a895be7ed2d2f89bfee7c83fe3f2f7fde3e0363",
+          "fontPt": []
+        },
+        {
+          "id": "70",
+          "name": "tokens.2.key.2.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            101.8,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "252bb38b08679a5893b1e52447b55ee0bcaad684aaadac34670eaeb5990fac1c",
+          "fontPt": []
+        },
+        {
+          "id": "71",
+          "name": "tokens.2.key.2.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            105.4,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "0254dcc0f745c7df7a6994fcb981b2013ab1ec3785fee67e353f5cd5ba18f3bd",
+          "fontPt": []
+        },
+        {
+          "id": "72",
+          "name": "tokens.2.key.3.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            91.0,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "f4b1014f4445f876cde61043b707454e2b68e3c841b001a95ad369ea52fdc6a0",
+          "fontPt": []
+        },
+        {
+          "id": "73",
+          "name": "tokens.2.key.3.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            94.6,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "7c09330e29f79a3942e665b22aa886524c04de28e75912505f8a83e5c04c0212",
+          "fontPt": []
+        },
+        {
+          "id": "74",
+          "name": "tokens.2.key.3.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            98.2,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "42210d63eb912a2e325f548deae0e90f602cc71bbf8b4775d1a4064d9d5343b4",
+          "fontPt": []
+        },
+        {
+          "id": "75",
+          "name": "tokens.2.key.3.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            101.8,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "61d371058a1504fb806f08b5d1ad32b93127ccc665334cdfb846ce0bcbc1a1dc",
+          "fontPt": []
+        },
+        {
+          "id": "76",
+          "name": "tokens.2.key.3.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            105.4,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "40412a24f364109638329ed7856c02825179177bf525197860322ee1373a86b1",
+          "fontPt": []
+        },
+        {
+          "id": "77",
+          "name": "tokens.2.key.4.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            91.0,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "3107af3a5191d847b6191aca4e6906db3ea16f5e82e7bc2ebadde48d0a4155b6",
+          "fontPt": []
+        },
+        {
+          "id": "78",
+          "name": "tokens.2.key.4.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            94.6,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "a56dff6eeab7fb255365c0515ac2aaa56835b53b52861d92c3ba06527735360b",
+          "fontPt": []
+        },
+        {
+          "id": "79",
+          "name": "tokens.2.key.4.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            98.2,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "b6bb9cf1400b6539afea7ea99ff2c5ba1c5fafa0ad505babd0949cc48faf4e6c",
+          "fontPt": []
+        },
+        {
+          "id": "80",
+          "name": "tokens.2.key.4.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            101.8,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "1aa2f9cc389c60d82b02a66109912c40b2e35937066cde9c74dce7f93ea9d07d",
+          "fontPt": []
+        },
+        {
+          "id": "81",
+          "name": "tokens.2.key.4.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            105.4,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "f03677c9bcadbad8efc5703ab0c5621e706f0c019a2f75772fb3d84bc9969623",
+          "fontPt": []
+        },
+        {
+          "id": "847",
+          "name": "tokens.3.key",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            122.0,
+            99.0,
+            17.65,
+            17.65
+          ],
+          "fingerprint": "575e503a55d3615b16a19989dcc18b7bdba620b791cfac4d5acb037a0cd50916",
+          "fontPt": []
+        },
+        {
+          "id": "83",
+          "name": "tokens.3.key.0.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            122.0,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "4ddacc45228a1636eadaa49e62f3875e0d65e32c1bd1bc581b6afa12aa52132a",
+          "fontPt": []
+        },
+        {
+          "id": "84",
+          "name": "tokens.3.key.0.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            125.6,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "15cce833b32b53bcca44b3a49df7896e932820544ce221dc0a78da21ab1be4ce",
+          "fontPt": []
+        },
+        {
+          "id": "85",
+          "name": "tokens.3.key.0.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            129.2,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "bbfad24e35aa17247b05816e6927e4928b323527a21878e957b0ec06b23910ba",
+          "fontPt": []
+        },
+        {
+          "id": "86",
+          "name": "tokens.3.key.0.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            132.8,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "8219e241dd279fc2de27883aa94a1484ef642ff2e6e92ccfd4a3deefa5801432",
+          "fontPt": []
+        },
+        {
+          "id": "87",
+          "name": "tokens.3.key.0.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            136.4,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "661fdc23325971196f8a84c1217653f862bba50cb390248767b30f9bda778c6f",
+          "fontPt": []
+        },
+        {
+          "id": "88",
+          "name": "tokens.3.key.1.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            122.0,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "953d0bc73b42f020536d45752c81748e9a5bb1584860c4a4935c127a88d67307",
+          "fontPt": []
+        },
+        {
+          "id": "89",
+          "name": "tokens.3.key.1.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            125.6,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "576cc884b4b34bc7127d6964a11c69a2f644dd07ab2502bf1dc095d4816eb6a8",
+          "fontPt": []
+        },
+        {
+          "id": "90",
+          "name": "tokens.3.key.1.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            129.2,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "ea466295f8d429d14ecdfc425ce653855f16c47e58c6ef971db9cc6948948e92",
+          "fontPt": []
+        },
+        {
+          "id": "91",
+          "name": "tokens.3.key.1.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            132.8,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "eb22b106794924907782fb3c2839f4f7ca55490818d09e7105535186a82a2b51",
+          "fontPt": []
+        },
+        {
+          "id": "92",
+          "name": "tokens.3.key.1.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            136.4,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "2e953d6c98a26ba9777a53715d25ffb6366310f48a332ee8de3a3224dde66262",
+          "fontPt": []
+        },
+        {
+          "id": "93",
+          "name": "tokens.3.key.2.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            122.0,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "3319221fee1b6517bedf18463f9e506bb350e39d0c0edca2bc6b64d3cc158888",
+          "fontPt": []
+        },
+        {
+          "id": "94",
+          "name": "tokens.3.key.2.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            125.6,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "5bf709a1c747770b33e30818640e1016165274614bd7e0a700554de5191523cd",
+          "fontPt": []
+        },
+        {
+          "id": "95",
+          "name": "tokens.3.key.2.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            129.2,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "3d8c9fe4fee90f9004761fc4c0b8ad3134466dbb7321b46357ce56978f956ae5",
+          "fontPt": []
+        },
+        {
+          "id": "96",
+          "name": "tokens.3.key.2.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            132.8,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "3029d291cd1451454c50258363cb0ae8dd5d05537c54042f33dbf5cf0d921deb",
+          "fontPt": []
+        },
+        {
+          "id": "97",
+          "name": "tokens.3.key.2.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            136.4,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "bd9c9191602d9fb75989623132c10e9ba3e4e5141fe40530711e203abd00d155",
+          "fontPt": []
+        },
+        {
+          "id": "98",
+          "name": "tokens.3.key.3.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            122.0,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "cf9157a58a9448fedeb08c30fc35941ff5ea9976d433d93f4a2f4cae0de00edd",
+          "fontPt": []
+        },
+        {
+          "id": "99",
+          "name": "tokens.3.key.3.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            125.6,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "8650155c59fc1007d5020eea1678daa86e3bda254ec848a72d6d9e22fac2c955",
+          "fontPt": []
+        },
+        {
+          "id": "100",
+          "name": "tokens.3.key.3.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            129.2,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "160f651e5fa1f4a4e25d7f531433e7b2902ee55bad6fd0cc355163eec5386046",
+          "fontPt": []
+        },
+        {
+          "id": "101",
+          "name": "tokens.3.key.3.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            132.8,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "3a46b03c6c9dc6890012997003b78a57388fb136448869157ff6eccf85738580",
+          "fontPt": []
+        },
+        {
+          "id": "102",
+          "name": "tokens.3.key.3.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            136.4,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "e82beefb90855d5585892967f41300788355a23e8d7b194c8d911add77332a0f",
+          "fontPt": []
+        },
+        {
+          "id": "103",
+          "name": "tokens.3.key.4.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            122.0,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "eea66e0c35c943be48875aba6d75b0e68b7ba0a251176f978f9602eede5d3431",
+          "fontPt": []
+        },
+        {
+          "id": "104",
+          "name": "tokens.3.key.4.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            125.6,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "dbb43a8c0637afd55e90404708be7c3d154d10f3f4e71aebaaf7daca06c7a7ff",
+          "fontPt": []
+        },
+        {
+          "id": "105",
+          "name": "tokens.3.key.4.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            129.2,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "12ffdb54b9e329d6d4ad6f2889d002c32e16e07633fa58df6ef1a13cbd038469",
+          "fontPt": []
+        },
+        {
+          "id": "106",
+          "name": "tokens.3.key.4.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            132.8,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "a2c00d807c96edd3e379d4cd69c96786b813c267bd79c6728dbcfa355d9e14fd",
+          "fontPt": []
+        },
+        {
+          "id": "107",
+          "name": "tokens.3.key.4.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            136.4,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "eda47cb6425ce0262febf5ad4e355de53aa1a7c5bcc01d41ce3408dc702f5120",
+          "fontPt": []
+        },
+        {
+          "id": "848",
+          "name": "tokens.4.key",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            153.0,
+            99.0,
+            17.65,
+            17.65
+          ],
+          "fingerprint": "7108e53da76de2e3173a5094aff348e918d05bc48c00c00520588a859a67d8d3",
+          "fontPt": []
+        },
+        {
+          "id": "109",
+          "name": "tokens.4.key.0.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            153.0,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "a52e1bd792deeb1826b7573195e4e1c403cbc66c71b2cc794740e5624e6712b0",
+          "fontPt": []
+        },
+        {
+          "id": "110",
+          "name": "tokens.4.key.0.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            156.6,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "d700d041eee50cd408de694e548154f09273938476be68d687e80ba8cac18946",
+          "fontPt": []
+        },
+        {
+          "id": "111",
+          "name": "tokens.4.key.0.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            160.2,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "2af2a4ca073f4d2cc8a3f4a556f5194400be4ac2d040fa84750a19524f8dea8b",
+          "fontPt": []
+        },
+        {
+          "id": "112",
+          "name": "tokens.4.key.0.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            163.8,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "b5880e1e6315c171cd1476ddcd9b207d7ea2f39c253cb6186d8675e0303f922c",
+          "fontPt": []
+        },
+        {
+          "id": "113",
+          "name": "tokens.4.key.0.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            167.4,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "4e389488a474c8d7bf59735554a1fda1c36c19c35cc7671edeb7ef9654d6ea2c",
+          "fontPt": []
+        },
+        {
+          "id": "114",
+          "name": "tokens.4.key.1.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            153.0,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "4ab63e7cd9ac3474a56d96f466a5d8e0ba37d57bb83773fec085158304fba262",
+          "fontPt": []
+        },
+        {
+          "id": "115",
+          "name": "tokens.4.key.1.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            156.6,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "03603f39957cb78d12ff6696683dfb9901119c0861e147c391ae6bb3431e11c4",
+          "fontPt": []
+        },
+        {
+          "id": "116",
+          "name": "tokens.4.key.1.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            160.2,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "8678b1aea0a37c6376e53a2688114fa79cf9697903cf025604ffdb930c0e22e4",
+          "fontPt": []
+        },
+        {
+          "id": "117",
+          "name": "tokens.4.key.1.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            163.8,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "9d02e0619515353cbb56b1707d246302ab4b98774655cdbc2f22d21ab86e007a",
+          "fontPt": []
+        },
+        {
+          "id": "118",
+          "name": "tokens.4.key.1.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            167.4,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "d709967471345452355ad72c68e187e30a8ad4165edb2542b44a08d4e76c2969",
+          "fontPt": []
+        },
+        {
+          "id": "119",
+          "name": "tokens.4.key.2.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            153.0,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "45441f9911d51e8c1386cdb4a194d5d8e849a3bbe9ad1c0a0e284a2aef6789c5",
+          "fontPt": []
+        },
+        {
+          "id": "120",
+          "name": "tokens.4.key.2.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            156.6,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "e28259bcc8a697762fbab57ae953c51ccc20e1fc691e44fda79788f965aedbe8",
+          "fontPt": []
+        },
+        {
+          "id": "121",
+          "name": "tokens.4.key.2.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            160.2,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "42080e76f1ae2f8b2235abf225882f81d0d130585852f97ee4b72aa04d8911df",
+          "fontPt": []
+        },
+        {
+          "id": "122",
+          "name": "tokens.4.key.2.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            163.8,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "7b335fa7564c0c6d6a21646e62bb2bfdb17f5939fee539ac30c5a42c9ef160db",
+          "fontPt": []
+        },
+        {
+          "id": "123",
+          "name": "tokens.4.key.2.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            167.4,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "e5d3c1fa9d70d0c5d698c96b5c6fc34c21fd3d31692d6066f22720678de052d0",
+          "fontPt": []
+        },
+        {
+          "id": "124",
+          "name": "tokens.4.key.3.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            153.0,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "847e8db44798b35a47801c15388bfdcec7779f9d1a6591952367e6730aa9e01c",
+          "fontPt": []
+        },
+        {
+          "id": "125",
+          "name": "tokens.4.key.3.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            156.6,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "11b2af9cd45a3a52d1ed43fd6c066a5b1d48248c322d32e03dd28d182937ea11",
+          "fontPt": []
+        },
+        {
+          "id": "126",
+          "name": "tokens.4.key.3.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            160.2,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "97557fd1753c303e23097a90e25d76de9eaf2532fa843306210785d9bd15d993",
+          "fontPt": []
+        },
+        {
+          "id": "127",
+          "name": "tokens.4.key.3.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            163.8,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "287d3d374705297a9288e8bd0988a21ecef9e168df3fd7a84dbb709511ec0807",
+          "fontPt": []
+        },
+        {
+          "id": "128",
+          "name": "tokens.4.key.3.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            167.4,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "77aaee4ad93fe1b48524facde20ba4b7df63a6643e7dce06107b221157dca65d",
+          "fontPt": []
+        },
+        {
+          "id": "129",
+          "name": "tokens.4.key.4.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            153.0,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "69c5411b55d0763b1545f9ff2f5a49bce5417d9cac315c9d6a7d4d6eaab88c7b",
+          "fontPt": []
+        },
+        {
+          "id": "130",
+          "name": "tokens.4.key.4.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            156.6,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "a58d3c4d3d4046e7604cd5e36738e509f1e7422ed1dc84184f94bfbaebf1650d",
+          "fontPt": []
+        },
+        {
+          "id": "131",
+          "name": "tokens.4.key.4.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            160.2,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "e592fb85cb16dbaaed13c96e8ce1cbdb8cae76fa5b1615af4186b84693c564aa",
+          "fontPt": []
+        },
+        {
+          "id": "132",
+          "name": "tokens.4.key.4.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            163.8,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "65f6f68fdd41ca2f23f7884ae1015c94aa2a13d64c3a2f17ac5fc9aa79838e2d",
+          "fontPt": []
+        },
+        {
+          "id": "133",
+          "name": "tokens.4.key.4.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            167.4,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "7a343226eb42b848d583758822959c2de4a169b400cd0db058838786f069a978",
+          "fontPt": []
+        },
+        {
+          "id": "849",
+          "name": "tokens.5.key",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            184.0,
+            99.0,
+            17.65,
+            17.65
+          ],
+          "fingerprint": "c2829b61f87ae3224b224fde286af1662ec487d0b5e4108633597889054fd23a",
+          "fontPt": []
+        },
+        {
+          "id": "135",
+          "name": "tokens.5.key.0.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            184.0,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "053c28fc0be8627331be19afb0dcba33a9afbdae4646629a8c4ee5c1fd0b215a",
+          "fontPt": []
+        },
+        {
+          "id": "136",
+          "name": "tokens.5.key.0.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            187.6,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "7d8a761a50510d07b6f1c6c769a1a06c58fe2ea4fee9d67768510ff7eea02fe4",
+          "fontPt": []
+        },
+        {
+          "id": "137",
+          "name": "tokens.5.key.0.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            191.2,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "f79a3cac03659f5b009328aa73fe64093e91e239562052abf5cb12acccb4b6bf",
+          "fontPt": []
+        },
+        {
+          "id": "138",
+          "name": "tokens.5.key.0.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            194.8,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "516a22b677759575da07c01f8e4619db55a1f0045459d738504fa771e10a9ba3",
+          "fontPt": []
+        },
+        {
+          "id": "139",
+          "name": "tokens.5.key.0.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            198.4,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "b51a640c49514f93d3d9ad2d499006f37e2137ccc55c280d05cdbbca718b9717",
+          "fontPt": []
+        },
+        {
+          "id": "140",
+          "name": "tokens.5.key.1.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            184.0,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "dc1ee180e587d1a373553484bc4a4370c2af5ac65892b8e9115255fc4330958a",
+          "fontPt": []
+        },
+        {
+          "id": "141",
+          "name": "tokens.5.key.1.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            187.6,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "75dd99e5c7154feeaf67c7e89a2d92986bbd2a098a55061e3fc2c6f56e86b18f",
+          "fontPt": []
+        },
+        {
+          "id": "142",
+          "name": "tokens.5.key.1.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            191.2,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "dcfa5b99e9a5980f15b7551cb180db89c9843548fc1473d33a018015b408b293",
+          "fontPt": []
+        },
+        {
+          "id": "143",
+          "name": "tokens.5.key.1.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            194.8,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "dd6b59142131e7857cfa886d412d028bc0df3677b0e99b034e57018522dbd90b",
+          "fontPt": []
+        },
+        {
+          "id": "144",
+          "name": "tokens.5.key.1.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            198.4,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "31dc4921775ecf0414a0355ae162f2ed644c41d7630d11e839735cfd4775c21b",
+          "fontPt": []
+        },
+        {
+          "id": "145",
+          "name": "tokens.5.key.2.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            184.0,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "f550926a28dfaf471d7732629d9c6efa424dd7782386986bd9cc2a22b57c0d86",
+          "fontPt": []
+        },
+        {
+          "id": "146",
+          "name": "tokens.5.key.2.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            187.6,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "416a0d16e4314eed7faca98f183be3f3656819074fd0aefe6278b60b1691e784",
+          "fontPt": []
+        },
+        {
+          "id": "147",
+          "name": "tokens.5.key.2.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            191.2,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "9b34ee17cfa000763f2e4e95a09d0b5b285e2bcfe5bfd7f642581f01c9923756",
+          "fontPt": []
+        },
+        {
+          "id": "148",
+          "name": "tokens.5.key.2.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            194.8,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "3e9839bd9ab6b08a89a3a3586d6a5fd8919af6b3078f1c58b91c870563e8cf5d",
+          "fontPt": []
+        },
+        {
+          "id": "149",
+          "name": "tokens.5.key.2.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            198.4,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "e565d9e94b5190a8612552f6248e677cb985b127bec5b4ee8b17f22d1aae31dc",
+          "fontPt": []
+        },
+        {
+          "id": "150",
+          "name": "tokens.5.key.3.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            184.0,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "b3c6dd9f89582d4c2f65e329e7fd6fa05d8a8973f149437928a875eb1d529f40",
+          "fontPt": []
+        },
+        {
+          "id": "151",
+          "name": "tokens.5.key.3.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            187.6,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "358c2fdcef11022bd1f2e5d2a4d5c02a64118134a8fc94e07a22ae9b2b59a1b6",
+          "fontPt": []
+        },
+        {
+          "id": "152",
+          "name": "tokens.5.key.3.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            191.2,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "0376ebfed68099f69356757ac32b6c970a9c0885ad7d41fe8a906c91ec41226e",
+          "fontPt": []
+        },
+        {
+          "id": "153",
+          "name": "tokens.5.key.3.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            194.8,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "05f4f0bc2281336584cc6bf33e9eb355602e1ab093915c1b46901cde344ae0f0",
+          "fontPt": []
+        },
+        {
+          "id": "154",
+          "name": "tokens.5.key.3.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            198.4,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "032d20c85908b317d1d105b6b1241c9cf40fe9b377ef95ca322b266ecbefc2a1",
+          "fontPt": []
+        },
+        {
+          "id": "155",
+          "name": "tokens.5.key.4.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            184.0,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "4ef4f4c4b9d08d21486fc8b8522119e8b9d826af9227d3717470335595d3df0b",
+          "fontPt": []
+        },
+        {
+          "id": "156",
+          "name": "tokens.5.key.4.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            187.6,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "6b392436e7089ccc153943b27686fb3ba89f4278870c4535e0732c61c4ad86e6",
+          "fontPt": []
+        },
+        {
+          "id": "157",
+          "name": "tokens.5.key.4.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            191.2,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "a061404a5ec28584df722af8a067aba5742fd545c14c8309a9a5dc805c336bd4",
+          "fontPt": []
+        },
+        {
+          "id": "158",
+          "name": "tokens.5.key.4.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            194.8,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "115e2d87e00a4755b0b239407889314c26635e5ac7dabf593c3c80330231bdb1",
+          "fontPt": []
+        },
+        {
+          "id": "159",
+          "name": "tokens.5.key.4.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            198.4,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "e88c1b3473e45b38c39d6de1f6f793881b300409f08a5c7014128ce69878b38f",
+          "fontPt": []
+        },
+        {
+          "id": "160",
+          "name": "select",
+          "kind": "sp",
+          "text": "Select",
+          "boundsPx": [
+            262.0,
+            92.0,
+            107.0,
+            51.0
+          ],
+          "fingerprint": "ed9b7e0e8a669bb21dae5050e1d269519e1e7d0bb9dad2b6bd700eaf9ab10c38",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "584",
+          "name": "selection",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            211.0,
+            117.5001,
+            51.0,
+            0.0
+          ],
+          "fingerprint": "fdab7d16debda461931f5f8a961fa1a710992cee4f6a00112c22f4949fb0f65d",
+          "fontPt": []
+        },
+        {
+          "id": "162",
+          "name": "mask-note",
+          "kind": "sp",
+          "text": "2 and 5 omitted",
+          "boundsPx": [
+            25.0,
+            151.0,
+            182.0,
+            24.0
+          ],
+          "fingerprint": "e1a2abb479b84ae5403e906147d39508eac58e44784323bdf56379a54a1b56c9",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "163",
+          "name": "kept-port",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            418.0,
+            80.0,
+            218.0,
+            75.0
+          ],
+          "fingerprint": "74f3256beaa0bca9d40bcc15df394fee7142a0e546c44e92b0916b1bddf0edca",
+          "fontPt": []
+        },
+        {
+          "id": "855",
+          "name": "kept",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            424.0,
+            91.0,
+            202.0,
+            53.0
+          ],
+          "fingerprint": "8b4118db7f48d2cd4060aeb520691c70a1f4c85efc1d24217eb79f1a27c4452c",
+          "fontPt": []
+        },
+        {
+          "id": "164",
+          "name": "kept.0",
+          "kind": "sp",
+          "text": "1",
+          "boundsPx": [
+            424.0,
+            91.0,
+            43.0,
+            53.0
+          ],
+          "fingerprint": "0de4c24e70f952e6b6d45e33e40d7410d3a00ef5a40bf12333d2564a006e06d7",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "190",
+          "name": "kept.1",
+          "kind": "sp",
+          "text": "3",
+          "boundsPx": [
+            477.0,
+            91.0,
+            43.0,
+            53.0
+          ],
+          "fingerprint": "da728d5e905d94a5da8636c45e947974fe0fafc572d31fef7b2ba12d13d8f4d3",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "216",
+          "name": "kept.2",
+          "kind": "sp",
+          "text": "4",
+          "boundsPx": [
+            530.0,
+            91.0,
+            43.0,
+            53.0
+          ],
+          "fingerprint": "5ee398288bdae97391f854ff0cb9f3e05b990ebe6803a16cb72078a6c2abdcf7",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "242",
+          "name": "kept.3",
+          "kind": "sp",
+          "text": "6",
+          "boundsPx": [
+            583.0,
+            91.0,
+            43.0,
+            53.0
+          ],
+          "fingerprint": "799376046be766d430414e1ebade1de9cb5b63b3c3f68999c7239dcaef739709",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "851",
+          "name": "kept.0.key",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            436.0,
+            99.0,
+            17.65,
+            17.65
+          ],
+          "fingerprint": "53878aa6408602cbecd663dacd209ae0b712a88cb1e1f429f7de016e2c681c42",
+          "fontPt": []
+        },
+        {
+          "id": "165",
+          "name": "kept.0.key.0.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            436.0,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "732292ada40535acc53de27e145df86be30f5b8afbb307a2bcf320a7895a8295",
+          "fontPt": []
+        },
+        {
+          "id": "166",
+          "name": "kept.0.key.0.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            439.6,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "5a5941f9436d462f4789b27f43d9af6954b4d0f007d198e41b918ac19c6b4316",
+          "fontPt": []
+        },
+        {
+          "id": "167",
+          "name": "kept.0.key.0.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            443.2,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "fc46e608cd14f2a435708244462ccb901f6ff88ba1372d66799681b3277e61d6",
+          "fontPt": []
+        },
+        {
+          "id": "168",
+          "name": "kept.0.key.0.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            446.8,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "9457fc356adaf895e69ddc7d698f5868109e5b5df3e6efc078a8f1eb87538e0b",
+          "fontPt": []
+        },
+        {
+          "id": "169",
+          "name": "kept.0.key.0.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            450.4,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "9e2357903c79f020d0eb91bf4f1f6f153bddf1eb84aaa853eacbf9ef960a0e04",
+          "fontPt": []
+        },
+        {
+          "id": "170",
+          "name": "kept.0.key.1.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            436.0,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "12b2a6be0fd03b501a277d82855aeb2be8175ae888153efb47b0db30353fdd8b",
+          "fontPt": []
+        },
+        {
+          "id": "171",
+          "name": "kept.0.key.1.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            439.6,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "78b5c509456b0612650ba0a6d1e6678bbc57f54f9ff0163e8edfbb85ec584986",
+          "fontPt": []
+        },
+        {
+          "id": "172",
+          "name": "kept.0.key.1.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            443.2,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "0278a86879440042d7cce7fdc7443c90f36b941fe4a8a9db3f97c04993d5d66f",
+          "fontPt": []
+        },
+        {
+          "id": "173",
+          "name": "kept.0.key.1.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            446.8,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "f82e376d04743efd33b83a792cc6a62b13157b8149bea9cf2c34dead85739d5e",
+          "fontPt": []
+        },
+        {
+          "id": "174",
+          "name": "kept.0.key.1.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            450.4,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "f054abaaefb20b203c2ecd2ef0f3bcd4ffacb9313e1b5024a3ccc7ccb16907a8",
+          "fontPt": []
+        },
+        {
+          "id": "175",
+          "name": "kept.0.key.2.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            436.0,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "0df3bc2d005137333a04c90a4d89173d7c4928dfde08d5f6b76f5ab5e864c242",
+          "fontPt": []
+        },
+        {
+          "id": "176",
+          "name": "kept.0.key.2.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            439.6,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "e5d8c0000d5c7429ba621538920295dd530fcf9dc03ca02c05606c4dfb0ac434",
+          "fontPt": []
+        },
+        {
+          "id": "177",
+          "name": "kept.0.key.2.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            443.2,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "2a93f61648c4e806b6925dac0e6a64700aaf7af736acc48ec3aaba7ebee13499",
+          "fontPt": []
+        },
+        {
+          "id": "178",
+          "name": "kept.0.key.2.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            446.8,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "7dc9f4e9e8d9d47b71be6a94318be44e185d6239e581241f0893ab64074cff40",
+          "fontPt": []
+        },
+        {
+          "id": "179",
+          "name": "kept.0.key.2.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            450.4,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "d06f9d3d67bff9d930c98e8670b1869e613a78c3b7912515d7886c8d1c00351c",
+          "fontPt": []
+        },
+        {
+          "id": "180",
+          "name": "kept.0.key.3.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            436.0,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "ccd77a989935da329b3e33453e75e09bbf029373137faa23aa3b27ce35b715e5",
+          "fontPt": []
+        },
+        {
+          "id": "181",
+          "name": "kept.0.key.3.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            439.6,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "7387cf86485904196eefae442994f729a63309315609e02ca40a99579144dcb2",
+          "fontPt": []
+        },
+        {
+          "id": "182",
+          "name": "kept.0.key.3.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            443.2,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "0f0fc52cb743c8b58dcf4b394735e38d7fa4bd9f3fb836067abd39649037e8f2",
+          "fontPt": []
+        },
+        {
+          "id": "183",
+          "name": "kept.0.key.3.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            446.8,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "83e60b2dad21aa755bb049e922788e250ddba11ec8dbc33efbdad5b83f89e148",
+          "fontPt": []
+        },
+        {
+          "id": "184",
+          "name": "kept.0.key.3.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            450.4,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "6743e452f5749fa5b18affaabfc0962e29566ea0e6a2a8545ad3899f398bb9c0",
+          "fontPt": []
+        },
+        {
+          "id": "185",
+          "name": "kept.0.key.4.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            436.0,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "e09a7bcbb3d2ff4950f75f324ea9a105c8b5141f5f6fec72183f28d1c56e30a9",
+          "fontPt": []
+        },
+        {
+          "id": "186",
+          "name": "kept.0.key.4.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            439.6,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "a4be87385ea2cf2d64045c0b31cb80fbb065c2d4f4f2aa8c8b10feda300484ab",
+          "fontPt": []
+        },
+        {
+          "id": "187",
+          "name": "kept.0.key.4.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            443.2,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "43bf318b4147d0b884bdaa829586c7f9758c14ff83484de97e4e30faccb5957c",
+          "fontPt": []
+        },
+        {
+          "id": "188",
+          "name": "kept.0.key.4.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            446.8,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "0906533165d8caa679529bb6393cee4ebce2bf6e0bdb54dcdf07df0b5ede560a",
+          "fontPt": []
+        },
+        {
+          "id": "189",
+          "name": "kept.0.key.4.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            450.4,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "03f5050ccdede9f23c6b7f546b955b1e0ea5fba12e5ef8c1a3c0c240a2aa65a8",
+          "fontPt": []
+        },
+        {
+          "id": "852",
+          "name": "kept.1.key",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            489.0,
+            99.0,
+            17.65,
+            17.65
+          ],
+          "fingerprint": "8cc8a6baee97c916b76960b97bf64acd3227a8507502891ecce4927c16f62f23",
+          "fontPt": []
+        },
+        {
+          "id": "191",
+          "name": "kept.1.key.0.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            489.0,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "7126a426cb991ac9990d6c6794a9b429af86b2ad612dc74cd1dfe7c2af8fdb42",
+          "fontPt": []
+        },
+        {
+          "id": "192",
+          "name": "kept.1.key.0.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            492.6,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "cc88bb37250748cdc0bf11bdbf53d9b363b25ef931513bfbc9850f023ae430a6",
+          "fontPt": []
+        },
+        {
+          "id": "193",
+          "name": "kept.1.key.0.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            496.2,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "9d1b8c7f7dc37b81e8933b9f3f74e92c4f4c882dd396234edf072c31916d8f89",
+          "fontPt": []
+        },
+        {
+          "id": "194",
+          "name": "kept.1.key.0.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            499.8,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "2d51f1c22ce14601ccffda55b1a3e63172780ac833242d78c3866cb3ff90e03f",
+          "fontPt": []
+        },
+        {
+          "id": "195",
+          "name": "kept.1.key.0.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            503.4,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "d90a922d493fe43082adc232417896102cdb20e78f96557a249d28db82f1ce52",
+          "fontPt": []
+        },
+        {
+          "id": "196",
+          "name": "kept.1.key.1.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            489.0,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "daccb1a1bf954c4cad788ebecb87201e859af17c1042f1a097314c7959533c28",
+          "fontPt": []
+        },
+        {
+          "id": "197",
+          "name": "kept.1.key.1.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            492.6,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "1ff1b823a021c90aa575de035761f5e5d5d30e6e45ec909fe5713b77558a7520",
+          "fontPt": []
+        },
+        {
+          "id": "198",
+          "name": "kept.1.key.1.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            496.2,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "50b088264721d247a8c9d9de001a67464866830405e5ea68b1cd9aef41b6e6de",
+          "fontPt": []
+        },
+        {
+          "id": "199",
+          "name": "kept.1.key.1.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            499.8,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "4a220d959a7e1614eabc1b4c5faf268117e90025eeb7414bfd431c3cafe483eb",
+          "fontPt": []
+        },
+        {
+          "id": "200",
+          "name": "kept.1.key.1.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            503.4,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "cf78f0ecebf70f955f67a48d20d71bd2794d56ba63d44713209d070a5d726d74",
+          "fontPt": []
+        },
+        {
+          "id": "201",
+          "name": "kept.1.key.2.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            489.0,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "2ad5ecdd723cebc37ead44f0e994a37e7051063a7949e949270a25bbb2390961",
+          "fontPt": []
+        },
+        {
+          "id": "202",
+          "name": "kept.1.key.2.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            492.6,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "ba4fd546bb2e1d7c833564cae5f3de70d45773e07196c144dc1b9b379844973a",
+          "fontPt": []
+        },
+        {
+          "id": "203",
+          "name": "kept.1.key.2.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            496.2,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "724ad16a77b1a54eb07415b319e2f89c47d2581eb337f51e0a5fc8b953d81c05",
+          "fontPt": []
+        },
+        {
+          "id": "204",
+          "name": "kept.1.key.2.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            499.8,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "f9be0ae67e19476c9597ce595c678a42dfc7f69e925e14a3f98f3379004a14ce",
+          "fontPt": []
+        },
+        {
+          "id": "205",
+          "name": "kept.1.key.2.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            503.4,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "b34c53055445418335db183bb5ef7b628146b1255668535f4ac2bf00bfd35233",
+          "fontPt": []
+        },
+        {
+          "id": "206",
+          "name": "kept.1.key.3.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            489.0,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "7ea5a87ed729a4a6c7cb7180d49fa5a6df71c5b9a0fa8b70e2a3e3ff3f2622c5",
+          "fontPt": []
+        },
+        {
+          "id": "207",
+          "name": "kept.1.key.3.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            492.6,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "03fec93e389cdc5bb6d3887c8ade64bc293123cfc33e9fc2f19bca54949a0a4f",
+          "fontPt": []
+        },
+        {
+          "id": "208",
+          "name": "kept.1.key.3.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            496.2,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "5695d649dd687cc39f272064b3464695ca08ba0e6f85686cada44de70e043445",
+          "fontPt": []
+        },
+        {
+          "id": "209",
+          "name": "kept.1.key.3.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            499.8,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "2592b76571542b1bb78aa767011ec056859595388c996a82a7787ec1c235d718",
+          "fontPt": []
+        },
+        {
+          "id": "210",
+          "name": "kept.1.key.3.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            503.4,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "a4d8b9b3a913caca68aaf582efdb36120eefdff9f9c1183532ae8d6e4c8ad1e9",
+          "fontPt": []
+        },
+        {
+          "id": "211",
+          "name": "kept.1.key.4.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            489.0,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "f7d240b85e72674392576eaf151756723d9a1f1ff135cf1eba49033cce3bdee7",
+          "fontPt": []
+        },
+        {
+          "id": "212",
+          "name": "kept.1.key.4.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            492.6,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "67867c96aea121eeef8940d8b0562d728d317b1568ed428254f12cd2f286b6f0",
+          "fontPt": []
+        },
+        {
+          "id": "213",
+          "name": "kept.1.key.4.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            496.2,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "aecd34fdc3af9b6f5c65656cad4247d0bdd1404acbacb5dad1c0d58e3bfebfa0",
+          "fontPt": []
+        },
+        {
+          "id": "214",
+          "name": "kept.1.key.4.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            499.8,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "c54d63bb26060c494e449c6ee6a354bcd36cafaff952bd7aec58c501924e1474",
+          "fontPt": []
+        },
+        {
+          "id": "215",
+          "name": "kept.1.key.4.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            503.4,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "74af256abee55410b79a4793f27269873a9714ac61e5ec5f8975b93842772f46",
+          "fontPt": []
+        },
+        {
+          "id": "853",
+          "name": "kept.2.key",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            542.0,
+            99.0,
+            17.65,
+            17.65
+          ],
+          "fingerprint": "f93b81bc23c15cc9b45c2393d37a7aee1d727ca268260ae9704277a1fa4bb4c2",
+          "fontPt": []
+        },
+        {
+          "id": "217",
+          "name": "kept.2.key.0.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            542.0,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "0f01178ade62f2096d65ef60ac8e71376ecbe092b1850b3a27f02493b549c62d",
+          "fontPt": []
+        },
+        {
+          "id": "218",
+          "name": "kept.2.key.0.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            545.6,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "0f2b0f4ca9dab2a5b10fe01a1ffcf9909e3d231ac71246eab156cf8007f71797",
+          "fontPt": []
+        },
+        {
+          "id": "219",
+          "name": "kept.2.key.0.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            549.2,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "c1983cf5fa9f2c55407e160c93e19ae6a741bb881e51f62d3e48e2a19d2fc97b",
+          "fontPt": []
+        },
+        {
+          "id": "220",
+          "name": "kept.2.key.0.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            552.8,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "1529de3a221523645e2676e94599552f251f1f833483283d3a31f4bf180c4433",
+          "fontPt": []
+        },
+        {
+          "id": "221",
+          "name": "kept.2.key.0.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            556.4,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "0818ab0b6e4cc017b2008ed5b4ce0d5c414740ff07bbc1a0e9fa01767b86bfc0",
+          "fontPt": []
+        },
+        {
+          "id": "222",
+          "name": "kept.2.key.1.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            542.0,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "fe7e5db4e3816745b331fadcc2903a67e54ad3b5f05f6581f4d13ac60386f1a9",
+          "fontPt": []
+        },
+        {
+          "id": "223",
+          "name": "kept.2.key.1.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            545.6,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "cb576b169b0fef2cccdc57d70f7ec5a2bf737cda1be1bf3dbd949d0123757a74",
+          "fontPt": []
+        },
+        {
+          "id": "224",
+          "name": "kept.2.key.1.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            549.2,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "48995dc6e6ddda8c5b5c1dd48513eeb28f5a58e55608a808ea9631595139649e",
+          "fontPt": []
+        },
+        {
+          "id": "225",
+          "name": "kept.2.key.1.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            552.8,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "62e4cb73ce035625241061a4d3842a1d142da964584752fbe9ed2b92999b4e59",
+          "fontPt": []
+        },
+        {
+          "id": "226",
+          "name": "kept.2.key.1.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            556.4,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "f88f29e4f03c8eac515c39e77a81f7efe4be546586af3b711228aa188054bcc6",
+          "fontPt": []
+        },
+        {
+          "id": "227",
+          "name": "kept.2.key.2.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            542.0,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "b08d5b3a16814dccf8de02e589d3a89063bb3fbb7bb8eea8775e3d27b6207170",
+          "fontPt": []
+        },
+        {
+          "id": "228",
+          "name": "kept.2.key.2.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            545.6,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "f9fe7b40b1b0d7c62bb8ca94ddd2e4fa2912978adae17ae921d1853866e19cb6",
+          "fontPt": []
+        },
+        {
+          "id": "229",
+          "name": "kept.2.key.2.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            549.2,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "a9ba5b7c4713e6db38d84c400641a545171ed59ec49b0b652229fadb182d41c6",
+          "fontPt": []
+        },
+        {
+          "id": "230",
+          "name": "kept.2.key.2.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            552.8,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "cf676930c29aeade9e08894c9928d1861b6440e130879019a1f7d224e0a8fe37",
+          "fontPt": []
+        },
+        {
+          "id": "231",
+          "name": "kept.2.key.2.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            556.4,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "8e840cf2ef007b28a7004fff7f1af34e1526407295ede389f4a05aa15742b64f",
+          "fontPt": []
+        },
+        {
+          "id": "232",
+          "name": "kept.2.key.3.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            542.0,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "42ddb318f11b6780d06010ebba03fcc57563e16515aeefd228fe97ecac665682",
+          "fontPt": []
+        },
+        {
+          "id": "233",
+          "name": "kept.2.key.3.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            545.6,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "5430a914a3d5c2321e4c504d349871ff4803a8f9deefab06b5e1b6b61e1cd5f7",
+          "fontPt": []
+        },
+        {
+          "id": "234",
+          "name": "kept.2.key.3.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            549.2,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "3342caca018af9302ca4b6ca6674d3547a39d99606ef15021cbb790a4c6d31a3",
+          "fontPt": []
+        },
+        {
+          "id": "235",
+          "name": "kept.2.key.3.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            552.8,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "360968a7e7d7f38ebb2137bb365a8e28b6f13847fef433078697fd38ddd7398c",
+          "fontPt": []
+        },
+        {
+          "id": "236",
+          "name": "kept.2.key.3.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            556.4,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "c585dcc802acc69407df1873ef78f0161fd9f61ab43377d262fcfb3aff3356e9",
+          "fontPt": []
+        },
+        {
+          "id": "237",
+          "name": "kept.2.key.4.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            542.0,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "79728e5bb4c6fbdbbf2674dde27dba8eb6741a0c6d289eab39c9fc931987861b",
+          "fontPt": []
+        },
+        {
+          "id": "238",
+          "name": "kept.2.key.4.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            545.6,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "b0c8295445c2722172a015274241ef0e540e2e6f9aac6b2f7b4b53d79a821bcd",
+          "fontPt": []
+        },
+        {
+          "id": "239",
+          "name": "kept.2.key.4.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            549.2,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "1aa3308182eb7083a8b7ce495471a3791d5f195db3717d0e8dfe1bacdddc372c",
+          "fontPt": []
+        },
+        {
+          "id": "240",
+          "name": "kept.2.key.4.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            552.8,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "2e25186f892a846a7b2ce54b7ce369cf7eacf0f823c4ae35ae562537d1e059e6",
+          "fontPt": []
+        },
+        {
+          "id": "241",
+          "name": "kept.2.key.4.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            556.4,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "b823852fc65cfe3c067777a24cfb0534ef188ff4f9e5317b02c665749769c390",
+          "fontPt": []
+        },
+        {
+          "id": "854",
+          "name": "kept.3.key",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            595.0,
+            99.0,
+            17.65,
+            17.65
+          ],
+          "fingerprint": "c64de8d5f7ad9f35f3dc6faa919ec839a1ea74a56b3b933b2c7fb263005aa7f5",
+          "fontPt": []
+        },
+        {
+          "id": "243",
+          "name": "kept.3.key.0.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            595.0,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "5015298f97fd9580fdc367d1487c79b219075fcec16b06f448086f96bf70c11f",
+          "fontPt": []
+        },
+        {
+          "id": "244",
+          "name": "kept.3.key.0.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            598.6,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "6e14a52cd96e6d6868cb3c5005972382ed41e65d3c056acc8d6b4a6c9f3f176d",
+          "fontPt": []
+        },
+        {
+          "id": "245",
+          "name": "kept.3.key.0.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            602.2,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "fa7c431f712755bb466edc3c4e72bf3a71e141012d5552bd9dcc90cf7efbc6de",
+          "fontPt": []
+        },
+        {
+          "id": "246",
+          "name": "kept.3.key.0.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            605.8,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "996597b784d71ccb60283064db889fa864efc8f074333b49c479e5d7e76bedc4",
+          "fontPt": []
+        },
+        {
+          "id": "247",
+          "name": "kept.3.key.0.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            609.4,
+            99.0,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "af703c87d2909860b4e9a82b5c75701142f4192b00b0483ba0066be956524cce",
+          "fontPt": []
+        },
+        {
+          "id": "248",
+          "name": "kept.3.key.1.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            595.0,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "c5f343a6ea4360071b376d51ea936e1c047034856cde2c7cba3371d7e4bb8753",
+          "fontPt": []
+        },
+        {
+          "id": "249",
+          "name": "kept.3.key.1.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            598.6,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "5d355dd0de44a3ed022819d02ec600ddb8c786e04c80b5a8b1240f67b3a6fb60",
+          "fontPt": []
+        },
+        {
+          "id": "250",
+          "name": "kept.3.key.1.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            602.2,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "903445cf213958b9004c025848ebf612ed49c3b1ab54744c05a7684124f2374d",
+          "fontPt": []
+        },
+        {
+          "id": "251",
+          "name": "kept.3.key.1.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            605.8,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "b1bc790887cf8bb5e6d10d278436fb7b9ba87b4df60e546abe0f83fc76c7a192",
+          "fontPt": []
+        },
+        {
+          "id": "252",
+          "name": "kept.3.key.1.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            609.4,
+            102.6,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "b40561344c04a2bcfb34726042e60f6335ebbaa1c7ae69d23b4d21fb12929513",
+          "fontPt": []
+        },
+        {
+          "id": "253",
+          "name": "kept.3.key.2.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            595.0,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "d23632ecfcc4488ec58310daa2efc9179ad8cd4f2551c8ca55490b52d9c081b2",
+          "fontPt": []
+        },
+        {
+          "id": "254",
+          "name": "kept.3.key.2.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            598.6,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "133bfc7be086888c01cf33eb496e87a80e239e02677ca56cceff3cb3d14c7135",
+          "fontPt": []
+        },
+        {
+          "id": "255",
+          "name": "kept.3.key.2.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            602.2,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "785b653a004f3bfb8567cea94536f06bf6698b6abcd6b8f2472e8a018cae69b1",
+          "fontPt": []
+        },
+        {
+          "id": "256",
+          "name": "kept.3.key.2.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            605.8,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "1a5fb9dcde6848111abf6a5a1e495fd1ed35cb6e3c6e8653f9ae20b9c421eefd",
+          "fontPt": []
+        },
+        {
+          "id": "257",
+          "name": "kept.3.key.2.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            609.4,
+            106.2,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "d73cfb9a8959004c397210b80e19cbbaf4dfda7a6b6abea0a0ae703650e2e638",
+          "fontPt": []
+        },
+        {
+          "id": "258",
+          "name": "kept.3.key.3.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            595.0,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "e92a3d745cc3b8c189c5bef7f63742e4643c07f6b341ba09ed52fcba6bee7026",
+          "fontPt": []
+        },
+        {
+          "id": "259",
+          "name": "kept.3.key.3.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            598.6,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "abb91baccc9767dc030cce869d7a53098243b6a0fad7f956c8b57ac04c96f583",
+          "fontPt": []
+        },
+        {
+          "id": "260",
+          "name": "kept.3.key.3.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            602.2,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "756e74d057ea1fd7af90896ae65af1f468a0be701796e9a38303ffa6d13b2330",
+          "fontPt": []
+        },
+        {
+          "id": "261",
+          "name": "kept.3.key.3.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            605.8,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "bffe6af93a67171eebdf104de64f74e2f0ddd2c339cc8e345386e7fa173b1f56",
+          "fontPt": []
+        },
+        {
+          "id": "262",
+          "name": "kept.3.key.3.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            609.4,
+            109.8,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "d3045950b704edda6ea7c989a3231db9bb76720bbeed94ea69c622f6c6fa4d86",
+          "fontPt": []
+        },
+        {
+          "id": "263",
+          "name": "kept.3.key.4.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            595.0,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "7cb93bee6f68b46187765b97db98d332403759853b8655e6170f5f37ddf4bfbc",
+          "fontPt": []
+        },
+        {
+          "id": "264",
+          "name": "kept.3.key.4.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            598.6,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "1dce3e367e4fb27b337a979bc86e04ae76b573ef38bad5da752d20685de6ed47",
+          "fontPt": []
+        },
+        {
+          "id": "265",
+          "name": "kept.3.key.4.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            602.2,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "24eaab6b41c57ec4de1f000569c49ed4f9bf83f071bc0ec4092fab075412c3af",
+          "fontPt": []
+        },
+        {
+          "id": "266",
+          "name": "kept.3.key.4.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            605.8,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "83580163a8ddb996ba747230a0b6d95b10c8a47e40c0b602e4802ae185fb85ba",
+          "fontPt": []
+        },
+        {
+          "id": "267",
+          "name": "kept.3.key.4.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            609.4,
+            113.4,
+            3.25,
+            3.25
+          ],
+          "fingerprint": "3d4278e57b531524d36f541fd13fa76fae846c60a332dd845b633417083dfbc7",
+          "fontPt": []
+        },
+        {
+          "id": "691",
+          "name": "retained",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            369.0,
+            117.5001,
+            49.0,
+            0.0
+          ],
+          "fingerprint": "fb2b9257baea531ae3f6b970fb5968870ab73d92693d5b655b8fd6e1c8d3d51c",
+          "fontPt": []
+        },
+        {
+          "id": "269",
+          "name": "detail-divider",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            18.0,
+            188.0,
+            636.0,
+            0.01
+          ],
+          "fingerprint": "a5d8bd43d84357d69ebbf96576c879d75b12fec000cbf1f2e92237c8675fa461",
+          "fontPt": []
+        },
+        {
+          "id": "270",
+          "name": "weighted-title",
+          "kind": "sp",
+          "text": "(b) Form a weighted summary",
+          "boundsPx": [
+            18.0,
+            204.0,
+            345.0,
+            23.0
+          ],
+          "fingerprint": "2c954b0aab2162318bdd87222103f787bd7b97b938006e9b5a13230337a263f8",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "271",
+          "name": "weight-port",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            28.0,
+            236.0,
+            370.0,
+            112.0
+          ],
+          "fingerprint": "1c0414769eb7b52981d4908fab6574e689118a61ae1a98dcb2649a9f3191faf1",
+          "fontPt": []
+        },
+        {
+          "id": "272",
+          "name": "weighted-pair0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            40.0,
+            245.0,
+            62.0,
+            94.0
+          ],
+          "fingerprint": "b7d15c4182e289b344e2df89af29725cce98b1846ac0f8dfd71aaa4836a36a17",
+          "fontPt": []
+        },
+        {
+          "id": "856",
+          "name": "selected-key0",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            50.0,
+            248.0,
+            11.65,
+            11.65
+          ],
+          "fingerprint": "19d9309617bae5f7cac317dfd55436041118f3e33399af70a3f1431752a276bb",
+          "fontPt": []
+        },
+        {
+          "id": "273",
+          "name": "selected-key0.0.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            50.0,
+            248.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "b2e0e84f34767642be3e011e21e6925d2e3e7048c385e0d732ed25431bc9c579",
+          "fontPt": []
+        },
+        {
+          "id": "274",
+          "name": "selected-key0.0.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            52.4,
+            248.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "744acb13fcfc6cfd36698cd7c4d86aba461bf18e4f3e9566455035854c79c92b",
+          "fontPt": []
+        },
+        {
+          "id": "275",
+          "name": "selected-key0.0.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            54.8,
+            248.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "0a709264702052aa48f4b0b26e306b86f563bbd93f5d2bfb2a4da235e3eb0351",
+          "fontPt": []
+        },
+        {
+          "id": "276",
+          "name": "selected-key0.0.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            57.2,
+            248.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "c44a495ab319eb8a65e9b5dd472c0b9d583dca634b231b01152c1fb18004c65e",
+          "fontPt": []
+        },
+        {
+          "id": "277",
+          "name": "selected-key0.0.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            59.6,
+            248.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "16a15fb2a5ae93e6dd7922d2914866a5725c5cb69d365b737267cfce3f258f69",
+          "fontPt": []
+        },
+        {
+          "id": "278",
+          "name": "selected-key0.1.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            50.0,
+            250.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "8be93e86c6ea76dc645c636d41df25e6638ae565620f9b0e8da486f20f043adf",
+          "fontPt": []
+        },
+        {
+          "id": "279",
+          "name": "selected-key0.1.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            52.4,
+            250.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "8a4bdfbe47b193c52d0bd45540618a9ea46adf8d95aaa60ab6c73e904d838c44",
+          "fontPt": []
+        },
+        {
+          "id": "280",
+          "name": "selected-key0.1.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            54.8,
+            250.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "37cc36841833b0bc5c462ef7b8f2f0c1fa7c5990973f693e0cb54ac5550f710d",
+          "fontPt": []
+        },
+        {
+          "id": "281",
+          "name": "selected-key0.1.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            57.2,
+            250.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "fb4a25eab955059ea55f0e110916d35f29df65861542f0809cff56d3da5ea940",
+          "fontPt": []
+        },
+        {
+          "id": "282",
+          "name": "selected-key0.1.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            59.6,
+            250.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "639ff179913f37ae2891d44fe86523325ca9feb5c226b59cad778698a2623d9e",
+          "fontPt": []
+        },
+        {
+          "id": "283",
+          "name": "selected-key0.2.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            50.0,
+            252.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "eeebc29ffee641069b88feb036cd3304338d067a4ee687dcaf6289ec3242d079",
+          "fontPt": []
+        },
+        {
+          "id": "284",
+          "name": "selected-key0.2.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            52.4,
+            252.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "3eecdcbd06922bcb9aede04fd882e73cd287e2419045ffc7aa3af59b76c0d21f",
+          "fontPt": []
+        },
+        {
+          "id": "285",
+          "name": "selected-key0.2.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            54.8,
+            252.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "d3fc0fa03ba146c26374434b7c4efe7b29eb46381b20f6c6704d724c9be63bed",
+          "fontPt": []
+        },
+        {
+          "id": "286",
+          "name": "selected-key0.2.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            57.2,
+            252.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "9fbb55868be005bf2623ed6c23644a89561fcfeb88c77ef467178d54ccf32c02",
+          "fontPt": []
+        },
+        {
+          "id": "287",
+          "name": "selected-key0.2.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            59.6,
+            252.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "3e19c7ec30f6392d3c6a6e0128b546af373978e80658955c2dc405626d9b2f45",
+          "fontPt": []
+        },
+        {
+          "id": "288",
+          "name": "selected-key0.3.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            50.0,
+            255.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "01b81a40dca316b6daaa3fe9c6889ac8e5b80dfaee54d6d84a6ed8101161e7b9",
+          "fontPt": []
+        },
+        {
+          "id": "289",
+          "name": "selected-key0.3.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            52.4,
+            255.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "0016da5608132e541644828db393209ea28bccd601cd8df489855a484413c8ae",
+          "fontPt": []
+        },
+        {
+          "id": "290",
+          "name": "selected-key0.3.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            54.8,
+            255.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "fc00a395e4bd9888c5dd04e4ef4bed89d79bdbc71dd9e4c4d9174cdf6db455a6",
+          "fontPt": []
+        },
+        {
+          "id": "291",
+          "name": "selected-key0.3.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            57.2,
+            255.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "8786410261a9c36512a373a60db4e19d6d29be1a12c5660fd697d7f0d92ed554",
+          "fontPt": []
+        },
+        {
+          "id": "292",
+          "name": "selected-key0.3.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            59.6,
+            255.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "084578d63d380e147712f50d06b19bfd483e606f4dda44ec3c10d312512bb54d",
+          "fontPt": []
+        },
+        {
+          "id": "293",
+          "name": "selected-key0.4.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            50.0,
+            257.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "556b0f386dada23fe9a5a9a38fe3a3b251aa526c7261499c247c6c0e72cb13e7",
+          "fontPt": []
+        },
+        {
+          "id": "294",
+          "name": "selected-key0.4.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            52.4,
+            257.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "2c83b8514e7b074eea69864acce5017c0e7fa9b850369f43401e8fac74ef4d90",
+          "fontPt": []
+        },
+        {
+          "id": "295",
+          "name": "selected-key0.4.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            54.8,
+            257.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "caaa4ca84b249f976e33bbd9a173e628f73c4d74fa348d4808a688a7f1491d87",
+          "fontPt": []
+        },
+        {
+          "id": "296",
+          "name": "selected-key0.4.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            57.2,
+            257.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "4bf079bd7376ed3bd7480d8dc4964052af408f1b1d10b5dd08079b1a0cb6b4dc",
+          "fontPt": []
+        },
+        {
+          "id": "297",
+          "name": "selected-key0.4.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            59.6,
+            257.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "d97549000b2a685c2fddfd3fdecaba9ada1deb5a288812f0a67b54fad299ee29",
+          "fontPt": []
+        },
+        {
+          "id": "298",
+          "name": "selected-name0",
+          "kind": "sp",
+          "text": "v\u2081",
+          "boundsPx": [
+            66.0,
+            241.0,
+            29.0,
+            22.0
+          ],
+          "fingerprint": "efa86d24f16e45a7fd9debcef032fd27c9768333b103d2a277e911455f6e6868",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "857",
+          "name": "weighted-vector0",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            49.0,
+            268.0,
+            42.0,
+            31.0001
+          ],
+          "fingerprint": "f80d4251f2c11941d2d7c900cb65b45869830c81ff93e0ffea5d3a7c377c50fb",
+          "fontPt": []
+        },
+        {
+          "id": "299",
+          "name": "weighted-vector0.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            49.0,
+            268.0,
+            9.0,
+            31.0
+          ],
+          "fingerprint": "d1176f01537a00ae2ebd5cfdecb625c372e736d591ca5f124a9e0f488aaf5d29",
+          "fontPt": []
+        },
+        {
+          "id": "300",
+          "name": "weighted-vector0.0.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            49.0,
+            288.15,
+            9.0,
+            10.85
+          ],
+          "fingerprint": "3f541bc118618a6ce9647a1535cf27801d2fc16962d10dc2b35b741fee228818",
+          "fontPt": []
+        },
+        {
+          "id": "301",
+          "name": "weighted-vector0.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            60.0,
+            268.0,
+            9.0,
+            31.0
+          ],
+          "fingerprint": "53de1f2bf5021d0726b36ef7b84dc585571071dbcd9997126dcf23c24cd47754",
+          "fontPt": []
+        },
+        {
+          "id": "302",
+          "name": "weighted-vector0.1.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            60.0,
+            274.2,
+            9.0,
+            24.8
+          ],
+          "fingerprint": "62710c10adaea6f3798987cdd897aebcd52681cb0de70d8c6b9fb5b6ae9eb706",
+          "fontPt": []
+        },
+        {
+          "id": "303",
+          "name": "weighted-vector0.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            71.0,
+            268.0,
+            9.0,
+            31.0
+          ],
+          "fingerprint": "c2c49370f5206f38a5e4e1a5482cd36e470e712708d189b6fb0bf6760254c968",
+          "fontPt": []
+        },
+        {
+          "id": "304",
+          "name": "weighted-vector0.2.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            71.0,
+            283.5001,
+            9.0,
+            15.5001
+          ],
+          "fingerprint": "28f383e3d40375f95cac19690519845d5644b3809fb3f50b30213b043959fe18",
+          "fontPt": []
+        },
+        {
+          "id": "305",
+          "name": "weighted-vector0.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            82.0,
+            268.0,
+            9.0,
+            31.0
+          ],
+          "fingerprint": "b3c2f54272b14810af893788277fb81355b29352739108c45ad04d5eaf7bb9f3",
+          "fontPt": []
+        },
+        {
+          "id": "306",
+          "name": "weighted-vector0.3.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            82.0,
+            278.85,
+            9.0,
+            20.15
+          ],
+          "fingerprint": "0abb4676e149804d6dc1999a2da5ef29275b929cea460006c0ce77e6ee79807a",
+          "fontPt": []
+        },
+        {
+          "id": "864",
+          "name": "weights",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            48.0,
+            307.0,
+            304.0,
+            27.0
+          ],
+          "fingerprint": "ef6749e2b473cbad2f2dff0d66f05a459fb3d1769f01705ab2f3cf14f7731a14",
+          "fontPt": []
+        },
+        {
+          "id": "307",
+          "name": "weights.0.0",
+          "kind": "sp",
+          "text": ".5",
+          "boundsPx": [
+            48.0,
+            307.0,
+            46.0,
+            27.0
+          ],
+          "fingerprint": "5daef592b29d3f78d3a69180848916a6f62dbff04cef69059737d7764aaa650b",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "343",
+          "name": "weights.0.1",
+          "kind": "sp",
+          "text": ".2",
+          "boundsPx": [
+            134.0,
+            307.0,
+            46.0,
+            27.0
+          ],
+          "fingerprint": "478c8fdb8467806acbeb34186446893681a553cbd572d5671a5fa27acbfd3be2",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "379",
+          "name": "weights.0.2",
+          "kind": "sp",
+          "text": ".2",
+          "boundsPx": [
+            220.0,
+            307.0,
+            46.0,
+            27.0
+          ],
+          "fingerprint": "2f915ce80b84458eb83a235995cbb063d168fab5a8357125b4ca9ab1fa441ce8",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "415",
+          "name": "weights.0.3",
+          "kind": "sp",
+          "text": ".1",
+          "boundsPx": [
+            306.0,
+            307.0,
+            46.0,
+            27.0
+          ],
+          "fingerprint": "8a72b9f70b71f4f30ac0cef68ab140ba2d577feb512eeea4a628aee7698ec3ca",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "308",
+          "name": "weighted-pair1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            126.0,
+            245.0,
+            62.0,
+            94.0
+          ],
+          "fingerprint": "bff97dc4315e8939dc76b33db29589c5814be2c0d9ae15a062607fdce65af37b",
+          "fontPt": []
+        },
+        {
+          "id": "858",
+          "name": "selected-key1",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            136.0,
+            248.0,
+            11.65,
+            11.65
+          ],
+          "fingerprint": "76e199369ff74dc0db226c1b1cf43aeaecd5b0cb41c92b14d05bbae94fe19442",
+          "fontPt": []
+        },
+        {
+          "id": "309",
+          "name": "selected-key1.0.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            136.0,
+            248.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "9cd27a52475c8dd8cedb54a493aa7c1e6b665bcc0b699218975ce1865d49d3ae",
+          "fontPt": []
+        },
+        {
+          "id": "310",
+          "name": "selected-key1.0.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            138.4,
+            248.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "eb56db62a80c57429821c9c461944d2407d23c7a030f41fa2eb22109be09658d",
+          "fontPt": []
+        },
+        {
+          "id": "311",
+          "name": "selected-key1.0.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            140.8,
+            248.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "318ca0bc7733096991e5943b8551be8e427809dc6c6b0f7819b6d4beab462cc6",
+          "fontPt": []
+        },
+        {
+          "id": "312",
+          "name": "selected-key1.0.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            143.2,
+            248.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "3ee9a49f1f8eaaab4cf80c6e9ad8033fc6ba6ceccb394fa049e0a732d944605f",
+          "fontPt": []
+        },
+        {
+          "id": "313",
+          "name": "selected-key1.0.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            145.6,
+            248.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "cd9e8b60dc91413d3020644109a55d41780e1be0c8ddebd041314853438144c8",
+          "fontPt": []
+        },
+        {
+          "id": "314",
+          "name": "selected-key1.1.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            136.0,
+            250.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "07ca1c2a708581f52573660ab915f7ff254bbe6d6ab7c4938a115300ae66160a",
+          "fontPt": []
+        },
+        {
+          "id": "315",
+          "name": "selected-key1.1.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            138.4,
+            250.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "a33263b78a052dfbbdd5b15650828118a21b5db2ac60826038f3c0cf05752a3f",
+          "fontPt": []
+        },
+        {
+          "id": "316",
+          "name": "selected-key1.1.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            140.8,
+            250.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "1e5031b2bba31dbcb1faef7049c7ba19692f44f9d7e0b3857b170a7ebf556dab",
+          "fontPt": []
+        },
+        {
+          "id": "317",
+          "name": "selected-key1.1.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            143.2,
+            250.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "311be8619701c5ea4b3242bfdff8cb3f9b11ad3e459f49597b611c562e94b890",
+          "fontPt": []
+        },
+        {
+          "id": "318",
+          "name": "selected-key1.1.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            145.6,
+            250.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "196267cf08128a2796239af68e9a32901476e8d496752a5332caf47d95988b13",
+          "fontPt": []
+        },
+        {
+          "id": "319",
+          "name": "selected-key1.2.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            136.0,
+            252.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "3fe3c37ac63ec767bb1f752a05cce273b1fd7c8630b34de52582b08f9f796821",
+          "fontPt": []
+        },
+        {
+          "id": "320",
+          "name": "selected-key1.2.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            138.4,
+            252.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "c8a806f36fb2c7e3c49a985fc4e73c2813106ee1f5433f8373d2652ac9022829",
+          "fontPt": []
+        },
+        {
+          "id": "321",
+          "name": "selected-key1.2.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            140.8,
+            252.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "ae961d3238c3e8c1d64dfc4d2761ec604bb0909bcbb7be79e99cafd712dbee6d",
+          "fontPt": []
+        },
+        {
+          "id": "322",
+          "name": "selected-key1.2.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            143.2,
+            252.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "78f5c3e88aa3cf076ee4bad4e310f4b085f0e4f28f0a94ae2a92ff55a8438cdc",
+          "fontPt": []
+        },
+        {
+          "id": "323",
+          "name": "selected-key1.2.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            145.6,
+            252.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "4fdef1a188869d73b324aed1db841247ad6780cf0a712dfbbd91c4aa5de3cfcc",
+          "fontPt": []
+        },
+        {
+          "id": "324",
+          "name": "selected-key1.3.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            136.0,
+            255.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "99b9f57ab90729ea6cec16adca0b75d9cbf238646e1e33a1314d576f729ff922",
+          "fontPt": []
+        },
+        {
+          "id": "325",
+          "name": "selected-key1.3.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            138.4,
+            255.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "c167199b5d88e8cde240fd46c3b3b2923298423df7885cf0dc8eadb2eaf9074a",
+          "fontPt": []
+        },
+        {
+          "id": "326",
+          "name": "selected-key1.3.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            140.8,
+            255.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "9403ba6a337cf96ed0c9730b242917e6f933925e9d31ea64d0bda64155d389d5",
+          "fontPt": []
+        },
+        {
+          "id": "327",
+          "name": "selected-key1.3.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            143.2,
+            255.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "b9e9e312d08900bfe588cd488b29f0b96c4bb733a3b1c78c09e576ae5cc1f2ac",
+          "fontPt": []
+        },
+        {
+          "id": "328",
+          "name": "selected-key1.3.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            145.6,
+            255.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "94b86badcd7da2a95658557eea25b834912a1ee9b71d52d51710c203f2a7912a",
+          "fontPt": []
+        },
+        {
+          "id": "329",
+          "name": "selected-key1.4.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            136.0,
+            257.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "7c0e922b2233e5b5a1c95c5036e438fb32fc4af097b4846d13cbaa69f58c8617",
+          "fontPt": []
+        },
+        {
+          "id": "330",
+          "name": "selected-key1.4.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            138.4,
+            257.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "7f90da2fc04e6b396d1119cbb8e5fcb6c3b09613c297a748c6999fc9965a7fb0",
+          "fontPt": []
+        },
+        {
+          "id": "331",
+          "name": "selected-key1.4.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            140.8,
+            257.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "55f7cc7891a7db92f21d1e5ef4fd2948a85dc96bc9aabe93016e159e2165e790",
+          "fontPt": []
+        },
+        {
+          "id": "332",
+          "name": "selected-key1.4.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            143.2,
+            257.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "991f42c2404190645430f71330f42961f58aa40d154eb8dcfb16ea575b5aef3f",
+          "fontPt": []
+        },
+        {
+          "id": "333",
+          "name": "selected-key1.4.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            145.6,
+            257.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "e4683a029b05cb06d100939bff277091e3e917e52123ec988609e68ee470a05b",
+          "fontPt": []
+        },
+        {
+          "id": "334",
+          "name": "selected-name1",
+          "kind": "sp",
+          "text": "v\u2083",
+          "boundsPx": [
+            152.0,
+            241.0,
+            29.0,
+            22.0
+          ],
+          "fingerprint": "3133bf041517eed58afe4819737b29da4f5b5d35dc4d6bb3f87391e171271f45",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "859",
+          "name": "weighted-vector1",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            135.0,
+            268.0,
+            42.0,
+            31.0001
+          ],
+          "fingerprint": "c2804e5babd2404c0045c2fad03d997795660d8c3ea64f1c7144f3ac6fd00874",
+          "fontPt": []
+        },
+        {
+          "id": "335",
+          "name": "weighted-vector1.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            135.0,
+            268.0,
+            9.0,
+            31.0
+          ],
+          "fingerprint": "48cebb9f74b3cdfea8e2117e0bb27e7ae2f7fde9eeace1fd7e54bb90aa896f54",
+          "fontPt": []
+        },
+        {
+          "id": "336",
+          "name": "weighted-vector1.0.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            135.0,
+            285.05,
+            9.0,
+            13.95
+          ],
+          "fingerprint": "fb9294f06dd670cf040cbfb6986c0aba0a37f270224270be9c85ee0a47cd038d",
+          "fontPt": []
+        },
+        {
+          "id": "337",
+          "name": "weighted-vector1.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            146.0,
+            268.0,
+            9.0,
+            31.0
+          ],
+          "fingerprint": "98b76a4d3680b28f87d4828ba69086d055e41bad9b2b5921aa43efff630a2553",
+          "fontPt": []
+        },
+        {
+          "id": "338",
+          "name": "weighted-vector1.1.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            146.0,
+            277.3001,
+            9.0,
+            21.7001
+          ],
+          "fingerprint": "cd66e98901634273b3708360e08bb2bf659f09d677efc861f0b7ab377f584dcc",
+          "fontPt": []
+        },
+        {
+          "id": "339",
+          "name": "weighted-vector1.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            157.0,
+            268.0,
+            9.0,
+            31.0
+          ],
+          "fingerprint": "0cea822c8f81dca6c03cb850a73bdff3975925d5579c0b124d75037b4ff40bfa",
+          "fontPt": []
+        },
+        {
+          "id": "340",
+          "name": "weighted-vector1.2.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            157.0,
+            283.5001,
+            9.0,
+            15.5001
+          ],
+          "fingerprint": "5f8bc7781f5501bfed4a29bc9b8db350fce6a4d32d3883dc49ba02a4b36131a5",
+          "fontPt": []
+        },
+        {
+          "id": "341",
+          "name": "weighted-vector1.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            168.0,
+            268.0,
+            9.0,
+            31.0
+          ],
+          "fingerprint": "805247eaeb7da8b1020284bb947fdce3e1adddae5fd7872be2bc6d544eaf2f58",
+          "fontPt": []
+        },
+        {
+          "id": "342",
+          "name": "weighted-vector1.3.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            168.0,
+            278.85,
+            9.0,
+            20.15
+          ],
+          "fingerprint": "9cd7f23e142886912804666e63dc4f876fc038e248e2f383a824949e03bd5a70",
+          "fontPt": []
+        },
+        {
+          "id": "344",
+          "name": "weighted-pair2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            212.0,
+            245.0,
+            62.0,
+            94.0
+          ],
+          "fingerprint": "22b49b6d52f3c0fe3eaec462a014f803a7997991c9eafea1a7b7daef7eba4f79",
+          "fontPt": []
+        },
+        {
+          "id": "860",
+          "name": "selected-key2",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            222.0,
+            248.0,
+            11.65,
+            11.65
+          ],
+          "fingerprint": "296cfd2cd2355c814d08e8934cd608eb13c5edd09ee614a8efb6cf05b3409358",
+          "fontPt": []
+        },
+        {
+          "id": "345",
+          "name": "selected-key2.0.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            222.0,
+            248.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "bd6479240df1ab231b082eec4d74e6054a66c607e19c92fb102f3c9c4d290700",
+          "fontPt": []
+        },
+        {
+          "id": "346",
+          "name": "selected-key2.0.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            224.4,
+            248.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "1df6662b0bc0e647645760a92455ca26c8c4f820d4847153d0bc17bcf6770582",
+          "fontPt": []
+        },
+        {
+          "id": "347",
+          "name": "selected-key2.0.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            226.8,
+            248.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "8e8b822077ebf4acee99a242c09194a0088b65aac8d7377abeafdf4dd11c04f9",
+          "fontPt": []
+        },
+        {
+          "id": "348",
+          "name": "selected-key2.0.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            229.2,
+            248.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "8e0c300d017690b672ce1484fd6b69c7e5fc5c3c4275833fbafeeced696354bf",
+          "fontPt": []
+        },
+        {
+          "id": "349",
+          "name": "selected-key2.0.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            231.6,
+            248.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "f8f001a6aa818f75998368512a63d92a6efa5e1b7b044ba031d3684114e46edd",
+          "fontPt": []
+        },
+        {
+          "id": "350",
+          "name": "selected-key2.1.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            222.0,
+            250.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "cea0493e5548e29edf04bdb3da0812e0a40bcdf1479b43834822bcafc556d4a4",
+          "fontPt": []
+        },
+        {
+          "id": "351",
+          "name": "selected-key2.1.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            224.4,
+            250.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "b546a54a92ce016847ba37ac48711dc916703cb81f394f85cea483f5dc989c88",
+          "fontPt": []
+        },
+        {
+          "id": "352",
+          "name": "selected-key2.1.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            226.8,
+            250.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "43c7db4a5b0fe261a212e1d1b10918afb8df6e58631e674c1bd8a3923ffbf226",
+          "fontPt": []
+        },
+        {
+          "id": "353",
+          "name": "selected-key2.1.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            229.2,
+            250.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "ffac9db28c20e65ecfc0422d69b239a347bc74dae3825ae1ae663edd44358dac",
+          "fontPt": []
+        },
+        {
+          "id": "354",
+          "name": "selected-key2.1.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            231.6,
+            250.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "ecbd4455c38c2e2932ef91de28774121ab9710e62bd666592f2247e7cb6edc4a",
+          "fontPt": []
+        },
+        {
+          "id": "355",
+          "name": "selected-key2.2.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            222.0,
+            252.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "46f37bc405366a7fcf1419580102cd7e449ee8c6d5f2d8db5607b53714d5f1ec",
+          "fontPt": []
+        },
+        {
+          "id": "356",
+          "name": "selected-key2.2.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            224.4,
+            252.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "a332e9d950feb77d984177bc65b42ad05de6823fe0668b69f090874b44cef16a",
+          "fontPt": []
+        },
+        {
+          "id": "357",
+          "name": "selected-key2.2.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            226.8,
+            252.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "cf60691876801eb1935dbdb32e770babe9ba7391e8e30fdd8765a6b13754668e",
+          "fontPt": []
+        },
+        {
+          "id": "358",
+          "name": "selected-key2.2.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            229.2,
+            252.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "3e05beea6a1850bd537ac0b07261fc0758f955eee5c45626faf08ceecf858b05",
+          "fontPt": []
+        },
+        {
+          "id": "359",
+          "name": "selected-key2.2.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            231.6,
+            252.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "27e3223389d1cf5ea3356df48dae688d637fc6baf48f3e2971b89bf991f63549",
+          "fontPt": []
+        },
+        {
+          "id": "360",
+          "name": "selected-key2.3.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            222.0,
+            255.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "bb56ba969c4781181b653b04bfa1d103ce67892129c6219439b78e27084ccc39",
+          "fontPt": []
+        },
+        {
+          "id": "361",
+          "name": "selected-key2.3.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            224.4,
+            255.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "aa2ee1ec99e94c7f8721bc0ab56232421067c84f226e28c1da94cd46015b69ff",
+          "fontPt": []
+        },
+        {
+          "id": "362",
+          "name": "selected-key2.3.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            226.8,
+            255.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "928674eb2ad33a35d5534d84a3220747fdbccccf832f646d311ef6ea91ef86a1",
+          "fontPt": []
+        },
+        {
+          "id": "363",
+          "name": "selected-key2.3.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            229.2,
+            255.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "8e2e05296954b610c1298d1f9353e94687ec636a3cc833ed2f7bb47a5d2f8231",
+          "fontPt": []
+        },
+        {
+          "id": "364",
+          "name": "selected-key2.3.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            231.6,
+            255.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "c528ec93234ce4111e1c47260ba2a55322bbf0bd1d04a3b96f09124e3743366c",
+          "fontPt": []
+        },
+        {
+          "id": "365",
+          "name": "selected-key2.4.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            222.0,
+            257.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "d350c0cb60b4e41a12303df9c674964bae4fc622e836d87d58c27b8f0113a2b0",
+          "fontPt": []
+        },
+        {
+          "id": "366",
+          "name": "selected-key2.4.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            224.4,
+            257.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "eb8eba2ef6918a5cfe84903ef4b7408e7494987c520520cb7e2e2212d811c386",
+          "fontPt": []
+        },
+        {
+          "id": "367",
+          "name": "selected-key2.4.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            226.8,
+            257.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "176f815a6425245034a6e9f1c279971e6ea8c08c35fd7a00fcedde0860e5b08c",
+          "fontPt": []
+        },
+        {
+          "id": "368",
+          "name": "selected-key2.4.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            229.2,
+            257.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "cd5fce03a60dacad6df823e941474bb7e357c6b1da9dfbfcfa2eef6e595d1ddb",
+          "fontPt": []
+        },
+        {
+          "id": "369",
+          "name": "selected-key2.4.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            231.6,
+            257.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "4abbd4718cd7e0e307717a0e8e5ddc76718b55fb68e637ec7b5040522e6cc671",
+          "fontPt": []
+        },
+        {
+          "id": "370",
+          "name": "selected-name2",
+          "kind": "sp",
+          "text": "v\u2084",
+          "boundsPx": [
+            238.0,
+            241.0,
+            29.0,
+            22.0
+          ],
+          "fingerprint": "ef1b2df45ddb7ad35f08b82e38a926e0f9d3019eb85cd6936b44231cbe27362e",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "861",
+          "name": "weighted-vector2",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            221.0,
+            268.0,
+            42.0,
+            31.0001
+          ],
+          "fingerprint": "1b68e486676417edb52a2536688d9d7d063106a3ee017a616cea0d73f7136642",
+          "fontPt": []
+        },
+        {
+          "id": "371",
+          "name": "weighted-vector2.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            221.0,
+            268.0,
+            9.0,
+            31.0
+          ],
+          "fingerprint": "97b50d4cbb24ea9ea91a747debb7bacab458748d5707082b39958e257120fb3f",
+          "fontPt": []
+        },
+        {
+          "id": "372",
+          "name": "weighted-vector2.0.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            221.0,
+            281.95,
+            9.0,
+            17.05
+          ],
+          "fingerprint": "403c6a463583be9fe2eae9aa4f128f7026be3c20c76aed4947dc448a917dbcbf",
+          "fontPt": []
+        },
+        {
+          "id": "373",
+          "name": "weighted-vector2.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            232.0,
+            268.0,
+            9.0,
+            31.0
+          ],
+          "fingerprint": "1e32aa2ffd1059ff9852857f936aaca66e996282b39c9648e30d4d8378bea380",
+          "fontPt": []
+        },
+        {
+          "id": "374",
+          "name": "weighted-vector2.1.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            232.0,
+            280.4,
+            9.0,
+            18.6
+          ],
+          "fingerprint": "4c376e5194b9c8c8c314af44cc567a6f135943a8c91af1d8d7c283cf9d7e5756",
+          "fontPt": []
+        },
+        {
+          "id": "375",
+          "name": "weighted-vector2.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            243.0,
+            268.0,
+            9.0,
+            31.0
+          ],
+          "fingerprint": "d81f569c4af1ae36a3939d1f4c2b30099798dde83e3d3fbf75c72cfeef6505d5",
+          "fontPt": []
+        },
+        {
+          "id": "376",
+          "name": "weighted-vector2.2.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            243.0,
+            283.5001,
+            9.0,
+            15.5001
+          ],
+          "fingerprint": "a2061b4ed986fb7f444e5e458a6819149d6db13d2e1734bfa4879500e0b31e3b",
+          "fontPt": []
+        },
+        {
+          "id": "377",
+          "name": "weighted-vector2.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            254.0,
+            268.0,
+            9.0,
+            31.0
+          ],
+          "fingerprint": "5d078c98461d4febf3f03fc1b1a1233b97049a00c872218f5738497e5c0ed9f4",
+          "fontPt": []
+        },
+        {
+          "id": "378",
+          "name": "weighted-vector2.3.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            254.0,
+            278.85,
+            9.0,
+            20.15
+          ],
+          "fingerprint": "5e8b8e38f5d35ee1ab1fab08387c8e96ea658f76cae3d3ff8e9ef96a76390c76",
+          "fontPt": []
+        },
+        {
+          "id": "380",
+          "name": "weighted-pair3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            298.0,
+            245.0,
+            62.0,
+            94.0
+          ],
+          "fingerprint": "cbe492ad2ab36668e39a891c442eedf630c34df1d9b40ddd0fc220807624f3d2",
+          "fontPt": []
+        },
+        {
+          "id": "862",
+          "name": "selected-key3",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            308.0,
+            248.0,
+            11.65,
+            11.65
+          ],
+          "fingerprint": "f1b0e8ba41973d21bde59443c66324d5a3d87124efa9b6d10a4dba22c71db8bc",
+          "fontPt": []
+        },
+        {
+          "id": "381",
+          "name": "selected-key3.0.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            308.0,
+            248.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "ff21ea6cd722c94d9957a729f996072b9e4f52c4d98dde5c587f800dd59fa85d",
+          "fontPt": []
+        },
+        {
+          "id": "382",
+          "name": "selected-key3.0.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            310.4,
+            248.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "1a242df911a05390b116308dffab37f05aaccf1d13fc9dbe5d6cd0fd799949bd",
+          "fontPt": []
+        },
+        {
+          "id": "383",
+          "name": "selected-key3.0.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            312.8,
+            248.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "1d32aa551c2792fa46ac7e503da04215ca1bb7cf086e9e75d34b94ce8023a6b5",
+          "fontPt": []
+        },
+        {
+          "id": "384",
+          "name": "selected-key3.0.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            315.2,
+            248.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "b3a090f872dcf20b9a50962e62b2701929dbbbc7ad83794cacc96355b5c14b27",
+          "fontPt": []
+        },
+        {
+          "id": "385",
+          "name": "selected-key3.0.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            317.6,
+            248.0,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "0880be7278a29cdfad297de56d5d07497c489c226b54d2794cf89052bba867f0",
+          "fontPt": []
+        },
+        {
+          "id": "386",
+          "name": "selected-key3.1.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            308.0,
+            250.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "d20a6a2f50dfcfd9b983c1265b50cc16748b304bf9a7e028b9c0c6740ee43961",
+          "fontPt": []
+        },
+        {
+          "id": "387",
+          "name": "selected-key3.1.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            310.4,
+            250.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "05a076927546d763dfba859aa3f262b11c8ace0ff3fc20cd8a94893fcd3fe2bb",
+          "fontPt": []
+        },
+        {
+          "id": "388",
+          "name": "selected-key3.1.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            312.8,
+            250.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "d122da1196f524204586bc02f9c378b45b43e35ee6258b630dbdc176f89a86cf",
+          "fontPt": []
+        },
+        {
+          "id": "389",
+          "name": "selected-key3.1.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            315.2,
+            250.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "f2f4ebdf5bec9a690a219427e8794e6c253452baf456ca3e2e8595f20b0866bc",
+          "fontPt": []
+        },
+        {
+          "id": "390",
+          "name": "selected-key3.1.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            317.6,
+            250.4,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "b8b2e8e4c0133cf5243adf9ae602daee0a20621401073ddffab34bd12fae92ab",
+          "fontPt": []
+        },
+        {
+          "id": "391",
+          "name": "selected-key3.2.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            308.0,
+            252.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "572cfe704adcfe1824d8fe1bdf2459b967554249cd85693a3420a0a87df05076",
+          "fontPt": []
+        },
+        {
+          "id": "392",
+          "name": "selected-key3.2.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            310.4,
+            252.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "0ec7ebb7e0bf9994300769ed7a4c9b0906b1995b34a892e78bd3150491d4759c",
+          "fontPt": []
+        },
+        {
+          "id": "393",
+          "name": "selected-key3.2.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            312.8,
+            252.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "873befdcdab70dd32ca6393ba63b66a0789011397f8c24133e2a061b559c7e23",
+          "fontPt": []
+        },
+        {
+          "id": "394",
+          "name": "selected-key3.2.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            315.2,
+            252.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "d9ebaa72f9a5605d8886faa2f55db8682dec1190d25f515e9c344785aa38d021",
+          "fontPt": []
+        },
+        {
+          "id": "395",
+          "name": "selected-key3.2.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            317.6,
+            252.8,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "d5c5d7b6992574798362dcad6d2df2f88abe3f7542b421579619d97c6392995f",
+          "fontPt": []
+        },
+        {
+          "id": "396",
+          "name": "selected-key3.3.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            308.0,
+            255.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "6c15ca4a165157b81f01bccb5665d3350dd3ecb9080d7d88027109512e79e43d",
+          "fontPt": []
+        },
+        {
+          "id": "397",
+          "name": "selected-key3.3.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            310.4,
+            255.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "22f425e1cff34528392ad75c41ac6563b62d143915fd9aec6ecffdf84c8107bc",
+          "fontPt": []
+        },
+        {
+          "id": "398",
+          "name": "selected-key3.3.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            312.8,
+            255.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "f47195988c1ee02d563b254b3808499a4fd8a0087bcdfd8fbea094ed4eaca323",
+          "fontPt": []
+        },
+        {
+          "id": "399",
+          "name": "selected-key3.3.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            315.2,
+            255.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "b1126472b024c87310a8bff35cba8c30abcc7c4518ca3ef6f82d7899e3389e98",
+          "fontPt": []
+        },
+        {
+          "id": "400",
+          "name": "selected-key3.3.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            317.6,
+            255.2,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "7dbef7f104cc2f446d6c8e14d3da184b30fd4497750758f060137b74fbc2e35b",
+          "fontPt": []
+        },
+        {
+          "id": "401",
+          "name": "selected-key3.4.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            308.0,
+            257.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "8dbfe3b04022670046bf4dc6ea17519be63960c87757d3672a013e6efc4695f4",
+          "fontPt": []
+        },
+        {
+          "id": "402",
+          "name": "selected-key3.4.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            310.4,
+            257.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "4d719034adc7ef4945033718d0d287fb654c0f2d13bec06d5f4bb1bc5735c726",
+          "fontPt": []
+        },
+        {
+          "id": "403",
+          "name": "selected-key3.4.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            312.8,
+            257.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "5297aa245a366c03bfa1231646f24939a6ef359910d6e24b251d5600240d19dc",
+          "fontPt": []
+        },
+        {
+          "id": "404",
+          "name": "selected-key3.4.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            315.2,
+            257.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "5b029c5a371219dd3efccdb4d0deb705f307a4f2ed4d2c6e0442a7cddf37f7e3",
+          "fontPt": []
+        },
+        {
+          "id": "405",
+          "name": "selected-key3.4.4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            317.6,
+            257.6,
+            2.05,
+            2.05
+          ],
+          "fingerprint": "e7de99db6d0c682528825c141a395fb337ba40c96fc4632be34e1dc7c447130d",
+          "fontPt": []
+        },
+        {
+          "id": "406",
+          "name": "selected-name3",
+          "kind": "sp",
+          "text": "v\u2086",
+          "boundsPx": [
+            324.0,
+            241.0,
+            29.0,
+            22.0
+          ],
+          "fingerprint": "3034c845a325beb71a46252b787ac149b473b7f2ad5afb3b7da7d27a0b331e84",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "863",
+          "name": "weighted-vector3",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            307.0,
+            268.0,
+            42.0,
+            31.0001
+          ],
+          "fingerprint": "1092a5c93c9429fbc06ac6db94ecd5afa96311254b119d4805948be3b2df25f2",
+          "fontPt": []
+        },
+        {
+          "id": "407",
+          "name": "weighted-vector3.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            307.0,
+            268.0,
+            9.0,
+            31.0
+          ],
+          "fingerprint": "d0d0921aa6418b76fae356f4469594795679874e538825dc630d1067fd90d5e1",
+          "fontPt": []
+        },
+        {
+          "id": "408",
+          "name": "weighted-vector3.0.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            307.0,
+            278.85,
+            9.0,
+            20.15
+          ],
+          "fingerprint": "2b5083a03a97bb1c952d72dd985311f6bba3cdf26a32e38555ae938b19b3fbd4",
+          "fontPt": []
+        },
+        {
+          "id": "409",
+          "name": "weighted-vector3.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            318.0,
+            268.0,
+            9.0,
+            31.0
+          ],
+          "fingerprint": "da8ff3f1c4841a46b460159d7c36df43ae7b988ed8dd60cfe3f954c53b44fbc7",
+          "fontPt": []
+        },
+        {
+          "id": "410",
+          "name": "weighted-vector3.1.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            318.0,
+            283.5001,
+            9.0,
+            15.5001
+          ],
+          "fingerprint": "204bb0f36004942e6073eddffb5dbab6018cd1a01eb4bed29899145a227fcda6",
+          "fontPt": []
+        },
+        {
+          "id": "411",
+          "name": "weighted-vector3.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            329.0,
+            268.0,
+            9.0,
+            31.0
+          ],
+          "fingerprint": "eda51da41268041e76ecaf240e16e4ca63628d01161345771e55a3c88a8a85a7",
+          "fontPt": []
+        },
+        {
+          "id": "412",
+          "name": "weighted-vector3.2.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            329.0,
+            283.5001,
+            9.0,
+            15.5001
+          ],
+          "fingerprint": "3a715b5fc0fc1cc25a618bc99180f7d9f6103fb69be5a91978f393de59c25423",
+          "fontPt": []
+        },
+        {
+          "id": "413",
+          "name": "weighted-vector3.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            340.0,
+            268.0,
+            9.0,
+            31.0
+          ],
+          "fingerprint": "7dbd84b1625ed0172ea94afebaa7cbd6af7850854a8bb8aaac4e7cc1802591bc",
+          "fontPt": []
+        },
+        {
+          "id": "414",
+          "name": "weighted-vector3.3.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            340.0,
+            278.85,
+            9.0,
+            20.15
+          ],
+          "fingerprint": "36e54d35004f477902f22b5e2152d9622c7c1bc35034a45117a7350a164e0002",
+          "fontPt": []
+        },
+        {
+          "id": "416",
+          "name": "aggregate",
+          "kind": "sp",
+          "text": "Aggregate",
+          "boundsPx": [
+            471.0,
+            265.0,
+            112.0,
+            54.0
+          ],
+          "fingerprint": "71126c4fa0193e363b13337ba24fa0c45dc2bb5416656a6765fdf0a901043a22",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "840",
+          "name": "token-edge",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            527.0,
+            155.0,
+            0.0,
+            110.0
+          ],
+          "fingerprint": "e1b510ec211d8bf1b04585c1dbaa1773d198034a07540a6fed165a43062ad96a",
+          "fontPt": []
+        },
+        {
+          "id": "841",
+          "name": "weights-edge",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            398.0,
+            292.0,
+            73.0,
+            0.0
+          ],
+          "fingerprint": "dd9571616982379cd42827e0afcf7366db63af2b7f5d8422d3fb75feb02b7f7e",
+          "fontPt": []
+        },
+        {
+          "id": "419",
+          "name": "summary",
+          "kind": "sp",
+          "text": "z",
+          "boundsPx": [
+            613.0,
+            268.0,
+            40.0,
+            48.0
+          ],
+          "fingerprint": "70016a05ce1f66f80885311c499d54613b2dc8b26d9b17cf6f5644dde477ff4e",
+          "fontPt": [
+            15.0
+          ]
+        },
+        {
+          "id": "843",
+          "name": "summary-edge",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            583.0,
+            292.0,
+            30.0,
+            0.0
+          ],
+          "fingerprint": "f0be28b93b6f44b46dcc21df793bada382d1787b62b655b84b992b2e1d33bb67",
+          "fontPt": []
+        },
+        {
+          "id": "421",
+          "name": "aggregation-equation",
+          "kind": "sp",
+          "text": "z = \u03a3\u1d62 w\u1d62v\u1d62",
+          "boundsPx": [
+            460.0,
+            337.0,
+            135.0,
+            23.0
+          ],
+          "fingerprint": "c7f2b777e8827e8c8158a245183bc5bbc4f2402fb8de9f747b338868b9ac78b9",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "422",
+          "name": "normalization",
+          "kind": "sp",
+          "text": "\u03a3\u1d62 w\u1d62 = 1",
+          "boundsPx": [
+            154.0,
+            348.0,
+            119.0,
+            23.0
+          ],
+          "fingerprint": "a3f4d06b5d12da40ba6c2826c29eb4976065cbd1474090af2545a0315a6f9a89",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "423",
+          "name": "disclosure",
+          "kind": "sp",
+          "text": "Patterns identify tokens. Each lower frame pairs v\u1d62 with w\u1d62; feature bars are schematic.",
+          "boundsPx": [
+            18.0,
+            375.0,
+            636.0,
+            18.0
+          ],
+          "fingerprint": "a203d7ec036ab6a6cc411a666f7d4851c26587783497d69492b7c94f2454307e",
+          "fontPt": [
+            7.88
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "name": "selection",
+          "from": "token-port",
+          "to": "select",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "retained",
+          "from": "select",
+          "to": "kept-port",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "token-edge",
+          "from": "kept-port",
+          "to": "aggregate",
+          "fromIdx": "2",
+          "toIdx": "0",
+          "directed": true
+        },
+        {
+          "name": "weights-edge",
+          "from": "weight-port",
+          "to": "aggregate",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "summary-edge",
+          "from": "aggregate",
+          "to": "summary",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        }
+      ],
+      "counts": {
+        "sp": 418,
+        "cxnSp": 5,
+        "grpSp": 21,
+        "pic": 0,
+        "graphicFrame": 0
+      },
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "passed": true
+}

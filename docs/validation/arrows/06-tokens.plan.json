@@ -1,0 +1,55 @@
+{
+  "sourceSha256": "68413dfdbb421ace20d9bdb97f0d82b6b21ce836ba7d4a3dfa6de24a83e1e465",
+  "operations": [
+    {
+      "slide": 1,
+      "id": "128",
+      "name": "selection",
+      "fingerprint": "7f8b14210f848666f7e2e4d4506d9f94eaca70e12e5e902cd0f649a2729ac1a1",
+      "action": "style_connector",
+      "widthPx": 2.6,
+      "arrowWidth": "med",
+      "arrowLength": "med"
+    },
+    {
+      "slide": 1,
+      "id": "147",
+      "name": "retained",
+      "fingerprint": "2e6523266636f8e384cb97ed32bf5b0978a7f82e895e2cde62496a765b6fd164",
+      "action": "style_connector",
+      "widthPx": 2.6,
+      "arrowWidth": "med",
+      "arrowLength": "med"
+    },
+    {
+      "slide": 1,
+      "id": "192",
+      "name": "token-edge",
+      "fingerprint": "5cefb947579cbc5d4df90439fd8ae3bcf30329f60d2f9e39adb94f2a2dd3d695",
+      "action": "style_connector",
+      "widthPx": 2.6,
+      "arrowWidth": "med",
+      "arrowLength": "med"
+    },
+    {
+      "slide": 1,
+      "id": "193",
+      "name": "weights-edge",
+      "fingerprint": "092e53577e3f522d031cb46d0e1f807aba27dc372861a6b463ff327eef5a4665",
+      "action": "style_connector",
+      "widthPx": 1.7,
+      "arrowWidth": "med",
+      "arrowLength": "med"
+    },
+    {
+      "slide": 1,
+      "id": "195",
+      "name": "summary-edge",
+      "fingerprint": "7a195544558492753078677c575ae89a29732a2188d073898993232f2c491ea3",
+      "action": "style_connector",
+      "widthPx": 2.6,
+      "arrowWidth": "med",
+      "arrowLength": "med"
+    }
+  ]
+}

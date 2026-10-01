@@ -1,0 +1,178 @@
+{
+  "01-process": {
+    "A_generic_ppt": {
+      "status": "not_run",
+      "score": null,
+      "reason": "No independent model generation runs were performed."
+    },
+    "B_references": {
+      "status": "not_run",
+      "score": null,
+      "reason": "No independent model generation runs were performed."
+    },
+    "C_helpers": {
+      "status": "not_run",
+      "score": null,
+      "reason": "No independent model generation runs were performed."
+    },
+    "D_render_review": {
+      "status": "not_run",
+      "score": null,
+      "reason": "No independent model generation runs were performed."
+    }
+  },
+  "02-branch": {
+    "A_generic_ppt": {
+      "status": "not_run",
+      "score": null,
+      "reason": "No independent model generation runs were performed."
+    },
+    "B_references": {
+      "status": "not_run",
+      "score": null,
+      "reason": "No independent model generation runs were performed."
+    },
+    "C_helpers": {
+      "status": "not_run",
+      "score": null,
+      "reason": "No independent model generation runs were performed."
+    },
+    "D_render_review": {
+      "status": "not_run",
+      "score": null,
+      "reason": "No independent model generation runs were performed."
+    }
+  },
+  "03-repeat": {
+    "A_generic_ppt": {
+      "status": "not_run",
+      "score": null,
+      "reason": "No independent model generation runs were performed."
+    },
+    "B_references": {
+      "status": "not_run",
+      "score": null,
+      "reason": "No independent model generation runs were performed."
+    },
+    "C_helpers": {
+      "status": "not_run",
+      "score": null,
+      "reason": "No independent model generation runs were performed."
+    },
+    "D_render_review": {
+      "status": "not_run",
+      "score": null,
+      "reason": "No independent model generation runs were performed."
+    }
+  },
+  "04-skip": {
+    "A_generic_ppt": {
+      "status": "not_run",
+      "score": null,
+      "reason": "No independent model generation runs were performed."
+    },
+    "B_references": {
+      "status": "not_run",
+      "score": null,
+      "reason": "No independent model generation runs were performed."
+    },
+    "C_helpers": {
+      "status": "not_run",
+      "score": null,
+      "reason": "No independent model generation runs were performed."
+    },
+    "D_render_review": {
+      "status": "not_run",
+      "score": null,
+      "reason": "No independent model generation runs were performed."
+    }
+  },
+  "05-panels": {
+    "A_generic_ppt": {
+      "status": "not_run",
+      "score": null,
+      "reason": "No independent model generation runs were performed."
+    },
+    "B_references": {
+      "status": "not_run",
+      "score": null,
+      "reason": "No independent model generation runs were performed."
+    },
+    "C_helpers": {
+      "status": "not_run",
+      "score": null,
+      "reason": "No independent model generation runs were performed."
+    },
+    "D_render_review": {
+      "status": "not_run",
+      "score": null,
+      "reason": "No independent model generation runs were performed."
+    }
+  },
+  "06-tokens": {
+    "A_generic_ppt": {
+      "status": "not_run",
+      "score": null,
+      "reason": "No independent model generation runs were performed."
+    },
+    "B_references": {
+      "status": "not_run",
+      "score": null,
+      "reason": "No independent model generation runs were performed."
+    },
+    "C_helpers": {
+      "status": "not_run",
+      "score": null,
+      "reason": "No independent model generation runs were performed."
+    },
+    "D_render_review": {
+      "status": "not_run",
+      "score": null,
+      "reason": "No independent model generation runs were performed."
+    }
+  },
+  "07-long-label": {
+    "A_generic_ppt": {
+      "status": "not_run",
+      "score": null,
+      "reason": "No independent model generation runs were performed."
+    },
+    "B_references": {
+      "status": "not_run",
+      "score": null,
+      "reason": "No independent model generation runs were performed."
+    },
+    "C_helpers": {
+      "status": "not_run",
+      "score": null,
+      "reason": "No independent model generation runs were performed."
+    },
+    "D_render_review": {
+      "status": "not_run",
+      "score": null,
+      "reason": "No independent model generation runs were performed."
+    }
+  },
+  "08-train-infer": {
+    "A_generic_ppt": {
+      "status": "not_run",
+      "score": null,
+      "reason": "No independent model generation runs were performed."
+    },
+    "B_references": {
+      "status": "not_run",
+      "score": null,
+      "reason": "No independent model generation runs were performed."
+    },
+    "C_helpers": {
+      "status": "not_run",
+      "score": null,
+      "reason": "No independent model generation runs were performed."
+    },
+    "D_render_review": {
+      "status": "not_run",
+      "score": null,
+      "reason": "No independent model generation runs were performed."
+    }
+  }
+}

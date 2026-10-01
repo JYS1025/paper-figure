@@ -1,0 +1,43 @@
+{
+  "slides": [
+    {
+      "nodes": {
+        "aqueous-label": "Aqueous assay\nmixture",
+        "oil-upper-label": "Carrier oil",
+        "oil-lower-label": "Carrier oil",
+        "focus-label": "Flow focusing",
+        "incubation-label": "On-chip incubation / delay",
+        "detector-label": "Fluorescence detector",
+        "controller": "Controller\nCompare F with θ",
+        "electrode-label": "Sorting\nelectrode",
+        "hit-label": "Collected hits",
+        "hit-rule": "F ≥ θ",
+        "waste-label": "Waste",
+        "waste-rule": "F < θ",
+        "legend-unscored-text": "Unscored",
+        "aqueous-tongue": "",
+        "incubation-main-channel": "",
+        "hit-outlet-channel": "",
+        "waste-outlet-channel": "",
+        "detector-window": "",
+        "sorting-electrode": "",
+        "disclosure": "Hypothetical schematic; geometry and droplets are illustrative."
+      },
+      "edges": [
+        [
+          "detector-window",
+          "controller"
+        ],
+        [
+          "controller",
+          "sorting-electrode"
+        ]
+      ],
+      "groups": [
+        "state-legend"
+      ],
+      "nativeOnly": true,
+      "exactEdges": true
+    }
+  ]
+}

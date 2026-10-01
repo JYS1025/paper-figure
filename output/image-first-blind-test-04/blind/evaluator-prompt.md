@@ -1,0 +1,17 @@
+# Blind figure review
+
+You are reviewing one anonymized pair of research figures. The pair contains one published-paper figure and one generated figure, labeled A and B in randomized positions. You have no answer key or previous conversation. Respond in Korean.
+
+Your only visual inputs are `pair-01.png`, `A.png` and `B.png` in this directory. The latter two are enlarged views of exactly the same two drawings, provided for reading labels. They are one pair, not additional samples. Inspect all three images using view_image. Do not browse, search for sources, inspect metadata, read other files or contact other reviewers.
+
+Provenance has been omitted. All internal labels and legends remain visible. External captions, panel identifiers, provenance notes and unrelated photograph panels are excluded. No internal text is covered or restyled. Ignore wrapper labels, image resolution, cropping and file artifacts as provenance evidence. If you recognize a composition from memory, explicitly record that separately from visual quality.
+
+Both drawings concern fluorescence-dependent microfluidic droplet routing, but their scopes differ: one is an overall process view; the other is a local device view. Do not punish a local view for missing upstream stages, or an overview for omitting physical details that may be unspecified. Judge both at their intended abstraction level. You are not given a scientific methods section, so distinguish an actual visible contradiction from information that requires methods or caption context.
+
+First commit to A or B as the probable published source and give subjective confidence (not a calibrated probability). State memory recognition: yes/no/uncertain, with details if relevant. Then independently choose A, B, similar or insufficient evidence for overall visual quality. Published provenance does not imply superior quality. Separate communication clarity, visual hierarchy/composition, typography, color/contrast and method-specific visual grounding when they differ.
+
+Give visible reasons for your source guess. Do not use 'looks AI-generated,' number of shapes, complexity, presence of a photograph, or generic/pastel colors as standalone reasons. In the side you infer is generated, identify up to three meaningful weaknesses, if any. Do not invent criticisms to fill a quota. For each give location, visible evidence, effect on interpretation, a concrete edit, its purpose and a completion criterion. Classify each as a structural defect, conditional explanation improvement, or finishing change. Preserve what already works. Condition any added hardware, timing value, merge, state change or specific biology on the actual method.
+
+Trace the applicable material path, branch endpoints, collection scope, detector/controller/actuator relationships, and persistence of item identity. Explain whether visible labels resolve or create ambiguities. Do not demand sample-to-matrix relations when none are depicted. Assess whether arrow thickness alone would fix an observed issue; examine endpoints, routing, head size and roles before recommending thicker arrows. Essential meaning should not depend only on hue.
+
+Return: (1) verdict table with source guess, confidence, memory and independent quality preference; (2) reasons and strengths; (3) flow/semantic review; (4) up to three prioritized actionable weaknesses; (5) limitations. This is one labeled pair with different content scope, not proof of general superiority or provenance-detection accuracy.

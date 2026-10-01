@@ -1,0 +1,42 @@
+{
+  "sourceSha256": "68413dfdbb421ace20d9bdb97f0d82b6b21ce836ba7d4a3dfa6de24a83e1e465",
+  "outputSha256": "730225a6836c0bc13d8218b28d08530ecdfb8c3e2707dc8a2c3d8842ce1eaa30",
+  "changed": [
+    {
+      "slide": 1,
+      "id": "128",
+      "name": "selection",
+      "action": "style_connector"
+    },
+    {
+      "slide": 1,
+      "id": "147",
+      "name": "retained",
+      "action": "style_connector"
+    },
+    {
+      "slide": 1,
+      "id": "192",
+      "name": "token-edge",
+      "action": "style_connector"
+    },
+    {
+      "slide": 1,
+      "id": "193",
+      "name": "weights-edge",
+      "action": "style_connector"
+    },
+    {
+      "slide": 1,
+      "id": "195",
+      "name": "summary-edge",
+      "action": "style_connector"
+    }
+  ],
+  "changedParts": [
+    "ppt/slides/slide1.xml"
+  ],
+  "untouchedPartsByteIdentical": 20,
+  "nonTargetObjectsUnchanged": 101,
+  "connectorGeometryAndEndpointsUnchanged": true
+}

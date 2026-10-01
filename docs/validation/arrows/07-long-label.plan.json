@@ -1,0 +1,35 @@
+{
+  "sourceSha256": "6131ef99ee75b99d1eb853b13f775ef74c800b2b35e9bb84461ba431785bd2dc",
+  "operations": [
+    {
+      "slide": 1,
+      "id": "112",
+      "name": "e0",
+      "fingerprint": "7019a5e2c430f4a753984c5ae132b5ec355f2dfc98f5440e36687d74d056838b",
+      "action": "style_connector",
+      "widthPx": 2.6,
+      "arrowWidth": "med",
+      "arrowLength": "med"
+    },
+    {
+      "slide": 1,
+      "id": "113",
+      "name": "e1",
+      "fingerprint": "580f2ac5e20fe3e8d60ad7a96a9451e49e753244285986d039603e877fca3489",
+      "action": "style_connector",
+      "widthPx": 2.6,
+      "arrowWidth": "med",
+      "arrowLength": "med"
+    },
+    {
+      "slide": 1,
+      "id": "115",
+      "name": "context",
+      "fingerprint": "9c27e6c58eaf77fd24f8fd20bf5546bd75b0c3e10c1d6f7d641007b79cc7e524",
+      "action": "style_connector",
+      "widthPx": 1.7,
+      "arrowWidth": "med",
+      "arrowLength": "med"
+    }
+  ]
+}

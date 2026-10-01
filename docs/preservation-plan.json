@@ -1,0 +1,14 @@
+{
+  "sourceSha256": "33589476e906dc54508a40a93c9b2e5f06ebfa48bf29bf6a8b06669554a16053",
+  "operations": [
+    {
+      "slide": 1,
+      "id": "4",
+      "name": "output",
+      "fingerprint": "6130f349c8592a9cf1967f13cdb7b14d81b603b677d47d20caecf11705961392",
+      "action": "replace_text",
+      "old": "Output y",
+      "new": "Result y"
+    }
+  ]
+}

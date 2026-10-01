@@ -1,0 +1,48 @@
+{
+  "sourceSha256": "cd25ec5ace9f3d671fd0bbb5c8dd1a2e44b1cad631bb9a9230ceb68dfa769274",
+  "outputSha256": "0feb70cadbc73dc06cd832e64f3c6a1d2c9c39fe5ee49807dac6f7a439d77c40",
+  "changed": [
+    {
+      "slide": 1,
+      "id": "135",
+      "name": "train-forward",
+      "action": "style_connector"
+    },
+    {
+      "slide": 1,
+      "id": "136",
+      "name": "objective",
+      "action": "style_connector"
+    },
+    {
+      "slide": 1,
+      "id": "137",
+      "name": "supervision",
+      "action": "style_connector"
+    },
+    {
+      "slide": 1,
+      "id": "138",
+      "name": "gradient",
+      "action": "style_connector"
+    },
+    {
+      "slide": 1,
+      "id": "181",
+      "name": "infer-forward",
+      "action": "style_connector"
+    },
+    {
+      "slide": 1,
+      "id": "182",
+      "name": "infer-output",
+      "action": "style_connector"
+    }
+  ],
+  "changedParts": [
+    "ppt/slides/slide1.xml"
+  ],
+  "untouchedPartsByteIdentical": 20,
+  "nonTargetObjectsUnchanged": 86,
+  "connectorGeometryAndEndpointsUnchanged": true
+}

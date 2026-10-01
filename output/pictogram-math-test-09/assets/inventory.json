@@ -1,0 +1,28 @@
+[
+  {
+    "name": "camera-pictogram",
+    "file": "assets/camera.png",
+    "role": "generated flat source pictogram",
+    "sha256": "9568da1b2d8a54c9e43dcc5c01eb2cc11ebf121dbaf6b3b7fe57dd0b6610c23d",
+    "pixelSize": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "hasTransparentPixels": true,
+    "pptxMediaIdentityVerified": true
+  },
+  {
+    "name": "inertial-pictogram",
+    "file": "assets/inertial-sensor.png",
+    "role": "generated flat source pictogram",
+    "sha256": "3a3f4efc3d177ed430283b43c271aeab2964fff8861816db78966d9e98d6ea1d",
+    "pixelSize": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "hasTransparentPixels": true,
+    "pptxMediaIdentityVerified": true
+  }
+]

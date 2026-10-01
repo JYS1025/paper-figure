@@ -1,0 +1,1543 @@
+{
+  "file": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/feedback-revision/review-2/03-repeat.pptx",
+  "sha256": "6a571800b2df2677e7b61273c27fc7393ee95869667959f62ded7c132a278db9",
+  "sizePx": [
+    672.0,
+    400.0
+  ],
+  "slides": [
+    {
+      "part": "ppt/slides/slide1.xml",
+      "objects": [
+        {
+          "id": "96",
+          "name": "heading",
+          "kind": "sp",
+          "text": "Residual refinement: state sequence and one block",
+          "boundsPx": [
+            18.0,
+            9.0,
+            638.0,
+            23.0
+          ],
+          "fingerprint": "30b37b71fd8001086df20f01e47fbbe86f13c093c7e5a4cfbbc6c8193071ccab",
+          "fontPt": [
+            11.25
+          ]
+        },
+        {
+          "id": "188",
+          "name": "state0",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            28.0,
+            53.0,
+            58.0,
+            39.0
+          ],
+          "fingerprint": "a6bcf9e2076f91778c64bf026b153417637edd03e162f356ce9be5df7dc32ea8",
+          "fontPt": []
+        },
+        {
+          "id": "2",
+          "name": "state0.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            28.0,
+            53.0,
+            13.0,
+            39.0
+          ],
+          "fingerprint": "6e6d2381ed3d5a81fdc7b57be4755053528aff5ee917a2b678bf301fe0402956",
+          "fontPt": []
+        },
+        {
+          "id": "3",
+          "name": "state0.0.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            28.0,
+            78.35,
+            13.0,
+            13.65
+          ],
+          "fingerprint": "c8deeb932772bf5cb88a4a4467f09c7d42cea8a6a73617e8439e2424cb162f50",
+          "fontPt": []
+        },
+        {
+          "id": "4",
+          "name": "state0.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            43.0,
+            53.0,
+            13.0,
+            39.0
+          ],
+          "fingerprint": "6dacae2088383162adbf97dd779613f2f72ce150a742707c68b1f21cc8663ec9",
+          "fontPt": []
+        },
+        {
+          "id": "5",
+          "name": "state0.1.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            43.0,
+            62.75,
+            13.0,
+            29.25
+          ],
+          "fingerprint": "f4f0d2a5f5680f40ff6f14f638dcc4d0f7407c138ee4d9a9b585c79109c39dc6",
+          "fontPt": []
+        },
+        {
+          "id": "6",
+          "name": "state0.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            58.0,
+            53.0,
+            13.0,
+            39.0
+          ],
+          "fingerprint": "8ede968c792dad190c4364c0db90916db404ac1b94aaa042c3a7362823f1e25d",
+          "fontPt": []
+        },
+        {
+          "id": "7",
+          "name": "state0.2.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            58.0,
+            76.4,
+            13.0,
+            15.6
+          ],
+          "fingerprint": "50be048f5f1755c8e245c14ece9a9a8de621fa7dd14885ea5ee2609ce1caff6f",
+          "fontPt": []
+        },
+        {
+          "id": "8",
+          "name": "state0.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            73.0,
+            53.0,
+            13.0,
+            39.0
+          ],
+          "fingerprint": "4b782da73b86a133ceb18e978e538e51ce737e7a73ebb6872c1a1693270a4b26",
+          "fontPt": []
+        },
+        {
+          "id": "9",
+          "name": "state0.3.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            73.0,
+            68.6,
+            13.0,
+            23.4
+          ],
+          "fingerprint": "565c43c04512ac4a2e79c59699614ff9fc59a9b8ba495cd72a334b2abe3ac65b",
+          "fontPt": []
+        },
+        {
+          "id": "10",
+          "name": "state-name0",
+          "kind": "sp",
+          "text": "h\u2080",
+          "boundsPx": [
+            34.0,
+            99.0,
+            49.0,
+            21.0
+          ],
+          "fingerprint": "35e6bfb011fd5e5230b4601e32c2b209d26890ab359a47d9237c3b5edf8cb711",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "11",
+          "name": "stage-line0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            94.0,
+            75.0,
+            53.0,
+            0.01
+          ],
+          "fingerprint": "9b1ee7a99f66b031f9964c02ff82c07b5d0983f0089af9b5f326b5728d083781",
+          "fontPt": []
+        },
+        {
+          "id": "12",
+          "name": "stage-arrow0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            141.0,
+            72.0,
+            6.0,
+            6.0
+          ],
+          "fingerprint": "83ced805b3e76a4ccba0f156281060f846047701bfbcd85802522e45726ae366",
+          "fontPt": []
+        },
+        {
+          "id": "13",
+          "name": "theta0",
+          "kind": "sp",
+          "text": "\u03b8\u2081",
+          "boundsPx": [
+            104.0,
+            78.0,
+            35.0,
+            18.0
+          ],
+          "fingerprint": "ebc7fdccdfc469d34f31f6c1e2638166dd05e1f78e0b69a0eb07e98b2b4f1a4b",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "189",
+          "name": "state1",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            161.0,
+            53.0,
+            58.0,
+            39.0001
+          ],
+          "fingerprint": "f25c20e21cc05bc67eb763e51f4e1f6048271536f7dd293a63f7a2a32d7f17fe",
+          "fontPt": []
+        },
+        {
+          "id": "14",
+          "name": "state1.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            161.0,
+            53.0,
+            13.0,
+            39.0
+          ],
+          "fingerprint": "a768ab2a094f628be446036b6ff027b490ed28bc495d6008d1e9c4ac69ac1c99",
+          "fontPt": []
+        },
+        {
+          "id": "15",
+          "name": "state1.0.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            161.0,
+            75.23,
+            13.0,
+            16.77
+          ],
+          "fingerprint": "4c09324a551773fa9eaa257f6689a88b0ea531cb3ca8db2533259bbc507b5720",
+          "fontPt": []
+        },
+        {
+          "id": "16",
+          "name": "state1.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            176.0,
+            53.0,
+            13.0,
+            39.0
+          ],
+          "fingerprint": "69702531f73523d1c1030078f09e0e51dc88b9dfcf5783c5f73a09da9a219b19",
+          "fontPt": []
+        },
+        {
+          "id": "17",
+          "name": "state1.1.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            176.0,
+            64.31,
+            13.0,
+            27.69
+          ],
+          "fingerprint": "f509306585247297c53508f6fa0dfc4ba8be91269f7e2f54c5b7b563c3e9fac9",
+          "fontPt": []
+        },
+        {
+          "id": "18",
+          "name": "state1.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            191.0,
+            53.0,
+            13.0,
+            39.0
+          ],
+          "fingerprint": "f8c62ef96ac6d380689f6ba2800b28fc8169e2a25eb6721a364d5b78ce93c73c",
+          "fontPt": []
+        },
+        {
+          "id": "19",
+          "name": "state1.2.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            191.0,
+            74.0601,
+            13.0,
+            17.9401
+          ],
+          "fingerprint": "f123a36511e2ac12e4fb1af82ca6f18f659ef805e91dc5b909d103618de10d81",
+          "fontPt": []
+        },
+        {
+          "id": "20",
+          "name": "state1.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            206.0,
+            53.0,
+            13.0,
+            39.0
+          ],
+          "fingerprint": "59abd641d5ef238e08a0abd9501173799ba9d91308234d55aebd4184c18c89d1",
+          "fontPt": []
+        },
+        {
+          "id": "21",
+          "name": "state1.3.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            206.0,
+            68.6,
+            13.0,
+            23.4
+          ],
+          "fingerprint": "907cb931292316af82d1cc5cd1d0416afa94f79af7e29dfad6beb6be159da58f",
+          "fontPt": []
+        },
+        {
+          "id": "22",
+          "name": "state-name1",
+          "kind": "sp",
+          "text": "h\u2081",
+          "boundsPx": [
+            167.0,
+            99.0,
+            49.0,
+            21.0
+          ],
+          "fingerprint": "de71c6801228520f7f259f78e035220fbc44e1ae481a3e0d55fda85e9c9e065e",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "23",
+          "name": "stage-line1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            227.0,
+            75.0,
+            53.0,
+            0.01
+          ],
+          "fingerprint": "609476595d53cc764a210a5a7ce6db3fd42213bebbde0292a856b020d5086e99",
+          "fontPt": []
+        },
+        {
+          "id": "24",
+          "name": "stage-arrow1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            274.0,
+            72.0,
+            6.0,
+            6.0
+          ],
+          "fingerprint": "74bf9b7d228b5562642b470c069e77945f2c73810a89c5276bf363cdb7c4c1c4",
+          "fontPt": []
+        },
+        {
+          "id": "25",
+          "name": "theta1",
+          "kind": "sp",
+          "text": "\u03b8\u2082",
+          "boundsPx": [
+            237.0,
+            78.0,
+            35.0,
+            18.0
+          ],
+          "fingerprint": "9f457c082ea6d4edf2b63e93697d2798dea8535eecad8f045c8042ff638ad01d",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "190",
+          "name": "state2",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            294.0,
+            53.0,
+            58.0,
+            39.0
+          ],
+          "fingerprint": "420aeb18156152607b25a0fff18b9bcbfb53bb1f6ef62baeaf1c3c6a38fa6f7e",
+          "fontPt": []
+        },
+        {
+          "id": "26",
+          "name": "state2.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            294.0,
+            53.0,
+            13.0,
+            39.0
+          ],
+          "fingerprint": "750fb08a7e4b5faa33baff2df8ba96d5b382f98423d4e63b2fcbe539f3c2e565",
+          "fontPt": []
+        },
+        {
+          "id": "27",
+          "name": "state2.0.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            294.0,
+            72.11,
+            13.0,
+            19.89
+          ],
+          "fingerprint": "236cd410267a55e52ecea91076409ffe4b245943fdae27c0afa071733aac0c01",
+          "fontPt": []
+        },
+        {
+          "id": "28",
+          "name": "state2.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            309.0,
+            53.0,
+            13.0,
+            39.0
+          ],
+          "fingerprint": "03102bf08a5723de7db5b85dd43087deed2c1f2018eb890306a08f0915e39108",
+          "fontPt": []
+        },
+        {
+          "id": "29",
+          "name": "state2.1.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            309.0,
+            65.87,
+            13.0,
+            26.13
+          ],
+          "fingerprint": "dce4ae9c2d91d898be5466e8c24f137cdd9f35a188c08aef9ba187ef12dad491",
+          "fontPt": []
+        },
+        {
+          "id": "30",
+          "name": "state2.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            324.0,
+            53.0,
+            13.0,
+            39.0
+          ],
+          "fingerprint": "105012601cf5a9d3b3b3d1b2928b13dadf6e88a45d8f638141acdda982630d92",
+          "fontPt": []
+        },
+        {
+          "id": "31",
+          "name": "state2.2.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            324.0,
+            71.72,
+            13.0,
+            20.28
+          ],
+          "fingerprint": "10b17bd5f003c6189a37c73117300ba075af9ff5e0eac8e4d121da398bd39fd6",
+          "fontPt": []
+        },
+        {
+          "id": "32",
+          "name": "state2.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            339.0,
+            53.0,
+            13.0,
+            39.0
+          ],
+          "fingerprint": "47ae1e42cf424ec23b31707cdde0974d1fa68f1d632d39d16cdcd587317972d5",
+          "fontPt": []
+        },
+        {
+          "id": "33",
+          "name": "state2.3.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            339.0,
+            68.6,
+            13.0,
+            23.4
+          ],
+          "fingerprint": "7bf72cadd92dcaba4fc9c2d463076aa83b4a3984bc02a86e9eb3eb2d967b0800",
+          "fontPt": []
+        },
+        {
+          "id": "34",
+          "name": "state-name2",
+          "kind": "sp",
+          "text": "h\u2082",
+          "boundsPx": [
+            300.0,
+            99.0,
+            49.0,
+            21.0
+          ],
+          "fingerprint": "7a550ccdb6f62b3135373e184fd06419723c74a687d1c8c20cf7769c7d7deb92",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "35",
+          "name": "stage-line2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            360.0,
+            75.0,
+            53.0,
+            0.01
+          ],
+          "fingerprint": "80defa440af2635ca71429dfc37d6ed0432a2b29f5636280bec83326b4929068",
+          "fontPt": []
+        },
+        {
+          "id": "36",
+          "name": "stage-arrow2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            407.0,
+            72.0,
+            6.0,
+            6.0
+          ],
+          "fingerprint": "6d9f2bb6234b03e05e6558f57edd124f7e9a3dfa78b7a9cc753494d47c475bfb",
+          "fontPt": []
+        },
+        {
+          "id": "37",
+          "name": "theta2",
+          "kind": "sp",
+          "text": "\u03b8\u2083",
+          "boundsPx": [
+            370.0,
+            78.0,
+            35.0,
+            18.0
+          ],
+          "fingerprint": "475df08ad1e48746f739965a7d544030d1ee4396a7c4479889cc02f1a3237e53",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "191",
+          "name": "state3",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            427.0,
+            53.0,
+            58.0,
+            39.0001
+          ],
+          "fingerprint": "dcdcba08c245e6285d245b69485acc8fcd7d0abc2b46e07fc85c8c55c95f6adc",
+          "fontPt": []
+        },
+        {
+          "id": "38",
+          "name": "state3.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            427.0,
+            53.0,
+            13.0,
+            39.0
+          ],
+          "fingerprint": "78fddfaca5e64ce91db8da6c518753c7923b0af5599378ca09b091068b37bbbe",
+          "fontPt": []
+        },
+        {
+          "id": "39",
+          "name": "state3.0.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            427.0,
+            68.99,
+            13.0,
+            23.01
+          ],
+          "fingerprint": "99195dddc1bb41ed164172f79132b12cfededd907e250cd2a77fb6cc31f7d176",
+          "fontPt": []
+        },
+        {
+          "id": "40",
+          "name": "state3.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            442.0,
+            53.0,
+            13.0,
+            39.0
+          ],
+          "fingerprint": "52d18d26783ca895568b2eff9e6c27ea4b4f4f5b17474f397feb934301df22dc",
+          "fontPt": []
+        },
+        {
+          "id": "41",
+          "name": "state3.1.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            442.0,
+            67.43,
+            13.0,
+            24.57
+          ],
+          "fingerprint": "7dd48c41e1a34474c92f761c95237221b6253f3ffe0164f85c5cbe3fa57dd16f",
+          "fontPt": []
+        },
+        {
+          "id": "42",
+          "name": "state3.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            457.0,
+            53.0,
+            13.0,
+            39.0
+          ],
+          "fingerprint": "9734d53f56b6659e2cc1bac3e6a025cecab514b2821a66e766ffe5302f455bd0",
+          "fontPt": []
+        },
+        {
+          "id": "43",
+          "name": "state3.2.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            457.0,
+            69.3801,
+            13.0,
+            22.6201
+          ],
+          "fingerprint": "786184d820000fd950a5c25d312846d59f011f1ec6500de895f384fcf4eb7098",
+          "fontPt": []
+        },
+        {
+          "id": "44",
+          "name": "state3.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            472.0,
+            53.0,
+            13.0,
+            39.0
+          ],
+          "fingerprint": "5a326c4ccb498f2b8dacd4dbb7b83c91b3412899b4df907d15589abf53f10a2c",
+          "fontPt": []
+        },
+        {
+          "id": "45",
+          "name": "state3.3.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            472.0,
+            68.6,
+            13.0,
+            23.4
+          ],
+          "fingerprint": "d343cf4444ede4802e2345260d962cd30c31a6ad5e71b838f9cb83c1ee3d0ae4",
+          "fontPt": []
+        },
+        {
+          "id": "46",
+          "name": "state-name3",
+          "kind": "sp",
+          "text": "h\u2083",
+          "boundsPx": [
+            433.0,
+            99.0,
+            49.0,
+            21.0
+          ],
+          "fingerprint": "31ff456b383bc041b6197689ecc114fbeb91c3bf29b1508278e9e93493da317d",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "47",
+          "name": "stage-line3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            493.0,
+            75.0,
+            53.0,
+            0.01
+          ],
+          "fingerprint": "adadca41c5b033838e1ea4400d98ba30f96b99a7c26122f4e85cb90db1447455",
+          "fontPt": []
+        },
+        {
+          "id": "48",
+          "name": "stage-arrow3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            540.0,
+            72.0,
+            6.0,
+            6.0
+          ],
+          "fingerprint": "0397633a58b89505c246fc28049f2a1c4ad927ba221ce26476c63044512dfeda",
+          "fontPt": []
+        },
+        {
+          "id": "49",
+          "name": "theta3",
+          "kind": "sp",
+          "text": "\u03b8\u2084",
+          "boundsPx": [
+            503.0,
+            78.0,
+            35.0,
+            18.0
+          ],
+          "fingerprint": "1a680bba2f518eb78cb4a5fc96e0dcd7606b4f1e9d27077bd48bc42ab066d12f",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "192",
+          "name": "state4",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            560.0,
+            53.0,
+            58.0,
+            39.0
+          ],
+          "fingerprint": "2d775a57d366c8538673af928348b80dcf6ff467579f0af2d6a20fede59a16de",
+          "fontPt": []
+        },
+        {
+          "id": "50",
+          "name": "state4.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            560.0,
+            53.0,
+            13.0,
+            39.0
+          ],
+          "fingerprint": "6f52c212d6b4af01e1f941581a7545b3a596cb1c2bddb2b53c4dcd7c23ba32c8",
+          "fontPt": []
+        },
+        {
+          "id": "51",
+          "name": "state4.0.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            560.0,
+            65.87,
+            13.0,
+            26.13
+          ],
+          "fingerprint": "4d0891050c9d1986de622c68697e461cccf811fd7f8c9ad66e8526a1556e7656",
+          "fontPt": []
+        },
+        {
+          "id": "52",
+          "name": "state4.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            575.0,
+            53.0,
+            13.0,
+            39.0
+          ],
+          "fingerprint": "9d659445372b3c7edc1ead98a1a9f7d77f441dc961bdc989fdbac1760ca79c62",
+          "fontPt": []
+        },
+        {
+          "id": "53",
+          "name": "state4.1.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            575.0,
+            68.99,
+            13.0,
+            23.01
+          ],
+          "fingerprint": "bb44d1014b42ad247f94cc2888dcf1adadfc27c418f3117776ea9de06e21a8c1",
+          "fontPt": []
+        },
+        {
+          "id": "54",
+          "name": "state4.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            590.0,
+            53.0,
+            13.0,
+            39.0
+          ],
+          "fingerprint": "6ce6fee80768737baf9657a6bb507cd3c8fbb3b45a56acfa0c46172c93730528",
+          "fontPt": []
+        },
+        {
+          "id": "55",
+          "name": "state4.2.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            590.0,
+            67.04,
+            13.0,
+            24.96
+          ],
+          "fingerprint": "a0b3c4e54846a624feb5437785bd100ae7987192ead54014eb627ef8fbac3ec2",
+          "fontPt": []
+        },
+        {
+          "id": "56",
+          "name": "state4.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            605.0,
+            53.0,
+            13.0,
+            39.0
+          ],
+          "fingerprint": "0c8f574c91445fc840971dfe7c723c6d47ed1a4c395232810564b70f658a4559",
+          "fontPt": []
+        },
+        {
+          "id": "57",
+          "name": "state4.3.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            605.0,
+            68.6,
+            13.0,
+            23.4
+          ],
+          "fingerprint": "024576de7b78ff5b449684820317ef2b2262b50b8063a5fd1214352520912f34",
+          "fontPt": []
+        },
+        {
+          "id": "58",
+          "name": "state-name4",
+          "kind": "sp",
+          "text": "h\u2084",
+          "boundsPx": [
+            566.0,
+            99.0,
+            49.0,
+            21.0
+          ],
+          "fingerprint": "a9be2c7bd87d79846b85d92f41660b68d0caa92a3c9ce0906ed36162c4ea8774",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "59",
+          "name": "detail-target",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            92.0,
+            64.0,
+            59.0,
+            34.0
+          ],
+          "fingerprint": "9b64119e3fd982f0cf72f52f3e2d88316e0aedd150742d11dbb075bf977e1bb5",
+          "fontPt": []
+        },
+        {
+          "id": "60",
+          "name": "detail-guide",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            121.5001,
+            98.0,
+            212.5001,
+            52.0
+          ],
+          "fingerprint": "11523d73bb0a0af0bbd00647a5bbd73ced4b76a50bf2d15c3e001976da685a88",
+          "fontPt": []
+        },
+        {
+          "id": "61",
+          "name": "block",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            153.0,
+            150.0,
+            365.0,
+            200.0
+          ],
+          "fingerprint": "8d2623b160118ed01b48fcfe4b191d1c1e96cbba3a0f394304adcb448ffead6d",
+          "fontPt": []
+        },
+        {
+          "id": "62",
+          "name": "block.title",
+          "kind": "sp",
+          "text": "One block, repeated \u00d7 4",
+          "boundsPx": [
+            161.0,
+            155.0,
+            349.0,
+            22.0
+          ],
+          "fingerprint": "fb8f560ae33ae4e2eb93b8e7b41d64a80c98533ef41ab80574b7687ac7785e91",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "63",
+          "name": "input",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            24.0,
+            251.0,
+            56.0,
+            46.0
+          ],
+          "fingerprint": "e58ecd39ee6a40e2479f0f3da969f13e9861a4f1a3e0bd692e2204cc82ce34bf",
+          "fontPt": []
+        },
+        {
+          "id": "193",
+          "name": "input-state",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            28.0,
+            256.0,
+            46.0,
+            36.0
+          ],
+          "fingerprint": "bdcc3768fa47b0cb91ccf13229d3e395877a0b9f25cde3c89e1b8917ef486de2",
+          "fontPt": []
+        },
+        {
+          "id": "64",
+          "name": "input-state.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            28.0,
+            256.0,
+            10.0,
+            36.0
+          ],
+          "fingerprint": "641a47bfc2ab2d0c1a6cabd12b0dd700a51034f684f989adb0a452eca4130c06",
+          "fontPt": []
+        },
+        {
+          "id": "65",
+          "name": "input-state.0.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            28.0,
+            277.6,
+            10.0,
+            14.4
+          ],
+          "fingerprint": "fd56b4b9c5cb1b09b33ddd79982614958ad6408763009a9e974f8fff63abe9cb",
+          "fontPt": []
+        },
+        {
+          "id": "66",
+          "name": "input-state.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            40.0,
+            256.0,
+            10.0,
+            36.0
+          ],
+          "fingerprint": "7f6e915db8a3b3beaa2647bc9824fb06dd3071686b2ee9df9e2709a20d67de76",
+          "fontPt": []
+        },
+        {
+          "id": "67",
+          "name": "input-state.1.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            40.0,
+            263.2,
+            10.0,
+            28.8
+          ],
+          "fingerprint": "a59b306a22054aa9e145e63d1e3766408e3608340d159ecde2ff25bd7a4bab93",
+          "fontPt": []
+        },
+        {
+          "id": "68",
+          "name": "input-state.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            52.0,
+            256.0,
+            10.0,
+            36.0
+          ],
+          "fingerprint": "a194cb0519bdcb5a80b94fa8785a501c91b2d3a29125e6abf5ac5145c6f32374",
+          "fontPt": []
+        },
+        {
+          "id": "69",
+          "name": "input-state.2.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            52.0,
+            274.0,
+            10.0,
+            18.0
+          ],
+          "fingerprint": "eb1aa0e1decfd88f1adc2f3adb8838b08a3fc938e935dd9cba27b04158f13fe3",
+          "fontPt": []
+        },
+        {
+          "id": "70",
+          "name": "input-state.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            64.0,
+            256.0,
+            10.0,
+            36.0
+          ],
+          "fingerprint": "0d56527c0b2cdf515c8f59b5c144815ac8303b92a2264c02260fa1f948e970b5",
+          "fontPt": []
+        },
+        {
+          "id": "71",
+          "name": "input-state.3.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            64.0,
+            270.4,
+            10.0,
+            21.6
+          ],
+          "fingerprint": "32eaba8eca729a5af2c8ffe6c2360ba202d849fb07ed37780f681a52bdfbb054",
+          "fontPt": []
+        },
+        {
+          "id": "72",
+          "name": "input-name",
+          "kind": "sp",
+          "text": "h\u209c",
+          "boundsPx": [
+            26.0,
+            301.0,
+            52.0,
+            22.0
+          ],
+          "fingerprint": "2519f73c7b5614405fcb4217c8f23c7a2760d4af8397a22e2c6aaa101f8ea327",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "73",
+          "name": "fork",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            122.0,
+            272.0,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "65357a877832977ea6afd64cccade9859e5c7af13ea733eb92452feee9b07712",
+          "fontPt": []
+        },
+        {
+          "id": "74",
+          "name": "norm",
+          "kind": "sp",
+          "text": "Norm",
+          "boundsPx": [
+            187.0,
+            253.0,
+            86.0,
+            42.0
+          ],
+          "fingerprint": "1476f7ca00e0e92c7c1d4dd06f6f5434a43d34e2c4f58d4aee59fea9323422d2",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "75",
+          "name": "mix",
+          "kind": "sp",
+          "text": "Mix",
+          "boundsPx": [
+            309.0,
+            253.0,
+            88.0,
+            42.0
+          ],
+          "fingerprint": "fb29c6d71546d4cdbbd58008139938409a6215612e8c76aeda76feac1b30b173",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "76",
+          "name": "add",
+          "kind": "sp",
+          "text": "+",
+          "boundsPx": [
+            449.0,
+            212.0,
+            34.0,
+            34.0
+          ],
+          "fingerprint": "d2be247ff1d783d2687afedf7f959786672526165cd88521d3466786b2ba0e17",
+          "fontPt": [
+            16.5
+          ]
+        },
+        {
+          "id": "77",
+          "name": "output",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            585.0,
+            206.0,
+            56.0,
+            46.0
+          ],
+          "fingerprint": "32e8a33b8d102e77f9eaff1b72c342a8f0f49ff748ef99c624a17b59d2463f4f",
+          "fontPt": []
+        },
+        {
+          "id": "194",
+          "name": "output-state",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            589.0,
+            211.0,
+            46.0,
+            36.0
+          ],
+          "fingerprint": "83d503f16d1c9b70076def82b6dc86675cccc1fa5a1e985728b53d1e24638ec0",
+          "fontPt": []
+        },
+        {
+          "id": "78",
+          "name": "output-state.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            589.0,
+            211.0,
+            10.0,
+            36.0
+          ],
+          "fingerprint": "b4e4d7dab23820d5a6a488df32edf3539a43fd8826ab108a898e08f80622fc3f",
+          "fontPt": []
+        },
+        {
+          "id": "79",
+          "name": "output-state.0.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            589.0,
+            221.8,
+            10.0,
+            25.2
+          ],
+          "fingerprint": "f7fe8bd2f3da80021491b13202e3233490d03036a9a6078d86c3374e35f4b1c4",
+          "fontPt": []
+        },
+        {
+          "id": "80",
+          "name": "output-state.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            601.0,
+            211.0,
+            10.0,
+            36.0
+          ],
+          "fingerprint": "285c891bde5206b429676019baf93a182932b79ddb937a9afc2a7d4f0ce928fa",
+          "fontPt": []
+        },
+        {
+          "id": "81",
+          "name": "output-state.1.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            601.0,
+            223.6,
+            10.0,
+            23.4
+          ],
+          "fingerprint": "1efa823332f693e9a7117f10cf6f27976405d6edd2f04e10a052386964738435",
+          "fontPt": []
+        },
+        {
+          "id": "82",
+          "name": "output-state.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            613.0,
+            211.0,
+            10.0,
+            36.0
+          ],
+          "fingerprint": "bdfe370f3b2c7dcffaf2e6905cc6d5850c2393b06a7c2878de13ae3fd81ebc40",
+          "fontPt": []
+        },
+        {
+          "id": "83",
+          "name": "output-state.2.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            613.0,
+            221.08,
+            10.0,
+            25.92
+          ],
+          "fingerprint": "50d65faaa82cf13461d8a6ba593ce3a64e45fe75014003d18520d5c926acd05d",
+          "fontPt": []
+        },
+        {
+          "id": "84",
+          "name": "output-state.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            625.0,
+            211.0,
+            10.0,
+            36.0
+          ],
+          "fingerprint": "32a31a93e4467fd61596a9d3d12c28bd8f51ee62d0c188313e16ea25291c667a",
+          "fontPt": []
+        },
+        {
+          "id": "85",
+          "name": "output-state.3.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            625.0,
+            222.52,
+            10.0,
+            24.48
+          ],
+          "fingerprint": "520d2dabce5e90c4978c9f0fe5a871344277e8ba7c4e2bf9eef22e93d5b4316b",
+          "fontPt": []
+        },
+        {
+          "id": "86",
+          "name": "output-name",
+          "kind": "sp",
+          "text": "h\u209c\u208a\u2081",
+          "boundsPx": [
+            585.0,
+            260.0,
+            56.0,
+            22.0
+          ],
+          "fingerprint": "f8876f7db4c10d8d7ee39727a9e24bfa812db6672a13afcecb35ad8fbf2c6e98",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "182",
+          "name": "input-fork",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            80.0,
+            274.0,
+            42.0,
+            0.0
+          ],
+          "fingerprint": "033d0913f47714c5fea37a31fbd438276b2857b173d4cd4dad1d50b9148a333e",
+          "fontPt": []
+        },
+        {
+          "id": "183",
+          "name": "e0",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            126.0,
+            274.0,
+            61.0,
+            0.0
+          ],
+          "fingerprint": "0935c1cc93f1132e37d3da22c7b371db5cd9e4220f312e3a961321d4a8198c7d",
+          "fontPt": []
+        },
+        {
+          "id": "184",
+          "name": "e1",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            273.0,
+            274.0,
+            36.0,
+            0.0
+          ],
+          "fingerprint": "65f7073faa0bf49e58d167d1818dc1f8f6b8f752250901d3957ad7adadf06f41",
+          "fontPt": []
+        },
+        {
+          "id": "185",
+          "name": "e2",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            397.0,
+            246.0,
+            69.0,
+            28.0
+          ],
+          "fingerprint": "b7cdb82e73e358d95785fccbd55ca846da2e69c7aed99f58b8b2170669d8646e",
+          "fontPt": []
+        },
+        {
+          "id": "186",
+          "name": "e3",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            483.0,
+            229.0,
+            102.0,
+            0.0
+          ],
+          "fingerprint": "9a3856e1eab34da23cdc634ef45e0f9c1c1007e6cea66e2488b2efcd39f1b2a3",
+          "fontPt": []
+        },
+        {
+          "id": "187",
+          "name": "residual",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            124.0,
+            229.0,
+            325.0,
+            43.0
+          ],
+          "fingerprint": "4aa5a733b0e55a0a3f3598f63f954ae723a69d3bf0078e36c5053a7325bf511a",
+          "fontPt": []
+        },
+        {
+          "id": "93",
+          "name": "identity",
+          "kind": "sp",
+          "text": "identity",
+          "boundsPx": [
+            192.0,
+            207.0,
+            80.0,
+            20.0
+          ],
+          "fingerprint": "39e4625a9ccfb485cb02c2b3ed0b2482a8f3788962c899535ba222af0b44d679",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "94",
+          "name": "recurrence",
+          "kind": "sp",
+          "text": "h\u209c\u208a\u2081 = h\u209c + Mix\u03b8\u209c(Norm(h\u209c))",
+          "boundsPx": [
+            198.0,
+            315.0,
+            288.0,
+            23.0
+          ],
+          "fingerprint": "1b9f3b8123f13560267fa6400e922255800c653302703cddcbb0de22dbe72b29",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "95",
+          "name": "disclosure",
+          "kind": "sp",
+          "text": "Four applications, separate parameters \u03b8\u2081\u2026\u03b8\u2084. The inset shows one application; states are schematic.",
+          "boundsPx": [
+            18.0,
+            375.0,
+            636.0,
+            18.0
+          ],
+          "fingerprint": "dd8e0c9ef3f0467689a63800df6af4d85bbe26a4c1d420b9a652e7e3464901fe",
+          "fontPt": [
+            7.88
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "name": "input-fork",
+          "from": "input",
+          "to": "fork",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "e0",
+          "from": "fork",
+          "to": "norm",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "e1",
+          "from": "norm",
+          "to": "mix",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "e2",
+          "from": "mix",
+          "to": "add",
+          "fromIdx": "3",
+          "toIdx": "2",
+          "directed": true
+        },
+        {
+          "name": "e3",
+          "from": "add",
+          "to": "output",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "residual",
+          "from": "fork",
+          "to": "add",
+          "fromIdx": "0",
+          "toIdx": "1",
+          "directed": true
+        }
+      ],
+      "counts": {
+        "sp": 89,
+        "cxnSp": 6,
+        "grpSp": 7,
+        "pic": 0,
+        "graphicFrame": 0
+      },
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "passed": true
+}

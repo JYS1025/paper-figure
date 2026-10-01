@@ -1,0 +1,294 @@
+{
+  "schemaVersion": "paper-figure-independent-session-result.v1",
+  "completedUtc": "2026-09-30T02:03:15.012594+00:00",
+  "status": "completed_with_stated_scope",
+  "title": "Fluorescence-activated microfluidic droplet screening",
+  "briefPath": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/unseen-context-test-01/brief.json",
+  "skillPath": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/unseen-context-test-01/skills/paper-figure/SKILL.md",
+  "contentContractPath": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/unseen-context-test-01/private/content-contract.json",
+  "deliverables": {
+    "pptx": {
+      "path": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/unseen-context-test-01/output/droplet-screening.pptx",
+      "sha256": "78a4d0170b79aed44e472dd93bc358b050436ea3870751ccd38f1341a1d242da",
+      "bytes": 19036
+    },
+    "pdf": {
+      "path": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/unseen-context-test-01/output/droplet-screening.pdf",
+      "sha256": "ba992387313b4d8e05632521859f0642e822c2c1b2221ce601fce135f2bd990b",
+      "bytes": 77143
+    },
+    "png": {
+      "path": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/unseen-context-test-01/output/droplet-screening.png",
+      "sha256": "cb8ae2c18191efda981382fc5d29c84c1ee1d37481ede2e542667983ccb56571",
+      "bytes": 200830
+    }
+  },
+  "publication": {
+    "widthMm": 177.8,
+    "heightMm": 103.1875,
+    "canvasPx": [
+      672,
+      390
+    ],
+    "pngPixels": [
+      2100,
+      1219
+    ],
+    "pngDpi": 300,
+    "pdfPages": 1,
+    "pdfWidthPt": 504.0,
+    "declaredFont": "Liberation Sans",
+    "observedPdfFontFamilies": [
+      "LiberationSans",
+      "LiberationSans-Bold"
+    ],
+    "smallestTextPt": 7.875,
+    "physicalPrintTest": false
+  },
+  "referenceSources": [
+    {
+      "url": "https://lmbweb.informatik.uni-freiburg.de/people/ronneber/u-net/u-net-architecture.png",
+      "source": "U-Net original architecture figure, reference card",
+      "visualInspection": true,
+      "use": "Spatially separated connector roles and precise endpoint placement only. No architecture or scale claims copied."
+    },
+    {
+      "url": "https://pubs.rsc.org/en/content/articlehtml/2009/lc/b902504a",
+      "source": "Baret et al., 2009, primary FADS paper",
+      "visualInspection": false,
+      "use": "Context search only; original page returned 403."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6942126/",
+      "source": "Fluorescence Activated Droplet Sorting for Single Cell Directed Evolution, primary paper",
+      "visualInspection": false,
+      "use": "Indexed figure captions consulted; original images inaccessible through the retrieved page. No device parameters, biological details or performance claims imported."
+    }
+  ],
+  "authorship": {
+    "originalNativeDiagram": true,
+    "sourceImagesReproduced": false,
+    "empiricalResultsClaimed": false,
+    "biologicalExampleInvented": false,
+    "parametersInvented": false,
+    "schematicDisclosureVisible": true
+  },
+  "editability": {
+    "basis": "Saved PPTX OOXML inspection, not an interactive native-app test",
+    "nativeCounts": {
+      "sp": 97,
+      "cxnSp": 3,
+      "grpSp": 6,
+      "pic": 0,
+      "graphicFrame": 0
+    },
+    "nativeGroups": 6,
+    "nativeText": true,
+    "nativeCustomChannelPaths": true,
+    "nativeAttachedControlConnectors": 3,
+    "flattenedFigureImage": false,
+    "formulaFormat": "Editable Unicode text for F, θ and inequalities; not OMML",
+    "nativePowerPointEditTestPerformed": false
+  },
+  "checks": {
+    "sourcePreservation": {
+      "passed": true,
+      "unchangedFileCount": 21,
+      "receiptPath": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/unseen-context-test-01/private/source-preservation.json"
+    },
+    "semanticContract": {
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "path": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/unseen-context-test-01/private/final-inspect.json",
+      "scope": "Labels, native geometry, groups, and three optical/control directed connectors. Material topology is reviewed separately."
+    },
+    "flowAudit": {
+      "summary": {
+        "connectors": 3,
+        "requiringRenderedReview": 0,
+        "geometryUnchecked": 0
+      },
+      "path": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/unseen-context-test-01/private/final-flow-audit.json",
+      "allControlEndpointOffsetsPx": 0,
+      "visibleBoundaries": true
+    },
+    "materialTopology": {
+      "mode": "manual review of saved-file render",
+      "passed": true,
+      "relationsChecked": [
+        [
+          "aqueous assay mixture",
+          "flow-focusing junction"
+        ],
+        [
+          "carrier oil, both side streams",
+          "flow-focusing junction"
+        ],
+        [
+          "flow-focusing junction",
+          "discrete aqueous droplets in oil"
+        ],
+        [
+          "droplets",
+          "on-chip incubation / delay"
+        ],
+        [
+          "incubation / delay",
+          "detection window"
+        ],
+        [
+          "detection window",
+          "sorting junction"
+        ],
+        [
+          "sorting junction, F ≥ θ",
+          "collected-hit outlet"
+        ],
+        [
+          "sorting junction, F < θ",
+          "waste outlet"
+        ]
+      ],
+      "continuousChannel": true,
+      "twoOutlets": true,
+      "highCriterion": "F ≥ θ",
+      "lowCriterion": "F < θ",
+      "automaticCustomPathTopologyValidation": false
+    },
+    "packageIntegrity": {
+      "passed": true,
+      "findings": []
+    },
+    "layout": {
+      "passed": true,
+      "warnings": []
+    },
+    "artifactToolReimport": {
+      "performed": true,
+      "passed": true
+    },
+    "finalizerReceiptPath": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/unseen-context-test-01/private/r2/finalizer.json",
+    "visualReview": {
+      "roundCount": 2,
+      "rounds": [
+        {
+          "round": 1,
+          "inspected": [
+            "render/slide-1.png",
+            "render/publication-1.png"
+          ],
+          "observations": [
+            {
+              "class": "finishing",
+              "location": "all typography",
+              "evidence": "Saved LibreOffice rendering uses serif fallback despite Helvetica Neue declaration.",
+              "change": "Use bundled Liberation Sans and inspect PDF font resources."
+            },
+            {
+              "class": "finishing",
+              "location": "collected hits threshold label",
+              "evidence": "Threshold text touches upper channel wall.",
+              "change": "Move label and threshold upward by 5 and 8 px respectively."
+            },
+            {
+              "class": "finishing",
+              "location": "sorting leader",
+              "evidence": "Slight diagonal in a long vertical label leader.",
+              "change": "Align both x coordinates at 502."
+            }
+          ],
+          "semanticReview": "Continuous main channel, opposing oil streams, droplets, on-chip meander, detection preceding branch, and detector-controller-electrode connections are visible. Main physical topology has no observed missing link.",
+          "nativeAppEditTest": false
+        },
+        {
+          "round": 2,
+          "filesInspected": [
+            "render/slide-1.png",
+            "render/publication-1.png",
+            "render/reduced-grayscale.png"
+          ],
+          "views": {
+            "full": [
+              1344,
+              781
+            ],
+            "publicationWidth96Dpi": [
+              672,
+              390
+            ],
+            "reducedGrayscale": [
+              504,
+              293
+            ]
+          },
+          "findings": [],
+          "observations": [
+            "Saved PDF font resources use LiberationSans and LiberationSans-Bold.",
+            "Assay thread and two oil feeds meet at the flow-focusing site before discrete droplets.",
+            "Continuous meander joins both generation and detection without a material gap.",
+            "Detector is upstream of the sorting electrode and Y branch.",
+            "Dot-marked droplets pass to the F ≥ θ collected outlet; open droplets pass to F < θ waste.",
+            "Optical readout reaches detector, dashed F signal reaches controller, and dashed trigger reaches electrode.",
+            "All three control connector endpoints coincide with visible native object boundaries.",
+            "No unintended label clipping or overlap observed at the full or publication-width render.",
+            "Filled centers, open centers and dashed lines retain their meanings in reduced grayscale."
+          ],
+          "physicalPrintTest": false,
+          "nativeAppEditTest": false,
+          "conclusion": "No further visible defect requiring revision was identified. Reduced grayscale is a structural check, not a guarantee of small-text readability at arbitrary print sizes."
+        }
+      ],
+      "final300DpiPngAlsoInspected": true,
+      "screenPhysicalScaleCalibrationPerformed": false
+    }
+  },
+  "renderProvenance": {
+    "sourcePptxSha256": "78a4d0170b79aed44e472dd93bc358b050436ea3870751ccd38f1341a1d242da",
+    "pipeline": "Saved PPTX -> bundled LibreOffice PDF -> bundled Poppler PNG",
+    "soffice": "/Users/odysseus/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
+    "pdftoppm": "/Users/odysseus/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/pdftoppm",
+    "pdfCopiedByteIdenticallyFromReviewedRender": true,
+    "pptxCopiedByteIdenticallyFromFinalizerOutput": true
+  },
+  "unsupportedOperations": [
+    {
+      "operation": "Automatic semantic interpretation of the custom fluid-channel paths",
+      "status": "outside flow_audit scope",
+      "handling": "Recorded complete material relations before drawing and traced them in the saved render."
+    },
+    {
+      "operation": "Native PowerPoint interactive edit test",
+      "status": "not performed",
+      "handling": "No claim of app-level edit validation; native OOXML objects and groups were verified."
+    },
+    {
+      "operation": "Original FADS figure visual inspection",
+      "status": "not completed due access limitations",
+      "handling": "Used inspected U-Net reference-card source only for spatial connection principles; source limitation retained."
+    }
+  ],
+  "limitations": [
+    "Hypothetical methodology, not measured sorting evidence.",
+    "Geometry, droplet counts and fluorescence glyphs are schematic.",
+    "Channel dimensions, rates, delay duration, physical signals, biology, electrode details and trigger timing remain unspecified.",
+    "The figure does not validate timing, electrical actuation or sorting performance.",
+    "The editable custom paths require node editing in PowerPoint; their physical channel topology does not automatically reroute after arbitrary edits.",
+    "Native PowerPoint rendering and interactive editing were not tested.",
+    "PDF fonts were verified in the bundled LibreOffice output; another viewer may render differently.",
+    "Publication-width review used a 96 dpi pixel equivalent and known file dimensions, not a calibrated physical print."
+  ],
+  "productionNotes": [
+    {
+      "issue": "Initial finalizer rejected validation receipt in the same folder as its candidate final output",
+      "resolved": true,
+      "action": "Put each private final PPTX in its own subdirectory, keeping receipts outside it."
+    },
+    {
+      "issue": "Initial saved render substituted Helvetica Neue with a serif font",
+      "resolved": true,
+      "action": "Changed declared font to bundled Liberation Sans and verified PDF font resources."
+    }
+  ],
+  "koreanSummary": "177.8 mm 폭의 단일 슬라이드 도식을 완성했습니다. 물질 흐름과 검출·제어·전극 관계를 편집 가능한 도형으로 구성했으며, 저장 PPTX를 렌더링해 2회 검토했습니다. 액적 표시와 채널 형상은 가상 예시이고, 실제 분류 성능이나 PowerPoint 직접 편집 검증은 주장하지 않습니다."
+}

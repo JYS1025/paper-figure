@@ -1,0 +1,83 @@
+{
+  "savedPptxSha256": "e5facf0c370a514d8e1c037d9cf4f09987c487a02c52c6c2a198e9b4d766fe4d",
+  "nativeCounts": {
+    "sp": 79,
+    "cxnSp": 3,
+    "grpSp": 9,
+    "pic": 1,
+    "graphicFrame": 0
+  },
+  "flowAudit": {
+    "connectors": 3,
+    "requiringRenderedReview": 0,
+    "geometryUnchecked": 0
+  },
+  "observedPassages": [
+    {
+      "id": "d1",
+      "coverage": [
+        1,
+        0
+      ],
+      "selected": true,
+      "rowCenterAligned": true
+    },
+    {
+      "id": "d2",
+      "coverage": [
+        0,
+        0
+      ],
+      "selected": false,
+      "rowCenterAligned": true
+    },
+    {
+      "id": "d3",
+      "coverage": [
+        0,
+        1
+      ],
+      "selected": true,
+      "rowCenterAligned": true
+    },
+    {
+      "id": "d4",
+      "coverage": [
+        1,
+        0
+      ],
+      "selected": false,
+      "rowCenterAligned": true
+    }
+  ],
+  "selectionRuleVerified": true,
+  "answerClauseAndCitationMappingVerified": true,
+  "pictureCount": 1,
+  "fullDraftEmbedded": false,
+  "scriptRolesVerified": true,
+  "renderer": "Bundled LibreOffice with actual saved-PPTX PDF/PNG export",
+  "nativePowerPointInteractionTested": false,
+  "typography": {
+    "summary": {
+      "regions": 9,
+      "requiringReview": 0,
+      "unmeasuredRegions": 0
+    },
+    "smallestScriptPt": 10.205,
+    "renderer": "Bundled LibreOffice",
+    "publicationWidthMm": 177.8
+  },
+  "workflow": {
+    "contract": "content-contract.json",
+    "actualFullDraftPrompt": "draft-prompt.txt",
+    "selectedFullDraft": "selected-draft.png",
+    "preAuthoringTransferPlan": "transfer-plan.txt",
+    "separateAssetPrompt": "assets/prompt.txt",
+    "finalPptx": "figure-v2.pptx",
+    "savedFileRender": "figure.png",
+    "equalWidthComparison": "draft-vs-pptx.png",
+    "comparisonReview": "report.txt",
+    "fullDraftInspectedBeforeNativeAuthoring": true,
+    "independentBlindTest": false
+  }
+}

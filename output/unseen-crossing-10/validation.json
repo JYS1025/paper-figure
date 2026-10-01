@@ -1,0 +1,75 @@
+{
+  "savedPptxSha256": "5db4b40600619a1af73dc9461686c5eee7b8237d878bf9c02aeab8a8813479a9",
+  "nativeCounts": {
+    "sp": 136,
+    "cxnSp": 7,
+    "grpSp": 11,
+    "pic": 2,
+    "graphicFrame": 0
+  },
+  "requiredDirectedEdges": 7,
+  "flowAudit": {
+    "connectors": 7,
+    "requiringRenderedReview": 0,
+    "geometryUnchecked": 0
+  },
+  "observedSnapshotStates": {
+    "A": [
+      "A0",
+      "c",
+      "Ag",
+      "Ag"
+    ],
+    "B": [
+      "B0",
+      "B0",
+      "c",
+      "Bg"
+    ]
+  },
+  "observedReservations": {
+    "A": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "B": [
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  "sharedVertexConflicts": 0,
+  "edgeSwapConflicts": 0,
+  "allMovesFollowDirectedGraph": true,
+  "goalsReached": true,
+  "BWaitsOneStep": true,
+  "independentPictures": 2,
+  "mediaIdentityVerified": true,
+  "scriptRoleFormattingVerified": true,
+  "date": "2026-10-01",
+  "task": "Shared-cell reservation for two robot agents",
+  "unseenScope": "New task relative to local example and sample tasks; constructed in the current session, not an independent cold-session run or a training-data novelty claim.",
+  "renderer": "bundled LibreOffice → PDF → Poppler",
+  "publicationWidthMm": 177.8,
+  "typography": {
+    "regions": 14,
+    "requiringReview": 0,
+    "unmeasuredRegions": 0
+  },
+  "minimumMathSizePt": 9.213,
+  "scriptRatioRange": [
+    0.6806,
+    0.6828
+  ],
+  "mathFonts": [
+    "TimesNewRomanPS-ItalicMT",
+    "TimesNewRomanPSMT"
+  ],
+  "visualReview": "Final full render, publication-width preview and grayscale inspected. No observed clipping or route-label collision.",
+  "layoutWarningResolution": "One bounding-box overlap warning on the B-to-c connector and the c textbox. The arrow ends at the c boundary (y=157px), below the visible c glyph; the oversized text box extends lower than its glyph. Final render confirms no text collision.",
+  "editability": "Native map, cells, markers, connectors and grouped mathematical text. One generated PNG is used as two independently named replaceable pictures. Formula text is not OMML.",
+  "scope": "Toy discrete-time graph only. No continuous-motion safety, optimality, independent blind comparison or native PowerPoint execution claim."
+}

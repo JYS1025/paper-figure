@@ -1,0 +1,169 @@
+{
+  "title": "BSAE: spike-to-spike compression with delay-tolerant training",
+  "project": "/Users/odysseus/Downloads/Lab/BSAE",
+  "canvasPx": [
+    672,
+    520
+  ],
+  "publicationWidthMm": 177.8,
+  "evidenceFiles": [
+    "README.md",
+    "config.yaml",
+    "models/autoencoder.py",
+    "models/layers.py",
+    "models/delay.py",
+    "losses/van_rossum.py",
+    "train.py"
+  ],
+  "architecture": {
+    "inputChannels": 1024,
+    "encoderOutputDims": [
+      1024,
+      768,
+      512,
+      256,
+      128,
+      32
+    ],
+    "decoderOutputDims": [
+      128,
+      256,
+      512,
+      768,
+      1024,
+      1024
+    ],
+    "block": "Time-distributed Linear followed by recurrent LIF",
+    "latent": "Binary spikes, 32 channels",
+    "output": "Binary reconstructed spikes, 1024 channels",
+    "adapter": "Platform-specific input adapter, followed by the channel-validity mask; there is no decoder adapter",
+    "shared": "The encoder and decoder are shared across platforms",
+    "temporalAxis": "All stages preserve sequence length; tapering denotes schematic channel compression, not time downsampling or exact geometric scale"
+  },
+  "training": {
+    "target": "The original canonical spike sequence before adaptation",
+    "padding": "Input and target receive 30 zero-tail bins in the current configuration",
+    "delay": "A single shared bank of learned per-channel softmax distributions over d=0,...,30; causal delay of the TARGET only. It is not an input-conditioned predictor or a decoder layer.",
+    "softDelay": "An event at t contributes at t+d with learned weight p_c(d)",
+    "filters": "Apply the same 20-bin exponential kernel to delayed target and reconstruction with full convolution",
+    "objective": "Mean squared difference across batch, all 1024 channels and full filtered time axis",
+    "currentConfig": {
+      "inputBins": 100,
+      "tailBins": 30,
+      "kernelBins": 20,
+      "filteredBins": 149,
+      "coreLearningRate": 0.001,
+      "delayLearningRate": 0.0001
+    }
+  },
+  "representations": {
+    "spikeRasters": "Editable schematic marks, selected illustrative channels only, not recorded/model-produced samples",
+    "widths": "Encoder/decoder tapering is schematic; exact dimension sequences must be visible",
+    "asset": "One generated abstract neural-recording pictogram, independent and illustrative, with no semantic labels or connectors inside its pixels",
+    "math": "Use native grouped text for X, Z, reconstructed X with a separately positioned hat, p_c(d) and L_VR when present; no raster formulas",
+    "colors": {
+      "book": "teal-coral",
+      "teal": "input/target and encoder",
+      "coral": "reconstruction and decoder",
+      "ochre": "binary latent bottleneck",
+      "neutral": "adapter, delay/filter machinery and loss"
+    }
+  },
+  "requiredEdges": [
+    [
+      "input-spikes",
+      "input-adapter"
+    ],
+    [
+      "input-adapter",
+      "encoder"
+    ],
+    [
+      "encoder",
+      "latent-spikes"
+    ],
+    [
+      "latent-spikes",
+      "decoder"
+    ],
+    [
+      "decoder",
+      "output-spikes"
+    ],
+    [
+      "target-spikes",
+      "causal-delay"
+    ],
+    [
+      "causal-delay",
+      "target-filter"
+    ],
+    [
+      "reconstruction-spikes",
+      "output-filter"
+    ],
+    [
+      "target-filter",
+      "loss"
+    ],
+    [
+      "output-filter",
+      "loss"
+    ]
+  ],
+  "relationshipPlan": {
+    "main": "Spikes are compressed in channel dimension and reconstructed while the time axis is preserved.",
+    "branch": "The loss uses the ORIGINAL target through a learned causal delay bank and the reconstruction through an undelayed branch; both then receive the same exponential filter.",
+    "scope": "Panel b reuses explicitly labeled target and reconstruction from panel a; diagram does not assert skip connections, time compression or measured performance.",
+    "endpoint": "Connectors meet visible native frames or native rectangular funnel ports coincident with the visible funnel boundary.",
+    "delayInset": "If a worked distribution is shown, use an explicit illustrative three-tap kernel [0.2,0.5,0.3] at delays 0,1,2; remaining delays are zero in the example. The learned bank still permits 0 through 30."
+  },
+  "reference": {
+    "path": ".build/blind-evaluation/sources/unet.png",
+    "url": "https://lmbweb.informatik.uni-freiburg.de/people/ronneber/u-net/u-net-architecture.png",
+    "observation": "Inspected for scale-changing encoder/decoder representations and dimension annotation. Do not transfer U-Net skip links or spatial-resolution semantics to BSAE."
+  },
+  "visibleEdges": [
+    [
+      "input-spikes",
+      "input-adapter"
+    ],
+    [
+      "input-adapter",
+      "encoder-in"
+    ],
+    [
+      "encoder-out",
+      "latent-spikes"
+    ],
+    [
+      "latent-spikes",
+      "decoder-in"
+    ],
+    [
+      "decoder-out",
+      "output-spikes"
+    ],
+    [
+      "target-spikes",
+      "causal-delay"
+    ],
+    [
+      "causal-delay",
+      "target-filter"
+    ],
+    [
+      "reconstruction-spikes",
+      "output-filter"
+    ],
+    [
+      "target-filter",
+      "loss-target-port"
+    ],
+    [
+      "output-filter",
+      "loss-output-port"
+    ]
+  ],
+  "visibleEdgeMapping": "encoder-in/out and decoder-in/out are visible rectangular end ports coincident with their tapered module boundaries. loss-target-port and loss-output-port lie on the left boundary of the single loss module."
+}

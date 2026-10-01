@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="111" height="26" viewBox="0 0 111 26" role="img" aria-label="CODEX: SKILL">
+<title>CODEX: SKILL</title>
+<defs><clipPath id="edge"><rect width="111" height="26" rx="4"/></clipPath></defs>
+<g clip-path="url(#edge)"><rect width="111" height="26" fill="#26343E"/><rect x="55.5" width="55.5" height="26" fill="#A6CBBB"/></g>
+<g font-family="DejaVu Sans Mono,Consolas,monospace" font-size="10" font-weight="600" text-anchor="middle" letter-spacing="0.4">
+<text x="27.75" y="17" fill="#F4F2E9">CODEX</text>
+<text x="83.25" y="17" fill="#17242C">SKILL</text></g>
+</svg>

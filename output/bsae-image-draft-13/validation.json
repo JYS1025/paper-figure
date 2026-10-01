@@ -1,0 +1,65 @@
+{
+  "savedPptxSha256": "32b26658eba249fdc63bc71e39a58ba85c33e9dbf3d204a426c119c835b00d8d",
+  "nativeCounts": {
+    "sp": 196,
+    "cxnSp": 10,
+    "grpSp": 16,
+    "pic": 1,
+    "graphicFrame": 0
+  },
+  "flowAudit": {
+    "connectors": 10,
+    "requiringRenderedReview": 0,
+    "geometryUnchecked": 0
+  },
+  "encoderOutputsVerifiedAgainstSource": [
+    1024,
+    768,
+    512,
+    256,
+    128,
+    32
+  ],
+  "decoderOutputsVerifiedAgainstSource": [
+    128,
+    256,
+    512,
+    768,
+    1024,
+    1024
+  ],
+  "targetOnlyCausalDelay": true,
+  "impulseAmplitudesVerified": [
+    0.2,
+    0.5,
+    0.3
+  ],
+  "fullConvolutionCurvesVerifiedFromNativeCoordinates": true,
+  "pictures": 1,
+  "fullDraftEmbedded": false,
+  "renderer": "Bundled LibreOffice",
+  "nativePowerPointInteractionTested": false,
+  "typography": {
+    "summary": {
+      "regions": 14,
+      "requiringReview": 0,
+      "unmeasuredRegions": 0
+    },
+    "minimumMathSizePt": 8.306,
+    "publicationWidthMm": 177.8
+  },
+  "workflow": {
+    "contentContract": "content-contract.json",
+    "sourceEvidence": "source-evidence.json",
+    "actualDraftPrompt": "draft-prompt.txt",
+    "selectedFullDraft": "selected-draft.png",
+    "preAuthoringTransferPlan": "transfer-plan.txt",
+    "separateAssetPrompt": "assets/prompt.txt",
+    "finalPptx": "figure-v3.pptx",
+    "savedFileRender": "figure.png",
+    "equalWidthComparison": "draft-vs-pptx.png",
+    "comparisonReview": "report.txt",
+    "draftInspectedBeforeNativeAuthoring": true,
+    "independentBlindTest": false
+  }
+}

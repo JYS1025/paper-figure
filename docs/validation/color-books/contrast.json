@@ -1,0 +1,1286 @@
+{
+  "scope": "sRGB contrast heuristics for intended pairs, not journal requirements or CVD certification",
+  "all_pairs_meet_targets": true,
+  "books": [
+    {
+      "id": "sage-lavender",
+      "pairs": [
+        {
+          "pair": "ink/canvas",
+          "ratio": 15.0,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "secondary/canvas",
+          "ratio": 7.4,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "ink/surface",
+          "ratio": 13.5,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "stroke/surface",
+          "ratio": 3.96,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "sage: ink/fill",
+          "ratio": 12.72,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "sage: stroke/fill",
+          "ratio": 3.86,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "sage: accent/fill",
+          "ratio": 4.63,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "lavender: ink/fill",
+          "ratio": 11.88,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "lavender: stroke/fill",
+          "ratio": 3.56,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "lavender: accent/fill",
+          "ratio": 5.16,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "steel: ink/fill",
+          "ratio": 12.52,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "steel: stroke/fill",
+          "ratio": 3.63,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "steel: accent/fill",
+          "ratio": 4.72,
+          "target": 3.0,
+          "meets_target": true
+        }
+      ]
+    },
+    {
+      "id": "blue-apricot",
+      "pairs": [
+        {
+          "pair": "ink/canvas",
+          "ratio": 14.79,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "secondary/canvas",
+          "ratio": 7.27,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "ink/surface",
+          "ratio": 13.29,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "stroke/surface",
+          "ratio": 3.91,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "blue: ink/fill",
+          "ratio": 12.26,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "blue: stroke/fill",
+          "ratio": 3.47,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "blue: accent/fill",
+          "ratio": 5.09,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "apricot: ink/fill",
+          "ratio": 12.06,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "apricot: stroke/fill",
+          "ratio": 3.38,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "apricot: accent/fill",
+          "ratio": 3.76,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "teal: ink/fill",
+          "ratio": 12.48,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "teal: stroke/fill",
+          "ratio": 3.78,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "teal: accent/fill",
+          "ratio": 4.26,
+          "target": 3.0,
+          "meets_target": true
+        }
+      ]
+    },
+    {
+      "id": "teal-coral",
+      "pairs": [
+        {
+          "pair": "ink/canvas",
+          "ratio": 14.64,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "secondary/canvas",
+          "ratio": 7.23,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "ink/surface",
+          "ratio": 12.92,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "stroke/surface",
+          "ratio": 3.8,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "teal: ink/fill",
+          "ratio": 12.12,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "teal: stroke/fill",
+          "ratio": 3.66,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "teal: accent/fill",
+          "ratio": 3.94,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "coral: ink/fill",
+          "ratio": 11.6,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "coral: stroke/fill",
+          "ratio": 3.36,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "coral: accent/fill",
+          "ratio": 3.77,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "ochre: ink/fill",
+          "ratio": 12.21,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "ochre: stroke/fill",
+          "ratio": 3.33,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "ochre: accent/fill",
+          "ratio": 3.87,
+          "target": 3.0,
+          "meets_target": true
+        }
+      ]
+    },
+    {
+      "id": "plum-sand",
+      "pairs": [
+        {
+          "pair": "ink/canvas",
+          "ratio": 14.5,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "secondary/canvas",
+          "ratio": 7.53,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "ink/surface",
+          "ratio": 12.81,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "stroke/surface",
+          "ratio": 4.02,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "plum: ink/fill",
+          "ratio": 11.33,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "plum: stroke/fill",
+          "ratio": 3.47,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "plum: accent/fill",
+          "ratio": 4.98,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "sand: ink/fill",
+          "ratio": 12.11,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "sand: stroke/fill",
+          "ratio": 3.23,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "sand: accent/fill",
+          "ratio": 4.06,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "slate: ink/fill",
+          "ratio": 11.82,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "slate: stroke/fill",
+          "ratio": 3.45,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "slate: accent/fill",
+          "ratio": 4.66,
+          "target": 3.0,
+          "meets_target": true
+        }
+      ]
+    },
+    {
+      "id": "moss-clay",
+      "pairs": [
+        {
+          "pair": "ink/canvas",
+          "ratio": 14.29,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "secondary/canvas",
+          "ratio": 7.07,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "ink/surface",
+          "ratio": 12.72,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "stroke/surface",
+          "ratio": 3.8,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "moss: ink/fill",
+          "ratio": 11.82,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "moss: stroke/fill",
+          "ratio": 3.32,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "moss: accent/fill",
+          "ratio": 4.35,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "clay: ink/fill",
+          "ratio": 11.11,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "clay: stroke/fill",
+          "ratio": 3.21,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "clay: accent/fill",
+          "ratio": 3.78,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "slate: ink/fill",
+          "ratio": 11.6,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "slate: stroke/fill",
+          "ratio": 3.54,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "slate: accent/fill",
+          "ratio": 4.68,
+          "target": 3.0,
+          "meets_target": true
+        }
+      ]
+    },
+    {
+      "id": "ink-cobalt",
+      "pairs": [
+        {
+          "pair": "ink/canvas",
+          "ratio": 15.52,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "secondary/canvas",
+          "ratio": 7.15,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "ink/surface",
+          "ratio": 13.59,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "stroke/surface",
+          "ratio": 3.79,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "cobalt: ink/fill",
+          "ratio": 13.04,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "cobalt: stroke/fill",
+          "ratio": 3.7,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "cobalt: accent/fill",
+          "ratio": 4.36,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "orange: ink/fill",
+          "ratio": 12.84,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "orange: stroke/fill",
+          "ratio": 3.67,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "orange: accent/fill",
+          "ratio": 3.79,
+          "target": 3.0,
+          "meets_target": true
+        }
+      ]
+    },
+    {
+      "id": "royal-wheat",
+      "pairs": [
+        {
+          "pair": "ink/canvas",
+          "ratio": 15.0,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "secondary/canvas",
+          "ratio": 7.4,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "ink/surface",
+          "ratio": 13.48,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "stroke/surface",
+          "ratio": 3.95,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "royal: ink/fill",
+          "ratio": 11.67,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "royal: stroke/fill",
+          "ratio": 3.82,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "royal: accent/fill",
+          "ratio": 4.2,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "wheat: ink/fill",
+          "ratio": 13.14,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "wheat: stroke/fill",
+          "ratio": 3.15,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "wheat: accent/fill",
+          "ratio": 4.15,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "solid module: white/accent",
+          "ratio": 5.39,
+          "target": 4.5,
+          "meets_target": true
+        }
+      ]
+    },
+    {
+      "id": "periwinkle-orchid",
+      "pairs": [
+        {
+          "pair": "ink/canvas",
+          "ratio": 15.0,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "secondary/canvas",
+          "ratio": 7.4,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "ink/surface",
+          "ratio": 13.48,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "stroke/surface",
+          "ratio": 3.95,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "periwinkle: ink/fill",
+          "ratio": 10.88,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "periwinkle: stroke/fill",
+          "ratio": 3.36,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "periwinkle: accent/fill",
+          "ratio": 3.59,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "orchid: ink/fill",
+          "ratio": 11.28,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "orchid: stroke/fill",
+          "ratio": 3.09,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "orchid: accent/fill",
+          "ratio": 3.99,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "rose: ink/fill",
+          "ratio": 12.07,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "rose: stroke/fill",
+          "ratio": 3.27,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "rose: accent/fill",
+          "ratio": 3.95,
+          "target": 3.0,
+          "meets_target": true
+        }
+      ]
+    },
+    {
+      "id": "pistachio-rose",
+      "pairs": [
+        {
+          "pair": "ink/canvas",
+          "ratio": 15.0,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "secondary/canvas",
+          "ratio": 7.4,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "ink/surface",
+          "ratio": 13.48,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "stroke/surface",
+          "ratio": 3.95,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "pistachio: ink/fill",
+          "ratio": 12.64,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "pistachio: stroke/fill",
+          "ratio": 3.69,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "pistachio: accent/fill",
+          "ratio": 4.12,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "sky: ink/fill",
+          "ratio": 11.85,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "sky: stroke/fill",
+          "ratio": 3.35,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "sky: accent/fill",
+          "ratio": 4.25,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "rose: ink/fill",
+          "ratio": 12.04,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "rose: stroke/fill",
+          "ratio": 3.44,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "rose: accent/fill",
+          "ratio": 4.28,
+          "target": 3.0,
+          "meets_target": true
+        }
+      ]
+    },
+    {
+      "id": "cyan-lilac",
+      "pairs": [
+        {
+          "pair": "ink/canvas",
+          "ratio": 15.0,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "secondary/canvas",
+          "ratio": 7.4,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "ink/surface",
+          "ratio": 13.48,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "stroke/surface",
+          "ratio": 3.95,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "cyan: ink/fill",
+          "ratio": 11.99,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "cyan: stroke/fill",
+          "ratio": 3.49,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "cyan: accent/fill",
+          "ratio": 3.87,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "lilac: ink/fill",
+          "ratio": 10.97,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "lilac: stroke/fill",
+          "ratio": 3.3,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "lilac: accent/fill",
+          "ratio": 4.47,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "butter: ink/fill",
+          "ratio": 13.37,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "butter: stroke/fill",
+          "ratio": 3.27,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "butter: accent/fill",
+          "ratio": 4.24,
+          "target": 3.0,
+          "meets_target": true
+        }
+      ]
+    },
+    {
+      "id": "amethyst-honey",
+      "pairs": [
+        {
+          "pair": "ink/canvas",
+          "ratio": 15.0,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "secondary/canvas",
+          "ratio": 7.4,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "ink/surface",
+          "ratio": 13.48,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "stroke/surface",
+          "ratio": 3.95,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "amethyst: ink/fill",
+          "ratio": 10.86,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "amethyst: stroke/fill",
+          "ratio": 3.04,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "amethyst: accent/fill",
+          "ratio": 4.52,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "honey: ink/fill",
+          "ratio": 12.84,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "honey: stroke/fill",
+          "ratio": 3.06,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "honey: accent/fill",
+          "ratio": 3.57,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "blue: ink/fill",
+          "ratio": 10.96,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "blue: stroke/fill",
+          "ratio": 3.05,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "blue: accent/fill",
+          "ratio": 3.98,
+          "target": 3.0,
+          "meets_target": true
+        }
+      ]
+    },
+    {
+      "id": "graphite-ochre",
+      "pairs": [
+        {
+          "pair": "ink/canvas",
+          "ratio": 15.0,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "secondary/canvas",
+          "ratio": 7.4,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "ink/surface",
+          "ratio": 13.48,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "stroke/surface",
+          "ratio": 3.95,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "graphite: ink/fill",
+          "ratio": 11.04,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "graphite: stroke/fill",
+          "ratio": 3.2,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "graphite: accent/fill",
+          "ratio": 5.18,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "ochre: ink/fill",
+          "ratio": 10.99,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "ochre: stroke/fill",
+          "ratio": 3.5,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "ochre: accent/fill",
+          "ratio": 3.62,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "vermilion: ink/fill",
+          "ratio": 11.2,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "vermilion: stroke/fill",
+          "ratio": 3.27,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "vermilion: accent/fill",
+          "ratio": 4.22,
+          "target": 3.0,
+          "meets_target": true
+        }
+      ]
+    },
+    {
+      "id": "celadon-blush",
+      "pairs": [
+        {
+          "pair": "ink/canvas",
+          "ratio": 15.0,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "secondary/canvas",
+          "ratio": 7.4,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "ink/surface",
+          "ratio": 13.48,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "stroke/surface",
+          "ratio": 3.95,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "celadon: ink/fill",
+          "ratio": 11.8,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "celadon: stroke/fill",
+          "ratio": 3.07,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "celadon: accent/fill",
+          "ratio": 3.87,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "blush: ink/fill",
+          "ratio": 11.26,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "blush: stroke/fill",
+          "ratio": 3.53,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "blush: accent/fill",
+          "ratio": 3.7,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "ice: ink/fill",
+          "ratio": 11.73,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "ice: stroke/fill",
+          "ratio": 3.21,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "ice: accent/fill",
+          "ratio": 4.32,
+          "target": 3.0,
+          "meets_target": true
+        }
+      ]
+    },
+    {
+      "id": "sky-leaf",
+      "pairs": [
+        {
+          "pair": "ink/canvas",
+          "ratio": 15.0,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "secondary/canvas",
+          "ratio": 7.4,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "ink/surface",
+          "ratio": 13.48,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "stroke/surface",
+          "ratio": 3.95,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "sky: ink/fill",
+          "ratio": 10.96,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "sky: stroke/fill",
+          "ratio": 3.46,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "sky: accent/fill",
+          "ratio": 3.78,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "leaf: ink/fill",
+          "ratio": 11.39,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "leaf: stroke/fill",
+          "ratio": 3.44,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "leaf: accent/fill",
+          "ratio": 3.54,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "amber: ink/fill",
+          "ratio": 10.98,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "amber: stroke/fill",
+          "ratio": 3.61,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "amber: accent/fill",
+          "ratio": 3.47,
+          "target": 3.0,
+          "meets_target": true
+        }
+      ]
+    },
+    {
+      "id": "olive-copper",
+      "pairs": [
+        {
+          "pair": "ink/canvas",
+          "ratio": 15.0,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "secondary/canvas",
+          "ratio": 7.4,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "ink/surface",
+          "ratio": 13.48,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "stroke/surface",
+          "ratio": 3.95,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "olive: ink/fill",
+          "ratio": 12.58,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "olive: stroke/fill",
+          "ratio": 3.69,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "olive: accent/fill",
+          "ratio": 4.41,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "copper: ink/fill",
+          "ratio": 12.23,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "copper: stroke/fill",
+          "ratio": 3.26,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "copper: accent/fill",
+          "ratio": 3.72,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "blue: ink/fill",
+          "ratio": 12.14,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "blue: stroke/fill",
+          "ratio": 3.32,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "blue: accent/fill",
+          "ratio": 4.21,
+          "target": 3.0,
+          "meets_target": true
+        }
+      ]
+    },
+    {
+      "id": "graphite-silver",
+      "pairs": [
+        {
+          "pair": "ink/canvas",
+          "ratio": 15.0,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "secondary/canvas",
+          "ratio": 7.4,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "ink/surface",
+          "ratio": 13.48,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "stroke/surface",
+          "ratio": 3.95,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "graphite: ink/fill",
+          "ratio": 10.21,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "graphite: stroke/fill",
+          "ratio": 3.32,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "graphite: accent/fill",
+          "ratio": 6.42,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "silver: ink/fill",
+          "ratio": 13.52,
+          "target": 4.5,
+          "meets_target": true
+        },
+        {
+          "pair": "silver: stroke/fill",
+          "ratio": 3.66,
+          "target": 3.0,
+          "meets_target": true
+        },
+        {
+          "pair": "silver: accent/fill",
+          "ratio": 4.8,
+          "target": 3.0,
+          "meets_target": true
+        }
+      ]
+    }
+  ]
+}

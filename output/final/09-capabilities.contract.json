@@ -1,0 +1,25 @@
+{
+  "slides": [
+    {
+      "nodes": {
+        "input": "Input x",
+        "encoder": "Encoder",
+        "output": "Output y",
+        "equation": "hₜ₊₁ = hₜ + fθ(hₜ)"
+      },
+      "edges": [
+        [
+          "input",
+          "encoder"
+        ],
+        [
+          "encoder",
+          "output"
+        ]
+      ],
+      "groups": [
+        "token-group"
+      ]
+    }
+  ]
+}

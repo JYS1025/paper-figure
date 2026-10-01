@@ -1,0 +1,9 @@
+# Timestamped visual-inertial state correction
+
+Create one editable research-method figure for the following hypothetical method. This is a new task; no existing figure is supplied. Use an image-model composition draft, then reconstruct an editable native-object PPTX using the paper-figure skill. Deliver the saved-PPTX PNG/PDF preview and the draft. Figure labels are English; the accompanying explanation is Korean. Target full publication width: 177.8 mm. This is a standalone figure with no separately supplied caption.
+
+A moving sensing platform supplies timestamped visual observations and a faster stream of inertial measurements. Inertial propagation continually advances a pose estimate to the current time t_now. A visual estimator processes a visual observation captured at t_k and returns a pose correction associated with that timestamp. Processing finishes later, so the correction arrives when the running estimate is already beyond t_k.
+
+The method retains a buffer of past state estimates and inertial measurements. When the visual correction arrives, it updates the stored state at t_k. It then replays the buffered inertial measurements after t_k to obtain a corrected pose at t_now. The delivered output is the corrected current pose, not the historical pose at t_k. Future propagation continues from this corrected current state.
+
+Show the sensing sources, the two processing paths, the historical correction target, buffer/replay relationship and corrected current output. A small illustrative sequence of times may be used, but timestamps are symbolic and no latency, trajectory accuracy, frame rate or measured motion is supplied. If visual observations or a path are shown, they are schematic examples rather than experimental data. Do not add a learned gate, a landmark-map update, an extra sensor or a synchronization algorithm that is not described here. Choose the composition and palette yourself.

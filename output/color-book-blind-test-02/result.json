@@ -1,0 +1,161 @@
+{
+  "status": "complete",
+  "title": "Fluorescence-activated microfluidic droplet screening",
+  "artifactType": "Original editable one-slide methodology schematic",
+  "publicationWidthMm": 177.8,
+  "figureLanguage": "English",
+  "schematicOnly": true,
+  "knownModelSettings": {
+    "identity": "Codex, an agent based on GPT-6 (provided system identity)",
+    "exactModelId": null,
+    "reasoningEffort": null,
+    "note": "Exact model variant and reasoning settings are not exposed in the fresh agent context; no values inferred."
+  },
+  "isolation": {
+    "scope": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/color-book-blind-test-02/generator",
+    "freshContext": true,
+    "previousOutputsOrFeedbackInspected": false,
+    "otherAgentsContacted": false,
+    "skillModified": false
+  },
+  "sourceInspection": [
+    {
+      "url": "https://arxiv.org/html/2312.00752v2/selection.svg",
+      "method": "direct browser image and full-page screenshot",
+      "inspected": true,
+      "observation": "White space supports copper horizontal state routes, olive input/state marks, and a distinct blue selection lane. Only the route-color allocation transfers; the state-space architecture and stacked dimensions do not."
+    },
+    {
+      "url": "https://arxiv.org/html/2111.06377v3/arch.png",
+      "method": "direct browser image screenshot",
+      "inspected": true,
+      "observation": "MAE shows concrete patches, visible versus masked states and representation changes with stable ordering. This supports using a continuous phase changing to discrete droplets, but its photographic patch composition and encoder/decoder modules do not apply."
+    }
+  ],
+  "palette": {
+    "book": "olive-copper",
+    "reason": "The figure needs physically continuous material routes on white and an independent control route. This book explicitly allocates color to routes and small marks rather than large container fills.",
+    "roles": {
+      "olive": "aqueous inlet and droplets; fill #E7EED8, stroke #698044, accent #577531",
+      "copper": "oil-filled channel interior and outline; fill #F7E5D5, stroke #B1703D; accent #AF6228 used for small material-direction marks",
+      "blue": "detection, controller and electrode relationships; fill #DFE8F5, stroke #627FA8, accent #426EAA",
+      "neutral": "white canvas, dark labels, neutral secondary text; no stage-by-stage hue cycling"
+    },
+    "redundancy": "Material channels have broad fluid interiors; controls use dashed thin arrows. Filled/open droplets and explicit F ≥ θ / F < θ labels carry the class distinction without hue."
+  },
+  "design": {
+    "composition": "One continuous device schematic below an offset control lane. A serpentine incubation section and a Y-shaped sorting channel are the main representation, rather than a chain of named boxes.",
+    "centralRelationship": "Each droplet travels along one continuous oil-filled channel through incubation and detection, then its measured fluorescence controls a downstream electrode that selects the outlet.",
+    "contentContractCreatedBeforeDrawing": true,
+    "relationshipPlanCreatedBeforeDrawing": true,
+    "privatePlan": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/color-book-blind-test-02/generator/private/design-plan.json"
+  },
+  "deliverables": {
+    "figure.pptx": {
+      "path": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/color-book-blind-test-02/generator/output/figure.pptx",
+      "bytes": 18524,
+      "sha256": "49776dbb6fe621584c4c9a5a46bce0581d6c70e163919452c51146decc086d99"
+    },
+    "figure.pdf": {
+      "path": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/color-book-blind-test-02/generator/output/figure.pdf",
+      "bytes": 74474,
+      "sha256": "ad22e84ffe3adf29eb48b1b2ea7f472117c5a9f3b32e25b059f29b1a2b76b88c"
+    },
+    "figure.png": {
+      "path": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/color-book-blind-test-02/generator/output/figure.png",
+      "bytes": 193721,
+      "sha256": "df27378b99c910a2535f367445b1b403575c658d661d0afef7bf731c0dc33e06",
+      "pixels": [
+        2100,
+        1226
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    }
+  },
+  "checks": {
+    "savedFilePptxContract": {
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "report": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/color-book-blind-test-02/generator/private/final-inspect.json"
+    },
+    "nativeObjects": {
+      "sp": 78,
+      "cxnSp": 4,
+      "grpSp": 1
+    },
+    "connectorAudit": {
+      "connectors": 4,
+      "requiringRenderedReview": 0,
+      "geometryUnchecked": 0,
+      "report": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/color-book-blind-test-02/generator/private/final-flow-audit.json",
+      "allFourControlConnectionsAttachToVisibleBoundaries": true
+    },
+    "presentationFinalization": {
+      "passed": true,
+      "packageFindings": 0,
+      "layoutFindings": 0,
+      "layoutWarnings": 0,
+      "firstPartyReimportPassed": true,
+      "fontPolicy": "Arial, selected by design",
+      "report": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/color-book-blind-test-02/generator/private/r4.validation.json"
+    },
+    "savedFileRendering": {
+      "renderer": "Bundled LibreOfficeDev 26.8.0.0.alpha0 (AARCH64), Impress PDF export",
+      "executable": "/Users/odysseus/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
+      "sourceSha256": "49776dbb6fe621584c4c9a5a46bce0581d6c70e163919452c51146decc086d99",
+      "pdfPages": 1,
+      "pdfPagePoints": [
+        504,
+        294.009
+      ],
+      "pngRenderedFromThatPdf": true,
+      "pngRequestedDpi": 300
+    },
+    "visualReview": {
+      "rounds": 3,
+      "reviewedCandidates": [
+        "r1",
+        "r3",
+        "r4"
+      ],
+      "fullSizePreviewPx": [
+        1344,
+        785
+      ],
+      "publicationPreviewPx": [
+        672,
+        393
+      ],
+      "reducedGrayscalePx": [
+        504,
+        294
+      ],
+      "publicationWidthNote": "672 px at 96 dpi corresponds to 177.8 mm; on-screen physical size depends on display scaling.",
+      "corrected": [
+        "Moved the illustrative detected droplet into the visible detection window.",
+        "Separated electrode, trigger and outlet labels from control routes.",
+        "Moved the flow-focusing callout away from the oil inlet label."
+      ],
+      "finalObservations": [
+        "Continuous aqueous inlet narrows at the flow-focusing cross and becomes individually editable droplets in an oil channel.",
+        "The material route remains continuous through the serpentine incubation region, optical detection window and sorting Y-junction.",
+        "Both outlet conditions are present with correct inequality signs: collected hits F ≥ θ, waste F < θ.",
+        "Detector-to-controller-to-electrode direction is visible, and the downstream actuation region is identified.",
+        "Filled/open droplet classes and dashed control routes retain their distinctions in grayscale.",
+        "No text clipping or remaining label/connector collision observed in the final exported-file render."
+      ]
+    }
+  },
+  "limitations": [
+    "This is a hypothetical methodology schematic. Channel dimensions, flow rates, incubation duration, physical signal values, sample biology and performance are intentionally unspecified.",
+    "Material transport is encoded by editable custom channel paths and direction marks. Automated attached-connector checks cover the control graph; material-path topology was checked manually in the saved render.",
+    "Native editability is supported by OOXML objects and successful first-party import. No interactive Microsoft PowerPoint edit test was performed.",
+    "F, θ and inequalities are editable Unicode text, not Office equation objects.",
+    "Screen and grayscale review do not establish calibrated print fidelity or comprehensive color-vision testing."
+  ],
+  "summaryKo": "연속 미세유체 채널과 별도의 제어 경로로 구성한 편집형 그림을 완성했습니다. 16개 색상 책 중 olive-copper를 의미별로 배정했으며, 177.8 mm 폭과 축소 흑백 보기에서 필수 경로와 문턱값 분류를 확인했습니다. 실제 실험 결과나 성능 수치는 포함하지 않았습니다."
+}

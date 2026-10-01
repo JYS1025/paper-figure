@@ -1,0 +1,481 @@
+{
+  "file": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/arrow-study/02-branch.pptx",
+  "sha256": "79f5be86dca0e47e83174ad9dc04b2ab387374fcbb5128699a622fc9cc5fae99",
+  "sizePx": [
+    672.0,
+    400.0
+  ],
+  "slides": [
+    {
+      "part": "ppt/slides/slide1.xml",
+      "objects": [
+        {
+          "id": "28",
+          "name": "heading",
+          "kind": "sp",
+          "text": "Local detail and global context",
+          "boundsPx": [
+            18.0,
+            9.0,
+            638.0,
+            23.0
+          ],
+          "fingerprint": "f47f38c2bf0c5b611419dd8358f5a5ab21d60674380dbf4fc041881bc8a535d9",
+          "fontPt": [
+            11.25
+          ]
+        },
+        {
+          "id": "2",
+          "name": "input",
+          "kind": "sp",
+          "text": "Input",
+          "boundsPx": [
+            18.0,
+            118.0,
+            118.0,
+            146.0
+          ],
+          "fingerprint": "d51d45ed614bfb602c526a22830e1516fe6b3ed1ac866e2ef20fe8bc287661df",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "30",
+          "name": "input-photo",
+          "kind": "pic",
+          "text": "",
+          "boundsPx": [
+            18.0,
+            118.0,
+            118.0,
+            118.0
+          ],
+          "fingerprint": "74082034c9257eb6d694eb1cf82aea74112a8fe08a0a25ce0f732ca4e43af3b7",
+          "fontPt": []
+        },
+        {
+          "id": "4",
+          "name": "local-roi",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            52.0,
+            123.0,
+            38.0,
+            41.0
+          ],
+          "fingerprint": "fc75bd8f8148118e7771fcc63a89f1024448565779e34cc36d2b4d31ba52b1a3",
+          "fontPt": []
+        },
+        {
+          "id": "5",
+          "name": "local",
+          "kind": "sp",
+          "text": "Local encoder",
+          "boundsPx": [
+            254.0,
+            114.0,
+            132.0,
+            43.0
+          ],
+          "fingerprint": "ca648dd96335013bedf830a85af0bbe66de809b687561b4c36475b8e105ba253",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "6",
+          "name": "global",
+          "kind": "sp",
+          "text": "Global encoder",
+          "boundsPx": [
+            254.0,
+            279.0,
+            132.0,
+            43.0
+          ],
+          "fingerprint": "ba842c84525d48f7e36513e04c4b85e1f0c1870944e80fdc6e99228c24b018df",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "34",
+          "name": "detail-photo",
+          "kind": "pic",
+          "text": "",
+          "boundsPx": [
+            272.0,
+            49.0,
+            60.0,
+            60.0
+          ],
+          "fingerprint": "fb95b1904304d7dabebcd912d3c72ea6024693d39b6db0d7b767a392fb5ae6db",
+          "fontPt": []
+        },
+        {
+          "id": "35",
+          "name": "context-photo",
+          "kind": "pic",
+          "text": "",
+          "boundsPx": [
+            272.0,
+            214.0,
+            60.0,
+            60.0
+          ],
+          "fingerprint": "883dfc6bf8c3dbd449ff9c4c273ba231f0fa1dd37c75bcb3a17a39cdd1c30c4d",
+          "fontPt": []
+        },
+        {
+          "id": "9",
+          "name": "detail-label",
+          "kind": "sp",
+          "text": "fine detail",
+          "boundsPx": [
+            336.0,
+            68.0,
+            68.0,
+            21.0
+          ],
+          "fingerprint": "6008b345c86fa5fdc41f7347c88475e21a1e6b1a04938d42b84f47b43ba3eedb",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "10",
+          "name": "context-label",
+          "kind": "sp",
+          "text": "scene context",
+          "boundsPx": [
+            336.0,
+            233.0,
+            85.0,
+            21.0
+          ],
+          "fingerprint": "5626bd06a2d1a943a6803ea4370afa047f87298593a739567aad3d5f1e9b6941",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "38",
+          "name": "e0",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            136.0,
+            135.5001,
+            118.0,
+            55.5001
+          ],
+          "fingerprint": "4d7d689eb61bc59762e7369294820e44e9562f8025dc693e901e433743756504",
+          "fontPt": []
+        },
+        {
+          "id": "39",
+          "name": "e1",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            136.0,
+            191.0,
+            118.0,
+            109.5001
+          ],
+          "fingerprint": "102edcda9c04e5dec658c4cd5cb6012edc30688d6f9d634f650771dfe473f339",
+          "fontPt": []
+        },
+        {
+          "id": "13",
+          "name": "fuse",
+          "kind": "sp",
+          "text": "Fuse",
+          "boundsPx": [
+            492.0,
+            161.0,
+            60.0,
+            54.0
+          ],
+          "fingerprint": "184d1e5ca3434233b743f6d056aecf757a7345f024dbde11872da646ba4b8143",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "14",
+          "name": "prediction",
+          "kind": "sp",
+          "text": "Prediction",
+          "boundsPx": [
+            588.0,
+            145.0,
+            68.0,
+            92.0
+          ],
+          "fingerprint": "ea7c72cd848db33421a7d4cf8e706fac782e8d961ffcb37b29a2d4c6665c42bf",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "53",
+          "name": "output-vector",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            598.0,
+            158.0,
+            46.0,
+            48.0
+          ],
+          "fingerprint": "b92a96991d328d41be8a93f0d39b9f7bbc9797612c4adf86a353d2ba33f1d480",
+          "fontPt": []
+        },
+        {
+          "id": "15",
+          "name": "output-vector.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            598.0,
+            158.0,
+            10.0,
+            48.0
+          ],
+          "fingerprint": "617c8dbd4bb913279d38af6254ee30f4eefa49592d65d26fddf778a429d2948b",
+          "fontPt": []
+        },
+        {
+          "id": "16",
+          "name": "output-vector.0.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            598.0,
+            191.6,
+            10.0,
+            14.4
+          ],
+          "fingerprint": "ef627aca337703cfd60822434fa3161e2f710bd630732ce424c83800ca0cdf75",
+          "fontPt": []
+        },
+        {
+          "id": "17",
+          "name": "output-vector.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            610.0,
+            158.0,
+            10.0,
+            48.0
+          ],
+          "fingerprint": "9a98fc9c0d5990ef8220069041b93dff1b53487e6de00c9284035456f60162d0",
+          "fontPt": []
+        },
+        {
+          "id": "18",
+          "name": "output-vector.1.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            610.0,
+            167.6,
+            10.0,
+            38.4
+          ],
+          "fingerprint": "e56560c3ed0619e2414fad0da773edde57c24c62216b663a01162cd246f53cc6",
+          "fontPt": []
+        },
+        {
+          "id": "19",
+          "name": "output-vector.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            622.0,
+            158.0,
+            10.0,
+            48.0
+          ],
+          "fingerprint": "e980df0dc6cd25270eb7aea94a93f4d9275fbee5a47ee6de5d9968cba9c55b04",
+          "fontPt": []
+        },
+        {
+          "id": "20",
+          "name": "output-vector.2.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            622.0,
+            182.0,
+            10.0,
+            24.0
+          ],
+          "fingerprint": "2bcf0a98c185e48a24be6ec191d4f4bf44d523a572db37ca9bf1e467b92ee5f5",
+          "fontPt": []
+        },
+        {
+          "id": "21",
+          "name": "output-vector.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            634.0,
+            158.0,
+            10.0,
+            48.0
+          ],
+          "fingerprint": "860632ba27f84cc15804e676950c91237306cab52e33fc61b6b7191d695ebca5",
+          "fontPt": []
+        },
+        {
+          "id": "22",
+          "name": "output-vector.3.value",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            634.0,
+            177.2,
+            10.0,
+            28.8
+          ],
+          "fingerprint": "5ef81f623d00b0d6606b73b1ee191642ba17fa9cfdae6aa897b51d41400951ee",
+          "fontPt": []
+        },
+        {
+          "id": "50",
+          "name": "e2",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            386.0,
+            135.5001,
+            106.0,
+            52.5001
+          ],
+          "fingerprint": "924645de2558d25165d9fe892c4ebc605a4a4f2bf08b8a8fedc3ff9bd4ba3a44",
+          "fontPt": []
+        },
+        {
+          "id": "51",
+          "name": "e3",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            386.0,
+            188.0,
+            106.0,
+            112.5001
+          ],
+          "fingerprint": "1f824861fccdc4b03898861ff452078b4ce8df10e514446589613172f20a66c6",
+          "fontPt": []
+        },
+        {
+          "id": "52",
+          "name": "e4",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            552.0,
+            188.0,
+            36.0,
+            3.0
+          ],
+          "fingerprint": "b5daf91ec03cccc2c07226dc21d31c29376ae73ed7b56c10ae99641200efcc6c",
+          "fontPt": []
+        },
+        {
+          "id": "26",
+          "name": "fusion-note",
+          "kind": "sp",
+          "text": "complementary\nrepresentations",
+          "boundsPx": [
+            448.0,
+            244.0,
+            112.0,
+            40.0
+          ],
+          "fingerprint": "91f2194d6d747d4862a061fe64ea5e1d264197e0a257c44860a2cf08775202ce",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "27",
+          "name": "disclosure",
+          "kind": "sp",
+          "text": "Illustrative features. Photo: NASA / scikit-image, public domain.",
+          "boundsPx": [
+            18.0,
+            375.0,
+            636.0,
+            18.0
+          ],
+          "fingerprint": "20eecd713ec0d51d74b3bc8e823e69d2cce9e1d264931c8aed315f1b1e6756d7",
+          "fontPt": [
+            8.25
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "name": "e0",
+          "from": "input",
+          "to": "local",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "e1",
+          "from": "input",
+          "to": "global",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "e2",
+          "from": "local",
+          "to": "fuse",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "e3",
+          "from": "global",
+          "to": "fuse",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "e4",
+          "from": "fuse",
+          "to": "prediction",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        }
+      ],
+      "counts": {
+        "sp": 19,
+        "cxnSp": 5,
+        "grpSp": 1,
+        "pic": 3,
+        "graphicFrame": 0
+      },
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "passed": true
+}

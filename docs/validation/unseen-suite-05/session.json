@@ -1,0 +1,121 @@
+{
+  "preparedAtUtc": "2026-09-30T08:01:06.019957+00:00",
+  "purpose": "Forward generation test of the revised skill on three new briefs, each in a fresh context",
+  "generationRoute": "Built-in image model draft, semantic audit, native PPTX reconstruction, saved-file render",
+  "skillSnapshot": "skill-snapshot.json",
+  "previousExampleOutputsProvided": false,
+  "previousReviewConclusionsProvided": false,
+  "newTasks": [
+    {
+      "id": "timestamped-fusion",
+      "agent": "/root/unseen_temporal_05",
+      "briefSha256": "9e9a749d4fdf8d8095b206da26b2751c41a2e8cc3d46b1f6aff76d7742b93177"
+    },
+    {
+      "id": "spatial-assignment",
+      "agent": "/root/unseen_spatial_05",
+      "briefSha256": "28dad5a4491eb27f2d78340fc62a2db5a588ce4fd05974eb1f9d1c9c233f7354"
+    },
+    {
+      "id": "asynchronous-discovery",
+      "agent": "/root/unseen_async_05",
+      "briefSha256": "a81795097a314749e0dcddd213774b76885122d10e1af94819cb7340d3fbe165"
+    }
+  ],
+  "forkTurns": "none",
+  "modelSelection": "Inherited parent configuration, no model override. Fresh context does not imply an independent model or service.",
+  "unseenDefinition": "Newly authored tasks absent from the local example task list; workers receive the updated skill and their own brief, not previous conversation or generated figures. Not a claim of being unseen during model training.",
+  "testLimits": [
+    "Not a blind source-comparison test or a controlled ablation of skill changes.",
+    "Each worker may inspect references bundled with the skill and relevant original papers.",
+    "The parent authored briefs after seeing earlier feedback. These cases probe generalization but are not a hidden benchmark.",
+    "Review and corrections remain part of generation and will be recorded."
+  ],
+  "skillValidation": {
+    "quickValidatePassed": true,
+    "localReferenceCount": 27,
+    "missingReferences": []
+  },
+  "completedAtUtc": "2026-09-30T08:15:18.864329+00:00",
+  "status": "completed",
+  "completedTasks": [
+    {
+      "task": "timestamped-fusion",
+      "pptxSha256": "e8350ec62cdc8ce5af40d951d0e1826206a16bec97a183504dad42cc78fd2ff7",
+      "pngSha256": "0dc0cd72f31ccad7fdd4c29ce78a85ca07dcbae49ef6b49cb041fe49185a3fb2",
+      "pdfSha256": "5f223690c4957d1f4d4b3a9bbfeeb999464823c3aa67a754119c43be9427e766",
+      "nativeCounts": {
+        "sp": 57,
+        "cxnSp": 12,
+        "grpSp": 2,
+        "pic": 0
+      },
+      "publicationWidthMm": 177.8,
+      "pngPixels": [
+        2100,
+        1419
+      ],
+      "matchesGeneratorFinalHash": true,
+      "briefUnchanged": true,
+      "wholeFigureRasterEmbedded": false,
+      "literalUnderscoreLabels": false,
+      "parentFinalColorAndGrayscaleReviewed": true
+    },
+    {
+      "task": "spatial-assignment",
+      "pptxSha256": "89ea5647c0406d8d488b9b6d5249b57de90267c515272454a8aad02c0d6f697b",
+      "pngSha256": "49226a4183cf3c9b28256a4f9efdd1820f94eb7d0385c15cd4b6664ce2116b10",
+      "pdfSha256": "0f57c02349499de734b672ed8f12237db5ff9950aa938c4ba0b5748d60be5210",
+      "nativeCounts": {
+        "sp": 89,
+        "cxnSp": 1,
+        "grpSp": 7,
+        "pic": 0
+      },
+      "publicationWidthMm": 177.8,
+      "pngPixels": [
+        1344,
+        860
+      ],
+      "matchesGeneratorFinalHash": true,
+      "briefUnchanged": true,
+      "wholeFigureRasterEmbedded": false,
+      "literalUnderscoreLabels": false,
+      "parentFinalColorAndGrayscaleReviewed": true
+    },
+    {
+      "task": "asynchronous-discovery",
+      "pptxSha256": "195fce0a3ed9d4996dc585bfea85668a245cfec53d0f2e50634a4dbecd8cd54b",
+      "pngSha256": "138f362d77ba549f71dfd75ec656482e96bf25cca4d1929476fdf37bb9e17a58",
+      "pdfSha256": "8fa4132eadaa661978be83982705af8a122a23bf1afc8e6f89d82aa06675eb7b",
+      "nativeCounts": {
+        "sp": 46,
+        "cxnSp": 11,
+        "grpSp": 0,
+        "pic": 0
+      },
+      "publicationWidthMm": 177.8,
+      "pngPixels": [
+        1400,
+        1226
+      ],
+      "matchesGeneratorFinalHash": true,
+      "briefUnchanged": true,
+      "wholeFigureRasterEmbedded": false,
+      "literalUnderscoreLabels": false,
+      "parentFinalColorAndGrayscaleReviewed": true
+    }
+  ],
+  "parentReview": "parent-review.json",
+  "skillFinalSnapshot": "skill-final-snapshot.json",
+  "postGenerationSkillClarification": {
+    "file": "references/authoring.md",
+    "topic": "Native mathematical subscripts instead of literal source underscores",
+    "supportedBy": [
+      "spatial-assignment",
+      "timestamped-fusion"
+    ]
+  },
+  "nativePowerPointAppEditTestsPerformed": false,
+  "newBlindComparisonPerformed": false
+}

@@ -1,0 +1,491 @@
+{
+  "file": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/final/05-panels.pptx",
+  "sha256": "a159fa7ec650779ecd63a7cf3233f948a08aa90393f9ad1c64c051ebd9c8b310",
+  "sizePx": [
+    672.0,
+    360.0
+  ],
+  "slides": [
+    {
+      "part": "ppt/slides/slide1.xml",
+      "objects": [
+        {
+          "id": "30",
+          "name": "a",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            20.0,
+            28.0,
+            294.0,
+            309.0
+          ],
+          "fingerprint": "82829e75c4397c53397ef630d67eb7c1875748a2961b0f582bb8e5040f91eb79",
+          "fontPt": []
+        },
+        {
+          "id": "2",
+          "name": "a.title",
+          "kind": "sp",
+          "text": "(a) Representations",
+          "boundsPx": [
+            28.0,
+            33.0,
+            278.0,
+            22.0
+          ],
+          "fingerprint": "69dba4920b4e32c5eb3f82394e2b204b37a9a9df50354dfe1254357ed048affc",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "3",
+          "name": "b",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            333.0,
+            28.0,
+            319.0,
+            309.0
+          ],
+          "fingerprint": "ce596627d81d028e4eb625dbd1083b2ed95f9ffe66d601244b64f5254d0cfc3b",
+          "fontPt": []
+        },
+        {
+          "id": "4",
+          "name": "b.title",
+          "kind": "sp",
+          "text": "(b) Pairwise matching",
+          "boundsPx": [
+            341.0,
+            33.0,
+            303.0,
+            22.0
+          ],
+          "fingerprint": "ff852190d162a933bedd8231cc99f72d4fecaf0c91b1d9376a2b227b9fd2f22f",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "5",
+          "name": "image",
+          "kind": "sp",
+          "text": "Image",
+          "boundsPx": [
+            42.0,
+            98.0,
+            78.0,
+            44.0
+          ],
+          "fingerprint": "d6b32e10e8bc158be16e1cd5b0a2b1a5a5150989fada674753b2e979eaf2794c",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "6",
+          "name": "image-encoder",
+          "kind": "sp",
+          "text": "Vision\nencoder",
+          "boundsPx": [
+            166.0,
+            90.0,
+            124.0,
+            60.0
+          ],
+          "fingerprint": "ba71a56f539fa893540638c20a7ffd9f0856de86dc98164c8ecefa557cedf28f",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "7",
+          "name": "text",
+          "kind": "sp",
+          "text": "Text",
+          "boundsPx": [
+            42.0,
+            228.0,
+            78.0,
+            44.0
+          ],
+          "fingerprint": "40af292c1e2f7faa1a48443e801c8cc207bfed3eb97d5b58281d560c1960b86f",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "8",
+          "name": "text-encoder",
+          "kind": "sp",
+          "text": "Text\nencoder",
+          "boundsPx": [
+            166.0,
+            220.0,
+            124.0,
+            60.0
+          ],
+          "fingerprint": "f052ffc5a1813c089a9bc48cb56327d0bdf6a73c696d6dc3072ec96a7d3770b6",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "38",
+          "name": "vision",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            120.0,
+            120.0,
+            46.0,
+            0.0
+          ],
+          "fingerprint": "7f4f5ea8b16ff10714f933752762181648032006d42bfd6871365c80b30339ed",
+          "fontPt": []
+        },
+        {
+          "id": "39",
+          "name": "language",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            120.0,
+            250.0,
+            46.0,
+            0.0
+          ],
+          "fingerprint": "928f4bced6ee0faec086eae6fb256f84278dc0085a4f3090fbcd4c92a25b2e25",
+          "fontPt": []
+        },
+        {
+          "id": "11",
+          "name": "x-label",
+          "kind": "sp",
+          "text": "Text embeddings",
+          "boundsPx": [
+            421.0,
+            78.0,
+            160.0,
+            24.0
+          ],
+          "fingerprint": "ae0a1b754536504878b29b2a5cd9caec01e11c54f58e38f708724dbeba2ecfa0",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "12",
+          "name": "y-label",
+          "kind": "sp",
+          "text": "Image\nembeddings",
+          "boundsPx": [
+            342.0,
+            144.0,
+            78.0,
+            60.0
+          ],
+          "fingerprint": "564e902382ffbd29301ec3febb6563fb1fad7ff6332eb77c7eed4088762c93d0",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "40",
+          "name": "scores",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            426.0,
+            116.0,
+            149.0,
+            149.0
+          ],
+          "fingerprint": "a9f553a67ffc4eb367175f12b139cbe57a600057b07f2c57793c6f36b5e56c07",
+          "fontPt": []
+        },
+        {
+          "id": "13",
+          "name": "scores.0.0",
+          "kind": "sp",
+          "text": "\u2022",
+          "boundsPx": [
+            426.0,
+            116.0,
+            35.0,
+            35.0
+          ],
+          "fingerprint": "ff6bf68fb1828246d39e049e0d43608c50ebb3e3cae44f612c4447853db0cac9",
+          "fontPt": [
+            12.75
+          ]
+        },
+        {
+          "id": "14",
+          "name": "scores.0.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            464.0,
+            116.0,
+            35.0,
+            35.0
+          ],
+          "fingerprint": "7f425ceacb8f419742d74071fbaa26b93c5fb426d6c94bb6c48a46e4631094a6",
+          "fontPt": []
+        },
+        {
+          "id": "15",
+          "name": "scores.0.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            502.0,
+            116.0,
+            35.0,
+            35.0
+          ],
+          "fingerprint": "e019a6c374d5ca812800fd0f96c1974b710fe9a8913399a076ead17e80b3b605",
+          "fontPt": []
+        },
+        {
+          "id": "16",
+          "name": "scores.0.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            540.0,
+            116.0,
+            35.0,
+            35.0
+          ],
+          "fingerprint": "201791bd660ec64dae38cdf01b616c299be45fe469fdb588643357eab93d085d",
+          "fontPt": []
+        },
+        {
+          "id": "17",
+          "name": "scores.1.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            426.0,
+            154.0,
+            35.0,
+            35.0
+          ],
+          "fingerprint": "57d0f5a9fc6a0045b17d7632188c467c7c4f59b4584bfc82b01193770e85eff8",
+          "fontPt": []
+        },
+        {
+          "id": "18",
+          "name": "scores.1.1",
+          "kind": "sp",
+          "text": "\u2022",
+          "boundsPx": [
+            464.0,
+            154.0,
+            35.0,
+            35.0
+          ],
+          "fingerprint": "240f5f66c17718a3c63e56611f9752d5b3b377ab880f79013ca765853aa582e0",
+          "fontPt": [
+            12.75
+          ]
+        },
+        {
+          "id": "19",
+          "name": "scores.1.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            502.0,
+            154.0,
+            35.0,
+            35.0
+          ],
+          "fingerprint": "050034a244d246146dba61d6d5473f299e2bb3677662179a775083e6289f3cfa",
+          "fontPt": []
+        },
+        {
+          "id": "20",
+          "name": "scores.1.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            540.0,
+            154.0,
+            35.0,
+            35.0
+          ],
+          "fingerprint": "b449e46e510e2f5d484bc262d798b1576dd3f543bd4a2b6f5ed978cd9bde5950",
+          "fontPt": []
+        },
+        {
+          "id": "21",
+          "name": "scores.2.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            426.0,
+            192.0,
+            35.0,
+            35.0
+          ],
+          "fingerprint": "638f6c51d49afdca51b1f9cc4a77054676ba372fb5639b17b7961689e7508bc5",
+          "fontPt": []
+        },
+        {
+          "id": "22",
+          "name": "scores.2.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            464.0,
+            192.0,
+            35.0,
+            35.0
+          ],
+          "fingerprint": "6c9be907ef8699d2a3298536064494f40d51b359cdb644295ce413119beaeea3",
+          "fontPt": []
+        },
+        {
+          "id": "23",
+          "name": "scores.2.2",
+          "kind": "sp",
+          "text": "\u2022",
+          "boundsPx": [
+            502.0,
+            192.0,
+            35.0,
+            35.0
+          ],
+          "fingerprint": "3ee3bb63aba931e397e96618fe1f4fed456eec3e5394e45dab8349d5faedd571",
+          "fontPt": [
+            12.75
+          ]
+        },
+        {
+          "id": "24",
+          "name": "scores.2.3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            540.0,
+            192.0,
+            35.0,
+            35.0
+          ],
+          "fingerprint": "301ef7cd9039ed536b29167526f8bc4560c346f96e61d9e4c064db518bb13c50",
+          "fontPt": []
+        },
+        {
+          "id": "25",
+          "name": "scores.3.0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            426.0,
+            230.0,
+            35.0,
+            35.0
+          ],
+          "fingerprint": "e6de15fa97f4544e2231254981a8c3fa926f6f110336bd92a2b761b4f1acf966",
+          "fontPt": []
+        },
+        {
+          "id": "26",
+          "name": "scores.3.1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            464.0,
+            230.0,
+            35.0,
+            35.0
+          ],
+          "fingerprint": "3c7f6ff0cfa919f7dab85caec5aa0fe64ef0e09b379b7933d95dd4da1a8289e4",
+          "fontPt": []
+        },
+        {
+          "id": "27",
+          "name": "scores.3.2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            502.0,
+            230.0,
+            35.0,
+            35.0
+          ],
+          "fingerprint": "1570829b06c8746dcdf4117e5d3508178ac64838deca16c6c6b74f4d12d1593e",
+          "fontPt": []
+        },
+        {
+          "id": "28",
+          "name": "scores.3.3",
+          "kind": "sp",
+          "text": "\u2022",
+          "boundsPx": [
+            540.0,
+            230.0,
+            35.0,
+            35.0
+          ],
+          "fingerprint": "1cd314566d29132b92383ceb396476bedc8fc50366ac53e19a6273cb8a03b095",
+          "fontPt": [
+            12.75
+          ]
+        },
+        {
+          "id": "29",
+          "name": "matching-note",
+          "kind": "sp",
+          "text": "Aligned pairs lie on the diagonal",
+          "boundsPx": [
+            359.0,
+            288.0,
+            272.0,
+            25.0
+          ],
+          "fingerprint": "2bfdac0ad12500301bc79fdbbb5cff15ab65badc9c5c3876663ca6b01705ea28",
+          "fontPt": [
+            9.0
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "name": "vision",
+          "from": "image",
+          "to": "image-encoder",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "language",
+          "from": "text",
+          "to": "text-encoder",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        }
+      ],
+      "counts": {
+        "sp": 27,
+        "cxnSp": 2,
+        "grpSp": 1,
+        "pic": 0,
+        "graphicFrame": 0
+      },
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "passed": true
+}

@@ -1,0 +1,96 @@
+{
+  "exactEdges": true,
+  "slides": [
+    {
+      "nodes": {
+        "figure-title": "Timestamped visual–inertial state correction",
+        "platform-label": "Moving platform",
+        "visual-observation": "Visual obs.\nat tₖ",
+        "inertial-source": "Inertial stream",
+        "faster-stream-label": "faster sampling",
+        "visual-estimator": "Visual estimator",
+        "late-correction": "Pose correction\nfor tₖ",
+        "late-result-label": "Processing finishes\nafter tₖ",
+        "inertial-propagation": "Inertial propagation",
+        "continual-label": "advances to tnow",
+        "buffer-label": "State and measurement buffer",
+        "original-row-label": "Stored\nstates",
+        "samples-row-label": "Buffered\ninertial samples",
+        "replayed-row-label": "After correction\nand replay",
+        "stored-k": "s(tₖ)",
+        "stored-k1": "s(tₖ₊₁)",
+        "stored-now": "s(tnow)",
+        "more-states": "…",
+        "historical-target-label": "Update the stored state at tₖ",
+        "retained-interval": "Update",
+        "retention-note": "Retained IMU samples in (tₖ, tnow]",
+        "updated-k": "s⁺(tₖ)",
+        "replay": "Replay",
+        "corrected-now": "s⁺(tnow)",
+        "future-state": "Next\nstate",
+        "replay-interval-label": "from tₖ to tnow",
+        "corrected-output-label": "Corrected current pose",
+        "future-propagation-label": "Future\npropagation",
+        "state-legend": "s(t): propagated pose     s⁺(t): corrected pose",
+        "schematic-disclosure": "Symbolic timing and samples; illustrative sensor icons. Time intervals are not to scale.",
+        "asset-camera": "",
+        "asset-inertial-sensor": ""
+      },
+      "edges": [
+        [
+          "visual-observation",
+          "visual-estimator"
+        ],
+        [
+          "visual-estimator",
+          "late-correction"
+        ],
+        [
+          "inertial-source",
+          "inertial-propagation"
+        ],
+        [
+          "stored-k",
+          "stored-k1"
+        ],
+        [
+          "stored-k1",
+          "stored-now"
+        ],
+        [
+          "inertial-propagation",
+          "stored-now"
+        ],
+        [
+          "late-correction",
+          "stored-k"
+        ],
+        [
+          "stored-k",
+          "updated-k"
+        ],
+        [
+          "updated-k",
+          "replay"
+        ],
+        [
+          "buffered-measurements",
+          "replay"
+        ],
+        [
+          "replay",
+          "corrected-now"
+        ],
+        [
+          "corrected-now",
+          "future-state"
+        ]
+      ],
+      "groups": [
+        "sensing-platform",
+        "inertial-sample-marks"
+      ],
+      "nativeOnly": false
+    }
+  ]
+}

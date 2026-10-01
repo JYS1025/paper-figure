@@ -1,0 +1,769 @@
+{
+  "schema_version": 1,
+  "purpose": "Categorical colors for editable research diagrams; not quantitative colormaps.",
+  "provenance": "Author-curated combinations informed by visual references. HEX values are design choices, not sampled or official paper/journal palettes. Added reference studies record the inspected figure and the observed color roles. Subsets and strength adjustments are deliberate adaptations.",
+  "books": [
+    {
+      "id": "sage-lavender",
+      "name": "Sage & Lavender",
+      "name_ko": "세이지 · 라벤더",
+      "character": "Cool, quiet families with a mint center and violet detail.",
+      "best_for": [
+        "nested model architectures",
+        "multimodal streams",
+        "memory and conditioning"
+      ],
+      "allocation": "Use pale sage for shared enclosures; lavender for a defined supporting family. Reserve blue for a genuinely distinct third role. Repeated stream modules may share a color when their structural role is the same.",
+      "caution": "Sage and lavender fills have similar brightness. Preserve labels, lane positions and boundaries; do not encode identity by pale color alone.",
+      "inspiration": [
+        {
+          "name": "RLDX-1 Figures 2 and 3, visually inspected 2026-09-30",
+          "url": "https://arxiv.org/html/2605.03269v2#S1.F3"
+        }
+      ],
+      "neutral": {
+        "canvas": "#FFFFFF",
+        "ink": "#24272B",
+        "secondary_text": "#51565D",
+        "surface": "#F2F3F4",
+        "stroke": "#737980",
+        "connector": "#363C42"
+      },
+      "colors": {
+        "sage": {
+          "fill": "#E3EFEB",
+          "stroke": "#557E73",
+          "accent": "#2E7564"
+        },
+        "lavender": {
+          "fill": "#E6E3F2",
+          "stroke": "#7B70A0",
+          "accent": "#63558F"
+        },
+        "steel": {
+          "fill": "#E2ECF3",
+          "stroke": "#527E9D",
+          "accent": "#366C91"
+        }
+      }
+    },
+    {
+      "id": "blue-apricot",
+      "name": "Blue & Apricot",
+      "name_ko": "블루 · 살구",
+      "character": "A clear cool/warm pair, with a restrained teal extension.",
+      "best_for": [
+        "encoder and decoder",
+        "observation and prediction",
+        "two interacting branches"
+      ],
+      "allocation": "Use blue and apricot for the two important families; keep generic transforms neutral. Teal is optional for a third role, not a compulsory output color.",
+      "caution": "Apricot is not a warning or loss color unless the figure explicitly defines that meaning.",
+      "inspiration": [
+        {
+          "name": "SAM Figure 4: restrained distinct module fills",
+          "url": "https://arxiv.org/html/2304.02643v1/model_diagram.png"
+        },
+        {
+          "name": "Transformer Figure 1: pale fills and dark structure",
+          "url": "https://arxiv.org/html/1706.03762v7/Figures/ModalNet-21.png"
+        }
+      ],
+      "neutral": {
+        "canvas": "#FFFFFF",
+        "ink": "#25282D",
+        "secondary_text": "#52575F",
+        "surface": "#F1F3F5",
+        "stroke": "#727A84",
+        "connector": "#3D444C"
+      },
+      "colors": {
+        "blue": {
+          "fill": "#E1EBF6",
+          "stroke": "#577FA9",
+          "accent": "#30649B"
+        },
+        "apricot": {
+          "fill": "#F8E5D2",
+          "stroke": "#A27343",
+          "accent": "#AB632C"
+        },
+        "teal": {
+          "fill": "#E0EFEC",
+          "stroke": "#567F76",
+          "accent": "#287B70"
+        }
+      }
+    },
+    {
+      "id": "teal-coral",
+      "name": "Teal & Coral",
+      "name_ko": "청록 · 코럴",
+      "character": "A lively pair held together by neutral machinery and dark type.",
+      "best_for": [
+        "token states",
+        "selection and reconstruction",
+        "paired representations"
+      ],
+      "allocation": "Keep processing modules neutral and place teal/coral in the representation that changes. Use ochre only for a separately defined third state.",
+      "caution": "Coral and teal can lose their distinction under some color-vision conditions. Pair states with open/filled marks, hatching or labels.",
+      "inspiration": [
+        {
+          "name": "MAE Figure 1: representation colors against gray operators",
+          "url": "https://arxiv.org/html/2111.06377v3/arch.png"
+        }
+      ],
+      "neutral": {
+        "canvas": "#FFFFFF",
+        "ink": "#26292B",
+        "secondary_text": "#52585B",
+        "surface": "#EFF1F2",
+        "stroke": "#747B7F",
+        "connector": "#394248"
+      },
+      "colors": {
+        "teal": {
+          "fill": "#D9EEEC",
+          "stroke": "#4C817E",
+          "accent": "#267F7C"
+        },
+        "coral": {
+          "fill": "#F7E0DB",
+          "stroke": "#AB6A5E",
+          "accent": "#B95446"
+        },
+        "ochre": {
+          "fill": "#F4EACF",
+          "stroke": "#977C3C",
+          "accent": "#8F702B"
+        }
+      }
+    },
+    {
+      "id": "plum-sand",
+      "name": "Plum & Sand",
+      "name_ko": "플럼 · 샌드",
+      "character": "Warm violet and sand with a cool slate counterpoint.",
+      "best_for": [
+        "language and retrieval",
+        "evidence aggregation",
+        "conceptual comparisons"
+      ],
+      "allocation": "Use pale plum for one recurring family and sand for its counterpart. Keep evidence containers white or neutral so excerpts remain readable.",
+      "caution": "Use dark neutral text inside sand; do not use pale yellow for tiny arrows or fine labels.",
+      "inspiration": [
+        {
+          "name": "CLIP Figure 1: related fill/stroke colors and stable branch identities; hues adapted",
+          "url": "https://arxiv.org/html/2103.00020v1/main-diagrams.png"
+        }
+      ],
+      "neutral": {
+        "canvas": "#FFFFFF",
+        "ink": "#2C282D",
+        "secondary_text": "#5A525A",
+        "surface": "#F3F0F2",
+        "stroke": "#7D737C",
+        "connector": "#464048"
+      },
+      "colors": {
+        "plum": {
+          "fill": "#EBE0ED",
+          "stroke": "#8D6D91",
+          "accent": "#7C4F82"
+        },
+        "sand": {
+          "fill": "#F3EAD5",
+          "stroke": "#967F4B",
+          "accent": "#8B6D2D"
+        },
+        "slate": {
+          "fill": "#E1E9F1",
+          "stroke": "#627E9A",
+          "accent": "#46698E"
+        }
+      }
+    },
+    {
+      "id": "moss-clay",
+      "name": "Moss & Clay",
+      "name_ko": "모스 · 클레이",
+      "character": "Earthy greens and clay, balanced by blue-gray.",
+      "best_for": [
+        "materials and specimens",
+        "physical processes",
+        "ecology and device schematics"
+      ],
+      "allocation": "Let hardware and generic structure remain neutral. Assign moss/clay to meaningful materials or specimen classes, and slate to a distinct instrument or signal role when needed.",
+      "caution": "Do not use moss versus clay as the only positive/negative cue; preserve shapes and explicit labels. Keep the page white, not beige.",
+      "inspiration": [
+        {
+          "name": "spinDrop Figure 1: neutral device with meaningful material accents; hues adapted",
+          "url": "https://www.nature.com/articles/s41467-023-40322-w/figures/1"
+        }
+      ],
+      "neutral": {
+        "canvas": "#FFFFFF",
+        "ink": "#292B27",
+        "secondary_text": "#555A52",
+        "surface": "#F1F2EF",
+        "stroke": "#777C73",
+        "connector": "#40463F"
+      },
+      "colors": {
+        "moss": {
+          "fill": "#E6ECD9",
+          "stroke": "#788455",
+          "accent": "#5F7338"
+        },
+        "clay": {
+          "fill": "#F0E0D5",
+          "stroke": "#A07359",
+          "accent": "#A4603E"
+        },
+        "slate": {
+          "fill": "#E0E9ED",
+          "stroke": "#617D8B",
+          "accent": "#416B80"
+        }
+      }
+    },
+    {
+      "id": "ink-cobalt",
+      "name": "Ink & Cobalt",
+      "name_ko": "잉크 · 코발트",
+      "character": "Mostly neutral structure with concentrated blue and orange accents.",
+      "best_for": [
+        "dense architectures",
+        "one principal contribution",
+        "small publication figures"
+      ],
+      "allocation": "Use neutral fills for most objects, cobalt for the principal path or contribution, and orange only for a necessary contrast. Do not alternate blue/orange across every module.",
+      "caution": "Strong accents can dominate large blocks. Use their light fills for large areas and keep labels dark. This adapted book is not a certified color-vision-safe palette.",
+      "inspiration": [
+        {
+          "name": "Okabe and Ito: recognizable accents with redundant non-color encoding; adapted subset",
+          "url": "https://jfly.uni-koeln.de/color/"
+        }
+      ],
+      "neutral": {
+        "canvas": "#FFFFFF",
+        "ink": "#242424",
+        "secondary_text": "#55585C",
+        "surface": "#EEF0F2",
+        "stroke": "#747A82",
+        "connector": "#333940"
+      },
+      "colors": {
+        "cobalt": {
+          "fill": "#E1EDF6",
+          "stroke": "#437EA5",
+          "accent": "#0072B2"
+        },
+        "orange": {
+          "fill": "#FAE6D8",
+          "stroke": "#A56A40",
+          "accent": "#B45F06"
+        }
+      }
+    },
+    {
+      "id": "royal-wheat",
+      "name": "Royal & Wheat",
+      "name_ko": "로열 블루 · 크림",
+      "character": "기존 기반 모델은 진한 파랑, 학습하는 연결 모듈은 밝은 크림색으로 대비한다. 큰 외곽 영역은 흰색 또는 회색으로 유지한다.",
+      "best_for": [
+        "frozen backbone and trainable adapter",
+        "two-stage transfer learning"
+      ],
+      "allocation": "기존 기반 모델은 진한 파랑, 학습하는 연결 모듈은 밝은 크림색으로 대비한다. 큰 외곽 영역은 흰색 또는 회색으로 유지한다.",
+      "caution": "색만으로 동결/학습 상태를 구분하지 않는다. 진한 파란 면의 글자는 밝게 하고 실제 대비를 확인한다.",
+      "neutral": {
+        "canvas": "#FFFFFF",
+        "ink": "#24272B",
+        "secondary_text": "#51565D",
+        "surface": "#F1F3F4",
+        "stroke": "#737980",
+        "connector": "#343A40"
+      },
+      "colors": {
+        "royal": {
+          "fill": "#D5E5F4",
+          "stroke": "#4275A0",
+          "accent": "#2D6EA6"
+        },
+        "wheat": {
+          "fill": "#FAF0CC",
+          "stroke": "#9B8548",
+          "accent": "#8A702D"
+        }
+      },
+      "inspiration": [
+        {
+          "name": "BLIP-2 · Figure 1",
+          "url": "https://arxiv.org/html/2301.12597v3/fig1-example.png",
+          "inspected_on": "2026-09-30",
+          "observation": "이미지 인코더와 LLM은 진한 파랑·흰 글자, 그 사이 Q-Former는 옅은 크림색·검은 글자다. 동결 상태에는 눈송이 표시도 붙는다."
+        }
+      ],
+      "preview": {
+        "mode": "solid-primary",
+        "output": "royal",
+        "enclosure": "neutral"
+      }
+    },
+    {
+      "id": "periwinkle-orchid",
+      "name": "Periwinkle & Orchid",
+      "name_ko": "페리윙클 · 오키드",
+      "character": "같은 학습 상태의 모듈은 위치가 달라도 같은 계열로 묶는다. 출력 메시지에만 로즈를 사용할 수 있다.",
+      "best_for": [
+        "adapter insertion",
+        "pretrained and trainable components",
+        "multimodal language models"
+      ],
+      "allocation": "같은 학습 상태의 모듈은 위치가 달라도 같은 계열로 묶는다. 출력 메시지에만 로즈를 사용할 수 있다.",
+      "caution": "파랑과 라일락을 모든 서로 다른 modality에 자동 배정하지 않는다. 원본에서는 학습 상태를 구분한다.",
+      "neutral": {
+        "canvas": "#FFFFFF",
+        "ink": "#24272B",
+        "secondary_text": "#51565D",
+        "surface": "#F1F3F4",
+        "stroke": "#737980",
+        "connector": "#343A40"
+      },
+      "colors": {
+        "periwinkle": {
+          "fill": "#CFDCF7",
+          "stroke": "#5B75A5",
+          "accent": "#4C6FB4"
+        },
+        "orchid": {
+          "fill": "#E7DAF9",
+          "stroke": "#8F70B0",
+          "accent": "#815BA3"
+        },
+        "rose": {
+          "fill": "#F8E1E5",
+          "stroke": "#AD6B7B",
+          "accent": "#AF536C"
+        }
+      },
+      "inspiration": [
+        {
+          "name": "Flamingo · Figure 3",
+          "url": "https://arxiv.org/html/2204.14198v1/fig2_overview_interleaved_v2.png",
+          "inspected_on": "2026-09-30",
+          "observation": "기존 동결 인코더·LM 블록은 파랑, 학습하는 resampler·cross-attention은 라일락, 출력 텍스트 영역은 연분홍이다."
+        }
+      ],
+      "preview": {
+        "mode": "families",
+        "output": "rose",
+        "enclosure": "neutral"
+      }
+    },
+    {
+      "id": "pistachio-rose",
+      "name": "Pistachio & Rose",
+      "name_ko": "피스타치오 · 로즈",
+      "character": "연녹색·하늘색·분홍의 세 계열을 반복되는 기능에 배정한다. 시간에 따른 반복에는 색 정체성을 유지한다. 원본의 전체 팔레트 중 일부를 응용한 조합이다.",
+      "best_for": [
+        "video memory",
+        "recurring functional modules",
+        "temporal pipelines"
+      ],
+      "allocation": "연녹색·하늘색·분홍의 세 계열을 반복되는 기능에 배정한다. 시간에 따른 반복에는 색 정체성을 유지한다. 원본의 전체 팔레트 중 일부를 응용한 조합이다.",
+      "caution": "이 세 색에 모든 기능을 억지로 끼워 넣지 않는다. 시간 순서를 색 변화만으로 표현하지 않는다.",
+      "neutral": {
+        "canvas": "#FFFFFF",
+        "ink": "#24272B",
+        "secondary_text": "#51565D",
+        "surface": "#F1F3F4",
+        "stroke": "#737980",
+        "connector": "#343A40"
+      },
+      "colors": {
+        "pistachio": {
+          "fill": "#DFF2CB",
+          "stroke": "#5E8341",
+          "accent": "#4F7D2B"
+        },
+        "sky": {
+          "fill": "#D4E7F8",
+          "stroke": "#547EAB",
+          "accent": "#396DA5"
+        },
+        "rose": {
+          "fill": "#F7E0EE",
+          "stroke": "#A4678C",
+          "accent": "#A24E80"
+        }
+      },
+      "inspiration": [
+        {
+          "name": "SAM 2 · Figure 3",
+          "url": "https://arxiv.org/html/2408.00714v2/sam-v-model_20240715.png",
+          "inspected_on": "2026-09-30",
+          "observation": "이미지 인코더는 연녹색, memory attention은 연파랑, memory encoder는 연분홍이다. 살구색 decoder와 연보라 prompt encoder도 사용한다."
+        }
+      ],
+      "preview": {
+        "mode": "families",
+        "output": "rose",
+        "enclosure": "neutral"
+      }
+    },
+    {
+      "id": "cyan-lilac",
+      "name": "Cyan & Lilac",
+      "name_ko": "시안 · 라일락",
+      "character": "외곽 모델 영역은 시안, 특징 표현은 라일락, 출력 종류는 크림색으로 나눌 수 있다. 내부의 일반 연산은 중립색으로 남긴다.",
+      "best_for": [
+        "multiscale features",
+        "overview and expanded block",
+        "segmentation heads"
+      ],
+      "allocation": "외곽 모델 영역은 시안, 특징 표현은 라일락, 출력 종류는 크림색으로 나눌 수 있다. 내부의 일반 연산은 중립색으로 남긴다.",
+      "caution": "면색이 가까워도 경계가 사라지지 않게 한다. 원본의 모든 색을 복제한 조합은 아니다.",
+      "neutral": {
+        "canvas": "#FFFFFF",
+        "ink": "#24272B",
+        "secondary_text": "#51565D",
+        "surface": "#F1F3F4",
+        "stroke": "#737980",
+        "connector": "#343A40"
+      },
+      "colors": {
+        "cyan": {
+          "fill": "#D1EAF4",
+          "stroke": "#527F92",
+          "accent": "#317A94"
+        },
+        "lilac": {
+          "fill": "#E6D8E9",
+          "stroke": "#8C6B95",
+          "accent": "#7E518B"
+        },
+        "butter": {
+          "fill": "#FBF2D1",
+          "stroke": "#9B8344",
+          "accent": "#8C6F25"
+        }
+      },
+      "inspiration": [
+        {
+          "name": "Mask2Former · Figure 2",
+          "url": "https://arxiv.org/html/2112.01527v3/maskformerv2_arch.png",
+          "inspected_on": "2026-09-30",
+          "observation": "Transformer decoder는 연한 시안, 특징 평면은 라일락, class/mask 출력은 크림색이다. 진한 경계와 회색 세부 블록이 구조를 잡는다."
+        }
+      ],
+      "preview": {
+        "mode": "families",
+        "output": "butter",
+        "enclosure": "tinted"
+      }
+    },
+    {
+      "id": "amethyst-honey",
+      "name": "Amethyst & Honey",
+      "name_ko": "애머시스트 · 허니",
+      "character": "중립적인 큰 구조 위에 보라색 출력 경로와 금색 연산 계열을 배치한다. 파랑은 시각 입력처럼 별도로 정의한 역할에 제한한다.",
+      "best_for": [
+        "vision-language-action",
+        "token to action conversion",
+        "heterogeneous input/output"
+      ],
+      "allocation": "중립적인 큰 구조 위에 보라색 출력 경로와 금색 연산 계열을 배치한다. 파랑은 시각 입력처럼 별도로 정의한 역할에 제한한다.",
+      "caution": "원본의 연한 글자색까지 따라 하지 않는다. 일반 라벨은 짙게 유지하고 색은 옆의 표시와 경로에 맡긴다.",
+      "neutral": {
+        "canvas": "#FFFFFF",
+        "ink": "#24272B",
+        "secondary_text": "#51565D",
+        "surface": "#F1F3F4",
+        "stroke": "#737980",
+        "connector": "#343A40"
+      },
+      "colors": {
+        "amethyst": {
+          "fill": "#DDD9EC",
+          "stroke": "#81769D",
+          "accent": "#685792"
+        },
+        "honey": {
+          "fill": "#F8ECD8",
+          "stroke": "#A58242",
+          "accent": "#A17422"
+        },
+        "blue": {
+          "fill": "#D4DCF4",
+          "stroke": "#637DA9",
+          "accent": "#4A69A5"
+        }
+      },
+      "inspiration": [
+        {
+          "name": "RT-2 · Figure 1",
+          "url": "https://arxiv.org/html/2307.15818v1/rt2_teaser.png",
+          "inspected_on": "2026-09-30",
+          "observation": "LLM과 언어 경로는 금색 계열, ViT는 파랑, 출력 토큰과 로봇 행동은 보라색이며 큰 외곽 영역은 거의 무채색이다."
+        }
+      ],
+      "preview": {
+        "mode": "colored-flow",
+        "output": "amethyst",
+        "enclosure": "neutral"
+      }
+    },
+    {
+      "id": "graphite-ochre",
+      "name": "Graphite & Ochre",
+      "name_ko": "그래파이트 · 오커",
+      "character": "일반 데이터와 장치는 회색, 기준·선별 집합은 오커, 제거·제외에는 버밀리언과 X 표시를 함께 사용한다.",
+      "best_for": [
+        "data curation",
+        "filtering and retrieval",
+        "selection pipelines"
+      ],
+      "allocation": "일반 데이터와 장치는 회색, 기준·선별 집합은 오커, 제거·제외에는 버밀리언과 X 표시를 함께 사용한다.",
+      "caution": "버밀리언을 성공 출력에 임의로 재사용하지 않는다. 제외가 없는 그림에서는 이 세 번째 색을 생략한다.",
+      "neutral": {
+        "canvas": "#FFFFFF",
+        "ink": "#24272B",
+        "secondary_text": "#51565D",
+        "surface": "#F1F3F4",
+        "stroke": "#737980",
+        "connector": "#343A40"
+      },
+      "colors": {
+        "graphite": {
+          "fill": "#D9DEDE",
+          "stroke": "#717B7C",
+          "accent": "#495C60"
+        },
+        "ochre": {
+          "fill": "#F8D8AA",
+          "stroke": "#98692F",
+          "accent": "#9C641B"
+        },
+        "vermilion": {
+          "fill": "#F3D9D4",
+          "stroke": "#AE6558",
+          "accent": "#B4402E"
+        }
+      },
+      "inspiration": [
+        {
+          "name": "DINOv2 · Figure 3",
+          "url": "https://arxiv.org/html/2304.07193v2/LaViDa_datapipeline_figure.png",
+          "inspected_on": "2026-09-30",
+          "observation": "비정제 데이터는 회색, 정제 데이터는 살구·주황색으로 구분한다. 제거된 사례에는 붉은 X를 사용하고 연결은 검정이다."
+        }
+      ],
+      "preview": {
+        "mode": "filter",
+        "output": "ochre",
+        "enclosure": "neutral"
+      }
+    },
+    {
+      "id": "celadon-blush",
+      "name": "Celadon & Blush",
+      "name_ko": "셀라돈 · 블러시",
+      "character": "서로 다른 표현 공간의 넓은 영역을 셀라돈과 블러시로 나누고, 변환 모듈은 아이스 블루로 연결한다. 연산마다 다른 색을 추가하기보다 공간의 구분을 먼저 만든다.",
+      "best_for": [
+        "representation spaces",
+        "latent-variable methods",
+        "compression and generation"
+      ],
+      "allocation": "서로 다른 표현 공간의 넓은 영역을 셀라돈과 블러시로 나누고, 변환 모듈은 아이스 블루로 연결한다. 연산마다 다른 색을 추가하기보다 공간의 구분을 먼저 만든다.",
+      "caution": "넓은 배경 영역의 색이 소속을 뜻하는지 명시한다. 표현 공간과 상태 종류를 같은 색 규칙으로 혼동하지 않는다.",
+      "neutral": {
+        "canvas": "#FFFFFF",
+        "ink": "#24272B",
+        "secondary_text": "#51565D",
+        "surface": "#F1F3F4",
+        "stroke": "#737980",
+        "connector": "#343A40"
+      },
+      "colors": {
+        "celadon": {
+          "fill": "#DCE8D2",
+          "stroke": "#708860",
+          "accent": "#587A3E"
+        },
+        "blush": {
+          "fill": "#F2DAD5",
+          "stroke": "#9E655C",
+          "accent": "#A45D51"
+        },
+        "ice": {
+          "fill": "#D8E5F3",
+          "stroke": "#687F9D",
+          "accent": "#466B96"
+        }
+      },
+      "inspiration": [
+        {
+          "name": "Latent Diffusion · Figure 3",
+          "url": "https://arxiv.org/html/2112.10752v2/final_figure.svg",
+          "inspected_on": "2026-09-30",
+          "observation": "pixel space는 분홍, latent space는 연녹색, 인코더·디코더는 연파랑이며 조건부 입력과 주의 연산에는 별도 색을 둔다."
+        }
+      ],
+      "preview": {
+        "mode": "families",
+        "output": "ice",
+        "enclosure": "tinted"
+      }
+    },
+    {
+      "id": "sky-leaf",
+      "name": "Sky & Leaf",
+      "name_ko": "스카이 · 리프",
+      "character": "연산 종류에 하늘색·리프·앰버를 일관되게 배정하고, 바깥의 반복 블록은 회색으로 묶는다.",
+      "best_for": [
+        "expanded transformer blocks",
+        "operation families",
+        "residual architectures"
+      ],
+      "allocation": "연산 종류에 하늘색·리프·앰버를 일관되게 배정하고, 바깥의 반복 블록은 회색으로 묶는다.",
+      "caution": "중요한 경로의 대비를 원본의 희미한 비교 패널처럼 낮추지 않는다. 색을 층 번호에 따라 순환시키지 않는다.",
+      "neutral": {
+        "canvas": "#FFFFFF",
+        "ink": "#24272B",
+        "secondary_text": "#51565D",
+        "surface": "#F1F3F4",
+        "stroke": "#737980",
+        "connector": "#343A40"
+      },
+      "colors": {
+        "sky": {
+          "fill": "#CFDDF8",
+          "stroke": "#5774A4",
+          "accent": "#456CB4"
+        },
+        "leaf": {
+          "fill": "#D1E7C5",
+          "stroke": "#637E51",
+          "accent": "#577F3E"
+        },
+        "amber": {
+          "fill": "#F6D9A3",
+          "stroke": "#8C6B32",
+          "accent": "#946C25"
+        }
+      },
+      "inspiration": [
+        {
+          "name": "DiT · Figure 3",
+          "url": "https://arxiv.org/html/2212.09748v2/block.svg",
+          "inspected_on": "2026-09-30",
+          "observation": "주요 adaLN-Zero 블록에서 정규화·scale/shift는 연파랑, feedforward는 연녹색, self-attention은 노랑·살구색으로 반복된다. 큰 블록은 회색이다."
+        }
+      ],
+      "preview": {
+        "mode": "families",
+        "output": "amber",
+        "enclosure": "neutral"
+      }
+    },
+    {
+      "id": "olive-copper",
+      "name": "Olive & Copper",
+      "name_ko": "올리브 · 코퍼",
+      "character": "올리브와 코퍼를 넓은 배경보다 흐름·윤곽·작은 상태 표시에 사용한다. 파랑은 제어나 선택 관계처럼 별도로 정의한 경로에 둔다.",
+      "best_for": [
+        "state propagation",
+        "recurrent computation",
+        "data and control routes"
+      ],
+      "allocation": "올리브와 코퍼를 넓은 배경보다 흐름·윤곽·작은 상태 표시에 사용한다. 파랑은 제어나 선택 관계처럼 별도로 정의한 경로에 둔다.",
+      "caution": "기존 모스·클레이와 달리 흰 바탕과 색 경로가 중심이다. 선이 가늘어지면 색 식별이 어려우므로 라벨·선 종류도 유지한다.",
+      "neutral": {
+        "canvas": "#FFFFFF",
+        "ink": "#24272B",
+        "secondary_text": "#51565D",
+        "surface": "#F1F3F4",
+        "stroke": "#737980",
+        "connector": "#343A40"
+      },
+      "colors": {
+        "olive": {
+          "fill": "#E7EED8",
+          "stroke": "#698044",
+          "accent": "#577531"
+        },
+        "copper": {
+          "fill": "#F7E5D5",
+          "stroke": "#B1703D",
+          "accent": "#AF6228"
+        },
+        "blue": {
+          "fill": "#DFE8F5",
+          "stroke": "#627FA8",
+          "accent": "#426EAA"
+        }
+      },
+      "inspiration": [
+        {
+          "name": "Mamba · Figure 1",
+          "url": "https://arxiv.org/html/2312.00752v2/selection.svg",
+          "inspected_on": "2026-09-30",
+          "observation": "선택적 상태 공간 도식에서 상태 전달은 구리·주황색, 입력과 관련 항목은 올리브, selection mechanism은 파랑으로 표현한다. 흰 바탕 위 색 경로가 중요하다."
+        }
+      ],
+      "preview": {
+        "mode": "colored-flow",
+        "output": "copper",
+        "enclosure": "white"
+      }
+    },
+    {
+      "id": "graphite-silver",
+      "name": "Graphite & Silver",
+      "name_ko": "그래파이트 · 실버",
+      "character": "모델은 회색, 일반 연산은 흰색, 구조는 짙은 선으로 표현한다. 색 차이가 없어도 위치·라벨·기호만으로 관계를 읽을 수 있는 그림에 사용한다.",
+      "best_for": [
+        "self-distillation",
+        "simple conceptual models",
+        "monochrome publication"
+      ],
+      "allocation": "모델은 회색, 일반 연산은 흰색, 구조는 짙은 선으로 표현한다. 색 차이가 없어도 위치·라벨·기호만으로 관계를 읽을 수 있는 그림에 사용한다.",
+      "caution": "여러 범주를 비슷한 회색만으로 식별시키지 않는다. 이름·모양·위치가 충분한지 확인한다.",
+      "neutral": {
+        "canvas": "#FFFFFF",
+        "ink": "#24272B",
+        "secondary_text": "#51565D",
+        "surface": "#F1F3F4",
+        "stroke": "#737980",
+        "connector": "#343A40"
+      },
+      "colors": {
+        "graphite": {
+          "fill": "#D4D5D7",
+          "stroke": "#707176",
+          "accent": "#45464A"
+        },
+        "silver": {
+          "fill": "#F3F3F3",
+          "stroke": "#7E7E7E",
+          "accent": "#6B6B6B"
+        }
+      },
+      "inspiration": [
+        {
+          "name": "DINO · Figure 2",
+          "url": "https://arxiv.org/html/2104.14294v2/test.svg",
+          "inspected_on": "2026-09-30",
+          "observation": "student와 teacher는 같은 회색이고, softmax·centering은 흰색이다. EMA·stop-gradient·두 입력 뷰를 위치, 화살표와 표기로 설명한다."
+        }
+      ],
+      "preview": {
+        "mode": "monochrome",
+        "output": "graphite",
+        "enclosure": "white"
+      }
+    }
+  ]
+}

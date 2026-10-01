@@ -1,0 +1,11 @@
+# Spatial assay assignment to segmented cells
+
+Create one editable research-method figure for the following hypothetical method. This is a new task; no existing figure is supplied. Use an image-model composition draft, then reconstruct an editable native-object PPTX using the paper-figure skill. Deliver the saved-PPTX PNG/PDF preview and the draft. Figure labels are English; the accompanying explanation is Korean. Target full publication width: 177.8 mm. This is a standalone figure with no separately supplied caption.
+
+An imaging assay provides registered cell masks and spatial measurement spots with finite disk-shaped footprints. Each spot i has a vector x_i of assay-feature counts. Two adjacent, non-overlapping cell masks C1 and C2 are used for an illustrative example. Spot identities must remain consistent between spatial view, assignment weights and aggregation.
+
+Use five illustrative spots: S1 lies wholly inside C1; S2 overlaps both C1 and C2; S3 lies wholly inside C2; S4 overlaps C2 and the area outside all cell masks; S5 lies outside both masks. These are schematic placements, not measured samples. The exact shape, radius and overlap fractions may be chosen for legibility but must not be presented as measured values.
+
+The assignment weight a_ci is the fraction of spot i's footprint area overlapping cell c. Matrix A has cells as rows and spots as columns. Cell-level feature vectors are y_c = sum_i a_ci x_i. Any footprint fraction outside all cell masks remains unassigned and is not renormalized into the cell weights. S5 therefore contributes to neither cell. The figure should explain how S2 contributes to both cells and how S4 retains unassigned mass. Use symbolic fractions/weights or qualitative marks when exact numerical overlaps are not computed; do not invent count values or a result heatmap.
+
+Show registered masks and spot footprints, the cell-by-spot assignment relation, feature aggregation and the resulting two cell vectors. Keep the distinction between a spot's identity and a component of its feature vector clear. No registration algorithm, segmentation network, biological marker identity or assay performance is supplied. Choose the composition and palette yourself.

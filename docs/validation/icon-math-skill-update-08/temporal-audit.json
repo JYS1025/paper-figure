@@ -1,0 +1,243 @@
+{
+  "source": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/hybrid-assets-test-06/figure.pdf",
+  "sourceSha256": "bb4bddbb34b3c7c497a47529b3ca493d7686371e71283e9bdc0fafa16fa0b595",
+  "readOnly": true,
+  "publicationWidthMm": 177.8,
+  "scope": "Selected PDF text metrics only; inspect mathematical typography and native editability separately.",
+  "summary": {
+    "regions": 2,
+    "requiringReview": 2,
+    "unmeasuredRegions": 0
+  },
+  "regions": [
+    {
+      "name": "stored-k",
+      "page": 1,
+      "boundsPt": [
+        150,
+        178,
+        201,
+        205
+      ],
+      "reviewReasons": [
+        "unexpected_rendered_font"
+      ],
+      "unexpectedFonts": [
+        "LinuxLibertineG"
+      ],
+      "expectedText": "s(tₖ)",
+      "missingCharacters": {},
+      "extraCharacters": {},
+      "minPublicationSizePt": 10.488,
+      "maxPublicationSizePt": 10.488,
+      "minToMaxSizeRatio": 1.0,
+      "thresholds": {
+        "minSizePt": 6.0,
+        "minRelativeSize": 0.6,
+        "expectedFonts": [
+          "ArialMT"
+        ]
+      },
+      "characters": [
+        {
+          "text": "s",
+          "font": "ArialMT",
+          "pdfSizePt": 10.488,
+          "publicationSizePt": 10.488,
+          "boundsPt": [
+            167.046,
+            187.9116,
+            172.29,
+            198.3996
+          ],
+          "upright": true
+        },
+        {
+          "text": "(",
+          "font": "ArialMT",
+          "pdfSizePt": 10.488,
+          "publicationSizePt": 10.488,
+          "boundsPt": [
+            172.2585,
+            187.9116,
+            175.751,
+            198.3996
+          ],
+          "upright": true
+        },
+        {
+          "text": "t",
+          "font": "ArialMT",
+          "pdfSizePt": 10.488,
+          "publicationSizePt": 10.488,
+          "boundsPt": [
+            175.7091,
+            187.9116,
+            178.6143,
+            198.3996
+          ],
+          "upright": true
+        },
+        {
+          "text": ")",
+          "font": "ArialMT",
+          "pdfSizePt": 10.488,
+          "publicationSizePt": 10.488,
+          "boundsPt": [
+            181.9599,
+            187.9116,
+            185.4524,
+            198.3996
+          ],
+          "upright": true
+        },
+        {
+          "text": "ₖ",
+          "font": "LinuxLibertineG",
+          "pdfSizePt": 10.488,
+          "publicationSizePt": 10.488,
+          "boundsPt": [
+            178.639,
+            188.2787,
+            181.9637,
+            198.7667
+          ],
+          "upright": true
+        }
+      ],
+      "boundaryCharacters": [],
+      "pdfPageSizePt": [
+        504,
+        340.497637795276
+      ],
+      "publicationScale": 1.0000000000000002
+    },
+    {
+      "name": "stored-now",
+      "page": 1,
+      "boundsPt": [
+        380,
+        178,
+        442,
+        205
+      ],
+      "reviewReasons": [
+        "below_selected_minimum_size",
+        "below_selected_relative_size"
+      ],
+      "unexpectedFonts": [],
+      "expectedText": "s(tnow)",
+      "missingCharacters": {},
+      "extraCharacters": {},
+      "minPublicationSizePt": 5.886,
+      "maxPublicationSizePt": 10.091,
+      "minToMaxSizeRatio": 0.5833,
+      "thresholds": {
+        "minSizePt": 6.0,
+        "minRelativeSize": 0.6,
+        "expectedFonts": [
+          "ArialMT"
+        ]
+      },
+      "characters": [
+        {
+          "text": "s",
+          "font": "ArialMT",
+          "pdfSizePt": 10.091,
+          "publicationSizePt": 10.091,
+          "boundsPt": [
+            398.239,
+            187.2608,
+            403.2845,
+            197.3518
+          ],
+          "upright": true
+        },
+        {
+          "text": "(",
+          "font": "ArialMT",
+          "pdfSizePt": 10.091,
+          "publicationSizePt": 10.091,
+          "boundsPt": [
+            403.2946,
+            187.2608,
+            406.6549,
+            197.3518
+          ],
+          "upright": true
+        },
+        {
+          "text": "t",
+          "font": "ArialMT",
+          "pdfSizePt": 10.091,
+          "publicationSizePt": 10.091,
+          "boundsPt": [
+            406.6852,
+            187.2608,
+            409.4804,
+            197.3518
+          ],
+          "upright": true
+        },
+        {
+          "text": "n",
+          "font": "ArialMT",
+          "pdfSizePt": 5.886,
+          "publicationSizePt": 5.886,
+          "boundsPt": [
+            409.577,
+            193.1266,
+            412.8496,
+            199.0126
+          ],
+          "upright": true
+        },
+        {
+          "text": "o",
+          "font": "ArialMT",
+          "pdfSizePt": 5.886,
+          "publicationSizePt": 5.886,
+          "boundsPt": [
+            412.8261,
+            193.1266,
+            416.0987,
+            199.0126
+          ],
+          "upright": true
+        },
+        {
+          "text": "w",
+          "font": "ArialMT",
+          "pdfSizePt": 5.886,
+          "publicationSizePt": 5.886,
+          "boundsPt": [
+            416.0751,
+            193.1266,
+            420.3248,
+            199.0126
+          ],
+          "upright": true
+        },
+        {
+          "text": ")",
+          "font": "ArialMT",
+          "pdfSizePt": 10.091,
+          "publicationSizePt": 10.091,
+          "boundsPt": [
+            420.378,
+            187.2608,
+            423.7383,
+            197.3518
+          ],
+          "upright": true
+        }
+      ],
+      "boundaryCharacters": [],
+      "pdfPageSizePt": [
+        504,
+        340.497637795276
+      ],
+      "publicationScale": 1.0000000000000002
+    }
+  ]
+}

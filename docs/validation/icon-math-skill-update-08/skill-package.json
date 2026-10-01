@@ -1,0 +1,18 @@
+{
+  "updatedAtUtc": "2026-09-30T14:35:10.954457+00:00",
+  "fileCount": 49,
+  "sha256": "61d862db452b873fd2399dd247934519ad506b1e7d90e67eda0f20e6ab52a56c",
+  "quickValidatePassed": true,
+  "localReferencesChecked": 39,
+  "missingReferences": [],
+  "archivePayloadsMatchSkill": true,
+  "newRegressionTestsPassed": 10,
+  "existingAuditSourcesUnchanged": [
+    "output/hybrid-assets-test-06/figure.pptx",
+    "output/unseen-suite-05/spatial-assignment/figure.pptx",
+    "output/hybrid-assets-test-06/figure.pdf",
+    "output/unseen-suite-05/spatial-assignment/figure.pdf",
+    ".build/icon-math-audit-07/figure.pdf"
+  ],
+  "generationOrNativePowerPointTestPerformed": false
+}

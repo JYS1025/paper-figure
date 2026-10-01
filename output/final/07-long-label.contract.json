@@ -1,0 +1,26 @@
+{
+  "slides": [
+    {
+      "nodes": {
+        "observations": "Irregularly sampled\nobservations",
+        "alignment": "Uncertainty-conditioned\ntemporal alignment",
+        "representation": "Aligned\nrepresentation",
+        "metadata": "Sampling intervals + confidence"
+      },
+      "edges": [
+        [
+          "observations",
+          "alignment"
+        ],
+        [
+          "alignment",
+          "representation"
+        ],
+        [
+          "metadata",
+          "alignment"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "file": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/final/07-long-label.pptx",
+  "sha256": "04f5754979653dcaf90e2eedafabd090e09044546309be2fee541dc23a1f8072",
+  "sizePx": [
+    672.0,
+    360.0
+  ],
+  "slides": [
+    {
+      "part": "ppt/slides/slide1.xml",
+      "objects": [
+        {
+          "id": "10",
+          "name": "caption",
+          "kind": "sp",
+          "text": "Conditioned temporal alignment",
+          "boundsPx": [
+            24.0,
+            13.0,
+            624.0,
+            25.0
+          ],
+          "fingerprint": "312c9a825160cefbd6847928bd165fc28e7b5dbd4fa0ee82a74506a5012c81e7",
+          "fontPt": [
+            12.0
+          ]
+        },
+        {
+          "id": "2",
+          "name": "observations",
+          "kind": "sp",
+          "text": "Irregularly sampled\nobservations",
+          "boundsPx": [
+            26.0,
+            126.0,
+            163.0,
+            71.0
+          ],
+          "fingerprint": "8575e64efd73e15dde0d124c4f0bced882999da1ed0d1b6b7d2b5abd67218b78",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "3",
+          "name": "alignment",
+          "kind": "sp",
+          "text": "Uncertainty-conditioned\ntemporal alignment",
+          "boundsPx": [
+            251.0,
+            108.0,
+            217.0,
+            106.0
+          ],
+          "fingerprint": "20d026efee5aeb2d2288a90755b9e5f6c3d10f5e738f7b5fc495830ffd534c3f",
+          "fontPt": [
+            11.25
+          ]
+        },
+        {
+          "id": "4",
+          "name": "representation",
+          "kind": "sp",
+          "text": "Aligned\nrepresentation",
+          "boundsPx": [
+            530.0,
+            126.0,
+            120.0,
+            71.0
+          ],
+          "fingerprint": "fc4df0d3b306dc98a6f6833ccfc017ce4a8aef906ab87852d1db8707ba2acf17",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "14",
+          "name": "e0",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            189.0,
+            161.0,
+            62.0,
+            0.5001
+          ],
+          "fingerprint": "445dd31d7fb95d308fd28cf93669347455ea7c7ad22efd4f2d81ed6e43579e4e",
+          "fontPt": []
+        },
+        {
+          "id": "15",
+          "name": "e1",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            468.0,
+            161.0,
+            62.0,
+            0.5001
+          ],
+          "fingerprint": "d0c1f07ed340ca12ef048098979cc1c8c914ffb1d365e569a16f39c15b18b89e",
+          "fontPt": []
+        },
+        {
+          "id": "7",
+          "name": "metadata",
+          "kind": "sp",
+          "text": "Sampling intervals + confidence",
+          "boundsPx": [
+            243.0,
+            277.0,
+            233.0,
+            40.0
+          ],
+          "fingerprint": "ad5413f489806a685b4bb8eacc73346f5fd56425e9df33e38572921744e7e012",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "17",
+          "name": "context",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            359.5001,
+            214.0,
+            0.0,
+            63.0
+          ],
+          "fingerprint": "183449e6577e66f5d89f7b0ea3566633f09e171dc4dfb8519f6db16872f69503",
+          "fontPt": []
+        },
+        {
+          "id": "9",
+          "name": "notation",
+          "kind": "sp",
+          "text": "\u0394t and confidence remain separate inputs",
+          "boundsPx": [
+            220.0,
+            322.0,
+            278.0,
+            25.0
+          ],
+          "fingerprint": "1b7fdf7bd1a77d0a79acf3a9e796f3ae85eb410bae914cd1774a83ce2a8d11a3",
+          "fontPt": [
+            9.0
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "name": "e0",
+          "from": "observations",
+          "to": "alignment",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "e1",
+          "from": "alignment",
+          "to": "representation",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "context",
+          "from": "metadata",
+          "to": "alignment",
+          "fromIdx": "0",
+          "toIdx": "2",
+          "directed": true
+        }
+      ],
+      "counts": {
+        "sp": 6,
+        "cxnSp": 3,
+        "grpSp": 0,
+        "pic": 0,
+        "graphicFrame": 0
+      },
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "passed": true
+}

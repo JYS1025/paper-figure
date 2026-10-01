@@ -1,0 +1,11 @@
+{
+  "lockedAtUtc": "2026-09-30T06:46:42.539656+00:00",
+  "responseSha256": "82a938cced5aa76ae71d4f710eb6d390a389554a5caecd8071862af98f3082ac",
+  "publishedGuess": "B",
+  "publishedActual": "B",
+  "subjectiveConfidence": 0.6,
+  "qualityChoice": "A",
+  "generatedActual": "A",
+  "recognizedFromMemory": false,
+  "phase2InputsReleasedOnlyAfterThisLock": true
+}

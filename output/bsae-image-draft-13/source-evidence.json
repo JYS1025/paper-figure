@@ -1,0 +1,30 @@
+[
+  {
+    "path": "/Users/odysseus/Downloads/Lab/BSAE/README.md",
+    "sha256": "8ccbcc9b37989eb75bb2b6296579dd5db1bf1c8fdd9f1f984bc8fa35b3f8a178"
+  },
+  {
+    "path": "/Users/odysseus/Downloads/Lab/BSAE/config.yaml",
+    "sha256": "901ff9a1fdd6ee236cb19fe481ae6d653669d56c9856acdb038e376837a5cbf0"
+  },
+  {
+    "path": "/Users/odysseus/Downloads/Lab/BSAE/models/autoencoder.py",
+    "sha256": "03dd44f43d584bf442b7d22a797c69a4ae576d51edf31c35bc0eddc6c2b3f9c3"
+  },
+  {
+    "path": "/Users/odysseus/Downloads/Lab/BSAE/models/layers.py",
+    "sha256": "12bc22dbaa41e81d4189cbdc3d334348d4051bb328c79df8fb73bb1d3905bd55"
+  },
+  {
+    "path": "/Users/odysseus/Downloads/Lab/BSAE/models/delay.py",
+    "sha256": "a3b62c2ccbc404dfcaaedcb9656b09b5dc9bc66878b06357ea5cb906f7c4533f"
+  },
+  {
+    "path": "/Users/odysseus/Downloads/Lab/BSAE/losses/van_rossum.py",
+    "sha256": "153238845d3b0dd2313594adac5ecc0e4a0ef0b14c9b2fe2d45a5f1a44cff06d"
+  },
+  {
+    "path": "/Users/odysseus/Downloads/Lab/BSAE/train.py",
+    "sha256": "37731695a14b50e88ffc43cecbd3849d47b100084e4b291f446e4d109dc00d6b"
+  }
+]

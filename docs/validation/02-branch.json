@@ -1,0 +1,267 @@
+{
+  "file": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/final/02-branch.pptx",
+  "sha256": "f97739970cb7ee43456a7af19d27fe429d27f5764bdad86f3f728125819efb9e",
+  "sizePx": [
+    672.0,
+    360.0
+  ],
+  "slides": [
+    {
+      "part": "ppt/slides/slide1.xml",
+      "objects": [
+        {
+          "id": "14",
+          "name": "caption",
+          "kind": "sp",
+          "text": "Two-view feature fusion",
+          "boundsPx": [
+            24.0,
+            13.0,
+            624.0,
+            25.0
+          ],
+          "fingerprint": "6766a830183e1874866add8eadd9f60cafec7ce702b49b7470f41812d2254d10",
+          "fontPt": [
+            12.0
+          ]
+        },
+        {
+          "id": "2",
+          "name": "input",
+          "kind": "sp",
+          "text": "Input",
+          "boundsPx": [
+            24.0,
+            156.0,
+            85.0,
+            52.0
+          ],
+          "fingerprint": "9f762739bc0b665dbccdf3471c2427b51d46296bb211212330cc91ff731dbe7e",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "3",
+          "name": "local",
+          "kind": "sp",
+          "text": "Local encoder",
+          "boundsPx": [
+            185.0,
+            86.0,
+            145.0,
+            55.0
+          ],
+          "fingerprint": "db4c9a3bcec2267a2d0386d930d1f224820da3079ae3592529bdf084f0958556",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "4",
+          "name": "global",
+          "kind": "sp",
+          "text": "Global encoder",
+          "boundsPx": [
+            185.0,
+            222.0,
+            145.0,
+            55.0
+          ],
+          "fingerprint": "056bbc7bfcfce3b8582012393d67245ce8f2d11afc8fa74d9081c6f0c40d19b5",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "5",
+          "name": "fuse",
+          "kind": "sp",
+          "text": "Fuse",
+          "boundsPx": [
+            414.0,
+            156.0,
+            96.0,
+            52.0
+          ],
+          "fingerprint": "70912cea917da4a528181991d0739a483ec25747ee509cf31fe8e3234133be4e",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "6",
+          "name": "prediction",
+          "kind": "sp",
+          "text": "Prediction",
+          "boundsPx": [
+            565.0,
+            156.0,
+            88.0,
+            52.0
+          ],
+          "fingerprint": "84524ea94071e91ef7c2390ad18f8afc5f387cc199f2d6bc4586b3d80e71d29c",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "20",
+          "name": "e0",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            109.0,
+            113.5001,
+            76.0,
+            68.5001
+          ],
+          "fingerprint": "84b437f2a6fba80bccb288832e8fec058284322dcdec1ee7bca214c1519315b3",
+          "fontPt": []
+        },
+        {
+          "id": "21",
+          "name": "e1",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            109.0,
+            182.0,
+            76.0,
+            67.5001
+          ],
+          "fingerprint": "0fce9b1b0125ac57d34cb0141032885ad9059c7ca7ac60ce8a0b3680fbfee3b0",
+          "fontPt": []
+        },
+        {
+          "id": "22",
+          "name": "e2",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            330.0,
+            113.5001,
+            84.0,
+            68.5001
+          ],
+          "fingerprint": "6d87e853da037ceae3d6ab489e01c07ef9e566674a096b6d673cab02f1a75f43",
+          "fontPt": []
+        },
+        {
+          "id": "23",
+          "name": "e3",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            330.0,
+            182.0,
+            84.0,
+            67.5001
+          ],
+          "fingerprint": "8fffaa30e2cc81e39bff99ddd74ca59791f740ddb0c623239cbb2322358d0639",
+          "fontPt": []
+        },
+        {
+          "id": "24",
+          "name": "e4",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            510.0,
+            182.0,
+            55.0,
+            0.0
+          ],
+          "fingerprint": "9b39e9efd24ad9869c1a154d16202d84c5f8996f5f6f5435fb83247f6b234536",
+          "fontPt": []
+        },
+        {
+          "id": "12",
+          "name": "local-note",
+          "kind": "sp",
+          "text": "fine detail",
+          "boundsPx": [
+            186.0,
+            59.0,
+            144.0,
+            25.0
+          ],
+          "fingerprint": "53cade2661126867b3d480b43e95ed4a3d4eda87f65f733ef83cb9762c6532ee",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "13",
+          "name": "global-note",
+          "kind": "sp",
+          "text": "scene context",
+          "boundsPx": [
+            186.0,
+            282.0,
+            144.0,
+            25.0
+          ],
+          "fingerprint": "a14ef74242248725a5b316aa6d6846e014e8bdd31dc5935fc837834abcdbeaa0",
+          "fontPt": [
+            9.0
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "name": "e0",
+          "from": "input",
+          "to": "local",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "e1",
+          "from": "input",
+          "to": "global",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "e2",
+          "from": "local",
+          "to": "fuse",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "e3",
+          "from": "global",
+          "to": "fuse",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "e4",
+          "from": "fuse",
+          "to": "prediction",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        }
+      ],
+      "counts": {
+        "sp": 8,
+        "cxnSp": 5,
+        "grpSp": 0,
+        "pic": 0,
+        "graphicFrame": 0
+      },
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "passed": true
+}

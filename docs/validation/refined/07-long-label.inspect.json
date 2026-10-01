@@ -1,0 +1,1055 @@
+{
+  "file": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/refined/07-long-label.pptx",
+  "sha256": "6131ef99ee75b99d1eb853b13f775ef74c800b2b35e9bb84461ba431785bd2dc",
+  "sizePx": [
+    672.0,
+    400.0
+  ],
+  "slides": [
+    {
+      "part": "ppt/slides/slide1.xml",
+      "objects": [
+        {
+          "id": "71",
+          "name": "heading",
+          "kind": "sp",
+          "text": "Uncertainty-conditioned temporal alignment",
+          "boundsPx": [
+            18.0,
+            9.0,
+            638.0,
+            23.0
+          ],
+          "fingerprint": "14b4404762eb0cf416103eb6dea8be4a4e82a711944e3da4fea6df8565a5e077",
+          "fontPt": [
+            11.25
+          ]
+        },
+        {
+          "id": "2",
+          "name": "observations",
+          "kind": "sp",
+          "text": "Irregularly sampled\nobservations",
+          "boundsPx": [
+            18.0,
+            62.0,
+            168.0,
+            139.0
+          ],
+          "fingerprint": "1cc27ebe7ea615f6a890619f7ef28fe73b8955f7e405746214e4e8924035b77b",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "3",
+          "name": "observed.axis",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            28.0,
+            147.0,
+            149.0,
+            0.01
+          ],
+          "fingerprint": "fc0ec79ab7d6e24b3f12fc67c88d6599aa02ec481e5636d34b1d5597dfb83c5c",
+          "fontPt": []
+        },
+        {
+          "id": "4",
+          "name": "observed.err0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            28.0,
+            109.6601,
+            0.01,
+            10.0
+          ],
+          "fingerprint": "c77a6145a54765da31af13d0c8059352fe868d697f0fcdfb967a3441e15b0f4c",
+          "fontPt": []
+        },
+        {
+          "id": "5",
+          "name": "observed.p0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            26.0,
+            112.6601,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "6dea58bc8a0094561fa99ba9569dcf3575a7f8047f1c74a3e258f1b0c0129061",
+          "fontPt": []
+        },
+        {
+          "id": "6",
+          "name": "observed.err1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            38.43,
+            99.19,
+            0.01,
+            14.0
+          ],
+          "fingerprint": "e843511a1ea9710ee3049fd3ce65211e8d4aeaf97d6fa64e918bdef483058e7d",
+          "fontPt": []
+        },
+        {
+          "id": "7",
+          "name": "observed.p1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            36.43,
+            104.19,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "83249cd049560b18b1ab18a75e60d7e61c0d2ba9cc962c45ee5e69b212eedd04",
+          "fontPt": []
+        },
+        {
+          "id": "8",
+          "name": "observed.err2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            51.84,
+            80.25,
+            0.01,
+            18.0
+          ],
+          "fingerprint": "1d75c9b7036f941cab52bd4c0cae5e7331da33cce9d2fc7d910457c875af5ff7",
+          "fontPt": []
+        },
+        {
+          "id": "9",
+          "name": "observed.p2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            49.84,
+            87.25,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "be5807a28a840968fa52ec968212b987b27c7edcefbaecb355ff799738c6bb20",
+          "fontPt": []
+        },
+        {
+          "id": "10",
+          "name": "observed.err3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            59.29,
+            88.87,
+            0.01,
+            10.0
+          ],
+          "fingerprint": "adddf369b9d1ff49a863bb79380f37e0bc9784fbd14f2352c27fe8be58d52604",
+          "fontPt": []
+        },
+        {
+          "id": "11",
+          "name": "observed.p3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            57.29,
+            91.87,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "30ffa5d1c9826e4ea8b34d8ea764dd00f193657e7cdfd9977984dd958074b1f8",
+          "fontPt": []
+        },
+        {
+          "id": "12",
+          "name": "observed.err4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            84.6201,
+            114.59,
+            0.01,
+            14.0
+          ],
+          "fingerprint": "fbeac65dfe2dcd819be065ff85d2a8cbb2d7a19ba9b2cb153d4e59a55b1df095",
+          "fontPt": []
+        },
+        {
+          "id": "13",
+          "name": "observed.p4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            82.6201,
+            119.59,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "54ac7656154553a2ca2d80a8db28b815fa343e668248d4a62f63577ba45b6662",
+          "fontPt": []
+        },
+        {
+          "id": "14",
+          "name": "observed.err5",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            92.07,
+            124.1399,
+            0.01,
+            18.0
+          ],
+          "fingerprint": "6ef631f738d5cb1b7ec66e9225e37eb35a890439515e6b20e1d114a376a8571a",
+          "fontPt": []
+        },
+        {
+          "id": "15",
+          "name": "observed.p5",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            90.07,
+            131.1399,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "1a340ed64ef45352cc5fb1e5349af7b37704631195a3bde7275f26b094eec853",
+          "fontPt": []
+        },
+        {
+          "id": "16",
+          "name": "observed.err6",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            114.4199,
+            111.2,
+            0.01,
+            10.0
+          ],
+          "fingerprint": "f974b88642655741afac5291b108b3fb07a5e8c062196fed784c3a3b1c1bad03",
+          "fontPt": []
+        },
+        {
+          "id": "17",
+          "name": "observed.p6",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            112.4199,
+            114.2,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "65397f66df42a19c5ff38e555ee7f1feec31282369c60eb46ce1bb7ffccb6fb8",
+          "fontPt": []
+        },
+        {
+          "id": "18",
+          "name": "observed.err7",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            136.77,
+            85.33,
+            0.01,
+            14.0
+          ],
+          "fingerprint": "30331793b81d2fd419ed80e9668a728a6a635201dc49f00c007ff468a571391b",
+          "fontPt": []
+        },
+        {
+          "id": "19",
+          "name": "observed.p7",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            134.77,
+            90.33,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "025a823f8c263b6e72b89b5188f35f3cba56d557d1886e989f0e8ef6f93ad973",
+          "fontPt": []
+        },
+        {
+          "id": "20",
+          "name": "observed.err8",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            145.71,
+            75.63,
+            0.01,
+            18.0
+          ],
+          "fingerprint": "39b43a5139101d56d9584c1e3378ddb556c043b919eaa73a6d8a77a21eb74000",
+          "fontPt": []
+        },
+        {
+          "id": "21",
+          "name": "observed.p8",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            143.71,
+            82.63,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "536d59e9f32be1faad188b95f7bb0043bbe052818e614d94fc7b5a35a3197c9c",
+          "fontPt": []
+        },
+        {
+          "id": "22",
+          "name": "observed.err9",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            165.08,
+            93.49,
+            0.01,
+            10.0
+          ],
+          "fingerprint": "0ac7b493a182038b92f029c57d35be3e4f11727fcabd846ff07638e21e5e05a5",
+          "fontPt": []
+        },
+        {
+          "id": "23",
+          "name": "observed.p9",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            163.08,
+            96.49,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "a0fc0356da20ba082ab92b6a40655d16d566478ad2cdfb0e26faeb1c07f793e7",
+          "fontPt": []
+        },
+        {
+          "id": "24",
+          "name": "observed.err10",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            177.0,
+            104.5801,
+            0.01,
+            14.0
+          ],
+          "fingerprint": "3d3473383e1bcf8a1c85a37b0f2ba5dabcd6127354fc8959eb2d83932ea3f984",
+          "fontPt": []
+        },
+        {
+          "id": "25",
+          "name": "observed.p10",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            175.0,
+            109.5801,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "40ba91d04822b621e4ed47b655d463f3d933124e821157e4c4e564553ac08241",
+          "fontPt": []
+        },
+        {
+          "id": "26",
+          "name": "alignment",
+          "kind": "sp",
+          "text": "Uncertainty-conditioned\ntemporal alignment",
+          "boundsPx": [
+            235.0,
+            101.0,
+            218.0,
+            67.0
+          ],
+          "fingerprint": "4e943bfb1d0457ab0ae5b3d7a445613f2adb8d75a494c52dc4f00bcd98ef4681",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "27",
+          "name": "representation",
+          "kind": "sp",
+          "text": "Aligned\nrepresentation",
+          "boundsPx": [
+            504.0,
+            62.0,
+            150.0,
+            139.0
+          ],
+          "fingerprint": "2da8f05fffafcf3472d24355799c0f338c2569cdc3ddad12a9c8569cd4379443",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "28",
+          "name": "aligned.axis",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            513.0,
+            146.0,
+            132.0,
+            0.01
+          ],
+          "fingerprint": "bdb2f8fab9c3b951144e3e9980ad110a21069b5ef330a908264e5189dcff8fd8",
+          "fontPt": []
+        },
+        {
+          "id": "29",
+          "name": "aligned.band",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            513.0,
+            80.0601,
+            132.0,
+            58.6201
+          ],
+          "fingerprint": "4a5c9ed7da5916c8eaa85f8b3c6966fa7db888c239e30c86b09b5b8898746ca2",
+          "fontPt": []
+        },
+        {
+          "id": "30",
+          "name": "aligned.curve",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            513.0,
+            86.0601,
+            132.0,
+            46.6201
+          ],
+          "fingerprint": "e0684d26d331c3931594f3c7c5161b558e9095b05bf3baa7a62f6f19d88d3c64",
+          "fontPt": []
+        },
+        {
+          "id": "31",
+          "name": "aligned.p0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            511.0,
+            112.92,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "5472d27f8a76c08aff9e3b95c7d3090d985169f76cf87f6ac7518bcd1d43fb29",
+          "fontPt": []
+        },
+        {
+          "id": "32",
+          "name": "aligned.p1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            524.2,
+            104.7801,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "20f6a93eda7c5cdad3a9e9b0a5a43b9cc469b1cf18ec7449f70b55badb821927",
+          "fontPt": []
+        },
+        {
+          "id": "33",
+          "name": "aligned.p2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            537.4,
+            88.5001,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "358e49ee5322ccbe051c7561d2908711561487f04d48aedc616f13e9044de331",
+          "fontPt": []
+        },
+        {
+          "id": "34",
+          "name": "aligned.p3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            550.6,
+            92.9401,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "a91abaab3c1ecae07ff0685ba899ab8dc0d36de7a51bd139ac3e10a2101ff677",
+          "fontPt": []
+        },
+        {
+          "id": "35",
+          "name": "aligned.p4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            563.8,
+            119.5801,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "098b2fd3abf7e32daa9cadc74c78549248c8614992090a54b59669a1691829f5",
+          "fontPt": []
+        },
+        {
+          "id": "36",
+          "name": "aligned.p5",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            577.0,
+            130.68,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "a76dd1b48cdf168b8e307a123c49202d86f306db81c72339e36cef47075c9b59",
+          "fontPt": []
+        },
+        {
+          "id": "37",
+          "name": "aligned.p6",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            590.2,
+            114.4,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "4eee9249dc99a0c3e8db92bf1331b39d44fb46afda283f07b0745e786baacd1e",
+          "fontPt": []
+        },
+        {
+          "id": "38",
+          "name": "aligned.p7",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            603.4,
+            91.4599,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "316c81478afa621395d2f293e683ed21bfd9b141f9915d486a44b68797689faa",
+          "fontPt": []
+        },
+        {
+          "id": "39",
+          "name": "aligned.p8",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            616.6,
+            84.0601,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "c2768c54c880cd37cb7b1a69228fe08cb5e3364451ad08363ec9a088fa95089a",
+          "fontPt": []
+        },
+        {
+          "id": "40",
+          "name": "aligned.p9",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            629.8,
+            97.3801,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "4fca602b9b1d6a2cc030a056e823a971332767223694da6a7a8be3f70c0ac73a",
+          "fontPt": []
+        },
+        {
+          "id": "41",
+          "name": "aligned.p10",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            643.0,
+            109.96,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "e96b01987c309863c3aff35ad7fb4a53f64060a626e471cbec7e1e294b7c1665",
+          "fontPt": []
+        },
+        {
+          "id": "112",
+          "name": "e0",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            186.0,
+            131.5001,
+            49.0,
+            3.0
+          ],
+          "fingerprint": "7019a5e2c430f4a753984c5ae132b5ec355f2dfc98f5440e36687d74d056838b",
+          "fontPt": []
+        },
+        {
+          "id": "113",
+          "name": "e1",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            453.0,
+            131.5001,
+            51.0,
+            3.0
+          ],
+          "fingerprint": "580f2ac5e20fe3e8d60ad7a96a9451e49e753244285986d039603e877fca3489",
+          "fontPt": []
+        },
+        {
+          "id": "44",
+          "name": "metadata",
+          "kind": "sp",
+          "text": "Sampling intervals + confidence",
+          "boundsPx": [
+            222.0,
+            289.0,
+            245.0,
+            39.0
+          ],
+          "fingerprint": "c26153d6fa137c4009fd6038708812aff0b9364fb07aee13d185215da55a1622",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "115",
+          "name": "context",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            344.0,
+            168.0,
+            0.5001,
+            121.0
+          ],
+          "fingerprint": "9c27e6c58eaf77fd24f8fd20bf5546bd75b0c3e10c1d6f7d641007b79cc7e524",
+          "fontPt": []
+        },
+        {
+          "id": "46",
+          "name": "source-grid",
+          "kind": "sp",
+          "text": "irregular time support",
+          "boundsPx": [
+            21.0,
+            219.0,
+            162.0,
+            21.0
+          ],
+          "fingerprint": "577ea596a4bf674587ce03ea1fa00225956eac80bc92b99841a7557a0b6a3858",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "47",
+          "name": "target-grid",
+          "kind": "sp",
+          "text": "common time support",
+          "boundsPx": [
+            500.0,
+            219.0,
+            155.0,
+            21.0
+          ],
+          "fingerprint": "a43456dda74d3bff28e27e30d5dd480c73178549187cd00dac9e1b18440ba78e",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "48",
+          "name": "input-tick0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            27.0,
+            247.0,
+            0.01,
+            8.0
+          ],
+          "fingerprint": "e777f3e1ca875d3939b962e2b0aa392f2e5abf2478f40f68d612afb274ceeb8c",
+          "fontPt": []
+        },
+        {
+          "id": "49",
+          "name": "output-tick0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            509.0,
+            247.0,
+            0.01,
+            8.0
+          ],
+          "fingerprint": "cdc1e8f45657e7479800039175dbb488ea0fd2925a0ac29a9d67900afa5e849e",
+          "fontPt": []
+        },
+        {
+          "id": "50",
+          "name": "input-tick1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            39.0,
+            247.0,
+            0.01,
+            8.0
+          ],
+          "fingerprint": "16260848054e693c93cf94b5223f6b44a5c7bd656defa5a55139fafe181fba4c",
+          "fontPt": []
+        },
+        {
+          "id": "51",
+          "name": "output-tick1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            531.0,
+            247.0,
+            0.01,
+            8.0
+          ],
+          "fingerprint": "4ead9b1cc81444181869d1feaaa8343f23c164596bd8f8cb851e3b8ecf94d4f2",
+          "fontPt": []
+        },
+        {
+          "id": "52",
+          "name": "input-tick2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            69.0,
+            247.0,
+            0.01,
+            8.0
+          ],
+          "fingerprint": "ab7f5ec66c00cfaed014359e598053d8d7942fe86faee3945b48f0a4a03d39ca",
+          "fontPt": []
+        },
+        {
+          "id": "53",
+          "name": "output-tick2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            553.0,
+            247.0,
+            0.01,
+            8.0
+          ],
+          "fingerprint": "390854e3a049cb9b6f649975590e77e8ecfb3617d4acbc55297392cecae05be1",
+          "fontPt": []
+        },
+        {
+          "id": "54",
+          "name": "input-tick3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            78.0,
+            247.0,
+            0.01,
+            8.0
+          ],
+          "fingerprint": "9bd965da67de5a2501675044e413046ccc01ef2e1405346b06cfd80898965081",
+          "fontPt": []
+        },
+        {
+          "id": "55",
+          "name": "output-tick3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            575.0,
+            247.0,
+            0.01,
+            8.0
+          ],
+          "fingerprint": "b6081740e3dc6a9ff52968d7dbf6b6b03341009608a38c4509c9f80bbb0ecf8b",
+          "fontPt": []
+        },
+        {
+          "id": "56",
+          "name": "input-tick4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            108.0,
+            247.0,
+            0.01,
+            8.0
+          ],
+          "fingerprint": "e671f3a7bbfb7a8516a2f0c75253d445d8b3934c16a936ca394cffc6bc6d0ec6",
+          "fontPt": []
+        },
+        {
+          "id": "57",
+          "name": "output-tick4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            597.0,
+            247.0,
+            0.01,
+            8.0
+          ],
+          "fingerprint": "d61f18278ba9c948b23696c1dc8cc71181ed6a5149fe2616fc2d03c7eb5d0e8a",
+          "fontPt": []
+        },
+        {
+          "id": "58",
+          "name": "input-tick5",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            146.0,
+            247.0,
+            0.01,
+            8.0
+          ],
+          "fingerprint": "2518d3b472585a5ba85b90e92b148ea2a358870078f32f4773ef0268e1bf06af",
+          "fontPt": []
+        },
+        {
+          "id": "59",
+          "name": "output-tick5",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            619.0,
+            247.0,
+            0.01,
+            8.0
+          ],
+          "fingerprint": "a82e20893ada8872b221a51492069fe95fdb54abe41ad14a143a403bcc9b300c",
+          "fontPt": []
+        },
+        {
+          "id": "60",
+          "name": "input-tick6",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            179.0,
+            247.0,
+            0.01,
+            8.0
+          ],
+          "fingerprint": "3b06c55a8decdb5c9767ab1343a63c5a87c850ccd18f81b923f1b51a92a9deea",
+          "fontPt": []
+        },
+        {
+          "id": "61",
+          "name": "output-tick6",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            641.0,
+            247.0,
+            0.01,
+            8.0
+          ],
+          "fingerprint": "df5fc8e903ac5a5022720970514a7dea7f9c858fb4c56bb34a767b5a87bf126a",
+          "fontPt": []
+        },
+        {
+          "id": "62",
+          "name": "dt",
+          "kind": "sp",
+          "text": "\u0394t\u2081   \u0394t\u2082       \u0394t\u2083",
+          "boundsPx": [
+            28.0,
+            270.0,
+            157.0,
+            21.0
+          ],
+          "fingerprint": "8ea8317faf9314dcf40c9bbce41e65858e82c89f43d3773b02d1c61345d48a78",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "63",
+          "name": "confidence",
+          "kind": "sp",
+          "text": "confidence c\u1d62",
+          "boundsPx": [
+            36.0,
+            315.0,
+            132.0,
+            21.0
+          ],
+          "fingerprint": "56a427a0a1bc395b7f107713abb4e645e99abeb96a009e95d1eb0e4aee68b837",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "64",
+          "name": "confidence-bar0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            55.0,
+            297.0,
+            10.0,
+            14.0
+          ],
+          "fingerprint": "56e06c7c00e8add8157c9650bf823672f3d83f5b6ad488ab6d27edd94bf222c2",
+          "fontPt": []
+        },
+        {
+          "id": "65",
+          "name": "confidence-bar1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            73.0,
+            285.0,
+            10.0,
+            26.0
+          ],
+          "fingerprint": "a0a37c283d0d9753229f8344ac05ae021ad6782d9f4c280b42536582dc65fa18",
+          "fontPt": []
+        },
+        {
+          "id": "66",
+          "name": "confidence-bar2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            91.0,
+            291.0,
+            10.0,
+            20.0
+          ],
+          "fingerprint": "e02630ead648fed61a252bf3b92c270f9da2d059d92139ca4c123b8a0aa7b40e",
+          "fontPt": []
+        },
+        {
+          "id": "67",
+          "name": "confidence-bar3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            109.0,
+            279.0,
+            10.0,
+            32.0
+          ],
+          "fingerprint": "7eab923114f23cd4c974c014502aeea0ad4aef68e4dcc90ac29b0cd5549c3543",
+          "fontPt": []
+        },
+        {
+          "id": "68",
+          "name": "confidence-bar4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            127.0,
+            295.0,
+            10.0,
+            16.0
+          ],
+          "fingerprint": "92d9123486c7da54018e62f43dec718df261ae4ff7524a7f388dd9d7572630e8",
+          "fontPt": []
+        },
+        {
+          "id": "69",
+          "name": "support-caption",
+          "kind": "sp",
+          "text": "alignment depends on both timing and confidence",
+          "boundsPx": [
+            482.0,
+            283.0,
+            173.0,
+            58.0
+          ],
+          "fingerprint": "0d3c4610cd28ff7ec28211accaaa41a5075d0f467cf7e3d9d1d0399543bfb71d",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "70",
+          "name": "disclosure",
+          "kind": "sp",
+          "text": "Illustrative observations and uncertainty; no measured reconstruction performance is shown.",
+          "boundsPx": [
+            18.0,
+            375.0,
+            636.0,
+            18.0
+          ],
+          "fingerprint": "9d6ebb9ff4ef83386a86b190794d6e63e65a2d4c898bc06b1fc26e4c91b04de2",
+          "fontPt": [
+            8.25
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "name": "e0",
+          "from": "observations",
+          "to": "alignment",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "e1",
+          "from": "alignment",
+          "to": "representation",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "context",
+          "from": "metadata",
+          "to": "alignment",
+          "fromIdx": "0",
+          "toIdx": "2",
+          "directed": true
+        }
+      ],
+      "counts": {
+        "sp": 67,
+        "cxnSp": 3,
+        "grpSp": 0,
+        "pic": 0,
+        "graphicFrame": 0
+      },
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "passed": true
+}

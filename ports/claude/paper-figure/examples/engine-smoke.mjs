@@ -1,0 +1,26 @@
+/** Engine capability test only. It is NOT an image-first production run. */
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {Figure} from '../scripts/figure.mjs';
+const output=path.resolve(process.argv[2]||'engine-smoke.pptx');
+const f=new Figure({width:672,height:350,title:'Portable engine capability test',notes:'Technical fixture only; no image-model drafting or independent Claude quality evaluation was performed by this script. Photo: NASA, see assets/SOURCES.md.'});
+f.label('title','Native objects · attached arrows · replaceable pictures',16,10,640,26,{size:17,bold:true,align:'left'});
+f.module('input','Input',30,70,115,52);
+f.module('encoder','Encoder',247,70,145,52,{bold:true});
+f.module('output','Representation',502,70,140,52);
+f.connect('encode','input','encoder');f.connect('represent','encoder','output');
+f.module('conditioning','Condition',30,205,115,44,{fill:'#EEE7F6',stroke:'#785896'});
+f.connect('condition','conditioning','encoder',{fromSide:'right',toSide:'bottom',kind:'elbow',dashed:true,color:'#785896'});
+f.path('plane',[[165,153],[253,144],[274,190],[186,199]],{fill:'#E2F0E9',color:'#427462',closed:true});
+f.label('plane-label','Editable plane',149,200,144,24,{size:13});
+const base=f.label('math-base','X',410,208,23,28,{size:22});
+base.text.style={typeface:'Times New Roman',fontSize:22,color:'#233947',italic:true,alignment:'left',verticalAlignment:'top',wrap:'none',insets:{left:0,right:0,top:0,bottom:0}};
+const sub=f.label('math-index','t',428,219,17,21,{size:15});
+sub.text.style={...base.text.style,fontSize:15};f.group('math-label',['math-base','math-index']);
+f.label('math-caption','Native math',390,250,80,24,{size:13});
+f.image('sample-photo',await fs.readFile(new URL('../assets/astronaut.png',import.meta.url)),520,184,99,62,{alt:'NASA sample photo; independent cropped picture.',fit:'cover'});
+f.label('photo-caption','Replaceable photo',487,250,162,24,{size:13});
+f.tokens('tokens',['a','b','c'],32,286,{cell:22,size:13});
+f.label('footer','Engine test only — production figures must first use the image-model draft workflow.',16,320,640,18,{size:11,color:'#526572',align:'left'});
+await f.export(output,{contract:{slides:[{nodes:{input:'Input',encoder:'Encoder',output:'Representation','math-base':'X','math-index':'t'},edges:[['input','encoder'],['encoder','output'],['conditioning','encoder']],groups:['math-label','tokens'],nativeOnly:false,exactEdges:true}]}});
+console.log(output);

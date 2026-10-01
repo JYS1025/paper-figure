@@ -1,0 +1,16 @@
+{
+  "sourceSha256": "33589476e906dc54508a40a93c9b2e5f06ebfa48bf29bf6a8b06669554a16053",
+  "outputSha256": "a03f37fb8393d7872765c39b1a6fbb07bf502f0e1a24b2f4b4e89e5ab747e484",
+  "changed": [
+    {
+      "slide": 1,
+      "id": "4",
+      "name": "output",
+      "action": "replace_text"
+    }
+  ],
+  "changedParts": [
+    "ppt/slides/slide1.xml"
+  ],
+  "untouchedPartsByteIdentical": 20
+}

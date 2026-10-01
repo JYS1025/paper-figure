@@ -1,0 +1,997 @@
+{
+  "scope": "Read-only reference and output typography audit. Figures and skill were not edited.",
+  "sources": [
+    {
+      "path": "output/hybrid-assets-test-06/figure.pptx",
+      "sha256": "46dbd014109537222788cee184f189e47bf435a04e413177de4ecaf0b87e4df8",
+      "selectedObjects": [
+        {
+          "name": "stored-k",
+          "runs": [
+            {
+              "text": "s(tₖ)",
+              "properties": {
+                "sz": "1050",
+                "b": "0"
+              },
+              "font": "Arial"
+            }
+          ]
+        },
+        {
+          "name": "stored-k1",
+          "runs": [
+            {
+              "text": "s(tₖ₊₁)",
+              "properties": {
+                "sz": "1050",
+                "b": "0"
+              },
+              "font": "Arial"
+            }
+          ]
+        },
+        {
+          "name": "stored-now",
+          "runs": [
+            {
+              "text": "s(t",
+              "properties": {
+                "sz": "1013",
+                "b": "0"
+              },
+              "font": "Arial"
+            },
+            {
+              "text": "now",
+              "properties": {
+                "sz": "1013",
+                "b": "0",
+                "baseline": "-25000"
+              },
+              "font": "Arial"
+            },
+            {
+              "text": ")",
+              "properties": {
+                "sz": "1013",
+                "b": "0"
+              },
+              "font": "Arial"
+            }
+          ]
+        },
+        {
+          "name": "updated-k",
+          "runs": [
+            {
+              "text": "s⁺(tₖ)",
+              "properties": {
+                "sz": "1050",
+                "b": "0"
+              },
+              "font": "Arial"
+            }
+          ]
+        },
+        {
+          "name": "corrected-now",
+          "runs": [
+            {
+              "text": "s⁺(t",
+              "properties": {
+                "sz": "1013",
+                "b": "1"
+              },
+              "font": "Arial"
+            },
+            {
+              "text": "now",
+              "properties": {
+                "sz": "1013",
+                "b": "1",
+                "baseline": "-25000"
+              },
+              "font": "Arial"
+            },
+            {
+              "text": ")",
+              "properties": {
+                "sz": "1013",
+                "b": "1"
+              },
+              "font": "Arial"
+            }
+          ]
+        }
+      ],
+      "officeMathObjects": 0
+    },
+    {
+      "path": "output/unseen-suite-05/spatial-assignment/figure.pptx",
+      "sha256": "89ea5647c0406d8d488b9b6d5249b57de90267c515272454a8aad02c0d6f697b",
+      "selectedObjects": [
+        {
+          "name": "weight-definition",
+          "runs": [
+            {
+              "text": "a",
+              "properties": {
+                "sz": "930",
+                "b": "0"
+              },
+              "font": "Arial"
+            },
+            {
+              "text": "ci",
+              "properties": {
+                "sz": "698",
+                "b": "0",
+                "baseline": "-22000"
+              },
+              "font": "Arial"
+            },
+            {
+              "text": " = area(C",
+              "properties": {
+                "sz": "930",
+                "b": "0"
+              },
+              "font": "Arial"
+            },
+            {
+              "text": "c",
+              "properties": {
+                "sz": "698",
+                "b": "0",
+                "baseline": "-22000"
+              },
+              "font": "Arial"
+            },
+            {
+              "text": " ∩ D",
+              "properties": {
+                "sz": "930",
+                "b": "0"
+              },
+              "font": "Arial"
+            },
+            {
+              "text": "i",
+              "properties": {
+                "sz": "698",
+                "b": "0",
+                "baseline": "-22000"
+              },
+              "font": "Arial"
+            },
+            {
+              "text": ") / area(D",
+              "properties": {
+                "sz": "930",
+                "b": "0"
+              },
+              "font": "Arial"
+            },
+            {
+              "text": "i",
+              "properties": {
+                "sz": "698",
+                "b": "0",
+                "baseline": "-22000"
+              },
+              "font": "Arial"
+            },
+            {
+              "text": ")",
+              "properties": {
+                "sz": "930",
+                "b": "0"
+              },
+              "font": "Arial"
+            }
+          ]
+        },
+        {
+          "name": "aggregation-general",
+          "runs": [
+            {
+              "text": "y",
+              "properties": {
+                "sz": "1200",
+                "b": "1"
+              },
+              "font": "Arial"
+            },
+            {
+              "text": "c",
+              "properties": {
+                "sz": "900",
+                "b": "1",
+                "baseline": "-22000"
+              },
+              "font": "Arial"
+            },
+            {
+              "text": " = ∑",
+              "properties": {
+                "sz": "1200",
+                "b": "1"
+              },
+              "font": "Arial"
+            },
+            {
+              "text": "i",
+              "properties": {
+                "sz": "900",
+                "b": "1",
+                "baseline": "-22000"
+              },
+              "font": "Arial"
+            },
+            {
+              "text": " a",
+              "properties": {
+                "sz": "1200",
+                "b": "1"
+              },
+              "font": "Arial"
+            },
+            {
+              "text": "ci",
+              "properties": {
+                "sz": "900",
+                "b": "1",
+                "baseline": "-22000"
+              },
+              "font": "Arial"
+            },
+            {
+              "text": " x",
+              "properties": {
+                "sz": "1200",
+                "b": "1"
+              },
+              "font": "Arial"
+            },
+            {
+              "text": "i",
+              "properties": {
+                "sz": "900",
+                "b": "1",
+                "baseline": "-22000"
+              },
+              "font": "Arial"
+            }
+          ]
+        },
+        {
+          "name": "output-vector-C1",
+          "runs": [
+            {
+              "text": "y₁ = x₁ + αx₂",
+              "properties": {
+                "sz": "1350",
+                "b": "1"
+              },
+              "font": "Arial"
+            }
+          ]
+        }
+      ],
+      "officeMathObjects": 0
+    }
+  ],
+  "renderedMeasurements": [
+    {
+      "label": "temporal",
+      "path": "output/hybrid-assets-test-06/figure.pdf",
+      "sha256": "bb4bddbb34b3c7c497a47529b3ca493d7686371e71283e9bdc0fafa16fa0b595",
+      "pageSizePt": [
+        504,
+        340.497637795276
+      ],
+      "regions": [
+        {
+          "name": "stored-k",
+          "cropPt": [
+            150,
+            178,
+            201,
+            205
+          ],
+          "characters": [
+            {
+              "character": "s",
+              "font": "NAAAAA+ArialMT",
+              "sizePt": 10.488,
+              "topPt": 187.9116
+            },
+            {
+              "character": "(",
+              "font": "NAAAAA+ArialMT",
+              "sizePt": 10.488,
+              "topPt": 187.9116
+            },
+            {
+              "character": "t",
+              "font": "NAAAAA+ArialMT",
+              "sizePt": 10.488,
+              "topPt": 187.9116
+            },
+            {
+              "character": ")",
+              "font": "NAAAAA+ArialMT",
+              "sizePt": 10.488,
+              "topPt": 187.9116
+            },
+            {
+              "character": "ₖ",
+              "font": "EAAAAA+LinuxLibertineG",
+              "sizePt": 10.488,
+              "topPt": 188.2787
+            }
+          ]
+        },
+        {
+          "name": "stored-now",
+          "cropPt": [
+            380,
+            178,
+            442,
+            205
+          ],
+          "characters": [
+            {
+              "character": "s",
+              "font": "OAAAAA+ArialMT",
+              "sizePt": 10.091,
+              "topPt": 187.2608
+            },
+            {
+              "character": "(",
+              "font": "OAAAAA+ArialMT",
+              "sizePt": 10.091,
+              "topPt": 187.2608
+            },
+            {
+              "character": "t",
+              "font": "OAAAAA+ArialMT",
+              "sizePt": 10.091,
+              "topPt": 187.2608
+            },
+            {
+              "character": "n",
+              "font": "PAAAAA+ArialMT",
+              "sizePt": 5.886,
+              "topPt": 193.1266
+            },
+            {
+              "character": "o",
+              "font": "PAAAAA+ArialMT",
+              "sizePt": 5.886,
+              "topPt": 193.1266
+            },
+            {
+              "character": "w",
+              "font": "PAAAAA+ArialMT",
+              "sizePt": 5.886,
+              "topPt": 193.1266
+            },
+            {
+              "character": ")",
+              "font": "OAAAAA+ArialMT",
+              "sizePt": 10.091,
+              "topPt": 187.2608
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "spatial-delivered",
+      "path": "output/unseen-suite-05/spatial-assignment/figure.pdf",
+      "sha256": "0f57c02349499de734b672ed8f12237db5ff9950aa938c4ba0b5748d60be5210",
+      "pageSizePt": [
+        504,
+        322.497637795276
+      ],
+      "regions": [
+        {
+          "name": "weight-definition",
+          "cropPt": [
+            260,
+            30,
+            504,
+            54
+          ],
+          "characters": [
+            {
+              "character": "a",
+              "font": "GAAAAA+LiberationSans",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "c",
+              "font": "HAAAAA+LiberationSans",
+              "sizePt": 4.089,
+              "topPt": 45.2784
+            },
+            {
+              "character": "i",
+              "font": "HAAAAA+LiberationSans",
+              "sizePt": 4.089,
+              "topPt": 45.2784
+            },
+            {
+              "character": " ",
+              "font": "GAAAAA+LiberationSans",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "=",
+              "font": "GAAAAA+LiberationSans",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": " ",
+              "font": "GAAAAA+LiberationSans",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "a",
+              "font": "GAAAAA+LiberationSans",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "r",
+              "font": "GAAAAA+LiberationSans",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "e",
+              "font": "GAAAAA+LiberationSans",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "a",
+              "font": "GAAAAA+LiberationSans",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "(",
+              "font": "GAAAAA+LiberationSans",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "C",
+              "font": "GAAAAA+LiberationSans",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "c",
+              "font": "HAAAAA+LiberationSans",
+              "sizePt": 4.089,
+              "topPt": 45.2784
+            },
+            {
+              "character": " ",
+              "font": "GAAAAA+LiberationSans",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "∩",
+              "font": "GAAAAA+LiberationSans",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": " ",
+              "font": "GAAAAA+LiberationSans",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "D",
+              "font": "GAAAAA+LiberationSans",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "i",
+              "font": "HAAAAA+LiberationSans",
+              "sizePt": 4.089,
+              "topPt": 45.2784
+            },
+            {
+              "character": ")",
+              "font": "GAAAAA+LiberationSans",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": " ",
+              "font": "GAAAAA+LiberationSans",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "/",
+              "font": "GAAAAA+LiberationSans",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": " ",
+              "font": "GAAAAA+LiberationSans",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "a",
+              "font": "GAAAAA+LiberationSans",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "r",
+              "font": "GAAAAA+LiberationSans",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "e",
+              "font": "GAAAAA+LiberationSans",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "a",
+              "font": "GAAAAA+LiberationSans",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "(",
+              "font": "GAAAAA+LiberationSans",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "D",
+              "font": "GAAAAA+LiberationSans",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "i",
+              "font": "HAAAAA+LiberationSans",
+              "sizePt": 4.089,
+              "topPt": 45.2784
+            },
+            {
+              "character": ")",
+              "font": "GAAAAA+LiberationSans",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            }
+          ]
+        },
+        {
+          "name": "aggregation-general",
+          "cropPt": [
+            420,
+            220,
+            504,
+            245
+          ],
+          "characters": [
+            {
+              "character": "y",
+              "font": "CAAAAA+LiberationSans-Bold",
+              "sizePt": 11.991,
+              "topPt": 228.6497
+            },
+            {
+              "character": "c",
+              "font": "RAAAAA+LiberationSans-Bold",
+              "sizePt": 5.2,
+              "topPt": 235.9978
+            },
+            {
+              "character": " ",
+              "font": "CAAAAA+LiberationSans-Bold",
+              "sizePt": 11.991,
+              "topPt": 228.6497
+            },
+            {
+              "character": "=",
+              "font": "CAAAAA+LiberationSans-Bold",
+              "sizePt": 11.991,
+              "topPt": 228.6497
+            },
+            {
+              "character": " ",
+              "font": "CAAAAA+LiberationSans-Bold",
+              "sizePt": 11.991,
+              "topPt": 228.6497
+            },
+            {
+              "character": "∑",
+              "font": "CAAAAA+LiberationSans-Bold",
+              "sizePt": 11.991,
+              "topPt": 228.6497
+            },
+            {
+              "character": "i",
+              "font": "RAAAAA+LiberationSans-Bold",
+              "sizePt": 5.2,
+              "topPt": 235.9978
+            },
+            {
+              "character": " ",
+              "font": "CAAAAA+LiberationSans-Bold",
+              "sizePt": 11.991,
+              "topPt": 228.6497
+            },
+            {
+              "character": "a",
+              "font": "CAAAAA+LiberationSans-Bold",
+              "sizePt": 11.991,
+              "topPt": 228.6497
+            },
+            {
+              "character": "c",
+              "font": "RAAAAA+LiberationSans-Bold",
+              "sizePt": 5.2,
+              "topPt": 235.9978
+            },
+            {
+              "character": "i",
+              "font": "RAAAAA+LiberationSans-Bold",
+              "sizePt": 5.2,
+              "topPt": 235.9978
+            },
+            {
+              "character": " ",
+              "font": "CAAAAA+LiberationSans-Bold",
+              "sizePt": 11.991,
+              "topPt": 228.6497
+            },
+            {
+              "character": "x",
+              "font": "CAAAAA+LiberationSans-Bold",
+              "sizePt": 11.991,
+              "topPt": 228.6497
+            },
+            {
+              "character": "i",
+              "font": "RAAAAA+LiberationSans-Bold",
+              "sizePt": 5.2,
+              "topPt": 235.9978
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "spatial-rerender",
+      "path": ".build/icon-math-audit-07/figure.pdf",
+      "sha256": "4e70b6f25b7227f7d22b4298f609dc2a111676a74598d133e03ed7d0ba1ad14f",
+      "pageSizePt": [
+        504,
+        322.497637795276
+      ],
+      "regions": [
+        {
+          "name": "weight-definition",
+          "cropPt": [
+            260,
+            30,
+            504,
+            54
+          ],
+          "characters": [
+            {
+              "character": "a",
+              "font": "HAAAAA+ArialMT",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "c",
+              "font": "IAAAAA+ArialMT",
+              "sizePt": 4.089,
+              "topPt": 45.2784
+            },
+            {
+              "character": "i",
+              "font": "IAAAAA+ArialMT",
+              "sizePt": 4.089,
+              "topPt": 45.2784
+            },
+            {
+              "character": " ",
+              "font": "HAAAAA+ArialMT",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "=",
+              "font": "HAAAAA+ArialMT",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": " ",
+              "font": "HAAAAA+ArialMT",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "a",
+              "font": "HAAAAA+ArialMT",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "r",
+              "font": "HAAAAA+ArialMT",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "e",
+              "font": "HAAAAA+ArialMT",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "a",
+              "font": "HAAAAA+ArialMT",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "(",
+              "font": "HAAAAA+ArialMT",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "C",
+              "font": "HAAAAA+ArialMT",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "c",
+              "font": "IAAAAA+ArialMT",
+              "sizePt": 4.089,
+              "topPt": 45.2784
+            },
+            {
+              "character": " ",
+              "font": "HAAAAA+ArialMT",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "∩",
+              "font": "HAAAAA+ArialMT",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": " ",
+              "font": "HAAAAA+ArialMT",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "D",
+              "font": "HAAAAA+ArialMT",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "i",
+              "font": "IAAAAA+ArialMT",
+              "sizePt": 4.089,
+              "topPt": 45.2784
+            },
+            {
+              "character": ")",
+              "font": "HAAAAA+ArialMT",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": " ",
+              "font": "HAAAAA+ArialMT",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "/",
+              "font": "HAAAAA+ArialMT",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": " ",
+              "font": "HAAAAA+ArialMT",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "a",
+              "font": "HAAAAA+ArialMT",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "r",
+              "font": "HAAAAA+ArialMT",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "e",
+              "font": "HAAAAA+ArialMT",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "a",
+              "font": "HAAAAA+ArialMT",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "(",
+              "font": "HAAAAA+ArialMT",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "D",
+              "font": "HAAAAA+ArialMT",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            },
+            {
+              "character": "i",
+              "font": "IAAAAA+ArialMT",
+              "sizePt": 4.089,
+              "topPt": 45.2784
+            },
+            {
+              "character": ")",
+              "font": "HAAAAA+ArialMT",
+              "sizePt": 9.298,
+              "topPt": 39.6345
+            }
+          ]
+        },
+        {
+          "name": "aggregation-general",
+          "cropPt": [
+            420,
+            220,
+            504,
+            245
+          ],
+          "characters": [
+            {
+              "character": "y",
+              "font": "CAAAAA+Arial-BoldMT",
+              "sizePt": 11.991,
+              "topPt": 228.6497
+            },
+            {
+              "character": "c",
+              "font": "SAAAAA+Arial-BoldMT",
+              "sizePt": 5.2,
+              "topPt": 235.9978
+            },
+            {
+              "character": " ",
+              "font": "CAAAAA+Arial-BoldMT",
+              "sizePt": 11.991,
+              "topPt": 228.6497
+            },
+            {
+              "character": "=",
+              "font": "CAAAAA+Arial-BoldMT",
+              "sizePt": 11.991,
+              "topPt": 228.6497
+            },
+            {
+              "character": " ",
+              "font": "CAAAAA+Arial-BoldMT",
+              "sizePt": 11.991,
+              "topPt": 228.6497
+            },
+            {
+              "character": "∑",
+              "font": "CAAAAA+Arial-BoldMT",
+              "sizePt": 11.991,
+              "topPt": 228.6497
+            },
+            {
+              "character": "i",
+              "font": "SAAAAA+Arial-BoldMT",
+              "sizePt": 5.2,
+              "topPt": 235.9978
+            },
+            {
+              "character": " ",
+              "font": "CAAAAA+Arial-BoldMT",
+              "sizePt": 11.991,
+              "topPt": 228.6497
+            },
+            {
+              "character": "a",
+              "font": "CAAAAA+Arial-BoldMT",
+              "sizePt": 11.991,
+              "topPt": 228.6497
+            },
+            {
+              "character": "c",
+              "font": "SAAAAA+Arial-BoldMT",
+              "sizePt": 5.2,
+              "topPt": 235.9978
+            },
+            {
+              "character": "i",
+              "font": "SAAAAA+Arial-BoldMT",
+              "sizePt": 5.2,
+              "topPt": 235.9978
+            },
+            {
+              "character": " ",
+              "font": "CAAAAA+Arial-BoldMT",
+              "sizePt": 11.991,
+              "topPt": 228.6497
+            },
+            {
+              "character": "x",
+              "font": "CAAAAA+Arial-BoldMT",
+              "sizePt": 11.991,
+              "topPt": 228.6497
+            },
+            {
+              "character": "i",
+              "font": "SAAAAA+Arial-BoldMT",
+              "sizePt": 5.2,
+              "topPt": 235.9978
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "findings": {
+    "mixedSubscriptMethods": true,
+    "temporalUnicodeKFontFallback": "LinuxLibertineG/GB in delivered PDF despite Arial declaration",
+    "spatialManualRunSizePt": 6.98,
+    "spatialBaseSizePt": 9.3,
+    "spatialDeliveredEffectiveSubscriptPt": 4.09,
+    "spatialDeliveredRatio": 0.4397849462365591,
+    "rendererBoundary": "PDF observations are from LibreOffice output; PowerPoint native appearance not tested in this audit.",
+    "causalAssessment": "Explicitly reduced subscript run plus renderer subscript shrink. Same reduction persists in rerender with system fonts.",
+    "iconPromptStyle": "three-quarter product illustration, controlled lighting and material detail were explicitly requested"
+  }
+}

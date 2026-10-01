@@ -1,0 +1,11 @@
+# Asynchronous material screening with pending experiments
+
+Create one editable research-method figure for the following hypothetical method. This is a new task; no existing figure is supplied. Use an image-model composition draft, then reconstruct an editable native-object PPTX using the paper-figure skill. Deliver the saved-PPTX PNG/PDF preview and the draft. Figure labels are English; the accompanying explanation is Korean. Target full publication width: 177.8 mm. This is a standalone figure with no separately supplied caption.
+
+A materials-screening system has a pool of candidate formulations, a surrogate model, a selection step and two independently running experimental stations. At the illustrated decision instant, candidates A and C have completed measured results; B and D are pending at the two stations; E and F are untested. These letters are stable candidate identities, not performance classes.
+
+Only completed measurements train the surrogate model. The selection step considers the untested candidates and uses model predictions plus a pending-candidate registry to avoid submitting an experiment already in progress. The scoring rule and numerical predictions are unspecified. One illustrative selection, E, is queued while both stations are occupied; F remains untested. Selection does not imply E will perform better in reality.
+
+When station 1 finishes candidate B, its measured result joins the completed data and the pending registry removes B. The freed station can then start E, which moves from queued to pending. Station 2 can continue D without a global barrier or waiting for all jobs. The model can update after the new completed result; the figure should not imply that pending or queued predictions are already measurements.
+
+Explain this decision instant and the later completion event with stable candidate identities and their processing states. Preserve the data, dispatch and completion relationships. Synthesis equipment, chemical structures, temperatures, measured property values and optimization gains are unspecified. A concise schematic sample or station representation is acceptable, but do not invent an actual laboratory apparatus or empirical result. Choose the composition and palette yourself.

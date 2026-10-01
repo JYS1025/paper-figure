@@ -1,0 +1,66 @@
+[
+  {
+    "file": "01-process.pptx",
+    "passed": true,
+    "connectorCount": 4,
+    "sourceSha256": "8022c391c45c5bf0039be123cd4d2cfcec2b642667b1e21cbeccc3cbe4640b15",
+    "outputSha256": "01f9d109903a9c252279515d25abb1f37793e64f1cd50ad822e70a674dec4581",
+    "unchangedObjects": 56
+  },
+  {
+    "file": "02-branch.pptx",
+    "passed": true,
+    "connectorCount": 5,
+    "sourceSha256": "8790fa75c705422ecbeb693b769b473195ab2906db16d1d0df2da434e388ab9e",
+    "outputSha256": "79f5be86dca0e47e83174ad9dc04b2ab387374fcbb5128699a622fc9cc5fae99",
+    "unchangedObjects": 23
+  },
+  {
+    "file": "03-repeat.pptx",
+    "passed": true,
+    "connectorCount": 5,
+    "sourceSha256": "3458b84c36cb2451abb1cd92865192ffa06194834291527051bd918e1ec5bb23",
+    "outputSha256": "5e38fb3633f70e561af6ca7a51db06627a2092ace704a5de0c913700d3d8028c",
+    "unchangedObjects": 91
+  },
+  {
+    "file": "04-skip.pptx",
+    "passed": true,
+    "connectorCount": 6,
+    "sourceSha256": "3c1d1638ac20ac4f6f96c6fc1fdc7fcbcacaa308c89b4b6ce154c120f337b93a",
+    "outputSha256": "6795d0ee5f105544da0133b4334479f999cd5021219183b08aa0ce0dc039982e",
+    "unchangedObjects": 54
+  },
+  {
+    "file": "05-panels.pptx",
+    "passed": true,
+    "connectorCount": 2,
+    "sourceSha256": "de644f1ef0593f542228ddd1bfc33250e39f59d7706bf3c3355f1c93b44664d0",
+    "outputSha256": "07ab20505c3912f0781c6b562df1cce60ae659bf77695cc709da7d28d931677d",
+    "unchangedObjects": 164
+  },
+  {
+    "file": "06-tokens.pptx",
+    "passed": true,
+    "connectorCount": 5,
+    "sourceSha256": "68413dfdbb421ace20d9bdb97f0d82b6b21ce836ba7d4a3dfa6de24a83e1e465",
+    "outputSha256": "730225a6836c0bc13d8218b28d08530ecdfb8c3e2707dc8a2c3d8842ce1eaa30",
+    "unchangedObjects": 101
+  },
+  {
+    "file": "07-long-label.pptx",
+    "passed": true,
+    "connectorCount": 3,
+    "sourceSha256": "6131ef99ee75b99d1eb853b13f775ef74c800b2b35e9bb84461ba431785bd2dc",
+    "outputSha256": "0ba670c055d90194beb37d40da7b499630efb02fb874f574a38c028ae0e9e38a",
+    "unchangedObjects": 67
+  },
+  {
+    "file": "08-train-infer.pptx",
+    "passed": true,
+    "connectorCount": 6,
+    "sourceSha256": "cd25ec5ace9f3d671fd0bbb5c8dd1a2e44b1cad631bb9a9230ceb68dfa769274",
+    "outputSha256": "0feb70cadbc73dc06cd832e64f3c6a1d2c9c39fe5ee49807dac6f7a439d77c40",
+    "unchangedObjects": 86
+  }
+]

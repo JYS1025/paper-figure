@@ -1,0 +1,8 @@
+{
+  "lockedAtUtc": "2026-09-30T07:53:23.095738+00:00",
+  "reviewer": "/root/labeled_blind_reviewer_04a",
+  "responseFile": "output/image-first-blind-test-04/review-01.md",
+  "responseSha256": "637017ec29e99754e947d43b3a3cd46efa31d9747ae5ce301df52be241b1f8f6",
+  "rawResponseUnedited": true,
+  "answerNotRevealedToReviewer": true
+}

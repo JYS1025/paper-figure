@@ -1,0 +1,16 @@
+Written after viewing the complete image draft and before native PPTX authoring.
+
+PRESERVE
+Three simultaneous columns: candidate excerpts, coverage matrix and grounded answer. Query sits above the source column; selection rule and serif set notation sit above the answer. Four document rows, a left document-collection pictogram with a collection bracket, plum outlined selected matrix rows, and two directed plum elbow paths into distinct answer clauses. Retain the draft's white canvas, quiet column dividers, restrained plum/sand/slate roles and strong contrast between serif document IDs and sans-serif prose. Preserve the full composition rather than reuse a prior sample's layout.
+
+CORRECT
+The draft's matrix d1 row sits lower than its candidate d1 excerpt. Align all four passage/matrix row centers exactly. The query-to-candidate arrow could imply retrieval, which is outside the toy contract: remove that arrow; retain the query as supplied task context. Define the selected-row outline separately from binary facet coverage. Use true flat fills without the slight tonal texture in the generated image. Give answer text enough width for paper-scale readability. Keep the coverage table and citation mapping exact. All d4 coverage remains present even though d4 is not selected. Remove visual scope ambiguity by attaching source arrows to visible selected row frames and answer arrows to visible clause frames.
+
+CREATE AS ASSET
+Generate one separate document-collection pictogram on transparency, no explanatory text, IDs, arrows, numerals or chart marks. Insert once next to the collection bracket, independently replaceable. The complete draft is design guidance only and must never be embedded in the final PPTX.
+
+REBUILD NATIVELY
+All passage and answer text, d indices, set notation, binary table cells and values, selected-row outlines, source/answer enclosures, collection bracket, panel labels, dividers, selection-rule text, citation labels and connectors. Simple mathematical labels use the already tested grouped native-text recipe with upright numeric indices at 68% of base size, not automatic double shrinking.
+
+CHECK AFTER SAVING
+Compare selected-draft.png with a render of the saved PPTX at equal width. Inspect hierarchy, preserved proportions, density, correspondence, color allocation and arrow clearance. Check four matrix rows and their selection/citation identity independently against content-contract.json. Inspect grayscale and actual PDF math fonts/sizes. Verify the only embedded raster is the separately generated document pictogram. Report LibreOffice rendering accurately; do not claim PowerPoint interaction or an independent blind test.

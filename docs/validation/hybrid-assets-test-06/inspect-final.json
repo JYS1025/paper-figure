@@ -1,0 +1,1207 @@
+{
+  "file": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/hybrid-assets-test-06/figure.pptx",
+  "sha256": "46dbd014109537222788cee184f189e47bf435a04e413177de4ecaf0b87e4df8",
+  "sizePx": [
+    672.0,
+    454.0
+  ],
+  "slides": [
+    {
+      "part": "ppt/slides/slide1.xml",
+      "objects": [
+        {
+          "id": "70",
+          "name": "figure-title",
+          "kind": "sp",
+          "text": "Timestamped visual–inertial state correction",
+          "boundsPx": [
+            17.0,
+            12.0,
+            638.0,
+            26.0
+          ],
+          "fingerprint": "d0664c1eeccabca26d9055d347886123598c7ab0f832a49e5d505acdbe8ca2d0",
+          "fontPt": [
+            12.75
+          ]
+        },
+        {
+          "id": "134",
+          "name": "sensing-platform",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            16.0,
+            49.0,
+            140.0,
+            139.0
+          ],
+          "fingerprint": "344450d42464ee27d1f58d98edfb90c8e9b1b3118e83479698dc555d77d9505c",
+          "fontPt": []
+        },
+        {
+          "id": "2",
+          "name": "platform-boundary",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            16.0,
+            49.0,
+            140.0,
+            139.0
+          ],
+          "fingerprint": "ed45cc274eccfeab257867bfdac6cedf5a60fe644f95fbee56a331f10df87e0a",
+          "fontPt": []
+        },
+        {
+          "id": "3",
+          "name": "platform-label",
+          "kind": "sp",
+          "text": "Moving platform",
+          "boundsPx": [
+            21.0,
+            54.0,
+            130.0,
+            20.0
+          ],
+          "fingerprint": "c4531cd807efe07352b815ea53e28d44bf69f517b55e87ce2366bf2531c921c2",
+          "fontPt": [
+            7.88
+          ]
+        },
+        {
+          "id": "4",
+          "name": "visual-observation",
+          "kind": "sp",
+          "text": "Visual obs.\nat tₖ",
+          "boundsPx": [
+            26.0,
+            76.4999,
+            120.0,
+            40.0
+          ],
+          "fingerprint": "ae65c704a3e1a91cd096342c1079dd7874002e997e617561cfe7bac48359aacf",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "5",
+          "name": "inertial-source",
+          "kind": "sp",
+          "text": "Inertial stream",
+          "boundsPx": [
+            26.0,
+            126.0,
+            120.0,
+            40.0
+          ],
+          "fingerprint": "aa68450fd31a39bd64a8b17d63a3168c459026d78fac6c446747f4327f437324",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "6",
+          "name": "faster-stream-label",
+          "kind": "sp",
+          "text": "faster sampling",
+          "boundsPx": [
+            26.0,
+            167.0,
+            120.0,
+            16.0
+          ],
+          "fingerprint": "493ccd95ac27d1a8512b9129bad5cef00a489ce7a3ef4221e9fcedeccb7d0138",
+          "fontPt": [
+            7.13
+          ]
+        },
+        {
+          "id": "136",
+          "name": "asset-camera",
+          "kind": "pic",
+          "text": "",
+          "boundsPx": [
+            28.0,
+            77.0,
+            39.0,
+            39.0
+          ],
+          "fingerprint": "83d503b426921340f486a0ecff1619145956e3fdba8871d05ff4cf94c7365136",
+          "fontPt": []
+        },
+        {
+          "id": "137",
+          "name": "asset-inertial-sensor",
+          "kind": "pic",
+          "text": "",
+          "boundsPx": [
+            28.0,
+            126.4999,
+            39.0,
+            39.0
+          ],
+          "fingerprint": "3680c6cb0477cc7cf44f0d4468b026c9e7fd0d792555e788e2daf6532d8f7a74",
+          "fontPt": []
+        },
+        {
+          "id": "7",
+          "name": "visual-estimator",
+          "kind": "sp",
+          "text": "Visual estimator",
+          "boundsPx": [
+            177.0,
+            75.0,
+            154.0,
+            42.0
+          ],
+          "fingerprint": "e977340c7cef0053cb0f96d478d6fbbf07f87edcba0366a2bf7f334b9157caf6",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "8",
+          "name": "late-correction",
+          "kind": "sp",
+          "text": "Pose correction\nfor tₖ",
+          "boundsPx": [
+            467.0,
+            75.0,
+            128.0,
+            42.0
+          ],
+          "fingerprint": "27b2bc765f7e4fdbc6002d170c63c4d2ded784eaefb30bdc9627e1ccd6958112",
+          "fontPt": [
+            9.38
+          ]
+        },
+        {
+          "id": "9",
+          "name": "late-result-label",
+          "kind": "sp",
+          "text": "Processing finishes\nafter tₖ",
+          "boundsPx": [
+            337.0,
+            68.0,
+            122.0,
+            28.0
+          ],
+          "fingerprint": "c3b830001d25abd847db7b53a99921d30a195cc625a172f57dbf7cc280b1e288",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "10",
+          "name": "inertial-propagation",
+          "kind": "sp",
+          "text": "Inertial propagation",
+          "boundsPx": [
+            177.0,
+            136.0,
+            180.0,
+            38.0
+          ],
+          "fingerprint": "6b04ba50dd2ef8d118ac0b5a5dfcf9e09cd619a595b2f5308fdd142592284c99",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "11",
+          "name": "continual-label",
+          "kind": "sp",
+          "text": "advances to tnow",
+          "boundsPx": [
+            370.0,
+            133.0,
+            147.0,
+            19.0
+          ],
+          "fingerprint": "266bc4e9d2cb829bc92319bc4f16ae8f2df454f31451d8da784c6188b594e5bb",
+          "fontPt": [
+            7.88
+          ]
+        },
+        {
+          "id": "81",
+          "name": "visual-input",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            146.0,
+            96.0,
+            31.0,
+            0.5001
+          ],
+          "fingerprint": "ba83b1fa3ec65db8010aa090bb0b37e851fd242e0613a9d17edf533c6761b78c",
+          "fontPt": []
+        },
+        {
+          "id": "82",
+          "name": "visual-estimation",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            331.0,
+            96.0,
+            136.0,
+            0.0
+          ],
+          "fingerprint": "3fe2393c87841bf1cc40e3cbc82819309e70e8f04b089e22d7627fb2885ecbc1",
+          "fontPt": []
+        },
+        {
+          "id": "83",
+          "name": "inertial-input",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            146.0,
+            146.0,
+            31.0,
+            9.0
+          ],
+          "fingerprint": "432a21928cbdc976b87dd62b597df66e012e00e2f2919a63c3e5ca7ecaae2e98",
+          "fontPt": []
+        },
+        {
+          "id": "15",
+          "name": "buffer-boundary",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            169.0,
+            216.0,
+            432.0,
+            183.0
+          ],
+          "fingerprint": "c6382ca0d892657e73876899c330346e9f5c7d8d80060cfc593e667437b7b777",
+          "fontPt": []
+        },
+        {
+          "id": "16",
+          "name": "buffer-label",
+          "kind": "sp",
+          "text": "State and measurement buffer",
+          "boundsPx": [
+            288.0,
+            217.0,
+            228.0,
+            16.0
+          ],
+          "fingerprint": "8205cd8b36272f5d6c1bc8ddd6a945aa3297888fbb5924044463c2e12c1db754",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "17",
+          "name": "original-row-label",
+          "kind": "sp",
+          "text": "Stored\nstates",
+          "boundsPx": [
+            18.0,
+            237.0,
+            135.0,
+            31.0
+          ],
+          "fingerprint": "a41dea81bf4709b187c334c48293128fbbaf35b93d0502ac975117c5ba836239",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "18",
+          "name": "samples-row-label",
+          "kind": "sp",
+          "text": "Buffered\ninertial samples",
+          "boundsPx": [
+            18.0,
+            283.0,
+            139.0,
+            36.0
+          ],
+          "fingerprint": "630cdb656c2f0116bf3f661eb207b855f2ca0fa2be3f04364b215daffb7a883c",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "19",
+          "name": "replayed-row-label",
+          "kind": "sp",
+          "text": "After correction\nand replay",
+          "boundsPx": [
+            18.0,
+            348.0,
+            139.0,
+            38.0
+          ],
+          "fingerprint": "0fc9440a02d673d7566749acedaf0aea83ddd89a52e9fce76b68b6b7f9e6b468",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "20",
+          "name": "stored-k",
+          "kind": "sp",
+          "text": "s(tₖ)",
+          "boundsPx": [
+            203.0,
+            239.0,
+            64.0,
+            34.0
+          ],
+          "fingerprint": "5234c71606c7fb953ae380c4283836b0bccbb18323f3466e252c149ad143021b",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "21",
+          "name": "stored-k1",
+          "kind": "sp",
+          "text": "s(tₖ₊₁)",
+          "boundsPx": [
+            350.0,
+            239.0,
+            68.0,
+            34.0
+          ],
+          "fingerprint": "83ec1137d4be38fd63646172649069c28eb102c053cac900542659af61637bbf",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "22",
+          "name": "stored-now",
+          "kind": "sp",
+          "text": "s(tnow)",
+          "boundsPx": [
+            508.0,
+            239.0,
+            80.0,
+            34.0
+          ],
+          "fingerprint": "3fe69c9e03ac7226d27210ee311d19a0cd9ceb42c4225e3b7d54a083938854ad",
+          "fontPt": [
+            10.13
+          ]
+        },
+        {
+          "id": "92",
+          "name": "propagate-k-k1",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            267.0,
+            256.0,
+            83.0,
+            0.0
+          ],
+          "fingerprint": "512d7943c2d39ad55869e706cd756515d82b0ddeb56ff4c721573de275695277",
+          "fontPt": []
+        },
+        {
+          "id": "93",
+          "name": "propagate-k1-now",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            418.0,
+            256.0,
+            90.0,
+            0.0
+          ],
+          "fingerprint": "f47e0dc1701b10728c51d8ff8b38bf515578b8d991eed2babc763a0ad9ac463c",
+          "fontPt": []
+        },
+        {
+          "id": "25",
+          "name": "more-states",
+          "kind": "sp",
+          "text": "…",
+          "boundsPx": [
+            449.0,
+            236.0,
+            28.0,
+            18.0
+          ],
+          "fingerprint": "f7a02f42a22cc382f87f605d52021b849522b14e4a7fa0d11636feb1552b8d48",
+          "fontPt": [
+            12.75
+          ]
+        },
+        {
+          "id": "95",
+          "name": "live-to-current",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            357.0,
+            155.0,
+            191.0,
+            84.0
+          ],
+          "fingerprint": "c1672104ddd820d18fe9eb732338ad787632c26c9855d628fa59d322a17946bc",
+          "fontPt": []
+        },
+        {
+          "id": "96",
+          "name": "correction-to-history",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            235.0,
+            117.0,
+            296.0,
+            122.0
+          ],
+          "fingerprint": "9c71f47350d73eb464d166033460b9e03acc46c1fdde1c69bc30f648979faf94",
+          "fontPt": []
+        },
+        {
+          "id": "28",
+          "name": "historical-target-label",
+          "kind": "sp",
+          "text": "Update the stored state at tₖ",
+          "boundsPx": [
+            252.0,
+            191.0,
+            269.0,
+            20.0
+          ],
+          "fingerprint": "649a76afb3a02646874f0204080fd3b65cc7405911ceb8c2a4889811a405ae88",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "29",
+          "name": "buffered-measurements",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            288.0,
+            292.0,
+            284.0,
+            20.0
+          ],
+          "fingerprint": "fdf8d8d7b507258d832eb9fabe911e1c7e9cc75bd5744ddf77197fca983e8ea0",
+          "fontPt": []
+        },
+        {
+          "id": "135",
+          "name": "inertial-sample-marks",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            298.0,
+            296.0,
+            259.91,
+            12.0
+          ],
+          "fingerprint": "ce27fedcc29a026134615485819a9261382850935a0554573bb0f65fb8f233db",
+          "fontPt": []
+        },
+        {
+          "id": "30",
+          "name": "imu-mark-0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            298.0,
+            296.0,
+            0.01,
+            12.0
+          ],
+          "fingerprint": "c29954e736cae86c3419b34fd35c522ba32b01913e9156e28adf0bcedeeff580",
+          "fontPt": []
+        },
+        {
+          "id": "31",
+          "name": "imu-mark-1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            309.3001,
+            296.0,
+            0.01,
+            12.0
+          ],
+          "fingerprint": "9268ada01bce710eba526f35c5466c0cae71995c2b935ec6facf7d3dbbdc9882",
+          "fontPt": []
+        },
+        {
+          "id": "32",
+          "name": "imu-mark-2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            320.6,
+            296.0,
+            0.01,
+            12.0
+          ],
+          "fingerprint": "f28ae1b2fea7e1de260fe482d2f3339c5188a5c86b46b9432a76f822e9929ef9",
+          "fontPt": []
+        },
+        {
+          "id": "33",
+          "name": "imu-mark-3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            331.9001,
+            296.0,
+            0.01,
+            12.0
+          ],
+          "fingerprint": "be80992b1a18cb615dbe1216151aeefcb0aa738b1edf7b9063510a069e1b32d6",
+          "fontPt": []
+        },
+        {
+          "id": "34",
+          "name": "imu-mark-4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            343.2,
+            296.0,
+            0.01,
+            12.0
+          ],
+          "fingerprint": "d0c48ef4b3ea60dee48c49ebdbff25933a3afb675e5f2e2c8036f2b58307a2fb",
+          "fontPt": []
+        },
+        {
+          "id": "35",
+          "name": "imu-mark-5",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            354.5001,
+            296.0,
+            0.01,
+            12.0
+          ],
+          "fingerprint": "ac7f338a9ba27f32df4dfdeb15bef4d3e0fd84b728940dcaa995c8679bd7fcac",
+          "fontPt": []
+        },
+        {
+          "id": "36",
+          "name": "imu-mark-6",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            365.8,
+            296.0,
+            0.01,
+            12.0
+          ],
+          "fingerprint": "b03b9cddfde151a0e5dbd2dc5a1c4054f47b6fda8b47b22e2e44c72c8abb731f",
+          "fontPt": []
+        },
+        {
+          "id": "37",
+          "name": "imu-mark-7",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            377.1001,
+            296.0,
+            0.01,
+            12.0
+          ],
+          "fingerprint": "e400e251c842aff8cee5d1b8361624549b8c2a8385012f8d11756b6e701271b6",
+          "fontPt": []
+        },
+        {
+          "id": "38",
+          "name": "imu-mark-8",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            388.4,
+            296.0,
+            0.01,
+            12.0
+          ],
+          "fingerprint": "664da2257a1b70c7146d00a8369187a11141dd5a46e91c56306e8b5ebd6b32ba",
+          "fontPt": []
+        },
+        {
+          "id": "39",
+          "name": "imu-mark-9",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            399.7001,
+            296.0,
+            0.01,
+            12.0
+          ],
+          "fingerprint": "91997984ec9083df7e6d1087c9381f51156b05797661e988217b0091611ade8b",
+          "fontPt": []
+        },
+        {
+          "id": "40",
+          "name": "imu-mark-10",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            411.0,
+            296.0,
+            0.01,
+            12.0
+          ],
+          "fingerprint": "05526d5b92220d2e8d2e04030e4a76c27166c6d58a8e69c1f998ca26e3d5fb46",
+          "fontPt": []
+        },
+        {
+          "id": "41",
+          "name": "imu-mark-11",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            422.3001,
+            296.0,
+            0.01,
+            12.0
+          ],
+          "fingerprint": "0107220118de385dc7de00fd2f3e680cfce10147aae584df85e739d3438accf8",
+          "fontPt": []
+        },
+        {
+          "id": "42",
+          "name": "imu-mark-12",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            433.6,
+            296.0,
+            0.01,
+            12.0
+          ],
+          "fingerprint": "933848785b129e9184d42c28fe1effe28bd8d10c9e13dbd906616254a8481ca3",
+          "fontPt": []
+        },
+        {
+          "id": "43",
+          "name": "imu-mark-13",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            444.9001,
+            296.0,
+            0.01,
+            12.0
+          ],
+          "fingerprint": "d82fc71d5ff07211922b2aacf9c40799ee2028580c9e2ad546adf84f5f831e32",
+          "fontPt": []
+        },
+        {
+          "id": "44",
+          "name": "imu-mark-14",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            456.2,
+            296.0,
+            0.01,
+            12.0
+          ],
+          "fingerprint": "0974d60c16124dad03f7a8efabf8899a10ee0eef5f6ff016d69d0e40c4c4f93c",
+          "fontPt": []
+        },
+        {
+          "id": "45",
+          "name": "imu-mark-15",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            467.5001,
+            296.0,
+            0.01,
+            12.0
+          ],
+          "fingerprint": "69ec4c79d0210b9e15e5f4d18f900c64c171deddf7c6df5227eaee5eec6d968a",
+          "fontPt": []
+        },
+        {
+          "id": "46",
+          "name": "imu-mark-16",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            478.8,
+            296.0,
+            0.01,
+            12.0
+          ],
+          "fingerprint": "5b6d412fea9d111414eb50bd790f307c654e2c4244a983caa3a0b02083ded745",
+          "fontPt": []
+        },
+        {
+          "id": "47",
+          "name": "imu-mark-17",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            490.1001,
+            296.0,
+            0.01,
+            12.0
+          ],
+          "fingerprint": "70e4ef17663aca45beed2b3782587660e001cfe9389f4992ffc2ddfdc5d6b4a3",
+          "fontPt": []
+        },
+        {
+          "id": "48",
+          "name": "imu-mark-18",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            501.4,
+            296.0,
+            0.01,
+            12.0
+          ],
+          "fingerprint": "32c197a861d2c2336631e70689a65db549cfe6d1a804d995284e398e4fee4470",
+          "fontPt": []
+        },
+        {
+          "id": "49",
+          "name": "imu-mark-19",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            512.7001,
+            296.0,
+            0.01,
+            12.0
+          ],
+          "fingerprint": "f0a9c35cb4141d92946a7d956da17582a6b42c0a05808768c97f15042a850a33",
+          "fontPt": []
+        },
+        {
+          "id": "50",
+          "name": "imu-mark-20",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            524.0,
+            296.0,
+            0.01,
+            12.0
+          ],
+          "fingerprint": "d4096ddd1e4eb7c13a4fb5dc05a51135528f990f1afd6f1e8b64a68e5b15d353",
+          "fontPt": []
+        },
+        {
+          "id": "51",
+          "name": "imu-mark-21",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            535.3001,
+            296.0,
+            0.01,
+            12.0
+          ],
+          "fingerprint": "15969e1eefec58b823146a31b7eedfdc3f8adadbeb4d7a9eaac2c84cf3edab43",
+          "fontPt": []
+        },
+        {
+          "id": "52",
+          "name": "imu-mark-22",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            546.6,
+            296.0,
+            0.01,
+            12.0
+          ],
+          "fingerprint": "36d6f800bce5b210a051b2b9485ffb15f59a06191136cae64b1d0d065491cabd",
+          "fontPt": []
+        },
+        {
+          "id": "53",
+          "name": "imu-mark-23",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            557.9001,
+            296.0,
+            0.01,
+            12.0
+          ],
+          "fingerprint": "371dddb01d66428b14cfaf3510147f6925acf65f08acd97e0e35e5c1e26ef2f6",
+          "fontPt": []
+        },
+        {
+          "id": "54",
+          "name": "retained-interval",
+          "kind": "sp",
+          "text": "Update",
+          "boundsPx": [
+            174.0,
+            305.0,
+            53.0,
+            19.0
+          ],
+          "fingerprint": "24784fe7086b5a79ba74f5c5beab8ac779bd0c9f8cbbf11f7e69e7f51daf5ba9",
+          "fontPt": [
+            7.88
+          ]
+        },
+        {
+          "id": "55",
+          "name": "retention-note",
+          "kind": "sp",
+          "text": "Retained IMU samples in (tₖ, tnow]",
+          "boundsPx": [
+            289.0,
+            271.0,
+            284.0,
+            19.0
+          ],
+          "fingerprint": "7baa26466416739254c0d4de600662f4e6871a038cd034e5e01b58488d3feeee",
+          "fontPt": [
+            7.88
+          ]
+        },
+        {
+          "id": "56",
+          "name": "updated-k",
+          "kind": "sp",
+          "text": "s⁺(tₖ)",
+          "boundsPx": [
+            203.0,
+            351.0,
+            64.0,
+            34.0
+          ],
+          "fingerprint": "278ae63c6f54761c1568f7af4d6698785ca0440d2bc47eee6f04e507fc9434ed",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "57",
+          "name": "replay",
+          "kind": "sp",
+          "text": "Replay",
+          "boundsPx": [
+            349.0,
+            345.0,
+            82.0,
+            46.0
+          ],
+          "fingerprint": "01ab09aebc11a2d437921589d4414d2c9f9c7676c9af8366a3bc414a11afc372",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "58",
+          "name": "corrected-now",
+          "kind": "sp",
+          "text": "s⁺(tnow)",
+          "boundsPx": [
+            502.0,
+            351.0,
+            86.0,
+            34.0
+          ],
+          "fingerprint": "1df336cbb1103e1d8f67e8a01e8dbebc58dc0d293e18098e51bce5e06849fd42",
+          "fontPt": [
+            10.13
+          ]
+        },
+        {
+          "id": "59",
+          "name": "future-state",
+          "kind": "sp",
+          "text": "Next\nstate",
+          "boundsPx": [
+            615.0,
+            348.0,
+            42.0,
+            40.0
+          ],
+          "fingerprint": "8c02691ebacc69ff7035ed7582869ed85afb72d8989b3773a2dc579198ce725c",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "129",
+          "name": "update-k",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            235.0,
+            273.0,
+            0.0,
+            78.0
+          ],
+          "fingerprint": "ea341b8446b8b0ff180544ec914023461db46c567c8e819b8dc5e7613e8e87cf",
+          "fontPt": []
+        },
+        {
+          "id": "130",
+          "name": "start-replay",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            267.0,
+            368.0,
+            82.0,
+            0.0
+          ],
+          "fingerprint": "90156c20ce77065d6704cd77dcd0ad109c8fe7cc574efc78bbd08f8a7f316fd2",
+          "fontPt": []
+        },
+        {
+          "id": "131",
+          "name": "replay-samples",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            390.0,
+            312.0,
+            40.0,
+            33.0
+          ],
+          "fingerprint": "3df052c72d706ff8aabdda8ee164886e40deb99fa5b63a68f4835735371e0308",
+          "fontPt": []
+        },
+        {
+          "id": "132",
+          "name": "correct-current",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            431.0,
+            368.0,
+            71.0,
+            0.0
+          ],
+          "fingerprint": "9d9b89a2bdee26a9723af449e53a95ee8f587541c4931a0d390d3e8d7c5cf610",
+          "fontPt": []
+        },
+        {
+          "id": "133",
+          "name": "continue-future",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            588.0,
+            368.0,
+            27.0,
+            0.0
+          ],
+          "fingerprint": "70b82844f5d3fae3de21021c9bf2273bf3cbf73770419396425e72a427b72c56",
+          "fontPt": []
+        },
+        {
+          "id": "65",
+          "name": "replay-interval-label",
+          "kind": "sp",
+          "text": "from tₖ to tnow",
+          "boundsPx": [
+            441.0,
+            324.0,
+            142.0,
+            21.0
+          ],
+          "fingerprint": "b260c44e1ae71bde5e7dfa87e9a00179416a7ddc1fd3b2613701cb6395a70a11",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "66",
+          "name": "corrected-output-label",
+          "kind": "sp",
+          "text": "Corrected current pose",
+          "boundsPx": [
+            466.0,
+            403.0,
+            137.0,
+            20.0
+          ],
+          "fingerprint": "569b3749085ffa64631f9f5002e57e593c37f0179037ac4ad56e38e6574326c5",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "67",
+          "name": "future-propagation-label",
+          "kind": "sp",
+          "text": "Future\npropagation",
+          "boundsPx": [
+            603.0,
+            304.0,
+            64.0,
+            33.0
+          ],
+          "fingerprint": "a544555872d782e340174f6dc036f260ab22931aa7ae1d38c9e17eebff8b9dbc",
+          "fontPt": [
+            7.88
+          ]
+        },
+        {
+          "id": "68",
+          "name": "state-legend",
+          "kind": "sp",
+          "text": "s(t): propagated pose     s⁺(t): corrected pose",
+          "boundsPx": [
+            18.0,
+            402.0,
+            366.0,
+            22.0
+          ],
+          "fingerprint": "dfeba2fc43927a4d75e795bc4fc5784cf52dd7d20d6d1a1a4e55346b0a93695e",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "69",
+          "name": "schematic-disclosure",
+          "kind": "sp",
+          "text": "Symbolic timing and samples; illustrative sensor icons. Time intervals are not to scale.",
+          "boundsPx": [
+            18.0,
+            430.0,
+            635.0,
+            16.0
+          ],
+          "fingerprint": "6f57153a4fe0fa1f874a4a078bf0bdc04a2ab688bf985a26b3f851c22cc68ebb",
+          "fontPt": [
+            7.88
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "name": "visual-input",
+          "from": "visual-observation",
+          "to": "visual-estimator",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "visual-estimation",
+          "from": "visual-estimator",
+          "to": "late-correction",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "inertial-input",
+          "from": "inertial-source",
+          "to": "inertial-propagation",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "propagate-k-k1",
+          "from": "stored-k",
+          "to": "stored-k1",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "propagate-k1-now",
+          "from": "stored-k1",
+          "to": "stored-now",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "live-to-current",
+          "from": "inertial-propagation",
+          "to": "stored-now",
+          "fromIdx": "3",
+          "toIdx": "0",
+          "directed": true
+        },
+        {
+          "name": "correction-to-history",
+          "from": "late-correction",
+          "to": "stored-k",
+          "fromIdx": "2",
+          "toIdx": "0",
+          "directed": true
+        },
+        {
+          "name": "update-k",
+          "from": "stored-k",
+          "to": "updated-k",
+          "fromIdx": "2",
+          "toIdx": "0",
+          "directed": true
+        },
+        {
+          "name": "start-replay",
+          "from": "updated-k",
+          "to": "replay",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "replay-samples",
+          "from": "buffered-measurements",
+          "to": "replay",
+          "fromIdx": "2",
+          "toIdx": "0",
+          "directed": true
+        },
+        {
+          "name": "correct-current",
+          "from": "replay",
+          "to": "corrected-now",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "continue-future",
+          "from": "corrected-now",
+          "to": "future-state",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        }
+      ],
+      "counts": {
+        "sp": 57,
+        "cxnSp": 12,
+        "grpSp": 2,
+        "pic": 2,
+        "graphicFrame": 0
+      },
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "passed": true
+}

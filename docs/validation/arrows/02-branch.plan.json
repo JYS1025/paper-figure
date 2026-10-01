@@ -1,0 +1,55 @@
+{
+  "sourceSha256": "8790fa75c705422ecbeb693b769b473195ab2906db16d1d0df2da434e388ab9e",
+  "operations": [
+    {
+      "slide": 1,
+      "id": "38",
+      "name": "e0",
+      "fingerprint": "bdd651dbb3be82bc75635d7108af29235696b6dd58afaca0d4bcd4746f99ec4f",
+      "action": "style_connector",
+      "widthPx": 2.6,
+      "arrowWidth": "med",
+      "arrowLength": "med"
+    },
+    {
+      "slide": 1,
+      "id": "39",
+      "name": "e1",
+      "fingerprint": "c21f346a98b9965b1d34757f7e98511c836cfdc76ae8e0b56f32f364d0ec77da",
+      "action": "style_connector",
+      "widthPx": 2.6,
+      "arrowWidth": "med",
+      "arrowLength": "med"
+    },
+    {
+      "slide": 1,
+      "id": "50",
+      "name": "e2",
+      "fingerprint": "eaf50cc600806be738ba1e79cc9111ba20840a43c12d4d7452eacee3bedb454f",
+      "action": "style_connector",
+      "widthPx": 2.6,
+      "arrowWidth": "med",
+      "arrowLength": "med"
+    },
+    {
+      "slide": 1,
+      "id": "51",
+      "name": "e3",
+      "fingerprint": "15954952a0d7b8a19423fb8e8557caabed5f12a5e2879351fef10d6b5ea2465d",
+      "action": "style_connector",
+      "widthPx": 2.6,
+      "arrowWidth": "med",
+      "arrowLength": "med"
+    },
+    {
+      "slide": 1,
+      "id": "52",
+      "name": "e4",
+      "fingerprint": "e760e39220890d857142c0c1acd4d639aa242564c291ce7817a4d96620632ed3",
+      "action": "style_connector",
+      "widthPx": 3.0,
+      "arrowWidth": "med",
+      "arrowLength": "med"
+    }
+  ]
+}

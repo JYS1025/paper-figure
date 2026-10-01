@@ -1,0 +1,26 @@
+test_actual_powerpoint_edit_survives_patch (__main__.Pipeline.test_actual_powerpoint_edit_survives_patch) ... ok
+test_all_nine_content_contracts (__main__.Pipeline.test_all_nine_content_contracts) ... ok
+test_arrow_styling_preserves_direction_geometry_and_other_objects (__main__.Pipeline.test_arrow_styling_preserves_direction_geometry_and_other_objects) ... ok
+test_arrow_styling_rejects_bad_target_and_width (__main__.Pipeline.test_arrow_styling_rejects_bad_target_and_width) ... ok
+test_crop_manifest_rejects_wrong_picture_order (__main__.Pipeline.test_crop_manifest_rejects_wrong_picture_order) ... ok
+test_dangling_reference_fails (__main__.Pipeline.test_dangling_reference_fails) ... ok
+test_duplicate_ids_fail (__main__.Pipeline.test_duplicate_ids_fail) ... ok
+test_hybrid_figure_patch_preserves_photos_and_crops (__main__.Pipeline.test_hybrid_figure_patch_preserves_photos_and_crops) ... ok
+test_missing_required_edge_fails (__main__.Pipeline.test_missing_required_edge_fails) ... ok
+test_native_group_translation (__main__.Pipeline.test_native_group_translation) ... ok
+test_photo_crop_survives_export_as_editable_metadata (__main__.Pipeline.test_photo_crop_survives_export_as_editable_metadata) ... ok
+test_raw_export_bug_is_detected (__main__.Pipeline.test_raw_export_bug_is_detected) ... ok
+test_refined_examples_preserve_content_contracts (__main__.Pipeline.test_refined_examples_preserve_content_contracts) ... ok
+test_refuses_overwrite (__main__.Pipeline.test_refuses_overwrite) ... ok
+test_reverse_arrow_fails (__main__.Pipeline.test_reverse_arrow_fails) ... ok
+test_routed_move_is_rejected (__main__.Pipeline.test_routed_move_is_rejected) ... ok
+test_source_hash_rejects_stale_edit (__main__.Pipeline.test_source_hash_rejects_stale_edit) ... ok
+test_straight_connector_follows_local_move (__main__.Pipeline.test_straight_connector_follows_local_move) ... ok
+test_target_fingerprint_rejects_stale_object (__main__.Pipeline.test_target_fingerprint_rejects_stale_object) ... ok
+test_text_contract_failure (__main__.Pipeline.test_text_contract_failure) ... ok
+test_text_patch_preserves_every_other_object_and_part (__main__.Pipeline.test_text_patch_preserves_every_other_object_and_part) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.299s
+
+OK

@@ -1,0 +1,42 @@
+{
+  "slides": [
+    {
+      "nodes": {
+        "e1-label": "Encode 1",
+        "e2-label": "Encode 2",
+        "core-label": "Bottleneck",
+        "d2-label": "Decode 2",
+        "d1-label": "Decode 1",
+        "scale1": "H × W",
+        "scale2": "H/2 × W/2",
+        "scale3": "H/4 × W/4"
+      },
+      "edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "core"
+        ],
+        [
+          "core",
+          "d2"
+        ],
+        [
+          "d2",
+          "d1"
+        ],
+        [
+          "e1",
+          "d1"
+        ],
+        [
+          "e2",
+          "d2"
+        ]
+      ]
+    }
+  ]
+}

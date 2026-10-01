@@ -1,0 +1,45 @@
+{
+  "sourceSha256": "8022c391c45c5bf0039be123cd4d2cfcec2b642667b1e21cbeccc3cbe4640b15",
+  "operations": [
+    {
+      "slide": 1,
+      "id": "65",
+      "name": "e0",
+      "fingerprint": "ae05cf2d63058c51826296bf46921c44e3eab692ae5b0c79b111bcc60cdc1fd0",
+      "action": "style_connector",
+      "widthPx": 2.6,
+      "arrowWidth": "med",
+      "arrowLength": "med"
+    },
+    {
+      "slide": 1,
+      "id": "66",
+      "name": "e1",
+      "fingerprint": "a49c6029282cd5049de52ac28bc05ec8fc7c39e1497ee7fdd2f8c8331f865158",
+      "action": "style_connector",
+      "widthPx": 2.6,
+      "arrowWidth": "med",
+      "arrowLength": "med"
+    },
+    {
+      "slide": 1,
+      "id": "67",
+      "name": "e2",
+      "fingerprint": "a5660b15e37d29186644b6276225775d536134e3656bfcd639b6838a821b40f1",
+      "action": "style_connector",
+      "widthPx": 2.6,
+      "arrowWidth": "med",
+      "arrowLength": "med"
+    },
+    {
+      "slide": 1,
+      "id": "68",
+      "name": "e3",
+      "fingerprint": "0703084cd9b184be891711019d34e82f7f45589dcd7f0d06d1401b257c2c781c",
+      "action": "style_connector",
+      "widthPx": 2.6,
+      "arrowWidth": "med",
+      "arrowLength": "med"
+    }
+  ]
+}

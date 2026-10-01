@@ -1,0 +1,42 @@
+{
+  "slides": [
+    {
+      "nodes": {
+        "train-x": "Sample x",
+        "train-model": "Model fθ",
+        "loss": "Loss",
+        "target": "Target y",
+        "infer-x": "New x",
+        "infer-model": "Model fθ",
+        "prediction": "Prediction ŷ",
+        "fixed": "fixed parameters"
+      },
+      "edges": [
+        [
+          "train-x",
+          "train-model"
+        ],
+        [
+          "train-model",
+          "loss"
+        ],
+        [
+          "target",
+          "loss"
+        ],
+        [
+          "loss",
+          "train-model"
+        ],
+        [
+          "infer-x",
+          "infer-model"
+        ],
+        [
+          "infer-model",
+          "prediction"
+        ]
+      ]
+    }
+  ]
+}

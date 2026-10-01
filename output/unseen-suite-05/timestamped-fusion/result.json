@@ -1,0 +1,163 @@
+{
+  "task": "timestamped-fusion",
+  "status": "complete",
+  "workflow": "built-in image_gen composition draft -> content audit -> native Artifact Tool PPTX -> Presentations finalizer -> saved PPTX inspection -> bundled LibreOffice render",
+  "language": {
+    "labels": "English",
+    "report": "Korean"
+  },
+  "canvas": {
+    "widthMm": 177.8,
+    "heightMm": 120.12083333333332,
+    "widthCssPx": 672,
+    "heightCssPx": 454
+  },
+  "files": {
+    "figure.pptx": {
+      "path": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/unseen-suite-05/timestamped-fusion/figure.pptx",
+      "bytes": 17252,
+      "sha256": "e8350ec62cdc8ce5af40d951d0e1826206a16bec97a183504dad42cc78fd2ff7"
+    },
+    "figure.png": {
+      "path": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/unseen-suite-05/timestamped-fusion/figure.png",
+      "bytes": 208949,
+      "sha256": "0dc0cd72f31ccad7fdd4c29ce78a85ca07dcbae49ef6b49cb041fe49185a3fb2"
+    },
+    "figure.pdf": {
+      "path": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/unseen-suite-05/timestamped-fusion/figure.pdf",
+      "bytes": 125778,
+      "sha256": "5f223690c4957d1f4d4b3a9bbfeeb999464823c3aa67a754119c43be9427e766"
+    },
+    "image-draft.png": {
+      "path": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/unseen-suite-05/timestamped-fusion/image-draft.png",
+      "bytes": 1193947,
+      "sha256": "a4bd0609d84a5281b0d03b7993f0bcc694f4e76402773bbc5cc7350f9746a419"
+    },
+    "image-prompt.txt": {
+      "path": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/unseen-suite-05/timestamped-fusion/image-prompt.txt",
+      "bytes": 3243,
+      "sha256": "8d3787b89236ea630cd10c05d199652657f552a93a7f1b629d9177f48d5624df"
+    },
+    "report.md": {
+      "path": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/unseen-suite-05/timestamped-fusion/report.md",
+      "bytes": 6325,
+      "sha256": "416b496e381e96242c3d509472b9d49e49a3678df7dc14355dee50e045a639dd"
+    },
+    "brief.md": {
+      "path": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/unseen-suite-05/timestamped-fusion/brief.md",
+      "bytes": 1929,
+      "sha256": "9e9a749d4fdf8d8095b206da26b2751c41a2e8cc3d46b1f6aff76d7742b93177"
+    }
+  },
+  "imageDraft": {
+    "tool": "image_gen.imagegen",
+    "generated": true,
+    "promptPath": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/unseen-suite-05/timestamped-fusion/image-prompt.txt",
+    "sourcePath": "/Users/odysseus/.codex/generated_images/01a0f153-cdcb-75f0-898b-3e5fc0352da9/exec-0281ab4b-1404-40c3-8753-ee55a8303ad9.png",
+    "scientificAuthority": "original brief and pre-drawing content plan"
+  },
+  "palette": {
+    "book": "olive-copper",
+    "roles": {
+      "visualAndDelayedCorrection": "blue",
+      "inertialSamplesAndPropagation": "olive",
+      "correctedStatesAndReplay": "copper",
+      "storedStatesAndStructure": "neutral"
+    }
+  },
+  "validation": {
+    "contractPassed": true,
+    "contractErrors": [],
+    "contractWarnings": [],
+    "nativeCounts": {
+      "sp": 57,
+      "cxnSp": 12,
+      "grpSp": 2,
+      "pic": 0,
+      "graphicFrame": 0
+    },
+    "flowAudit": {
+      "connectors": 12,
+      "requiringRenderedReview": 0,
+      "geometryUnchecked": 0
+    },
+    "finalPptxSha256": "e8350ec62cdc8ce5af40d951d0e1826206a16bec97a183504dad42cc78fd2ff7",
+    "packageIntegrityPassed": true,
+    "firstPartyImportPassed": true,
+    "fontPolicyPassed": true,
+    "finalizerLayoutWarnings": [
+      {
+        "connector_id": "96",
+        "connector_z": 24,
+        "kind": "connector_over_text",
+        "slide": 1,
+        "text_object_id": "11",
+        "text_z": 8
+      },
+      {
+        "connector_id": "96",
+        "connector_z": 24,
+        "kind": "connector_over_text",
+        "slide": 1,
+        "text_object_id": "16",
+        "text_z": 13
+      }
+    ],
+    "layoutWarningDisposition": "Both concern the bounding box of the routed correction connector; actual rendered line does not overlap either named text.",
+    "evidence": {
+      "contentPlan": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/unseen-suite-05/timestamped-fusion/content-plan.md",
+      "transferPlan": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/unseen-suite-05/timestamped-fusion/transfer-plan.md",
+      "contract": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/unseen-suite-05/timestamped-fusion/contract.json",
+      "inspection": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/unseen-suite-05/timestamped-fusion/inspect-v8.json",
+      "flowAudit": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/unseen-suite-05/timestamped-fusion/flow-audit-v8.json",
+      "finalizer": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/unseen-suite-05/timestamped-fusion/validation-v8.json"
+    },
+    "nativeSubscriptCheck": {
+      "nowRunCount": 5,
+      "allNow": true,
+      "remainingLiteralUnderscoreLabels": []
+    }
+  },
+  "visualReview": {
+    "fullSavedPptxPng": true,
+    "publicationWidth96Dpi": true,
+    "grayscalePublicationWidth": true,
+    "renders": [
+      "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/unseen-suite-05/timestamped-fusion/publication-v8.png",
+      "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/unseen-suite-05/timestamped-fusion/grayscale-v8.png"
+    ],
+    "findingsFixed": [
+      "Sensor text overflow",
+      "Current-state entry arrow crossed through its state box",
+      "Small propagation caption collided with correction line",
+      "All five t_now labels use native editable subscript now runs"
+    ],
+    "remainingStructuralDefects": [],
+    "observations": [
+      "Historical correction targets t_k.",
+      "Retained interval is explicitly (t_k, t_now].",
+      "Updated historical state and sample collection both enter Replay.",
+      "Replay yields corrected current state, which starts future propagation.",
+      "Grayscale retains state distinction through row position, plus notation and border weight."
+    ],
+    "aestheticAssessment": "Human-visible render review performed; no aesthetic score or independent comparative claim."
+  },
+  "renderer": {
+    "pptxToPdf": "bundled LibreOfficeDev 26.8.0.0.alpha0",
+    "pdfToPng": "bundled pdftoppm",
+    "pngDpi": 300,
+    "pngPixels": [
+      2100,
+      1419
+    ]
+  },
+  "nativePowerPointEditTest": {
+    "performed": false,
+    "claim": "No actual PowerPoint app edit test was performed."
+  },
+  "limitations": [
+    "Text formulas use editable Unicode and native subscript runs, not OMML.",
+    "177.8 mm physical page dimensions verified in file; no printed-sheet measurement.",
+    "No independent comparison against direct native creation."
+  ]
+}

@@ -1,0 +1,1343 @@
+{
+  "file": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/image-first-test-03/final/r3.pptx",
+  "sha256": "5a1171f553a953a21cea6dd77a0daf496888043bfe3d671c3c9786f58f78e9e3",
+  "sizePx": [
+    672.0,
+    340.0
+  ],
+  "slides": [
+    {
+      "part": "ppt/slides/slide1.xml",
+      "objects": [
+        {
+          "id": "90",
+          "name": "aqueous-inlet-channel.wall",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            18.0,
+            180.0,
+            124.0,
+            0.01
+          ],
+          "fingerprint": "91573dd451839532268244477b817d3df6fa813212118f2c97307ffe3a8fe630",
+          "fontPt": []
+        },
+        {
+          "id": "2",
+          "name": "oil-upper-channel.wall",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            18.0,
+            103.0,
+            108.0,
+            77.0
+          ],
+          "fingerprint": "fa21427610c9fadc8f62792c59bc4f8e2fe97155c50887c6418c20435bd23fd3",
+          "fontPt": []
+        },
+        {
+          "id": "3",
+          "name": "oil-lower-channel.wall",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            18.0,
+            180.0,
+            108.0,
+            77.0
+          ],
+          "fingerprint": "b6ff7da87638c082d3fb0a63a134b8d0576d8fc53c18098da10b8a0fd32b4b3f",
+          "fontPt": []
+        },
+        {
+          "id": "4",
+          "name": "incubation-main-channel.wall",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            126.0,
+            140.0,
+            424.0,
+            80.0
+          ],
+          "fingerprint": "babdfbed5afb98de486be86515bebca55233d85c0143d09901a8595ead3a5744",
+          "fontPt": []
+        },
+        {
+          "id": "5",
+          "name": "hit-outlet-channel.wall",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            550.0,
+            140.0,
+            104.0,
+            40.0
+          ],
+          "fingerprint": "24ac280271cd786e8b0d4b21faf465a074d935d2818e1a8ae4cea35322ac95c1",
+          "fontPt": []
+        },
+        {
+          "id": "6",
+          "name": "waste-outlet-channel.wall",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            550.0,
+            180.0,
+            104.0,
+            54.0
+          ],
+          "fingerprint": "09eacad6421c2f7df21239543d7395fbfb3ff6d95d9980c445d18765ad235c4a",
+          "fontPt": []
+        },
+        {
+          "id": "7",
+          "name": "aqueous-inlet-channel",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            18.0,
+            180.0,
+            124.0,
+            0.01
+          ],
+          "fingerprint": "fceee534df144e87d21b4c62e10aac41392d315df54ed1dad2b4ff3b4b114a4d",
+          "fontPt": []
+        },
+        {
+          "id": "8",
+          "name": "oil-upper-channel",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            18.0,
+            103.0,
+            108.0,
+            77.0
+          ],
+          "fingerprint": "912f3b12b2dbd5208a83426c4b127c0ce4e5455d7e44fe8b267175c899c94005",
+          "fontPt": []
+        },
+        {
+          "id": "9",
+          "name": "oil-lower-channel",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            18.0,
+            180.0,
+            108.0,
+            77.0
+          ],
+          "fingerprint": "9aa01317295692f22f0220e766dfd34fb443daad7784372e9df8b89104bcc90c",
+          "fontPt": []
+        },
+        {
+          "id": "10",
+          "name": "incubation-main-channel",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            126.0,
+            140.0,
+            424.0,
+            80.0
+          ],
+          "fingerprint": "bc8a1de66411e8a0ebf565d2b06ad5f002e8a40817491a9d87e002f1964ce194",
+          "fontPt": []
+        },
+        {
+          "id": "11",
+          "name": "hit-outlet-channel",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            550.0,
+            140.0,
+            104.0,
+            40.0
+          ],
+          "fingerprint": "6eee094e0a1958f55b607ddc085eb72eff426688112dfdf04e24f5608a45d253",
+          "fontPt": []
+        },
+        {
+          "id": "12",
+          "name": "waste-outlet-channel",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            550.0,
+            180.0,
+            104.0,
+            54.0
+          ],
+          "fingerprint": "84d958f1c88598334a4c0ddaeaee4885cfa9293983f64e4acd601930162ee517",
+          "fontPt": []
+        },
+        {
+          "id": "13",
+          "name": "aqueous-tongue",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            18.0,
+            172.0,
+            112.0,
+            16.0
+          ],
+          "fingerprint": "b212e8d5501492dc285477d58734b4918b68dbdb339a9824901865999ee339f6",
+          "fontPt": []
+        },
+        {
+          "id": "14",
+          "name": "unscored-0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            148.1001,
+            175.1001,
+            9.8,
+            9.8
+          ],
+          "fingerprint": "4938940f494a21ccdffcf23b9184c2e71738908851695015d6d28adfba279881",
+          "fontPt": []
+        },
+        {
+          "id": "15",
+          "name": "unscored-1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            174.1001,
+            175.1001,
+            9.8,
+            9.8
+          ],
+          "fingerprint": "0da6059be1de9fe4c9a00c16cbabf8cac73546791deec00a50bc7b8a1ab5cf2f",
+          "fontPt": []
+        },
+        {
+          "id": "16",
+          "name": "unscored-2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            200.1001,
+            175.1001,
+            9.8,
+            9.8
+          ],
+          "fingerprint": "c15f0461ead8ae4e72d415184762520c03f8e87a4ba1f781fdcfa1fc4ed53584",
+          "fontPt": []
+        },
+        {
+          "id": "17",
+          "name": "unscored-3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            210.1001,
+            150.1001,
+            9.8,
+            9.8
+          ],
+          "fingerprint": "db4c1d494e82fe108f167af46f55622a68927f02b4e589aa501dc87efa9699e7",
+          "fontPt": []
+        },
+        {
+          "id": "18",
+          "name": "unscored-4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            223.1001,
+            135.1001,
+            9.8,
+            9.8
+          ],
+          "fingerprint": "2f8a61868fcbb5463e83a963f066930ae69856b7ca04a2fe3ed89c6d1c32037e",
+          "fontPt": []
+        },
+        {
+          "id": "19",
+          "name": "unscored-5",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            237.1001,
+            158.1001,
+            9.8,
+            9.8
+          ],
+          "fingerprint": "b4a0f833b3be56f5f3001c599eb3a86b676527de6ce10e1af3df9155d8b4842b",
+          "fontPt": []
+        },
+        {
+          "id": "20",
+          "name": "unscored-6",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            237.1001,
+            185.1001,
+            9.8,
+            9.8
+          ],
+          "fingerprint": "3986dc4e8b94f436fd79524d4c7e1671d3c11d8c1c09b1d72a9e2d11faf85b2c",
+          "fontPt": []
+        },
+        {
+          "id": "21",
+          "name": "unscored-7",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            251.1001,
+            215.1001,
+            9.8,
+            9.8
+          ],
+          "fingerprint": "3f7188192576242ffae9687e8f4cff207e11b6944c65d2a76cdd4753906cb7ce",
+          "fontPt": []
+        },
+        {
+          "id": "22",
+          "name": "unscored-8",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            265.1001,
+            195.1001,
+            9.8,
+            9.8
+          ],
+          "fingerprint": "b94ca7703cff7f887589bea55521007467f824cc78f4d4c542fa24ec2962dced",
+          "fontPt": []
+        },
+        {
+          "id": "23",
+          "name": "unscored-9",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            265.1001,
+            166.1001,
+            9.8,
+            9.8
+          ],
+          "fingerprint": "0413b0aa442a1db49150dfbc3ca72422aafba886218fc3c37740e3e95fa4840c",
+          "fontPt": []
+        },
+        {
+          "id": "24",
+          "name": "unscored-10",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            277.1001,
+            135.1001,
+            9.8,
+            9.8
+          ],
+          "fingerprint": "1db3cf618decac5467d2b87d5bb43e07a0017a768a5943031ae2f1da0bb1bc6c",
+          "fontPt": []
+        },
+        {
+          "id": "25",
+          "name": "unscored-11",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            293.1001,
+            153.1001,
+            9.8,
+            9.8
+          ],
+          "fingerprint": "3b10adec1af45226e83b50074fcd4c099c9c62f627d0b2b94b9fca97a9597b1a",
+          "fontPt": []
+        },
+        {
+          "id": "26",
+          "name": "unscored-12",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            293.1001,
+            182.1001,
+            9.8,
+            9.8
+          ],
+          "fingerprint": "c2ef165af5fa9a35fd5c014e4042469b4572a15f6865ac59e66784aa38b5fae2",
+          "fontPt": []
+        },
+        {
+          "id": "27",
+          "name": "unscored-13",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            305.1001,
+            215.1001,
+            9.8,
+            9.8
+          ],
+          "fingerprint": "b9becf08a7c5f1bd01dada9e846e8e64b99fd13b21ba15cec5a1fda0c6383cad",
+          "fontPt": []
+        },
+        {
+          "id": "28",
+          "name": "unscored-14",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            321.1001,
+            197.1001,
+            9.8,
+            9.8
+          ],
+          "fingerprint": "bf6a5292887bd334dedad39de7a3558212bdc59ba92fc15ab2678152338502cb",
+          "fontPt": []
+        },
+        {
+          "id": "29",
+          "name": "unscored-15",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            321.1001,
+            168.1001,
+            9.8,
+            9.8
+          ],
+          "fingerprint": "f7ec7b30cfd213a049ab507ff63ac699d54852a4834957e5f414bd9c4d9fc840",
+          "fontPt": []
+        },
+        {
+          "id": "30",
+          "name": "unscored-16",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            333.1001,
+            135.1001,
+            9.8,
+            9.8
+          ],
+          "fingerprint": "b1115e34c815512cc1cc6325bc3a9a2ced7dc2fee871625754fa3083bff6639e",
+          "fontPt": []
+        },
+        {
+          "id": "31",
+          "name": "unscored-17",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            349.1001,
+            153.1001,
+            9.8,
+            9.8
+          ],
+          "fingerprint": "243dc98a754f1da14b6edef618449b2a68733e503121be4fc64c7dd91d7440d4",
+          "fontPt": []
+        },
+        {
+          "id": "32",
+          "name": "unscored-18",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            369.1001,
+            175.1001,
+            9.8,
+            9.8
+          ],
+          "fingerprint": "c4c8ce5508e4bdaec1c2b1c489354df15ec7eaa0d3d4b6eebe42c8b1ffb330e5",
+          "fontPt": []
+        },
+        {
+          "id": "33",
+          "name": "unscored-19",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            394.1001,
+            175.1001,
+            9.8,
+            9.8
+          ],
+          "fingerprint": "76c9cb4eee34fa5caa20c814213749bc166021614db3464f6bcb5a313c47d61f",
+          "fontPt": []
+        },
+        {
+          "id": "34",
+          "name": "measured-0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            460.1001,
+            175.1001,
+            9.8,
+            9.8
+          ],
+          "fingerprint": "f2ef7739c05c9bec794964214c76c7e1344ed534cf7fb569ec9b56ab686b9ed6",
+          "fontPt": []
+        },
+        {
+          "id": "35",
+          "name": "measured-1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            488.1001,
+            175.1001,
+            9.8,
+            9.8
+          ],
+          "fingerprint": "f39ca5dbc4a0d63d9cae21dde2df170529cc65fe778cacf7b403e5a24904e24a",
+          "fontPt": []
+        },
+        {
+          "id": "36",
+          "name": "measured-2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            515.1001,
+            175.1001,
+            9.8,
+            9.8
+          ],
+          "fingerprint": "0fdf412f8352a44dcd969a2ac81f466b0de0e910400b99fc2f6440d874f0c7a4",
+          "fontPt": []
+        },
+        {
+          "id": "37",
+          "name": "hit-0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            567.1001,
+            152.1001,
+            9.8,
+            9.8
+          ],
+          "fingerprint": "3cbf5bd4268630933d4096484d703b37d249ffb9ce7e30c4b7626188b36824b0",
+          "fontPt": []
+        },
+        {
+          "id": "38",
+          "name": "hit-1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            596.1001,
+            135.1001,
+            9.8,
+            9.8
+          ],
+          "fingerprint": "6c637343238356e54890d727136d4750e1d745befea7d82a3883b9cf5f158ee3",
+          "fontPt": []
+        },
+        {
+          "id": "39",
+          "name": "hit-2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            620.1001,
+            135.1001,
+            9.8,
+            9.8
+          ],
+          "fingerprint": "9f2e9e43118549b786f64ce86cf060949e2941042e99e02a5b4049dd39c40ab5",
+          "fontPt": []
+        },
+        {
+          "id": "40",
+          "name": "low-0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            567.1001,
+            206.1001,
+            9.8,
+            9.8
+          ],
+          "fingerprint": "9ee69f333520a8907c57ab7b942aba6bde6d6eb7b8d35bd5b160f124fa4aca56",
+          "fontPt": []
+        },
+        {
+          "id": "41",
+          "name": "low-1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            596.1001,
+            229.1001,
+            9.8,
+            9.8
+          ],
+          "fingerprint": "a2f8ea628324318aa494e356bf5fa0100c2e30525f321dcca48b7d46f4222d28",
+          "fontPt": []
+        },
+        {
+          "id": "42",
+          "name": "low-2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            620.1001,
+            229.1001,
+            9.8,
+            9.8
+          ],
+          "fingerprint": "03d29b8ebb314778f93fed11e33783c85a2ac7aa15b0fd11328b1230412a647b",
+          "fontPt": []
+        },
+        {
+          "id": "43",
+          "name": "aqueous-direction.shaft",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            49.5001,
+            180.0,
+            15.0,
+            0.01
+          ],
+          "fingerprint": "96679c19d18a41ef89f23ba4c87e1b2b19b893bc6d00fae931b292dbf45ffea9",
+          "fontPt": []
+        },
+        {
+          "id": "44",
+          "name": "aqueous-direction.head",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            60.5001,
+            177.7001,
+            4.0,
+            4.6
+          ],
+          "fingerprint": "d2a6317fe18409279964f2c1f861963b45c52929200f44cb3aa6fcbe83390228",
+          "fontPt": []
+        },
+        {
+          "id": "45",
+          "name": "oil-upper-direction.shaft",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            37.0,
+            103.0,
+            14.0,
+            0.01
+          ],
+          "fingerprint": "7d209e06a8105e8f757307d09ee374136d785129bbe88316d9aad96f85b61928",
+          "fontPt": []
+        },
+        {
+          "id": "46",
+          "name": "oil-upper-direction.head",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            47.0,
+            100.7001,
+            4.0,
+            4.6
+          ],
+          "fingerprint": "a4ea27cf2af5a5107577ed545e933754a1b544ad1325f3818b5e83e283b59c4f",
+          "fontPt": []
+        },
+        {
+          "id": "47",
+          "name": "oil-lower-direction.shaft",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            37.0,
+            257.0,
+            14.0,
+            0.01
+          ],
+          "fingerprint": "d3677a102cb334422c459379f6fc903ea6d7b25670e1e027514457b98f32affe",
+          "fontPt": []
+        },
+        {
+          "id": "48",
+          "name": "oil-lower-direction.head",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            47.0,
+            254.7001,
+            4.0,
+            4.6
+          ],
+          "fingerprint": "3c3fa384fb53936ad54def17448a160cf0b6ed3280cc7f962cd1b9c9d36800a7",
+          "fontPt": []
+        },
+        {
+          "id": "49",
+          "name": "main-direction.shaft",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            412.0,
+            180.0,
+            12.0,
+            0.01
+          ],
+          "fingerprint": "3ddc86c8d72c1348b7433fbaf9897943328ecbbebc6efb335711c1b0e8c0ca6f",
+          "fontPt": []
+        },
+        {
+          "id": "50",
+          "name": "main-direction.head",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            420.0,
+            177.7001,
+            4.0,
+            4.6
+          ],
+          "fingerprint": "4de4ae2a4779efb937a4bff5b1b6985f59aef2ba22e407b70daabe8a44bb4a4b",
+          "fontPt": []
+        },
+        {
+          "id": "51",
+          "name": "hit-direction.shaft",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            639.0,
+            140.0,
+            12.0,
+            0.01
+          ],
+          "fingerprint": "d71c31bb441c5fc18309548ad60b891bc289aeeb55faffe38f39ced42a1245b1",
+          "fontPt": []
+        },
+        {
+          "id": "52",
+          "name": "hit-direction.head",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            647.0,
+            137.7001,
+            4.0,
+            4.6
+          ],
+          "fingerprint": "877fc64b19c0bcb26b8fbb021e41591f92ca6538cd59b178a9fef3ffb06b2fa2",
+          "fontPt": []
+        },
+        {
+          "id": "53",
+          "name": "waste-direction.shaft",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            639.0,
+            234.0,
+            12.0,
+            0.01
+          ],
+          "fingerprint": "7e432d6debea895fbac8de5756db74b86c0fa966cd03936dc6655c653b9f4425",
+          "fontPt": []
+        },
+        {
+          "id": "54",
+          "name": "waste-direction.head",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            647.0,
+            231.7001,
+            4.0,
+            4.6
+          ],
+          "fingerprint": "70fa15c7413a107c542c9c9d6e52d90a3cd1ba15e64d4704760f5175f1c6c0cf",
+          "fontPt": []
+        },
+        {
+          "id": "55",
+          "name": "optical-field",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            418.0,
+            197.0,
+            44.0,
+            26.0
+          ],
+          "fingerprint": "14a34b755a87fa56a2fa1cd37bc76c787b5d5b66f662588698621f94cea77a39",
+          "fontPt": []
+        },
+        {
+          "id": "56",
+          "name": "detector-window",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            429.0,
+            163.0,
+            22.0,
+            34.0
+          ],
+          "fingerprint": "5326e50b5d0f64021b26507fc5da51099590130dc61740248d436960c9495940",
+          "fontPt": []
+        },
+        {
+          "id": "57",
+          "name": "sensed-unscored",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            435.1001,
+            175.1001,
+            9.8,
+            9.8
+          ],
+          "fingerprint": "eb6b6f59bdd7f2ca8083d71d363ed68c064cba06dcad34ae465d1babd254d300",
+          "fontPt": []
+        },
+        {
+          "id": "58",
+          "name": "controller",
+          "kind": "sp",
+          "text": "Controller\nCompare F with θ",
+          "boundsPx": [
+            381.0,
+            24.0,
+            118.0,
+            43.0
+          ],
+          "fingerprint": "4c46a329a1b94e1c558112791158573f9cba3dc37a8d3781c1c69f4e5338b353",
+          "fontPt": [
+            8.85
+          ]
+        },
+        {
+          "id": "59",
+          "name": "sorting-electrode",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            539.0,
+            154.0,
+            24.0,
+            6.0
+          ],
+          "fingerprint": "b5144ff36ed8132e03726581347738cf8499659b8e95019d2de60be7805171ef",
+          "fontPt": []
+        },
+        {
+          "id": "149",
+          "name": "signal-F",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            440.0,
+            67.0,
+            0.0,
+            96.0
+          ],
+          "fingerprint": "57df55a131cf863379de2439b463296c2c4080158a55e3abdd36b290925667e8",
+          "fontPt": []
+        },
+        {
+          "id": "150",
+          "name": "sorting-trigger",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            499.0,
+            45.5001,
+            52.0,
+            108.5001
+          ],
+          "fingerprint": "d0f129fb32b96a72f0df9f58a2c9b0d2963b99555e1542de8bf21da40bd8ef75",
+          "fontPt": []
+        },
+        {
+          "id": "62",
+          "name": "signal-label",
+          "kind": "sp",
+          "text": "F",
+          "boundsPx": [
+            446.0,
+            102.0,
+            20.0,
+            17.0
+          ],
+          "fingerprint": "67a6ae472d8797ee699c799c8767c5dad1a931a7cdc6ea27afdf804b083ec696",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "63",
+          "name": "trigger-label",
+          "kind": "sp",
+          "text": "Signal / trigger",
+          "boundsPx": [
+            560.0,
+            67.0,
+            98.0,
+            19.0
+          ],
+          "fingerprint": "1b5b886ad29a7107ec54b0fbcf0e1beb79cfe75a04c3414bacb6e0b480f36c3a",
+          "fontPt": [
+            8.03
+          ]
+        },
+        {
+          "id": "64",
+          "name": "aqueous-label",
+          "kind": "sp",
+          "text": "Aqueous assay\nmixture",
+          "boundsPx": [
+            17.0,
+            138.0,
+            101.0,
+            28.0
+          ],
+          "fingerprint": "bf3139dfe40e73f846246fcb4a9db981dd2b949c3876e6fff4240e7188a9f52e",
+          "fontPt": [
+            8.78
+          ]
+        },
+        {
+          "id": "65",
+          "name": "oil-upper-label",
+          "kind": "sp",
+          "text": "Carrier oil",
+          "boundsPx": [
+            17.0,
+            74.0,
+            82.0,
+            20.0
+          ],
+          "fingerprint": "b46e546986003a045458065e79d18d2f897ba63251c3e8833efb313eb9d7d8c7",
+          "fontPt": [
+            8.55
+          ]
+        },
+        {
+          "id": "66",
+          "name": "oil-lower-label",
+          "kind": "sp",
+          "text": "Carrier oil",
+          "boundsPx": [
+            17.0,
+            272.0,
+            82.0,
+            20.0
+          ],
+          "fingerprint": "081c277aa63480af8db7027b9dad36096a362d7feb7d98003b140942f43b0ca3",
+          "fontPt": [
+            8.55
+          ]
+        },
+        {
+          "id": "67",
+          "name": "focus-label",
+          "kind": "sp",
+          "text": "Flow focusing",
+          "boundsPx": [
+            103.0,
+            98.0,
+            105.0,
+            19.0
+          ],
+          "fingerprint": "521c39c0f7665219120ce9e0ad56493b352b2cf5c4229bb1a000e9b494f7a7cb",
+          "fontPt": [
+            8.78
+          ]
+        },
+        {
+          "id": "68",
+          "name": "focus-leader",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            131.0,
+            119.0,
+            0.01,
+            48.0
+          ],
+          "fingerprint": "7d96c53ca8f0b2cb048940dcffee4ded11ac5bef70a53bb5e15cd7606fcb59eb",
+          "fontPt": []
+        },
+        {
+          "id": "69",
+          "name": "focus-leader-dot",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            129.4,
+            165.4,
+            3.2,
+            3.2
+          ],
+          "fingerprint": "aedd276ea7eb305c66cde1aa1667e7ad1ad96fc2b50fcbb5f2d4e257960b4c21",
+          "fontPt": []
+        },
+        {
+          "id": "70",
+          "name": "incubation-label",
+          "kind": "sp",
+          "text": "On-chip incubation / delay",
+          "boundsPx": [
+            216.0,
+            85.0,
+            163.0,
+            19.0
+          ],
+          "fingerprint": "deee86b50bd47956225a763830bb3c0ced4d7085a80039c64c1728a934da956b",
+          "fontPt": [
+            8.63
+          ]
+        },
+        {
+          "id": "71",
+          "name": "incubation-bracket",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            209.0,
+            111.0,
+            153.0,
+            8.0
+          ],
+          "fingerprint": "d2c611d36736ec11a5b1671bbecdaac4ba06834f95bfdf39647ab30161869a93",
+          "fontPt": []
+        },
+        {
+          "id": "72",
+          "name": "incubation-bracket-tick",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            285.5001,
+            105.0,
+            0.01,
+            6.0
+          ],
+          "fingerprint": "95f5c090205c3e9df21ce5ccd92f4440c935b6473ac2ff2fb7c5e76bead42c9d",
+          "fontPt": []
+        },
+        {
+          "id": "73",
+          "name": "detector-label",
+          "kind": "sp",
+          "text": "Fluorescence detector",
+          "boundsPx": [
+            386.0,
+            234.0,
+            119.0,
+            19.0
+          ],
+          "fingerprint": "10cc000766facb758d0c7f686c9cea3970b3636cae89120f80d0e5d0db747bf5",
+          "fontPt": [
+            8.4
+          ]
+        },
+        {
+          "id": "74",
+          "name": "detector-leader",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            440.0,
+            223.0,
+            0.01,
+            4.0
+          ],
+          "fingerprint": "e873544bdbc6e075dc5aeefed61f8879670a04e282413dc8c4ddb3e61b4703c6",
+          "fontPt": []
+        },
+        {
+          "id": "75",
+          "name": "electrode-label",
+          "kind": "sp",
+          "text": "Sorting\nelectrode",
+          "boundsPx": [
+            473.0,
+            126.0,
+            62.0,
+            30.0
+          ],
+          "fingerprint": "521fe1235360743311da3d0b9259594ad60aba725801cfe892d350fd6a00f521",
+          "fontPt": [
+            8.48
+          ]
+        },
+        {
+          "id": "76",
+          "name": "hit-label",
+          "kind": "sp",
+          "text": "Collected hits",
+          "boundsPx": [
+            574.0,
+            105.0,
+            91.0,
+            19.0
+          ],
+          "fingerprint": "57f9a431ad4dd01c9d13cd49f4bc94316136a6987965cc9de5bdf92aa5e135de",
+          "fontPt": [
+            8.78
+          ]
+        },
+        {
+          "id": "77",
+          "name": "hit-rule",
+          "kind": "sp",
+          "text": "F ≥ θ",
+          "boundsPx": [
+            609.0,
+            155.0,
+            45.0,
+            19.0
+          ],
+          "fingerprint": "27c80d2ec1812c6d614f1c40f819a4203287263fa2032d816d12a3e22479d49d",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "78",
+          "name": "waste-label",
+          "kind": "sp",
+          "text": "Waste",
+          "boundsPx": [
+            597.0,
+            251.0,
+            63.0,
+            19.0
+          ],
+          "fingerprint": "6f2492457955f7a647883ec9465edd0284f564dbf295897675e7d62fc959a0bb",
+          "fontPt": [
+            8.78
+          ]
+        },
+        {
+          "id": "79",
+          "name": "waste-rule",
+          "kind": "sp",
+          "text": "F < θ",
+          "boundsPx": [
+            605.0,
+            271.0,
+            49.0,
+            19.0
+          ],
+          "fingerprint": "9d00ce52ff4568f055bb1e8391b87cb2baa92d0bbe1e203e6e4d5ef850c028c7",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "151",
+          "name": "state-legend",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            188.1001,
+            282.0,
+            233.8999,
+            20.0
+          ],
+          "fingerprint": "d736c4a874ef0f39fbd88417dfd2f001022716b9c0b613a9585196e0bed5bed5",
+          "fontPt": []
+        },
+        {
+          "id": "80",
+          "name": "legend-unscored",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            188.1001,
+            287.1001,
+            9.8,
+            9.8
+          ],
+          "fingerprint": "aef29f3228a78484a1dc027982638a36539a3b8d6b1b803f1b68dd90a0ff76ee",
+          "fontPt": []
+        },
+        {
+          "id": "81",
+          "name": "legend-unscored-text",
+          "kind": "sp",
+          "text": "Unscored",
+          "boundsPx": [
+            203.0,
+            282.0,
+            65.0,
+            20.0
+          ],
+          "fingerprint": "7cb1bfffb16a8189c385f419234657c09e0d660c6a355001748bca7f40ee9a3a",
+          "fontPt": [
+            7.88
+          ]
+        },
+        {
+          "id": "82",
+          "name": "legend-hit",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            286.1001,
+            287.1001,
+            9.8,
+            9.8
+          ],
+          "fingerprint": "ad81b82b7da28b48eea2c67d30d253cd3f5f2d052dd9fc5653ec093b1666bfd4",
+          "fontPt": []
+        },
+        {
+          "id": "83",
+          "name": "legend-hit-text",
+          "kind": "sp",
+          "text": "F ≥ θ",
+          "boundsPx": [
+            301.0,
+            282.0,
+            46.0,
+            20.0
+          ],
+          "fingerprint": "cf44a4a4950bb04a5afde1078730dd9fb9ac13ac99d8945c04d19856ddfddb75",
+          "fontPt": [
+            7.88
+          ]
+        },
+        {
+          "id": "84",
+          "name": "legend-low",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            361.1001,
+            287.1001,
+            9.8,
+            9.8
+          ],
+          "fingerprint": "3580f45f329b096df89ef42d17d6eb83165626eff359f798186498555a39b057",
+          "fontPt": []
+        },
+        {
+          "id": "85",
+          "name": "legend-low-text",
+          "kind": "sp",
+          "text": "F < θ",
+          "boundsPx": [
+            376.0,
+            282.0,
+            46.0,
+            20.0
+          ],
+          "fingerprint": "97adfbc893ece5b81505b698c0b1fe794730a46827c97c23c50a08bb1cc0140a",
+          "fontPt": [
+            7.88
+          ]
+        },
+        {
+          "id": "86",
+          "name": "legend-signal-line",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            446.0,
+            292.0,
+            15.0,
+            0.01
+          ],
+          "fingerprint": "6e7c41b547ca5c40cfcf7b5cee4652c417d4b939fbf0f1183fefc104ee7547bd",
+          "fontPt": []
+        },
+        {
+          "id": "87",
+          "name": "legend-signal-tip",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            460.0,
+            289.7001,
+            5.0,
+            4.6
+          ],
+          "fingerprint": "f9d29e96b9cd91189ef8518a42001fc5d6e4780546f24f682acecec547070a6a",
+          "fontPt": []
+        },
+        {
+          "id": "88",
+          "name": "legend-signal-text",
+          "kind": "sp",
+          "text": "Signal / trigger",
+          "boundsPx": [
+            472.0,
+            282.0,
+            100.0,
+            20.0
+          ],
+          "fingerprint": "63efbfad302ca51b9a2d389769fc2128351ff4e594aff9a63afdebae66f49fda",
+          "fontPt": [
+            7.88
+          ]
+        },
+        {
+          "id": "89",
+          "name": "disclosure",
+          "kind": "sp",
+          "text": "Hypothetical schematic; geometry and droplets are illustrative.",
+          "boundsPx": [
+            18.0,
+            317.0,
+            636.0,
+            17.0
+          ],
+          "fingerprint": "cf100e8f4831c8b77d0713b804ad661a30bbc37342c2aa76db73345961fd25b2",
+          "fontPt": [
+            7.28
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "name": "signal-F",
+          "from": "detector-window",
+          "to": "controller",
+          "fromIdx": "0",
+          "toIdx": "2",
+          "directed": true
+        },
+        {
+          "name": "sorting-trigger",
+          "from": "controller",
+          "to": "sorting-electrode",
+          "fromIdx": "3",
+          "toIdx": "0",
+          "directed": true
+        }
+      ],
+      "counts": {
+        "sp": 87,
+        "cxnSp": 2,
+        "grpSp": 1,
+        "pic": 0,
+        "graphicFrame": 0
+      },
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "passed": true
+}

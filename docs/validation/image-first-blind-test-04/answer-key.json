@@ -1,0 +1,60 @@
+{
+  "preparedAtUtc": "2026-09-30T07:50:00.567454+00:00",
+  "pair": "01",
+  "published_side": "B",
+  "generated_side": "A",
+  "published_source": "De Jonghe et al., spinDrop, Nature Communications 14, 4788 (2023), Figure 1C schematic only",
+  "published_url": "https://www.nature.com/articles/s41467-023-40322-w/figures/1",
+  "license": "CC BY 4.0; cropped to schematic, panel identifier and photograph excluded; internal labels unchanged",
+  "reference_sha256": "c9bb80705def1a62c3eed48adcdc51f40057da1bbe18c7b482496bf008a7cc7d",
+  "generated_png_sha256": "ec4f63fe350dde19a37b52bd006b72d208c8315d80c8f7111651b41496e2616a",
+  "generated_pptx_sha256": "5a1171f553a953a21cea6dd77a0daf496888043bfe3d671c3c9786f58f78e9e3",
+  "input_hashes": {
+    "pair-01.png": "cb363a9a91f79f893de9110986e1ec8d8c64e6e2376dff0426b54a814c55f201",
+    "B.png": "727484a909b1729eea5ccc7ffe8dcaf568a638091a83b26cc9cf9ebe699e92b1",
+    "A.png": "7cf300b1c83ec032e0675a4a17b25ae40f722b8861d863f1c941b1a20696c74f"
+  },
+  "placements": {
+    "A": {
+      "crop": [
+        30,
+        50,
+        2070,
+        970
+      ],
+      "render_box": [
+        45.0,
+        45.04901960784312,
+        920.0,
+        414.90196078431376
+      ],
+      "scale": 0.45098039215686275
+    },
+    "B": {
+      "crop": [
+        50,
+        548,
+        860,
+        910
+      ],
+      "render_box": [
+        1035.0,
+        46.919753086419774,
+        920.0,
+        411.16049382716045
+      ],
+      "scale": 1.1358024691358024
+    }
+  },
+  "internal_masks": [],
+  "text_policy": "All internal labels and the candidate legend remain visible. Only external provenance is excluded: source panel identifier/caption/photo and candidate hypothetical-schematic footer. Original source files unchanged; aspect ratio preserved.",
+  "selection_reason": "Both explain optical detection and fluorescence-dependent droplet routing. Selection and crops fixed before receiving any verdict.",
+  "limitations": [
+    "One pair, two views enlarged separately for reading; not three pairs.",
+    "The candidate is a whole-method overview; the published source is a local device schematic. Their different scopes and abstraction levels are disclosed to evaluators.",
+    "Published device has specific optical fibers, electrodes and biological payloads; candidate brief does not specify these. Missing method-specific details must not be treated as errors.",
+    "Same displayed width preserves aspect ratio but internal label scales differ. Reference crop has lower source resolution.",
+    "Two fresh reviewers inherit the same parent model configuration; neither independent services nor a population estimate.",
+    "Visible wording can help identify provenance. This is intentionally a labeled figure test; it is not directly comparable to the earlier masked test."
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "file": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/final/03-repeat.pptx",
+  "sha256": "58e4d7accd82d9ffbe6e9caeda7d9be6b67449089b2b2796b57975d180e2bede",
+  "sizePx": [
+    672.0,
+    360.0
+  ],
+  "slides": [
+    {
+      "part": "ppt/slides/slide1.xml",
+      "objects": [
+        {
+          "id": "16",
+          "name": "caption",
+          "kind": "sp",
+          "text": "Residual refinement",
+          "boundsPx": [
+            24.0,
+            13.0,
+            624.0,
+            25.0
+          ],
+          "fingerprint": "f7882fc9be528f66cf90deb1a37bd36d1fcff8d68876e3c44910e20d25d25889",
+          "fontPt": [
+            12.0
+          ]
+        },
+        {
+          "id": "2",
+          "name": "block",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            177.0,
+            70.0,
+            323.0,
+            243.0
+          ],
+          "fingerprint": "f2765a8e1894ddb23b6349009146ed0b90c09f3c486e21f1fdb40c10f791fbf5",
+          "fontPt": []
+        },
+        {
+          "id": "3",
+          "name": "block.title",
+          "kind": "sp",
+          "text": "Refinement block  \u00d7 4",
+          "boundsPx": [
+            185.0,
+            75.0,
+            307.0,
+            22.0
+          ],
+          "fingerprint": "10f272596587de5b472b9ed8e54487ad7f5277ce3c37e3555c1c1e2663aca1a1",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "4",
+          "name": "input",
+          "kind": "sp",
+          "text": "h\u2080",
+          "boundsPx": [
+            29.0,
+            172.0,
+            69.0,
+            54.0
+          ],
+          "fingerprint": "f706b3adc60e22bb0605a3a84631098b0edadc8d504a1ac8f9614124073545d8",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "5",
+          "name": "norm",
+          "kind": "sp",
+          "text": "Norm",
+          "boundsPx": [
+            211.0,
+            210.0,
+            88.0,
+            50.0
+          ],
+          "fingerprint": "e647e88c81ea55d08230e203474764d6fb30501164a8ae584753f9697a7416ad",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "6",
+          "name": "mix",
+          "kind": "sp",
+          "text": "Mix",
+          "boundsPx": [
+            333.0,
+            210.0,
+            87.0,
+            50.0
+          ],
+          "fingerprint": "a6ddc0db60227725924a91eed00b94ffb189c010a1870171de2799fe9b1edd72",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "7",
+          "name": "add",
+          "kind": "sp",
+          "text": "+",
+          "boundsPx": [
+            445.0,
+            120.0,
+            38.0,
+            38.0
+          ],
+          "fingerprint": "20aeaaba06ed75030032c7ff7fdf30ddcbfeb4f4d102744e7b4ba7de6b47260e",
+          "fontPt": [
+            15.0
+          ]
+        },
+        {
+          "id": "8",
+          "name": "output",
+          "kind": "sp",
+          "text": "h\u2084",
+          "boundsPx": [
+            568.0,
+            112.0,
+            72.0,
+            54.0
+          ],
+          "fingerprint": "a190c142bef46e33986fd1ddff2676fb386b62d6c86fa89e441db235bcaa0de3",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "24",
+          "name": "e0",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            98.0,
+            199.0,
+            113.0,
+            36.0
+          ],
+          "fingerprint": "146298fd7ad6ab8506cd152b0b4239a05d31ac9300bc3d4d089ed8ec87f66e95",
+          "fontPt": []
+        },
+        {
+          "id": "25",
+          "name": "e1",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            299.0,
+            235.0,
+            34.0,
+            0.0
+          ],
+          "fingerprint": "c4a02e32f169dac51799188ddaf8c426c03b5d6b6334f1904bf8d1b6e49e5315",
+          "fontPt": []
+        },
+        {
+          "id": "26",
+          "name": "e2",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            420.0,
+            158.0,
+            44.0,
+            77.0
+          ],
+          "fingerprint": "7ea38730d7d4c8760bc9e0a2be5bfd05db0e02fce1367a3a6784d17a1113643e",
+          "fontPt": []
+        },
+        {
+          "id": "27",
+          "name": "e3",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            483.0,
+            139.0,
+            85.0,
+            0.0
+          ],
+          "fingerprint": "3c8d07d94dd5fb78161295c7698460ca0fe36070d2a9f87fd72ec0c4cc7f2910",
+          "fontPt": []
+        },
+        {
+          "id": "28",
+          "name": "residual",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            63.5001,
+            139.0,
+            381.5001,
+            33.0
+          ],
+          "fingerprint": "b8d355d156f7cb6e8838e0313a1c4aaf18ca34a3ae58cd06a1ccc528a54d1360",
+          "fontPt": []
+        },
+        {
+          "id": "14",
+          "name": "identity",
+          "kind": "sp",
+          "text": "identity",
+          "boundsPx": [
+            89.0,
+            107.0,
+            80.0,
+            25.0
+          ],
+          "fingerprint": "fcc0a6c97139aa7bbbc0b81359239c5b942fc6b50075644b6836ed9cfbc332dc",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "15",
+          "name": "share-note",
+          "kind": "sp",
+          "text": "Same block structure; separate parameters",
+          "boundsPx": [
+            186.0,
+            278.0,
+            304.0,
+            25.0
+          ],
+          "fingerprint": "10457c3303bbaf77c22a5c2c16330a6784f26ed5e65ea9529f12acce2e4c89dd",
+          "fontPt": [
+            9.0
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "name": "e0",
+          "from": "input",
+          "to": "norm",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "e1",
+          "from": "norm",
+          "to": "mix",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "e2",
+          "from": "mix",
+          "to": "add",
+          "fromIdx": "3",
+          "toIdx": "2",
+          "directed": true
+        },
+        {
+          "name": "e3",
+          "from": "add",
+          "to": "output",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "residual",
+          "from": "input",
+          "to": "add",
+          "fromIdx": "0",
+          "toIdx": "1",
+          "directed": true
+        }
+      ],
+      "counts": {
+        "sp": 10,
+        "cxnSp": 5,
+        "grpSp": 0,
+        "pic": 0,
+        "graphicFrame": 0
+      },
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "passed": true
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "file": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/refined/01-process.pptx",
+    "sha256": "8022c391c45c5bf0039be123cd4d2cfcec2b642667b1e21cbeccc3cbe4640b15",
+    "passed": true,
+    "counts": {
+      "sp": 51,
+      "cxnSp": 4,
+      "grpSp": 5,
+      "pic": 0,
+      "graphicFrame": 0
+    },
+    "errors": []
+  },
+  {
+    "file": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/refined/02-branch.pptx",
+    "sha256": "8790fa75c705422ecbeb693b769b473195ab2906db16d1d0df2da434e388ab9e",
+    "passed": true,
+    "counts": {
+      "sp": 19,
+      "cxnSp": 5,
+      "grpSp": 1,
+      "pic": 3,
+      "graphicFrame": 0
+    },
+    "errors": []
+  },
+  {
+    "file": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/refined/03-repeat.pptx",
+    "sha256": "3458b84c36cb2451abb1cd92865192ffa06194834291527051bd918e1ec5bb23",
+    "passed": true,
+    "counts": {
+      "sp": 84,
+      "cxnSp": 5,
+      "grpSp": 7,
+      "pic": 0,
+      "graphicFrame": 0
+    },
+    "errors": []
+  },
+  {
+    "file": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/refined/04-skip.pptx",
+    "sha256": "3c1d1638ac20ac4f6f96c6fc1fdc7fcbcacaa308c89b4b6ce154c120f337b93a",
+    "passed": true,
+    "counts": {
+      "sp": 49,
+      "cxnSp": 6,
+      "grpSp": 5,
+      "pic": 0,
+      "graphicFrame": 0
+    },
+    "errors": []
+  },
+  {
+    "file": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/refined/05-panels.pptx",
+    "sha256": "de644f1ef0593f542228ddd1bfc33250e39f59d7706bf3c3355f1c93b44664d0",
+    "passed": true,
+    "counts": {
+      "sp": 157,
+      "cxnSp": 2,
+      "grpSp": 7,
+      "pic": 0,
+      "graphicFrame": 0
+    },
+    "errors": []
+  },
+  {
+    "file": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/refined/06-tokens.pptx",
+    "sha256": "68413dfdbb421ace20d9bdb97f0d82b6b21ce836ba7d4a3dfa6de24a83e1e465",
+    "passed": true,
+    "counts": {
+      "sp": 94,
+      "cxnSp": 5,
+      "grpSp": 7,
+      "pic": 0,
+      "graphicFrame": 0
+    },
+    "errors": []
+  },
+  {
+    "file": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/refined/07-long-label.pptx",
+    "sha256": "6131ef99ee75b99d1eb853b13f775ef74c800b2b35e9bb84461ba431785bd2dc",
+    "passed": true,
+    "counts": {
+      "sp": 67,
+      "cxnSp": 3,
+      "grpSp": 0,
+      "pic": 0,
+      "graphicFrame": 0
+    },
+    "errors": []
+  },
+  {
+    "file": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/refined/08-train-infer.pptx",
+    "sha256": "cd25ec5ace9f3d671fd0bbb5c8dd1a2e44b1cad631bb9a9230ceb68dfa769274",
+    "passed": true,
+    "counts": {
+      "sp": 86,
+      "cxnSp": 6,
+      "grpSp": 0,
+      "pic": 0,
+      "graphicFrame": 0
+    },
+    "errors": []
+  }
+]

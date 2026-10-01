@@ -1,0 +1,575 @@
+{
+  "file": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/final/06-tokens.pptx",
+  "sha256": "29b13822fbf849e718cec0e3f4471d700a4880197110c77a3f5c45d22ed6965c",
+  "sizePx": [
+    672.0,
+    360.0
+  ],
+  "slides": [
+    {
+      "part": "ppt/slides/slide1.xml",
+      "objects": [
+        {
+          "id": "31",
+          "name": "caption",
+          "kind": "sp",
+          "text": "Selective token aggregation",
+          "boundsPx": [
+            24.0,
+            13.0,
+            624.0,
+            25.0
+          ],
+          "fingerprint": "0c263535b0e6479ff09d7b86038525b3f786df2c341b01618b9933c0d819a313",
+          "fontPt": [
+            12.0
+          ]
+        },
+        {
+          "id": "57",
+          "name": "tokens",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            27.0,
+            99.0,
+            170.0,
+            25.0
+          ],
+          "fingerprint": "435a5a2983e76da8bb9b9e4cc80ae1c0a79bcb4d6d9f4f812d418a63d4b4aef4",
+          "fontPt": []
+        },
+        {
+          "id": "2",
+          "name": "tokens.0",
+          "kind": "sp",
+          "text": "1",
+          "boundsPx": [
+            27.0,
+            99.0,
+            25.0,
+            25.0
+          ],
+          "fingerprint": "ecbe3ecd86ce88be7f9cd7fba3e8ec27487fd92f24c02edfe6539fe9e6f478ba",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "3",
+          "name": "tokens.1",
+          "kind": "sp",
+          "text": "2",
+          "boundsPx": [
+            56.0,
+            99.0,
+            25.0,
+            25.0
+          ],
+          "fingerprint": "520cc6718de695665bbe59182da9fbad22071087dbf6cedc4b8c8b7a76f62d56",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "4",
+          "name": "tokens.2",
+          "kind": "sp",
+          "text": "3",
+          "boundsPx": [
+            85.0,
+            99.0,
+            25.0,
+            25.0
+          ],
+          "fingerprint": "17b3451c0ea0287c1b9da6826c0ebbd2994c3b2b355d4148c4dd1a2ba507aeba",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "5",
+          "name": "tokens.3",
+          "kind": "sp",
+          "text": "4",
+          "boundsPx": [
+            114.0,
+            99.0,
+            25.0,
+            25.0
+          ],
+          "fingerprint": "633d269d356fcfee045568a4776a5b3091ae27b65769be8bc2916329b88027e5",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "6",
+          "name": "tokens.4",
+          "kind": "sp",
+          "text": "5",
+          "boundsPx": [
+            143.0,
+            99.0,
+            25.0,
+            25.0
+          ],
+          "fingerprint": "5764c23379a361b31f3fa322371c89adfda4416af827c86489366f9b9724c2db",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "7",
+          "name": "tokens.5",
+          "kind": "sp",
+          "text": "6",
+          "boundsPx": [
+            172.0,
+            99.0,
+            25.0,
+            25.0
+          ],
+          "fingerprint": "ac3f6efc7465383e06d629c609fddce3f73ed27cf671e3bf76bee17f6fee1d82",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "8",
+          "name": "select",
+          "kind": "sp",
+          "text": "Select",
+          "boundsPx": [
+            239.0,
+            87.0,
+            105.0,
+            51.0
+          ],
+          "fingerprint": "14ec5fbc33b9e9513817879fe12d1d4e15c710bf338aad3cd4b2b8e912143399",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "58",
+          "name": "kept",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            404.0,
+            99.0,
+            112.0,
+            25.0
+          ],
+          "fingerprint": "008c1c88caffb24e0f4863132c95a1803eb2fb6349fc6acdcf98a579ba1f4e31",
+          "fontPt": []
+        },
+        {
+          "id": "9",
+          "name": "kept.0",
+          "kind": "sp",
+          "text": "1",
+          "boundsPx": [
+            404.0,
+            99.0,
+            25.0,
+            25.0
+          ],
+          "fingerprint": "04f0006e42dbe33721138a671156e5d5e34062208337e07a176c04dcbd2ae0b8",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "10",
+          "name": "kept.1",
+          "kind": "sp",
+          "text": "3",
+          "boundsPx": [
+            433.0,
+            99.0,
+            25.0,
+            25.0
+          ],
+          "fingerprint": "c0d524b56b06372aa2734f38a5b47826b1bd25b7bf510db10af4a8f0d58b4224",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "11",
+          "name": "kept.2",
+          "kind": "sp",
+          "text": "4",
+          "boundsPx": [
+            462.0,
+            99.0,
+            25.0,
+            25.0
+          ],
+          "fingerprint": "d0b4ac28d855953dc45d5144b588f730226f625d5fee20ff488615d29b5e0af8",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "12",
+          "name": "kept.3",
+          "kind": "sp",
+          "text": "6",
+          "boundsPx": [
+            491.0,
+            99.0,
+            25.0,
+            25.0
+          ],
+          "fingerprint": "67fed2b8186df2d0440ce41891fbeca3e249f282b21285a76dbde8329064c082",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "13",
+          "name": "token-port",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            27.0,
+            87.0,
+            171.0,
+            51.0
+          ],
+          "fingerprint": "c6580e446413679816756c26dfbbe266fa03be4a689ba69bb112df9a70ca5d24",
+          "fontPt": []
+        },
+        {
+          "id": "14",
+          "name": "kept-port",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            404.0,
+            87.0,
+            112.0,
+            51.0
+          ],
+          "fingerprint": "d0716e3dc2d4658fc1c776f70b1464e9dec4fb49ecd6ae391b12c16cffa36345",
+          "fontPt": []
+        },
+        {
+          "id": "45",
+          "name": "selection",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            198.0,
+            112.5001,
+            41.0,
+            0.0
+          ],
+          "fingerprint": "8fde49e07e0cb6bbe12ceb31a7a7ac5f51db2b45a9934a4308d2290056931d6b",
+          "fontPt": []
+        },
+        {
+          "id": "46",
+          "name": "retained",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            344.0,
+            112.5001,
+            60.0,
+            0.0
+          ],
+          "fingerprint": "0648ee377986c91ff987c3201a6eeadfcc6eb7df787cba51cb953917af8bdee0",
+          "fontPt": []
+        },
+        {
+          "id": "17",
+          "name": "aggregate",
+          "kind": "sp",
+          "text": "Aggregate",
+          "boundsPx": [
+            404.0,
+            232.0,
+            112.0,
+            49.0
+          ],
+          "fingerprint": "8d68c5a2f65b31aa68151af364bbb3d19e11ef6a41788c71d1bda68001eb7a13",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "59",
+          "name": "weights",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            46.0,
+            242.0,
+            133.0,
+            31.0
+          ],
+          "fingerprint": "a256d20872b5e8ab884b80a4350465d5f145fb6ad83bf3ba590071df7cabe5aa",
+          "fontPt": []
+        },
+        {
+          "id": "18",
+          "name": "weights.0.0",
+          "kind": "sp",
+          "text": ".5",
+          "boundsPx": [
+            46.0,
+            242.0,
+            31.0,
+            31.0
+          ],
+          "fingerprint": "ee89e380d0caf27e2e862e7e403f9fb570714f7c815ce7558793d6644ff9fe38",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "19",
+          "name": "weights.0.1",
+          "kind": "sp",
+          "text": ".2",
+          "boundsPx": [
+            80.0,
+            242.0,
+            31.0,
+            31.0
+          ],
+          "fingerprint": "d133959c896b0d477356bf03b9dd307a8690de0d3312507a271fed70029f95a2",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "20",
+          "name": "weights.0.2",
+          "kind": "sp",
+          "text": ".2",
+          "boundsPx": [
+            114.0,
+            242.0,
+            31.0,
+            31.0
+          ],
+          "fingerprint": "e314442749a6bee7f1a01636a22e74019a89631d233ec132cd7a393d56e55aa0",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "21",
+          "name": "weights.0.3",
+          "kind": "sp",
+          "text": ".1",
+          "boundsPx": [
+            148.0,
+            242.0,
+            31.0,
+            31.0
+          ],
+          "fingerprint": "8a82d1c19ad65adc390ce051d1c9605a8329dff2619783580bdfa6faeca7f35d",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "22",
+          "name": "weight-port",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            45.0,
+            232.0,
+            134.0,
+            49.0
+          ],
+          "fingerprint": "e3192e3cb06a3e588a781e56e33c0f43b26fbd7a96c0d33623951bacacb4f41a",
+          "fontPt": []
+        },
+        {
+          "id": "53",
+          "name": "weights-edge",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            179.0,
+            256.5001,
+            225.0,
+            0.0
+          ],
+          "fingerprint": "09a8486991cddb38592446eac2173a885f830f1c378a793ac482e1f8c07a3a1f",
+          "fontPt": []
+        },
+        {
+          "id": "54",
+          "name": "token-edge",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            460.0,
+            138.0,
+            0.0,
+            94.0
+          ],
+          "fingerprint": "7be0d95810d3d4adab46bb1763a2d096466196547dd44495dd7c0888950cc6be",
+          "fontPt": []
+        },
+        {
+          "id": "25",
+          "name": "summary",
+          "kind": "sp",
+          "text": "z",
+          "boundsPx": [
+            583.0,
+            232.0,
+            49.0,
+            49.0
+          ],
+          "fingerprint": "8a3408f0e954261a397f693887c8ab0bb86f8de32fc0c40e12e422c161231e7b",
+          "fontPt": [
+            14.25
+          ]
+        },
+        {
+          "id": "56",
+          "name": "summary-edge",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            516.0,
+            256.5001,
+            67.0,
+            0.0
+          ],
+          "fingerprint": "9df7199748689db1e549c9619cbac798a4e6aba98428abf4de3ad187c14c1e1f",
+          "fontPt": []
+        },
+        {
+          "id": "27",
+          "name": "all-label",
+          "kind": "sp",
+          "text": "Token positions",
+          "boundsPx": [
+            27.0,
+            64.0,
+            171.0,
+            25.0
+          ],
+          "fingerprint": "847939d4a3d5a1cca88a60499f414745ac6aa67411239c17dbf43a4379f4245a",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "28",
+          "name": "kept-label",
+          "kind": "sp",
+          "text": "Retained tokens",
+          "boundsPx": [
+            394.0,
+            64.0,
+            133.0,
+            25.0
+          ],
+          "fingerprint": "35ff0a882de257b18a2f9058213b2da173199456978ff96f14e07583be8b74bb",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "29",
+          "name": "weights-label",
+          "kind": "sp",
+          "text": "Normalized weights",
+          "boundsPx": [
+            28.0,
+            203.0,
+            172.0,
+            25.0
+          ],
+          "fingerprint": "c9acdd6343fb263706c2c6b65f58f8208d11a13e3fd26a4a21ff74d57e7f68fa",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "30",
+          "name": "mask-label",
+          "kind": "sp",
+          "text": "Gray: omitted tokens",
+          "boundsPx": [
+            27.0,
+            140.0,
+            175.0,
+            25.0
+          ],
+          "fingerprint": "e0981b3fb6ca020b5901b99c742dadbb53b8de1ea7a237656be9f34b68e546cc",
+          "fontPt": [
+            9.0
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "name": "selection",
+          "from": "token-port",
+          "to": "select",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "retained",
+          "from": "select",
+          "to": "kept-port",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "weights-edge",
+          "from": "weight-port",
+          "to": "aggregate",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "token-edge",
+          "from": "kept-port",
+          "to": "aggregate",
+          "fromIdx": "2",
+          "toIdx": "0",
+          "directed": true
+        },
+        {
+          "name": "summary-edge",
+          "from": "aggregate",
+          "to": "summary",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        }
+      ],
+      "counts": {
+        "sp": 25,
+        "cxnSp": 5,
+        "grpSp": 3,
+        "pic": 0,
+        "graphicFrame": 0
+      },
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "passed": true
+}

@@ -1,0 +1,58 @@
+{
+  "test": "One fresh-context generation on a newly supplied scientific domain",
+  "startedAtUtc": "2026-09-30T01:55:56.786274+00:00",
+  "agentTask": "/root/unseen_figure_session",
+  "historyFork": "none",
+  "modelSelection": "Inherited parent model/settings; no explicit model override or different-service claim",
+  "inputBrief": "brief.json",
+  "skillSnapshot": "skills/paper-figure",
+  "skillSnapshotHashes": "skill-snapshot.json",
+  "allowedContext": "Isolated workspace, its shipped skill resources, installed skill/runtime documentation, and primary web sources as needed",
+  "excludedContext": "Previous conversation, prior generated artifacts, reviewer feedback, parent suggested composition, other threads",
+  "generationOwnership": "Agent chooses, creates, renders and revises its own figure; parent only reads and verifies delivered artifacts",
+  "interpretation": "Unseen means new to this project's test briefs and generation conversation. It does not mean absent from model pretraining. This is one demonstration, not a controlled quality experiment.",
+  "completedAtUtc": "2026-09-30T02:03:57.346301+00:00",
+  "deliverables": {
+    "pptx": {
+      "path": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/unseen-context-test-01/droplet-screening.pptx",
+      "sha256": "78a4d0170b79aed44e472dd93bc358b050436ea3870751ccd38f1341a1d242da",
+      "identicalToIndependentAgentOutput": true
+    },
+    "pdf": {
+      "path": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/unseen-context-test-01/droplet-screening.pdf",
+      "sha256": "ba992387313b4d8e05632521859f0642e822c2c1b2221ce601fce135f2bd990b",
+      "identicalToIndependentAgentOutput": true
+    },
+    "png": {
+      "path": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/unseen-context-test-01/droplet-screening.png",
+      "sha256": "cb8ae2c18191efda981382fc5d29c84c1ee1d37481ede2e542667983ccb56571",
+      "identicalToIndependentAgentOutput": true
+    }
+  },
+  "generatorReviewRounds": 2,
+  "parentModifiedFigure": false,
+  "skillSnapshotUnchanged": true,
+  "parentVerification": {
+    "savedPptxContentContract": true,
+    "nativeCounts": {
+      "sp": 97,
+      "cxnSp": 3,
+      "grpSp": 6,
+      "pic": 0,
+      "graphicFrame": 0
+    },
+    "connectorAudit": {
+      "connectors": 3,
+      "requiringRenderedReview": 0,
+      "geometryUnchecked": 0
+    },
+    "renderReviewed": true,
+    "observations": [
+      "Both continuous oil inlets and the aqueous stream visibly converge before droplet generation.",
+      "A continuous meandering channel connects generation, incubation, optical detection, and the Y sorting junction.",
+      "Detector and controller connections reach visible objects, and the controller trigger reaches the sorting electrode.",
+      "F >= theta is mapped to collected hits and F < theta to waste. Dot-filled vs open droplets retain their meaning without color."
+    ],
+    "scope": "Read-only artifact and visual review. Custom channel topology checked visually; no new native PowerPoint editing or blind published-source classification."
+  }
+}

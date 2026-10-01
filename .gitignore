@@ -1,0 +1,27 @@
+# Local build work and dependency environments
+/.build/
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+/.codex/
+/.claude/settings.local.json
+*.pem
+*.key
+
+# OS and editor scratch files
+.DS_Store
+._*
+Thumbs.db
+*.swp
+*.swo
+*~

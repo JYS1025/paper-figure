@@ -1,0 +1,38 @@
+{
+  "pdfSha256": "0f57c02349499de734b672ed8f12237db5ff9950aa938c4ba0b5748d60be5210",
+  "publicationWidthMm": 177.8,
+  "regions": [
+    {
+      "name": "weight-definition",
+      "page": 1,
+      "boundsPt": [
+        260,
+        30,
+        504,
+        54
+      ],
+      "expectedText": "aci = area(Cc ∩ Di) / area(Di)",
+      "expectedFonts": [
+        "LiberationSans"
+      ],
+      "minSizePt": 6.0,
+      "minRelativeSize": 0.6
+    },
+    {
+      "name": "aggregation-general",
+      "page": 1,
+      "boundsPt": [
+        420,
+        220,
+        504,
+        245
+      ],
+      "expectedText": "yc = ∑i aci xi",
+      "expectedFonts": [
+        "LiberationSans-Bold"
+      ],
+      "minSizePt": 6.0,
+      "minRelativeSize": 0.6
+    }
+  ]
+}

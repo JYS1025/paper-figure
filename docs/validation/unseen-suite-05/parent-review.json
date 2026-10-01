@@ -1,0 +1,90 @@
+{
+  "reviewedAtUtc": "2026-09-30T08:15:18.864329+00:00",
+  "tasks": {
+    "timestamped-fusion": {
+      "semantic": "Delayed correction lands on historical t_k; updated state and retained IMU samples feed replay; corrected current pose starts future propagation.",
+      "parentFeedback": "Unify five literal t_now labels with native subscripts; confirmed in final render.",
+      "remainingLayoutWarnings": "Two finalizer bounding-box intersections were inspected; actual routed line clears the text.",
+      "structuralDefectsFound": []
+    },
+    "spatial-assignment": {
+      "semantic": "S2 contributes alpha and 1-alpha, S4 beta with unassigned 1-beta, S5 no contribution. Cell rows, spot columns and vector sums correspond.",
+      "parentFeedback": "Replace literal mathematical underscores with native subscripts; author also identified the issue. Confirmed final legend and A boundary.",
+      "structuralDefectsFound": []
+    },
+    "asynchronous-discovery": {
+      "semantic": "Only completed A/C train; E is queued; after B completes, A/C/B are measured, E/D pending and F untested. D continues independently.",
+      "parentFeedback": "Remove text/dispatch-line overlap; author independently fixed it. Confirmed in final render.",
+      "structuralDefectsFound": []
+    }
+  },
+  "fileChecks": [
+    {
+      "task": "timestamped-fusion",
+      "pptxSha256": "e8350ec62cdc8ce5af40d951d0e1826206a16bec97a183504dad42cc78fd2ff7",
+      "pngSha256": "0dc0cd72f31ccad7fdd4c29ce78a85ca07dcbae49ef6b49cb041fe49185a3fb2",
+      "pdfSha256": "5f223690c4957d1f4d4b3a9bbfeeb999464823c3aa67a754119c43be9427e766",
+      "nativeCounts": {
+        "sp": 57,
+        "cxnSp": 12,
+        "grpSp": 2,
+        "pic": 0
+      },
+      "publicationWidthMm": 177.8,
+      "pngPixels": [
+        2100,
+        1419
+      ],
+      "matchesGeneratorFinalHash": true,
+      "briefUnchanged": true,
+      "wholeFigureRasterEmbedded": false,
+      "literalUnderscoreLabels": false,
+      "parentFinalColorAndGrayscaleReviewed": true
+    },
+    {
+      "task": "spatial-assignment",
+      "pptxSha256": "89ea5647c0406d8d488b9b6d5249b57de90267c515272454a8aad02c0d6f697b",
+      "pngSha256": "49226a4183cf3c9b28256a4f9efdd1820f94eb7d0385c15cd4b6664ce2116b10",
+      "pdfSha256": "0f57c02349499de734b672ed8f12237db5ff9950aa938c4ba0b5748d60be5210",
+      "nativeCounts": {
+        "sp": 89,
+        "cxnSp": 1,
+        "grpSp": 7,
+        "pic": 0
+      },
+      "publicationWidthMm": 177.8,
+      "pngPixels": [
+        1344,
+        860
+      ],
+      "matchesGeneratorFinalHash": true,
+      "briefUnchanged": true,
+      "wholeFigureRasterEmbedded": false,
+      "literalUnderscoreLabels": false,
+      "parentFinalColorAndGrayscaleReviewed": true
+    },
+    {
+      "task": "asynchronous-discovery",
+      "pptxSha256": "195fce0a3ed9d4996dc585bfea85668a245cfec53d0f2e50634a4dbecd8cd54b",
+      "pngSha256": "138f362d77ba549f71dfd75ec656482e96bf25cca4d1929476fdf37bb9e17a58",
+      "pdfSha256": "8fa4132eadaa661978be83982705af8a122a23bf1afc8e6f89d82aa06675eb7b",
+      "nativeCounts": {
+        "sp": 46,
+        "cxnSp": 11,
+        "grpSp": 0,
+        "pic": 0
+      },
+      "publicationWidthMm": 177.8,
+      "pngPixels": [
+        1400,
+        1226
+      ],
+      "matchesGeneratorFinalHash": true,
+      "briefUnchanged": true,
+      "wholeFigureRasterEmbedded": false,
+      "literalUnderscoreLabels": false,
+      "parentFinalColorAndGrayscaleReviewed": true
+    }
+  ],
+  "scope": "Read-only final review plus author-owned targeted revisions; no blind source or aesthetic scoring"
+}

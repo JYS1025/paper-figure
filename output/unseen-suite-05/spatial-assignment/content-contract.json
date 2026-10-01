@@ -1,0 +1,16 @@
+{
+  "source": "spatial-assignment.md",
+  "targetWidthMm": 177.8,
+  "canvasPx": [672, 430],
+  "meaning": "Finite spot footprints assign fractions of each assay count vector to registered cell masks. Outside footprint area remains unassigned, without renormalization.",
+  "entities": {"cells": ["C1", "C2"], "spots": ["S1", "S2", "S3", "S4", "S5"], "spotVectors": ["x₁", "x₂", "x₃", "x₄", "x₅"], "cellVectors": ["y₁", "y₂"]},
+  "spatial": ["C1 and C2 are adjacent and non-overlapping", "S1 lies wholly in C1", "S2 overlaps both C1 and C2 and, by chosen schematic geometry, no outside area", "S3 lies wholly in C2", "S4 overlaps C2 and outside all masks", "S5 lies wholly outside all masks"],
+  "weights": {"rows": ["C1", "C2"], "columns": ["S1", "S2", "S3", "S4", "S5"], "A": [["1", "α", "0", "0", "0"], ["0", "1−α", "1", "β", "0"]], "constraints": "0 < α, β < 1", "definition": "a_ci = area(C_c ∩ D_i) / area(D_i)", "outside": ["0", "0", "0", "1−β", "1"], "outsideRowIsPartOfA": false},
+  "aggregation": ["y_c = ∑_i a_ci x_i", "y₁ = x₁ + αx₂", "y₂ = (1−α)x₂ + x₃ + βx₄"],
+  "featureMeaning": "x_i = (x_i1, …, x_iF) is the entire count vector at spot i. Feature index f is distinct from spot index i. F is unspecified.",
+  "requiredDefinitions": ["D_i: spot footprint", "a_ci: footprint area fraction", "S2 shared between both cells", "S4 has unassigned fraction 1−β", "S5 contributes to neither cell", "outside area is not renormalized", "schematic geometry; α and β are symbolic, not measured values"],
+  "forbidden": ["invented counts", "result heatmap", "registration algorithm", "segmentation network", "biological markers", "assay performance", "rasterized whole figure"],
+  "design": {"colorBook": "blue-apricot", "roles": {"C1": "blue fill/stroke/accent", "C2": "apricot fill/stroke/accent", "spotIdentity": "neutral dark circle and S-index", "unassigned": "neutral hatch"}, "neutral": "formula text, spot labels, operators, separators", "layout": "large spatial field upper left; aligned cell-by-spot matrix upper right; two explicit symbolic output vector sums at bottom"},
+  "relationshipPlan": {"marks": "disk = one spot footprint; cell contour = one mask; matrix cell = area fraction; x-index label = whole feature vector; vector components use f or F", "identity": "S1–S5 spatial labels repeat as matrix columns and pair with x₁–x₅; C1/C2 colors and labels repeat in matrix rows and output labels", "edges": "single arrow from visible spatial domain frame to visible assignment matrix frame means footprint-to-weight derivation; aggregation is expressed by exact equations rather than a fabricated flow module", "unknowns": "No count values or feature dimension. α and β remain symbolic even though placement is schematic.", "centralRelationship": "One disk can split its vector between cells or leave part unassigned, and cell vectors sum only the assigned portions."},
+  "sourceReferenceStudy": {"url": "https://arxiv.org/html/2103.00020v1/main-diagrams.png", "visuallyInspected": true, "observation": "CLIP uses indexed top/left axes to make pairwise identity traceable. Adopt explicit matrix axes, not its encoders, photos, triangular modules or training/application panel structure."}
+}

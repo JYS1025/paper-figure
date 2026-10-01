@@ -1,0 +1,528 @@
+{
+  "source": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/unseen-suite-05/spatial-assignment/figure.pdf",
+  "sourceSha256": "0f57c02349499de734b672ed8f12237db5ff9950aa938c4ba0b5748d60be5210",
+  "readOnly": true,
+  "publicationWidthMm": 177.8,
+  "scope": "Selected PDF text metrics only; inspect mathematical typography and native editability separately.",
+  "summary": {
+    "regions": 2,
+    "requiringReview": 2,
+    "unmeasuredRegions": 0
+  },
+  "regions": [
+    {
+      "name": "weight-definition",
+      "page": 1,
+      "boundsPt": [
+        260,
+        30,
+        504,
+        54
+      ],
+      "reviewReasons": [
+        "below_selected_minimum_size",
+        "below_selected_relative_size"
+      ],
+      "unexpectedFonts": [],
+      "expectedText": "aci = area(Cc ∩ Di) / area(Di)",
+      "missingCharacters": {},
+      "extraCharacters": {},
+      "minPublicationSizePt": 4.089,
+      "maxPublicationSizePt": 9.298,
+      "minToMaxSizeRatio": 0.4398,
+      "thresholds": {
+        "minSizePt": 6.0,
+        "minRelativeSize": 0.6,
+        "expectedFonts": [
+          "LiberationSans"
+        ]
+      },
+      "characters": [
+        {
+          "text": "a",
+          "font": "LiberationSans",
+          "pdfSizePt": 9.298,
+          "publicationSizePt": 9.298,
+          "boundsPt": [
+            263.962,
+            39.6345,
+            269.1317,
+            48.9325
+          ],
+          "upright": true
+        },
+        {
+          "text": "c",
+          "font": "LiberationSans",
+          "pdfSizePt": 4.089,
+          "publicationSizePt": 4.089,
+          "boundsPt": [
+            269.099,
+            45.2784,
+            271.1435,
+            49.3674
+          ],
+          "upright": true
+        },
+        {
+          "text": "i",
+          "font": "LiberationSans",
+          "pdfSizePt": 4.089,
+          "publicationSizePt": 4.089,
+          "boundsPt": [
+            271.1108,
+            45.2784,
+            272.0185,
+            49.3674
+          ],
+          "upright": true
+        },
+        {
+          "text": "=",
+          "font": "LiberationSans",
+          "pdfSizePt": 9.298,
+          "publicationSizePt": 9.298,
+          "boundsPt": [
+            274.5887,
+            39.6345,
+            280.0094,
+            48.9325
+          ],
+          "upright": true
+        },
+        {
+          "text": "a",
+          "font": "LiberationSans",
+          "pdfSizePt": 9.298,
+          "publicationSizePt": 9.298,
+          "boundsPt": [
+            282.5477,
+            39.6345,
+            287.7174,
+            48.9325
+          ],
+          "upright": true
+        },
+        {
+          "text": "r",
+          "font": "LiberationSans",
+          "pdfSizePt": 9.298,
+          "publicationSizePt": 9.298,
+          "boundsPt": [
+            287.6802,
+            39.6345,
+            290.7765,
+            48.9325
+          ],
+          "upright": true
+        },
+        {
+          "text": "e",
+          "font": "LiberationSans",
+          "pdfSizePt": 9.298,
+          "publicationSizePt": 9.298,
+          "boundsPt": [
+            290.7672,
+            39.6345,
+            295.9369,
+            48.9325
+          ],
+          "upright": true
+        },
+        {
+          "text": "a",
+          "font": "LiberationSans",
+          "pdfSizePt": 9.298,
+          "publicationSizePt": 9.298,
+          "boundsPt": [
+            295.8997,
+            39.6345,
+            301.0694,
+            48.9325
+          ],
+          "upright": true
+        },
+        {
+          "text": "(",
+          "font": "LiberationSans",
+          "pdfSizePt": 9.298,
+          "publicationSizePt": 9.298,
+          "boundsPt": [
+            301.0322,
+            39.6345,
+            304.1284,
+            48.9325
+          ],
+          "upright": true
+        },
+        {
+          "text": "C",
+          "font": "LiberationSans",
+          "pdfSizePt": 9.298,
+          "publicationSizePt": 9.298,
+          "boundsPt": [
+            304.1191,
+            39.6345,
+            310.8323,
+            48.9325
+          ],
+          "upright": true
+        },
+        {
+          "text": "c",
+          "font": "LiberationSans",
+          "pdfSizePt": 4.089,
+          "publicationSizePt": 4.089,
+          "boundsPt": [
+            310.816,
+            45.2784,
+            312.8605,
+            49.3674
+          ],
+          "upright": true
+        },
+        {
+          "text": "∩",
+          "font": "LiberationSans",
+          "pdfSizePt": 9.298,
+          "publicationSizePt": 9.298,
+          "boundsPt": [
+            315.4077,
+            39.6345,
+            322.0836,
+            48.9325
+          ],
+          "upright": true
+        },
+        {
+          "text": "D",
+          "font": "LiberationSans",
+          "pdfSizePt": 9.298,
+          "publicationSizePt": 9.298,
+          "boundsPt": [
+            324.6127,
+            39.6345,
+            331.3258,
+            48.9325
+          ],
+          "upright": true
+        },
+        {
+          "text": "i",
+          "font": "LiberationSans",
+          "pdfSizePt": 4.089,
+          "publicationSizePt": 4.089,
+          "boundsPt": [
+            331.319,
+            45.2784,
+            332.2268,
+            49.3674
+          ],
+          "upright": true
+        },
+        {
+          "text": ")",
+          "font": "LiberationSans",
+          "pdfSizePt": 9.298,
+          "publicationSizePt": 9.298,
+          "boundsPt": [
+            332.22,
+            39.6345,
+            335.3162,
+            48.9325
+          ],
+          "upright": true
+        },
+        {
+          "text": "/",
+          "font": "LiberationSans",
+          "pdfSizePt": 9.298,
+          "publicationSizePt": 9.298,
+          "boundsPt": [
+            337.8546,
+            39.6345,
+            340.4301,
+            48.9325
+          ],
+          "upright": true
+        },
+        {
+          "text": "a",
+          "font": "LiberationSans",
+          "pdfSizePt": 9.298,
+          "publicationSizePt": 9.298,
+          "boundsPt": [
+            342.9778,
+            39.6345,
+            348.1475,
+            48.9325
+          ],
+          "upright": true
+        },
+        {
+          "text": "r",
+          "font": "LiberationSans",
+          "pdfSizePt": 9.298,
+          "publicationSizePt": 9.298,
+          "boundsPt": [
+            348.1103,
+            39.6345,
+            351.2065,
+            48.9325
+          ],
+          "upright": true
+        },
+        {
+          "text": "e",
+          "font": "LiberationSans",
+          "pdfSizePt": 9.298,
+          "publicationSizePt": 9.298,
+          "boundsPt": [
+            351.1972,
+            39.6345,
+            356.3669,
+            48.9325
+          ],
+          "upright": true
+        },
+        {
+          "text": "a",
+          "font": "LiberationSans",
+          "pdfSizePt": 9.298,
+          "publicationSizePt": 9.298,
+          "boundsPt": [
+            356.3297,
+            39.6345,
+            361.4994,
+            48.9325
+          ],
+          "upright": true
+        },
+        {
+          "text": "(",
+          "font": "LiberationSans",
+          "pdfSizePt": 9.298,
+          "publicationSizePt": 9.298,
+          "boundsPt": [
+            361.4622,
+            39.6345,
+            364.5584,
+            48.9325
+          ],
+          "upright": true
+        },
+        {
+          "text": "D",
+          "font": "LiberationSans",
+          "pdfSizePt": 9.298,
+          "publicationSizePt": 9.298,
+          "boundsPt": [
+            364.5491,
+            39.6345,
+            371.2623,
+            48.9325
+          ],
+          "upright": true
+        },
+        {
+          "text": "i",
+          "font": "LiberationSans",
+          "pdfSizePt": 4.089,
+          "publicationSizePt": 4.089,
+          "boundsPt": [
+            371.247,
+            45.2784,
+            372.1548,
+            49.3674
+          ],
+          "upright": true
+        },
+        {
+          "text": ")",
+          "font": "LiberationSans",
+          "pdfSizePt": 9.298,
+          "publicationSizePt": 9.298,
+          "boundsPt": [
+            372.161,
+            39.6345,
+            375.2572,
+            48.9325
+          ],
+          "upright": true
+        }
+      ],
+      "boundaryCharacters": [],
+      "pdfPageSizePt": [
+        504,
+        322.497637795276
+      ],
+      "publicationScale": 1.0000000000000002
+    },
+    {
+      "name": "aggregation-general",
+      "page": 1,
+      "boundsPt": [
+        420,
+        220,
+        504,
+        245
+      ],
+      "reviewReasons": [
+        "below_selected_minimum_size",
+        "below_selected_relative_size"
+      ],
+      "unexpectedFonts": [],
+      "expectedText": "yc = ∑i aci xi",
+      "missingCharacters": {},
+      "extraCharacters": {},
+      "minPublicationSizePt": 5.2,
+      "maxPublicationSizePt": 11.991,
+      "minToMaxSizeRatio": 0.4337,
+      "thresholds": {
+        "minSizePt": 6.0,
+        "minRelativeSize": 0.6,
+        "expectedFonts": [
+          "LiberationSans-Bold"
+        ]
+      },
+      "characters": [
+        {
+          "text": "y",
+          "font": "LiberationSans-Bold",
+          "pdfSizePt": 11.991,
+          "publicationSizePt": 11.991,
+          "boundsPt": [
+            430.044,
+            228.6497,
+            436.711,
+            240.6407
+          ],
+          "upright": true
+        },
+        {
+          "text": "c",
+          "font": "LiberationSans-Bold",
+          "pdfSizePt": 5.2,
+          "publicationSizePt": 5.2,
+          "boundsPt": [
+            436.698,
+            235.9978,
+            439.5892,
+            241.1978
+          ],
+          "upright": true
+        },
+        {
+          "text": "=",
+          "font": "LiberationSans-Bold",
+          "pdfSizePt": 11.991,
+          "publicationSizePt": 11.991,
+          "boundsPt": [
+            442.8785,
+            228.6497,
+            449.8693,
+            240.6407
+          ],
+          "upright": true
+        },
+        {
+          "text": "∑",
+          "font": "LiberationSans-Bold",
+          "pdfSizePt": 11.991,
+          "publicationSizePt": 11.991,
+          "boundsPt": [
+            453.2028,
+            228.6497,
+            461.7404,
+            240.6407
+          ],
+          "upright": true
+        },
+        {
+          "text": "i",
+          "font": "LiberationSans-Bold",
+          "pdfSizePt": 5.2,
+          "publicationSizePt": 5.2,
+          "boundsPt": [
+            461.788,
+            235.9978,
+            463.2284,
+            241.1978
+          ],
+          "upright": true
+        },
+        {
+          "text": "a",
+          "font": "LiberationSans-Bold",
+          "pdfSizePt": 11.991,
+          "publicationSizePt": 11.991,
+          "boundsPt": [
+            466.5475,
+            228.6497,
+            473.2145,
+            240.6407
+          ],
+          "upright": true
+        },
+        {
+          "text": "c",
+          "font": "LiberationSans-Bold",
+          "pdfSizePt": 5.2,
+          "publicationSizePt": 5.2,
+          "boundsPt": [
+            473.239,
+            235.9978,
+            476.1302,
+            241.1978
+          ],
+          "upright": true
+        },
+        {
+          "text": "i",
+          "font": "LiberationSans-Bold",
+          "pdfSizePt": 5.2,
+          "publicationSizePt": 5.2,
+          "boundsPt": [
+            476.1094,
+            235.9978,
+            477.5498,
+            241.1978
+          ],
+          "upright": true
+        },
+        {
+          "text": "x",
+          "font": "LiberationSans-Bold",
+          "pdfSizePt": 11.991,
+          "publicationSizePt": 11.991,
+          "boundsPt": [
+            480.8625,
+            228.6497,
+            487.5295,
+            240.6407
+          ],
+          "upright": true
+        },
+        {
+          "text": "i",
+          "font": "LiberationSans-Bold",
+          "pdfSizePt": 5.2,
+          "publicationSizePt": 5.2,
+          "boundsPt": [
+            487.56,
+            235.9978,
+            489.0004,
+            241.1978
+          ],
+          "upright": true
+        }
+      ],
+      "boundaryCharacters": [],
+      "pdfPageSizePt": [
+        504,
+        322.497637795276
+      ],
+      "publicationScale": 1.0000000000000002
+    }
+  ]
+}

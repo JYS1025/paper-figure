@@ -1,0 +1,16 @@
+{
+  "skillFormat": "passed",
+  "testsPassed": 35,
+  "newConnectorTests": 7,
+  "existingPptxAndPngPreserved": 121,
+  "newPptxAndPngInOutput": 0,
+  "auditRefusesSourceOverwrite": true,
+  "projectSkillLinkResolvesToUpdatedFolder": true,
+  "archive": "output/paper-figure-skill.zip",
+  "archiveFiles": 19,
+  "archiveMatchesSource": true,
+  "newGenerationQualityTest": "not_run",
+  "newBlindModelEvaluation": "not_run",
+  "localMarkdownLinksChecked": 51,
+  "localMarkdownLinksValid": true
+}

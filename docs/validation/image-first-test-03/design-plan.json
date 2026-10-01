@@ -1,0 +1,51 @@
+{
+  "source": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/image-first-test-03/image-draft.png",
+  "sourceSha256": "d8ccf3bcc2ac4997d8d7e15e78f91bfefea906f53a3dea82cd9de9a7a68b9328",
+  "brief": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/image-first-test-03/brief.json",
+  "plannedBeforeAuthoring": true,
+  "publicationWidthMm": 177.8,
+  "canvasPx": [
+    672,
+    340
+  ],
+  "palette": "olive-copper",
+  "preserve": [
+    "Long horizontal integrated device composition",
+    "Compact three-turn incubation meander",
+    "Optical sensing window as a concrete device cue",
+    "Control lane above the downstream region",
+    "Short direct callouts and restrained line hierarchy"
+  ],
+  "correctBeforeTransfer": [
+    "Keep comparison of F with theta inside one controller; remove duplicate parallel comparison path",
+    "Represent a continuous aqueous inlet rather than unrequested particle biology",
+    "Use opposing oil arms at the flow-focusing junction",
+    "Keep the same carrier-oil color through both outlets",
+    "Define pale droplets as unscored, solid as above threshold and open as below threshold; do not encode measured values"
+  ],
+  "semanticContract": {
+    "material": [
+      "aqueous and carrier oil -> flow focusing",
+      "flow focusing -> incubation",
+      "incubation -> detection",
+      "detection -> sorting",
+      "sorting -> collected hits when F >= theta",
+      "sorting -> waste when F < theta"
+    ],
+    "control": [
+      "detector -> controller carrying F",
+      "controller -> sorting electrode carrying trigger"
+    ],
+    "unknown": [
+      "dimensions",
+      "flow rates",
+      "incubation time",
+      "signal values",
+      "biology",
+      "electrode mechanism",
+      "performance"
+    ]
+  },
+  "reconstruction": "All explanatory elements are native PowerPoint shapes, paths, gradients, text and attached connectors; no embedded draft image. Gradients on unscored droplets are a cosmetic native fill, not data encoding.",
+  "review": "Saved-file rendering, contract, flow audit, native object count and full-size/publication/gray visual review. No app-level edit claim."
+}

@@ -1,0 +1,25 @@
+{
+  "untouchedPackageParts": 20,
+  "untouchedObjects": [
+    "caption",
+    "input",
+    "encoder",
+    "input-encoder",
+    "encoder-output",
+    "token-group",
+    "token-group.0",
+    "token-group.1",
+    "token-group.2",
+    "token-group.3",
+    "equation",
+    "editable-note"
+  ],
+  "encoderHumanText": "Encoder edited",
+  "groupMovedInPowerPoint": [
+    63.0769,
+    248.0,
+    133.5231,
+    30.0
+  ],
+  "targetChangedTo": "Result y"
+}

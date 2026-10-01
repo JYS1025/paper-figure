@@ -1,0 +1,35 @@
+{
+  "slides": [
+    {
+      "nodes": {
+        "input": "Input",
+        "local": "Local encoder",
+        "global": "Global encoder",
+        "fuse": "Fuse",
+        "prediction": "Prediction"
+      },
+      "edges": [
+        [
+          "input",
+          "local"
+        ],
+        [
+          "input",
+          "global"
+        ],
+        [
+          "local",
+          "fuse"
+        ],
+        [
+          "global",
+          "fuse"
+        ],
+        [
+          "fuse",
+          "prediction"
+        ]
+      ]
+    }
+  ]
+}

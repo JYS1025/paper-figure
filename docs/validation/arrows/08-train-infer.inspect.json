@@ -1,0 +1,1389 @@
+{
+  "file": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/arrow-study/08-train-infer.pptx",
+  "sha256": "0feb70cadbc73dc06cd832e64f3c6a1d2c9c39fe5ee49807dac6f7a439d77c40",
+  "sizePx": [
+    672.0,
+    400.0
+  ],
+  "slides": [
+    {
+      "part": "ppt/slides/slide1.xml",
+      "objects": [
+        {
+          "id": "93",
+          "name": "train-heading",
+          "kind": "sp",
+          "text": "(a) Training \u00b7 supervision updates the parameters",
+          "boundsPx": [
+            18.0,
+            10.0,
+            639.0,
+            24.0
+          ],
+          "fingerprint": "f5585847f4c7cd5564ad46ec8b7f2122feadc486d4e2aa43dd662df4a44cd6d2",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "2",
+          "name": "phase-divider",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            18.0,
+            218.0,
+            636.0,
+            0.01
+          ],
+          "fingerprint": "1a5a57c58d7ab28a6e74ad3af308160c177b869fcbf56b9112e58260abee1910",
+          "fontPt": []
+        },
+        {
+          "id": "3",
+          "name": "train-x",
+          "kind": "sp",
+          "text": "Sample x",
+          "boundsPx": [
+            21.0,
+            61.0,
+            114.0,
+            95.0
+          ],
+          "fingerprint": "ccd6d624d1e60d9e6893375d3a2534eb2f067d016903a9d15dae26bfd0a6e122",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "4",
+          "name": "training-sample.axis",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            27.0,
+            117.0,
+            100.0,
+            0.01
+          ],
+          "fingerprint": "0b124338443ec6dd3b05cd0775ef66647bf0f704af4f44929fa3df2926170803",
+          "fontPt": []
+        },
+        {
+          "id": "5",
+          "name": "training-sample.err0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            27.0,
+            89.32,
+            0.01,
+            10.0
+          ],
+          "fingerprint": "37858f52c5ec6902db7fd8174e60b176e173bfea63099080cc03b42f9a35327b",
+          "fontPt": []
+        },
+        {
+          "id": "6",
+          "name": "training-sample.p0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            25.0,
+            92.32,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "b09c8c2ce372152e72d342e6915dc2f06dff5ef3c7e601b49749d748b4938d59",
+          "fontPt": []
+        },
+        {
+          "id": "7",
+          "name": "training-sample.err1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            34.0,
+            81.3801,
+            0.01,
+            14.0
+          ],
+          "fingerprint": "6e391f78ac08a4fd15254e06f51d473f34e1d0201741e52fa57587ed3be9cafb",
+          "fontPt": []
+        },
+        {
+          "id": "8",
+          "name": "training-sample.p1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            32.0,
+            86.3801,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "7c753fc123712fbcf6dc1e36d69ab09c78904af766a263456ac23836661a7907",
+          "fontPt": []
+        },
+        {
+          "id": "9",
+          "name": "training-sample.err2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            43.0,
+            67.5001,
+            0.01,
+            18.0
+          ],
+          "fingerprint": "8e34257b179b992994227a3bf252fa7d04ba267aa7d18c5ca401ae8a952c0e08",
+          "fontPt": []
+        },
+        {
+          "id": "10",
+          "name": "training-sample.p2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            41.0,
+            74.5001,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "6f34f64869ad01de02fb60a2146feb07dadcc1aa11c6621c4d46ee83e0852dfe",
+          "fontPt": []
+        },
+        {
+          "id": "11",
+          "name": "training-sample.err3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            48.0,
+            74.7401,
+            0.01,
+            10.0
+          ],
+          "fingerprint": "d0508699d6863ecb8732afa61508db251b6dab9cfc79e9775ce28cb4c44bb78b",
+          "fontPt": []
+        },
+        {
+          "id": "12",
+          "name": "training-sample.p3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            46.0,
+            77.7401,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "684721c80acc41f95a526041bfb7fce6d2d2092ba547772fb04e54ecc8d3c45d",
+          "fontPt": []
+        },
+        {
+          "id": "13",
+          "name": "training-sample.err4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            65.0,
+            92.1801,
+            0.01,
+            14.0
+          ],
+          "fingerprint": "484acfb709df19fe59212aaa88a844572ce2a02a0c06f0486f874456875ef579",
+          "fontPt": []
+        },
+        {
+          "id": "14",
+          "name": "training-sample.p4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            63.0,
+            97.1801,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "e2e900e0af3be9a3f3c3e46ac99be97537b53f920f3950a1d427eb36f3a11c77",
+          "fontPt": []
+        },
+        {
+          "id": "15",
+          "name": "training-sample.err5",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            70.0,
+            98.28,
+            0.01,
+            18.0
+          ],
+          "fingerprint": "16c9c02ed39e385409f686f8f078cbcd0a7a9b258025689230d573bb4f5b33f2",
+          "fontPt": []
+        },
+        {
+          "id": "16",
+          "name": "training-sample.p5",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            68.0,
+            105.28,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "446594044607629a8547dd79b4d0b8e4a9ed288a48fa5bdd6c518d487e6c1c1b",
+          "fontPt": []
+        },
+        {
+          "id": "17",
+          "name": "training-sample.err6",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            85.0,
+            90.4,
+            0.01,
+            10.0
+          ],
+          "fingerprint": "6ae74ad49967398123c669ff264ba798c6c7d2a7c8a8c2fba7ff2af1e64ef216",
+          "fontPt": []
+        },
+        {
+          "id": "18",
+          "name": "training-sample.p6",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            83.0,
+            93.4,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "c5b098c6f25b24596c9add029a8e2df4445375eb50e7deeafd8cf348671c7a0e",
+          "fontPt": []
+        },
+        {
+          "id": "19",
+          "name": "training-sample.err7",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            100.0,
+            71.6601,
+            0.01,
+            14.0
+          ],
+          "fingerprint": "525131311f5d9d5161c5829fdb5327598d9ea1bde7159d5347f584f7aab32a5a",
+          "fontPt": []
+        },
+        {
+          "id": "20",
+          "name": "training-sample.p7",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            98.0,
+            76.6601,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "928daba4b71e6a9198ce1b8de89e769501bdc797d5ab36eb2276e1920868f7f2",
+          "fontPt": []
+        },
+        {
+          "id": "21",
+          "name": "training-sample.err8",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            106.0,
+            64.2601,
+            0.01,
+            18.0
+          ],
+          "fingerprint": "d20ebedc6efe4f1bf53ffbd99d8a3794318f5f4b0ae8f064a987dd1956f1c685",
+          "fontPt": []
+        },
+        {
+          "id": "22",
+          "name": "training-sample.p8",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            104.0,
+            71.2601,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "bb5797bd8896a4d4daa0e339a512d4d9041e8cb1b30e90cd9c39b0dcff583f5b",
+          "fontPt": []
+        },
+        {
+          "id": "23",
+          "name": "training-sample.err9",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            119.0,
+            77.9801,
+            0.01,
+            10.0
+          ],
+          "fingerprint": "1bf7fccf1edb1ad37c04a5b8bf21b9e58bffee27e6600a073db3a34f5efba1bf",
+          "fontPt": []
+        },
+        {
+          "id": "24",
+          "name": "training-sample.p9",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            117.0,
+            80.9801,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "99a3897c118e2abd7a14cd2d5b968093117b9a718257486cba8b67a05f486e81",
+          "fontPt": []
+        },
+        {
+          "id": "25",
+          "name": "training-sample.err10",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            127.0,
+            85.16,
+            0.01,
+            14.0
+          ],
+          "fingerprint": "f90aef383d254b21e2b20577bf6d50a06cd63a9003b89070a131384217d79940",
+          "fontPt": []
+        },
+        {
+          "id": "26",
+          "name": "training-sample.p10",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            125.0,
+            90.16,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "ce4459e75d1a394347883fb2db068794fb0c0ce70df2d5fb15bf9748d9fa66f5",
+          "fontPt": []
+        },
+        {
+          "id": "27",
+          "name": "train-model",
+          "kind": "sp",
+          "text": "Model f\u03b8",
+          "boundsPx": [
+            189.0,
+            75.0,
+            132.0,
+            63.0
+          ],
+          "fingerprint": "fd849b7c754664b7834ceb01823542477d5981ab95730027a7edc625bae3e441",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "28",
+          "name": "loss",
+          "kind": "sp",
+          "text": "Loss",
+          "boundsPx": [
+            405.0,
+            151.0,
+            77.0,
+            46.0
+          ],
+          "fingerprint": "98d3a5045482a46749ecee53a8888f4a7ebd9dc7c673c9c0de518386bd9b4ec1",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "29",
+          "name": "target",
+          "kind": "sp",
+          "text": "Target y",
+          "boundsPx": [
+            529.0,
+            104.0,
+            124.0,
+            98.0
+          ],
+          "fingerprint": "bfde545c421a1283ed6ca16ac3463b3b58a118d417be4df440a9fe668c3df29d",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "30",
+          "name": "target-values.axis",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            537.0,
+            161.0,
+            108.0,
+            0.01
+          ],
+          "fingerprint": "13547d4917c61ee7174b4ffd5bb400c147d2becf888214c6687176f25a78d4a5",
+          "fontPt": []
+        },
+        {
+          "id": "31",
+          "name": "target-values.curve",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            537.0,
+            119.69,
+            108.0,
+            32.13
+          ],
+          "fingerprint": "0b061218b12881fb1fc64a8e4ffe7e31d6b3ec62b55cbc5ced697983fc015a77",
+          "fontPt": []
+        },
+        {
+          "id": "32",
+          "name": "target-values.p0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            535.0,
+            137.5799,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "0f02c5da592f924da441f317d605759ab2a10181a1e2a9acb0cb71cea3f15abc",
+          "fontPt": []
+        },
+        {
+          "id": "33",
+          "name": "target-values.p1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            545.8,
+            131.97,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "d5c19c9114408bb2c9c2b13108f5489f64abe6e38e7ef5cfa7fe92408daf6536",
+          "fontPt": []
+        },
+        {
+          "id": "34",
+          "name": "target-values.p2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            556.6,
+            120.75,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "38863fe7999f69953fb402e820cfd3a7e2d804ecc548bafcd1e5772e268eca7f",
+          "fontPt": []
+        },
+        {
+          "id": "35",
+          "name": "target-values.p3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            567.4,
+            123.81,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "40b8c42be5f83fba8a0d01c873703e788842929a72f346d956b6b9ae6c412517",
+          "fontPt": []
+        },
+        {
+          "id": "36",
+          "name": "target-values.p4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            578.2,
+            142.17,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "27892029b0bb2c4a3986c325826af967af69b1a9fbfb81e18a39684a8879a97d",
+          "fontPt": []
+        },
+        {
+          "id": "37",
+          "name": "target-values.p5",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            589.0,
+            149.8201,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "0e5c84be1c881f70162f3ab54fcbc20ef60535bec79b7e1a86daab703cc50413",
+          "fontPt": []
+        },
+        {
+          "id": "38",
+          "name": "target-values.p6",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            599.8,
+            138.6,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "620091ed12b21f54b615e1f2f0fd2dca28247bee0e28580e7aaeaca00d92ad35",
+          "fontPt": []
+        },
+        {
+          "id": "39",
+          "name": "target-values.p7",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            610.6,
+            122.79,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "68297ec3efce0410766e4f74102cf378f470872790448f08fc595280e91df28d",
+          "fontPt": []
+        },
+        {
+          "id": "40",
+          "name": "target-values.p8",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            621.4,
+            117.69,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "b81344695acd769d3846840d7e35550826230557fbe28f70c3ebcc585c1b03d3",
+          "fontPt": []
+        },
+        {
+          "id": "41",
+          "name": "target-values.p9",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            632.2,
+            126.87,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "eac7e7a287007a47c933505bf2b7f8c2be706d180f757dbc37cc45ee63200230",
+          "fontPt": []
+        },
+        {
+          "id": "42",
+          "name": "target-values.p10",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            643.0,
+            135.5401,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "a91234b464b720953f66940ce698946e7632dd66d5d062c2a413e7c4abee8e40",
+          "fontPt": []
+        },
+        {
+          "id": "135",
+          "name": "train-forward",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            135.0,
+            106.5001,
+            54.0,
+            2.0
+          ],
+          "fingerprint": "7f04f7cc53e6f67ad57b34c948688e0f80b64738b2075e38f4ec4e88c69fdd08",
+          "fontPt": []
+        },
+        {
+          "id": "136",
+          "name": "objective",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            321.0,
+            106.5001,
+            122.5001,
+            44.5001
+          ],
+          "fingerprint": "2e19bd65496a9481f22fe7b480b3d58a40e2a8b3ce3c253f45b5c9a314b717d5",
+          "fontPt": []
+        },
+        {
+          "id": "137",
+          "name": "supervision",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            482.0,
+            153.0,
+            47.0,
+            21.0
+          ],
+          "fingerprint": "34cfcd1909e2acbbfacff15d7a5e3e8b4f4bcfa9881a53ecdcd1ebce99ace85d",
+          "fontPt": []
+        },
+        {
+          "id": "138",
+          "name": "gradient",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            255.0,
+            138.0,
+            150.0,
+            36.0
+          ],
+          "fingerprint": "d5ebfff52fcebc99e0498a944d8c8700c18b1602facdee418a411e1bf338bff9",
+          "fontPt": []
+        },
+        {
+          "id": "47",
+          "name": "update-label",
+          "kind": "sp",
+          "text": "update \u03b8",
+          "boundsPx": [
+            306.0,
+            195.0,
+            88.0,
+            20.0
+          ],
+          "fingerprint": "437559843c7713dba71a924bdefc1831e02cb472f35c652230f84300492d5716",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "48",
+          "name": "infer-heading",
+          "kind": "sp",
+          "text": "(b) Inference \u00b7 apply the learned mapping",
+          "boundsPx": [
+            18.0,
+            230.0,
+            639.0,
+            23.0
+          ],
+          "fingerprint": "0f1cc5986bfe157d5a73e64c0f2ffad58e39a5d7daf5109cf4cd6b6cb0300164",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "49",
+          "name": "infer-x",
+          "kind": "sp",
+          "text": "New x",
+          "boundsPx": [
+            21.0,
+            270.0,
+            114.0,
+            87.0
+          ],
+          "fingerprint": "807b2cb7d670b635a13f06312caf22239625fb5614960293fe68c429a33fd22a",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "50",
+          "name": "new-sample.axis",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            27.0,
+            318.0,
+            100.0,
+            0.01
+          ],
+          "fingerprint": "d0c13489470fb221a120bb28385c47f63481b8c690891f45410684a2418bd1d8",
+          "fontPt": []
+        },
+        {
+          "id": "51",
+          "name": "new-sample.err0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            27.0,
+            293.2601,
+            0.01,
+            10.0
+          ],
+          "fingerprint": "356fcec426f208141f99925bd66e2fefa7d7f5cde7cc6db6147f085d53b29381",
+          "fontPt": []
+        },
+        {
+          "id": "52",
+          "name": "new-sample.p0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            25.0,
+            296.2601,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "a5b0ba21ee95947a669a9d27de95edb1ef5a15e5d54bbf9bcedab6933b77a692",
+          "fontPt": []
+        },
+        {
+          "id": "53",
+          "name": "new-sample.err1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            34.0,
+            286.09,
+            0.01,
+            14.0
+          ],
+          "fingerprint": "957887821e83c56f960c0e1de8271af65a793ee46e05a13230f0fb816fc09e1b",
+          "fontPt": []
+        },
+        {
+          "id": "54",
+          "name": "new-sample.p1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            32.0,
+            291.09,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "2e2e0ff5fb334b63d604f24bf0fea04629d946facefef6f3eab146a93abeb948",
+          "fontPt": []
+        },
+        {
+          "id": "55",
+          "name": "new-sample.err2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            43.0,
+            273.75,
+            0.01,
+            18.0
+          ],
+          "fingerprint": "173b9f17979b14d19e7066f789313bbc4545d42b7221886c469e380e170cf6e1",
+          "fontPt": []
+        },
+        {
+          "id": "56",
+          "name": "new-sample.p2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            41.0,
+            280.75,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "77f4c9c6dacf74ad0fe28712c270d93a1c92beeff95fe3729fb490cc69469015",
+          "fontPt": []
+        },
+        {
+          "id": "57",
+          "name": "new-sample.err3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            48.0,
+            280.57,
+            0.01,
+            10.0
+          ],
+          "fingerprint": "9c2108bd21ab5c6876c1f3af414c0f0346fb10f2af90c491f585352c23c71bd5",
+          "fontPt": []
+        },
+        {
+          "id": "58",
+          "name": "new-sample.p3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            46.0,
+            283.57,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "c2e812ffdde9e9f4e71504b80d5cd7463bc523f1d20f189e1a3d2e598ee78d02",
+          "fontPt": []
+        },
+        {
+          "id": "59",
+          "name": "new-sample.err4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            65.0,
+            295.49,
+            0.01,
+            14.0
+          ],
+          "fingerprint": "d2544268fced16c6b444b25096d89a0d114c4930de7a2f20ffe37692631c1f03",
+          "fontPt": []
+        },
+        {
+          "id": "60",
+          "name": "new-sample.p4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            63.0,
+            300.49,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "59702ffa7964ca94a26377b45303c42216a4025dc082af3342a030089c1b72ec",
+          "fontPt": []
+        },
+        {
+          "id": "61",
+          "name": "new-sample.err5",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            70.0,
+            300.5401,
+            0.01,
+            18.0
+          ],
+          "fingerprint": "79b42156097c72fef1f2e855a0a17485adc28f8d1d4c0185af325db07206e9df",
+          "fontPt": []
+        },
+        {
+          "id": "62",
+          "name": "new-sample.p5",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            68.0,
+            307.5401,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "1f5eace4814ba816e7ac38bef4d6713eabc9a4230c162f37674b4889b0813618",
+          "fontPt": []
+        },
+        {
+          "id": "63",
+          "name": "new-sample.err6",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            85.0,
+            294.2,
+            0.01,
+            10.0
+          ],
+          "fingerprint": "9b7a79e5d9a1b99f6a6fa4f1c009a6c8e8841acf0fe8629de42ebf52cb01241a",
+          "fontPt": []
+        },
+        {
+          "id": "64",
+          "name": "new-sample.p6",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            83.0,
+            297.2,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "b7c93b823fa6986e7df2ac18f5aba86c942463ae54256215cbc7756b49515184",
+          "fontPt": []
+        },
+        {
+          "id": "65",
+          "name": "new-sample.err7",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            100.0,
+            277.63,
+            0.01,
+            14.0
+          ],
+          "fingerprint": "8abf60fff62163e0a8facbf3d1f7afa1d2c376e99ae80cf2d8737e32face80ad",
+          "fontPt": []
+        },
+        {
+          "id": "66",
+          "name": "new-sample.p7",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            98.0,
+            282.63,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "6938ca8f89c74cd64b86da4fba7d737020f8b746dd6f7664520a357f6fac37ce",
+          "fontPt": []
+        },
+        {
+          "id": "67",
+          "name": "new-sample.err8",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            106.0,
+            270.93,
+            0.01,
+            18.0
+          ],
+          "fingerprint": "458cc8087bb583a51342dbe944820e586b516960df5cf138047f8bbc01138311",
+          "fontPt": []
+        },
+        {
+          "id": "68",
+          "name": "new-sample.p8",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            104.0,
+            277.93,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "d793ac7e51ab009bb15277f60565b316fe0b1ac3c74dbf27c1c6e0c7c6bd1fb8",
+          "fontPt": []
+        },
+        {
+          "id": "69",
+          "name": "new-sample.err9",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            119.0,
+            283.39,
+            0.01,
+            10.0
+          ],
+          "fingerprint": "e20c7d7df823842dea4fa069811d56c181ce5f2a90dc4401158e84560c6ae105",
+          "fontPt": []
+        },
+        {
+          "id": "70",
+          "name": "new-sample.p9",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            117.0,
+            286.39,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "e000592aa6e4f93cd4efcc3b32c87a44b151fced0ba934638dece5c547357730",
+          "fontPt": []
+        },
+        {
+          "id": "71",
+          "name": "new-sample.err10",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            127.0,
+            289.3801,
+            0.01,
+            14.0
+          ],
+          "fingerprint": "9da596b23d008c4159d028a08d7b71234fdeffd7b1050087c7dfcd004404065e",
+          "fontPt": []
+        },
+        {
+          "id": "72",
+          "name": "new-sample.p10",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            125.0,
+            294.3801,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "634ebec547006eca623a67a083b2f0e6ad5a989c4371228f48a05a31a8331025",
+          "fontPt": []
+        },
+        {
+          "id": "73",
+          "name": "infer-model",
+          "kind": "sp",
+          "text": "Model f\u03b8",
+          "boundsPx": [
+            189.0,
+            281.0,
+            132.0,
+            57.0
+          ],
+          "fingerprint": "bea3064f038a41fca061b97541b02ea93a6ea013399de1d598491ee6eb19ef66",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "74",
+          "name": "prediction",
+          "kind": "sp",
+          "text": "Prediction \u0177",
+          "boundsPx": [
+            481.0,
+            267.0,
+            173.0,
+            91.0
+          ],
+          "fingerprint": "d02b4ca97b2726c7854e746114142181917165524d045527553e6ea8b0fcb6d4",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "75",
+          "name": "inference-pred.axis",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            495.0,
+            319.0,
+            144.0,
+            0.01
+          ],
+          "fingerprint": "5ecee97feec1c952a294d49f19b0cd50035ddd76d8093991545a154c673f4806",
+          "fontPt": []
+        },
+        {
+          "id": "76",
+          "name": "inference-pred.band",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            495.0,
+            271.69,
+            144.0,
+            44.13
+          ],
+          "fingerprint": "128dc165e25fe2698f513db93753e2e009a6552e55a611f77ded0f7093045b8b",
+          "fontPt": []
+        },
+        {
+          "id": "77",
+          "name": "inference-pred.curve",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            495.0,
+            277.69,
+            144.0,
+            32.13
+          ],
+          "fingerprint": "2d842d6b1a20afcc5cc37adcb2986c9a2f52950728918dd3386cd5f5120d84e4",
+          "fontPt": []
+        },
+        {
+          "id": "78",
+          "name": "inference-pred.p0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            493.0,
+            295.5801,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "32c61e6726a7f702635d4b56aec185c0c8094610995b18b9c476b1b9fe7f6c64",
+          "fontPt": []
+        },
+        {
+          "id": "79",
+          "name": "inference-pred.p1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            507.4,
+            289.97,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "b505defeff9ed56db6e062d4cfe2bbbe90c5e497b765f89042168e3cfc9277b1",
+          "fontPt": []
+        },
+        {
+          "id": "80",
+          "name": "inference-pred.p2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            521.8,
+            278.75,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "15796f5db7d5df66a975620225e8a9220d735ffb295223795635771f4e9e2441",
+          "fontPt": []
+        },
+        {
+          "id": "81",
+          "name": "inference-pred.p3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            536.2,
+            281.81,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "c2fa206c34190d70d2bc0d87d304141e6f124fc5a187645c45f111293d093cee",
+          "fontPt": []
+        },
+        {
+          "id": "82",
+          "name": "inference-pred.p4",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            550.6,
+            300.17,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "2e97d3349244c390b7fc5484fba24228c2839809d3e6069a4bc6f270446f8437",
+          "fontPt": []
+        },
+        {
+          "id": "83",
+          "name": "inference-pred.p5",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            565.0,
+            307.8201,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "fc989b96f0a5725caba91743d0bd416b7f2ac26c38ca5aea3070157152190a8d",
+          "fontPt": []
+        },
+        {
+          "id": "84",
+          "name": "inference-pred.p6",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            579.4,
+            296.6,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "a23b38e7e755c4c9a1e74117becc2745eacef23281c7a011d575e2618ef9b3d6",
+          "fontPt": []
+        },
+        {
+          "id": "85",
+          "name": "inference-pred.p7",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            593.8,
+            280.79,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "2cb3d9810b45d5539c5d52057bb1e52e02baad701d20ed189c27ec19a886c7d3",
+          "fontPt": []
+        },
+        {
+          "id": "86",
+          "name": "inference-pred.p8",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            608.2,
+            275.69,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "766cfcf3bf3cd2b8cf57f08aef26ecf243a27c64b88da251137936550c6552ff",
+          "fontPt": []
+        },
+        {
+          "id": "87",
+          "name": "inference-pred.p9",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            622.6,
+            284.87,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "bf38d900c546be73838507195f8d88231920e31ef2ae946a3523d7fb93cbd5d7",
+          "fontPt": []
+        },
+        {
+          "id": "88",
+          "name": "inference-pred.p10",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            637.0,
+            293.5401,
+            4.0,
+            4.0
+          ],
+          "fingerprint": "e0b647d04c018c4638b08443595a34a895c24f66f8ace960c944fc289456a387",
+          "fontPt": []
+        },
+        {
+          "id": "181",
+          "name": "infer-forward",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            135.0,
+            309.5001,
+            54.0,
+            4.0
+          ],
+          "fingerprint": "3ea1abad2c93b5e5cfdebb9635296ba72236e2fde2c10954f2b3c1ec4485054f",
+          "fontPt": []
+        },
+        {
+          "id": "182",
+          "name": "infer-output",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            321.0,
+            309.5001,
+            160.0,
+            3.0
+          ],
+          "fingerprint": "d2c030b35ff4121081de20bec46a5b8a72f6f03aed5ceebd8018628232ecdc8d",
+          "fontPt": []
+        },
+        {
+          "id": "91",
+          "name": "fixed",
+          "kind": "sp",
+          "text": "fixed parameters",
+          "boundsPx": [
+            184.0,
+            341.0,
+            146.0,
+            24.0
+          ],
+          "fingerprint": "14290ada2a059e71d5eca798a96eb2da6bc0f6a0006c182c04d622dd73e5674c",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "92",
+          "name": "disclosure",
+          "kind": "sp",
+          "text": "Illustrative signals, not model outputs. Inference uses no target or parameter-update path.",
+          "boundsPx": [
+            18.0,
+            375.0,
+            636.0,
+            18.0
+          ],
+          "fingerprint": "a5a3b728b3a457142142c64286972c06ec0f8abc6bd6d3d5a37f6069c307e52d",
+          "fontPt": [
+            8.25
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "name": "train-forward",
+          "from": "train-x",
+          "to": "train-model",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "objective",
+          "from": "train-model",
+          "to": "loss",
+          "fromIdx": "3",
+          "toIdx": "0",
+          "directed": true
+        },
+        {
+          "name": "supervision",
+          "from": "target",
+          "to": "loss",
+          "fromIdx": "1",
+          "toIdx": "3",
+          "directed": true
+        },
+        {
+          "name": "gradient",
+          "from": "loss",
+          "to": "train-model",
+          "fromIdx": "1",
+          "toIdx": "2",
+          "directed": true
+        },
+        {
+          "name": "infer-forward",
+          "from": "infer-x",
+          "to": "infer-model",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "infer-output",
+          "from": "infer-model",
+          "to": "prediction",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        }
+      ],
+      "counts": {
+        "sp": 86,
+        "cxnSp": 6,
+        "grpSp": 0,
+        "pic": 0,
+        "graphicFrame": 0
+      },
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "passed": true
+}

@@ -1,0 +1,247 @@
+{
+  "file": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/powerpoint-edit-probe.pptx",
+  "sha256": "33589476e906dc54508a40a93c9b2e5f06ebfa48bf29bf6a8b06669554a16053",
+  "sizePx": [
+    672.0,
+    360.0
+  ],
+  "slides": [
+    {
+      "part": "ppt/slides/slide1.xml",
+      "objects": [
+        {
+          "id": "13",
+          "name": "caption",
+          "kind": "sp",
+          "text": "Native editing probe",
+          "boundsPx": [
+            24.0,
+            13.0,
+            624.0,
+            25.0
+          ],
+          "fingerprint": "6d784a97d8ce1703baa627077b23840f70ebe51a5098c9fdf38f35b142fae6af",
+          "fontPt": [
+            12.0
+          ]
+        },
+        {
+          "id": "2",
+          "name": "input",
+          "kind": "sp",
+          "text": "Input x",
+          "boundsPx": [
+            32.0,
+            100.0,
+            112.0,
+            52.0
+          ],
+          "fingerprint": "83274aa3fc24e9cd7a1fd1f45eb9c46fde8945baa6c5c4c6001b240dd9380c94",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "3",
+          "name": "encoder",
+          "kind": "sp",
+          "text": "Encoder edited",
+          "boundsPx": [
+            262.4769,
+            103.9298,
+            143.0,
+            52.0
+          ],
+          "fingerprint": "87945973b84ac826981c4e525d715cf5ad1cf5bf3b6993d0fb08de7c19a90f1c",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "4",
+          "name": "output",
+          "kind": "sp",
+          "text": "Output y",
+          "boundsPx": [
+            522.0,
+            100.0,
+            112.0,
+            52.0
+          ],
+          "fingerprint": "6130f349c8592a9cf1967f13cdb7b14d81b603b677d47d20caecf11705961392",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "17",
+          "name": "input-encoder",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            144.0,
+            126.0,
+            118.4769,
+            3.9298
+          ],
+          "fingerprint": "ca3b56a557b5780415f0fcc590a5c56bf6862660b2e7b8d1347263531bdeb40e",
+          "fontPt": []
+        },
+        {
+          "id": "18",
+          "name": "encoder-output",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            405.4769,
+            126.0,
+            116.5231,
+            3.9298
+          ],
+          "fingerprint": "3ffde03f05d1c0a8f37190b2002a47092852720b30762f304fa611c771548903",
+          "fontPt": []
+        },
+        {
+          "id": "19",
+          "name": "token-group",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            63.0769,
+            248.0,
+            133.5231,
+            30.0
+          ],
+          "fingerprint": "bf4ea2fac2b9a69e9165852451f4ff4c5b20f8739a330ec9bc50db6afcbeb4ba",
+          "fontPt": []
+        },
+        {
+          "id": "7",
+          "name": "token-group.0",
+          "kind": "sp",
+          "text": "1",
+          "boundsPx": [
+            37.4769,
+            248.0,
+            30.0,
+            30.0
+          ],
+          "fingerprint": "16b395e46682b88fd5bef4aa50c20e0161c43d56d4f618bb82ba0ff1bf15ef2a",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "8",
+          "name": "token-group.1",
+          "kind": "sp",
+          "text": "2",
+          "boundsPx": [
+            71.0,
+            248.0,
+            30.0,
+            30.0
+          ],
+          "fingerprint": "2c7146fc2aef6e46c698c491105ed6ad2c56b65e4151a16e62ca25fed914e05c",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "9",
+          "name": "token-group.2",
+          "kind": "sp",
+          "text": "3",
+          "boundsPx": [
+            106.0,
+            248.0,
+            30.0,
+            30.0
+          ],
+          "fingerprint": "6cc6e14068e79ee9bd427234eb86f2508d2bb43ed4bf9ae66f42716e6546a69c",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "10",
+          "name": "token-group.3",
+          "kind": "sp",
+          "text": "4",
+          "boundsPx": [
+            141.0,
+            248.0,
+            30.0,
+            30.0
+          ],
+          "fingerprint": "a61e6a8c5c0fbaf2594211278e6cb758630f084112c5d0468c75a2261bea8e49",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "11",
+          "name": "equation",
+          "kind": "sp",
+          "text": "h\u209c\u208a\u2081 = h\u209c + f\u03b8(h\u209c)",
+          "boundsPx": [
+            269.0,
+            241.0,
+            259.0,
+            45.0
+          ],
+          "fingerprint": "38df4531dc7ed2945590106ba2ed597ea0f4a5074e9eecefef1d291734482c2f",
+          "fontPt": [
+            14.25
+          ]
+        },
+        {
+          "id": "12",
+          "name": "editable-note",
+          "kind": "sp",
+          "text": "Select individual cells or move the group",
+          "boundsPx": [
+            28.0,
+            292.0,
+            246.0,
+            25.0
+          ],
+          "fingerprint": "47c23895a67efa114cb08ea180c13a578405d140ba25c9a5753c65d13848bcff",
+          "fontPt": [
+            9.0
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "name": "input-encoder",
+          "from": "input",
+          "to": "encoder",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "encoder-output",
+          "from": "encoder",
+          "to": "output",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        }
+      ],
+      "counts": {
+        "sp": 10,
+        "cxnSp": 2,
+        "grpSp": 1,
+        "pic": 0,
+        "graphicFrame": 0
+      },
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "passed": true
+}

@@ -1,0 +1,93 @@
+{
+  "source": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/color-book-blind-test-02/figure.pptx",
+  "sourceSha256": "49776dbb6fe621584c4c9a5a46bce0581d6c70e163919452c51146decc086d99",
+  "readOnly": true,
+  "scope": "Native connector attachment diagnostics; inspect the rendered figure for meaning and quality.",
+  "summary": {
+    "connectors": 4,
+    "requiringRenderedReview": 0,
+    "geometryUnchecked": 0
+  },
+  "connectors": [
+    {
+      "slide": 1,
+      "name": "optical-measurement",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "detection-window",
+        "site": "0",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "detector",
+        "site": "2",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      }
+    },
+    {
+      "slide": 1,
+      "name": "signal",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "detector",
+        "site": "3",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "controller",
+        "site": "1",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      }
+    },
+    {
+      "slide": 1,
+      "name": "trigger",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "controller",
+        "site": "2",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "electrode",
+        "site": "0",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0001,
+        "to": 0.0
+      }
+    },
+    {
+      "slide": 1,
+      "name": "actuation",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "electrode",
+        "site": "2",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "sorting-zone",
+        "site": "0",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      }
+    }
+  ]
+}

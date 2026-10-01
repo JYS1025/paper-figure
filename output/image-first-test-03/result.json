@@ -1,0 +1,92 @@
+{
+  "completedAtUtc": "2026-09-30T07:30:25.315283+00:00",
+  "route": "Built-in image model draft -> semantic audit -> native PPTX reconstruction -> saved-PPTX render",
+  "imageTool": "Built-in image_gen; no CLI/API fallback",
+  "imageModelExactVersion": "Not exposed by tool; not inferred",
+  "imagePrompt": "image-prompt.txt",
+  "sameScientificBriefAs": "color-book-blind-test-02",
+  "palette": "olive-copper",
+  "publicationWidthMm": 177.8,
+  "canvasPx": [
+    672,
+    340
+  ],
+  "nativeObjects": {
+    "sp": 87,
+    "cxnSp": 2,
+    "grpSp": 1,
+    "pic": 0
+  },
+  "embeddedMediaCount": 0,
+  "draftImageEmbeddedInPptx": false,
+  "files": {
+    "image-draft.png": {
+      "sha256": "d8ccf3bcc2ac4997d8d7e15e78f91bfefea906f53a3dea82cd9de9a7a68b9328",
+      "bytes": 1054138
+    },
+    "figure.pptx": {
+      "sha256": "5a1171f553a953a21cea6dd77a0daf496888043bfe3d671c3c9786f58f78e9e3",
+      "bytes": 19723
+    },
+    "figure.pdf": {
+      "sha256": "8b044feb048894a6e5394f61ecaf189d1f7a090d4cc71aef480a60ff1191a08c",
+      "bytes": 211601
+    },
+    "figure.png": {
+      "sha256": "ec4f63fe350dde19a37b52bd006b72d208c8315d80c8f7111651b41496e2616a",
+      "bytes": 179914
+    }
+  },
+  "semanticContractPassed": true,
+  "flowAudit": {
+    "connectors": 2,
+    "requiringRenderedReview": 0,
+    "geometryUnchecked": 0
+  },
+  "render": "Saved PPTX -> bundled LibreOffice PDF -> Poppler PNG at 300 dpi",
+  "visualReviewRounds": 2,
+  "reviewed": [
+    "r2 full/publication render",
+    "r3 full/grayscale render"
+  ],
+  "deliberateCorrections": [
+    "Keep comparison of F with theta inside one controller; remove duplicate parallel comparison path",
+    "Represent a continuous aqueous inlet rather than unrequested particle biology",
+    "Use opposing oil arms at the flow-focusing junction",
+    "Keep the same carrier-oil color through both outlets",
+    "Define pale droplets as unscored, solid as above threshold and open as below threshold; do not encode measured values"
+  ],
+  "renderRepairs": [
+    "Replaced a poorly rendered radial droplet fill with an opaque native linear fill.",
+    "Moved trigger and electrode labels away from the routed control line and outlet title.",
+    "Kept the sensing field outside the fluid lumen so the continuous channel remains visible.",
+    "Matched inlet/main stroke layering so the wall contour remains continuous."
+  ],
+  "nativePowerPointEditTest": false,
+  "independentBlindComparisonPerformed": true,
+  "scope": "One feasibility demonstration. Author retains previous context; no controlled superiority or image-model quality claim. Raster composition guided the PPTX, but proportions and semantics were deliberately adapted.",
+  "blindComparison": {
+    "performedAtUtc": "2026-09-30T07:55:41.168986+00:00",
+    "report": "../image-first-blind-test-04/report.md",
+    "internalLabelsVisible": true,
+    "pairCount": 1,
+    "freshReviewerContexts": 2,
+    "differentModelOrService": false,
+    "results": [
+      {
+        "sourceGuess": "B",
+        "sourceCorrect": true,
+        "subjectiveConfidence": 0.7,
+        "qualityPreference": "generated"
+      },
+      {
+        "sourceGuess": "B",
+        "sourceCorrect": true,
+        "subjectiveConfidence": 0.8,
+        "qualityPreference": "generated"
+      }
+    ],
+    "candidateUnchanged": true,
+    "controlledComparisonAgainstDirectGeneration": false
+  }
+}

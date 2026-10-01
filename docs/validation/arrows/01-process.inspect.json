@@ -1,0 +1,943 @@
+{
+  "file": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/arrow-study/01-process.pptx",
+  "sha256": "01f9d109903a9c252279515d25abb1f37793e64f1cd50ad822e70a674dec4581",
+  "sizePx": [
+    672.0,
+    400.0
+  ],
+  "slides": [
+    {
+      "part": "ppt/slides/slide1.xml",
+      "objects": [
+        {
+          "id": "56",
+          "name": "heading",
+          "kind": "sp",
+          "text": "Confidence-aware retrieval",
+          "boundsPx": [
+            18.0,
+            9.0,
+            638.0,
+            23.0
+          ],
+          "fingerprint": "8d8e3e73f9dc168832e41509c05876b11e9f9e6efb7f3a69d6a61cba896e16b3",
+          "fontPt": [
+            11.25
+          ]
+        },
+        {
+          "id": "2",
+          "name": "rerank-focus",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            281.0,
+            54.0,
+            171.0,
+            285.0
+          ],
+          "fingerprint": "c22bf53d59ecf3bfbae3ae5bb875282ab2bb3a6227ff1c24b4e268c9f04aa06f",
+          "fontPt": []
+        },
+        {
+          "id": "3",
+          "name": "query",
+          "kind": "sp",
+          "text": "Query",
+          "boundsPx": [
+            18.0,
+            99.0,
+            86.0,
+            78.0
+          ],
+          "fingerprint": "65c62025d614ebf65129001ab321e36e11a7a3c846625003ed572d88f3449df2",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "4",
+          "name": "query-example",
+          "kind": "sp",
+          "text": "Which evidence\nsupports the claim?",
+          "boundsPx": [
+            18.0,
+            91.0,
+            86.0,
+            52.0
+          ],
+          "fingerprint": "b25b8e140009ce0852c85150a8009f126fe2642b0ff49b6b3cb88a3c358260d6",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "5",
+          "name": "retrieve",
+          "kind": "sp",
+          "text": "Retrieve",
+          "boundsPx": [
+            131.0,
+            117.0,
+            112.0,
+            43.0
+          ],
+          "fingerprint": "ea3aaf81ae81bb7adfab7bc2bf6c7801fa7248395c837702a397bbd5217fa305",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "6",
+          "name": "rerank",
+          "kind": "sp",
+          "text": "Rerank",
+          "boundsPx": [
+            295.0,
+            111.0,
+            143.0,
+            55.0
+          ],
+          "fingerprint": "dffa08874233b61c8275b1da2300eaff91cb3e3e753940aff3aaaca2280d2f11",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "7",
+          "name": "answer",
+          "kind": "sp",
+          "text": "Answer",
+          "boundsPx": [
+            474.0,
+            99.0,
+            91.0,
+            78.0
+          ],
+          "fingerprint": "75e67bba5163b01a8a317d62d6781b5166d0f6bf1a3089838e5589f597383ac9",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "8",
+          "name": "answer-snippet",
+          "kind": "sp",
+          "text": "Claim \u2026 [d\u2082]",
+          "boundsPx": [
+            474.0,
+            113.0,
+            91.0,
+            28.0
+          ],
+          "fingerprint": "146b4dcfe5f8916cdd1f1a9b10015094620863c5a0571b02f5a9c91ad5d03334",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "9",
+          "name": "evidence",
+          "kind": "sp",
+          "text": "Evidence",
+          "boundsPx": [
+            592.0,
+            99.0,
+            64.0,
+            78.0
+          ],
+          "fingerprint": "189440247c12dc66a3837e3737d7b65b59c0bbcb79846f60da5acd0f387129f8",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "65",
+          "name": "e0",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            104.0,
+            138.0,
+            27.0,
+            0.5001
+          ],
+          "fingerprint": "bc43e1802b0f57b4b7865a39cd0d680ca99b46f73e58d7a032a44e9af419c376",
+          "fontPt": []
+        },
+        {
+          "id": "66",
+          "name": "e1",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            243.0,
+            138.5001,
+            52.0,
+            0.0
+          ],
+          "fingerprint": "28a0c7eca7f64386728f4be3747c250a55ec956a7e1e5c7668503aa12db0ea6d",
+          "fontPt": []
+        },
+        {
+          "id": "67",
+          "name": "e2",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            438.0,
+            138.0,
+            36.0,
+            0.5001
+          ],
+          "fingerprint": "475906c51f26ae4fb318618f47ff6fd73e05e094d8ea4f679df6902766b865eb",
+          "fontPt": []
+        },
+        {
+          "id": "68",
+          "name": "e3",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            565.0,
+            138.0,
+            27.0,
+            0.0
+          ],
+          "fingerprint": "08c451f8c93291e7c265cb30733bc2c1f6f21aae983e3162a7edec1b6e0938a2",
+          "fontPt": []
+        },
+        {
+          "id": "69",
+          "name": "candidate-back",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            159.0,
+            195.0,
+            54.0,
+            70.0
+          ],
+          "fingerprint": "8f7f2b4561932e890d9305f36b526530113715856d77f4eecad849c8e854a74f",
+          "fontPt": []
+        },
+        {
+          "id": "14",
+          "name": "candidate-back.sheet",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            159.0,
+            195.0,
+            54.0,
+            70.0
+          ],
+          "fingerprint": "a0d7ced33700f0cca154578f518678eb2e57e3f4bbe1363d4993ea67347bf454",
+          "fontPt": []
+        },
+        {
+          "id": "15",
+          "name": "candidate-back.line0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            166.0,
+            210.0,
+            40.0,
+            2.0
+          ],
+          "fingerprint": "68c2743e069913e9976f0a49ab9bca8631eae2fda0db255c9daa161017bd7b34",
+          "fontPt": []
+        },
+        {
+          "id": "16",
+          "name": "candidate-back.line1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            166.0,
+            218.0,
+            33.0,
+            2.0
+          ],
+          "fingerprint": "a50a6ec29741cec981a7875385887e46737f4b8b4004feb36a25010363d55e3f",
+          "fontPt": []
+        },
+        {
+          "id": "17",
+          "name": "candidate-back.line2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            166.0,
+            226.0,
+            40.0,
+            2.0
+          ],
+          "fingerprint": "701bb5dcf1be38130872bd723b7fbbb4947d42baed9775d86561784020e33a48",
+          "fontPt": []
+        },
+        {
+          "id": "18",
+          "name": "candidate-back.line3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            166.0,
+            234.0,
+            33.0,
+            2.0
+          ],
+          "fingerprint": "6dd45d63c4587819bedcf3ea50965aef1aaf65e959db365430a70a0005e7d0d6",
+          "fontPt": []
+        },
+        {
+          "id": "19",
+          "name": "candidate-back.tag",
+          "kind": "sp",
+          "text": "d\u2096",
+          "boundsPx": [
+            163.0,
+            196.0,
+            46.0,
+            14.0
+          ],
+          "fingerprint": "53fc928b1a41d724e4e892fd85d47c13cfeb7636aec6307f429bcbfa03780cef",
+          "fontPt": [
+            7.5
+          ]
+        },
+        {
+          "id": "70",
+          "name": "candidate-mid",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            149.0,
+            201.0,
+            54.0,
+            70.0
+          ],
+          "fingerprint": "be61623de4c95f8938a7b2cbc92e048233ffc5adaacef67eb329a3c6b1b13f91",
+          "fontPt": []
+        },
+        {
+          "id": "20",
+          "name": "candidate-mid.sheet",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            149.0,
+            201.0,
+            54.0,
+            70.0
+          ],
+          "fingerprint": "8171c1f530e749b2fb7cdf836d635b37edc0faf545d582504efd21962c039b80",
+          "fontPt": []
+        },
+        {
+          "id": "21",
+          "name": "candidate-mid.line0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            156.0,
+            216.0,
+            40.0,
+            2.0
+          ],
+          "fingerprint": "cb18f566338b052864c414259c2c1d539dba4ac344fbc8ec7af2423e0ce60e97",
+          "fontPt": []
+        },
+        {
+          "id": "22",
+          "name": "candidate-mid.line1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            156.0,
+            224.0,
+            33.0,
+            2.0
+          ],
+          "fingerprint": "b03c939ebb6c4bae5d3747ff918a643ab56eaedc00e093703026d9a3317608a7",
+          "fontPt": []
+        },
+        {
+          "id": "23",
+          "name": "candidate-mid.line2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            156.0,
+            232.0,
+            40.0,
+            2.0
+          ],
+          "fingerprint": "e55e0f86004a2bb2e80807de235cb8ccf3ee41c76781bace67c55807bdca7dab",
+          "fontPt": []
+        },
+        {
+          "id": "24",
+          "name": "candidate-mid.line3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            156.0,
+            240.0,
+            33.0,
+            2.0
+          ],
+          "fingerprint": "8b305c38bcbc60a5ff323f6f6866c42a2ea88afcf60f648483dc0052b4caf8da",
+          "fontPt": []
+        },
+        {
+          "id": "25",
+          "name": "candidate-mid.tag",
+          "kind": "sp",
+          "text": "d\u2082",
+          "boundsPx": [
+            153.0,
+            202.0,
+            46.0,
+            14.0
+          ],
+          "fingerprint": "22271f82fbb6796213cad2cfe84f033222af48ac876d9464272d7e2965ca6b78",
+          "fontPt": [
+            7.5
+          ]
+        },
+        {
+          "id": "71",
+          "name": "candidate-front",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            139.0,
+            207.0,
+            54.0,
+            70.0
+          ],
+          "fingerprint": "e192350f1794b50ab3ff577e922ae5863569db4985b16804f394cf169d4eee71",
+          "fontPt": []
+        },
+        {
+          "id": "26",
+          "name": "candidate-front.sheet",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            139.0,
+            207.0,
+            54.0,
+            70.0
+          ],
+          "fingerprint": "970ca716449db6ae2b3e5c2ac5c158e0dad3b0078adfe02d985c7e12d505292a",
+          "fontPt": []
+        },
+        {
+          "id": "27",
+          "name": "candidate-front.line0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            146.0,
+            222.0,
+            40.0,
+            2.0
+          ],
+          "fingerprint": "29c31c9ef92ad7bbce668d565cb0d552c222a6388c0b118eb4f8568572e67ad9",
+          "fontPt": []
+        },
+        {
+          "id": "28",
+          "name": "candidate-front.line1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            146.0,
+            230.0,
+            33.0,
+            2.0
+          ],
+          "fingerprint": "07502c19471b9d23352831f9d71949af8f417fd41696921d8236d69e0897cfc7",
+          "fontPt": []
+        },
+        {
+          "id": "29",
+          "name": "candidate-front.line2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            146.0,
+            238.0,
+            40.0,
+            2.0
+          ],
+          "fingerprint": "1509acb0420b7aab1b1ab3f68469db3ed3b83bcc1707e222e3bd0e0a001f31e5",
+          "fontPt": []
+        },
+        {
+          "id": "30",
+          "name": "candidate-front.line3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            146.0,
+            246.0,
+            33.0,
+            2.0
+          ],
+          "fingerprint": "dbc90a83c2776086484625a15d9010acc39a6e7833056593d0df3e46ac236549",
+          "fontPt": []
+        },
+        {
+          "id": "31",
+          "name": "candidate-front.tag",
+          "kind": "sp",
+          "text": "d\u2081",
+          "boundsPx": [
+            143.0,
+            208.0,
+            46.0,
+            14.0
+          ],
+          "fingerprint": "c31af38b2cfa728583c7ddb1ba81a11090756dc94177b872f29abfca61bb1143",
+          "fontPt": [
+            7.5
+          ]
+        },
+        {
+          "id": "32",
+          "name": "candidate-label",
+          "kind": "sp",
+          "text": "k candidates",
+          "boundsPx": [
+            131.0,
+            283.0,
+            112.0,
+            23.0
+          ],
+          "fingerprint": "402f5ed75f3b0401201793cc625b87677745d1a3a7af975f401e35a0e3bf925e",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "33",
+          "name": "score-cols",
+          "kind": "sp",
+          "text": "relevance r   confidence c",
+          "boundsPx": [
+            291.0,
+            179.0,
+            151.0,
+            23.0
+          ],
+          "fingerprint": "61b33f9671a502311a030088ca3b291418468d80361a9ad9337b2644aa644f03",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "34",
+          "name": "rank-row0",
+          "kind": "sp",
+          "text": "d\u2081",
+          "boundsPx": [
+            300.0,
+            207.0,
+            24.0,
+            22.0
+          ],
+          "fingerprint": "444c151a8c273e722230e1a12b3b7f9ac37326b701c6ce2040d661bbaec33628",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "35",
+          "name": "r0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            332.0,
+            214.0,
+            27.0,
+            7.0
+          ],
+          "fingerprint": "c8e744377a050134409b16ffee49ac33c82630e0ab4587df27345669fb3e2f8e",
+          "fontPt": []
+        },
+        {
+          "id": "36",
+          "name": "c0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            389.0,
+            214.0,
+            34.0,
+            7.0
+          ],
+          "fingerprint": "1b64729222163819b5960ac0490dbe1707da72d7d6264b49639997bd17528cd7",
+          "fontPt": []
+        },
+        {
+          "id": "37",
+          "name": "rank-row1",
+          "kind": "sp",
+          "text": "d\u2082",
+          "boundsPx": [
+            300.0,
+            234.0,
+            24.0,
+            22.0
+          ],
+          "fingerprint": "de72d940c7720471b9f3f0b5f47f2fc255ef476f19b44d837186899332da4695",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "38",
+          "name": "r1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            332.0,
+            241.0,
+            38.0,
+            7.0
+          ],
+          "fingerprint": "2e7055cdd44d174965311595daa9eac57028449a7b4e779b4670490b3dbe003a",
+          "fontPt": []
+        },
+        {
+          "id": "39",
+          "name": "c1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            389.0,
+            241.0,
+            23.0,
+            7.0
+          ],
+          "fingerprint": "4ffb5b61903c3beee09003f5d0ba99a9f269948667384f6a963a606856942795",
+          "fontPt": []
+        },
+        {
+          "id": "40",
+          "name": "rank-row2",
+          "kind": "sp",
+          "text": "d\u2096",
+          "boundsPx": [
+            300.0,
+            261.0,
+            24.0,
+            22.0
+          ],
+          "fingerprint": "a965c035d5346f2152b8fe62f6115d437f31bc32531d1c80db2e43ce7575c55e",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "41",
+          "name": "r2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            332.0,
+            268.0,
+            16.0,
+            7.0
+          ],
+          "fingerprint": "938d14042603dcd62bf66f48c2138b0e8e6f6cc8e40f44c65b77b88ee9d5004a",
+          "fontPt": []
+        },
+        {
+          "id": "42",
+          "name": "c2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            389.0,
+            268.0,
+            15.0,
+            7.0
+          ],
+          "fingerprint": "7db649b080acc55ebd0079085f06c70de105f6adfcb7575abfab7de555a8b205",
+          "fontPt": []
+        },
+        {
+          "id": "43",
+          "name": "formula",
+          "kind": "sp",
+          "text": "s = \u03b1r + (1 \u2212 \u03b1)c",
+          "boundsPx": [
+            292.0,
+            302.0,
+            149.0,
+            25.0
+          ],
+          "fingerprint": "fb7bae27fb26503d4c834561ab1ccd502a3f5d5262a3a439f9b168e37dc35426",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "72",
+          "name": "answer-sheet",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            489.0,
+            206.0,
+            62.0,
+            80.0
+          ],
+          "fingerprint": "76e8ac761c26e3cebc5aeed5d00be7050e7254eff7b5db9e74c9d33f82ebd25d",
+          "fontPt": []
+        },
+        {
+          "id": "44",
+          "name": "answer-sheet.sheet",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            489.0,
+            206.0,
+            62.0,
+            80.0
+          ],
+          "fingerprint": "fc93693d7a02df17d6a12954c00cd65eefa8175c381d839c776ce094bc78a28f",
+          "fontPt": []
+        },
+        {
+          "id": "45",
+          "name": "answer-sheet.line0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            496.0,
+            221.0,
+            48.0,
+            2.0
+          ],
+          "fingerprint": "533c47c76a587168e913cdc1d0028554f87ae50b8d1ca6dfdff4ce8cafc0707e",
+          "fontPt": []
+        },
+        {
+          "id": "46",
+          "name": "answer-sheet.line1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            496.0,
+            229.0,
+            41.0,
+            2.0
+          ],
+          "fingerprint": "9f8305a3f446aea5e6de4c0075b6e15b30b29246f5ae99386690e95186b252ea",
+          "fontPt": []
+        },
+        {
+          "id": "47",
+          "name": "answer-sheet.line2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            496.0,
+            237.0,
+            48.0,
+            2.0
+          ],
+          "fingerprint": "79d179fb353d4f59fff3e9e82e6b044f4bb0d0d177a7f76f8668b56212254d16",
+          "fontPt": []
+        },
+        {
+          "id": "48",
+          "name": "answer-sheet.line3",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            496.0,
+            245.0,
+            41.0,
+            2.0
+          ],
+          "fingerprint": "9c4e7d54a19e6ff150d2a0f5ebcde31a4730c12023de26c6e657f0b85be9e472",
+          "fontPt": []
+        },
+        {
+          "id": "49",
+          "name": "answer-sheet.tag",
+          "kind": "sp",
+          "text": "answer",
+          "boundsPx": [
+            493.0,
+            207.0,
+            54.0,
+            14.0
+          ],
+          "fingerprint": "df8a74f90731f8d7f68e434286a9f4cf32ad707404ef3f104393f9bbb75d94f8",
+          "fontPt": [
+            7.5
+          ]
+        },
+        {
+          "id": "73",
+          "name": "evidence-sheet",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            598.0,
+            109.0,
+            48.0,
+            36.0
+          ],
+          "fingerprint": "5f8d5255df861fafdd258de0adcb5584ec498833db49823722343611f2b51177",
+          "fontPt": []
+        },
+        {
+          "id": "50",
+          "name": "evidence-sheet.sheet",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            598.0,
+            109.0,
+            48.0,
+            36.0
+          ],
+          "fingerprint": "bc3a101df6e54c378d04e4232c8ba4bd4f9972971bc98442602cabdc3c16b7c7",
+          "fontPt": []
+        },
+        {
+          "id": "51",
+          "name": "evidence-sheet.line0",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            605.0,
+            124.0,
+            34.0,
+            2.0
+          ],
+          "fingerprint": "2f1a1d0c1258edfb668a3bec4081eab10d06aaa3bb44cc6a13a61378981b83c2",
+          "fontPt": []
+        },
+        {
+          "id": "52",
+          "name": "evidence-sheet.line1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            605.0,
+            132.0,
+            27.0,
+            2.0
+          ],
+          "fingerprint": "4359fa3a8991ca0bae4c95b88c7c691034be695032d383ba8df90f4989351e22",
+          "fontPt": []
+        },
+        {
+          "id": "53",
+          "name": "evidence-sheet.tag",
+          "kind": "sp",
+          "text": "d\u2082",
+          "boundsPx": [
+            602.0,
+            110.0,
+            40.0,
+            14.0
+          ],
+          "fingerprint": "5a4c792dfa47e1259c1288d13320f47b722e0aaa021fe579f76effa455c9663c",
+          "fontPt": [
+            7.5
+          ]
+        },
+        {
+          "id": "54",
+          "name": "evidence-tag",
+          "kind": "sp",
+          "text": "linked\nsource",
+          "boundsPx": [
+            589.0,
+            206.0,
+            68.0,
+            40.0
+          ],
+          "fingerprint": "d61deddd63af6ab0e3555ba2bdd0107c30994f4d6f459b68752a112b26cf833a",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "55",
+          "name": "disclosure",
+          "kind": "sp",
+          "text": "Schematic candidate features and document snippets; bar lengths are illustrative.",
+          "boundsPx": [
+            18.0,
+            375.0,
+            636.0,
+            18.0
+          ],
+          "fingerprint": "2e0efa0e94af28253c448e8077b8324d9a9893176abeeada78cb8fb268d13fb9",
+          "fontPt": [
+            8.25
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "name": "e0",
+          "from": "query",
+          "to": "retrieve",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "e1",
+          "from": "retrieve",
+          "to": "rerank",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "e2",
+          "from": "rerank",
+          "to": "answer",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "e3",
+          "from": "answer",
+          "to": "evidence",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        }
+      ],
+      "counts": {
+        "sp": 51,
+        "cxnSp": 4,
+        "grpSp": 5,
+        "pic": 0,
+        "graphicFrame": 0
+      },
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "passed": true
+}

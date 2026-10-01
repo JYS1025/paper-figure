@@ -1,0 +1,140 @@
+{
+  "task": "spatial-assignment",
+  "status": "complete",
+  "language": {
+    "figure": "English",
+    "report": "Korean"
+  },
+  "route": "built-in image_gen draft → Artifact Tool/paper-figure native PPTX → native DrawingML subscript styling → Presentations finalizer → saved-PPTX bundled LibreOffice PDF → Poppler PNG",
+  "files": {
+    "figure.pptx": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/unseen-suite-05/spatial-assignment/figure.pptx",
+    "figure.png": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/unseen-suite-05/spatial-assignment/figure.png",
+    "figure.pdf": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/unseen-suite-05/spatial-assignment/figure.pdf",
+    "image-draft.png": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/unseen-suite-05/spatial-assignment/image-draft.png",
+    "image-prompt.txt": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/unseen-suite-05/spatial-assignment/image-prompt.txt",
+    "brief.md": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/unseen-suite-05/spatial-assignment/brief.md",
+    "content-contract.json": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/unseen-suite-05/spatial-assignment/content-contract.json",
+    "pptx-contract.json": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/unseen-suite-05/spatial-assignment/pptx-contract.json",
+    "report.md": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/unseen-suite-05/spatial-assignment/report.md"
+  },
+  "dimensions": {
+    "widthMm": 177.8,
+    "heightMm": 113.77083333333333,
+    "canvasPx": [
+      672,
+      430
+    ],
+    "pngPx": [
+      1344,
+      860
+    ],
+    "pngDpi": 192
+  },
+  "palette": {
+    "book": "blue-apricot",
+    "C1": "blue",
+    "C2": "apricot",
+    "unassigned": "neutral diagonal hatch",
+    "spots": "neutral dark disk outlines with stable S1–S5 labels"
+  },
+  "imageGeneration": {
+    "tool": "built-in image_gen",
+    "performed": true,
+    "calls": 1,
+    "prompt": "image-prompt.txt",
+    "draft": "image-draft.png"
+  },
+  "native": {
+    "sp": 89,
+    "cxnSp": 1,
+    "grpSp": 7,
+    "pic": 0,
+    "graphicFrame": 0
+  },
+  "checks": {
+    "contentContract": true,
+    "inspectErrors": [],
+    "inspectWarnings": [],
+    "flowAudit": {
+      "connectors": 1,
+      "requiringRenderedReview": 0,
+      "geometryUnchecked": 0
+    },
+    "presentationFinalizer": "pass",
+    "artifactToolImport": "pass",
+    "fullRenderReview": true,
+    "publicationWidthReview": true,
+    "grayscaleReview": true,
+    "nativePowerPointAppEditTest": false
+  },
+  "meaningReview": {
+    "matrixRows": [
+      "C1",
+      "C2"
+    ],
+    "matrixColumns": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "matrixValues": [
+      [
+        "1",
+        "α",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1−α",
+        "1",
+        "β",
+        "0"
+      ]
+    ],
+    "unassignedValues": [
+      "0",
+      "0",
+      "0",
+      "1−β",
+      "1"
+    ],
+    "outsideIsNotMatrixRow": true,
+    "noRenormalization": true,
+    "outputVectors": [
+      "y₁ = x₁ + αx₂",
+      "y₂ = (1−α)x₂ + x₃ + βx₄"
+    ],
+    "spotAndFeatureIndicesDefined": true,
+    "inventedCounts": false
+  },
+  "visualReview": {
+    "rounds": 3,
+    "automatedPassIsNotAestheticProof": true,
+    "unresolvedStructuralDefects": [],
+    "observations": [
+      "At full width the two masks, five disk identities, S2 shared contribution, S4 outside mass and S5 exclusion remain traceable.",
+      "No clipping or unintended overlap found in the final render.",
+      "Grayscale relies on text labels, boundary and hatch, not cell fill hue."
+    ],
+    "limitations": [
+      "Native PowerPoint interactive editing not tested.",
+      "Preview is from bundled LibreOffice, not PowerPoint.",
+      "Simple editable text math, not OMML.",
+      "Subscripts are smaller than body text; use intended 177.8 mm width.",
+      "No independent aesthetic score or direct-native comparison performed."
+    ]
+  },
+  "verificationArtifacts": {
+    "inspect": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/unseen-suite-05/spatial-assignment/inspect.json",
+    "flowAudit": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/unseen-suite-05/spatial-assignment/flow-audit.json",
+    "finalizer": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/unseen-suite-05/spatial-assignment/figure-v3.validation.json",
+    "publicationPreview": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/unseen-suite-05/spatial-assignment/publication.png",
+    "grayscalePreview": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/unseen-suite-05/spatial-assignment/grayscale.png",
+    "transferPlan": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/unseen-suite-05/spatial-assignment/transfer-plan.md"
+  },
+  "sha256": "89ea5647c0406d8d488b9b6d5249b57de90267c515272454a8aad02c0d6f697b"
+}

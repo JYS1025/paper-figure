@@ -1,0 +1,38 @@
+[
+  {
+    "name": "asset-camera",
+    "asset": "assets/camera.png",
+    "mediaPart": "ppt/media/generated-camera.png",
+    "sha256": "a6ef1383fb2974640ea07b494a18d2b6f8a6860919b9d8f8429029213f288199",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "transparentPixelFraction": 0.47722376115727916,
+    "boundsPx": [
+      28,
+      77,
+      39,
+      39
+    ],
+    "role": "Representative source icon; text and connector remain native"
+  },
+  {
+    "name": "asset-inertial-sensor",
+    "asset": "assets/inertial-sensor.png",
+    "mediaPart": "ppt/media/generated-inertial-sensor.png",
+    "sha256": "1411c5538d97306df8efc7dd8c3d87c0bc79ad067d5220c49683418a2613dde0",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "transparentPixelFraction": 0.5753989148600078,
+    "boundsPx": [
+      28,
+      126.5,
+      39,
+      39
+    ],
+    "role": "Representative source icon; text and connector remain native"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "pdfSha256": "bb4bddbb34b3c7c497a47529b3ca493d7686371e71283e9bdc0fafa16fa0b595",
+  "publicationWidthMm": 177.8,
+  "regions": [
+    {
+      "name": "stored-k",
+      "page": 1,
+      "boundsPt": [
+        150,
+        178,
+        201,
+        205
+      ],
+      "expectedText": "s(tₖ)",
+      "expectedFonts": [
+        "ArialMT"
+      ],
+      "minSizePt": 6.0,
+      "minRelativeSize": 0.6
+    },
+    {
+      "name": "stored-now",
+      "page": 1,
+      "boundsPt": [
+        380,
+        178,
+        442,
+        205
+      ],
+      "expectedText": "s(tnow)",
+      "expectedFonts": [
+        "ArialMT"
+      ],
+      "minSizePt": 6.0,
+      "minRelativeSize": 0.6
+    }
+  ]
+}

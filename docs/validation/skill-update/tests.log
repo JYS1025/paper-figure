@@ -1,0 +1,40 @@
+test_correspondence_axes_keep_item_units_and_noncolor_diagonal (test_feedback_revision.FeedbackRevision.test_correspondence_axes_keep_item_units_and_noncolor_diagonal) ... ok
+test_feature_dimensions_follow_stated_resolution_ratios (test_feedback_revision.FeedbackRevision.test_feature_dimensions_follow_stated_resolution_ratios) ... ok
+test_four_native_content_contracts (test_feedback_revision.FeedbackRevision.test_four_native_content_contracts) ... ok
+test_previous_review_sources_remain_unchanged (test_feedback_revision.FeedbackRevision.test_previous_review_sources_remain_unchanged) ... ok
+test_saved_connector_geometry_meets_visible_anchors (test_feedback_revision.FeedbackRevision.test_saved_connector_geometry_meets_visible_anchors) ... ok
+test_single_step_is_distinct_from_full_sequence (test_feedback_revision.FeedbackRevision.test_single_step_is_distinct_from_full_sequence) ... ok
+test_token_identity_survives_selection_and_weight_pairing (test_feedback_revision.FeedbackRevision.test_token_identity_survives_selection_and_weight_pairing) ... ok
+test_audit_preserves_saved_file_bytes (test_flow_audit.FlowAudit.test_audit_preserves_saved_file_bytes) ... ok
+test_displaced_connector_is_detected_in_memory (test_flow_audit.FlowAudit.test_displaced_connector_is_detected_in_memory) ... ok
+test_group_transform_is_reported_as_unchecked (test_flow_audit.FlowAudit.test_group_transform_is_reported_as_unchecked) ... ok
+test_inherited_boundary_style_stays_unresolved (test_flow_audit.FlowAudit.test_inherited_boundary_style_stays_unresolved) ... ok
+test_unresolved_target_is_reported_without_inventing_a_location (test_flow_audit.FlowAudit.test_unresolved_target_is_reported_without_inventing_a_location) ... ok
+test_valid_references_can_still_attach_to_invisible_label_boxes (test_flow_audit.FlowAudit.test_valid_references_can_still_attach_to_invisible_label_boxes) ... ok
+test_visible_feature_plane_anchors_are_not_false_positives (test_flow_audit.FlowAudit.test_visible_feature_plane_anchors_are_not_false_positives) ... ok
+test_actual_powerpoint_edit_survives_patch (test_pipeline.Pipeline.test_actual_powerpoint_edit_survives_patch) ... ok
+test_all_nine_content_contracts (test_pipeline.Pipeline.test_all_nine_content_contracts) ... ok
+test_arrow_styling_preserves_direction_geometry_and_other_objects (test_pipeline.Pipeline.test_arrow_styling_preserves_direction_geometry_and_other_objects) ... ok
+test_arrow_styling_rejects_bad_target_and_width (test_pipeline.Pipeline.test_arrow_styling_rejects_bad_target_and_width) ... ok
+test_crop_manifest_rejects_wrong_picture_order (test_pipeline.Pipeline.test_crop_manifest_rejects_wrong_picture_order) ... ok
+test_dangling_reference_fails (test_pipeline.Pipeline.test_dangling_reference_fails) ... ok
+test_duplicate_ids_fail (test_pipeline.Pipeline.test_duplicate_ids_fail) ... ok
+test_hybrid_figure_patch_preserves_photos_and_crops (test_pipeline.Pipeline.test_hybrid_figure_patch_preserves_photos_and_crops) ... ok
+test_missing_required_edge_fails (test_pipeline.Pipeline.test_missing_required_edge_fails) ... ok
+test_native_group_translation (test_pipeline.Pipeline.test_native_group_translation) ... ok
+test_photo_crop_survives_export_as_editable_metadata (test_pipeline.Pipeline.test_photo_crop_survives_export_as_editable_metadata) ... ok
+test_raw_export_bug_is_detected (test_pipeline.Pipeline.test_raw_export_bug_is_detected) ... ok
+test_refined_examples_preserve_content_contracts (test_pipeline.Pipeline.test_refined_examples_preserve_content_contracts) ... ok
+test_refuses_overwrite (test_pipeline.Pipeline.test_refuses_overwrite) ... ok
+test_reverse_arrow_fails (test_pipeline.Pipeline.test_reverse_arrow_fails) ... ok
+test_routed_move_is_rejected (test_pipeline.Pipeline.test_routed_move_is_rejected) ... ok
+test_source_hash_rejects_stale_edit (test_pipeline.Pipeline.test_source_hash_rejects_stale_edit) ... ok
+test_straight_connector_follows_local_move (test_pipeline.Pipeline.test_straight_connector_follows_local_move) ... ok
+test_target_fingerprint_rejects_stale_object (test_pipeline.Pipeline.test_target_fingerprint_rejects_stale_object) ... ok
+test_text_contract_failure (test_pipeline.Pipeline.test_text_contract_failure) ... ok
+test_text_patch_preserves_every_other_object_and_part (test_pipeline.Pipeline.test_text_patch_preserves_every_other_object_and_part) ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 1.235s
+
+OK

@@ -1,0 +1,32 @@
+{
+  "title": "Facet coverage and source-linked answer assembly",
+  "status": "Illustrative toy example, not a measured result or a claim about a deployed system",
+  "publicationWidthMm": 177.8,
+  "canvasPx": [672, 430],
+  "query": "How are cached results reused and evicted?",
+  "facets": ["Reuse", "Eviction"],
+  "passages": [
+    {"id": "d1", "text": "Repeated queries reuse stored results.", "coverage": [1, 0], "selected": true},
+    {"id": "d2", "text": "Documents are split into passages.", "coverage": [0, 0], "selected": false},
+    {"id": "d3", "text": "Old entries are removed at capacity.", "coverage": [0, 1], "selected": true},
+    {"id": "d4", "text": "Cached results serve repeated queries.", "coverage": [1, 0], "selected": false}
+  ],
+  "selectionRule": "Choose one source per facet. For this example, the earliest document ID breaks a tie.",
+  "selectionNotation": "S = {d1, d3}",
+  "answerClauses": [
+    {"id": "answer-reuse", "text": "Stored results serve repeated queries.", "source": "d1", "citation": "[1]"},
+    {"id": "answer-eviction", "text": "Old entries are evicted at capacity.", "source": "d3", "citation": "[3]"}
+  ],
+  "relationshipPlan": {
+    "centralRelationship": "Each selected matrix row preserves its source ID into one answer clause, covering both query facets without selecting the duplicate passage.",
+    "matrixMark": "One binary cell indicates whether the row passage covers the column facet; these are stipulated labels, not measured scores.",
+    "rowIdentity": "d1 through d4 remain in input order and align with matrix rows.",
+    "selectedState": "Selected rows use a plum accent and explicit selection marks; coverage uses 1/0 so grayscale remains interpretable.",
+    "edges": "Native directed connectors link visible selected-row boundaries to their supported answer-clause boundaries. No edge from d2 or d4 to the answer.",
+    "scope": "The four documents are supplied candidates; retrieval and learned scoring are outside this illustrative example.",
+    "asset": "One separately generated flat document-collection pictogram introduces the candidate collection. It contains no IDs, text, arrows or semantic data."
+  },
+  "reference": {"path": ".build/blind-evaluation/sources/clip.png", "url": "https://arxiv.org/html/2103.00020v1/main-diagrams.png", "observation": "The inspected CLIP figure couples concrete inputs with stable row/column identities and a matrix. Apply only the identity/correspondence device, not its model topology."},
+  "palette": {"book": "plum-sand", "plum": "selected evidence and source-linked paths", "sand": "query and answer context", "slate": "unselected candidate context", "neutral": "table structure and prose"},
+  "typography": {"prose": "Arial", "mathematics": "Times New Roman, italic d and S; upright numeric subscripts", "editing": "Native grouped text objects, not raster text or OMML"}
+}

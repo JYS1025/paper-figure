@@ -1,0 +1,17 @@
+{
+  "title": "Fluorescence-activated microfluidic droplet screening",
+  "type": "Hypothetical methodology figure, not experimental evidence",
+  "requirements": [
+    "An aqueous assay mixture and a carrier oil enter a flow-focusing junction, which produces discrete aqueous droplets in oil.",
+    "The droplets pass through an on-chip incubation/delay region.",
+    "An optical fluorescence detector measures each droplet after incubation.",
+    "A controller compares each signal F with a threshold theta and triggers a downstream sorting electrode.",
+    "The sorting junction routes droplets satisfying F >= theta to a collected-hit outlet and other droplets to a waste outlet.",
+    "The material path and the detector-to-controller-to-actuator control relationship must both be represented.",
+    "Inlet, incubation, detection, sorting, collected hits and waste must be identifiable. Channel dimensions, flow rates, incubation duration, physical signal values, sample biology and sorting performance are unspecified."
+  ],
+  "deliverables": "One editable paper figure as a one-slide PPTX, its saved-file-rendered PNG and PDF, and a brief record of checks/limitations.",
+  "publicationWidthMm": 177.8,
+  "language": "English figure labels. Korean delivery summary.",
+  "constraints": "Scientific diagram, no ordinary slide cover. Treat quantities and positive/negative droplet depictions as schematic, never measured results. Choose the composition independently."
+}

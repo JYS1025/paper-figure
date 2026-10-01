@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "file": "docs/images/readme/hero.png",
+    "dimensionsPx": [
+      2172,
+      724
+    ],
+    "sha256": "a8da1f770238dddb55f4232e7b82294e517b778541cb40b816df048caf0a775d",
+    "method": "Built-in image_gen",
+    "prompt": "docs/branding/hero-prompt.txt",
+    "purpose": "Conceptual brand illustration, not an application screenshot or an experimental result."
+  },
+  "badges": {
+    "count": 8,
+    "generator": "scripts/build-readme-assets.py",
+    "type": "Static capability and requirement labels; not live CI or popularity counters.",
+    "checksEvidence": "docs/claude-port-validation.json",
+    "paletteEvidence": "skills/paper-figure/assets/color-books.json"
+  },
+  "gallery": [
+    {
+      "file": "docs/images/document-evidence.png",
+      "source": "output/image-draft-sample-12/figure.png",
+      "kind": "Saved-PPTX render; illustrative example."
+    },
+    {
+      "file": "docs/images/document-evidence-draft.png",
+      "source": "output/image-draft-sample-12/selected-draft.png",
+      "kind": "Actual image-model composition draft."
+    },
+    {
+      "file": "docs/images/microfluidic-sorting.png",
+      "source": "output/image-first-test-03/figure.png",
+      "kind": "Saved-PPTX render; hypothetical schematic."
+    }
+  ]
+}

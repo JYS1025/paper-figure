@@ -1,0 +1,84 @@
+{
+  "test": "Fresh generation using 16-color-book skill, followed by masked published-source comparison and separate labeled review",
+  "sameBriefAs": "unseen-context-test-01",
+  "briefIdentical": true,
+  "generatorAgent": "/root/color_book_generator_02",
+  "generatorForkHistory": "none",
+  "evaluatorAgent": "/root/blind_palette_verifier_02",
+  "evaluatorForkHistory": "none",
+  "modelSelection": "Inherited parent configuration, no explicit model override; separate contexts do not mean a different model family or service.",
+  "generationOwnership": "Generator chooses, renders and revises its own figure. Parent delivered exact bytes, without figure edits.",
+  "deliverables": {
+    "figure.pptx": {
+      "sha256": "49776dbb6fe621584c4c9a5a46bce0581d6c70e163919452c51146decc086d99",
+      "matchesGenerator": true
+    },
+    "figure.pdf": {
+      "sha256": "ad22e84ffe3adf29eb48b1b2ea7f472117c5a9f3b32e25b059f29b1a2b76b88c",
+      "matchesGenerator": true
+    },
+    "figure.png": {
+      "sha256": "df27378b99c910a2535f367445b1b403575c658d661d0afef7bf731c0dc33e06",
+      "matchesGenerator": true
+    }
+  },
+  "skillSnapshotUnchanged": true,
+  "blindInput": "Only evaluator-prompt.md and flattened pair-01.png; key and source files excluded by fresh-context task instructions. This is context separation, not an OS access-control boundary.",
+  "comparisonScope": "One pair, local detection/sorting region; different methods and device detail levels. Not a color-only ablation or population estimate.",
+  "parentRenderedReview": {
+    "performed": true,
+    "observations": [
+      "Continuous flow focusing, serpentine channel, detection and sorting junction are visible.",
+      "Filled/open droplets and labeled thresholds distinguish collected hits from waste.",
+      "Detector-controller-electrode control path is distinct from material path."
+    ],
+    "scope": "Read-only; does not pre-empt independent blind feedback."
+  },
+  "parentFlowAudit": {
+    "connectors": 4,
+    "requiringRenderedReview": 0,
+    "geometryUnchecked": 0
+  },
+  "nativePowerPointEditTest": false,
+  "completedAtUtc": "2026-09-30T06:50:03.602910+00:00",
+  "parentSavedPptxContract": {
+    "passed": true,
+    "errors": [],
+    "warnings": []
+  },
+  "blindVerdictLock": {
+    "lockedAtUtc": "2026-09-30T06:46:42.539656+00:00",
+    "responseSha256": "82a938cced5aa76ae71d4f710eb6d390a389554a5caecd8071862af98f3082ac",
+    "publishedGuess": "B",
+    "publishedActual": "B",
+    "subjectiveConfidence": 0.6,
+    "qualityChoice": "A",
+    "generatedActual": "A",
+    "recognizedFromMemory": false,
+    "phase2InputsReleasedOnlyAfterThisLock": true
+  },
+  "comparisonPreparation": {
+    "reference": "spinDrop Figure 1C schematic",
+    "candidate": "Local optical detection/sorting crop",
+    "originalsUnchanged": true,
+    "imageOnlyPdfNoExtractableText": true,
+    "referencePhotoExcluded": true,
+    "maskPolicy": "All internal text masked with opaque neutral overlays on both sides, then flattened",
+    "primaryInput": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/color-book-blind-test-02/blind/pair-01.png",
+    "fullFigureExcludedUntilVerdictLocked": true
+  },
+  "labeledReview": {
+    "blind": false,
+    "fullLabeledImageAndBriefProvidedAfterInitialVerdict": true,
+    "reviewerSameAsBlindPhase": true,
+    "responseSha256": "fc6d3eb22234ac196572170ab9143f23d47d1c4289cd16845d6558a3b88304f1",
+    "requiredRelationsSatisfied": true,
+    "confirmedStructuralDefect": false,
+    "remainingFeedback": [
+      "Explain the pale-green droplet state or remove an unintended third encoding, without inventing quantitative or biological meaning.",
+      "Separate the sorting-zone emphasis boundary and arrowhead from the channel junction while preserving actual control endpoints."
+    ],
+    "blanketArrowThickeningRecommended": false
+  },
+  "blindResponseUnchangedAfterReveal": true
+}

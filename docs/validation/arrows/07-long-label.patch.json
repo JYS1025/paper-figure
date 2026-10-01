@@ -1,0 +1,30 @@
+{
+  "sourceSha256": "6131ef99ee75b99d1eb853b13f775ef74c800b2b35e9bb84461ba431785bd2dc",
+  "outputSha256": "0ba670c055d90194beb37d40da7b499630efb02fb874f574a38c028ae0e9e38a",
+  "changed": [
+    {
+      "slide": 1,
+      "id": "112",
+      "name": "e0",
+      "action": "style_connector"
+    },
+    {
+      "slide": 1,
+      "id": "113",
+      "name": "e1",
+      "action": "style_connector"
+    },
+    {
+      "slide": 1,
+      "id": "115",
+      "name": "context",
+      "action": "style_connector"
+    }
+  ],
+  "changedParts": [
+    "ppt/slides/slide1.xml"
+  ],
+  "untouchedPartsByteIdentical": 20,
+  "nonTargetObjectsUnchanged": 67,
+  "connectorGeometryAndEndpointsUnchanged": true
+}

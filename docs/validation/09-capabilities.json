@@ -1,0 +1,247 @@
+{
+  "file": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/final/09-capabilities.pptx",
+  "sha256": "a174fc2ff8644e29261e70c62becf5f0a24c1a7ff222b84104b9e454cae4402e",
+  "sizePx": [
+    672.0,
+    360.0
+  ],
+  "slides": [
+    {
+      "part": "ppt/slides/slide1.xml",
+      "objects": [
+        {
+          "id": "13",
+          "name": "caption",
+          "kind": "sp",
+          "text": "Native editing probe",
+          "boundsPx": [
+            24.0,
+            13.0,
+            624.0,
+            25.0
+          ],
+          "fingerprint": "1e13ed3b36db200e7ba274922299061b6210c940aa0dbf0b5b81b25175a70a6e",
+          "fontPt": [
+            12.0
+          ]
+        },
+        {
+          "id": "2",
+          "name": "input",
+          "kind": "sp",
+          "text": "Input x",
+          "boundsPx": [
+            32.0,
+            100.0,
+            112.0,
+            52.0
+          ],
+          "fingerprint": "de60c5fb2c3f8afa6d88317b37c9f1fad08cda938272be9ea3ec1d160f67d776",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "3",
+          "name": "encoder",
+          "kind": "sp",
+          "text": "Encoder",
+          "boundsPx": [
+            261.0,
+            100.0,
+            143.0,
+            52.0
+          ],
+          "fingerprint": "5d647559f98229de71e65dd72759983fd7901051906410b8d5cfb5c4b3d187ab",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "4",
+          "name": "output",
+          "kind": "sp",
+          "text": "Output y",
+          "boundsPx": [
+            522.0,
+            100.0,
+            112.0,
+            52.0
+          ],
+          "fingerprint": "bdfa9d91f531731283515f1053f1bbf5fe32379ddeceeea5ea2a4825e80a8b56",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "17",
+          "name": "input-encoder",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            144.0,
+            126.0,
+            117.0,
+            0.0
+          ],
+          "fingerprint": "f6274ec4283d0969744d5a02c45049c4c3ea4e22e04782a3b95475cb7c7031a4",
+          "fontPt": []
+        },
+        {
+          "id": "18",
+          "name": "encoder-output",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            404.0,
+            126.0,
+            118.0,
+            0.0
+          ],
+          "fingerprint": "9cf2a24fa48a46bc397d2d0d41ace2527ed9b1db6bbf219b09a644d56d21536f",
+          "fontPt": []
+        },
+        {
+          "id": "19",
+          "name": "token-group",
+          "kind": "grpSp",
+          "text": "",
+          "boundsPx": [
+            36.0,
+            248.0,
+            135.0,
+            30.0
+          ],
+          "fingerprint": "4455765612d152c50edad854a4395f6759472ab5beb5a7af4f4a2c2c9e599f2b",
+          "fontPt": []
+        },
+        {
+          "id": "7",
+          "name": "token-group.0",
+          "kind": "sp",
+          "text": "1",
+          "boundsPx": [
+            36.0,
+            248.0,
+            30.0,
+            30.0
+          ],
+          "fingerprint": "6241f2a371e97fa8359c574f05885c3039b526c2b70a1bb9bbb213f38d5f8cde",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "8",
+          "name": "token-group.1",
+          "kind": "sp",
+          "text": "2",
+          "boundsPx": [
+            71.0,
+            248.0,
+            30.0,
+            30.0
+          ],
+          "fingerprint": "5dc2bbeae3699afb066f5ef68159cec8c051960403511cc915059f3035c5ac08",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "9",
+          "name": "token-group.2",
+          "kind": "sp",
+          "text": "3",
+          "boundsPx": [
+            106.0,
+            248.0,
+            30.0,
+            30.0
+          ],
+          "fingerprint": "9d439385d9796b3e0c5cb121bfdb2b54238b394a302263f3908cd20ac6ee9bc0",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "10",
+          "name": "token-group.3",
+          "kind": "sp",
+          "text": "4",
+          "boundsPx": [
+            141.0,
+            248.0,
+            30.0,
+            30.0
+          ],
+          "fingerprint": "aa4ed90f57f8000ebde9269eca3da573236a221b9fe8982ed18ee816151574fc",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "11",
+          "name": "equation",
+          "kind": "sp",
+          "text": "h\u209c\u208a\u2081 = h\u209c + f\u03b8(h\u209c)",
+          "boundsPx": [
+            269.0,
+            241.0,
+            259.0,
+            45.0
+          ],
+          "fingerprint": "4e7713aa393941f3a765080c73535fc09d22238642830f0c004a6dfc9d7e94a8",
+          "fontPt": [
+            14.25
+          ]
+        },
+        {
+          "id": "12",
+          "name": "editable-note",
+          "kind": "sp",
+          "text": "Select individual cells or move the group",
+          "boundsPx": [
+            28.0,
+            292.0,
+            246.0,
+            25.0
+          ],
+          "fingerprint": "d018d52b5032fae56d5c21df3b4616672b1bc734ec531b4b2bbcefbf7ae979fd",
+          "fontPt": [
+            9.0
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "name": "input-encoder",
+          "from": "input",
+          "to": "encoder",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "encoder-output",
+          "from": "encoder",
+          "to": "output",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        }
+      ],
+      "counts": {
+        "sp": 10,
+        "cxnSp": 2,
+        "grpSp": 1,
+        "pic": 0,
+        "graphicFrame": 0
+      },
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "passed": true
+}

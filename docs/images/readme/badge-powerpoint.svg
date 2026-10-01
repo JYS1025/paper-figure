@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="111" height="26" viewBox="0 0 111 26" role="img" aria-label="OUTPUT: PPTX">
+<title>OUTPUT: PPTX</title>
+<defs><clipPath id="edge"><rect width="111" height="26" rx="4"/></clipPath></defs>
+<g clip-path="url(#edge)"><rect width="111" height="26" fill="#26343E"/><rect x="62.2" width="48.8" height="26" fill="#AEC8DE"/></g>
+<g font-family="DejaVu Sans Mono,Consolas,monospace" font-size="10" font-weight="600" text-anchor="middle" letter-spacing="0.4">
+<text x="31.1" y="17" fill="#F4F2E9">OUTPUT</text>
+<text x="86.6" y="17" fill="#17242C">PPTX</text></g>
+</svg>

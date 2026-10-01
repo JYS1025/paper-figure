@@ -1,0 +1,253 @@
+{
+  "source": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/hybrid-assets-test-06/figure.pptx",
+  "sourceSha256": "46dbd014109537222788cee184f189e47bf435a04e413177de4ecaf0b87e4df8",
+  "readOnly": true,
+  "scope": "Native connector attachment diagnostics; inspect the rendered figure for meaning and quality.",
+  "summary": {
+    "connectors": 12,
+    "requiringRenderedReview": 0,
+    "geometryUnchecked": 0
+  },
+  "connectors": [
+    {
+      "slide": 1,
+      "name": "visual-input",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "visual-observation",
+        "site": "3",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "visual-estimator",
+        "site": "1",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0001,
+        "to": 0.0
+      }
+    },
+    {
+      "slide": 1,
+      "name": "visual-estimation",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "visual-estimator",
+        "site": "3",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "late-correction",
+        "site": "1",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      }
+    },
+    {
+      "slide": 1,
+      "name": "inertial-input",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "inertial-source",
+        "site": "3",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "inertial-propagation",
+        "site": "1",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      }
+    },
+    {
+      "slide": 1,
+      "name": "propagate-k-k1",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "stored-k",
+        "site": "3",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "stored-k1",
+        "site": "1",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      }
+    },
+    {
+      "slide": 1,
+      "name": "propagate-k1-now",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "stored-k1",
+        "site": "3",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "stored-now",
+        "site": "1",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      }
+    },
+    {
+      "slide": 1,
+      "name": "live-to-current",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "inertial-propagation",
+        "site": "3",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "stored-now",
+        "site": "0",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      }
+    },
+    {
+      "slide": 1,
+      "name": "correction-to-history",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "late-correction",
+        "site": "2",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "stored-k",
+        "site": "0",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      }
+    },
+    {
+      "slide": 1,
+      "name": "update-k",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "stored-k",
+        "site": "2",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "updated-k",
+        "site": "0",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      }
+    },
+    {
+      "slide": 1,
+      "name": "start-replay",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "updated-k",
+        "site": "3",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "replay",
+        "site": "1",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      }
+    },
+    {
+      "slide": 1,
+      "name": "replay-samples",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "buffered-measurements",
+        "site": "2",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "replay",
+        "site": "0",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      }
+    },
+    {
+      "slide": 1,
+      "name": "correct-current",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "replay",
+        "site": "3",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "corrected-now",
+        "site": "1",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      }
+    },
+    {
+      "slide": 1,
+      "name": "continue-future",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "corrected-now",
+        "site": "3",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "future-state",
+        "site": "1",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      }
+    }
+  ]
+}

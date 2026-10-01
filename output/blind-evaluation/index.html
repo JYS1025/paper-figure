@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Figure 블라인드 비교</title>
+<style>
+:root{font-family:Arial,"Apple SD Gothic Neo",sans-serif;color:#25323b;background:#f3f5f7}
+body{max-width:1440px;margin:0 auto;padding:36px 24px 60px}h1{font-size:28px;margin:0 0 12px}
+p{line-height:1.7;color:#52616d;max-width:850px}nav{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0 32px}
+a{color:#285c86}nav a{background:white;border:1px solid #d7dfe5;border-radius:6px;padding:10px 14px;text-decoration:none}
+figure{margin:24px 0;border:1px solid #dce2e7;border-radius:10px;background:white;overflow:hidden}
+figure img{display:block;width:100%;height:auto}figcaption{padding:15px 22px;border-top:1px solid #edf0f3;color:#52616d;font-size:14px}
+details{background:white;padding:18px 22px;border:1px solid #dce2e7;border-radius:8px;margin-top:28px}summary{cursor:pointer;font-weight:bold}
+@media print{body{background:white;padding:0}nav,details{display:none}figure{break-inside:avoid;border:0;border-radius:0}}
+</style>
+<h1>Figure 블라인드 비교</h1>
+<p>각 쌍에는 실제 논문의 figure와 생성본이 하나씩 있습니다. 출처와 내부 라벨을 가리고 위치를 무작위로 정했습니다. 회색 영역은 가림막입니다. 정답을 보기 전에 A와 B를 직접 비교할 수 있습니다.</p>
+<nav><a href="../pdf/blind-figure-comparison.pdf">비교 PDF</a><a href="evaluator-prompt.md">검증 프롬프트</a><a href="../paper-figure-blind-evaluation.zip">검증용 묶음 · 정답 제외</a></nav>
+<figure><img src="images/pair_01.png" alt="비교 01: 익명 figure A와 B" loading="eager"><figcaption>01 · A / B</figcaption></figure>
+<figure><img src="images/pair_02.png" alt="비교 02: 익명 figure A와 B" loading="lazy"><figcaption>02 · A / B</figcaption></figure>
+<figure><img src="images/pair_03.png" alt="비교 03: 익명 figure A와 B" loading="lazy"><figcaption>03 · A / B</figcaption></figure>
+<figure><img src="images/pair_04.png" alt="비교 04: 익명 figure A와 B" loading="lazy"><figcaption>04 · A / B</figcaption></figure>
+<details><summary>판별 결과와 피드백 확인</summary><p><a href="verifier-response.md">검증 에이전트 응답 원문</a> · <a href="report.md">정답 대조·해석·출처</a></p><p>유명한 구도에 대한 기억, 다른 방법의 정보량, 라벨 마스킹이 판단에 영향을 줄 수 있습니다. 출처 판별 성공률은 품질 점수가 아닙니다.</p></details>
+</html>

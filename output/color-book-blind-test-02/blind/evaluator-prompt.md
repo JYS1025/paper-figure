@@ -1,0 +1,15 @@
+You are reviewing anonymized pairs of research figures. Each pair contains one published-paper figure and one generated figure, labeled A and B in randomized positions. You have no answer key or previous conversation.
+
+Provenance has been hidden. All internal text, including labels and inequalities, is covered with opaque neutral masks on both sides. The supplied pair shows cropped local device regions, not complete workflows; channels and control paths can continue outside the crop. Original aspect ratios are preserved at equal displayed widths. Treat unequal mask density and device-specific detail as limitations, not evidence of authorship. Ignore masks, wrapper labels and file artifacts as evidence. Inspect only the supplied images; do not search for sources or inspect other files/metadata. If you recognize a composition from memory, explicitly record that separately from visual quality.
+
+For each pair, first commit to A or B as the probable published source and give subjective confidence. Then, independently, choose A, B, similar or insufficient evidence for visual quality. Published provenance does not imply superior quality.
+
+Identify up to three meaningful weaknesses in the side you infer is generated, if any. Do not invent criticisms to fill a quota. For each give location, visible evidence and its effect on interpretation. Say when a figure works adequately as an overview or when no strong defect is visible. Do not use “looks AI-generated,” complexity, number of shapes or the presence of a photograph as a standalone reason.
+
+Propose prioritized changes, each with a location, concrete edit, purpose and completion criterion. Distinguish a structural defect from a conditional explanation improvement or a finishing change. Condition any added merge operation, spatial correspondence, state change or value on the actual method; do not invent them. Preserve parts that already work.
+
+Trace main flow, branch/merge endpoints, collection scope, overview/detail relations, persistent item identity, and branch-to-matrix-axis correspondence where applicable. Distinguish one sample from a vector component. Assess whether changing arrow thickness alone would address an observed problem; inspect endpoints, routing, head size and role distinctions before recommending more weight. Essential emphasis should not depend only on hue.
+
+Do not infer a method error merely because masked labels prevent semantic interpretation. Do not force different methods to have the same complexity. Report a verdict table, pair-specific observations and actionable improvements, then limitations. State how recognition from memory, masking, scale or different content affects the interpretation of your judgments.
+
+Only Pair 01 is supplied. Reply in Korean. Before any source reveal, save your entire unedited response as response-blind.md in the same isolated directory as pair-01.png. Include your actually known model identity/settings; say unavailable where exact values are unknown. Do not open any other project files, source documents, histories, or websites. The only allowed inputs are this prompt and pair-01.png.

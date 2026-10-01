@@ -1,0 +1,9 @@
+[
+  {
+    "name": "neural-recording-picture",
+    "source": "assets/neural-recording.png",
+    "sha256": "4ee9c5f648cb2f34b6ed5684d426e28ac451b9857a00a129944c527ca05bd194",
+    "independentPicture": true,
+    "fullDraftEmbedded": false
+  }
+]

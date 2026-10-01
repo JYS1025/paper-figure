@@ -1,0 +1,133 @@
+{
+  "source": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/feedback-revision/04-skip.pptx",
+  "sourceSha256": "938d0ce56ba4751f17594a94404f7be9684af8d94debd42979fc3126b1674f7a",
+  "readOnly": true,
+  "scope": "Native connector attachment diagnostics; inspect the rendered figure for meaning and quality.",
+  "summary": {
+    "connectors": 6,
+    "requiringRenderedReview": 0,
+    "geometryUnchecked": 0
+  },
+  "connectors": [
+    {
+      "slide": 1,
+      "name": "down1",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "e1",
+        "site": "2",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "e2",
+        "site": "1",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      }
+    },
+    {
+      "slide": 1,
+      "name": "down2",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "e2",
+        "site": "2",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "core",
+        "site": "1",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      }
+    },
+    {
+      "slide": 1,
+      "name": "up2",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "core",
+        "site": "3",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "d2",
+        "site": "2",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      }
+    },
+    {
+      "slide": 1,
+      "name": "up1",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "d2",
+        "site": "3",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "d1",
+        "site": "2",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      }
+    },
+    {
+      "slide": 1,
+      "name": "skip1",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "e1",
+        "site": "3",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "d1",
+        "site": "1",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      }
+    },
+    {
+      "slide": 1,
+      "name": "skip2",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "e2",
+        "site": "3",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "d2",
+        "site": "1",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      }
+    }
+  ]
+}

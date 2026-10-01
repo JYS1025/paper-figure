@@ -1,0 +1,53 @@
+{
+  "updatedAtUtc": "2026-10-01T01:14:27.147370+00:00",
+  "fileCount": 49,
+  "sha256": "6697efbbda6a6f2bd3a579637af78dc6632ffb7aac98932e22a4bc6862f2240e",
+  "quickValidatePassed": true,
+  "localReferencesChecked": 44,
+  "missingReferences": [],
+  "completionEvidenceAnchorVerified": true,
+  "archivePayloadsMatchSkill": true,
+  "changedSkillFiles": [
+    "paper-figure/SKILL.md",
+    "paper-figure/references/authoring.md",
+    "paper-figure/references/image-first.md",
+    "paper-figure/references/review-and-editing.md",
+    "paper-figure/references/visual-assets.md",
+    "paper-figure/references/visual-design.md"
+  ],
+  "codeAndAssetsUnchanged": true,
+  "projectSkillAliasResolvesToUpdatedSource": true,
+  "previousSamplesUnchanged": {
+    "output/pictogram-math-test-09/figure-v4.pptx": "1b1f0a515e1b49f092be68c558c31bb0f8643d1b486b34a2749f6e286f4f0061",
+    "output/unseen-crossing-10/figure-v1.pptx": "5db4b40600619a1af73dc9461686c5eee7b8237d878bf9c02aeab8a8813479a9"
+  },
+  "reviewedWorkflowCases": [
+    {
+      "request": "Create a new figure or unseen sample",
+      "route": "Full image-model draft and review before PPTX authoring, then native reconstruction and draft-to-render comparison"
+    },
+    {
+      "request": "Generate only an inserted icon while making a new figure",
+      "route": "Icon is an asset; full composition draft is still required"
+    },
+    {
+      "request": "Edit one label in the latest human-edited PPTX",
+      "route": "Local preservation edit; do not regenerate its layout"
+    },
+    {
+      "request": "Reproduce a supplied raster exactly",
+      "route": "Use the supplied design and identify its provenance; do not call it a newly generated draft"
+    },
+    {
+      "request": "Image generation is unavailable",
+      "route": "Report the blocker; do not silently substitute direct authoring"
+    },
+    {
+      "request": "Improve the skill instructions",
+      "route": "Update the skill; do not generate a sample unless requested"
+    }
+  ],
+  "workflowCaseReviewKind": "Manual instruction review, not independent model execution",
+  "newFigureGenerationPerformed": false,
+  "newRegressionTestsAdded": false
+}

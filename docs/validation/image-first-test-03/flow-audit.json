@@ -1,0 +1,53 @@
+{
+  "source": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/image-first-test-03/final/r3.pptx",
+  "sourceSha256": "5a1171f553a953a21cea6dd77a0daf496888043bfe3d671c3c9786f58f78e9e3",
+  "readOnly": true,
+  "scope": "Native connector attachment diagnostics; inspect the rendered figure for meaning and quality.",
+  "summary": {
+    "connectors": 2,
+    "requiringRenderedReview": 0,
+    "geometryUnchecked": 0
+  },
+  "connectors": [
+    {
+      "slide": 1,
+      "name": "signal-F",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "detector-window",
+        "site": "0",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "controller",
+        "site": "2",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      }
+    },
+    {
+      "slide": 1,
+      "name": "sorting-trigger",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "controller",
+        "site": "3",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "sorting-electrode",
+        "site": "0",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0001,
+        "to": 0.0001
+      }
+    }
+  ]
+}

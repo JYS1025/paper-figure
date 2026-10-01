@@ -1,0 +1,365 @@
+{
+  "file": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/final/08-train-infer.pptx",
+  "sha256": "5da7faff38f6f058272133688be9f50fd1e5e67ebcc10caa1809c2b6fb85be6f",
+  "sizePx": [
+    672.0,
+    360.0
+  ],
+  "slides": [
+    {
+      "part": "ppt/slides/slide1.xml",
+      "objects": [
+        {
+          "id": "20",
+          "name": "train",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            19.0,
+            24.0,
+            634.0,
+            153.0
+          ],
+          "fingerprint": "6034c22b6dddc71b12fb8ad776bf550ab1f44c8a47f436107f46c3f8c0d5776d",
+          "fontPt": []
+        },
+        {
+          "id": "2",
+          "name": "train.title",
+          "kind": "sp",
+          "text": "(a) Training",
+          "boundsPx": [
+            27.0,
+            29.0,
+            618.0,
+            22.0
+          ],
+          "fingerprint": "001ae097c7c0157f5e7a0ea7507ac108fd8fe5e72fc31640f398611dd46bebf3",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "3",
+          "name": "infer",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            19.0,
+            194.0,
+            634.0,
+            142.0
+          ],
+          "fingerprint": "cf12236213f872064d062c00c9b14d56e0d86e1ae969f9049ebd0ea1d4c5241a",
+          "fontPt": []
+        },
+        {
+          "id": "4",
+          "name": "infer.title",
+          "kind": "sp",
+          "text": "(b) Inference",
+          "boundsPx": [
+            27.0,
+            199.0,
+            618.0,
+            22.0
+          ],
+          "fingerprint": "0c1b860e49d7f36b7442fbfdb6c8279e4c9b79035ce33c96f9a0e80a32e5b663",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "5",
+          "name": "train-x",
+          "kind": "sp",
+          "text": "Sample x",
+          "boundsPx": [
+            41.0,
+            79.0,
+            100.0,
+            44.0
+          ],
+          "fingerprint": "37c3f9ee50c335b4f94661f057d403446e201af54f59a09a42d211f715f909d7",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "6",
+          "name": "train-model",
+          "kind": "sp",
+          "text": "Model f\u03b8",
+          "boundsPx": [
+            191.0,
+            75.0,
+            129.0,
+            52.0
+          ],
+          "fingerprint": "1dedf06ec44a26d56d7284236e5b6406a5524a7c491d6410ec1bd890e00bb407",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "7",
+          "name": "loss",
+          "kind": "sp",
+          "text": "Loss",
+          "boundsPx": [
+            379.0,
+            119.0,
+            88.0,
+            44.0
+          ],
+          "fingerprint": "40e386081c6848b0593999b502af2c1f24710c0d589460f4fee7666265468522",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "8",
+          "name": "target",
+          "kind": "sp",
+          "text": "Target y",
+          "boundsPx": [
+            522.0,
+            119.0,
+            100.0,
+            44.0
+          ],
+          "fingerprint": "7e8689cad668ba631c70a9d52c67c81c84135b3d0a167f08a360e4aace71b63c",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "28",
+          "name": "train-forward",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            141.0,
+            101.0,
+            50.0,
+            0.0
+          ],
+          "fingerprint": "5f3f3a4a2751dd8edc7e251ebb793707ec9bc938bdb44b0ec3c1d8b80557a5e5",
+          "fontPt": []
+        },
+        {
+          "id": "29",
+          "name": "objective",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            320.0,
+            101.0,
+            103.0,
+            18.0
+          ],
+          "fingerprint": "b14bdcb96e83d23c740aa92d5933ee0eda680dcced561ac1805aaeae3889ec2b",
+          "fontPt": []
+        },
+        {
+          "id": "30",
+          "name": "supervision",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            467.0,
+            141.0,
+            55.0,
+            0.0
+          ],
+          "fingerprint": "992ceffa67baa1ee0bb0c723477f42c0eea0e87b3ae4117da625c11199eb935a",
+          "fontPt": []
+        },
+        {
+          "id": "31",
+          "name": "gradient",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            255.5001,
+            127.0,
+            123.5001,
+            14.0
+          ],
+          "fingerprint": "53b42f88c359622f500e3986c69f8988028356ebeb3ebad48d7bf577c3678688",
+          "fontPt": []
+        },
+        {
+          "id": "13",
+          "name": "update-label",
+          "kind": "sp",
+          "text": "update \u03b8",
+          "boundsPx": [
+            282.0,
+            146.0,
+            83.0,
+            19.0
+          ],
+          "fingerprint": "58ed2cc82aebd69b7ddd5d96c91bb99412721369898d354b55994f0cafb81fa7",
+          "fontPt": [
+            8.25
+          ]
+        },
+        {
+          "id": "14",
+          "name": "infer-x",
+          "kind": "sp",
+          "text": "New x",
+          "boundsPx": [
+            41.0,
+            257.0,
+            100.0,
+            44.0
+          ],
+          "fingerprint": "a75ca3a0cc3c353ada04898027db926b9ed87d2787935f07d184873bf1b04273",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "15",
+          "name": "infer-model",
+          "kind": "sp",
+          "text": "Model f\u03b8",
+          "boundsPx": [
+            191.0,
+            251.0,
+            129.0,
+            56.0
+          ],
+          "fingerprint": "3a2d2e4648d24728e60bb7fdb583e3a2fc4ee03d24c9d049c02ec99e6c281ccc",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "16",
+          "name": "prediction",
+          "kind": "sp",
+          "text": "Prediction \u0177",
+          "boundsPx": [
+            423.0,
+            257.0,
+            144.0,
+            44.0
+          ],
+          "fingerprint": "2b9477541e4c22129f5058b1138b223cabea0fecc4e2d3e7ff6e7f59f75a6260",
+          "fontPt": [
+            10.5
+          ]
+        },
+        {
+          "id": "36",
+          "name": "infer-forward",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            141.0,
+            279.0,
+            50.0,
+            0.0
+          ],
+          "fingerprint": "739bc2f5cccba7dd9d6148e8ce2a2c6025efa50ab103f05b9f5ee5a19176e26d",
+          "fontPt": []
+        },
+        {
+          "id": "37",
+          "name": "infer-output",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            320.0,
+            279.0,
+            103.0,
+            0.0
+          ],
+          "fingerprint": "7c01cf3f789467afdcf3ce9191591379397c7e1164f3abd96885825729371ef0",
+          "fontPt": []
+        },
+        {
+          "id": "19",
+          "name": "fixed",
+          "kind": "sp",
+          "text": "fixed parameters",
+          "boundsPx": [
+            182.0,
+            309.0,
+            148.0,
+            25.0
+          ],
+          "fingerprint": "7ac29609843224e9d7f6d072bf155d06d44fb331fc1c682834dc98513b90e60d",
+          "fontPt": [
+            9.0
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "name": "train-forward",
+          "from": "train-x",
+          "to": "train-model",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "objective",
+          "from": "train-model",
+          "to": "loss",
+          "fromIdx": "3",
+          "toIdx": "0",
+          "directed": true
+        },
+        {
+          "name": "supervision",
+          "from": "target",
+          "to": "loss",
+          "fromIdx": "1",
+          "toIdx": "3",
+          "directed": true
+        },
+        {
+          "name": "gradient",
+          "from": "loss",
+          "to": "train-model",
+          "fromIdx": "1",
+          "toIdx": "2",
+          "directed": true
+        },
+        {
+          "name": "infer-forward",
+          "from": "infer-x",
+          "to": "infer-model",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "infer-output",
+          "from": "infer-model",
+          "to": "prediction",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        }
+      ],
+      "counts": {
+        "sp": 13,
+        "cxnSp": 6,
+        "grpSp": 0,
+        "pic": 0,
+        "graphicFrame": 0
+      },
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "passed": true
+}

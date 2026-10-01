@@ -1,0 +1,156 @@
+{
+  "task": "asynchronous-discovery",
+  "status": "completed",
+  "workflow": "built-in image_gen composition draft -> Artifact Tool native PPTX -> Presentations finalizer -> saved-PPTX LibreOffice PDF and PNG",
+  "files": {
+    "figure.pptx": {
+      "path": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/unseen-suite-05/asynchronous-discovery/figure.pptx",
+      "sha256": "195fce0a3ed9d4996dc585bfea85668a245cfec53d0f2e50634a4dbecd8cd54b",
+      "bytes": 16456
+    },
+    "figure.png": {
+      "path": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/unseen-suite-05/asynchronous-discovery/figure.png",
+      "sha256": "138f362d77ba549f71dfd75ec656482e96bf25cca4d1929476fdf37bb9e17a58",
+      "bytes": 179836,
+      "pixels": [
+        1400,
+        1226
+      ]
+    },
+    "figure.pdf": {
+      "path": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/unseen-suite-05/asynchronous-discovery/figure.pdf",
+      "sha256": "8fa4132eadaa661978be83982705af8a122a23bf1afc8e6f89d82aa06675eb7b",
+      "bytes": 155773
+    },
+    "image-draft.png": {
+      "path": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/unseen-suite-05/asynchronous-discovery/image-draft.png",
+      "sha256": "a0a5ad71de0163e5c44f809ea19dfb9b960f8d39c73292c10c548607b404553c",
+      "bytes": 1276340,
+      "pixels": [
+        1427,
+        1102
+      ]
+    },
+    "image-prompt.txt": {
+      "path": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/unseen-suite-05/asynchronous-discovery/image-prompt.txt",
+      "sha256": "8cc7577bc5970e7d77cf3147d271594687fabd125ab576bd8f497e5bd68294be",
+      "bytes": 3963
+    },
+    "brief.md": {
+      "path": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/unseen-suite-05/asynchronous-discovery/brief.md",
+      "sha256": "a81795097a314749e0dcddd213774b76885122d10e1af94819cb7340d3fbe165",
+      "bytes": 2251
+    }
+  },
+  "design": {
+    "publication_width_mm": 177.8,
+    "publication_height_mm": 155.575,
+    "slide_size_css_px": [
+      672,
+      588
+    ],
+    "pdf_size_pt": [
+      504.0,
+      441.014173228346
+    ],
+    "palette": "moss-clay",
+    "font": "Arial",
+    "font_point_range": [
+      7.57,
+      13.88
+    ],
+    "reference": "MAE original patch-state figure visually inspected; state correspondence principle only"
+  },
+  "draft_transfer": {
+    "preserved": [
+      "upper decision view and lower independent station lanes",
+      "stable letter identities",
+      "state-organized source collections",
+      "surrogate above selection, E queue at right",
+      "moss/clay/slate allocation"
+    ],
+    "corrected": [
+      "completed B changed to moss",
+      "running E changed to clay with explicit Pending label",
+      "queue-to-station E dispatch native connector added",
+      "B result-to-completed-set native connector added"
+    ],
+    "adapted": [
+      "later completed set sits above B measurement to avoid crossing D lane",
+      "registry update shown as explicit after-dispatch state snapshot with Remove B; register E",
+      "lighter open panel composition and slightly taller canvas"
+    ]
+  },
+  "semantic_validation": {
+    "content_contract_passed": true,
+    "native_only": true,
+    "exact_edges": true,
+    "required_directed_connectors": 11,
+    "object_counts": {
+      "sp": 46,
+      "cxnSp": 11
+    },
+    "embedded_pictures": 0,
+    "flattened_diagram": false,
+    "evidence": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/unseen-suite-05/asynchronous-discovery/inspect-r2.json"
+  },
+  "flow_audit": {
+    "connectors": 11,
+    "requiringRenderedReview": 0,
+    "geometryUnchecked": 0,
+    "evidence": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/unseen-suite-05/asynchronous-discovery/flow-audit-r2.json"
+  },
+  "finalizer": {
+    "package_integrity": "pass",
+    "layout": "pass",
+    "layout_findings": 0,
+    "layout_warnings": 0,
+    "font_policy": "pass",
+    "artifact_tool_import": "pass",
+    "evidence": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/unseen-suite-05/asynchronous-discovery/finalization-r2.json"
+  },
+  "visual_review": {
+    "rounds": 2,
+    "full_size": {
+      "path": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/output/unseen-suite-05/asynchronous-discovery/figure.png",
+      "dpi": 200,
+      "reviewed": true
+    },
+    "publication_width": {
+      "path": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/unseen-suite-05/asynchronous-discovery/publication-width-r2.png",
+      "dpi": 96,
+      "reviewed": true
+    },
+    "grayscale": {
+      "path": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/unseen-suite-05/asynchronous-discovery/publication-width-grayscale-r2.png",
+      "dpi": 96,
+      "reviewed": true
+    },
+    "observations": [
+      "Round 1: dispatch connector crossed Both stations occupied; corrected by moving text inside queued E and aligning connector vertically.",
+      "Round 2: labels clear of connector shafts and no text clipping observed.",
+      "A and C alone train the model at decision time. Measured B joins completed A,C,B before optional update.",
+      "Queued E traces to pending E on station 1. D has an uninterrupted lane and explicit no-global-barrier statement.",
+      "Every processing state remains identifiable from words and set headings in grayscale.",
+      "Color fills converge in grayscale; labels carry state semantics.",
+      "Automatic checks support structure only; aesthetic judgment is the visual review, not a quantitative quality score."
+    ]
+  },
+  "application_testing": {
+    "renderer": "bundled LibreOffice headless",
+    "powerpoint_opened": false,
+    "powerpoint_edit_test_performed": false,
+    "note": "Native editability supported by saved-file XML; interactive PowerPoint editing remains untested."
+  },
+  "limitations": [
+    "No physical print proof; 177.8 mm review used a 96 dpi raster and verified PDF dimensions.",
+    "Use at full 177.8 mm width; smaller column sizes have not been validated.",
+    "No empirical performance evidence, scoring rule or duration is supplied or invented."
+  ],
+  "source_evidence": {
+    "contract": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/unseen-suite-05/asynchronous-discovery/contract.json",
+    "content_plan": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/unseen-suite-05/asynchronous-discovery/content-plan.md",
+    "transfer_plan": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/unseen-suite-05/asynchronous-discovery/transfer-plan.md",
+    "builder": "/Users/odysseus/Downloads/Personal Projects/paper-figure-mcp/.build/unseen-suite-05/asynchronous-discovery/build.mjs"
+  }
+}

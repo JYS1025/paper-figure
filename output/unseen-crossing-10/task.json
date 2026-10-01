@@ -1,0 +1,15 @@
+{
+  "task": "Shared-cell reservation for two robot agents",
+  "status": "New illustrative task relative to local skill examples and previous generated samples; not an independent model run or a training-data novelty claim.",
+  "brief": "Create one editable paper figure showing how a discrete-time reservation avoids a shared-cell conflict. Two agents approach the same crossing c along perpendicular fixed paths. Agent A is assigned the first slot; B waits one step. Show the spatial crossing, its binary reservation table, and four corresponding time snapshots. All routes, states, notation, cells, labels and arrows stay native. Use one generated abstract robot asset as independently replaceable input pictures. Do not invent learned policies, measured performance or optimality claims.",
+  "graph": {"A0":[0,1],"c":[1,1],"Ag":[2,1],"B0":[1,2],"Bg":[1,0]},
+  "directedEdges": [["A0","c"],["c","Ag"],["B0","c"],["c","Bg"]],
+  "times": [0,1,2,3],
+  "states": {"A":["A0","c","Ag","Ag"],"B":["B0","B0","c","Bg"]},
+  "reservations": {"A":[0,1,0,0],"B":[0,0,1,0]},
+  "rule": "r_A(t) + r_B(t) <= 1. r_i(t) is 1 exactly when robot i occupies c. One discrete step moves to an adjacent node or waits. Agents remain at the goal after arrival.",
+  "palette": {"book":"blue-apricot","A":"blue","B":"apricot","structure":"neutral"},
+  "canvas": {"widthPx":672,"heightPx":450,"widthMm":177.8},
+  "referenceObservation": "CLIP main diagram inspected locally: consistent item identities and explicit correspondence between diagram branches and matrix axes. Adapt identity/axis discipline, not its architecture or layout.",
+  "renderChecks": ["required directed spatial and temporal edges", "reservation rows match snapshots", "no shared vertex or edge swap at any step", "native formula component styles and actual rendered sizes", "picture inventory and embedded media identity", "full-size and reduced grayscale review"]
+}

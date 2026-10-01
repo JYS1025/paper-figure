@@ -1,0 +1,14 @@
+{
+  "agent": "/root/blind_visual_verifier",
+  "context": "fork_turns=none",
+  "model_override": null,
+  "runs": 1,
+  "prompt_sha256": "6cf90f232fce3d542fe513c94d9fa4561f22c2fab9c19b4a165e68f4e648069a",
+  "images": [
+    "pair_01.png",
+    "pair_02.png",
+    "pair_03.png",
+    "pair_04.png"
+  ],
+  "answer_key_delivered": false
+}
