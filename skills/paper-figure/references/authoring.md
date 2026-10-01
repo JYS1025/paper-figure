@@ -2,7 +2,27 @@
 
 ## Runtime
 
-Use the runtime and libraries returned by `load_workspace_dependencies`; no package installation is needed in the validated environment. Set `ARTIFACT_NODE_MODULES` to the bundled Node packages and `FIGURE_PYTHON` to the bundled Python (with lxml). The example finalizer additionally needs `RUNTIME_NODE_MODULES`, `RUNTIME_NODE`, `RUNTIME_PYTHON`, and `PRESENTATIONS_SKILL_DIR`. In this project `sh run-examples.sh output/new-version` sets them. It refuses existing output files, so choose a new output directory for each run.
+Use the runtime and libraries returned by `load_workspace_dependencies`; no package installation is needed in the validated environment. For the examples below, replace the placeholder paths with the returned Node/Python paths, the installed Paper Figure skill folder and the installed Presentations skill folder containing `container_tools/artifact_tool_utils.mjs`. Run from a writable task workspace; keep final output and private build files in separate directories, and choose fresh directories for each run.
+
+The repository-root shortcuts `run-examples.sh`, `run-refined-examples.sh` and `run-feedback-examples.sh` are **repository-only and not included in the installed skill or ZIP**. Use the bundled builders directly after this one-time setup in the current shell:
+
+```sh
+FIGURE_SKILL_DIR="/absolute/path/to/installed/paper-figure"
+FIGURE_TASK_DIR="/absolute/path/to/writable/task-workspace"
+export ARTIFACT_NODE_MODULES="/absolute/path/to/bundled/node_modules"
+export FIGURE_PYTHON="/absolute/path/to/bundled/python3"
+export RUNTIME_NODE="/absolute/path/to/bundled/node"
+export RUNTIME_NODE_MODULES="$ARTIFACT_NODE_MODULES"
+export RUNTIME_PYTHON="$FIGURE_PYTHON"
+export PRESENTATIONS_SKILL_DIR="/absolute/path/to/installed/presentations"
+cd "$FIGURE_TASK_DIR"
+
+"$RUNTIME_NODE" "$FIGURE_SKILL_DIR/examples/build-examples.mjs" \
+  "$FIGURE_TASK_DIR/output/baseline-01" \
+  "$FIGURE_TASK_DIR/.build/baseline-01"
+```
+
+This runs the simple structural baseline from either a CLI-installed or extracted skill. Its builders refuse existing output files.
 
 For a new figure or substantial composition redesign, complete [the full image-model draft and transfer plan](image-first.md) before using this engine to author the PPTX. The helpers and example builders implement native reconstruction; they do not generate, inspect or enforce that earlier stage. Running an example builder alone is not the complete production workflow.
 
@@ -67,8 +87,24 @@ Before calling `connect`, decide whether its endpoint represents one item or a s
 
 In the validated runtime, raw export sometimes changed a shape's numerical ID without updating the connector endpoint reference. It also dropped an explicitly requested image crop. `pptx.py prepare` resolves actual IDs by unique names, fixes references, removes grouping locks, builds native groups, and writes verified picture names/crop metadata. Picture order is checked against declared bounds before applying crops. It only operates on newly generated candidates and refuses ambiguous matches. Never run this generation manifest over a file a person has edited. Package inspection validates the actual output independently.
 
-For richer examples use `sh run-refined-examples.sh output/new-version`. The companion builder uses native paths, editable pattern cells, feature planes, signals and a public NASA sample photo. Its figures are 672×400 px (177.8×105.8 mm). These demonstrate choices, not a required layout. The original `run-examples.sh` remains a simple structural baseline.
+For richer examples, use the same shell setup and the included builder:
 
-`examples/build-feedback-examples.mjs` revises four cases after the blind visual review: visible connector anchors, overview/detail correspondence, consistent token identities and branch-to-matrix axis flows. It uses the same runtime environment as the richer builder and takes new output and private-build directories. The repository wrapper is `sh run-feedback-examples.sh output/new-version .build/new-version`. It creates demonstration revisions; it is not a substitute for preserving an arbitrary human-edited source PPTX.
+```sh
+"$RUNTIME_NODE" "$FIGURE_SKILL_DIR/examples/build-rich-examples.mjs" \
+  "$FIGURE_TASK_DIR/output/rich-01" \
+  "$FIGURE_TASK_DIR/.build/rich-01"
+```
+
+The builder uses native paths, editable pattern cells, feature planes, signals and a public NASA sample photo. Its figures are 672×400 px (177.8×105.8 mm). These demonstrate choices, not a required layout.
+
+`examples/build-feedback-examples.mjs` revises four cases after the blind visual review: visible connector anchors, overview/detail correspondence, consistent token identities and branch-to-matrix axis flows. With the same shell setup, run:
+
+```sh
+"$RUNTIME_NODE" "$FIGURE_SKILL_DIR/examples/build-feedback-examples.mjs" \
+  "$FIGURE_TASK_DIR/output/feedback-01" \
+  "$FIGURE_TASK_DIR/.build/feedback-01"
+```
+
+It creates demonstration revisions; it is not a substitute for preserving an arbitrary human-edited source PPTX.
 
 For formulas and indices, use [editable mathematical typography](math-typography.md). `label()` styles a whole textbox; it is not a math parser and does not expose mixed-script formatting. Treat `a_ci` or `t_now` in a brief as source notation, not finished typography. Literal underscores remain appropriate for actual identifiers. Use a verified native formatting/equation path, consistent script construction and actual-output font/size checks. Advanced mathematical layout is outside this helper's tested scope; do not silently rasterize it or describe text runs as OMML.
