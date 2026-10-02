@@ -15,6 +15,10 @@ EMU=9525
 SIDE={'top':0,'left':1,'bottom':2,'right':3} # rect / roundRect / textbox
 REL='http://schemas.openxmlformats.org/officeDocument/2006/relationships'
 PACKAGE_REL='http://schemas.openxmlformats.org/package/2006/relationships'
+PRESENTATION_ORDER=('sldMasterIdLst','notesMasterIdLst','handoutMasterIdLst','sldIdLst',
+    'sldSz','notesSz','smartTags','embeddedFontLst','custShowLst','photoAlbum',
+    'custDataLst','kinsoku','defaultTextStyle','modifyVerifier','extLst')
+SCHEMA_DIR=Path(__file__).resolve().parents[1]/'assets/ooxml-xsd'
 def q(n):
     p,l=n.split(':'); return '{'+NS[p]+'}'+l
 def sub(parent,n,**attrs): return E.SubElement(parent,q(n),{k:str(v) for k,v in attrs.items()})
@@ -26,11 +30,103 @@ def load(file):
         if len(z.namelist())!=len(set(z.namelist())): raise ValueError('Duplicate ZIP entries')
         if sum(i.file_size for i in z.infolist())>200_000_000: raise ValueError('Package exceeds 200 MB limit')
         return {i.filename:z.read(i) for i in z.infolist()}
-def save(parts,file):
+def save(parts,file,canonical=False):
     file=Path(file); file.parent.mkdir(parents=True,exist_ok=True)
+    names=list(parts)
+    if canonical:
+        if '[Content_Types].xml' not in parts:raise ValueError('Missing [Content_Types].xml')
+        names=['[Content_Types].xml']+[n for n in names if n!='[Content_Types].xml' and not n.endswith('/')]
     with file.open('xb') as out:
         with zipfile.ZipFile(out,'w',zipfile.ZIP_DEFLATED) as z:
-            for n,b in parts.items(): z.writestr(n,b)
+            for n in names:z.writestr(n,parts[n])
+
+def presentation_sequence(data):
+    root=xml(data)
+    if root.tag!=q('p:presentation'):raise ValueError('Expected a Transitional presentation root')
+    order={q('p:'+n):i for i,n in enumerate(PRESENTATION_ORDER)}
+    children=[c for c in root if isinstance(c.tag,str)]
+    if any(c.tag not in order for c in children):
+        raise ValueError('Unsupported presentation child; normalization cannot reorder extensions or AlternateContent')
+    tags=[c.tag for c in children]
+    if len(tags)!=len(set(tags)):raise ValueError('Duplicate presentation child')
+    return root,children,order
+
+def normalized_parts(parts):
+    """Only change presentation child order. All other part payloads stay exact."""
+    result=parts.copy()
+    root,children,order=presentation_sequence(parts['ppt/presentation.xml'])
+    expected=sorted(children,key=lambda c:order[c.tag])
+    if children!=expected:
+        # Comments/PIs keep their slots; move only known element children.
+        slots=[i for i,c in enumerate(root) if isinstance(c.tag,str)]
+        for child in children:root.remove(child)
+        for index,child in zip(slots,expected):root.insert(index,child)
+        result['ppt/presentation.xml']=serial(root)
+    return result
+
+def normalize(source,destination):
+    original=load(source);parts=normalized_parts(original)
+    changed=[n for n in parts if parts[n]!=original[n]]
+    dropped=[n for n in parts if n.endswith('/')]
+    save(parts,destination,canonical=True)
+    return {'sourceSha256':sha(Path(source).read_bytes()),'outputSha256':sha(Path(destination).read_bytes()),
+        'changedParts':changed,'droppedDirectoryEntries':dropped,'contentTypesFirst':True,
+        'untouchedPartsByteIdentical':sum(n not in changed and n not in dropped for n in parts),
+        'powerPointOpenVerified':False}
+
+def validate_parts(parts):
+    """Offline XSD check, with explicit incomplete coverage for unrecognized XML.
+
+    This is not an OPC semantic validator or a Microsoft PowerPoint open test.
+    Microsoft extensions/Markup Compatibility are not stripped or preprocessed.
+    """
+    class LocalSchemas(E.Resolver):
+        def resolve(self,url,pubid,context):
+            target=SCHEMA_DIR/Path(urlsplit(url).path).name
+            if target.suffix!='.xsd' or not target.is_file():
+                raise OSError('Schema dependency is not bundled: '+url)
+            return self.resolve_filename(str(target),context)
+    parser=E.XMLParser(resolve_entities=False,no_network=True,load_dtd=False)
+    parser.resolvers.add(LocalSchemas())
+    files=sorted(SCHEMA_DIR.glob('*.xsd'))
+    if not files:raise ValueError('Bundled OOXML schemas are missing; reinstall this skill')
+    schemas={E.parse(str(f),parser).getroot().get('targetNamespace'):f for f in files}
+    compiled={};checked=[];unchecked=[];extensions=[];errors=[]
+    defaults={};overrides={}
+    try:
+        types=xml(parts['[Content_Types].xml'])
+        defaults={c.get('Extension','').lower():c.get('ContentType','') for c in types if isinstance(c.tag,str) and E.QName(c).localname=='Default'}
+        overrides={unquote(c.get('PartName','')).lstrip('/'):c.get('ContentType','') for c in types if isinstance(c.tag,str) and E.QName(c).localname=='Override'}
+    except (KeyError,E.XMLSyntaxError,ValueError) as error:
+        errors.append({'part':'[Content_Types].xml','message':str(error)})
+    for name,data in parts.items():
+        if name.endswith('/'):continue
+        ext=name.rsplit('.',1)[-1].lower();mime=overrides.get(name,defaults.get(ext,'')).lower()
+        if ext not in ('xml','rels','vml','svg') and not (mime.endswith('+xml') or mime in ('application/xml','text/xml')):continue
+        try:
+            root=xml(data)
+            if root.getroottree().docinfo.doctype:raise ValueError('DOCTYPE is unsupported in OOXML parts')
+            namespace=E.QName(root).namespace;schema_file=schemas.get(namespace)
+            if schema_file is None:
+                unchecked.append({'part':name,'namespace':namespace,'reason':'No bundled schema for this XML namespace'})
+                continue
+            foreign=sorted({E.QName(c).namespace or '' for c in root.iter() if isinstance(c.tag,str)}-schemas.keys())
+            if foreign:
+                extensions.append({'part':name,'namespaces':foreign,'reason':'XSD wildcards may allow extensions without validating their internals'})
+            if namespace not in compiled:compiled[namespace]=E.XMLSchema(E.parse(str(schema_file),parser))
+            schema=compiled[namespace];valid=schema.validate(root)
+            checked.append({'part':name,'schema':schema_file.name,'valid':valid})
+            if not valid:
+                errors.extend({'part':name,'line':e.line,'message':e.message} for e in schema.error_log)
+        except (E.XMLSyntaxError,E.XMLSchemaParseError,E.XMLSchemaValidateError,ValueError,OSError) as error:
+            errors.append({'part':name,'message':str(error)})
+    return {'passed':bool(checked) and not errors and not unchecked,'complete':not unchecked,
+        'checkedParts':checked,'uncheckedParts':unchecked,'unvalidatedExtensions':extensions,'errors':errors,
+        'scope':'ECMA-376 Transitional XML + OPC XSDs; no Markup Compatibility preprocessing, embedded-package recursion or PowerPoint open test',
+        'powerPointOpenVerified':False}
+
+def validate(file):
+    return {'file':str(Path(file).resolve()),'sha256':sha(Path(file).read_bytes()),**validate_parts(load(file))}
 def slides(parts):
     """Resolve displayed slide order; storage filenames are not slide numbers."""
     try:
@@ -159,11 +255,21 @@ def prepare(source,destination,manifest):
             for s in sorted(members,key=lambda s:tree.index(s)):grp.append(s)
             tree.insert(index,grp)
         parts[part]=serial(root)
-    save(parts,destination)
+    parts=normalized_parts(parts)
+    validation=validate_parts(parts)
+    if not validation['passed']:
+        details=validation['errors']+validation['uncheckedParts']
+        raise ValueError('Generated package failed XSD validation: '+json.dumps(details,ensure_ascii=False))
+    save(parts,destination,canonical=True)
 
 def inspect(file,contract=None):
     parts=load(file);pres=xml(parts['ppt/presentation.xml']);size=pres.find('p:sldSz',NS)
     result={'file':str(Path(file).resolve()),'sha256':sha(Path(file).read_bytes()),'sizePx':[int(size.get(k))/EMU for k in ['cx','cy']],'slides':[],'errors':[],'warnings':[]}
+    try:
+        _,children,order=presentation_sequence(parts['ppt/presentation.xml'])
+        if children!=sorted(children,key=lambda c:order[c.tag]):
+            result['errors'].append('ppt/presentation.xml: children violate ECMA-376 schema order; normalize to a new file')
+    except ValueError as error:result['errors'].append('ppt/presentation.xml: '+str(error))
     contracts=(contract or {}).get('slides',[]);ordered=slides(parts)
     if contract and len(contracts)!=len(ordered): result['errors'].append('contract slide count mismatch')
     for i,part in enumerate(ordered):
@@ -294,19 +400,23 @@ def main():
     p=argparse.ArgumentParser(description=__doc__);subs=p.add_subparsers(dest='cmd',required=True)
     a=subs.add_parser('prepare');a.add_argument('source');a.add_argument('output');a.add_argument('--manifest',required=True)
     a=subs.add_parser('inspect');a.add_argument('source');a.add_argument('--contract');a.add_argument('--output')
+    a=subs.add_parser('validate');a.add_argument('source');a.add_argument('--output')
+    a=subs.add_parser('normalize');a.add_argument('source');a.add_argument('output');a.add_argument('--receipt')
     a=subs.add_parser('patch');a.add_argument('source');a.add_argument('output');a.add_argument('--plan',required=True);a.add_argument('--receipt')
     args=p.parse_args()
     if args.cmd=='prepare':prepare(args.source,args.output,json.loads(Path(args.manifest).read_text()));return
-    dest=args.output if args.cmd=='inspect' else args.receipt
+    dest=args.output if args.cmd in ('inspect','validate') else args.receipt
     protected=[args.source,getattr(args,'contract',None),getattr(args,'plan',None)]
-    if args.cmd=='patch':protected.append(args.output)
+    if args.cmd in ('patch','normalize'):protected.append(args.output)
     with report_output(dest,protected) as report:
         if args.cmd=='inspect':r=inspect(args.source,json.loads(Path(args.contract).read_text()) if args.contract else None)
+        elif args.cmd=='validate':r=validate(args.source)
+        elif args.cmd=='normalize':r=normalize(args.source,args.output)
         else:r=patch(args.source,args.output,json.loads(Path(args.plan).read_text()))
         out=json.dumps(r,ensure_ascii=False,indent=2)
         if report is not None:report.write(out)
         else:print(out)
-    if args.cmd=='inspect' and not r['passed']:sys.exit(1)
+    if args.cmd in ('inspect','validate') and not r['passed']:sys.exit(1)
 if __name__=='__main__':
     try:main()
     except (ValueError,KeyError,OSError) as e:sys.exit(str(e))

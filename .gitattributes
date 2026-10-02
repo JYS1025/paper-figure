@@ -6,3 +6,5 @@
 *.pdf binary
 *.pptx binary
 *.zip binary
+# Preserve official third-party schemas byte-for-byte, including their whitespace.
+**/assets/ooxml-xsd/*.xsd -text -whitespace

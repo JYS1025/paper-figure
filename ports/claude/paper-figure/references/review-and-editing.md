@@ -24,11 +24,14 @@ LibreOffice, host preview services and PowerPoint are different renderers. If th
 
 ```
 python scripts/pptx.py inspect latest.pptx --contract contract.json --output inspect.json
+python scripts/pptx.py validate latest.pptx --output xsd.json
 ```
+
+For XML coverage, renderer limits and recovery of previously generated files, read [PPTX compatibility](pptx-compatibility.md). The validator reports unsupported XML explicitly; do not remove human-authored extensions to make it pass.
 
 Slide numbers are one-based **presentation order**, as displayed in PowerPoint, not the numbers in ZIP part filenames. Inspection and connector audits report both `slide` and the resolved `part`; contracts and generation manifests use that same displayed order. Reinspect after reordering or replacing slides.
 
-Reports must use a new path. `inspect --output` and `patch --receipt` refuse existing files, links and collisions with inputs or the revised PPTX. Receipt availability is checked before patching; a failed patch removes its newly reserved receipt. Omit the report option to print JSON to standard output.
+Reports must use a new path. `inspect/validate --output` and `patch/normalize --receipt` refuse existing files, links and collisions with inputs or the revised PPTX. Receipt availability is checked before patching; a failed patch removes its newly reserved receipt. Omit the report option to print JSON to standard output.
 
 Contracts have `slides:[{nodes:{name:exactText},edges:[[from,to]],groups:[name]}]`. Newlines in labels are significant. `exactEdges` and `nativeOnly` default to true. A contract checks only what it specifies; the author must add all scientifically essential content. Counts of native shapes alone do not prove their correctness.
 

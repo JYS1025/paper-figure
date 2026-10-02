@@ -261,13 +261,16 @@ The project records structural checks, rendered review, native-application editi
 
 | Evidence | Recorded result |
 |---|---|
-| Automated regression tests | **168 passed**, including 54 preservation cases across all three editions, four package-reference checks and two default/explicit preflight tests. |
+| Automated regression tests | **207 passed**, including 39 package/XSD cases and 54 preservation cases across all three editions. |
+| PPTX package validation (v1.2.1) | New exports normalize presentation child order and ZIP layout, then run bundled offline Transitional/OPC XSD checks before saving. Existing files have an explicit, lossless-part normalization command. |
 | Portable engine fixture checks | **33 passed** on fresh fixtures, including missing/reversed edges, stale edits, picture crops and untouched-package preservation. |
 | Complex figure replay through the Claude engine | **196 native shapes, 10 connectors, 16 groups and one independent picture** preserved in the saved PPTX. |
 | Rendered math checks on that replay | **14 regions checked** with Liberation Serif explicitly selected; no flagged omissions, unexpected fonts or undersized scripts under the selected thresholds. The initial font-substitution diagnostic is retained. |
 | All three packages | Extracted ZIPs generated fixtures and passed content, connector, reordered-slide and report-collision checks. |
 
-These results establish local engine behavior. End-to-end figure creation by Claude Code, claude.ai or Antigravity CLI agents and manual PowerPoint editing of the latest ports have not yet been verified. The recorded render path used LibreOffice → PDF → Poppler. Current regression results, integration-test scope and source/package hashes are in the [latest validation record](docs/request-only-integration-validation.json). Earlier rendering and preservation checks are recorded in the [independent-review corrections](docs/independent-review-fixes.md) and [preservation validation](docs/preservation-fixes-validation.json); the authoring engine is unchanged in this update. The [host-route validation](docs/antigravity-native-image-validation.json) and [Claude port record](docs/claude-port-validation.json) retain their original results.
+**A successful LibreOffice render does not prove that desktop PowerPoint can open a file.** A reported open failure led to a reproducible presentation XML order defect and the v1.2.1 fix. The reporter's original file and PowerPoint environment have not yet been retested; that failure's root cause remains unconfirmed. See the [compatibility fix and validation record](docs/pptx-compatibility-fix.md) and [existing-file recovery commands](skills/paper-figure/references/pptx-compatibility.md).
+
+These results establish local engine behavior. End-to-end figure creation by Claude Code, claude.ai or Antigravity CLI agents and manual PowerPoint editing of the latest ports have not yet been verified. The recorded render path used LibreOffice → PDF → Poppler. The earlier fixture/replay results above are retained from the [Claude port record](docs/claude-port-validation.json). Prior [integration checks](docs/request-only-integration-validation.json), [independent-review corrections](docs/independent-review-fixes.md), [preservation validation](docs/preservation-fixes-validation.json) and [host-route validation](docs/antigravity-native-image-validation.json) retain their original scope and dates.
 
 Advanced equation layout, complex connector rerouting and connected-group moves require an appropriate native editing path. Font availability and renderer differences can affect appearance. Review at the intended paper width; reducing the figure also reduces every label and subscript.
 

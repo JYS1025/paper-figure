@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Package Codex/Claude skills and Antigravity plugins without caches/deps."""
 import hashlib,json,shutil,zipfile,argparse
+from datetime import date
 from pathlib import Path
 from skill_package import skill_files,validate_references
 ROOT=Path(__file__).resolve().parents[1]
@@ -29,7 +30,7 @@ with zipfile.ZipFile(output) as archive:
     assert str(Path('paper-figure')/SKILL.relative_to(package_root)/'SKILL.md') in archive.namelist()
     for p in package_files:assert archive.read(str(Path('paper-figure')/p.relative_to(package_root)))==p.read_bytes()
 if edition!='codex':shutil.copy2(ROOT/f'ports/{edition}/INSTALL.txt',ROOT/f'output/paper-figure-{edition}-install.txt')
-manifest={'source':'skills/paper-figure','port':str(SKILL.relative_to(ROOT)),'date':'2026-10-01','canonicalFileHashes':{str(p.relative_to(ROOT/'skills/paper-figure')):digest(p) for p in skill_files(ROOT/'skills/paper-figure')},'portFileHashes':{str(p.relative_to(SKILL)):digest(p) for p in files},'packageFileHashes':{str(p.relative_to(package_root)):digest(p) for p in package_files},'zip':str(output.relative_to(ROOT)),'zipSha256':digest(output),'zipBytes':output.stat().st_size,'zipFiles':len(package_files),'validatedLocalLinks':references['markdownLinks'],'validatedScriptGuideReferences':references['scriptGuideReferences']}
+manifest={'source':'skills/paper-figure','port':str(SKILL.relative_to(ROOT)),'date':date.today().isoformat(),'canonicalFileHashes':{str(p.relative_to(ROOT/'skills/paper-figure')):digest(p) for p in skill_files(ROOT/'skills/paper-figure')},'portFileHashes':{str(p.relative_to(SKILL)):digest(p) for p in files},'packageFileHashes':{str(p.relative_to(package_root)):digest(p) for p in package_files},'zip':str(output.relative_to(ROOT)),'zipSha256':digest(output),'zipBytes':output.stat().st_size,'zipFiles':len(package_files),'validatedLocalLinks':references['markdownLinks'],'validatedScriptGuideReferences':references['scriptGuideReferences']}
 manifest_path=ROOT/('docs/validation/codex-package.json' if edition=='codex' else f'ports/{edition}/port-manifest.json')
 manifest_path.parent.mkdir(parents=True,exist_ok=True);manifest_path.write_text(json.dumps(manifest,indent=2)+'\n')
 print(json.dumps({k:manifest[k] for k in ['zip','zipSha256','zipBytes','zipFiles','validatedLocalLinks','validatedScriptGuideReferences']}))

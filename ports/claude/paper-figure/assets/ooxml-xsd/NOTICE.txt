@@ -1,0 +1,87 @@
+Third-party XML schemas (unmodified)
+===================================
+Source URLs and SHA-256 hashes are recorded in sources.json. The validator
+resolves imports locally; the original schema files have not been rewritten.
+These notices apply to the schemas, not to the rest of paper-figure.
+
+ECMA-376 Part 4, fifth edition (December 2016): the 26 Transitional XSDs.
+ECMA-376 Part 2, fifth edition (December 2021): the four opc-*.xsd files.
+https://ecma-international.org/publications-and-standards/standards/ecma-376/
+https://ecma-international.org/policies/by-ipr/ecma-text-copyright-policy/
+
+COPYRIGHT NOTICE
+© Ecma International
+
+By obtaining and/or copying this work, you (the licensee) agree that you have
+read, understood, and will comply with the following terms and conditions.
+This document may be copied, published and distributed to others, and certain
+derivative works of it may be prepared, copied, published, and distributed,
+in whole or in part, provided that the above copyright notice and this
+Copyright License and Disclaimer are included on all such copies and
+derivative works. The only derivative works that are permissible under this
+Copyright License and Disclaimer are:
+(i) works which incorporate all or portion of this document for the purpose
+of providing commentary or explanation (such as an annotated version of the document),
+(ii) works which incorporate all or portion of this document for the purpose
+of incorporating features that provide accessibility,
+(iii) translations of this document into languages other than English and
+into different formats and
+(iv) works by making use of this specification in standard conformant products
+by implementing (e.g. by copy and paste wholly or partly) the functionality therein.
+However, the content of this document itself may not be modified in any way,
+including by removing the copyright notice or references to Ecma International,
+except as required to translate it into languages other than English or into
+a different format.
+The official version of an Ecma International document is the English language
+version on the Ecma International website. In the event of discrepancies between
+a translated version and the official version, the official version shall govern.
+The limited permissions granted above are perpetual and will not be revoked by
+Ecma International or its successors or assigns.
+This document and the information contained herein is provided on an “AS IS”
+basis and ECMA INTERNATIONAL DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT THE USE OF THE INFORMATION
+HEREIN WILL NOT INFRINGE ANY OWNERSHIP RIGHTS OR ANY IMPLIED WARRANTIES OF
+MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
+Dublin Core: dc.xsd, dcterms.xsd and dcmitype.xsd
+https://www.dublincore.org/about/copyright/
+Portions of this software may use XML schemas Copyright © 2011 DCMI, the
+Dublin Core™ Metadata Initiative. These are licensed under the Creative
+Commons 4.0 Attribution license.
+https://www.dublincore.org/
+https://creativecommons.org/licenses/by/4.0/
+No changes have been made to these schema files.
+
+W3C: xml.xsd, XML namespace schema
+https://www.w3.org/2001/xml.xsd
+Copyright © 2001 World Wide Web Consortium.
+No changes have been made to this schema file.
+https://www.w3.org/copyright/software-license-2023/
+
+This work is being provided by the copyright holders under the following license.
+By obtaining and/or copying this work, you (the licensee) agree that you have
+read, understood, and will comply with the following terms and conditions.
+Permission to copy, modify, and distribute this work, with or without modification,
+for any purpose and without fee or royalty is hereby granted, provided that you
+include the following on ALL copies of the work or portions thereof, including
+modifications:
+* The full text of this NOTICE in a location viewable to users of the redistributed
+  or derivative work.
+* Any pre-existing intellectual property disclaimers, notices, or terms and
+  conditions. If none exist, the W3C software and document short notice should
+  be included.
+* Notice of any changes or modifications, through a copyright statement on the
+  new code or document such as "This software or document includes material
+  copied from or derived from [title and URI of the W3C document]. Copyright
+  © [$year-of-document] World Wide Web Consortium.
+  https://www.w3.org/copyright/software-license-2023/"
+THIS WORK IS PROVIDED "AS IS," AND COPYRIGHT HOLDERS MAKE NO REPRESENTATIONS
+OR WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO, WARRANTIES
+OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR THAT THE USE OF
+THE SOFTWARE OR DOCUMENT WILL NOT INFRINGE ANY THIRD PARTY PATENTS, COPYRIGHTS,
+TRADEMARKS OR OTHER RIGHTS.
+COPYRIGHT HOLDERS WILL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL OR
+CONSEQUENTIAL DAMAGES ARISING OUT OF ANY USE OF THE SOFTWARE OR DOCUMENT.
+The name and trademarks of copyright holders may NOT be used in advertising
+or publicity pertaining to the work without specific, written prior permission.
+Title to copyright in this work will at all times remain with copyright holders.

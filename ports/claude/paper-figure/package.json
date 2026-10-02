@@ -1,8 +1,10 @@
 {
   "name": "paper-figure-claude",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "private": true,
   "type": "module",
   "description": "Portable editable paper-figure engine for the Claude skill",
-  "dependencies": { "pptxgenjs": "^4.0.1" }
+  "dependencies": {
+    "pptxgenjs": "^4.0.1"
+  }
 }

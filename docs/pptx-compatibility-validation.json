@@ -1,0 +1,197 @@
+{
+  "date": "2026-10-02",
+  "portableVersion": "1.2.1",
+  "regressionTests": {
+    "passed": 207,
+    "newPackageCases": 39,
+    "editions": 3
+  },
+  "minimalReproduction": {
+    "pptxgenjs": "4.0.1",
+    "cases": [
+      {
+        "explicitAddNotes": false,
+        "rawXsdPassed": false,
+        "rawErrors": [
+          {
+            "part": "ppt/presentation.xml",
+            "line": 2,
+            "message": "Element '{http://schemas.openxmlformats.org/presentationml/2006/main}notesMasterIdLst': This element is not expected. Expected is one of ( {http://schemas.openxmlformats.org/presentationml/2006/main}sldSz, {http://schemas.openxmlformats.org/presentationml/2006/main}notesSz )."
+          }
+        ],
+        "rawDirectoryEntries": 19,
+        "normalizedXsdPassed": true,
+        "xmlPartsChecked": 20,
+        "changedParts": [
+          "ppt/presentation.xml"
+        ],
+        "otherPartPayloadsByteIdentical": true
+      },
+      {
+        "explicitAddNotes": true,
+        "rawXsdPassed": false,
+        "rawErrors": [
+          {
+            "part": "ppt/presentation.xml",
+            "line": 2,
+            "message": "Element '{http://schemas.openxmlformats.org/presentationml/2006/main}notesMasterIdLst': This element is not expected. Expected is one of ( {http://schemas.openxmlformats.org/presentationml/2006/main}sldSz, {http://schemas.openxmlformats.org/presentationml/2006/main}notesSz )."
+          }
+        ],
+        "rawDirectoryEntries": 19,
+        "normalizedXsdPassed": true,
+        "xmlPartsChecked": 20,
+        "changedParts": [
+          "ppt/presentation.xml"
+        ],
+        "otherPartPayloadsByteIdentical": true
+      }
+    ]
+  },
+  "packagedEditions": {
+    "codex": {
+      "xsdPassed": true,
+      "xmlPartsChecked": 21,
+      "uncheckedXmlParts": [],
+      "unvalidatedExtensions": [
+        {
+          "part": "ppt/presProps.xml",
+          "namespaces": [
+            "http://schemas.microsoft.com/office/powerpoint/2010/main",
+            "http://schemas.microsoft.com/office/powerpoint/2012/main"
+          ],
+          "reason": "XSD wildcards may allow extensions without validating their internals"
+        },
+        {
+          "part": "ppt/slides/slide1.xml",
+          "namespaces": [
+            "http://schemas.microsoft.com/office/drawing/2014/main",
+            "http://schemas.microsoft.com/office/powerpoint/2010/main"
+          ],
+          "reason": "XSD wildcards may allow extensions without validating their internals"
+        }
+      ],
+      "contractPassed": true,
+      "nativeObjects": {
+        "sp": 6,
+        "cxnSp": 1,
+        "grpSp": 1,
+        "pic": 1,
+        "graphicFrame": 0
+      },
+      "flow": {
+        "connectors": 1,
+        "requiringRenderedReview": 0,
+        "geometryUnchecked": 0
+      },
+      "contentTypesFirst": true,
+      "directoryEntries": 0
+    },
+    "claude": {
+      "xsdPassed": true,
+      "xmlPartsChecked": 20,
+      "uncheckedXmlParts": [],
+      "unvalidatedExtensions": [
+        {
+          "part": "ppt/theme/theme1.xml",
+          "namespaces": [
+            "http://schemas.microsoft.com/office/thememl/2012/main"
+          ],
+          "reason": "XSD wildcards may allow extensions without validating their internals"
+        },
+        {
+          "part": "ppt/notesSlides/notesSlide1.xml",
+          "namespaces": [
+            "http://schemas.microsoft.com/office/powerpoint/2010/main"
+          ],
+          "reason": "XSD wildcards may allow extensions without validating their internals"
+        },
+        {
+          "part": "ppt/notesMasters/notesMaster1.xml",
+          "namespaces": [
+            "http://schemas.microsoft.com/office/powerpoint/2010/main"
+          ],
+          "reason": "XSD wildcards may allow extensions without validating their internals"
+        }
+      ],
+      "contractPassed": true,
+      "nativeObjects": {
+        "sp": 6,
+        "cxnSp": 1,
+        "grpSp": 1,
+        "pic": 1,
+        "graphicFrame": 0
+      },
+      "flow": {
+        "connectors": 1,
+        "requiringRenderedReview": 0,
+        "geometryUnchecked": 0
+      },
+      "contentTypesFirst": true,
+      "directoryEntries": 0
+    },
+    "antigravity": {
+      "xsdPassed": true,
+      "xmlPartsChecked": 20,
+      "uncheckedXmlParts": [],
+      "unvalidatedExtensions": [
+        {
+          "part": "ppt/theme/theme1.xml",
+          "namespaces": [
+            "http://schemas.microsoft.com/office/thememl/2012/main"
+          ],
+          "reason": "XSD wildcards may allow extensions without validating their internals"
+        },
+        {
+          "part": "ppt/notesSlides/notesSlide1.xml",
+          "namespaces": [
+            "http://schemas.microsoft.com/office/powerpoint/2010/main"
+          ],
+          "reason": "XSD wildcards may allow extensions without validating their internals"
+        },
+        {
+          "part": "ppt/notesMasters/notesMaster1.xml",
+          "namespaces": [
+            "http://schemas.microsoft.com/office/powerpoint/2010/main"
+          ],
+          "reason": "XSD wildcards may allow extensions without validating their internals"
+        }
+      ],
+      "contractPassed": true,
+      "nativeObjects": {
+        "sp": 6,
+        "cxnSp": 1,
+        "grpSp": 1,
+        "pic": 1,
+        "graphicFrame": 0
+      },
+      "flow": {
+        "connectors": 1,
+        "requiringRenderedReview": 0,
+        "geometryUnchecked": 0
+      },
+      "contentTypesFirst": true,
+      "directoryEntries": 0
+    }
+  },
+  "render": {
+    "source": "fresh portable engine-smoke",
+    "renderer": "LibreOffice \u2192 PDF \u2192 Poppler",
+    "succeeded": true,
+    "visualReview": "Labels, paths, groups, arrows, math index and photo retained."
+  },
+  "powerPoint": {
+    "openVerified": false,
+    "localVersion": "16.113.3 (macOS)",
+    "limitation": "UI automation did not respond; no file-open result obtained."
+  },
+  "reportedFailure": {
+    "originalAvailableLocally": false,
+    "rootCauseConfirmed": false,
+    "pending": [
+      "PowerPoint version and OS",
+      "Exact error message",
+      "Whether normalized A or LibreOffice-re-saved B opens"
+    ]
+  },
+  "scope": "Local engine, package and schema evidence only; not an end-to-end agent workflow or desktop PowerPoint compatibility guarantee."
+}
